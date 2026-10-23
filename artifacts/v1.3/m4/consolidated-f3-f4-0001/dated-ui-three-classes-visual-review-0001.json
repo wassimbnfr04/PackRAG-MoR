@@ -1,0 +1,55 @@
+{
+  "status": "PASS_CAPTURED_CONTENT_WITH_SIGNED_METADATA_VIEWPORT_GAP_NOT_FULL_UI_ACCEPTANCE",
+  "reviewed_utc": "2026-10-12T16:33:44.735444+00:00",
+  "original_build": "build-0093",
+  "viewer": "Original1080x2316 files displayed955x2048; originals unmodified. Seven unique images reviewed, two duplicates authenticated by equal SHA256.",
+  "findings": {
+    "m4-f3-kpack-activation.png": {
+      "sha256": "f6cc0b68790018bd68ed1ddebab469015ed1db4ead7d975341ff12806df69b4b",
+      "finding": "Completed copied/verified stage domains and actual byte counts readable, registry activation complete and active synthetic identity shown. Import button partly below captured viewport; completed status capture is not live progress timing proof.",
+      "duplicate_of": null
+    },
+    "m4-f3-kpack-rejection.png": {
+      "sha256": "7a335db38c97a035055857870e5b846f5913ab443de215279d864f3ca3e7f098",
+      "finding": "Actual3byte archive rejection safely displayed; later stages absent and prior synthetic active identity retained. Old date field partly visible and obsolete label is not retained as current-form proof.",
+      "duplicate_of": null
+    },
+    "m4-f3-kpack-stages.png": {
+      "sha256": "f6cc0b68790018bd68ed1ddebab469015ed1db4ead7d975341ff12806df69b4b",
+      "finding": "Completed copied/verified stage domains and actual byte counts readable, registry activation complete and active synthetic identity shown. Import button partly below captured viewport; completed status capture is not live progress timing proof.",
+      "duplicate_of": "m4-f3-kpack-activation.png"
+    },
+    "m4-pack-overview-active.png": {
+      "sha256": "e6c9b56db7a5c7c1539c3e79958a66758581a41bd917597bc9c0ad6824c0a9e6",
+      "finding": "Two signed synthetic active identities/names wrap readably at2x/320dp. Below-fold form not claimed.",
+      "duplicate_of": null
+    },
+    "m4-pack-overview-installed.png": {
+      "sha256": "70842cb5fa828ebb1f4a12b93fe36c195eaf797ca94100e269e52ef795e9e07d",
+      "finding": "Advisory date/status and allthree size domains readable. Top of signed manifest hash offscreen; publisher/key/version outside viewport. These fields have semantic assertions but full signed-field raster acceptance remains missing.",
+      "duplicate_of": null
+    },
+    "m4-pack-overview-long-chip.png": {
+      "sha256": "a4abcede4ebe79369d7ec13ee28ed633a38d24f3aeb85703b8370e4f37186f47",
+      "finding": "Unsigned synthetic component scope explicitly visible; full long chip text wraps, HTML-like input displayed literally. No signed admission claim.",
+      "duplicate_of": null
+    },
+    "m4-pack-overview-long-fields.png": {
+      "sha256": "319df65727df5ed7afc00686e1e543c03f49053724d5946214d9ffda1c0d4f6c",
+      "finding": "Unsigned synthetic component long name/publisher with Arabic and literal markup, full key/hash, advisorydate and allsize fields readable. Component-only; does not replace signed metadata proof.",
+      "duplicate_of": null
+    },
+    "m4-pack-overview-long-name.png": {
+      "sha256": "986249f22edf4c02b74f42cf4e4a508885237b50ef843e1567f416797f2cf0a5",
+      "finding": "Unsigned component scope, name/publisher/literal markup/key/hash and advisorydate readable. Duplicate publisher PNG is byte-identical and adds no independent viewport coverage.",
+      "duplicate_of": null
+    },
+    "m4-pack-overview-long-publisher.png": {
+      "sha256": "986249f22edf4c02b74f42cf4e4a508885237b50ef843e1567f416797f2cf0a5",
+      "finding": "Unsigned component scope, name/publisher/literal markup/key/hash and advisorydate readable. Duplicate publisher PNG is byte-identical and adds no independent viewport coverage.",
+      "duplicate_of": "m4-pack-overview-long-name.png"
+    }
+  },
+  "gap": "Need targeted genuine signed publisher/key/version/full manifest hash viewport evidence; rerunning entire pack import/overview suite is unnecessary.",
+  "scope": "Dated actual GUI and explicitly unsigned component evidence remains dated. Current form-label fix excluded from this retention."
+}

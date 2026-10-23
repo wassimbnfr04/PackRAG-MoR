@@ -1,0 +1,226 @@
+{
+  "purpose": "INDEPENDENT_PRESENCE_NOT_NORMALIZATION_OR_SEMANTIC_MEANING",
+  "whitespace_points": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    28,
+    29,
+    30,
+    31,
+    32,
+    133,
+    160,
+    5760,
+    8192,
+    8193,
+    8194,
+    8195,
+    8196,
+    8197,
+    8198,
+    8199,
+    8200,
+    8201,
+    8202,
+    8232,
+    8233,
+    8239,
+    8287,
+    12288
+  ],
+  "cases": [
+    {
+      "id": "NULL",
+      "value": null,
+      "expected_nonblank": false
+    },
+    {
+      "id": "EMPTY",
+      "value": "",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U0009",
+      "value": "\t",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U000A",
+      "value": "\n",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U000B",
+      "value": "\u000b",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U000C",
+      "value": "\f",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U000D",
+      "value": "\r",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U001C",
+      "value": "\u001c",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U001D",
+      "value": "\u001d",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U001E",
+      "value": "\u001e",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U001F",
+      "value": "\u001f",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U0020",
+      "value": " ",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U0085",
+      "value": "\u0085",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U00A0",
+      "value": "\u00a0",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U1680",
+      "value": "\u1680",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2000",
+      "value": "\u2000",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2001",
+      "value": "\u2001",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2002",
+      "value": "\u2002",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2003",
+      "value": "\u2003",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2004",
+      "value": "\u2004",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2005",
+      "value": "\u2005",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2006",
+      "value": "\u2006",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2007",
+      "value": "\u2007",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2008",
+      "value": "\u2008",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2009",
+      "value": "\u2009",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U200A",
+      "value": "\u200a",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2028",
+      "value": "\u2028",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U2029",
+      "value": "\u2029",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U202F",
+      "value": "\u202f",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U205F",
+      "value": "\u205f",
+      "expected_nonblank": false
+    },
+    {
+      "id": "BLANK_U3000",
+      "value": "\u3000",
+      "expected_nonblank": false
+    },
+    {
+      "id": "ALL_WHITESPACE",
+      "value": "\t\n\u000b\f\r\u001c\u001d\u001e\u001f \u0085\u00a0\u1680\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u2028\u2029\u202f\u205f\u3000",
+      "expected_nonblank": false
+    },
+    {
+      "id": "WRAPPED_NEL",
+      "value": "\u0085label\u0085",
+      "expected_nonblank": true
+    },
+    {
+      "id": "ASCII",
+      "value": "x",
+      "expected_nonblank": true
+    },
+    {
+      "id": "ARABIC_MARK",
+      "value": "\u064b",
+      "expected_nonblank": true
+    },
+    {
+      "id": "ZERO_WIDTH_SPACE",
+      "value": "\u200b",
+      "expected_nonblank": true
+    },
+    {
+      "id": "BOM",
+      "value": "\ufeff",
+      "expected_nonblank": true
+    },
+    {
+      "id": "SUPPLEMENTARY",
+      "value": "\ud83d\ude42",
+      "expected_nonblank": true
+    }
+  ]
+}

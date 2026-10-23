@@ -1,0 +1,87 @@
+{
+  "status": "FAIL_NO_WORKFLOW_ACCEPTANCE",
+  "started_utc": "2026-10-12T20:01:56.371256+00:00",
+  "serial": "emulator-5580",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "settings",
+        "get",
+        "system",
+        "font_scale"
+      ],
+      "returncode": 0,
+      "stdout": "1.0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0112\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0112\\app-debug.apk: 1 file pushed, 0 skipped. 88.7 MB/s (74844706 bytes in 0.805s)\r\n"
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0112\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0112\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 84.6 MB/s (11754519 bytes in 0.132s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.ChatWorkflowUiTest#largeFontLifecycleFiltersAndLocalAssetPicker",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0,
+      "stdout": "INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=\r\norg.packrag.product.ChatWorkflowUiTest:\r\nINSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker\r\nINSTRUMENTATION_STATUS_CODE: 1\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stack=java.lang.AssertionError: expected:<MA-01> but was:<null>\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:77)\r\n\tat org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)\r\n\r\nINSTRUMENTATION_STATUS: stream=\r\nError in largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest):\r\njava.lang.AssertionError: expected:<MA-01> but was:<null>\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:77)\r\n\tat org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)\r\n\r\nINSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker\r\nINSTRUMENTATION_STATUS_CODE: -2\r\nINSTRUMENTATION_RESULT: stream=\r\n\r\nTime: 41.226\r\nThere was 1 failure:\r\n1) largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest)\r\njava.lang.AssertionError: expected:<MA-01> but was:<null>\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:77)\r\n\tat org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)\r\n\r\nFAILURES!!!\r\nTests run: 1,  Failures: 1\r\n\r\n\r\nINSTRUMENTATION_CODE: -1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-workflow-controls.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a",
+    "app-debug-androidTest.apk": "b777af1a52d8be4f162dd6a040dc1f103ada093dc0804b783c7618549e5134de"
+  },
+  "observed_status": {},
+  "original_sha256": {},
+  "error_type": "AssertionError",
+  "updated_utc": "2026-10-12T20:02:45.244695+00:00"
+}

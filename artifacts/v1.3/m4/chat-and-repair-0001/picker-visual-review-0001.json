@@ -1,0 +1,11 @@
+{
+  "status": "PASS_VISIBLE_PICKER_SLICE_ONLY_NOT_PARENT_OR_M4",
+  "source_execution": "artifacts/v1.3/m4/emulator-chat-workflow-0001",
+  "method": "actualPickerCancellationSignedImportAndSafeRejectionExposeObservedStages",
+  "review": {
+    "m4-f3-kpack-stages.png": "Transport21650 bytes and payload85076/85076 independently displayed; archive/signature/policy completed readable; lower stages outside viewport.",
+    "m4-f3-kpack-activation.png": "Database/index and registry activation Completed fully visible. Earlier top chat text partly outside viewport; no claim of entire screen in this frame.",
+    "m4-f3-kpack-rejection.png": "3byte invalid input, archive Failed and safe ARCHIVE_REJECTED reason visible; prior active1 pack remains visible."
+  },
+  "limits": "Parent batch failed in separate method and collector. This retains only the successful picker method with original PNGs/JSON and byte-identical product, not full batch acceptance."
+}

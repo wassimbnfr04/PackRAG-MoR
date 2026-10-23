@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-10T14:49:16.654482+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug.apk": "de8d3241978754c81e4f383e51d0a4d72358fe84734436c9ea39fa4aa4c64bfc",
+    "app-debug-androidTest.apk": "600487aa0be536d806070f26f904b2e115964e32300e8ce4c421fb134385507d"
+  },
+  "saved_sha256": {
+    "m4-ui-query-controls.json": "ad1714dd8c9a3b8b316fb92ad296096b0d0abccd51c9f67e0749e9260a6499ad",
+    "m3-pack-management-ui.json": "d8f0f537ff948fd4e4c92a829ee093705366c22f1f17e7ee466db668e1be530e"
+  },
+  "formatted_primary_parsed_equal": [
+    "m4-ui-query-controls.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-ui-query-controls.json"
+      ],
+      "started_at": "2026-10-10T14:49:16.387113+00:00",
+      "ended_at": "2026-10-10T14:49:16.522234+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-pack-management-ui.json"
+      ],
+      "started_at": "2026-10-10T14:49:16.522234+00:00",
+      "ended_at": "2026-10-10T14:49:16.641938+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

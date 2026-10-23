@@ -1,0 +1,19 @@
+{
+  "status": "BOUNDED_READ_ONLY_ROOT_INSPECTION_NOT_CLEANUP_OR_F2_ACCEPTANCE",
+  "started_utc": "2026-10-11T21:25:57.897364+00:00",
+  "finished_utc": "2026-10-11T21:25:58.282790+00:00",
+  "failed_original_sha256": "5f03a42ac3d38753e1fac4b9382bdbc12cd9aa2692f383e2d434b4051e58e7e7",
+  "command": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "shell",
+      "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; target=files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; if test -L \"$target\"; then echo UNSAFE_TARGET_SYMLINK; exit 91; fi; if test ! -e \"$target\"; then echo KNOWN_INTERRUPTED_ROOT_ABSENT; exit 0; fi; test -d \"$target\"; echo KNOWN_INTERRUPTED_ROOT_PRESENT; readlink -f \"$target\"; ls -A \"$target\"'"
+    ],
+    "returncode": 0,
+    "stdout": "KNOWN_INTERRUPTED_ROOT_PRESENT\n/data/user/0/org.packrag.product/files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353\nmodels\nregistry\n",
+    "stderr": ""
+  },
+  "scope": "Only recorded failed test root top-level type/resolved path/immediate names; no child traversal/read/hash/delete, no owner root/registry/model writes. Current restart test has a different private UUID root and remains running. No radio/UI change."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "atomic-format-control",
+  "raw": "What are the safety requirements for BUNDLE-X9? Answer in one factual paragraph; cite the sources used.",
+  "as_of": "2026-10-09",
+  "jurisdiction": "MA",
+  "expected_pool": [
+    "de4007485c3423ff37bcb693",
+    "191a8da23f0fd6086da0f31f",
+    "4363e8b9e2be6e5e2dfe71a7",
+    "6df516db7affc2913b8d3a29",
+    "2e2153a45f4da98b6cf1ab76"
+  ],
+  "expected_selected": [
+    "de4007485c3423ff37bcb693",
+    "191a8da23f0fd6086da0f31f",
+    "4363e8b9e2be6e5e2dfe71a7",
+    "2e2153a45f4da98b6cf1ab76"
+  ],
+  "expected_admission": "READY",
+  "expected_state": "ANSWER_ACCEPTED",
+  "scope": "POST_OBSERVATION_FORMAT_CONTROL_NOT_HELDOUT_GOLD",
+  "original_corpus_sha256": "e4478d775ead16501dbc626bc1c451f4157d79cb8e8decced2bc3f0f5495a75d",
+  "diagnostic_sha256": "515871123e6792bce284a833595a03780b398ca98c8caa81c9b6ace825ec010f",
+  "script_sha256": "fe96472330c4cd552eaaf3dac092273b241f66f8b39d371c6816aadaaae59cea",
+  "pack_sha256": "4c4915ecd4ee89162e3bd6430b459f8fc5c022a79d42e711ffe962892b4e13cb"
+}

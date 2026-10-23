@@ -1,0 +1,29 @@
+{
+  "status": "FAIL",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0028",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-selection-full-0001",
+        "--class-name",
+        "org.packrag.product.SelectionDeviceTest,org.packrag.product.SourceTextDeviceTest,org.packrag.product.RepresentationDeviceTest,org.packrag.product.RelevanceDeviceTest,org.packrag.product.ConflictDeviceTest,org.packrag.product.ConflictRuntimeDeviceTest,org.packrag.product.SourceMetadataDeviceTest,org.packrag.product.ValidityDeviceTest,org.packrag.product.QueryIdentifierDeviceTest,org.packrag.product.QueryIdentifierRuntimeDeviceTest,org.packrag.product.QueryUnicodeDeviceTest,org.packrag.product.GeneratorCancellationTest,org.packrag.product.ProductRuntimeSmokeTest,org.packrag.product.GeneratorPromptParityTest,org.packrag.product.PackRetrievalParityTest,org.packrag.product.DataTypeDeviceTest,org.packrag.product.ExtensionNameDeviceTest,org.packrag.product.ValidationOrderDeviceTest,org.packrag.product.ResidualSecurityDeviceTest,org.packrag.product.StrictManifestDeviceTest,org.packrag.product.StrictDatabaseDeviceTest,org.packrag.product.StrictArchiveDeviceTest,org.packrag.product.ExplicitLifecycleDeviceTest,org.packrag.product.AtomicRegistryDeviceTest,org.packrag.product.RegistryProcessDeathDeviceTest,org.packrag.product.PackImportConsentTest",
+        "--result-file",
+        "m4-selection-runtime.json",
+        "--timeout",
+        "4500"
+      ],
+      "started_utc": "2026-10-09T21:52:01.614778+00:00",
+      "returncode": 1,
+      "finished_utc": "2026-10-09T21:52:51.250857+00:00"
+    }
+  ]
+}

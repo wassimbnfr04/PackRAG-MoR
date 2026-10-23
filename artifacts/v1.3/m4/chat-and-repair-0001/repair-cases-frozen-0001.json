@@ -1,0 +1,171 @@
+{
+  "status": "FROZEN_BEFORE_FIRST_MODEL_INFERENCE_NOT_HUMAN_GOLD_OR_PACKBENCH",
+  "frozen_utc": "2026-10-12T18:03:42.625745+00:00",
+  "document_sha256": "9af185e58fd2ce1cdc8418ef0790bca31cb3d08432ee1f5673a0933eddd23508",
+  "policy": "Retain all outputs/failures; no changes to accepted questions, evidence wording, retrieval thresholds or generation settings based on these results. Lexical checks are screening only; ordered steps/unsupported claims require recorded manual evidence comparison.",
+  "cases": [
+    {
+      "id": "FAN_FULL_GUIDE",
+      "question": "My Framework Laptop 12 fan is dirty and noisy. How do I remove, clean, and reinstall it? Give an ordered guide including preparation and reassembly.",
+      "expected_state": "ANSWER_ACCEPTED",
+      "required_concepts": [
+        "unplug",
+        "shut",
+        "eight",
+        "T5",
+        "connector",
+        "two",
+        "brush",
+        "cover"
+      ],
+      "unsupported_concepts": [
+        "battery disconnect",
+        "disconnect the battery"
+      ],
+      "as_of": "2026-10-12",
+      "manual_review_required": true
+    },
+    {
+      "id": "FAN_PARAPHRASE",
+      "question": "I have a Framework Laptop 12 with a dusty cooling fan. Walk me through cleaning it and putting the machine back together.",
+      "expected_state": "ANSWER_ACCEPTED",
+      "required_concepts": [
+        "unplug",
+        "shut",
+        "T5",
+        "connector",
+        "brush",
+        "cover"
+      ],
+      "unsupported_concepts": [
+        "disconnect the battery"
+      ],
+      "as_of": "2026-10-12",
+      "manual_review_required": true
+    },
+    {
+      "id": "FAN_SAFE_START",
+      "question": "Can I clean the Framework Laptop 12 fan while it is suspended with the charger plugged in? Explain how I should start instead.",
+      "expected_state": "ANSWER_ACCEPTED",
+      "required_concepts": [
+        "unplug",
+        "shut"
+      ],
+      "unsupported_concepts": [
+        "leave it suspended"
+      ],
+      "as_of": "2026-10-12",
+      "manual_review_required": true
+    },
+    {
+      "id": "FAN_CONNECTOR",
+      "question": "How should I remove and reconnect the Framework Laptop 12 fan connector without damaging its socket?",
+      "expected_state": "ANSWER_ACCEPTED",
+      "required_concepts": [
+        "connector",
+        "gentl"
+      ],
+      "unsupported_concepts": [
+        "pull hard"
+      ],
+      "as_of": "2026-10-12",
+      "manual_review_required": true
+    },
+    {
+      "id": "FAN_CLEANING_TOOLS",
+      "question": "Which cleaning tools does the Framework Laptop 12 fan procedure specify for the blades, exhaust fins and dust?",
+      "expected_state": "ANSWER_ACCEPTED",
+      "required_concepts": [
+        "brush",
+        "blower"
+      ],
+      "unsupported_concepts": [
+        "water",
+        "alcohol"
+      ],
+      "as_of": "2026-10-12",
+      "manual_review_required": true
+    },
+    {
+      "id": "TUBE_FULL_GUIDE",
+      "question": "My bicycle has a flat inner tube on the illustrated quick-release wheel with a caliper brake. How do I remove and replace the tube? Give the guide in order.",
+      "expected_state": "ANSWER_ACCEPTED",
+      "required_concepts": [
+        "release",
+        "brake",
+        "deflat",
+        "lever",
+        "valve",
+        "debris",
+        "inflate"
+      ],
+      "unsupported_concepts": [],
+      "as_of": "2026-10-12",
+      "manual_review_required": true
+    },
+    {
+      "id": "TUBE_PARAPHRASE",
+      "question": "How do I get the punctured tube out of my bike tire using plastic levers, then fit the new tube and seat the tire?",
+      "expected_state": "ANSWER_ACCEPTED",
+      "required_concepts": [
+        "deflat",
+        "lever",
+        "valve",
+        "bead"
+      ],
+      "unsupported_concepts": [],
+      "as_of": "2026-10-12",
+      "manual_review_required": true
+    },
+    {
+      "id": "TUBE_REASSEMBLY",
+      "question": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "expected_state": "ANSWER_ACCEPTED",
+      "required_concepts": [
+        "debris",
+        "valve",
+        "bead",
+        "slow"
+      ],
+      "unsupported_concepts": [],
+      "as_of": "2026-10-12",
+      "manual_review_required": true
+    },
+    {
+      "id": "FAN_UNDOCUMENTED_TORQUE",
+      "question": "What exact torque in newton metres should I apply to the Framework Laptop 12 fan screws?",
+      "expected_state": "INSUFFICIENT_EVIDENCE",
+      "required_concepts": [],
+      "unsupported_concepts": [],
+      "as_of": "2026-10-12",
+      "manual_review_required": false
+    },
+    {
+      "id": "TUBE_UNDOCUMENTED_PRESSURE",
+      "question": "What exact PSI should I inflate this bicycle inner tube to?",
+      "expected_state": "INSUFFICIENT_EVIDENCE",
+      "required_concepts": [],
+      "unsupported_concepts": [],
+      "as_of": "2026-10-12",
+      "manual_review_required": false
+    },
+    {
+      "id": "WRONG_LAPTOP_MODEL",
+      "question": "How do I repair the fan on a Framework Laptop 13?",
+      "expected_state": "NO_RELEVANT_EVIDENCE",
+      "required_concepts": [],
+      "unsupported_concepts": [],
+      "as_of": "2026-10-12",
+      "manual_review_required": false
+    },
+    {
+      "id": "UNRELATED_WIFI",
+      "question": "What is the password for my wireless router?",
+      "expected_state": "NO_RELEVANT_EVIDENCE",
+      "required_concepts": [],
+      "unsupported_concepts": [],
+      "as_of": "2026-10-12",
+      "manual_review_required": false
+    }
+  ]
+}

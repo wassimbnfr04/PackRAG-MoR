@@ -1,0 +1,144 @@
+{
+  "status": "PASS_EXECUTION_ORIGINAL_FINAL_AND_VISUAL_REVIEW_REQUIRED",
+  "environment": "PHYSICAL_ARM64",
+  "observations": [
+    {
+      "id": "before-import",
+      "actual": "NO_ACTIVE_PACK",
+      "final_text": null,
+      "emitted_tokens": 0,
+      "prefill_tokens": 0,
+      "result_id": "25d37551-9fe5-4bc2-846a-a6d0d0c2385e"
+    },
+    {
+      "id": "verified-pack-complete-guide",
+      "actual": "ANSWER_ACCEPTED",
+      "final_text": "1. Framework Laptop 12 fan cleaning or replacement procedure. Unplug the laptop and shut it down through the operating system; do not leave it suspended. Confirm the edge LEDs are off and the laptop is silent. Use a T5 Torx bit. Place the laptop face-down and loosen all eight captive bottom screws. Turn it face-up and open the lid flat. Lift the Input Cover at the hinge cutouts; magnets resist slightly. If excessive force is needed, check every bottom screw. Gently work the fan connector edges loose with the flat screwdriver end, then slide the connector out. Loosen the two captive T5 screws securing the fan and lift the fan out. Clean blades and exhaust fins with a soft-bristled brush or clean toothbrush, then remove dust with a dust blower. Seat the cleaned or replacement fan, secure its two screws, and gently reconnect its plug; do not force the socket. Insert the Input Cover bottom edge into the base tabs, lower the top until its magnets engage, and check every corner sits flush. Close the lid, turn the laptop face-down and tighten the eight bottom screws. [S1]",
+      "emitted_tokens": 828,
+      "prefill_tokens": 928,
+      "reasoning_tokens": 583,
+      "result_id": "45d05656-1834-4a02-bb88-152ff41c5cf8"
+    },
+    {
+      "id": "after-deactivation",
+      "actual": "NO_ACTIVE_PACK",
+      "final_text": null,
+      "emitted_tokens": 0,
+      "prefill_tokens": 0,
+      "result_id": "80847211-ff2c-4b7f-b4c8-2a0c7aed0fca"
+    }
+  ],
+  "visual_png": {
+    "m4-quoted-guide-answer.png": {
+      "sha256": "bc993b0145f295debeadb998ea038f5163dc71dab4228fd2a3dfe6e69312f681",
+      "bytes": 230173,
+      "width": 1080,
+      "height": 2316,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "8b84a0f4ae6cc75eb52461061fc2cbe4bd2f6c297234abd1b1056cd519d7ae6f",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-quoted-guide-source.png": {
+      "sha256": "aecb2eb17e87a79a0440258ca233b5bac63b48f56ab2a8153ca21c1bfdb63eb0",
+      "bytes": 340620,
+      "width": 1080,
+      "height": 2316,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "f303ce009ad40480e61b2760d22a681a0aad25a10fb92eff4f047e48157a9ab1",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-quoted-guide-diagnostic-tokens.png": {
+      "sha256": "f3add1866af2af258a27f540241c3b38b4948cb6a593ce015cf12f9ec9a563ae",
+      "bytes": 200621,
+      "width": 1080,
+      "height": 2316,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "26d8a63891bc31e1571e2a6024464f9d35f342f507d9beb99a234d811a72d9c7",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-quoted-guide-diagnostic-policy.png": {
+      "sha256": "c66cd37d3bee82bf21b5ced50898807133c6bff004acc0eaaec8337078e4c968",
+      "bytes": 225623,
+      "width": 1080,
+      "height": 2316,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "e41040a7c597e5fc86ff2c002ba3a22e9b8a33650f5aaf5a75584e6a504ab75f",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    }
+  },
+  "owner_sha256_before": {
+    "m4-repair-fixture-0001.kpack": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359",
+    "models\/LFM2.5-2.6B-QAD-Q4_0.gguf": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "models\/chat_template.jinja": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/chat_template.jinja.part-private-assets-0004": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/granite\/onnx\/model.onnx": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "models\/granite\/onnx\/model.onnx.part": "7e3331bc72f89056c6af5c2abad23193bf882a26765c50f4cb33cc769a5b583a",
+    "models\/granite\/tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/registry.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packs\/registry.sqlite": "cf140bbf898aea7eb194406fa440e916cd2d746bb77b222a7c447f3f0e28ed10",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "production-registry\/registry.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "production-registry\/registry.sqlite": "4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c"
+  },
+  "raw_reasoning_persisted": false,
+  "scope": "One actual primary-app repair guide and captured result navigation; not controlled performance or held-out accuracy"
+}

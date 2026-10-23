@@ -1,0 +1,130 @@
+{
+  "status": "PREPARED_NEW_BINDINGS_NOT_REPAIRED_ACCEPTANCE",
+  "derivations": [
+    {
+      "original": "preflight.py",
+      "target": "preflight_repaired.py",
+      "original_sha256": "1a1001a1ab46f69f43f49a1923b2383c12d04586569d3e13247c3c331dee92a1",
+      "new_sha256": "1e16b627230a443d86fbef8da23f48bf84d708eea7968763d1b6f365d3ec89be",
+      "replacements": [
+        [
+          "build-0039",
+          "build-0041"
+        ],
+        [
+          "build-0040",
+          "build-0042"
+        ],
+        [
+          "prefix='pair' if args.pair else 'debug'",
+          "prefix='repaired-pair' if args.pair else 'repaired-debug'"
+        ]
+      ]
+    },
+    {
+      "original": "run_ui.py",
+      "target": "run_ui_repaired.py",
+      "original_sha256": "ff381295fc8096b5bb976ef9954af884cda2b3b2b14efcf55f1fe02f253c721a",
+      "new_sha256": "c25483515b4b77e912fd4987e82ece30bbadd1fb8e7f32af2a238437eedf8190",
+      "replacements": [
+        [
+          "build-0039",
+          "build-0041"
+        ],
+        [
+          "'pair-preflight.json'",
+          "'repaired-pair-preflight.json'"
+        ],
+        [
+          "device-ui-source-details-0001",
+          "device-ui-source-details-0002"
+        ],
+        [
+          "'ui-execution.json'",
+          "'ui-execution-repaired.json'"
+        ],
+        [
+          "f'ui-stage-",
+          "f'ui-repaired-stage-"
+        ]
+      ]
+    },
+    {
+      "original": "run_full_phone.py",
+      "target": "run_full_phone_repaired.py",
+      "original_sha256": "475009010b606180f1d88ec2d164249e21dd1e0ed1e6005c00b83369e0bf88f4",
+      "new_sha256": "4632f08a732dfee0f9b55ca71b19764c72a27dc8fe4971876704489b8d3a6107",
+      "replacements": [
+        [
+          "build-0039",
+          "build-0041"
+        ],
+        [
+          "build-0040",
+          "build-0042"
+        ],
+        [
+          "'ui-execution.json'",
+          "'ui-execution-repaired.json'"
+        ],
+        [
+          "'visual-inspection.json'",
+          "'visual-inspection-repaired.json'"
+        ]
+      ]
+    },
+    {
+      "original": "verify_retained.py",
+      "target": "verify_retained_repaired.py",
+      "original_sha256": "1734774e4a67e078366652b7f80f0e9010129940cbbedb7233587ca68d818e9b",
+      "new_sha256": "7022585a70df7f063778e988e9703b71b0b8e3cbca3d210620f4dccddcbab12e",
+      "replacements": [
+        [
+          "build-0039",
+          "build-0041"
+        ],
+        [
+          "build-0040",
+          "build-0042"
+        ]
+      ]
+    },
+    {
+      "original": "verify_and_record.py",
+      "target": "verify_and_record_repaired.py",
+      "original_sha256": "c5b800ef98a5308c054cb3ce70702f247883e0bf4bb93bcc4d661e9a440e2d49",
+      "new_sha256": "112d1687efe4dbc2b10d617770dccfe7cdd7b81c4bfa68bfea616fd900ae56c5",
+      "replacements": [
+        [
+          "build-0039",
+          "build-0041"
+        ],
+        [
+          "build-0040",
+          "build-0042"
+        ],
+        [
+          "'ui-execution.json'",
+          "'ui-execution-repaired.json'"
+        ],
+        [
+          "'visual-inspection.json'",
+          "'visual-inspection-repaired.json'"
+        ],
+        [
+          "'pair-preflight.json'",
+          "'repaired-pair-preflight.json'"
+        ],
+        [
+          "'verify_retained.py'",
+          "'verify_retained_repaired.py'"
+        ],
+        [
+          "device-ui-source-details-0001",
+          "device-ui-source-details-0002"
+        ]
+      ]
+    }
+  ],
+  "scope": "Two changed Android UI layout sources require fresh host/APK/UI/full-development/full-policy/restoration. Python188/six desktop inputs unchanged; verify before bounded reuse."
+}

@@ -1,0 +1,131 @@
+{
+  "id": "TOP_UNCAL_LOWER_PASS",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "result": {
+    "state": "NO_RELEVANT_EVIDENCE",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature?",
+      "as_of": "2026-10-09",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.c-uncal",
+        "1.0.0",
+        "0cb89d0f11078175611a1aedc476c21a2c53db4aa4e646bba881eba1d83fb47f"
+      ],
+      [
+        "org.packrag.contract.d-lenient",
+        "1.0.0",
+        "ffcf6c4e13ac75df004d3e7758f96fbc5d6a3cbbd1007dd320d5b1af711c93fa"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 8.182399999896006,
+      "retrieval_ms": 1.131300000452029,
+      "end_to_end_ms": 9.456000000682252
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.c-uncal",
+        "chunk_id": "a85d9a67e3312e2ca689b595",
+        "exact": false,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.912001371383667,
+        "rrf": 0.03278688524590164,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.contract.c-uncal",
+            "1.0.0",
+            "0cb89d0f11078175611a1aedc476c21a2c53db4aa4e646bba881eba1d83fb47f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:504d35b0e52440f19bfde5ea0ff1e607658dfa487818d50adbae4b36bf5cc7c6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.d-lenient",
+        "chunk_id": "1244a619d991a49215a917e4",
+        "exact": false,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.912001371383667,
+        "rrf": 0.03278688524590164,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.contract.d-lenient",
+            "1.0.0",
+            "ffcf6c4e13ac75df004d3e7758f96fbc5d6a3cbbd1007dd320d5b1af711c93fa"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:504d35b0e52440f19bfde5ea0ff1e607658dfa487818d50adbae4b36bf5cc7c6",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  },
+  "generate_calls_for_case": 0,
+  "diagnostic_final_candidate_not_product_answer": null
+}

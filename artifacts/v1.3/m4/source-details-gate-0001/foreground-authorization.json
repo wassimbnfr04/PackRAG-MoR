@@ -1,0 +1,7 @@
+{
+  "status": "OWNER_AUTHORIZED_PREPARED_E2_FOREGROUND_UI",
+  "recorded_utc": "2026-10-10T16:54:18Z",
+  "owner_reply": "GO AHEAD ILL LEAVE THE PHONE UNTOUCHED",
+  "scope": "Prepared source-details/query-controls/management foreground test; mobile data stays on; isolated test registries; preserve owner models and default registries.",
+  "requires_no_further_confirmation": true
+}

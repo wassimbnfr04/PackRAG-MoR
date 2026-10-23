@@ -1,0 +1,18 @@
+{
+  "status": "M2_VERIFIED_BOUNDED_VERTICAL_SLICE",
+  "recorded_utc": "2026-10-05T17:20:20.877776+00:00",
+  "historical_checked": 587,
+  "historical_unchanged": true,
+  "gate_sha256": {
+    "device-embedding-0004/m2-embedding-parity.json": "40d176088f36012eadaf22d1a08a7d36e0956c927d04e5e790fc03d089244203",
+    "device-retrieval-0001/m2-pack-retrieval-parity.json": "cb129dfbfe25e38f0547cecca4466e3245b57ddb9bd9ec09e07aa0403603d08b",
+    "device-generator-prompt-0001/m2-generator-prompt-parity.json": "66f6a79ee1fa4a84519e87b1c999891ab9ae7d1fc979b5be352dc76186bc5d62",
+    "device-e2e-0001/m2-product-e2e.json": "51e4edeaae249654a628312dcd5c52d9f77df111101e53a3070ec43abbc31306",
+    "device-cancellation-0001/m2-generator-cancellation.json": "52b8a6c4597e7758827daa2dfae06a24b90c0d06d3d75c0482cf247485055fc5",
+    "device-ui-0002/m2-ui-e2e.json": "1bd289322c65d3f14f717ae997891b46cacaa3f7eab73d95cec8c76b2aef5ea8",
+    "run-0001/result-manifest.json": "a627cde6759fcff3e5b3995bab88284fe965f5927fa20fe5d1f54167a1ee9a5f",
+    "smoke-0001/smoke-results.json": "f3d85daa436e3c0590da28e9237b10a14b7a1834b4658253092876ff2d4e2713"
+  },
+  "build0012_native_sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef",
+  "limits": "Not production security/lifecycle, release packs, calibration, PackBench, performance or final physical acceptance. Full14 runtime cases executed build0009; cancellation recovery build0011; UI actual inference build0012."
+}

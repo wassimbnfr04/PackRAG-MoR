@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.product.DiagnosticPresentationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-10T19:21:22.087Z" hostname="RAZER" time="0.101">
+  <properties/>
+  <testcase name="returnedEmptyIsNotMissingAndHiddenFirstTokenIsLabelled" classname="org.packrag.product.DiagnosticPresentationTest" time="0.081"/>
+  <testcase name="coldWarmAndPreviouslyLoadedNoPackKeepSessionScopeAndUnknownPartitions" classname="org.packrag.product.DiagnosticPresentationTest" time="0.013"/>
+  <testcase name="timingKeepsMeasuredZeroAndUsesExplicitUnitsIndependentOfLocale" classname="org.packrag.product.DiagnosticPresentationTest" time="0.001"/>
+  <testcase name="missingAndInvalidNumbersCannotBecomeZeroOrThroughput" classname="org.packrag.product.DiagnosticPresentationTest" time="0.004"/>
+  <testcase name="actualSelectionMembershipAndLastRecordedDecisionRemainSeparate" classname="org.packrag.product.DiagnosticPresentationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

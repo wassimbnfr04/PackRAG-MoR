@@ -1,0 +1,88 @@
+{
+  "status": "PREPARED_VALIDATED_NOT_APPLIED_OR_ACCEPTED",
+  "files": {
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticLifecycleDeviceTest.kt": {
+      "original_sha256": "78f55777da69fff61ff6943d103276687b8bcf2308d083659de051ac31d76eb0",
+      "proposed_sha256": "cb3fd5cc7a21180c56d80ae8efc3396333f70f3da8be6fe241e02c2ad48ce823",
+      "old_guard_case_ids": [
+        "owner-default-registries-and-models-byte-identical-within-run"
+      ],
+      "proposed_case_id": "explicit-fifty-owner-public-files-unchanged"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt": {
+      "original_sha256": "2cb3ee9ea4bef3714ed3b6f55336b104840d2c09e96ccf71001378ae9f5161f7",
+      "proposed_sha256": "571cf1ca4215d2aa0de16c73ab19dae0f9393ba92a732253af5cb49081ab3916",
+      "old_guard_case_ids": [
+        "owner-models-and-default-registries-unchanged"
+      ],
+      "proposed_case_id": "explicit-fifty-owner-public-files-unchanged"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticPolicyDeviceTest.kt": {
+      "original_sha256": "0d6ffe9c6d0a20aa8ae8d6a5d23777492da94a346406dc6e30af9b78fffac8a8",
+      "proposed_sha256": "bfd8ee0c836f56b39556933debfe54e66950becf9d29dc04bbbca0103aa86be4",
+      "old_guard_case_ids": [
+        "owner-default-registries-models-and-signed-payloads-byte-identical"
+      ],
+      "proposed_case_id": "explicit-fifty-owner-public-files-unchanged"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticNavigationUiTest.kt": {
+      "original_sha256": "1dfe3f002046e72e7642be0dc80c747edbcd3aebd0af8544710732aabc100163",
+      "proposed_sha256": "b186bb7fa3d8532454ee71cc7d9dc441d1d047f9bd6599a66e229243da200396",
+      "old_guard_case_ids": [
+        "owner-default-registries-models-and-payloads-byte-identical-within-run"
+      ],
+      "proposed_case_id": "explicit-fifty-owner-public-files-unchanged"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsViewModelTest.kt": {
+      "original_sha256": "08f9e5dec92baa2c89f2d95056949303c31a707a167c2f8542d6ee0df50fe3e8",
+      "proposed_sha256": "78450df8282c74993ae6f9a83c154ee8f9679eb8c1ccf23085545b1e31dad7f9",
+      "old_guard_case_ids": [
+        "owner-models-and-default-registries-unchanged"
+      ],
+      "proposed_case_id": "explicit-fifty-owner-public-files-unchanged"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt": {
+      "original_sha256": "e13302a95f8363e3b8694042587a2ee6a82360bf3b28199b4ffc4ab54e857fc9",
+      "proposed_sha256": "69f8ae112de07610a0d41c54ca10cb87c9ad1e218894fe26a9d21c167c04406f",
+      "old_guard_case_ids": [
+        "owner-model-and-default-registry-hashes-unchanged"
+      ],
+      "proposed_case_id": "explicit-fifty-owner-public-files-unchanged"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsDeviceTest.kt": {
+      "original_sha256": "494d212b75f52f6e38ea708e5567a66f206119cfc75cd27843b12eaf7282a7f7",
+      "proposed_sha256": "63d6d00f3ee0d3145b7934c35debea5316b88526fd2a472415a6b3628601013b",
+      "old_guard_case_ids": [],
+      "proposed_case_id": null
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt": {
+      "original_sha256": "ae70ee36db587b8cc0d50d87d7628d8f029964f817aa25e91becde4382f2eb49",
+      "proposed_sha256": "4a4b432827caa0b92fa9b120508e399af815044877dbcda66fb43ada2e52f1af",
+      "old_guard_case_ids": [
+        "owner-default-registries-and-model-hashes-unchanged"
+      ],
+      "proposed_case_id": "explicit-fifty-owner-public-files-unchanged"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt": {
+      "original_sha256": "b03b3e3d4ede5a1de4e0e6942a80f40358f9618b835898eace823b3c4ebb4236",
+      "proposed_sha256": "4e271445d51a90c08a72b9606ed99ad1ef67c8226358b4356619bb04fa1afffc",
+      "old_guard_case_ids": [
+        "owner-default-registry-all-file-hashes-unchanged"
+      ],
+      "proposed_case_id": "explicit-fifty-owner-public-files-unchanged"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetReadinessDeviceTest.kt": {
+      "original_sha256": "0e317fd5d28a28bcf83886dbff01f480446e7d8200c8bc3a272d4eb97b08e6f6",
+      "proposed_sha256": "4854151977c636931a5cd0c72c6154dd62c3530feaffdccc4b8df62e874521e2",
+      "old_guard_case_ids": [],
+      "proposed_case_id": null
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetsUiTest.kt": {
+      "original_sha256": "7d1d14c06621a93f7858955b90acc3f723bc0d88624dd3db184704aa507f7377",
+      "proposed_sha256": "67b6e17877e69e2d4c41c86accba10ad38e2dcc8b049e6a3f2f741262f5f89fe",
+      "old_guard_case_ids": [],
+      "proposed_case_id": null
+    }
+  },
+  "scope": "Eleven test-only guard proposals replace owner-directory enumeration with existing no-follow exact50 public baseline. All functional controls remain; only guard output scope/case descriptions updated. DiagnosticPolicy two isolated-owned payload walks retained. Historical source snapshots/results unchanged. Do not apply until separate actual picker visual gate passes independent review, then fresh matched builds/host/contracts/adjacent physical regressions required. No active Android/test input modified."
+}

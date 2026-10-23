@@ -1,0 +1,5 @@
+{
+  "phase": "INITIAL_STATE",
+  "message": "Ready. Developer pack mode.",
+  "packs": "org.packrag.development.walking-skeleton@0.1.0"
+}

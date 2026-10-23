@@ -1,0 +1,69 @@
+{
+  "status": "PASS_F2_FRESH_FOREGROUND_ADJACENT_CONTRACTS_VISUAL_REVIEW_PENDING_NOT_FULL_F2",
+  "started_utc": "2026-10-11T21:02:38.130298+00:00",
+  "runner_sha256": "e60e698cc64a25a784a54a037580b72cf4c98b6243e3a05e369feea714c0450f",
+  "build": "build-0076",
+  "run": "device-local-asset-adjacent-ui-0001-query",
+  "selection": "query",
+  "foreground_authorized": true,
+  "background_sha256": "fc56067a25c92e1f3d86326fae6fb7fa1c630057d278bc9d6febcd1dbc6a0aa7",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-ui-0001-query",
+        "--class-name",
+        "org.packrag.product.QueryControlsUiTest",
+        "--result-file",
+        "m4-ui-query-controls.json",
+        "--timeout",
+        "1800",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-ui-0001-query",
+        "--files",
+        "m4-ui-query-controls.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-adjacent-ui-0001-query-after-known.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "resubmission_observation_sha256": "91a4c7fc0885db1cb7da320a96c0714023b1258f9e8c7614ed6af86059b484e5",
+  "methods": 1,
+  "controls": 5,
+  "original_sha256": {
+    "m4-ui-query-controls.json": "32c460c6b02d0791d41289b61c96b6e63d88c612b2509eb8b3aab982cc4db1b3"
+  },
+  "pngs": {},
+  "scope": "Actual frozen class and exact original reports/PNG bytes; all functional assertions retained after guard-only repair. Independent visible-scope image review mandatory for classes with PNGs; classes without PNGs establish actual UI assertions, not new visual exports. AR/FR are separately disclosed verified viewer-component controls with setContent, not production pack admission/new inference. No reinstalls, owner data/radio writes, performance/gold/full F2/M4/product/release claim.",
+  "finished_utc": "2026-10-11T21:05:18.974915+00:00"
+}

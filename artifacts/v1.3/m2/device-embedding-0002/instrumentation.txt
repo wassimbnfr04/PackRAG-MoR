@@ -1,0 +1,77 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.EmbeddingParityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.EmbeddingParityTest:
+INSTRUMENTATION_STATUS: test=noInternetCapabilityAndExactEmbeddingParity
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.EmbeddingParityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.io.FileNotFoundException: /storage/emulated/0/Android/data/org.packrag.product/files/models/granite/tokenizer.json: open failed: EACCES (Permission denied)
+	at libcore.io.IoBridge.open(IoBridge.java:569)
+	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+	at org.packrag.embedding.GraniteTokenizerKt.fileSha256(GraniteTokenizer.kt:159)
+	at org.packrag.embedding.GraniteTokenizer.<init>(GraniteTokenizer.kt:21)
+	at org.packrag.embedding.GraniteEncoder.<init>(GraniteEncoder.kt:12)
+	at org.packrag.product.EmbeddingParityTest.noInternetCapabilityAndExactEmbeddingParity(EmbeddingParityTest.kt:35)
+	... 32 trimmed
+Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+	at libcore.io.Linux.open(Native Method)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:9904)
+	at libcore.io.IoBridge.open(IoBridge.java:555)
+	... 38 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in noInternetCapabilityAndExactEmbeddingParity(org.packrag.product.EmbeddingParityTest):
+java.io.FileNotFoundException: /storage/emulated/0/Android/data/org.packrag.product/files/models/granite/tokenizer.json: open failed: EACCES (Permission denied)
+	at libcore.io.IoBridge.open(IoBridge.java:569)
+	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+	at org.packrag.embedding.GraniteTokenizerKt.fileSha256(GraniteTokenizer.kt:159)
+	at org.packrag.embedding.GraniteTokenizer.<init>(GraniteTokenizer.kt:21)
+	at org.packrag.embedding.GraniteEncoder.<init>(GraniteEncoder.kt:12)
+	at org.packrag.product.EmbeddingParityTest.noInternetCapabilityAndExactEmbeddingParity(EmbeddingParityTest.kt:35)
+	... 32 trimmed
+Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+	at libcore.io.Linux.open(Native Method)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:9904)
+	at libcore.io.IoBridge.open(IoBridge.java:555)
+	... 38 more
+
+INSTRUMENTATION_STATUS: test=noInternetCapabilityAndExactEmbeddingParity
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0,404
+There was 1 failure:
+1) noInternetCapabilityAndExactEmbeddingParity(org.packrag.product.EmbeddingParityTest)
+java.io.FileNotFoundException: /storage/emulated/0/Android/data/org.packrag.product/files/models/granite/tokenizer.json: open failed: EACCES (Permission denied)
+	at libcore.io.IoBridge.open(IoBridge.java:569)
+	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+	at org.packrag.embedding.GraniteTokenizerKt.fileSha256(GraniteTokenizer.kt:159)
+	at org.packrag.embedding.GraniteTokenizer.<init>(GraniteTokenizer.kt:21)
+	at org.packrag.embedding.GraniteEncoder.<init>(GraniteEncoder.kt:12)
+	at org.packrag.product.EmbeddingParityTest.noInternetCapabilityAndExactEmbeddingParity(EmbeddingParityTest.kt:35)
+	... 32 trimmed
+Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+	at libcore.io.Linux.open(Native Method)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:9904)
+	at libcore.io.IoBridge.open(IoBridge.java:555)
+	... 38 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

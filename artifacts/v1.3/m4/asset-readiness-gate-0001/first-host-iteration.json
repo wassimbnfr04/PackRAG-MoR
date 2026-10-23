@@ -1,0 +1,25 @@
+{
+  "status": "PASS_FIRST_F1_VERIFIER_HOST_ITERATION_NOT_DEVICE_OR_COMPLETE_F1",
+  "recorded_utc": "2026-10-10T22:20:30.483278+00:00",
+  "build": "build-0054",
+  "android_inputs": 577,
+  "host_totals": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "source_snapshots": {
+    "product/android/app/src/main/java/org/packrag/product/LocalAssets.kt": "a4270b5c8c5875630952471745b2618404f6b3db75ef964464abc9be084040b9",
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetsScreen.kt": "9fb926dd083de17b3d0d88f4fb87683c04267165077b6f156c2a48ea9d818075",
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": "115f567ffcdf04275bfcaa6ffdc7aee8aaca2684cc6708929436f1f88622e3e0",
+    "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": "aa25b539d4ab02c65374a9da71877f75b693196e51759b08495f23a7d4b33b21",
+    "product/android/app/src/main/java/org/packrag/product/ProductSession.kt": "4ed666951df77421d3965866294fa0cff603bef3b974b2420a16f897102fdf99",
+    "product/android/app/src/test/java/org/packrag/product/LocalAssetsTest.kt": "c1a9d3c2a1ea273774a3af9817437525c6570834e3e9a65d0f54f35d1c4d4e7c"
+  },
+  "apk_sha256": {
+    "app-debug-androidTest.apk": "1ad5c0d9c33481070b1cbd08e0d00b830d3deaae8c4aead345dc65f47cbcae3b",
+    "app-debug.apk": "a1b1ba292c4d3e8a32add65bd2922d3a9881ea218b18935406761cf3df2e6670"
+  },
+  "scope": "Real host verifier contracts and retained host regressions. Physical readiness/native/UI and full F acceptance remain pending. Gradle metrics/Kotlin daemon permission warnings used the existing compiler fallback; terminal build succeeds. No source changed during this build."
+}

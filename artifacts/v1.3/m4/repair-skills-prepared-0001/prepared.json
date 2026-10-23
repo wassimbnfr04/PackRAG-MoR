@@ -1,0 +1,15 @@
+{
+  "status": "SIGNED_VERIFIED_DEVELOPMENT_TEST_PACK_NOT_RELEASE_OR_SKILL_ACCEPTANCE",
+  "pack_sha256": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359",
+  "pack_file": "repair-skills.kpack",
+  "public_key_sha256": "97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+  "document_sha256": "9af185e58fd2ce1cdc8418ef0790bca31cb3d08432ee1f5673a0933eddd23508",
+  "gold_sha256": "66f4181916ee58750627c6605a94483bff02cb01e5cf88c4915c6210a8f6e222",
+  "chunk_ids": [
+    "79bf5b23b89f9bc7ed6605c3",
+    "af6f9168a767ce54add5cb90"
+  ],
+  "private_seed": "LOCAL_CUSTODY_NOT_HASHED_OR_EXPORTED",
+  "source_scope": "Agent-authored compact factual test documents covering published guide procedures; upstream original HTML hashes/URLs are in repair-source-acquisition-0001.json. Not verbatim complete manuals, genuine human review/calibration or final owner packs.",
+  "production_acceptance": false
+}

@@ -1,0 +1,22 @@
+{
+  "m4-chat-normal-empty.png": {
+    "sha256": "8867658ea3788d006a591f1fff5687d25b5800a0b01612afc9ac7fe39f88f813",
+    "bytes": 82700,
+    "scope": "Unaccepted failure-time image, not completed test proof."
+  },
+  "m4-chat-two-turns.png": {
+    "sha256": "551ab01379f1e74c35ed0a54f269127ac290815593dcbed639edc925564f90aa",
+    "bytes": 60,
+    "scope": "Unaccepted failure-time image, not completed test proof."
+  },
+  "m4-chat-large-font-composer.png": {
+    "sha256": "0d986587435cb9c7997409a787f85175d8308e144f5d461e047c007b4fd000e1",
+    "bytes": 70,
+    "scope": "Unaccepted failure-time image, not completed test proof."
+  },
+  "m4-chat-large-font-controls.png": {
+    "sha256": "a899fe6a534b0501e9f4d3ef3df75392790e9cab0fdbdaed0bbfad38b67d1890",
+    "bytes": 70,
+    "scope": "Unaccepted failure-time image, not completed test proof."
+  }
+}

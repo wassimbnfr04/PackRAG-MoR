@@ -1,0 +1,42 @@
+{
+  "status": "CONVERSION_INSPECTED_NOT_PHONE_TESTED",
+  "model_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "model_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+  "llamacpp_candidate_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+  "phone_validated_llamacpp_commit": null,
+  "conversion_arguments": [
+    "vendor/llama.cpp/convert_hf_to_gguf.py",
+    "models/smollm2",
+    "--outfile",
+    "fallback\\smollm2\\conversion\\SmolLM2-360M-Instruct-F16.gguf",
+    "--outtype",
+    "f16"
+  ],
+  "quantization": "F16",
+  "gguf_bytes": 725553600,
+  "gguf_sha256": "4723b60dcc23b06f59c356e979c26e9f417195056eb60ecbbb6d95f78eb8cdd7",
+  "metadata": {
+    "general.architecture": "llama",
+    "general.name": "Smollm2",
+    "general.file_type": 1,
+    "tokenizer.ggml.model": "gpt2",
+    "tokenizer.chat_template": "{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n' }}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}"
+  },
+  "tokenizer_vocabulary_size": 49152,
+  "chat_template_matches_official_source": true,
+  "source_tokenizer_hashes": {
+    "all_results.json": "71face5e244d784819f937a25206865c295c8889fe4359eec28bbec85d02da0d",
+    "config.json": "224f72354f10d617a359cc82ad15a3c96e866b9b2ffadb81997eeea9e88e22ee",
+    "eval_results.json": "db9bcb5c4f2a3be0d7e88f86af26f375c22c240954af86942d1554d87a488ce8",
+    "generation_config.json": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+    "merges.txt": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+    "model.safetensors": "e6bffe7435d7ddc10fd3b9a9efd429dafbacb1cb17015fb5562664e7532bf86e",
+    "special_tokens_map.json": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+    "tokenizer.json": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+    "tokenizer_config.json": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+    "trainer_state.json": "2263f580ae0d7890acc11253b83138b3fc1250dc6728688a3387ce813b92eed1",
+    "train_results.json": "fceae2634b0a268a8adbda73fd0b2192922b496054011f588d2c6e888db1cea1",
+    "vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+  },
+  "offline_phone_generation_proven": false
+}

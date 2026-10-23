@@ -1,0 +1,2 @@
+device-local-asset-import-walking-0003 actual narrow template read grant PASS; native walking test START
+F2_API_TEMPLATE_WALKING_ITERATION_ONLY_NOT_SYSTEM_PICKER_FULL_F2_M4_OR_PRODUCT

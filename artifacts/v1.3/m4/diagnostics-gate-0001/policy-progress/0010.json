@@ -1,0 +1,28 @@
+{
+  "status": "READ_ONLY_POLICY_PROGRESS_NOT_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T21:32:46.347606+00:00",
+  "pid_argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "shell",
+    "pidof",
+    "org.packrag.product"
+  ],
+  "pid_stdout": "7886\n",
+  "actual_observed_pid": 7886,
+  "log_argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "logcat",
+    "-d",
+    "-s",
+    "TestRunner:I"
+  ],
+  "observed_log_sha256": "2aa5b5a9bd7897431e29d57c6c798514a6205cdd33689128c8d029d0a311054b",
+  "cumulative_observed_finished_methods": 6,
+  "cumulative_observed_failed_methods": 0,
+  "latest_observed_method": "actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection(org.packrag.product.SelectionDeviceTest)",
+  "scope": "Current package PID after completed development suite/original collection. Union of saved log observations is a lower bound; it is not full30 acceptance, gold accuracy or a performance benchmark. No APK/source/device mutation."
+}

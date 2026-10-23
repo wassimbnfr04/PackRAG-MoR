@@ -1,0 +1,286 @@
+{
+  "case_id": "M1-G0-D02",
+  "passed": true,
+  "expected_fact": "600",
+  "result": {
+    "state": "ANSWER_ACCEPTED",
+    "answer": "The NexoFlow M4 requires preventive service every 600 operating hours [S1].",
+    "citations": [
+      "S1"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "canonical_text": "The NexoFlow M4 requires preventive service every 600 operating hours.",
+        "title": "NexoFlow M4",
+        "locator": "G0-D02",
+        "publisher": "PackRAG synthetic development fixture",
+        "canonical_uri": null,
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0"
+      }
+    ],
+    "query": {
+      "raw": "How often does the NexoFlow M4 require preventive service?",
+      "as_of": "2026-10-05",
+      "jurisdiction": null,
+      "current_law": false
+    },
+    "active_packs": [
+      [
+        "org.packrag.development.walking-skeleton",
+        "0.1.0",
+        "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 12.362500000108412,
+      "retrieval_ms": 0.5492000000231201,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 390,
+        "prompt_ms": 4608.39,
+        "prompt_per_token_ms": 11.816384615384615,
+        "prompt_per_second": 84.62825411911751,
+        "predicted_n": 150,
+        "predicted_ms": 6260.186,
+        "predicted_per_token_ms": 42.0146711409396,
+        "predicted_per_second": 23.801209740413466,
+        "host_generation_wall_ms": 10901.589700000386,
+        "emitted_token_count": 150,
+        "reasoning_token_count": 131,
+        "final_and_terminal_token_count": 19,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 11199.393599999894
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9759777784347534,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "exact": false,
+        "sparse_rank": 2,
+        "dense_rank": 5,
+        "dense_cosine": 0.7611624002456665,
+        "rrf": 0.0315136476426799,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "exact": false,
+        "sparse_rank": 4,
+        "dense_rank": 3,
+        "dense_cosine": 0.7649567127227783,
+        "rrf": 0.03149801587301587,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "exact": false,
+        "sparse_rank": 6,
+        "dense_rank": 2,
+        "dense_cosine": 0.782633900642395,
+        "rrf": 0.03128054740957967,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "exact": false,
+        "sparse_rank": 3,
+        "dense_rank": 8,
+        "dense_cosine": 0.7487209439277649,
+        "rrf": 0.03057889822595705,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "d46745e3c80bd1ed8f10d062",
+        "exact": false,
+        "sparse_rank": 7,
+        "dense_rank": 4,
+        "dense_cosine": 0.7622387409210205,
+        "rrf": 0.03055037313432836,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "exact": false,
+        "sparse_rank": 5,
+        "dense_rank": 6,
+        "dense_cosine": 0.753684937953949,
+        "rrf": 0.030536130536130537,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "a7b2ed8ce984da406426ebf4",
+        "exact": false,
+        "sparse_rank": 9,
+        "dense_rank": 7,
+        "dense_cosine": 0.7513635158538818,
+        "rrf": 0.029418126757516764,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "29e38c9e841a0cd8d92a090c",
+        "exact": false,
+        "sparse_rank": 8,
+        "dense_rank": 9,
+        "dense_cosine": 0.7348671555519104,
+        "rrf": 0.02919863597612958,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "3c0d779d818604ab90126609",
+        "exact": false,
+        "sparse_rank": 10,
+        "dense_rank": 10,
+        "dense_cosine": 0.7308264970779419,
+        "rrf": 0.02857142857142857,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31"
+          ]
+        ]
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "text_sha256": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+        "relevant": true
+      },
+      {
+        "id": "S2",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+        "relevant": false
+      },
+      {
+        "id": "S3",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "text_sha256": "61b1e97e75a1bc6a18d10721397171290d908e299ea97a8e229dc70f78afb2e9",
+        "relevant": false
+      },
+      {
+        "id": "S4",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "8913a6064709c7a0a7c66d0bdd06cdcfd3fae5a10f004432ccaa80ce9b70cb31",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+        "relevant": false
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 390,
+      "evidence": 235,
+      "max_new": 512
+    },
+    "rejection_reason": null
+  }
+}

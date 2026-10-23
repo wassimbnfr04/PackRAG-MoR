@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-09T19:54:35.290495+00:00",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug.apk": "f5fc7d82027085a710a2f50d406980703247a60bcdd2d1a088b4ffbcff93ceee",
+    "app-debug-androidTest.apk": "ea3b7fd390a62e6e0c61146a6ab3c227410aacce395c7fe08920c750e46cb1eb"
+  },
+  "source": "Final JSON after complete successful instrumentation; original-adb preserves every ADB byte; runner primary is formatted and parsed-equal.",
+  "saved_sha256": {
+    "m4-conflicts.json": "49a1bcdac444b82944f51c754f212cbcd9b6b7ecb4fd67a11e35a9c736d94f16",
+    "m4-source-metadata.json": "b7314fee07394158fd442458445be229d238b8cb0a49b3c9c7524a7be66ef82a",
+    "m4-validity.json": "e84af8bfe9cf9e4c3148dce5d36a5c86715c3b5c41e4b887f5c2198edd653254",
+    "m4-query-identifiers.json": "2d998cbb874a600a3b3cf591715b0be95bc3863126d94cf2297e00790722ecb4",
+    "m4-query-unicode.json": "6971c8af3407c006002f142a1e5f2c9fe4c370e9f0d11cdf3f8d7e902fb515d6",
+    "m2-generator-prompt-parity.json": "59c2c5c4bf7dbe3732e25ac8304e0ad923cabf4a721da7a7240cb218598d15c6",
+    "m2-pack-retrieval-parity.json": "978164f36a22c9be357d71f065953dd3b2926eaef0e5f96c3793e0dcd31fc57e",
+    "m3-data-types.json": "41442dfabdf9e042334b726c3dbacb226042984926e000c3195129f9451ab224",
+    "m3-extension-names.json": "4b4eaf2cae593b7d620912cf2a10e43fb771165ce1a6d204242624fa1dc665f0",
+    "m3-validation-order.json": "051594a58b1ee4aa90627759b572f62e16ec74258b2d81e4fb03837ca084fa8b",
+    "m3-residual-security.json": "1e3e0dc55745be0509f3b509902b054bdf42789eca9406eae306998d1890fc5b",
+    "m3-manifest-schema.json": "3c6fbe2869ebc818c24db8bb90548b5bc7fdd138f8ed1267f12b076e0986650d",
+    "m3-database-validation.json": "eaffa8217833e34c55b3d9b00ef832c09ebeaf53a2236c08dffe65c2fcf4b67b",
+    "m3-archive-validation.json": "a6bdfdea8c6c246d1433594e4d1da852b2761e0219a376dd48de113c0595cad3",
+    "m4-relevance.json": "08b0a167896a143cf0b11824ee68a4d86c4d44b7a9dd7e8ca0dd22a35bf5da0e",
+    "m4-relevance-runtime.json": "696be014031a0ed8644c2e181faa2173d0914a32884e2d5569949297432e6c68",
+    "m4-conflict-runtime.json": "1afd4c2002ec1c3fd644efb6517311ed20f8635933c0d90bf737e9d2daa82938",
+    "m4-query-identifier-runtime.json": "37da37ed0f81e5d40a9ae743a2516d811b368004e80e459fb46c1b08acecd315",
+    "m2-generator-cancellation.json": "bf576d7da672048217dabb8354c4d97a1aa48d862cb8cbff898e0c18fcf04f2f",
+    "product-runtime-smoke.json": "950b0c8a709528f94f81e87745d818357f0b3772a7293ec99dbfe7995ddf3eec",
+    "m3-explicit-lifecycle.json": "30c400a38b0783ce957fc755fd8c15e9af26c7ed298ed8348a4ea27a4a80fd80",
+    "m3-atomic-registry.json": "005b8d9a6316ea4ab533daba4a4ef040698d34c90ab9552f461d7f7f878d6433",
+    "m3-process-death.json": "ba9e14965e61c55fe77f4f124f9f26cad3aa1047616277196aae369fd31808fa",
+    "m3-import-consent.json": "0ee774b6713fdc54911725c667ff3aa084c4ccfd8320c210628c951d12cc7d72",
+    "m4-representations.json": "102621e3a35b051242f22a3f04e84de8ca6442261bf16d4e568492d836179546",
+    "m4-representation-runtime.json": "eb4ea23a1c8c3fba65e2d51c422f2a3dc0f5030e87fa6e627855f6c48ef44b57",
+    "m4-source-text.json": "d95b504a0625b8c4c0b0fdb704806dd9229618238fef390b326726020de3c699"
+  }
+}

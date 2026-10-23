@@ -1,0 +1,6 @@
+Tasks: 1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+  Mem:    10515M total,    10209M used,      306M free,        0M buffers
+ Swap:    16383M total,     4414M used,    11969M free,     3472M cached
+800%cpu 433%user  27%nice  77%sys 243%idle   0%iow  17%irq   3%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+17297 u0_a469      20   0  20G 1.7G 1.5G S  333  17.0   5:43.18 org.packrag.product

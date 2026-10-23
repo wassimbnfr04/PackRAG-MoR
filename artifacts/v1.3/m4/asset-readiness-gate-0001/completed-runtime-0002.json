@@ -1,0 +1,22 @@
+{
+  "status": "PASS_COMPLETED_RUNTIME_METHOD_ONLY_CLASS_STILL_RUNNING",
+  "recorded_utc": "2026-10-11T14:36:09.287068+00:00",
+  "argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "exec-out",
+    "run-as",
+    "org.packrag.product",
+    "cat",
+    "files/m4-local-assets-runtime.json"
+  ],
+  "returncode": 0,
+  "stderr": "",
+  "original_sha256": "105758b0a8dd7bc0ff1aa88fafe376cc75f2414b853348dba4b4102799e973c9",
+  "cases": 5,
+  "emitted_tokens": 153,
+  "initialization_ms": 15734.233555,
+  "session_wall_ms": 128302.480859,
+  "scope": "One actual method completed including cold/warm/native recovery and owner guards. Two remaining methods, terminal class outcome and full originals remain required. These times are functional diagnostics, not hardware bottleneck acceptance."
+}

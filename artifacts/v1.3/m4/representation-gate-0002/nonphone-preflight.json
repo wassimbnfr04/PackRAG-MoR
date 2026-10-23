@@ -1,0 +1,9 @@
+{
+  "status": "PASS_NONPHONE_PREFLIGHT_NOT_PHYSICAL_OR_MILESTONE_ACCEPTANCE",
+  "recorded_utc": "2026-10-09T19:42:50.276715+00:00",
+  "verifier_sha256": "742f6be48e6e8ebfd834fdf0b9cdf587021dfec8f9ea9d2b6a6b455b909a1da6",
+  "runtime_inputs": 169,
+  "android_inputs": 524,
+  "historical": 587,
+  "note": "Only the acceptance body before phone={} runs; no phone loop, no gate write, no state snapshots."
+}

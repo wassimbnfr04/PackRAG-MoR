@@ -1,0 +1,64 @@
+{
+  "id": "G0-D09",
+  "category": "direct",
+  "question": "What mesh size is used by the Vanta-P8 intake filter?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Vanta-P8 intake filter uses an 80-micrometre mesh."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "The Vanta-P8 intake filter uses an 80-micrometre mesh [S1].",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "80 micrometres"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [
+    "80 micrometres"
+  ],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 282,
+    "prompt_ms": 2967.294,
+    "prompt_per_token_ms": 10.52231914893617,
+    "prompt_per_second": 95.03608338101988,
+    "predicted_n": 163,
+    "predicted_ms": 6047.676,
+    "predicted_per_token_ms": 37.33133333333333,
+    "predicted_per_second": 26.78714931157026,
+    "host_generation_wall_ms": 9073.099699999148,
+    "emitted_token_count": 163,
+    "reasoning_token_count": 141,
+    "final_and_terminal_token_count": 22,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 282,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" ws (\"INSUFFICIENT_EVIDENCE\" | line (\"\\n\" ws line)*) ws\nline ::= text \" \" cite (\" \" cite)* \".\"?\ntext ::= [^\\x5B\\x3C\\x00-\\x1F]+\ncite ::= \"[S1]\"\nws ::= [ \\t\\r\\n]*\n",
+    "grammar_sha256": "956fc5802522661a86c28ef02b94e59190c1dc70187e18244ca7fa2779948319",
+    "final_only": "The Vanta-P8 intake filter uses an 80-micrometre mesh [S1]."
+  },
+  "manual_semantic_review_required": true
+}

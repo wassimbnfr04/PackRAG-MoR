@@ -1,0 +1,28 @@
+{
+  "status": "TWO_UI_ACTION_DISPATCH_WAITS_STRENGTHENED_NEW_VALIDATION_REQUIRED",
+  "recorded_utc": "2026-10-10T20:16:05.662070+00:00",
+  "exact_test_deltas": {
+    "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt": {
+      "before": "8dd97134bf1d013bdb01694b2697cf007a81f10144a932d6c9f4a4a9a790b182",
+      "after": "e13302a95f8363e3b8694042587a2ee6a82360bf3b28199b4ffc4ab54e857fc9"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt": {
+      "before": "590a2e3d1028f9fa775ac82916a46158915083d1878ff3baa43752db3bdfa090",
+      "after": "ae70ee36db587b8cc0d50d87d7628d8f029964f817aa25e91becde4382f2eb49"
+    }
+  },
+  "unchanged_android_inputs": 572,
+  "actual_new_query_observation": {
+    "previous_completion_id": "040f298e-21f6-4e50-bd04-552df28c9bfe",
+    "immediate_busy": true,
+    "immediate_completion_id": null,
+    "immediate_answer_state": null,
+    "immediate_submitted_date": "2028-02-29",
+    "immediate_submitted_jurisdiction": "MA-01",
+    "status": "PASS_NEW_COMPLETION_EDITED_CONTEXT_ABSTENTION",
+    "new_completion_id": "3602ad56-0e4a-4137-8da0-163029c87f6c",
+    "new_answer_state": "NO_RELEVANT_EVIDENCE"
+  },
+  "diagnosis": "0003 source method fails at first accepted-answer assertion with null after old settle before actual action completion. Source/Query old helpers omit waitForIdle unlike passing PackManagement. Await actual state object replacement for state-changing tags, then idle/not-busy; keep all answer, active-state, context, source and owner assertions. No direct model calls or product edits. Original0002 timing cause is not retrospectively proved: new0003 immediate observation was already busy.",
+  "validation": "Fresh0052/0053 matched builds, all four UI methods/visual/full37/full30/restoration/parity/closure required; previous failures remain unchanged."
+}

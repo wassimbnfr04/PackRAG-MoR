@@ -1,0 +1,848 @@
+{
+  "recorded_utc": "2026-10-05T16:31:25.214176+00:00",
+  "serial": "R3CT908DHHR",
+  "pid": 17297,
+  "script_sha256": "1150137710974a9b0db7df421ea77484940acaa6f36e2e09d339ab66251150e5",
+  "purpose": "READ_ONLY_SNAPSHOT_NOT_PEAK_OR_CAUSAL_BOTTLENECK_PROOF",
+  "threads": [
+    {
+      "tid": 13142,
+      "user_ticks": 2311,
+      "system_ticks": 10,
+      "last_cpu": 3,
+      "state": "R"
+    },
+    {
+      "tid": 13143,
+      "user_ticks": 2269,
+      "system_ticks": 18,
+      "last_cpu": 4,
+      "state": "R"
+    },
+    {
+      "tid": 13144,
+      "user_ticks": 2349,
+      "system_ticks": 8,
+      "last_cpu": 6,
+      "state": "R"
+    },
+    {
+      "tid": 17297,
+      "user_ticks": 64,
+      "system_ticks": 13,
+      "last_cpu": 0,
+      "state": "S"
+    },
+    {
+      "tid": 17311,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 5,
+      "state": "S"
+    },
+    {
+      "tid": 17313,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 3,
+      "state": "S"
+    },
+    {
+      "tid": 17314,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 3,
+      "state": "S"
+    },
+    {
+      "tid": 17318,
+      "user_ticks": 159,
+      "system_ticks": 24,
+      "last_cpu": 2,
+      "state": "S"
+    },
+    {
+      "tid": 17319,
+      "user_ticks": 102,
+      "system_ticks": 16,
+      "last_cpu": 5,
+      "state": "S"
+    },
+    {
+      "tid": 17320,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 2,
+      "state": "S"
+    },
+    {
+      "tid": 17321,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 1,
+      "state": "S"
+    },
+    {
+      "tid": 17322,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 2,
+      "state": "S"
+    },
+    {
+      "tid": 17325,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 2,
+      "state": "S"
+    },
+    {
+      "tid": 17327,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 4,
+      "state": "S"
+    },
+    {
+      "tid": 17334,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 4,
+      "state": "S"
+    },
+    {
+      "tid": 17397,
+      "user_ticks": 0,
+      "system_ticks": 2,
+      "last_cpu": 2,
+      "state": "S"
+    },
+    {
+      "tid": 17401,
+      "user_ticks": 1,
+      "system_ticks": 0,
+      "last_cpu": 2,
+      "state": "S"
+    },
+    {
+      "tid": 17404,
+      "user_ticks": 78264,
+      "system_ticks": 1015,
+      "last_cpu": 3,
+      "state": "R"
+    },
+    {
+      "tid": 17405,
+      "user_ticks": 0,
+      "system_ticks": 0,
+      "last_cpu": 4,
+      "state": "S"
+    },
+    {
+      "tid": 17451,
+      "user_ticks": 2,
+      "system_ticks": 4,
+      "last_cpu": 0,
+      "state": "S"
+    },
+    {
+      "tid": 17454,
+      "user_ticks": 75,
+      "system_ticks": 16,
+      "last_cpu": 2,
+      "state": "S"
+    },
+    {
+      "tid": 17455,
+      "user_ticks": 76,
+      "system_ticks": 12,
+      "last_cpu": 6,
+      "state": "S"
+    },
+    {
+      "tid": 17456,
+      "user_ticks": 81,
+      "system_ticks": 14,
+      "last_cpu": 3,
+      "state": "S"
+    },
+    {
+      "tid": 18335,
+      "user_ticks": 252,
+      "system_ticks": 94,
+      "last_cpu": 3,
+      "state": "S"
+    },
+    {
+      "tid": 18609,
+      "user_ticks": 1,
+      "system_ticks": 1,
+      "last_cpu": 3,
+      "state": "S"
+    },
+    {
+      "tid": 18612,
+      "user_ticks": 2,
+      "system_ticks": 0,
+      "last_cpu": 3,
+      "state": "S"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "17297\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/cgroup"
+      ],
+      "returncode": 0,
+      "stdout": "5:freezer:/\n4:cpuset:/foreground\n3:cpuacct:/\n2:cpu:/foreground\n1:blkio:/\n0::/apps/uid_10469/pid_17297\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/cpuset"
+      ],
+      "returncode": 0,
+      "stdout": "/foreground\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/status"
+      ],
+      "returncode": 0,
+      "stdout": "Name:\tpackrag.product\nUmask:\t0077\nState:\tS (sleeping)\nTgid:\t17297\nNgid:\t0\nPid:\t17297\nPPid:\t1378\nTracerPid:\t0\nUid:\t10469\t10469\t10469\t10469\nGid:\t10469\t10469\t10469\t10469\nFDSize:\t128\nGroups:\t9997 20469 50469 \nVmPeak:\t21155844 kB\nVmSize:\t21155844 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t 2310596 kB\nVmRSS:\t 1884476 kB\nRssAnon:\t  279204 kB\nRssFile:\t 1599552 kB\nRssShmem:\t    5720 kB\nVmData:\t 3708604 kB\nVmStk:\t    8192 kB\nVmExe:\t       4 kB\nVmLib:\t  224904 kB\nVmPTE:\t    5816 kB\nVmSwap:\t  355244 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nThreads:\t26\nSigQ:\t0/35455\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000080001204\nSigIgn:\t0000000000000001\nSigCgt:\t0000006e400084f8\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t0000000000000000\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t2\nSeccomp_filters:\t1\nSpeculation_Store_Bypass:\tthread vulnerable\nCpus_allowed:\t7f\nCpus_allowed_list:\t0-6\nMems_allowed:\t1\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t70\nnonvoluntary_ctxt_switches:\t206\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17297 (packrag.product) S 1378 1378 0 0 -1 1077936448 409368 0 95122 0 305006 2732 0 0 20 0 26 0 17414978 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 0 0 0 17 0 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/sched"
+      ],
+      "returncode": 0,
+      "stdout": "packrag.product (17297, #threads: 26)\n-------------------------------------------------------------------\nse.exec_start                                :     133495065.279456\nse.vruntime                                  :      26984767.689578\nse.sum_exec_runtime                          :           773.557289\nse.nr_migrations                             :                   68\nse.statistics.sum_sleep_runtime              :        800794.404297\nse.statistics.wait_start                     :             0.000000\nse.statistics.sleep_start                    :     144075206.983219\nse.statistics.block_start                    :             0.000000\nse.statistics.sleep_max                      :        295090.828476\nse.statistics.block_max                      :             0.702265\nse.statistics.exec_max                       :             3.980587\nse.statistics.slice_max                      :             0.000000\nse.statistics.wait_max                       :           201.683047\nse.statistics.wait_sum                       :           561.496525\nse.statistics.wait_count                     :                  281\nse.statistics.iowait_sum                     :             0.961797\nse.statistics.iowait_count                   :                    4\nse.statistics.nr_migrations_cold             :                    0\nse.statistics.nr_failed_migrations_affine    :                   50\nse.statistics.nr_failed_migrations_running   :                   33\nse.statistics.nr_failed_migrations_hot       :                   13\nse.statistics.nr_forced_migrations           :                    2\nse.statistics.nr_wakeups                     :                   70\nse.statistics.nr_wakeups_sync                :                   35\nse.statistics.nr_wakeups_migrate             :                   16\nse.statistics.nr_wakeups_local               :                   35\nse.statistics.nr_wakeups_remote              :                   35\nse.statistics.nr_wakeups_affine              :                    0\nse.statistics.nr_wakeups_affine_attempts     :                    0\nse.statistics.nr_wakeups_passive             :                    0\nse.statistics.nr_wakeups_idle                :                    0\navg_atom                                     :             2.802743\navg_per_cpu                                  :            11.375842\nnr_switches                                  :                  276\nnr_voluntary_switches                        :                   70\nnr_involuntary_switches                      :                  206\nse.load.weight                               :              1048576\nse.avg.load_sum                              :                11654\nse.avg.runnable_sum                          :             11935806\nse.avg.util_sum                              :               791508\nse.avg.load_avg                              :                  253\nse.avg.runnable_avg                          :                  254\nse.avg.util_avg                              :                   16\nse.avg.last_update_time                      :      132202041727534\nse.avg.util_est.ewma                         :                   16\nse.avg.util_est.enqueued                     :                   16\nuclamp.min                                   :                    0\nuclamp.max                                   :                 1024\neffective uclamp.min                         :                    0\neffective uclamp.max                         :                 1024\npolicy                                       :                    0\nprio                                         :                  120\nclock-delta                                  :                   78\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "ls",
+        "/proc/17297/task"
+      ],
+      "returncode": 0,
+      "stdout": "13142\n13143\n13144\n17297\n17311\n17313\n17314\n17318\n17319\n17320\n17321\n17322\n17325\n17327\n17334\n17397\n17401\n17404\n17405\n17451\n17454\n17455\n17456\n18335\n18609\n18612\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/13142/stat"
+      ],
+      "returncode": 0,
+      "stdout": "13142 (roidJUnitRunner) R 1378 1378 0 0 -1 4194368 1 0 0 0 2311 10 0 0 12 -8 26 0 17500741 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 0 0 0 -1 3 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/13143/stat"
+      ],
+      "returncode": 0,
+      "stdout": "13143 (roidJUnitRunner) R 1378 1378 0 0 -1 4194368 1 0 0 0 2269 18 0 0 12 -8 26 0 17500741 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 0 0 0 -1 4 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/13144/stat"
+      ],
+      "returncode": 0,
+      "stdout": "13144 (roidJUnitRunner) R 1378 1378 0 0 -1 4194368 1 0 0 0 2349 8 0 0 12 -8 26 0 17500741 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 0 0 0 -1 6 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17297/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17297 (packrag.product) S 1378 1378 0 0 -1 1077936448 11980 0 471 0 64 13 0 0 20 0 26 0 17414978 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 17 0 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17311/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17311 (Signal Catcher) S 1378 1378 0 0 -1 1077936192 51 0 0 0 0 0 0 0 0 -20 26 0 17414985 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20480 1 1073775864 1 0 0 -1 5 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17313/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17313 (perfetto_hprof_) S 1378 1378 0 0 -1 4194368 9 0 0 0 0 0 0 0 0 -20 26 0 17414985 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 3 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17314/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17314 (ADB-JDWP Connec) S 1378 1378 0 0 -1 4194368 19 0 0 0 0 0 0 0 0 -20 26 0 17414985 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 3 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17318/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17318 (Jit thread pool) S 1378 1378 0 0 -1 1077936192 5577 0 1417 0 159 24 0 0 29 9 26 0 17414985 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 2 0 0 2 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17319/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17319 (HeapTaskDaemon) S 1378 1378 0 0 -1 1077936192 5128 0 0 0 102 16 0 0 24 4 26 0 17414985 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 5 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17320/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17320 (ReferenceQueueD) S 1378 1378 0 0 -1 1077936192 127 0 81 0 0 0 0 0 24 4 26 0 17414985 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 2 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17321/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17321 (FinalizerDaemon) S 1378 1378 0 0 -1 1077936192 33 0 2 0 0 0 0 0 24 4 26 0 17414985 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 1 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17322/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17322 (FinalizerWatchd) S 1378 1378 0 0 -1 1077936192 20 0 2 0 0 0 0 0 24 4 26 0 17414985 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 2 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17325/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17325 (binder:17297_1) S 1378 1378 0 0 -1 1077936192 10 0 0 0 0 0 0 0 20 0 26 0 17414986 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 2 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17327/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17327 (binder:17297_2) S 1378 1378 0 0 -1 1077936192 162 0 1 0 0 0 0 0 20 0 26 0 17414986 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 4 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17334/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17334 (binder:17297_3) S 1378 1378 0 0 -1 1077936192 17 0 0 0 0 0 0 0 20 0 26 0 17414989 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 4 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17397/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17397 (Profile Saver) S 1378 1378 0 0 -1 1077936192 234 0 184 0 0 2 0 0 29 9 26 0 17415025 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 2 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17401/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17401 (ConnectivityThr) S 1378 1378 0 0 -1 1077936192 66 0 12 0 1 0 0 0 20 0 26 0 17415060 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 2 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17404/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17404 (roidJUnitRunner) R 1378 1378 0 0 -1 4194368 355307 0 31319 0 78264 1015 0 0 12 -8 26 0 17415069 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 0 0 0 -1 3 0 0 151 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17405/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17405 (Instrumentation) S 1378 1378 0 0 -1 1077936192 6 0 0 0 0 0 0 0 20 0 26 0 17415071 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 4 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17451/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17451 (Thread-3) S 1378 1378 0 0 -1 1077936192 340 0 627 0 2 4 0 0 12 -8 26 0 17415494 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 0 0 0 1 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17454/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17454 (roidJUnitRunner) S 1378 1378 0 0 -1 1077936192 121 0 13861 0 75 16 0 0 12 -8 26 0 17415670 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 2 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17455/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17455 (roidJUnitRunner) S 1378 1378 0 0 -1 1077936192 44 0 11700 0 76 12 0 0 12 -8 26 0 17415670 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 6 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/17456/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17456 (roidJUnitRunner) S 1378 1378 0 0 -1 1077936192 74 0 12766 0 81 14 0 0 12 -8 26 0 17415670 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 3 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/18335/stat"
+      ],
+      "returncode": 0,
+      "stdout": "18335 (binder:17297_4) S 1378 1378 0 0 -1 1077936192 19504 0 19566 0 252 94 0 0 20 0 26 0 17417685 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 20996 1 1073775864 1 0 0 -1 3 0 0 1 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/18609/stat"
+      ],
+      "returncode": 0,
+      "stdout": "18609 (pool-4-thread-1) S 1378 1378 0 0 -1 1077936192 70 0 154 0 1 1 0 0 20 0 26 0 17419097 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 3 0 0 1 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/task/18612/stat"
+      ],
+      "returncode": 0,
+      "stdout": "18612 (pool-4-thread-2) S 1378 1378 0 0 -1 1077936192 52 0 208 0 2 0 0 0 20 0 26 0 17419414 21663584256 471119 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 1 0 0 -1 3 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "Applications Memory Usage (in Kilobytes):\nUptime: 144156921 Realtime: 175032799\n\n** MEMINFO in pid 17297 [org.packrag.product] **\n                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap\n                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free\n                ------   ------   ------   ------   ------   ------   ------   ------\n  Native Heap   188460    67284   121168   328215   189668   618892   608816     5317\n  Dalvik Heap    66665    64880      128       20    71380   112768    63616    49152\n Dalvik Other     5503     4372      316      372     6652                           \n        Stack      472      424       48      280      480                           \n       Ashmem       12        0        0        0      508                           \n    Other dev        8        0        8        0      364                           \n     .so mmap      304       36       64      100    16580                           \n    .jar mmap      867        0       32        0    26976                           \n    .apk mmap     6363      100     6244      648     6556                           \n    .ttf mmap        2        0        0        0      104                           \n    .dex mmap        8        0        0        0      764                           \n    .oat mmap       14        0        0        0     1008                           \n    .art mmap     2718      316     1520     6041    14192                           \n   Other mmap  1548518        4  1548512        0  1549140                           \n      Unknown      337      208      120      765      972                           \n        TOTAL  2156692   137624  1678160   336441  1885344   731660   672432    54469\n \n App Summary\n                       Pss(KB)                        Rss(KB)\n                        ------                         ------\n           Java Heap:    66716                          85572\n         Native Heap:    67284                         189668\n                Code:     9760                          56872\n               Stack:      424                            480\n            Graphics:        0                              0\n       Private Other:  1671600\n              System:   340908\n             Unknown:                                 1552752\n \n           TOTAL PSS:  2156692            TOTAL RSS:  1885344       TOTAL SWAP PSS:   336441\n \n Objects\n               Views:        0         ViewRootImpl:        0\n         AppContexts:        4           Activities:        0\n              Assets:       33        AssetManagers:        0\n       Local Binders:        7        Proxy Binders:       41\n       Parcel memory:        4         Parcel count:       19\n    Death Recipients:        0             WebViews:        0\n \n Native Allocations\n                         Count                       Total(kB)\n                        ------                         ------\n    Other (malloced):      311                             28\n Other (nonmalloced):       57                             46\n \n SQL\n         MEMORY_USED:        0\n  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0\n \n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/proc/cpuinfo"
+      ],
+      "returncode": 0,
+      "stdout": "processor\t: 0\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd46\nCPU revision\t: 2\n\nprocessor\t: 1\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd46\nCPU revision\t: 2\n\nprocessor\t: 2\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd46\nCPU revision\t: 2\n\nprocessor\t: 3\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd46\nCPU revision\t: 2\n\nprocessor\t: 4\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x2\nCPU part\t: 0xd47\nCPU revision\t: 0\n\nprocessor\t: 5\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x2\nCPU part\t: 0xd47\nCPU revision\t: 0\n\nprocessor\t: 6\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x2\nCPU part\t: 0xd47\nCPU revision\t: 0\n\nprocessor\t: 7\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x2\nCPU part\t: 0xd48\nCPU revision\t: 0\n\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1344000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1824000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1344000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1824000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu1/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1344000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1824000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1152000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu3/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1824000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu3/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "960000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu4/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "2515000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu4/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "960000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu5/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "2515000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu5/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "960000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu6/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "2515000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu6/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "960000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu7/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "2803000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu7/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    }
+  ]
+}

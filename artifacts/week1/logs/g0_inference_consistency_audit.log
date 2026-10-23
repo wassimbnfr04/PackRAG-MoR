@@ -1,0 +1,17 @@
+-------------------------------Preprocess Config -------------------------------
+Automatically determining batch size based on `total_batch_size`
+total_batch_size              : 1024 (given)
+torch.cuda.device_count()     : 1
+per_device_train_batch_size   : 1 (given)
+gradient_accumulation_steps   : 1024 (computed)
+actual total batch size       : 1024
+Setting wandb_run_name: 250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001
+Setting output_dir  : 250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001
+No checkpoint directories found matching C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\results\pretrain\250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\checkpoint-*
+Using deepspeed config = C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\ds_configs/stage2.config
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\util\config.py:95: UserWarning: stop_steps (14161) is not divisible by save_steps (1416)
+  warnings.warn(warning)
+--------------------------------------------------------------------------------
+G0-D01 {'case_id': 'G0-D01', 'manual_repeat_matches_primary_first16': True, 'hf_generate_status': 'PASS', 'hf_generate_matches_manual': True, 'sdpa_first16_matches_eager': True}
+G0-D02 {'case_id': 'G0-D02', 'manual_repeat_matches_primary_first16': True, 'hf_generate_status': 'PASS', 'hf_generate_matches_manual': True, 'sdpa_first16_matches_eager': True}
+G0-A01 {'case_id': 'G0-A01', 'manual_repeat_matches_primary_first16': True, 'hf_generate_status': 'PASS', 'hf_generate_matches_manual': True, 'sdpa_first16_matches_eager': False}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.product.BlockingIoTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-11T18:05:45.460Z" hostname="RAZER" time="0.155">
+  <properties/>
+  <testcase name="taskFailureKeepsOriginalRuntimeCause" classname="org.packrag.product.BlockingIoTest" time="0.038"/>
+  <testcase name="interruptedCallerWaitsForWorkerBeforeReleasingSnapshotAndRestoresFlag" classname="org.packrag.product.BlockingIoTest" time="0.108"/>
+  <testcase name="fixedDispatcherRunsOutsideCallerMonitorAndReturnsExactValue" classname="org.packrag.product.BlockingIoTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-10-12T14:33:48.312038+00:00",
+  "scope": "Exact six retained test-UID directory/marker/four source paths, no directory enumeration/content export/chmod/ownership mutation. Independent mode/type snapshot; sourceSHA proof is separate. Does not prove product model-file modes or performance.",
+  "command": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "shell",
+      "run-as org.packrag.product.test sh -c 'set -eu; test -d files; test ! -L files; test ! -L files/f2-full-assets-0001; test -d files/f2-full-assets-0001; test ! -L files/f2-full-assets-0001/owner.marker; test -f files/f2-full-assets-0001/owner.marker; test ! -L files/f2-full-assets-0001/full-generator.asset; test -f files/f2-full-assets-0001/full-generator.asset; test ! -L files/f2-full-assets-0001/full-template.asset; test -f files/f2-full-assets-0001/full-template.asset; test ! -L files/f2-full-assets-0001/full-tokenizer.asset; test -f files/f2-full-assets-0001/full-tokenizer.asset; test ! -L files/f2-full-assets-0001/full-encoder.asset; test -f files/f2-full-assets-0001/full-encoder.asset; stat -c \"%a %n\" files/f2-full-assets-0001 files/f2-full-assets-0001/owner.marker files/f2-full-assets-0001/full-generator.asset files/f2-full-assets-0001/full-template.asset files/f2-full-assets-0001/full-tokenizer.asset files/f2-full-assets-0001/full-encoder.asset'"
+    ],
+    "returncode": 0,
+    "stdout": "500 files/f2-full-assets-0001\n400 files/f2-full-assets-0001/owner.marker\n400 files/f2-full-assets-0001/full-generator.asset\n400 files/f2-full-assets-0001/full-template.asset\n400 files/f2-full-assets-0001/full-tokenizer.asset\n400 files/f2-full-assets-0001/full-encoder.asset\n",
+    "stderr": ""
+  },
+  "observed_modes": {
+    "files/f2-full-assets-0001": "500",
+    "files/f2-full-assets-0001/owner.marker": "400",
+    "files/f2-full-assets-0001/full-generator.asset": "400",
+    "files/f2-full-assets-0001/full-template.asset": "400",
+    "files/f2-full-assets-0001/full-tokenizer.asset": "400",
+    "files/f2-full-assets-0001/full-encoder.asset": "400"
+  },
+  "status": "PASS_EXPLICIT_SOURCE4_DIRECTORY_MARKER_MODES_TYPES_NOFOLLOW_SNAPSHOT",
+  "ended_utc": "2026-10-12T14:33:48.518825+00:00"
+}

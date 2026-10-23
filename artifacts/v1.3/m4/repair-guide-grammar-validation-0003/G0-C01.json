@@ -1,0 +1,66 @@
+{
+  "id": "G0-C01",
+  "category": "citation",
+  "question": "How much does the LumaDrive L2 weigh?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The LumaDrive L2 enclosure carries an IP54 rating."
+    },
+    {
+      "id": "S2",
+      "text": "The LumaDrive L2 weighs 4.2 kg."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "The LumaDrive L2 weighs 4.2 kg [S2].",
+  "citations": [
+    "S2"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "4.2 kg"
+  ],
+  "required_citations": [
+    "S2"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 299,
+    "prompt_ms": 3125.175,
+    "prompt_per_token_ms": 10.452090301003345,
+    "prompt_per_second": 95.67464222003568,
+    "predicted_n": 152,
+    "predicted_ms": 5718.303,
+    "predicted_per_token_ms": 37.86955629139073,
+    "predicted_per_second": 26.40643561560134,
+    "host_generation_wall_ms": 8900.328100000479,
+    "emitted_token_count": 152,
+    "reasoning_token_count": 135,
+    "final_and_terminal_token_count": 17,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 299,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" cite (\" \" cite)? (\" \" cite)? (\" \" cite)? (\"**\" | \"*\")? \".\"?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\" | \"[S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "806982f931728229b1981f74e72e8273ee0159d47f88ee5fc0ce8b81b7a97323",
+    "final_only": "The LumaDrive L2 weighs 4.2 kg [S2]."
+  },
+  "manual_semantic_review_required": true
+}

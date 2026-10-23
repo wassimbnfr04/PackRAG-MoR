@@ -1,0 +1,5 @@
+# Failed C2 regression selection
+
+This combined run is FAIL. The command incorrectly selected ManifestSchemaDeviceTest and DatabaseValidationDeviceTest, which are not compiled test classes. AndroidJUnitRunner reports two initialization/ClassNotFound errors. It ran the six other selected methods successfully in the same process; their structured outputs are saved separately. Those independent passes do not satisfy the full gate or replace the combined FAIL.
+
+Use StrictManifestDeviceTest and StrictDatabaseDeviceTest instead. The prepared APK is unchanged. A corrected selection receives a new run directory. The runner-used.py snapshot preserves the exact wrapper used for this failed run before the repair. The repaired wrapper binds selections to the frozen source-at-build-start identity and rejects absent/non-test/duplicate/malformed class selections before calling ADB; its hash and selected source identities are recorded in subsequent manifests. No model inference or semantic security failure occurred in these two initialization errors. No milestone progression is allowed until the corrected full gate passes.

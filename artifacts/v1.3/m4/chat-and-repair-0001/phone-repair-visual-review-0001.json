@@ -1,0 +1,82 @@
+{
+  "status": "PASS_CAPTURED_FUNCTIONAL_REPAIR_SLICE_NOT_FULL_M4",
+  "images": [
+    {
+      "file": "artifacts\\v1.3\\m4\\phone-chat-repair-0001\\original-adb\\m4-emulator-repair-answer.png",
+      "sha256": "13cbb5726464821ee3432b308e03a90758ed02d111f202d7a99446e741136b83",
+      "review": "Physical Samsung dark chat: complete accepted reassembly paragraph readable, each claim cited; bounded missing-PSI note and source-title/locator button visible, fixed composer and readable system bars. Question bubble is above scrolled viewport."
+    },
+    {
+      "file": "artifacts\\v1.3\\m4\\phone-chat-repair-0001\\original-adb\\m4-emulator-repair-source.png",
+      "sha256": "ea7cea61a81fa258715c81b946b16a435d14e1f86f2d1e8f7e851dbb6bf120ca",
+      "review": "Physical Samsung dark SourceScreen: signing-key identity readable; explicit original-snapshot absence disclaimer and full160-word canonical digest visible, including device/mechanism scope and absent specifications. Upper source metadata is above viewport, not claimed captured."
+    },
+    {
+      "file": "artifacts\\v1.3\\m4\\phone-chat-repair-0001\\original-adb\\m4-emulator-repair-diagnostics.png",
+      "sha256": "e08f64dbca111c340682323e65bade2f25361af7bfc7e9d5b10a4da5e6e39eb5",
+      "review": "Physical Samsung dark chat with Completed query diagnostics heading visible above composer. Numeric/backend/hash lines are below viewport; this image does not establish their visible rendering. Functional trace metadata is separately asserted/recorded; targeted U2 metrics capture remains."
+    }
+  ],
+  "accepted_final_review": "Inspect/remove puncture debris before valve alignment; seat both beads using plastic levers; slow inflation/check bead; no invented PSI. Each claim supported by exact canonical digest4eea33... Scope after tube removal, not complete wheel/brake reinstall or calibrated repair competence.",
+  "observations": [
+    {
+      "id": "same-repair-before-import",
+      "question": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "expected": "NO_ACTIVE_PACK",
+      "actual": "NO_ACTIVE_PACK",
+      "final_text": null,
+      "emitted_tokens": 0,
+      "result_id": "a27ce7b1-e28e-44ee-85cc-2bf4731a0cb3",
+      "sources": []
+    },
+    {
+      "id": "same-repair-after-verified-import",
+      "question": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "expected": "ANSWER_ACCEPTED",
+      "actual": "ANSWER_ACCEPTED",
+      "final_text": "After removing the bicycle inner tube, you must inspect both tire surfaces and remove any debris that caused the puncture [S1]. Then, insert the replacement tube and align the valve stem with the rim hole [S1]. Reinstall the tube by seating one tire bead, then seat the other using plastic tire levers [S1]. Finally, inflate slowly while checking that the bead is properly seated [S1]. Note that the procedure does not provide an exact inflation pressure specification [S1].",
+      "emitted_tokens": 352,
+      "result_id": "aa86f3ce-3f4b-49e2-94ae-46b54228eb66",
+      "sources": [
+        {
+          "evidence_id": "S1",
+          "canonical_sha256": "4eea33f8f4a1ce9e319d9298d8b4adc5b30eefc3142d25e36fe20152a1f381c2",
+          "manifest_sha256": "5cc28d05fe7a41ce0c258c8acbd5eecadd160bffd7f7ec257bfd443a817074da"
+        }
+      ]
+    },
+    {
+      "id": "long-guide-cap-fails-closed",
+      "question": "My Framework Laptop 12 fan is dirty and noisy. How do I remove, clean, and reinstall it? Give an ordered guide including preparation and reassembly.",
+      "expected": "GENERATION_UNUSABLE",
+      "actual": "GENERATION_UNUSABLE",
+      "final_text": null,
+      "emitted_tokens": 512,
+      "result_id": "92749227-6b97-481f-bd86-4a0dfa62cb20",
+      "sources": []
+    },
+    {
+      "id": "undocumented-inflation-abstention",
+      "question": "What exact PSI should I inflate this bicycle inner tube to?",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "actual": "INSUFFICIENT_EVIDENCE",
+      "final_text": null,
+      "emitted_tokens": 220,
+      "result_id": "07ea4671-653d-42ba-8784-04aa0b6a1f77",
+      "sources": []
+    },
+    {
+      "id": "same-repair-after-deactivation",
+      "question": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "expected": "NO_ACTIVE_PACK",
+      "actual": "NO_ACTIVE_PACK",
+      "final_text": null,
+      "emitted_tokens": 0,
+      "result_id": "a46690f5-ba45-4592-8487-2a6be079bbcd",
+      "sources": []
+    }
+  ],
+  "controls": "same question before/after signed import/deactivation, cap rejection, absent PSI, owned earlier source/recreation/New chat,51 original public file hashes preserved",
+  "window": "Announced eight minutes19:22:13UTC; original class517.925s naturally finished19:31:09UTC, beyond window by56s. No additional UI launch, current running class allowed to finish. Owner explicitly released. No subsequent physical launch authorized.",
+  "missing": "Visible numeric diagnostics/current complete U2/policy/candidate promotion acceptance remain."
+}

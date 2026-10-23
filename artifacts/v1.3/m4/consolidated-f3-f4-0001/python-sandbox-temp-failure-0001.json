@@ -1,0 +1,6 @@
+{
+  "status": "ENVIRONMENT_FAILURE_PYTEST_PRIVATE_TEMP_INACCESSIBLE_NOT_LOGIC_PASS_OR_FAIL",
+  "recorded_utc": "2026-10-12T01:52:14.536943+00:00",
+  "observed_progress": "EE.E; final cleanup PermissionError WinError5 on exact boundary-pytest-temp; targeted Get-Acl also unauthorized",
+  "scope": "The first unredirected tool invocation did not produce a retained complete JUnit/byte-exact stdout artifact; original output remains in the tool transcript. No product assertion diagnosis or completion inferred. Sealed known temp root will not be traversed/read/hash-exported/deleted. Rerun with normal Windows user privileges in a new versioned directory preserves actual pytest/application ACL behavior rather than patching tests/mkdir permissions."
+}

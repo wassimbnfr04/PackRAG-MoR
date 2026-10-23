@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\selection-gate-0002\verify_selection.py", line 83, in main
+    try:record=verify(run)
+               ^^^^^^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\selection-gate-0002\verify_selection.py", line 44, in verify
+    assert row['actual_tokenizer']=={k:v for k,v in case['actual_tokenizer'].items() if k!='representations'}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

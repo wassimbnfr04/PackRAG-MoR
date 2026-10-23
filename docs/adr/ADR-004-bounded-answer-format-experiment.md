@@ -1,0 +1,11 @@
+# ADR-004: bounded answer formatting experiment
+
+Status: experimental only, not product policy acceptance.2026-10-12.
+
+Evidence: frozen repair-skills-desktop-0001 produced one accepted supported response out of eight, four correct negative controls and seven rejected procedural responses. Six supported responses emitted512 tokens. Three unchanged-question final-only diagnostics confirmed server stop_type=limit, partial final instructions and uncited headings/introduction; input truncated=false did not mean generation finished. Android already rejects limit stops. Desktop must match that contract; this correctness repair does not change the prompt/budget/model.
+
+v1.3 specifies the seven-line actual system role and a512 total reasoning+final cap. Do not silently increase the cap, remove reasoning, loosen paragraph citations, add citations after generation, rewrite the user's question or use a question-specific answer cache. Those would hide the demonstrated limitation. Test a separately identified additional general system-format policy asking for brief reasoning and complete concise cited steps. The original seven-line evidence/security policy remains literal and precedes the candidate. Frozen facts/questions/selection/model/template/sampling/context are unchanged. This is an explicit deviation from the literal v1.3 system message, not an accepted v1.3 result.
+
+The candidate is artifacts/v1.3/m4/chat-and-repair-0001/compact-policy-candidate-0001.txt, frozen and hashed before pilot inference. Pilot uses three existing representative questions, without changing their expected facts. If ineffective, retain failures and do not promote. If effective, require the complete original repair benchmark, frozen generator/adversarial/abstention regression, desktop/Android serialization and output parity, actual Android smoke and resource evidence before any product promotion. Semantic review must reject omitted prerequisites, incorrect order or invented specifications even if citation syntax passes. Experimental success is not production calibration or held-out general competence.
+
+Pilot outcome: failed. Both long guides exhausted512 and the short tools answer lacked a cited paragraph. No promotion. Owner subsequently authorized the separately versioned revision in ADR-005; this failed pilot remains immutable evidence.

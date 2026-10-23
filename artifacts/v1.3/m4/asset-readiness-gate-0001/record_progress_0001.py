@@ -1,0 +1,18 @@
+"""Document actual resumed work while the corrected background test remains running."""
+import json
+from datetime import datetime,timezone
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[4];HERE=Path(__file__).parent
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+target=HERE/'resumed-progress-0001.json';assert not target.exists()
+assert read(HERE/'corrected-pair-preflight.json')['status']=='PASS_CORRECTED_F1_MATCHED_HOST_PAIR_NOT_DEVICE_ACCEPTANCE'
+assert read(HERE/'hardlink-setup-failure.json')['status'].startswith('FAIL_TWO_ACTUAL_HARDLINK')
+now=datetime.now(timezone.utc).isoformat()
+note=f'F1 resumed progress at {now}: exact paused checkpoint/public source/E3 evidence verified and authorized Samsung connected. Failed-query missing/corrupt observations now survive session recovery with original check timestamps. First0055 host62 passes; device0001 finishes3 methods/2 hardlink-setup failures20.859s, completed negative method/five cases original saved separately, overall FAIL immutable. Repair changes only two test helpers: independently owned real-model copies with StatFs space guard, and no-follow UI owner traversal. Corrected debug0056/demo0057 match579 source inputs,62 host methods each, approved trust pin and no INTERNET permission; debug whole product APK is byte-identical0055. Device-local-assets-0002 core retry is RUNNING with actual TestRunner PID7619/start14:26:42; no passing terminal result yet. New API/policy/native/ViewModel originals and adjacent regressions, owner-authorized five-minute foreground/actual PNG inspection, exact parity/custody and closure/checkpoint are required before F2. No final knowledge authoring; mobile data preserved. Source bytes remain frozen while tests run; no product/milestone acceptance is inferred from progress.'
+target.write_text(json.dumps(dict(status='RUNNING_F1_CORRECTED_CORE_NOT_ACCEPTANCE',recorded_utc=now,note=note,
+    latest_owner_ui_reply='Yes, announce when it starts',limits='TestRunner raw timestamp timezone is not independently established. UTC timestamps on manifests use host UTC; display dates use owner Africa/Casablanca.'),indent=2)+'\n',encoding='utf-8')
+for name in ['STATUS.md','PLAN.md']:
+    p=ROOT/name;heading,rest=p.read_text(encoding='utf-8').split('\n',1);p.write_text(heading+'\n\n'+note+'\n\n'+rest,encoding='utf-8')
+for name in ['DECISIONS.md','docs/v1.3/FULL_DOCUMENTATION_WORKING.md','docs/v1.3/M4_IMPLEMENTATION_LOG.md']:
+    with (ROOT/name).open('a',encoding='utf-8') as stream:stream.write('\n\n'+note+'\n')
+print('F1_PROGRESS_DOCUMENTED_NOT_ACCEPTANCE')

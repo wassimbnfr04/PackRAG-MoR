@@ -1,0 +1,90 @@
+{
+  "purpose": "M2_DEVELOPMENT_SMOKE_NOT_FULL_G0_OR_SEMANTIC_REVIEW_OR_PACKBENCH",
+  "source_sha256": "b5a3cff4d3b05274b3fed2409c03b69bab0ffbd1e2bdb144b8f8560b248896d1",
+  "criterion": "Same bounded expected-fact substring check as M1, plus structural citation/source/state assertions. Full original expected facts are retained separately.",
+  "supported": [
+    {
+      "case_id": "G0-D01",
+      "question": "What is the maximum continuous operating temperature of the Aster-9?",
+      "original_expected_facts": [
+        "74 °C"
+      ],
+      "smoke_expected_fact": "74"
+    },
+    {
+      "case_id": "G0-D02",
+      "question": "How often does the NexoFlow M4 require preventive service?",
+      "original_expected_facts": [
+        "600 operating hours"
+      ],
+      "smoke_expected_fact": "600"
+    },
+    {
+      "case_id": "G0-D03",
+      "question": "What battery chemistry does the Helix-R use?",
+      "original_expected_facts": [
+        "lithium iron phosphate / LiFePO4"
+      ],
+      "smoke_expected_fact": "LiFePO4"
+    },
+    {
+      "case_id": "G0-D04",
+      "question": "How does the QuantaGate Q7 indicate a successful self-test?",
+      "original_expected_facts": [
+        "three blue flashes"
+      ],
+      "smoke_expected_fact": "three"
+    },
+    {
+      "case_id": "G0-D05",
+      "question": "What closing torque is specified for the Meridia V3 isolation-valve stem nut?",
+      "original_expected_facts": [
+        "18 N·m"
+      ],
+      "smoke_expected_fact": "18"
+    },
+    {
+      "case_id": "G0-D06",
+      "question": "What relative-humidity range is allowed when storing the DeltaCell D2?",
+      "original_expected_facts": [
+        "20% to 60%"
+      ],
+      "smoke_expected_fact": "20%"
+    },
+    {
+      "case_id": "G0-D07",
+      "question": "How is recovery mode entered on the Solace V2?",
+      "original_expected_facts": [
+        "hold RESET",
+        "8 seconds",
+        "while power is applied"
+      ],
+      "smoke_expected_fact": "8"
+    },
+    {
+      "case_id": "G0-D08",
+      "question": "What maximum load is the Orion-R12 relay rated for at 24 V DC?",
+      "original_expected_facts": [
+        "12 A"
+      ],
+      "smoke_expected_fact": "12"
+    },
+    {
+      "case_id": "G0-D09",
+      "question": "What mesh size is used by the Vanta-P8 intake filter?",
+      "original_expected_facts": [
+        "80 micrometres"
+      ],
+      "smoke_expected_fact": "80"
+    },
+    {
+      "case_id": "G0-D10",
+      "question": "What gas and purity are specified for zero calibration of the Kestrel-K1?",
+      "original_expected_facts": [
+        "nitrogen",
+        "99.999%"
+      ],
+      "smoke_expected_fact": "99.999%"
+    }
+  ]
+}

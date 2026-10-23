@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-10-10T14:46:50.101824+00:00",
+  "status": "RUNNER_PREFLIGHT_FAILED_BEFORE_DEVICE_COMMAND_NO_PHONE_TEST_RUN",
+  "cause": "Retry was invoked before async debug0035 build completed; build-result.json did not yet exist. Waited for actual successful completion before fresh0003.",
+  "no_test_killed": true,
+  "product_code_changed": false,
+  "old_runner_sha256": "1dea97b946b6a08afc49b23fa1194b950cf97647cd87bea6b5a574efc6be48cd",
+  "new_runner_sha256": "5bff67df204254e88ed3520be2576ec9d4a9dd3433f00cbe0c275798fff80945",
+  "prior_run": "device-ui-query-0002",
+  "new_run": "device-ui-query-0003",
+  "scheduling": "Demo0036 was started while the last debug0035 build tasks were finishing. Both use frozen identical sources and separate variant outputs; compare complete input/APK identities. Subsequent Gradle jobs must be sequential."
+}

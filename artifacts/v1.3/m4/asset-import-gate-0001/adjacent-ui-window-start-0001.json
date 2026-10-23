@@ -1,0 +1,16 @@
+{
+  "status": "AUTHORIZED_ANNOUNCED_UI_WINDOW_STARTED_NOT_TEST_ACCEPTANCE",
+  "started_utc": "2026-10-11T21:01:58.119747+00:00",
+  "launch_deadline_utc": "2026-10-11T21:21:58.119747+00:00",
+  "authorization_sha256": "27a76fda222228f017abda16afd3a487989c941c1b8d54d4e8ca18ddbf200ed9",
+  "background_sha256": "fc56067a25c92e1f3d86326fae6fb7fa1c630057d278bc9d6febcd1dbc6a0aa7",
+  "build": "build-0076",
+  "selections": [
+    "management",
+    "query",
+    "sources",
+    "diagnostics",
+    "assets"
+  ],
+  "scope": "Owner agreed20-minute unlocked/untouched window; announce actual start. No new UI class starts after this deadline without renewed explicit authorization; an already-running class may finish. Mobile data stays on. All five actual original reports/PNGs and visible-scope reviews required separately. No installation/source edits during window."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "DEMO_PACKAGED_PRODUCTION_POLICY_INSPECTION_PASS_NOT_DEVICE_ACCEPTANCE",
+  "apk_sha256": "b98e8a7214d3eafe823fefa16369a7b9068b64b819b683a9b99ea686d606adc5",
+  "native_jni_sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef",
+  "development_keys_absent": true,
+  "debug_crash_probe_absent": true,
+  "no_internet_permission": true,
+  "approved_store_matches": true,
+  "private_key_file_entries": 0,
+  "instrumentation_debuggable": true,
+  "final_release": false,
+  "host_summary": {
+    "status": "HOST_TEST_METHODS_PASSED",
+    "note": "Inspect each XML for fixture/case counts; build-only success is not milestone completion. XML for unchanged modules may be from an UP-TO-DATE task; log records task execution.",
+    "test_methods": 16
+  }
+}

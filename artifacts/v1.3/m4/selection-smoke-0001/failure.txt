@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_selection_smoke.py", line 78, in main
+    assert result['state']==expected,identity
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: atomic-last

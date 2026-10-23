@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "id": "calibration-schema-only",
+      "filename": "calibration-schema-only.kpack",
+      "accept_production": true,
+      "error_contains": null,
+      "sha256": "eb1d477f32e60ce97784320994d473690dd97ff4d13b49d921c93aad82b58011",
+      "manifest_sha256": "da063519398922758871d9a42bb1fc8597a198c8da8eba27c1ef01806082c5af"
+    },
+    {
+      "id": "known-publisher-uncalibrated",
+      "filename": "known-publisher-uncalibrated.kpack",
+      "accept_production": false,
+      "error_contains": "Uncalibrated pack requires developer mode",
+      "sha256": "63aaa86ea258edd9e46fc3234e717520e576b2152288a1b9862bc04b824f7338",
+      "manifest_sha256": "7e64c8e1f35407cd950569210d4b29f60d6f5904ca2a9f5dc61d39d0dd5659e1"
+    },
+    {
+      "id": "unknown-publisher",
+      "filename": "unknown-publisher.kpack",
+      "accept_production": false,
+      "error_contains": "Unknown signer or invalid signature",
+      "sha256": "2b61d7524ec9e42edea20b7796e9070d45294c3ce0165fec4b36f9191ffb4feb",
+      "manifest_sha256": "da063519398922758871d9a42bb1fc8597a198c8da8eba27c1ef01806082c5af"
+    },
+    {
+      "id": "pack-cannot-add-key",
+      "filename": "pack-cannot-add-key.kpack",
+      "accept_production": false,
+      "error_contains": "Manifest fields mismatch",
+      "sha256": "f23ab871d1cd95a5d9ac7d5c60ab79d8b318f95db9500f7c8b70c8c3314c605b",
+      "manifest_sha256": "84c45e862c38eb50e7a3c761f8dcb7af51fd9df9aea476befb432cfbab7d191a"
+    },
+    {
+      "id": "claimed-key-mismatch",
+      "filename": "claimed-key-mismatch.kpack",
+      "accept_production": false,
+      "error_contains": "Signer/key_id mismatch",
+      "sha256": "8bd6504e94f6dbd2ac04515352d404ba0e2d4c1f19761a5f63e25fa7c9c76dcd",
+      "manifest_sha256": "b59431391787977b67d9a1b91d3a4eb60e5109b20dae3e52a31961cd215a2b72"
+    }
+  ],
+  "approved_store_sha256": "2bf01e87216790babca17fd0990731cf57a3877430a9662642a0f5e0d99c87a5",
+  "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+  "purpose": "SYNTHETIC_RELEASE_TRUST_AND_CALIBRATION_SCHEMA_ONLY_NOT_REAL_CALIBRATION",
+  "private_seed": "LOCAL_CUSTODY_NOT_EXPORTED",
+  "ephemeral_unknown_seed": "NOT_SAVED",
+  "script_sha256": "9747218804cb68ccefd5b45588eae80c5db8bac0b5313840449e0ade4ecfa09d"
+}

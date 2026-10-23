@@ -1,0 +1,27 @@
+{
+  "status": "PASS_F1_ORIGINAL_ASSET_SCREEN_TESTED_VIEWPORT",
+  "recorded_utc": "2026-10-11T15:29:23.117985+00:00",
+  "original_png_sha256": {
+    "m4-local-assets-generator.png": "ff953502ae52a6a5591539e263e9fa2fb515ab9886059f1df65e1c9236136fe5",
+    "m4-local-assets-encoder.png": "bc0ebb284bd2c57dfd7ba9c3ee110455ac132b486924f9f64b804909f8a6ddb2"
+  },
+  "original_png_dimensions": {
+    "m4-local-assets-generator.png": [
+      1080,
+      2316
+    ],
+    "m4-local-assets-encoder.png": [
+      1080,
+      2316
+    ]
+  },
+  "original_report_sha256": "123327110fdbb5ca6b7d29de32e7e055f168e2cbc724ca19b61c471c854a18b9",
+  "inspection": "Both exact original-adb PNGs displayed and manually inspected using view_image(detail=original) in this task after actual UI success. No image generation, crop, relayout or substitute screenshot.",
+  "visible_fields": {
+    "m4-local-assets-generator.png": "App/local-processing text, asset-page/back/check controls, configured-versus-last-completed guidance, generator label/path, VERIFIED guidance, full expected/observed1593894944-byte sizes, full wrapped generator SHA256 and completed UTC timestamp. The following template label/path also appear.",
+    "m4-local-assets-encoder.png": "Scrolled page: full template label/path/status, expected/observed5443-byte sizes, complete wrapped template SHA and timestamp; full tokenizer label/path/status, expected/observed25301672-byte sizes, complete wrapped tokenizer SHA and timestamp; encoder label/path and VERIFIED guidance. Encoder size/hash/timestamp continue below this captured viewport and are not claimed visually inspected."
+  },
+  "scope": "Visible text and wrapped pins are readable without horizontal ellipsis or system-navigation overlap in these exact two viewports. Normal content extends above/below a vertical-scroll viewport. This is not a full-page capture or proof of every encoder field, all screen/font/rotation configurations or global accessibility. Four-file encoder identity and actual model/answer behavior are independently established by completed core/UI assertions, not by unseen pixels. Five UI controls and real74C/[S1] answer pass; policy/restoration/final guards/closure still required.",
+  "raw_reasoning_persisted": false,
+  "mobile_data_preserved": true
+}

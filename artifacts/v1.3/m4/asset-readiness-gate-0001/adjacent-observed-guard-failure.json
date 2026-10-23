@@ -1,0 +1,24 @@
+{
+  "status": "OBSERVED_ADJACENT_OWNER_GUARD_FAILURE_CURRENT_SUITE_STILL_RUNNING",
+  "recorded_utc": "2026-10-11T14:57:14.485745+00:00",
+  "observation_file": "artifacts/v1.3/m4/asset-readiness-gate-0001/progress/device-local-assets-adjacent-0001/20261011T145416821576Z.json",
+  "observation_sha256": "079efdee2fd32b215fbd1b63b3233619dae74cd2a46b994976891c8a1eed3ef5",
+  "observed_failure": "QueryControlsDeviceTest.withModel guard equality at line43 after runtime body; full terminal stdout/map diff required.",
+  "foreground": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "shell",
+      "dumpsys",
+      "activity",
+      "activities"
+    ],
+    "returncode": 0,
+    "classification": [
+      "OTHER_OR_UNRESOLVED_COMPONENT"
+    ],
+    "limit": "Only component classification is saved; other app titles/URIs and unrelated task details are discarded. This later foreground observation is not causal proof of the earlier guard change."
+  },
+  "next": "Finish current suite, preserve terminal FAIL and passing originals, compare current owner guards and registry bytes; no new phase, APK switch or source edit before this suite finishes."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "pack": "a-strict",
+    "original_sha256": "5b31e4b71a2c9e694378f6422fdcb2828221316e3fea3bb1f8b78bfebc99bbfb",
+    "input": "Aster-9\nthermal\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "b-lenient",
+    "original_sha256": "90ae5c4ff34f1e4af87c066b13e1a8af82c63f2bcc0a7de16ffa637d5a9b86d3",
+    "input": "Aster-9\nthermal\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "c-uncal",
+    "original_sha256": "f41c6434862a95397f5d3fd9f56fe3d2d20cddee60af5ad5270decc457f6dcbb",
+    "input": "Aster-9\nthermal\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "d-lenient",
+    "original_sha256": "f72fcd17c8bc94fbb8c5e0e67676a695c17421b2eabc5d81859debeca342064f",
+    "input": "Aster-9\nthermal\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "e-legacy",
+    "original_sha256": "0b7ded83a85f6aa9dddc3a0fb04980b10166437d81aabd740fc3c577300e59f9",
+    "input": "Aster-9\nthermal\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "f-exact",
+    "original_sha256": "c827060573eca58d505d4fcde45d1dae2ce393590c18f5caa5d59256982c1865",
+    "input": "Aster-9\nthermal\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "g-exact-uncal",
+    "original_sha256": "e268adeda77818798cb42e4798cd6fad03fa69bc4447b00a466001375494c2d3",
+    "input": "Aster-9\nthermal\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "i-duplicate-lenient",
+    "original_sha256": "5b31e4b71a2c9e694378f6422fdcb2828221316e3fea3bb1f8b78bfebc99bbfb",
+    "input": "Aster-9\nthermal\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  }
+]

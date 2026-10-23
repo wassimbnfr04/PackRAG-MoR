@@ -1,0 +1,23 @@
+{
+  "status": "RUNNING",
+  "cases": [
+    {
+      "id": "M2-NO-PACK",
+      "passed": true,
+      "state": "NO_ACTIVE_PACK",
+      "answer": null,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "actual_emitted_tokens_including_terminal": 0,
+      "reasoning_tokens": null,
+      "final_and_terminal_tokens": null,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "first_model_token_ms_including_hidden_reasoning": null,
+      "question_wall_ms_including_lazy_initialization": 2.93625,
+      "lazy_initialization_ms": 0,
+      "sources": []
+    }
+  ]
+}

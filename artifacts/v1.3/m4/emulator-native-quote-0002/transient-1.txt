@@ -1,0 +1,13 @@
+Tasks: 335 total,   2 running, 333 sleeping,   0 stopped,   0 zombie
+  Mem:  6072516K total,  5606028K used,   466488K free,    43336K buffers
+ Swap:  4554380K total,   383780K used,  4170600K free,  3882380K cached
+200%cpu 155%user   0%nice  10%sys  29%idle   0%iow   6%irq   0%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+ 9145 u0_a216      20   0  17G 1.8G 1.6G S  138  31.2   3:41.30 org.packrag.product
+ 9246 u0_a172      20   0  16G 140M  81M R 12.9   2.3   0:00.13 com.google.android.apps.docs
+ 9262 shell        20   0  10G 5.1M 4.2M R  3.2   0.0   0:00.04 top -b -n 1 -m 8
+ 9035 root         20   0    0    0    0 I  3.2   0.0   0:00.26 [kworker/1:0-virtio_vsock]
+ 2090 u0_a144      20   0  16G 239M 184M S  3.2   4.0   0:11.26 com.google.android.apps.messaging
+  653 system       18  -2  18G 440M 264M S  3.2   7.4   4:39.44 system_server
+  468 system       20   0  10G 6.8M 5.8M S  3.2   0.1   2:04.34 android.hardware.sensors-service.multihal
+ 9230 u0_a217      20   0  16G 125M  67M S  0.0   2.1   0:00.39 org.packrag.product.test

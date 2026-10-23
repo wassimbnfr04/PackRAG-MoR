@@ -1,0 +1,34 @@
+{
+  "id": "optional-oversize",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "admission": "NO_RELEVANT_EVIDENCE",
+  "actual_tokenizer": {},
+  "max_embedding_abs_error": 0.0,
+  "selection": {
+    "keys": [],
+    "decisions": [
+      {
+        "key": "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#78e38b4f176be01967256951",
+        "reason": "TOKEN_CAP",
+        "trial": [
+          "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#78e38b4f176be01967256951"
+        ],
+        "representative": null,
+        "evidence_tokens": 2061,
+        "prefill_tokens": 2233
+      },
+      {
+        "key": "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#3cd3e857ee701fd360163b22",
+        "reason": "SELECTED",
+        "trial": [
+          "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#3cd3e857ee701fd360163b22"
+        ],
+        "representative": null,
+        "evidence_tokens": 56,
+        "prefill_tokens": 228
+      }
+    ],
+    "sources": [],
+    "admission": "NO_RELEVANT_EVIDENCE"
+  }
+}

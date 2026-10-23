@@ -1,0 +1,780 @@
+{
+  "case_id": "M1-EXACT-NOT-SUFFICIENT",
+  "passed": true,
+  "expected_state": "INSUFFICIENT_EVIDENCE",
+  "result": {
+    "state": "INSUFFICIENT_EVIDENCE",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What is the Aster-9 controller purchase price?",
+      "as_of": "2026-10-05",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what is the aster-9 controller purchase price?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.development.walking-skeleton",
+        "0.1.0",
+        "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 10.270400000081281,
+      "retrieval_ms": 1.7934999996214174,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 431,
+        "prompt_ms": 4440.912,
+        "prompt_per_token_ms": 10.303740139211138,
+        "prompt_per_second": 97.05213703851821,
+        "predicted_n": 261,
+        "predicted_ms": 9724.79,
+        "predicted_per_token_ms": 37.403038461538465,
+        "predicted_per_second": 26.735795837236587,
+        "host_generation_wall_ms": 14199.445899999773,
+        "emitted_token_count": 261,
+        "reasoning_token_count": 252,
+        "final_and_terminal_token_count": 9,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 14495.884300000398
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "29e38c9e841a0cd8d92a090c",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.8697232007980347,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "exact": false,
+        "sparse_rank": 2,
+        "dense_rank": 5,
+        "dense_cosine": 0.7754385471343994,
+        "rrf": 0.0315136476426799,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "exact": false,
+        "sparse_rank": 4,
+        "dense_rank": 4,
+        "dense_cosine": 0.7761769890785217,
+        "rrf": 0.03125,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "exact": false,
+        "sparse_rank": 7,
+        "dense_rank": 2,
+        "dense_cosine": 0.7802863121032715,
+        "rrf": 0.031054405392392875,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "3c0d779d818604ab90126609",
+        "exact": false,
+        "sparse_rank": 3,
+        "dense_rank": 9,
+        "dense_cosine": 0.7682595252990723,
+        "rrf": 0.03036576949620428,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "a7b2ed8ce984da406426ebf4",
+        "exact": false,
+        "sparse_rank": 10,
+        "dense_rank": 3,
+        "dense_cosine": 0.7764286398887634,
+        "rrf": 0.030158730158730156,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "exact": false,
+        "sparse_rank": 6,
+        "dense_rank": 7,
+        "dense_cosine": 0.7742690443992615,
+        "rrf": 0.03007688828584351,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "exact": false,
+        "sparse_rank": 5,
+        "dense_rank": 10,
+        "dense_cosine": 0.7579314112663269,
+        "rrf": 0.02967032967032967,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "d46745e3c80bd1ed8f10d062",
+        "exact": false,
+        "sparse_rank": 9,
+        "dense_rank": 6,
+        "dense_cosine": 0.7744460701942444,
+        "rrf": 0.02964426877470356,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "exact": false,
+        "sparse_rank": 8,
+        "dense_rank": 8,
+        "dense_cosine": 0.7699284553527832,
+        "rrf": 0.029411764705882353,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc",
+        "chunk_id": "29e38c9e841a0cd8d92a090c",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "relevant": true,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "language": "en",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "id": "S2",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+          "language": "en",
+          "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "id": "S3",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+          "language": "en",
+          "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      },
+      {
+        "id": "S4",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "text_sha256": "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The Helix-R battery module uses lithium iron phosphate (LiFePO4) cells.",
+          "language": "en",
+          "text_sha256": "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:0938c577ea2b9d992a64948a2a02b5a78c5bb173e6286c0e676e5cd2bccf17f1",
+          "relations": []
+        }
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 431,
+      "evidence": 262,
+      "max_new": 512
+    },
+    "selection": {
+      "keys": [
+        "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+        "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+        "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+        "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63"
+      ],
+      "decisions": [
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#3c0d779d818604ab90126609",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#3c0d779d818604ab90126609"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#a7b2ed8ce984da406426ebf4",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#a7b2ed8ce984da406426ebf4"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9abaf1b4de3046f329b86f50",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9abaf1b4de3046f329b86f50"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#8f9fd3aa276b3db6c9d1a2f8",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#8f9fd3aa276b3db6c9d1a2f8"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#d46745e3c80bd1ed8f10d062",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#d46745e3c80bd1ed8f10d062"
+          ],
+          "representative": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#5fd03b317e704ba343302583",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#29e38c9e841a0cd8d92a090c",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#9c67bec91097b3a1702b9b63",
+            "org.packrag.development.walking-skeleton@0.1.0:74c5c24341ee5328fc2ea53cc5d53cde855df7b935647cff4103a6a12de11bdc#5fd03b317e704ba343302583"
+          ],
+          "representative": null
+        }
+      ],
+      "sources": [
+        "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+        "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5",
+        "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a"
+      ]
+    },
+    "rejection_reason": null
+  }
+}

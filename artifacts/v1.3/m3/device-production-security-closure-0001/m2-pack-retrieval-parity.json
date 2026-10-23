@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "purpose": "M2_PACK_ACTIVATION_RETRIEVAL_PARITY_NOT_GENERATION_ACCEPTANCE",
+  "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+  "parity_cases": [
+    {
+      "id": "G0-D01",
+      "status": "PASS",
+      "candidate_order": [
+        "29e38c9e841a0cd8d92a090c",
+        "3c0d779d818604ab90126609",
+        "d46745e3c80bd1ed8f10d062",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "9abaf1b4de3046f329b86f50",
+        "4afe79229c74bb1e15fd73c6",
+        "a7b2ed8ce984da406426ebf4",
+        "403598f457b6efe6c0630b5f",
+        "9c67bec91097b3a1702b9b63",
+        "5fd03b317e704ba343302583"
+      ],
+      "max_dense_cosine_error": 9.222634866912216e-08,
+      "embedding_and_retrieval_ms": 57.708321
+    },
+    {
+      "id": "G0-D02",
+      "status": "PASS",
+      "candidate_order": [
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "4afe79229c74bb1e15fd73c6",
+        "9abaf1b4de3046f329b86f50",
+        "5fd03b317e704ba343302583",
+        "403598f457b6efe6c0630b5f",
+        "d46745e3c80bd1ed8f10d062",
+        "9c67bec91097b3a1702b9b63",
+        "a7b2ed8ce984da406426ebf4",
+        "29e38c9e841a0cd8d92a090c",
+        "3c0d779d818604ab90126609"
+      ],
+      "max_dense_cosine_error": 1.0186792465116667e-07,
+      "embedding_and_retrieval_ms": 51.659179
+    },
+    {
+      "id": "G0-D03",
+      "status": "PASS",
+      "candidate_order": [
+        "9c67bec91097b3a1702b9b63",
+        "4afe79229c74bb1e15fd73c6",
+        "d46745e3c80bd1ed8f10d062",
+        "403598f457b6efe6c0630b5f",
+        "a7b2ed8ce984da406426ebf4",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "5fd03b317e704ba343302583",
+        "3c0d779d818604ab90126609",
+        "29e38c9e841a0cd8d92a090c",
+        "9abaf1b4de3046f329b86f50"
+      ],
+      "max_dense_cosine_error": 1.0317211907029389e-07,
+      "embedding_and_retrieval_ms": 41.572461
+    },
+    {
+      "id": "G0-D04",
+      "status": "PASS",
+      "candidate_order": [
+        "5fd03b317e704ba343302583",
+        "403598f457b6efe6c0630b5f",
+        "d46745e3c80bd1ed8f10d062",
+        "29e38c9e841a0cd8d92a090c",
+        "9abaf1b4de3046f329b86f50",
+        "4afe79229c74bb1e15fd73c6",
+        "3c0d779d818604ab90126609",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "a7b2ed8ce984da406426ebf4",
+        "9c67bec91097b3a1702b9b63"
+      ],
+      "max_dense_cosine_error": 4.959337029930566e-08,
+      "embedding_and_retrieval_ms": 47.57289
+    },
+    {
+      "id": "G0-D05",
+      "status": "PASS",
+      "candidate_order": [
+        "4afe79229c74bb1e15fd73c6",
+        "403598f457b6efe6c0630b5f",
+        "9c67bec91097b3a1702b9b63",
+        "9abaf1b4de3046f329b86f50",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "3c0d779d818604ab90126609",
+        "a7b2ed8ce984da406426ebf4",
+        "29e38c9e841a0cd8d92a090c",
+        "5fd03b317e704ba343302583",
+        "d46745e3c80bd1ed8f10d062"
+      ],
+      "max_dense_cosine_error": 1.5323560220714683e-07,
+      "embedding_and_retrieval_ms": 52.617617
+    },
+    {
+      "id": "G0-D06",
+      "status": "PASS",
+      "candidate_order": [
+        "a7b2ed8ce984da406426ebf4",
+        "4afe79229c74bb1e15fd73c6",
+        "403598f457b6efe6c0630b5f",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "29e38c9e841a0cd8d92a090c",
+        "d46745e3c80bd1ed8f10d062",
+        "3c0d779d818604ab90126609",
+        "9abaf1b4de3046f329b86f50",
+        "9c67bec91097b3a1702b9b63",
+        "5fd03b317e704ba343302583"
+      ],
+      "max_dense_cosine_error": 1.7480382519252657e-07,
+      "embedding_and_retrieval_ms": 47.98082
+    },
+    {
+      "id": "G0-D07",
+      "status": "PASS",
+      "candidate_order": [
+        "403598f457b6efe6c0630b5f",
+        "4afe79229c74bb1e15fd73c6",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "a7b2ed8ce984da406426ebf4",
+        "5fd03b317e704ba343302583",
+        "9abaf1b4de3046f329b86f50",
+        "9c67bec91097b3a1702b9b63",
+        "3c0d779d818604ab90126609",
+        "29e38c9e841a0cd8d92a090c",
+        "d46745e3c80bd1ed8f10d062"
+      ],
+      "max_dense_cosine_error": 6.767587912293038e-08,
+      "embedding_and_retrieval_ms": 41.720078
+    },
+    {
+      "id": "G0-D08",
+      "status": "PASS",
+      "candidate_order": [
+        "3c0d779d818604ab90126609",
+        "4afe79229c74bb1e15fd73c6",
+        "29e38c9e841a0cd8d92a090c",
+        "d46745e3c80bd1ed8f10d062",
+        "9c67bec91097b3a1702b9b63",
+        "403598f457b6efe6c0630b5f",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "a7b2ed8ce984da406426ebf4",
+        "9abaf1b4de3046f329b86f50",
+        "5fd03b317e704ba343302583"
+      ],
+      "max_dense_cosine_error": 1.9766570569235142e-07,
+      "embedding_and_retrieval_ms": 50.636172
+    },
+    {
+      "id": "G0-D09",
+      "status": "PASS",
+      "candidate_order": [
+        "9abaf1b4de3046f329b86f50",
+        "4afe79229c74bb1e15fd73c6",
+        "5fd03b317e704ba343302583",
+        "d46745e3c80bd1ed8f10d062",
+        "3c0d779d818604ab90126609",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "a7b2ed8ce984da406426ebf4",
+        "403598f457b6efe6c0630b5f",
+        "29e38c9e841a0cd8d92a090c",
+        "9c67bec91097b3a1702b9b63"
+      ],
+      "max_dense_cosine_error": 1.0600960098638978e-07,
+      "embedding_and_retrieval_ms": 43.344648
+    },
+    {
+      "id": "G0-D10",
+      "status": "PASS",
+      "candidate_order": [
+        "d46745e3c80bd1ed8f10d062",
+        "29e38c9e841a0cd8d92a090c",
+        "4afe79229c74bb1e15fd73c6",
+        "3c0d779d818604ab90126609",
+        "a7b2ed8ce984da406426ebf4",
+        "9abaf1b4de3046f329b86f50",
+        "5fd03b317e704ba343302583",
+        "9c67bec91097b3a1702b9b63",
+        "403598f457b6efe6c0630b5f",
+        "8f9fd3aa276b3db6c9d1a2f8"
+      ],
+      "max_dense_cosine_error": 4.150698462712654e-08,
+      "embedding_and_retrieval_ms": 49.089726
+    }
+  ],
+  "negative_cases": [
+    {
+      "case": "unknown-signing-key",
+      "status": "PASS",
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "case": "uncalibrated-production-import",
+      "status": "PASS",
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "case": "tampered-manifest.sig",
+      "status": "PASS",
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "case": "tampered-dense.kdx",
+      "status": "PASS",
+      "rejection_class": "java.lang.IllegalArgumentException"
+    }
+  ],
+  "registry_restart_verified": true,
+  "original_archive_unchanged": true,
+  "validated_original_database_unchanged": true
+}

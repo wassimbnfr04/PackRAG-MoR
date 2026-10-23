@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-12T22:56:43.188682+00:00",
+  "scope": "Transient process/isolated-test directory observation only; not final acceptance, peak memory, throughput or controlled performance",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "top",
+        "-b",
+        "-n",
+        "1",
+        "-p",
+        "4267"
+      ],
+      "returncode": 0,
+      "stdout": "Tasks: 1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie\r\n  Mem:    10515M total,    10293M used,      221M free,        0M buffers\r\n Swap:    16383M total,     5012M used,    11371M free,     2952M cached\r\n800%cpu 500%user   3%nice 174%sys  48%idle   0%iow  26%irq  48%sirq   0%host\r\n  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS\r\n 4267 u0_a469      20   0  20G 1.6G 1.5G S  329  15.6   6:28.90 org.packrag.product\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "sh",
+        "-c",
+        "ls -d files/m4-native-quote-*"
+      ],
+      "returncode": 0,
+      "stdout": "app_dxmaker_cache\r\ncache\r\ncode_cache\r\nfiles\r\nshared_prefs\r\n",
+      "stderr": ""
+    }
+  ]
+}

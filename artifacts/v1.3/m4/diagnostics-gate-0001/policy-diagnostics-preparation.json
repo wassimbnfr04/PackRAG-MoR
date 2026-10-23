@@ -1,0 +1,29 @@
+{
+  "status": "PREPARED_EXISTING_PUBLIC_APPROVED_SCHEMA_FIXTURE_NOT_EXECUTION_OR_GENUINE_CALIBRATION",
+  "recorded_utc": "2026-10-10T19:30:33.296418+00:00",
+  "fixture": {
+    "id": "calibration-schema-only",
+    "filename": "calibration-schema-only.kpack",
+    "accept_production": true,
+    "error_contains": null,
+    "sha256": "eb1d477f32e60ce97784320994d473690dd97ff4d13b49d921c93aad82b58011",
+    "manifest_sha256": "da063519398922758871d9a42bb1fc8597a198c8da8eba27c1ef01806082c5af"
+  },
+  "case_manifest_sha256": "3ee7c1b69633f8f9190ea44aa2b6d5637b58bc7fac5d51c3cdb39f50c0eb4def",
+  "publisher_key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+  "pack_id": "org.packrag.test.release-policy",
+  "version": "0.0.1+fixture",
+  "independently_retained_question": "What is the maximum continuous operating temperature of the Aster-9?",
+  "independently_retained_answer_value": "74 \u00b0C",
+  "independently_retained_canonical_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+  "controls": [
+    "Compiled demo ALLOW_DEVELOPMENT_PACKS false and no INTERNET; fresh no-active has no constructor/generation claim",
+    "Actual ViewModel import of existing approved schema fixture using build-owned publisher trust",
+    "Actual accepted cold/warm LFM answers with captured manifest/candidates/session pins and same selected evidence identity",
+    "Read-only inspection retains completed answer/trace/id, while inactive mutation clears live attribution",
+    "Jurisdiction-excluded deterministic abstention records no generation and cannot reuse old diagnostic result",
+    "Unapproved developer import rejected without a retained old diagnostic trace or caller trust bypass",
+    "Owner default registries/models/payloads byte-identical within new isolated run"
+  ],
+  "scope": "Plan only. Do not edit frozen0046 Android inputs until current foreground/original/visual result is saved. Existing positive calibration metadata is schema-only. No final content or benchmark acceptance."
+}

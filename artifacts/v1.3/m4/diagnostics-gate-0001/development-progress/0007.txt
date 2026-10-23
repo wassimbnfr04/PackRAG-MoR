@@ -1,0 +1,4 @@
+10-10 20:26:23.302 12346 12392 I TestRunner: run started: 37 tests
+10-10 20:26:23.307 12346 12392 I TestRunner: started: actualColdWarmAndNoPackDiagnosticsKeepOwnedContextAfterReaderClose(org.packrag.product.DiagnosticRuntimeDeviceTest)
+10-10 20:33:20.368 12346 12392 I TestRunner: finished: actualColdWarmAndNoPackDiagnosticsKeepOwnedContextAfterReaderClose(org.packrag.product.DiagnosticRuntimeDeviceTest)
+10-10 20:33:20.388 12346 12392 I TestRunner: started: nativeReplacementCancelRecoveryInspectionAndMutationKeepResultOwnership(org.packrag.product.DiagnosticLifecycleDeviceTest)

@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-10-06T22:17:38.733738+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.PackImportConsentTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m4\\build-0001\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m4\\build-0001\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.PackImportConsentTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "51b08b485cfced47ea52fa14fe4003b32c98885048d2a220ea33f216de39b254",
+    "app-debug-androidTest.apk": "44803abf0c734924cec0d5556b21e14fa34c5ff65d21c95bf425927a300add07"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.PackImportConsentTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackImportConsentTest.kt",
+      "source_sha256": "7de5d03463241c60750c2d9e3a215f22a9c30f5443367b7302fd43227111e9c8"
+    }
+  },
+  "status": "PASS"
+}

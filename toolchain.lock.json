@@ -1,0 +1,181 @@
+{
+  "architecture": "PackRAG-MoR v1.2",
+  "status": "REQUIRED_PHONE_AND_PINNED_EXPORT_GATES_UNMET",
+  "recorded_at_utc": "2026-09-29T23:41:41.488772+00:00",
+  "host_environment": "WINDOWS_NATIVE",
+  "python": "3.12.13",
+  "android": {
+    "jdk": "17.0.20.1+1 Microsoft",
+    "gradle": "9.6.0",
+    "agp": "9.4.0",
+    "kotlin": "2.4.20",
+    "kotlin_compiler_jar_sha256": "cf97161430683fb9af96dc6a7017ffae1fe8737b80d12eee11f2fe3e76f8ded8",
+    "ndk": "30.0.16248370",
+    "cmake": "3.31.1",
+    "min_sdk": 28,
+    "compile_sdk": 37,
+    "target_sdk": 37,
+    "build_tools": "37.0.0",
+    "primary_abi": "arm64-v8a",
+    "sqlite_bundled": "2.7.1",
+    "tink_android": "1.23.0",
+    "internet_permission": false
+  },
+  "onnxruntime": {
+    "desktop": "1.30.0",
+    "mobile_target": "1.30.0",
+    "mobile_embedder_executed": false
+  },
+  "mor": {
+    "repository": "https://github.com/raymin0223/mixture_of_recursions",
+    "repo_commit": "82c97f29cd140efa01f5cc4fe0de73a4c3b6ffd6",
+    "branch": "main",
+    "checkpoint_source": "https://drive.google.com/file/d/1rhTvqLiTPVikY-J-TYdXApYQ80X_cq47/view",
+    "checkpoint_bytes": 330419534,
+    "checkpoint_sha256": "471986c279ea75dbdd0034d4b10f1ee75652a94fe202327c5b437b362c02fc4c",
+    "config_sha256": "8e5f14f99693d2ad597509d23316eef20a96d88ca0cc9d97f55fb29747331591",
+    "training_config_sha256": "101b4f78e0c103081217e2e884a353d66630d828e6c4f83c79df8292f3c6f1e9",
+    "tokenizer_sha256": "5b828199aaa40d7e4aa339aef7a8ce83b5913852b48b2f91e48248dce6869e63",
+    "tokenizer_hashes": {
+      "special_tokens_map.json": "847a47bace54f9f5e1eaade1c5584a917c2d4bd8ae382c2779d0d4a7f5677087",
+      "tokenizer.json": "7d27c493c729a66ecefc837280b05d948b1ed50d130eebdbf911b1b36cf38ed7",
+      "tokenizer_config.json": "ca33161368e2e6a888e70385e5475ba8787b41befbeb0061ecfa25c7417187e9",
+      "vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+    },
+    "torch": "2.6.0+cu124",
+    "torch_commit": "2236df1770800ffea5697b11b0bb0d910b2e59e1",
+    "transformers": "4.52.4",
+    "cuda_runtime": "12.4",
+    "attention_backend": "eager",
+    "precision": "bf16",
+    "generation_implementation": "full_prefix_reference"
+  },
+  "executorch": {
+    "version": "1.5.0",
+    "source_commit": "f7140a46ff38e919c557d45b102d3ff26097c8c9",
+    "android_runtime_commit": null,
+    "pytorch_source_ref": "release/2.14",
+    "pytorch_required_commit": "41ffbc4a994e058af9fe00ed5caba73fc1033359",
+    "pytorch_diagnostic_version": "2.14.0+cpu",
+    "pytorch_diagnostic_commit": "08187d9e0fba026dc8217405802ab5381dc88d90",
+    "pin_matches": false,
+    "diagnostic_substitution_adopted": false,
+    "exact_target_status": "BLOCKED"
+  },
+  "granite": {
+    "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+    "revision": "835ad14087e140460703cf0fae09f97d469d65c2",
+    "embedding_profile": {
+      "profile_id": "granite97m-multi-r2-384-v1",
+      "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+      "model_revision": "835ad14087e140460703cf0fae09f97d469d65c2",
+      "model_sha256": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+      "tokenizer_hashes": {
+        "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+        "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5"
+      },
+      "dimension": 384,
+      "dtype": "float32",
+      "normalized": true,
+      "metric": "cosine",
+      "runtime": "onnxruntime-mobile-cpu",
+      "pooling": {
+        "word_embedding_dimension": 384,
+        "pooling_mode_cls_token": true,
+        "pooling_mode_mean_tokens": false,
+        "pooling_mode_max_tokens": false,
+        "pooling_mode_mean_sqrt_len_tokens": false,
+        "pooling_mode_weightedmean_tokens": false,
+        "pooling_mode_lasttoken": false,
+        "include_prompt": false
+      },
+      "max_input_length": 512,
+      "input_construction": "title + newline + locator + newline + canonical_text"
+    },
+    "artifact_hashes": {
+      "model.safetensors": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+      "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+      "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5",
+      "config.json": "de948b0bdc6f356afad7a84b276d8dd7e7fe10fb9add1bb5e610621c28e41ebc",
+      "1_Pooling/config.json": "8bc5c9a40814fcf48d2fbe7cfeff4bee6736c3c2a823ba0ce098985c59d12ab7"
+    }
+  },
+  "smollm2": {
+    "model_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+    "quantization": "F16",
+    "gguf_sha256": "4723b60dcc23b06f59c356e979c26e9f417195056eb60ecbbb6d95f78eb8cdd7",
+    "gguf_bytes": 725553600,
+    "official_chat_template_preserved": true
+  },
+  "llamacpp": {
+    "repository": "https://github.com/ggml-org/llama.cpp",
+    "candidate_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "first_successful_target_phone_commit": null,
+    "target_phone_validated": false,
+    "cross_builds": {
+      "llama-cli": {
+        "path": "fallback/smollm2/android/build-arm64/bin/llama-cli",
+        "sha256": "5962d5063b93d899f528dd87deb1ad2ac48cadb2dfc03f67a15e2d024e32c942",
+        "bytes": 156546912,
+        "abi": "arm64-v8a",
+        "android_platform": "android-28",
+        "cross_build": "PASS",
+        "phone_executed": false
+      },
+      "llama-completion": {
+        "path": "fallback/smollm2/android/build-arm64/bin/llama-completion",
+        "sha256": "8f5e713e12d390f140dc4fcb6fb424eb674770a1196cfc9833ea7e430e9cf54e",
+        "bytes": 109604664,
+        "abi": "arm64-v8a",
+        "android_platform": "android-28",
+        "cross_build": "PASS",
+        "phone_executed": false
+      }
+    }
+  },
+  "kpack_test_key": {
+    "key_id": "ed25519:67744919eb4747a5d16407c10e90287307a375fd6d5df28e4accbe2c7ee0b3e1",
+    "warning": "TEST KEY ONLY — NEVER USE FOR RELEASE"
+  },
+  "tool_archive_hashes": {
+    "microsoft-jdk-17.0.20.1-windows-x64.zip": {
+      "sha256": "3d9006956fc8af5601cd24ffc4f468bef48279c7ebd8171b9bdf90d0aabfbf1f",
+      "bytes": 186915383
+    },
+    "gradle-9.6.0-bin.zip": {
+      "sha256": "bbaeb2fef8710818cf0e261201dab964c572f92b942812df0c3620d62a529a01",
+      "bytes": 140681093
+    },
+    "commandlinetools-win-16111833_latest.zip": {
+      "sha256": "e5885e2e59038c0778a85fc19f01de7ce7c567c105553f7617b936b1e0e87b2b",
+      "bytes": 154957218
+    },
+    "android-ndk-r30-windows.zip": {
+      "sha256": "b830098aaf18b67a42eb831c404e15e5f2990a474f054ac145b0bc957ac6d729",
+      "bytes": 727980788
+    },
+    "cmake-3.31.1-windows.zip": {
+      "sha256": "1e289e5c1707cd3b0e6e845b205ca4dbbfc370d5787058d21ec40adbd9950979",
+      "bytes": 20462685
+    },
+    "platform-37.0_r02.zip": {
+      "sha256": "840b23e827f96e64aea4c89a1194aac3dc5f6bad37edb231c5c795d890330e8d",
+      "bytes": 67281901
+    },
+    "build-tools_r37_windows.zip": {
+      "sha256": "68075aa319ed8a01cf1a565ed1e61a3c1a801dd49191c35851248dc293c33b1a",
+      "bytes": 61077164
+    },
+    "platform-tools.zip": {
+      "sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99",
+      "bytes": 8044989
+    }
+  },
+  "resolved_python_environments": {
+    "mor": "artifacts/week1/environment/requirements-mor-resolved.txt",
+    "et15": "artifacts/week1/environment/requirements-et15-resolved.txt",
+    "pack": "artifacts/week1/environment/requirements-pack-resolved.txt",
+    "convert": "artifacts/week1/environment/requirements-convert-resolved.txt"
+  }
+}

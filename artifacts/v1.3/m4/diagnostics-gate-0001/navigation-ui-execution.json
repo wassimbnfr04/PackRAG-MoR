@@ -1,0 +1,50 @@
+{
+  "status": "PASS_E3_NAVIGATION_UI_ORIGINALS_PNGS_NOT_VISUAL_OR_FULL_E3",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0046",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-ui-diagnostic-navigation-0001",
+        "--class-name",
+        "org.packrag.product.DiagnosticNavigationUiTest",
+        "--result-file",
+        "m4-diagnostic-navigation.json",
+        "--timeout",
+        "900"
+      ],
+      "started_utc": "2026-10-10T19:27:17.448499+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T19:29:50.848389+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-ui-diagnostic-navigation-0001",
+        "--files",
+        "m4-diagnostic-navigation.json"
+      ],
+      "started_utc": "2026-10-10T19:29:50.849383+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T19:29:51.263635+00:00"
+    }
+  ],
+  "original_png_sha256": {
+    "m4-diagnostic-home.png": "d645970eb14c1652c522387ca1f52fb745dff9c5abdaa2fcac21580d524f76a2",
+    "m4-diagnostic-source.png": "217f53a00d3753b6aa3158d7da31184436a02270e6b01fe90d69213490c99dbc"
+  },
+  "scope": "Actual completed UI, Activity recreation, Android Back injection; independent visual review and full retained/policy acceptance still required."
+}

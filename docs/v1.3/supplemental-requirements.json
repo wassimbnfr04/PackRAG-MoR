@@ -1,0 +1,149 @@
+{
+  "architecture_sha256": "9b02f83b186a5b7f0101add861c6ecb40f5eb0b13016f50fa0c76efc6de07536",
+  "original_requirement_count": 835,
+  "purpose": "ADDITIVE_MANUAL_AUDIT_LOWERCASE_MODAL_AND_POLICY_COVERAGE_ORIGINAL_CAPTURE_UNCHANGED",
+  "requirements": [
+    {
+      "id": "V13-P0151",
+      "paragraph": 151,
+      "requirement": "• It does not claim universal multilingual generation quality. English is the generator-language baseline; packs may store multilingual authoritative sources and verified generator-language renderings.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0153",
+      "paragraph": 153,
+      "requirement": "• The install/remove demonstration proves application access to pack evidence, not erasure of facts that may already exist in model weights.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0156",
+      "paragraph": 156,
+      "requirement": "4.1 Mandatory scope",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0293",
+      "paragraph": 293,
+      "requirement": "7.9 Required product runtime measurements",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0388",
+      "paragraph": 388,
+      "requirement": "The database is built once on the PC and opened read-only on Android. The app executes only fixed prepared statements. Packs never provide SQL code to execute.",
+      "normative_basis": "Supporting data-only/fixed prepared statement boundary omitted by original modal index; manually audited against source",
+      "status": "VERIFIED",
+      "evidence": [
+        "docs/v1.3/M3_REQUIREMENT_REVIEW.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ]
+    },
+    {
+      "id": "V13-P0401",
+      "paragraph": 401,
+      "requirement": "canonical_text is the source-faithful evidence used for citation display. search_text may be normalized, prefixed with headings/identifiers, and language-normalized for retrieval. Any generator-language translation or other derived rendering is stored separately with provenance; it never replaces canonical_text. Citations always resolve back to canonical_text and the source record.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0493",
+      "paragraph": 493,
+      "requirement": "The Pack Registry supplies only installed, signature-verified, schema-compatible versions. A query may specify an as_of_date; otherwise the current date is used for validity filtering. For legal packs, the user interface exposes the active jurisdiction and date.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0534",
+      "paragraph": 534,
+      "requirement": "The relations schema is always allowed, but runtime graph expansion is disabled by default. Graph-Lite is an exploratory ablation in v1.3, not a mandatory feature. It may be enabled in the final demo only if development-set evidence coverage improves without a material regression in held-out grounded accuracy and median retrieval latency increases by no more than 20%. Because the multi-hop subset is small, v1.3 does not use a fine-grained +3-point activation threshold as if it were statistically precise. Candidate recall and final-evidence source coverage are both reported.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0616",
+      "paragraph": 616,
+      "requirement": "No dependency is specified as “latest”. toolchain.lock.json records resolved versions/hashes for the app, embedder, LFM2.5 artifact, chat template, and llama.cpp runtime. Optional MoR/ExecuTorch research tooling is isolated from the product build and may not force product dependency changes.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0635",
+      "paragraph": 635,
+      "requirement": "Automatic rollback to an older version is forbidden. A deliberate user rollback is permitted from Pack Details and must display an “older content” warning. When a newer valid version is installed, the previous version may be retained until the next successful app restart or until storage cleanup, whichever is later.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "VERIFIED",
+      "evidence": [
+        "docs/v1.3/M3_REQUIREMENT_REVIEW.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ]
+    },
+    {
+      "id": "V13-P0641",
+      "paragraph": 641,
+      "requirement": "Python 3.12; sentence-transformers/Transformers for pack embeddings; SQLite standard library with FTS5-capable build; PyNaCl/libsodium-compatible Ed25519 signing with fixed cross-language test vectors; pypdf/structured parsers for text extraction; NumPy for KDX1; pytest for validation. Faiss may be used only in research comparisons, not as a pack-format dependency.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0648",
+      "paragraph": 648,
+      "requirement": "5. Primary product decoding is deterministic/greedy with temperature=0, top_p=1, batch=1, runtime context=2,048 and max_new_tokens=512. Vendor sampling defaults may be evaluated only as a separate diagnostic.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0654",
+      "paragraph": 654,
+      "requirement": "Vulkan/vendor GPU/NPU paths, alternative thread/affinity policies, larger context windows, and speculative decoding are optimization experiments only after CPU correctness. Each requires the same golden/evidence tests plus memory/thermal profiling and may not alter KPack or evidence semantics.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0656",
+      "paragraph": 656,
+      "requirement": "The earlier MoR ExecuTorch work is retained as optional research. Its export/operator blockers and adaptive-routing measurements may be reported in the thesis, but no MoR Android milestone can block the LFM2.5 product application. If continued, it remains behind GeneratorBackend and is labeled research-only.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0716",
+      "paragraph": 716,
+      "requirement": "Each release pack has 40 manually verified development/calibration queries and 40 completely separate final held-out PackBench queries. A suggested held-out distribution per pack is: 14 direct evidence, 6 exact identifier, 6 paraphrase/semantic, 4 multi-source/multi-hop, 4 no-answer, 3 stale/conflict/version, and 3 adversarial/distractor = 40. An additional 20 system-level tests cover install/remove/update, wrong-pack activation, corruption, and cross-pack retrieval. Mandatory PackBench total = 180 verified cases. G0, the 50-question gold-evidence gate, and the 24-query multilingual retrieval probe are reported separately and are not counted as PackBench. No held-out test question is used in SFT, graph decisions, or threshold calibration.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P0733",
+      "paragraph": 733,
+      "requirement": "22.4 Mandatory ablations",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    },
+    {
+      "id": "V13-P1064",
+      "paragraph": 1064,
+      "requirement": "BUILD TIME (PC)\nAuthoritative sources → provenance → structure-aware chunks → canonical/search/generator text → aliases/relations → SQLite FTS5 → Granite-97M 384-d embeddings → KDX1 → 40-query development calibration → RFC8785 manifest → payload SHA-256 → Ed25519 → .kpack.\n\nANDROID INSTALL\nValidate ZIP safety → verify raw manifest signature against bounded pinned trust-store keys → parse authenticated manifest and cross-check key_id → verify payload hashes → validate schema/KDX → run SQLite/FTS checks on a disposable writable copy → atomically install the untouched hash-verified DB read-only → Pack Registry.\n\nANDROID QUERY\nEnglish product question → user-selected verified packs → normalize query → source+chunk validity filters → BM25 top24 + exact dense top24 → local RRF(k=60) for ranking → identifier priority without auto-answer → CandidateRelevanceGateV1 → dynamic LFM2.5-tokenizer evidence budget (≤4 chunks, ≤1200 cap) → redundancy/coverage-aware final selection → FinalEvidenceAdmissionGateV1 → actual system-role evidence policy + user evidence message → LFM2.5-2.6B QAD-Q4_0 / llama.cpp → BUFFERED raw generation → strip completed reasoning block → final-answer citation/format validation → answer or insufficient evidence.\n\nGENERATOR POLICY\nProduct: exact LFM2.5-2.6B-QAD-Q4_0 artifact behind GeneratorBackend. Research/control: official MoR 360M plus Vanilla/Recursive baselines on desktop. SmolLM2 is historical only. MoR mobile deployment is optional research and cannot block the product.\n\nTRAINING POLICY\nNo product-generator training is required. MoR evidence-use SFT is optional research only and must use separate held-out evaluation; no training activity may delay the product path.\n\nCRITICAL PATH\nKPack + hybrid retrieval + secure Android pack runtime + Granite query embedding + LFM2.5 product generator + buffered reasoning/citation validation + two signed demo packs + PackBench. No cloud inference, vector DB service, neural query rewrite, reranker, executable packs, or mandatory MoR Android runtime.\n\nCAPSTONE PROOF\nNo pack → no pack-derived evidence. Install signed Repair pack → grounded cited procedural answer. Install bounded law pack → English grounded answer + exact source + historical as-of behavior. Corrupt pack → reject. Remove pack → pack-derived evidence becomes unavailable. These demos do not claim erasure of information from model weights.",
+      "normative_basis": "Supplemental case-insensitive policy/heading audit; scope determined by full source paragraph",
+      "status": "NOT_STARTED",
+      "evidence": []
+    }
+  ]
+}

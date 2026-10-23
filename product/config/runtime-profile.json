@@ -1,0 +1,23 @@
+{
+  "architecture_version": "1.3",
+  "core_api": "1.0",
+  "profile_id": "mobile-v1",
+  "sparse_candidate_k": 24,
+  "dense_candidate_k": 24,
+  "rrf_k": 60,
+  "per_pack_fused_cap": 16,
+  "cross_pack_pool_limit": 32,
+  "graph_enabled": false,
+  "graph_benchmark": {"profile_id": "mobile-v1-graph", "seed_k": 6, "max_extra": 12, "max_hops": 1},
+  "max_evidence_chunks": 4,
+  "max_evidence_tokens_cap": 1200,
+  "context_tokens": 2048,
+  "prefill_tokens_cap": 1536,
+  "generated_tokens_cap": 512,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "batch_size": 1,
+  "product_language": "en",
+  "query_rewrite": false,
+  "neural_reranker": false
+}

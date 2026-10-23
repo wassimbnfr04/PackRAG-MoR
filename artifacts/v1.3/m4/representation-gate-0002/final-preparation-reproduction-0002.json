@@ -1,0 +1,6 @@
+{
+  "status": "PASS_GENERATED_SCRIPT_TEXT_EXACT_NOT_ACCEPTANCE_EXECUTION",
+  "note": "Add preservation of original unexecuted preparation scripts; no product source change",
+  "prepare_sha256": "a65c97ef5dac6e1f149b3e075d4cddbb8f8064535b4509d907395dbbd5268a90",
+  "verifier_sha256": "742f6be48e6e8ebfd834fdf0b9cdf587021dfec8f9ea9d2b6a6b455b909a1da6"
+}

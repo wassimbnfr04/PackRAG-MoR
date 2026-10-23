@@ -1,0 +1,46 @@
+{
+  "status": "OBSERVATIONAL_RUNNING_CHECKPOINT_NOT_TERMINAL_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T21:30:15.640245+00:00",
+  "test_id": "e4c9f301-80c8-4ed0-b483-c96c407aef3e",
+  "checkpoint": "COMMITTING",
+  "completed_cases": [
+    "actual-importing-process-death-COPYING"
+  ],
+  "progress_original_sha256": "e505779c0c4ec6361e3ec8051b76cccc2920095cbca34aedb29516f86d3edc8d",
+  "progress_returncode": 0,
+  "probe_returncode": 0,
+  "probe_original_sha256": "6013965938ccd82f295b52f72225228b6dc09b16d65eccf5cc6ab7df7eace084",
+  "scope": "Checkpoint identifies deliberately killed import stage, not necessarily the current live copy operation. Case only passes after reopened-session validation and real cold answer; no terminal JUnit/original PASS yet. Only two exact public test-result paths sampled, no broad logs/custody/weights.",
+  "probe_observation": {
+    "state": "KILLING",
+    "point": "COMMITTING",
+    "pid": 11790,
+    "test_id": "e4c9f301-80c8-4ed0-b483-c96c407aef3e",
+    "recorded_at": "2026-10-11T21:29:11.958493Z",
+    "copied_bytes": 5443,
+    "expected_bytes": 5443,
+    "reason": null
+  },
+  "commands": [
+    [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "exec-out",
+      "run-as",
+      "org.packrag.product",
+      "cat",
+      "files/m4-local-asset-import-process-death-progress.json"
+    ],
+    [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "exec-out",
+      "run-as",
+      "org.packrag.product",
+      "cat",
+      "files/asset-import-crash/e4c9f301-80c8-4ed0-b483-c96c407aef3e/probe-COMMITTING.json"
+    ]
+  ]
+}

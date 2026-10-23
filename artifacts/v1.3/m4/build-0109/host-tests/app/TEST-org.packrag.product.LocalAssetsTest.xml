@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.product.LocalAssetsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-12T18:51:01.640Z" hostname="RAZER" time="0.082">
+  <properties/>
+  <testcase name="directoriesAndNonDirectoryParentsRejectWithoutInput" classname="org.packrag.product.LocalAssetsTest" time="0.013"/>
+  <testcase name="cancellationDuringStreamingClosesInputAndPreservesFile" classname="org.packrag.product.LocalAssetsTest" time="0.019"/>
+  <testcase name="changingInputLengthIsMeasuredNotTrustedFromMetadata" classname="org.packrag.product.LocalAssetsTest" time="0.008"/>
+  <testcase name="readErrorsDoNotExposeUnderlyingExceptionOrVerify" classname="org.packrag.product.LocalAssetsTest" time="0.005"/>
+  <testcase name="productionSlotsHaveIndependentExactPathsBoundsAndPins" classname="org.packrag.product.LocalAssetsTest" time="0.004"/>
+  <testcase name="shortAndZeroReadsStillHashAllActualBytes" classname="org.packrag.product.LocalAssetsTest" time="0.016"/>
+  <testcase name="emptyTruncatedAndOversizedRejectBeforeHashing" classname="org.packrag.product.LocalAssetsTest" time="0.005"/>
+  <testcase name="exactBytesVerifyAndSameSizeWrongSlotBytesReject" classname="org.packrag.product.LocalAssetsTest" time="0.009"/>
+  <testcase name="uncheckedAndMissingNeverClaimZeroOrReadBytes" classname="org.packrag.product.LocalAssetsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

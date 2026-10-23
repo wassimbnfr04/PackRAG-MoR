@@ -1,0 +1,66 @@
+{
+  "id": "G0-D07",
+  "category": "direct",
+  "question": "How is recovery mode entered on the Solace V2?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied [S1].",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "hold RESET",
+    "8 seconds",
+    "while power is applied"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [
+    "hold RESET"
+  ],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 435,
+    "prompt_ms": 4469.932,
+    "prompt_per_token_ms": 10.275705747126436,
+    "prompt_per_second": 97.3169166779271,
+    "predicted_n": 195,
+    "predicted_ms": 7304.519,
+    "predicted_per_token_ms": 37.652159793814434,
+    "predicted_per_second": 26.55890141431626,
+    "host_generation_wall_ms": 11827.477400001953,
+    "emitted_token_count": 195,
+    "reasoning_token_count": 166,
+    "final_and_terminal_token_count": 29,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 435,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" citations continuation* \".\"?\ncontinuation ::= \".\"? \" \" text \" \" citations\ncitations ::= cite (\" \" cite)? (\" \" cite)? (\" \" cite)?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "75efa485cada464189b8d6a855a4522f50ba31116f039ece5fad73e61e9c553a",
+    "final_only": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied [S1]."
+  },
+  "manual_semantic_review_required": true
+}

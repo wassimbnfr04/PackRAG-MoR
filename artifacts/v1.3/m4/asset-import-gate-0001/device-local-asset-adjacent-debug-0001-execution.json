@@ -1,0 +1,348 @@
+{
+  "status": "PASS_F2_FRESH_ADJACENT_BACKGROUND_VARIANT_NOT_FULL_F2",
+  "started_utc": "2026-10-11T20:27:00.423677+00:00",
+  "runner_sha256": "4cab90ec294d020a63033935b170acd5393ca6dde5f7adf79c2db509d57b7ad1",
+  "build": "build-0076",
+  "variant": "debug",
+  "installed_proof_sha256": "ac64902fa08e56876ddb1c09e89185ffb22d289cc9e31b97d91a8e2a903aeb46",
+  "pair_sha256": "d68a0fe779c2cd5d88abe16236521a929acf65360ed6a77d0509ae697fbd09e2",
+  "plan": [
+    [
+      "readiness",
+      "LocalAssetReadinessDeviceTest",
+      3,
+      {
+        "m4-local-assets-negative.json": 5,
+        "m4-local-assets-runtime.json": 5,
+        "m4-local-assets-viewmodel.json": 3
+      }
+    ],
+    [
+      "query",
+      "QueryControlsDeviceTest",
+      2,
+      {
+        "m4-ui-query-inputs.json": 7,
+        "m4-ui-query-runtime.json": 4
+      }
+    ],
+    [
+      "sources",
+      "SourceDetailsViewModelTest",
+      1,
+      {
+        "m4-source-details-viewmodel.json": 5
+      }
+    ],
+    [
+      "diagnostics",
+      "DiagnosticRuntimeDeviceTest",
+      1,
+      {
+        "m4-diagnostic-runtime.json": 8
+      }
+    ],
+    [
+      "lifecycle",
+      "DiagnosticLifecycleDeviceTest",
+      1,
+      {
+        "m4-diagnostic-lifecycle.json": 7
+      }
+    ]
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-adjacent-debug-0001-before-known.json"
+      ],
+      "returncode": 0,
+      "label": "before-known"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-readiness",
+        "--class-name",
+        "org.packrag.product.LocalAssetReadinessDeviceTest",
+        "--result-file",
+        "m4-local-assets-negative.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "readiness-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-readiness",
+        "--files",
+        "m4-local-assets-negative.json,m4-local-assets-runtime.json,m4-local-assets-viewmodel.json"
+      ],
+      "returncode": 0,
+      "label": "readiness-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-query",
+        "--class-name",
+        "org.packrag.product.QueryControlsDeviceTest",
+        "--result-file",
+        "m4-ui-query-inputs.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "query-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-query",
+        "--files",
+        "m4-ui-query-inputs.json,m4-ui-query-runtime.json"
+      ],
+      "returncode": 0,
+      "label": "query-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-sources",
+        "--class-name",
+        "org.packrag.product.SourceDetailsViewModelTest",
+        "--result-file",
+        "m4-source-details-viewmodel.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "sources-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-sources",
+        "--files",
+        "m4-source-details-viewmodel.json"
+      ],
+      "returncode": 0,
+      "label": "sources-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-diagnostics",
+        "--class-name",
+        "org.packrag.product.DiagnosticRuntimeDeviceTest",
+        "--result-file",
+        "m4-diagnostic-runtime.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "diagnostics-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-diagnostics",
+        "--files",
+        "m4-diagnostic-runtime.json"
+      ],
+      "returncode": 0,
+      "label": "diagnostics-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-lifecycle",
+        "--class-name",
+        "org.packrag.product.DiagnosticLifecycleDeviceTest",
+        "--result-file",
+        "m4-diagnostic-lifecycle.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "lifecycle-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-debug-0001-lifecycle",
+        "--files",
+        "m4-diagnostic-lifecycle.json"
+      ],
+      "returncode": 0,
+      "label": "lifecycle-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-adjacent-debug-0001-after-known.json"
+      ],
+      "returncode": 0,
+      "label": "after-known"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0076",
+        "--output",
+        "device-local-asset-adjacent-debug-0001-after-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "after-source"
+    }
+  ],
+  "completed": [
+    {
+      "class_name": "LocalAssetReadinessDeviceTest",
+      "methods": 3,
+      "controls": 13,
+      "run": "device-local-asset-adjacent-debug-0001-readiness",
+      "original_sha256": {
+        "m4-local-assets-negative.json": "e00344a6455202498279302f214383d045e5ed0d1202cd9cbd5b9b57c944a0c8",
+        "m4-local-assets-runtime.json": "ece3a25b6f1cd4514b0db6619f50b774f2f9326717022299c5fc8cfaa5e2b07c",
+        "m4-local-assets-viewmodel.json": "a131f910e15e1e6592842f6258033cb723ff4b03259dc07f050df4823caa3248"
+      },
+      "manifest_sha256": "0d0154a5d79aa1ed159eac05d2e2d837170b600eae5e906be6b51e4ae0d72975"
+    },
+    {
+      "class_name": "QueryControlsDeviceTest",
+      "methods": 2,
+      "controls": 11,
+      "run": "device-local-asset-adjacent-debug-0001-query",
+      "original_sha256": {
+        "m4-ui-query-inputs.json": "5ca4fe9b0922f09337d8dd2add87c6324c39a23fa5e42d2415046b8f33048551",
+        "m4-ui-query-runtime.json": "63de20729e90132fff8dfa6bf28e7adca1a0d1cd3f611574d6c688d72cc260a9"
+      },
+      "manifest_sha256": "c9448c1b28a5d8f7259b743b2777be0673c2f983221271a0ae3fcb0a5755df23"
+    },
+    {
+      "class_name": "SourceDetailsViewModelTest",
+      "methods": 1,
+      "controls": 5,
+      "run": "device-local-asset-adjacent-debug-0001-sources",
+      "original_sha256": {
+        "m4-source-details-viewmodel.json": "e6418e4063ea1e511ed2e57ad0176c13d7c049e7f23002663f768d352f866c52"
+      },
+      "manifest_sha256": "193963ca7467f9d2e7b5fc7b1bb378bcf02fa33855d47b5c24e960b83411b92e"
+    },
+    {
+      "class_name": "DiagnosticRuntimeDeviceTest",
+      "methods": 1,
+      "controls": 8,
+      "run": "device-local-asset-adjacent-debug-0001-diagnostics",
+      "original_sha256": {
+        "m4-diagnostic-runtime.json": "01b856cffad776ac5e3a580fdec14071c62f1e7ad877a66d9454ed0c94aedb56"
+      },
+      "manifest_sha256": "f3df1a8e155ca8b990ceed247398e72b026e00927dc713e78418c280c6b3ce15"
+    },
+    {
+      "class_name": "DiagnosticLifecycleDeviceTest",
+      "methods": 1,
+      "controls": 7,
+      "run": "device-local-asset-adjacent-debug-0001-lifecycle",
+      "original_sha256": {
+        "m4-diagnostic-lifecycle.json": "b78c7711389c445bb2eadb2963cea5f5cdcc1e0529ffdc3f40d046164c5733ef"
+      },
+      "manifest_sha256": "fbba1e0d7dc57789f9db6a2d606f81624d59f4c838ded095adcc4f94bf804315"
+    }
+  ],
+  "active_class": "DiagnosticLifecycleDeviceTest",
+  "scope": "Fresh per-class JUnit and exact original reports collected/validated before next class; fixed method/control counts; real pinned LFM accepted synthetic answers where specified. Actual exact installed APK hashes checked before every class, no repeated installs. Only explicit50 public owner files guarded; readonly full source4 retained. Compiled approved policy fixtures are calibration-schema software tests, not genuine human gold/release/domain or performance acceptance. UI/regression/restoration/custody/closure checkpoint still independent.",
+  "finished_utc": "2026-10-11T21:01:50.427297+00:00"
+}

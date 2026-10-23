@@ -1,0 +1,1 @@
+device-local-asset-final-import-debug-0001-walking actual narrow template read grant PASS; native walking test START

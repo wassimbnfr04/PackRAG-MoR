@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "pytest",
+        "tests",
+        "product/tests",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0013-temp",
+        "--junitxml",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0013\\combined-junit.xml",
+        "-q"
+      ],
+      "started_utc": "2026-10-10T14:36:20.729417+00:00",
+      "returncode": 1,
+      "finished_utc": "2026-10-10T14:38:24.379647+00:00"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "test_methods": 94,
+  "note": "Inspect each XML for fixture/case counts; build-only success is not milestone completion. XML for unchanged modules may be from an UP-TO-DATE task; log records task execution.",
+  "status": "HOST_TEST_METHODS_PASSED"
+}

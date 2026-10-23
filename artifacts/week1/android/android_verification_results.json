@@ -1,0 +1,28 @@
+{
+  "status": "BUILD_AND_JVM_PASS_PHYSICAL_TEST_BLOCKED",
+  "physical_phone": false,
+  "apk_build": "PASS",
+  "jvm_tests": {
+    "passed": 2,
+    "total": 2,
+    "signature_negative_cases": 5,
+    "report": "artifacts/week1/android/jvm_test_results.xml"
+  },
+  "android_signature_verify": null,
+  "android_query": null,
+  "instrumentation_status": "BLOCKED_PENDING_PHONE",
+  "apks": {
+    "app": {
+      "path": "artifacts/week1/android/week1-spike-debug.apk",
+      "sha256": "2e907b8ee636dcb7a576eba64f4a1d83c927fcdc84e9cc22e67ddb7256235c68",
+      "bytes": 7809480
+    },
+    "instrumentation": {
+      "path": "artifacts/week1/android/week1-spike-debug-androidTest.apk",
+      "sha256": "fcb565aba17b2f41073996781542975983bece642fb9c360a79617a7757257d3",
+      "bytes": 2264995
+    }
+  },
+  "private_fixture_key_in_apk": false,
+  "note": "JVM Tink verification and successful APK compilation do not prove Android-device interoperability."
+}

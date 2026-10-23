@@ -1,0 +1,8 @@
+{
+  "status": "FAIL_PREPARATION_BEFORE_DRIVER_OR_DEVICE_EXECUTION",
+  "failed_assertion": "E2 UI gate failed",
+  "cause": "Earlier general E2 UI replacement already changed this later redundant string; no derived driver was written.",
+  "source_sha256": "4703abd0acdf270a32d06dad19ace6723eb305b9bd3d82019c6afe35f17ff4cc",
+  "repair": "Remove only redundant final string replacement; no Android/test/class change.",
+  "additional_observation": "An attempted inline Python shell repair had a quoting SyntaxError before execution; use this saved repair script instead. No edits from that failed command."
+}

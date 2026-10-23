@@ -1,0 +1,404 @@
+{
+  "status": "RUNNING",
+  "cases": [
+    {
+      "id": "M2-NO-PACK",
+      "passed": true,
+      "state": "NO_ACTIVE_PACK",
+      "answer": null,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "actual_emitted_tokens_including_terminal": 0,
+      "reasoning_tokens": null,
+      "final_and_terminal_tokens": null,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "first_model_token_ms_including_hidden_reasoning": null,
+      "question_wall_ms_including_lazy_initialization": 2.93625,
+      "lazy_initialization_ms": 0,
+      "sources": []
+    },
+    {
+      "id": "M2-G0-D01",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+      "selected": [
+        "29e38c9e841a0cd8d92a090c",
+        "3c0d779d818604ab90126609",
+        "d46745e3c80bd1ed8f10d062",
+        "8f9fd3aa276b3db6c9d1a2f8"
+      ],
+      "prefill_tokens": 389,
+      "evidence_tokens": 234,
+      "actual_emitted_tokens_including_terminal": 152,
+      "reasoning_tokens": 132,
+      "final_and_terminal_tokens": 20,
+      "prefill_ms": 82486.08375,
+      "decode_wall_ms": 80436.495235,
+      "first_model_token_ms_including_hidden_reasoning": 82490.081016,
+      "question_wall_ms_including_lazy_initialization": 176993.723437,
+      "lazy_initialization_ms": 13887.898281,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "title": "Aster-9",
+          "locator": "G0-D01",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D02",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The NexoFlow M4 requires preventive service every 600 operating hours [S1].",
+      "selected": [
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "4afe79229c74bb1e15fd73c6",
+        "9abaf1b4de3046f329b86f50",
+        "5fd03b317e704ba343302583"
+      ],
+      "prefill_tokens": 390,
+      "evidence_tokens": 235,
+      "actual_emitted_tokens_including_terminal": 155,
+      "reasoning_tokens": 136,
+      "final_and_terminal_tokens": 19,
+      "prefill_ms": 118483.786563,
+      "decode_wall_ms": 72206.618984,
+      "first_model_token_ms_including_hidden_reasoning": 118495.895,
+      "question_wall_ms_including_lazy_initialization": 191247.258164,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The NexoFlow M4 requires preventive service every 600 operating hours.",
+          "title": "NexoFlow M4",
+          "locator": "G0-D02",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D03",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The Helix-R battery module uses lithium iron phosphate (LiFePO4) cells [S1].",
+      "selected": [
+        "9c67bec91097b3a1702b9b63",
+        "4afe79229c74bb1e15fd73c6",
+        "d46745e3c80bd1ed8f10d062",
+        "403598f457b6efe6c0630b5f"
+      ],
+      "prefill_tokens": 397,
+      "evidence_tokens": 245,
+      "actual_emitted_tokens_including_terminal": 176,
+      "reasoning_tokens": 154,
+      "final_and_terminal_tokens": 22,
+      "prefill_ms": 102637.636757,
+      "decode_wall_ms": 69125.36418,
+      "first_model_token_ms_including_hidden_reasoning": 102638.522812,
+      "question_wall_ms_including_lazy_initialization": 172264.033555,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The Helix-R battery module uses lithium iron phosphate (LiFePO4) cells.",
+          "title": "Helix-R",
+          "locator": "G0-D03",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D04",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times [S1].",
+      "selected": [
+        "5fd03b317e704ba343302583",
+        "403598f457b6efe6c0630b5f",
+        "d46745e3c80bd1ed8f10d062",
+        "29e38c9e841a0cd8d92a090c"
+      ],
+      "prefill_tokens": 398,
+      "evidence_tokens": 242,
+      "actual_emitted_tokens_including_terminal": 131,
+      "reasoning_tokens": 109,
+      "final_and_terminal_tokens": 22,
+      "prefill_ms": 100256.253438,
+      "decode_wall_ms": 48668.128476,
+      "first_model_token_ms_including_hidden_reasoning": 100256.819727,
+      "question_wall_ms_including_lazy_initialization": 149107.244102,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+          "title": "QuantaGate Q7",
+          "locator": "G0-D04",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D05",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m [S1].",
+      "selected": [
+        "4afe79229c74bb1e15fd73c6",
+        "403598f457b6efe6c0630b5f",
+        "9c67bec91097b3a1702b9b63",
+        "9abaf1b4de3046f329b86f50"
+      ],
+      "prefill_tokens": 401,
+      "evidence_tokens": 242,
+      "actual_emitted_tokens_including_terminal": 174,
+      "reasoning_tokens": 148,
+      "final_and_terminal_tokens": 26,
+      "prefill_ms": 100022.668868,
+      "decode_wall_ms": 65814.997265,
+      "first_model_token_ms_including_hidden_reasoning": 100023.204375,
+      "question_wall_ms_including_lazy_initialization": 166049.492812,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+          "title": "Meridia V3",
+          "locator": "G0-D05",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D06",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing [S1].",
+      "selected": [
+        "a7b2ed8ce984da406426ebf4",
+        "4afe79229c74bb1e15fd73c6",
+        "403598f457b6efe6c0630b5f",
+        "8f9fd3aa276b3db6c9d1a2f8"
+      ],
+      "prefill_tokens": 405,
+      "evidence_tokens": 247,
+      "actual_emitted_tokens_including_terminal": 146,
+      "reasoning_tokens": 118,
+      "final_and_terminal_tokens": 28,
+      "prefill_ms": 118423.583671,
+      "decode_wall_ms": 71116.533594,
+      "first_model_token_ms_including_hidden_reasoning": 118433.87082,
+      "question_wall_ms_including_lazy_initialization": 189668.495234,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing.",
+          "title": "DeltaCell D2",
+          "locator": "G0-D06",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D07",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied [S1].",
+      "selected": [
+        "403598f457b6efe6c0630b5f",
+        "4afe79229c74bb1e15fd73c6",
+        "8f9fd3aa276b3db6c9d1a2f8",
+        "a7b2ed8ce984da406426ebf4"
+      ],
+      "prefill_tokens": 401,
+      "evidence_tokens": 247,
+      "actual_emitted_tokens_including_terminal": 159,
+      "reasoning_tokens": 130,
+      "final_and_terminal_tokens": 29,
+      "prefill_ms": 103542.573281,
+      "decode_wall_ms": 52934.973047,
+      "first_model_token_ms_including_hidden_reasoning": 103544.771132,
+      "question_wall_ms_including_lazy_initialization": 156971.687422,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+          "title": "Solace V2",
+          "locator": "G0-D07",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D08",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC [S1].",
+      "selected": [
+        "3c0d779d818604ab90126609",
+        "4afe79229c74bb1e15fd73c6",
+        "29e38c9e841a0cd8d92a090c",
+        "d46745e3c80bd1ed8f10d062"
+      ],
+      "prefill_tokens": 399,
+      "evidence_tokens": 240,
+      "actual_emitted_tokens_including_terminal": 182,
+      "reasoning_tokens": 157,
+      "final_and_terminal_tokens": 25,
+      "prefill_ms": 110382.829961,
+      "decode_wall_ms": 84364.762578,
+      "first_model_token_ms_including_hidden_reasoning": 110392.117539,
+      "question_wall_ms_including_lazy_initialization": 194939.147382,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC.",
+          "title": "Orion-R12",
+          "locator": "G0-D08",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D09",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The Vanta-P8 intake filter uses an 80-micrometre mesh [S1].",
+      "selected": [
+        "9abaf1b4de3046f329b86f50",
+        "4afe79229c74bb1e15fd73c6",
+        "5fd03b317e704ba343302583",
+        "d46745e3c80bd1ed8f10d062"
+      ],
+      "prefill_tokens": 396,
+      "evidence_tokens": 240,
+      "actual_emitted_tokens_including_terminal": 114,
+      "reasoning_tokens": 92,
+      "final_and_terminal_tokens": 22,
+      "prefill_ms": 105462.181562,
+      "decode_wall_ms": 67691.385742,
+      "first_model_token_ms_including_hidden_reasoning": 105462.685937,
+      "question_wall_ms_including_lazy_initialization": 173711.488711,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The Vanta-P8 intake filter uses an 80-micrometre mesh.",
+          "title": "Vanta-P8",
+          "locator": "G0-D09",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-G0-D10",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The zero calibration of the Kestrel-K1 uses certified nitrogen at 99.999% purity [S1].",
+      "selected": [
+        "d46745e3c80bd1ed8f10d062",
+        "29e38c9e841a0cd8d92a090c",
+        "4afe79229c74bb1e15fd73c6",
+        "3c0d779d818604ab90126609"
+      ],
+      "prefill_tokens": 399,
+      "evidence_tokens": 240,
+      "actual_emitted_tokens_including_terminal": 177,
+      "reasoning_tokens": 152,
+      "final_and_terminal_tokens": 25,
+      "prefill_ms": 109126.880117,
+      "decode_wall_ms": 79738.082071,
+      "first_model_token_ms_including_hidden_reasoning": 109129.69,
+      "question_wall_ms_including_lazy_initialization": 189084.146055,
+      "lazy_initialization_ms": 0,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "Zero calibration of the Kestrel-K1 uses certified nitrogen at 99.999% purity.",
+          "title": "Kestrel-K1",
+          "locator": "G0-D10",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "M2-UNRELATED",
+      "passed": true,
+      "state": "NO_RELEVANT_EVIDENCE",
+      "answer": null,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "actual_emitted_tokens_including_terminal": 0,
+      "reasoning_tokens": null,
+      "final_and_terminal_tokens": null,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "first_model_token_ms_including_hidden_reasoning": null,
+      "question_wall_ms_including_lazy_initialization": 389.2275,
+      "lazy_initialization_ms": 0,
+      "sources": []
+    },
+    {
+      "id": "M2-EXACT-NOT-SUFFICIENT",
+      "passed": true,
+      "state": "INSUFFICIENT_EVIDENCE",
+      "answer": null,
+      "selected": [
+        "29e38c9e841a0cd8d92a090c",
+        "9abaf1b4de3046f329b86f50",
+        "4afe79229c74bb1e15fd73c6",
+        "9c67bec91097b3a1702b9b63"
+      ],
+      "prefill_tokens": 386,
+      "evidence_tokens": 234,
+      "actual_emitted_tokens_including_terminal": 205,
+      "reasoning_tokens": 196,
+      "final_and_terminal_tokens": 9,
+      "prefill_ms": 96397.729726,
+      "decode_wall_ms": 79500.981954,
+      "first_model_token_ms_including_hidden_reasoning": 96398.325039,
+      "question_wall_ms_including_lazy_initialization": 176072.337383,
+      "lazy_initialization_ms": 0,
+      "sources": []
+    }
+  ]
+}

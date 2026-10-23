@@ -1,0 +1,61 @@
+{
+  "id": "G0-A04",
+  "category": "abstention",
+  "question": "On what date was NovaLink firmware version 3.4 released?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "Firmware version 3.4 of the NovaLink controller supports CSV export."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 381,
+    "prompt_ms": 3958.021,
+    "prompt_per_token_ms": 10.38850656167979,
+    "prompt_per_second": 96.26022701749183,
+    "predicted_n": 237,
+    "predicted_ms": 8756.512,
+    "predicted_per_token_ms": 37.103864406779664,
+    "predicted_per_second": 26.951370591395293,
+    "host_generation_wall_ms": 12744.067100000393,
+    "emitted_token_count": 237,
+    "reasoning_token_count": 228,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 381,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"Firmware version 3.4 of the NovaLink controller supports CSV export. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "cac6e774bf5b50a213fd17900f38f20c10a0b12e9a5ec7f4e95a9b349141b849",
+    "final_only": "INSUFFICIENT_EVIDENCE",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "a955ff479a97b6c6d31543af843ccc570ed32d4ceb683749eab652b2c33ec0ad"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

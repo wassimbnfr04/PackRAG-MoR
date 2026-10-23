@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "serial": "R3CT908DHHR",
+  "package": "org.packrag.product",
+  "files": [
+    {
+      "path": "files/models/granite/tokenizer.json",
+      "sha256": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+      "acquisition": "EXISTING_VERIFIED_PRIVATE_ASSET"
+    },
+    {
+      "path": "files/models/granite/onnx/model.onnx",
+      "bytes": 390004608,
+      "sha256": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+      "acquisition": "BINARY_ADB_EXEC_IN_DD_APP_UID_HASH_VERIFIED_THEN_RENAMED"
+    }
+  ]
+}

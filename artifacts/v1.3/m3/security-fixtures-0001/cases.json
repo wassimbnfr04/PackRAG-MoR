@@ -1,0 +1,361 @@
+{
+  "cases": [
+    {
+      "id": "valid",
+      "group": "VALID",
+      "filename": "valid.kpack",
+      "accept": true,
+      "error_contains": null,
+      "sha256": "2219e7b1d3b592fbb582c26930d380237caa0eddc12679c131da58c9e04dfaf1",
+      "manifest_sha256": "2556372852511e1a1a3b0f810d03e25c7a9a166fe0fb8507599f43ecefb9e3f3",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "one-byte-knowledge-sqlite",
+      "group": "HASH_TAMPER",
+      "filename": "one-byte-knowledge-sqlite.kpack",
+      "accept": false,
+      "error_contains": "Payload hash",
+      "sha256": "4e4ce81390e051ab5707555f6f059996cbe03dd69242eae5fae1c9d9f0278171",
+      "manifest_sha256": "2556372852511e1a1a3b0f810d03e25c7a9a166fe0fb8507599f43ecefb9e3f3",
+      "payload_hashes_redeclared": false
+    },
+    {
+      "id": "one-byte-dense-kdx",
+      "group": "HASH_TAMPER",
+      "filename": "one-byte-dense-kdx.kpack",
+      "accept": false,
+      "error_contains": "Payload hash",
+      "sha256": "306b6fd0bca05f53dcf54222552c681c953a3c1f64115955cb7faae9d2833213",
+      "manifest_sha256": "2556372852511e1a1a3b0f810d03e25c7a9a166fe0fb8507599f43ecefb9e3f3",
+      "payload_hashes_redeclared": false
+    },
+    {
+      "id": "wrong-signature",
+      "group": "AUTH_RAW",
+      "filename": "wrong-signature.kpack",
+      "accept": false,
+      "error_contains": "Unknown signer or invalid signature",
+      "sha256": "63bff4c9247fe87f08571c1a426cf56f249ef2d9f08c5709e1051843fba6657b",
+      "manifest_sha256": "2556372852511e1a1a3b0f810d03e25c7a9a166fe0fb8507599f43ecefb9e3f3",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "unknown-signer",
+      "group": "AUTH_RAW",
+      "filename": "unknown-signer.kpack",
+      "accept": false,
+      "error_contains": "Unknown signer or invalid signature",
+      "sha256": "1c0d3287438d123c85f29b43cc2e1e20d7adcef4898b9b2bfb7f754647a60115",
+      "manifest_sha256": "2556372852511e1a1a3b0f810d03e25c7a9a166fe0fb8507599f43ecefb9e3f3",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "wrong-message",
+      "group": "AUTH_RAW",
+      "filename": "wrong-message.kpack",
+      "accept": false,
+      "error_contains": "Unknown signer or invalid signature",
+      "sha256": "15d595ae5db15f2f550879a837e2c6f6e07be69b72809ab354192f608e73bc7a",
+      "manifest_sha256": "681f7b0718732e0279b9922353182a1b8db79f606cb7d756a5103017fe0e6a4b",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "missing-signature",
+      "group": "AUTH_RAW",
+      "filename": "missing-signature.kpack",
+      "accept": false,
+      "error_contains": null,
+      "sha256": "7319774e4874910ea907f7ceb6ae341b606db36ac40038309b73be6d9eae6f48",
+      "manifest_sha256": "2556372852511e1a1a3b0f810d03e25c7a9a166fe0fb8507599f43ecefb9e3f3",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "broken-db-header",
+      "group": "DB_STRUCTURAL",
+      "filename": "broken-db-header.kpack",
+      "accept": false,
+      "error_contains": null,
+      "sha256": "4633ae71daf9337966a4b1f5a1958b2d1780ac7ecaea6f147ee5e26ed1f22138",
+      "manifest_sha256": "5556c7c03934a2dc0baaa76f06b230bfd4894b37c95607ca326c5ba9c901ece8",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-magic",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-magic.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "907cce09d8f892f8bf2f0ee38c732e3dd7699725c2df79132a7e2836b8999a30",
+      "manifest_sha256": "8794479a94c9c8365dc631a795ae77f530ebdbc6bc0512d41df41feb35c2f235",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-version",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-version.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "f1c4652978aba7993fb579a90db3c00633793ac2b1a03a6f3ee2aa2892d4ea3f",
+      "manifest_sha256": "6f098e68002e1ea02b17bb0928f8375a2b060322d1a55032f0716f4bd699c3ee",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-dtype",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-dtype.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "5e05b1365c6811449a361523890cf49c90f3e208fc6d64aaa47f422e0190dc8a",
+      "manifest_sha256": "568c912c3e9867cd4106f6e42a52083ae860fe48cb06b088c6afe2baabc65c92",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-metric",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-metric.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "5b90c47d1cf59b489aef9d6f0f22151fd112a462f84847d4b0ca498e025fc2d0",
+      "manifest_sha256": "83a7d33ab6cf73484eb83b0ef28604662f5396ab4b6ee87c65640a39e0038dae",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-dimension",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-dimension.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "c69dc31a48e1211b4f5e5c295127a2b1ac467d2a47611346f9ee3d1119865b7c",
+      "manifest_sha256": "a474d40bcca5b195d3d189879e57b2f470a34b05ceb64dc92676acccb2132c67",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-flags",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-flags.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "4fd00e62dd6b8bad614f3671495a1d3e5968870d5390a2d861604bc4f784f794",
+      "manifest_sha256": "78506ad63cb10ad3c587c24a24929eee22ab95d71e73e57daafc745156a9ae76",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-count",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-count.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "a8ec8129ffd4045d3da747a91d60380315d47284e20ec4ee104808282eb12c28",
+      "manifest_sha256": "9fc27b6e92a1b35ac7d29e0e9ee4424094417eafa58f3884442b9deb987d8700",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-profile-hash",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-profile-hash.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "931e67075883d46de30bcfa5cc5213a16eafb1f88323d7a13fa8d976b93ec8ec",
+      "manifest_sha256": "f14e708d79d6b1dfc66e12d190b3ec43c5fb479ce623157c0fb0fa49220d9082",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-mapping-hash",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-mapping-hash.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "4fc5fd6e32ed4cd310c68b74e9bb695a062cc40203054a1efdca4b3ce3faffc5",
+      "manifest_sha256": "235ede252a17aabd0d6f945890322c8ba83321fef6d947417ed5a5e917203848",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-truncated",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-truncated.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "e014e741a06722c391d75a85ae2791169685b20411860be3555a5609bbce23b3",
+      "manifest_sha256": "9d19fbdb32f7ff0bbaa62006e5515afa83e0285c5aaec6903858704dd047c5b3",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-extra-byte",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-extra-byte.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "03d58c5f2ec85953277b34ebae0b346e8c020ecec5025bf1b35f9e3fa64a715f",
+      "manifest_sha256": "833ca0156b8f4601c41b628cb86cbb7e17b1add65dee9051a475e2de9eb90769",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-nan",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-nan.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "2a411940df5dab0d2062d2e45947b914e51dbed3818450ee38a23a74434ef673",
+      "manifest_sha256": "d5ea37a4b6fcde6fbefeca5663190d569229cd92a42bcb187b8b0a382f8b676a",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-positive-infinity",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-positive-infinity.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "387641e4c9e4a60c3a34d7ffdac37949fb066aff89276c5066305ca8766b17ed",
+      "manifest_sha256": "dd0d65431b7332fa454d478681dc6e373704175cde15763c7a7dd97e08fce9d6",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-negative-infinity",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-negative-infinity.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "c367be78fd15074f65d8d8832f4cb2059eaf248973474c38b7013224260c6b57",
+      "manifest_sha256": "0b26e2b6e5f4dd341b256f69362410d6d523667cdbc0e23d6e386c5c9cf461b2",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-norm-zero",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-norm-zero.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "d84090f5a8a4ee6d134ec55ab7d8719bef2e976fa468d7090b8ea093f5181988",
+      "manifest_sha256": "602344c96c1264a864e5ad825e8caa35727c8cef303cfe77b38ed3c3d34bb509",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-norm-small",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-norm-small.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "2710666f7c75e4fa30550a57716eaca477a6c588c2586639cdc3910803002df4",
+      "manifest_sha256": "dcf30ca9c16d5a38579b39e24a5cfd7e8bdd7c2ba9189c39d1071db79cea8b66",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-norm-large",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-norm-large.kpack",
+      "accept": false,
+      "error_contains": "KDX",
+      "sha256": "f2a6e0f14edef425d53ea55b3d829ccd61a1577163acdc1c5fbf01289b254add",
+      "manifest_sha256": "6746e77570f7a93164fa084cb265b23bc3b6be6fa0886447f2f2d21d8138b481",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-norm-near-low",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-norm-near-low.kpack",
+      "accept": true,
+      "error_contains": null,
+      "sha256": "d2dbcd1728563afdfdf21c83994979103767a73d02847b8d3024765c462958b3",
+      "manifest_sha256": "fc8bc226b0ed5855af23e90082474089c6eae61416bed769f5e1b5c3d5497cc5",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-norm-near-high",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-norm-near-high.kpack",
+      "accept": true,
+      "error_contains": null,
+      "sha256": "e96c7e2040806a79e93c2bc45182010614276eabb6192db25412e5af1042f148",
+      "manifest_sha256": "73331316eb46d27868ade6182378127c6dd4f02d8dfd0bcbfd0330e72ca6b6dd",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "kdx-norm-negative-unit",
+      "group": "KDX_STRUCTURAL",
+      "filename": "kdx-norm-negative-unit.kpack",
+      "accept": true,
+      "error_contains": null,
+      "sha256": "7abc76c14a9cd71f3c1498b4225d663f73de97aad6899e033fa812606dbb1d8e",
+      "manifest_sha256": "473d6dac91cb813dc9e7e9aed374f5d3f4b6ac349a8880e720d88ef811323aa2",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "pack-id-255",
+      "group": "IDENTITY_BOUND",
+      "filename": "pack-id-255.kpack",
+      "accept": true,
+      "error_contains": null,
+      "sha256": "3d832facdf5d8d2c97bca2d4a8d6d2cf36ce70ea9a654687e49590911665dd7f",
+      "manifest_sha256": "9664f655418f086758414058410b7c6c20c9377454146c94d19e52d2113e442f",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "version-255",
+      "group": "IDENTITY_BOUND",
+      "filename": "version-255.kpack",
+      "accept": true,
+      "error_contains": null,
+      "sha256": "93a565ef9b2b91330c87c1d427010c76460961d532cf9d96fd29ca31199e445a",
+      "manifest_sha256": "c97fea07bb3d03299592d733da1375c55e1828afc4be16e3a3a265feea24ecf7",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "pack-id-256",
+      "group": "IDENTITY_BOUND",
+      "filename": "pack-id-256.kpack",
+      "accept": false,
+      "error_contains": "portable installation component",
+      "sha256": "2108054f78676e96fe3860f6c1a90cca6d127c05965147aeee9b515a4077c020",
+      "manifest_sha256": "303f1c0f253ec48f2cddd9d061525bc881c1087d3cdb2f9f051ef28b31f683b1",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "version-256",
+      "group": "IDENTITY_BOUND",
+      "filename": "version-256.kpack",
+      "accept": false,
+      "error_contains": "portable installation component",
+      "sha256": "cf8b2c70753203f98cc24ed7b45234638534220ce3c55edfc0549d2a9a156790",
+      "manifest_sha256": "e2da04432abc7d891c67d5fbb9cad58f1a9abe03e4556cb67537e86f7daf5717",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "json-depth-33",
+      "group": "JSON_BOUND",
+      "filename": "json-depth-33.kpack",
+      "accept": false,
+      "error_contains": "nesting limit",
+      "sha256": "0fe862dca9a28dafbb97fe387bc6725c8c367b140d2ae821bfdb5870ed277c58",
+      "manifest_sha256": "b58211b1d6db73dfe6808d3fa38fcb4120630c51841f45e83f3211a1a4cf56e1",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "json-depth-4096",
+      "group": "JSON_BOUND",
+      "filename": "json-depth-4096.kpack",
+      "accept": false,
+      "error_contains": "nesting limit",
+      "sha256": "886de4bf48c846bb39fa99443062b5cfa26ef85050784adb6636dda039009137",
+      "manifest_sha256": "709635d1dcea1499014fc492319bc2c45a23bdce62e1ffd1683140db84b53604",
+      "payload_hashes_redeclared": true
+    },
+    {
+      "id": "noncanonical-signed",
+      "group": "JSON_CANONICAL",
+      "filename": "noncanonical-signed.kpack",
+      "accept": false,
+      "error_contains": "Noncanonical signed manifest",
+      "sha256": "b52c486d03a7fea62755815b7e36fd3075ed565d87fdd93de8c87802e80959a9",
+      "manifest_sha256": "c9e3caafa689d29f0478de4e0ba6b99fd79c8976068d51f78709364ee4cad864",
+      "payload_hashes_redeclared": true
+    }
+  ],
+  "public_key_sha256": "8f7e7cd4f09d8377406c2f5fa93a2962bad7e28c742622e9892b54a3f026516a",
+  "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+  "purpose": "SIGNED_RESIDUAL_SECURITY_SYNTHETIC_NOT_RELEASE_CALIBRATION",
+  "private_seed": "EPHEMERAL_NOT_SAVED",
+  "max_json_depth": 32,
+  "portable_identity_component_bytes": 255,
+  "script_sha256": "37b6a3efd82d9bdcb0925210a0528efaca78a4ffe11aa0fff3ac337c29582913"
+}

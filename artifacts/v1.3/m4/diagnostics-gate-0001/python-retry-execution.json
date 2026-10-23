@@ -1,0 +1,43 @@
+{
+  "status": "PASS_FULL_E3_PYTHON_HOST_PERMISSION_RETRY_NOT_COMPLETE_E3",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "pytest",
+        "tests",
+        "product/tests",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0017-temp",
+        "--junitxml",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0017\\combined-junit.xml",
+        "-q"
+      ],
+      "started_utc": "2026-10-10T19:04:48.943043+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T19:05:31.384996+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_result_manifest",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0017",
+        "--command",
+        "Full E3 unchanged pytest tests product/tests; normal-host retry exact argv in diagnostics-gate-0001/run_python_retry.py"
+      ],
+      "started_utc": "2026-10-10T19:05:31.385996+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T19:05:39.405990+00:00"
+    }
+  ],
+  "original_failed_run": "run-0016",
+  "scope": "Same suite/input source, new outputs/temp, normal host permissions; no ACL or test/product changes."
+}

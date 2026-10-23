@@ -1,0 +1,13 @@
+{
+  "status": "REPORTER_LABEL_REPAIRED_REQUIRES_NEW_BUILDS_AFFECTED_DEVICE_METHODS_AND_IDENTICAL_PRODUCT_APK_PROOF",
+  "recorded_utc": "2026-10-09T22:36:32.017082+00:00",
+  "source": "product/android/app/src/androidTest/java/org/packrag/product/SelectionDeviceTest.kt",
+  "old_source_sha256": "8a71735b6d6bcb40de8a283fda7e4d9f8764faa9e58664e8d9207e8d2a2f82ea",
+  "new_source_sha256": "14dbc3542c59150d87d361abe34d701c2d612c6b32e8803361304325238d2b4a",
+  "old_field": "total_ms_including_initialization_not_benchmark",
+  "new_field": "runtime_call_ms_excluding_encoder_generator_construction",
+  "old_source_copy_sha256": "8a71735b6d6bcb40de8a283fda7e4d9f8764faa9e58664e8d9207e8d2a2f82ea",
+  "constructor_scope": "Encoder/backend are constructed before direct PackRag.ask; runtime call timer excludes construction and load",
+  "product_runtime_changed": false,
+  "expected_reuse": "Only if both product APK bytes are identical and all other Android inputs unchanged; rerun affected3 methods and full compiled-policy gate; otherwise rerun full development"
+}

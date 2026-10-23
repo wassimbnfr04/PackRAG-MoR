@@ -1,0 +1,9 @@
+{
+  "status": "PREEXISTING_TEST_OUTPUTS_NOT_CURRENT_ACCEPTANCE",
+  "sha256": {
+    "m4-f3-kpack-picker-ui.json": "5bc98e1135eb82c63c2b22d9619115b28be35868f16ab04c828a407b77d15704",
+    "m4-f3-kpack-activation.png": "4d349c2c4eec544bc3c8a1f0786341ac73ccc55b9ec1ef66ab8ca27fccc37411",
+    "m4-f3-kpack-rejection.png": "bffd6406d8276d4a5bfe8fb7793c29b7573adbd867119a1f6b9b8472aad42d34",
+    "m4-f3-kpack-stages.png": "3a66393f98db414b5d7bec26014b5e78897a5ee4386eaca1ed50439eed551a93"
+  }
+}

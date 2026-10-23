@@ -1,0 +1,53 @@
+{
+  "status": "FAIL",
+  "test_id": "f2-import-ui-da8adbdd-b912-423f-8aae-09aedc0b2ae5",
+  "cases": [
+    {
+      "id": "actual-document-read-denied-before-system-picker-grant",
+      "passed": true
+    },
+    {
+      "id": "actual-system-picker-cancel-keeps-file-and-completed-result",
+      "passed": true
+    },
+    {
+      "id": "actual-picked-corrupt-file-rejected-without-replacing-file-or-completion",
+      "passed": true
+    },
+    {
+      "id": "actual-displayed-byte-progress-and-ui-cancel-wait-for-cleanup",
+      "passed": true
+    },
+    {
+      "id": "actual-picker-slot-survives-pending-activity-recreation-and-granted-verified-import",
+      "passed": true
+    },
+    {
+      "id": "asset-page-recreation-back-and-canonical-evidence-navigation-retain-completion",
+      "passed": true
+    }
+  ],
+  "current_point": "ACTUAL_POST_IMPORT_UI_QUERY",
+  "grant_full_for_background_setup_only": "Broadcasting: Intent { act=org.packrag.product.test.GRANT_FULL_ASSETS flg=0x400000 cmp=org.packrag.product.test\/org.packrag.product.AssetFixtureGrantReceiver }\nBroadcast completed: result=1, data=\"NARROW_FULL_ASSET_READS_GRANTED\"\n",
+  "actual_viewmodel_store_key": "androidx.lifecycle.ViewModelProvider.DefaultKey:org.packrag.product.PackRagViewModel",
+  "target_picker_lookup": null,
+  "picker_package_lookup_source": "SHELL_EXPLICIT_OPEN_DOCUMENT_OCTET_STREAM",
+  "resolved_picker_package": "com.google.android.documentsui",
+  "ui_observed_partial_copy_bytes": 128,
+  "pending_picker_recreation": {
+    "requested_lifecycle_state": "STARTED",
+    "previous_activity_destroyed": true,
+    "distinct_activity_created": true,
+    "saved_state_bundle_present": true,
+    "same_viewmodel": true,
+    "picker_still_foreground": true
+  },
+  "actual_system_document_open": {
+    "opens": 3,
+    "last_document_id": "full-template",
+    "calling_uid": 10469,
+    "provider_uid": 10472,
+    "document_uri": "content:\/\/org.packrag.product.test.asset-documents\/document\/full-template"
+  },
+  "failure_type": "AssertionError"
+}

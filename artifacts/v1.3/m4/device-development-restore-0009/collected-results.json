@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-09T20:19:16.763454+00:00",
+  "saved_sha256": {
+    "m3-import-consent.json": "0ee774b6713fdc54911725c667ff3aa084c4ccfd8320c210628c951d12cc7d72"
+  },
+  "source": "Original ADB bytes; runner primary is formatted and parsed-equal",
+  "apk_sha256": {
+    "app-debug.apk": "f5fc7d82027085a710a2f50d406980703247a60bcdd2d1a088b4ffbcff93ceee",
+    "app-debug-androidTest.apk": "ea3b7fd390a62e6e0c61146a6ab3c227410aacce395c7fe08920c750e46cb1eb"
+  }
+}

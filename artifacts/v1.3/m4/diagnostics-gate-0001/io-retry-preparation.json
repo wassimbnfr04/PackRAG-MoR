@@ -1,0 +1,18 @@
+{
+  "status": "PASS_UNCHANGED_0045_SOURCE_APKS_AND_PYTHON_RETRY_NOT_DEVICE",
+  "original_driver_sha256": "0532f4738c5b709cde8921585c0bd32ce84c5cd5b684a1f0a58bbe304590d822",
+  "new_driver_sha256": "621a0bfe14c8b32095c9c0c37941bb225f65610c0c74081a9c51969e1d6970a9",
+  "only_output_replacements": {
+    "io-device-execution.json": "io-device-retry-execution.json",
+    "device-diagnostics-0002": "device-diagnostics-0003",
+    "io-stage-": "io-retry-stage-"
+  },
+  "apk_sha256": {
+    "app-debug-androidTest.apk": "d8ea6c2c80db10b3ee3d6a172d626a5b659dc5ea365fa203844e6f7f14479c6f",
+    "app-debug.apk": "0d39218a825f50b0e732408c8e3d1ffdd6c569744131647a3c17e904c3279767"
+  },
+  "android_inputs": 569,
+  "python_inputs": 188,
+  "unchanged_e2_outputs": 690,
+  "scope": "Exact same class,timeout,variant,build,assertions; only fresh output paths. Failed0002 and stale prior JSON remain preserved."
+}

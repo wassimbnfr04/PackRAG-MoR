@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "sample.txt",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "txt",
+      "passed": true,
+      "accept": false,
+      "rejection": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "pdf",
+      "passed": true,
+      "accept": false,
+      "rejection": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "json",
+      "passed": true,
+      "accept": false,
+      "rejection": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "webp",
+      "passed": true,
+      "accept": false,
+      "rejection": "ARCHIVE_REJECTED"
+    }
+  ],
+  "prior_active_and_original_hashes_preserved": true,
+  "failed_staging_cleaned": true,
+  "caller_inputs_unchanged": true,
+  "limits": "Synthetic extensionless-name boundary only; no snapshot decoding\/source truth\/calibration claim."
+}

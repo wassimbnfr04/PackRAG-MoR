@@ -1,0 +1,9 @@
+{
+  "scope": "Fixed safe UI category expectation for existing signed release-trust cases; underlying cause assertions remain in ReleaseTrustCoreDeviceTest.",
+  "categories": {
+    "known-publisher-uncalibrated": "POLICY_REJECTED",
+    "unknown-publisher": "SIGNATURE_OR_MANIFEST_REJECTED",
+    "pack-cannot-add-key": "MANIFEST_PROFILE_REJECTED",
+    "claimed-key-mismatch": "SIGNATURE_OR_MANIFEST_REJECTED"
+  }
+}

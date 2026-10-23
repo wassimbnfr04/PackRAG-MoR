@@ -1,0 +1,101 @@
+{
+  "status": "PASS_F2_BACKGROUND_PRODUCTION_VIEWMODEL_IMPORT_PRESERVATION_CANCEL_AND_NATIVE_NOT_PICKER_UI_OR_FULL_F2",
+  "started_utc": "2026-10-11T21:46:45.284243+00:00",
+  "runner_sha256": "e3552f06ab8b8829d804752391c349180e524798ef94266fdcfe5aefd16f1929",
+  "build": "build-0076",
+  "run": "device-local-asset-final-import-debug-0002-viewmodel",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0076",
+        "--output",
+        "device-local-asset-final-import-debug-0002-viewmodel-before-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-final-import-debug-0002-viewmodel",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportViewModelDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-viewmodel.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-final-import-debug-0002-viewmodel",
+        "--files",
+        "m4-local-asset-import-viewmodel.json,m4-local-asset-import-viewmodel-progress.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0076",
+        "--output",
+        "device-local-asset-final-import-debug-0002-viewmodel-after-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-final-import-debug-0002-viewmodel-after-known-guard.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "finished_utc": "2026-10-11T21:56:23.640426+00:00",
+  "original_sha256": {
+    "m4-local-asset-import-viewmodel.json": "c64c2c072812c155a0245be8d2d117ea3b4d3f0094b74f39b49fe7637c2cb9df",
+    "m4-local-asset-import-viewmodel-progress.json": "55b093db04d56de1ca032412a76951c39bd64abcf3a596f279b6cf1adcbf99d9"
+  },
+  "cases": [
+    "actual-native-completed-answer-and-owned-result-context",
+    "wrong-hash-rejection-preserves-file-answer-trace-submission-and-result-id",
+    "generic-source-rejection-recovery-preserves-owned-completion",
+    "actual-observed-partial-byte-progress-and-cooperative-read-cancel-preserve-completion",
+    "actual-transported-open-cancel-awaits-cleanup-and-preserves-completion",
+    "successful-verified-import-preserves-completion-and-invalidates-other-cached-asset-checks",
+    "independent-four-pin-recheck-preserves-completed-result",
+    "actual-post-import-cold-native-answer-uses-new-owned-result-id"
+  ],
+  "scope": "Actual production ViewModel and real JNI answers before/after imports, strict identical completed answer/trace/submission/id preservation on typed/generic failure, cooperative cancellation and success; actual128-byte progress and main cancel dispatch observations. Cancellation waits for real cleanup/commit rather than pretending immediate rollback. Test-only Application filesDir isolation, no owner default asset writes. Source4/owner50 hashes unchanged. No Activity/system picker/foreground UI/full F2/M4/product/performance or arbitrary IPC bound acceptance."
+}

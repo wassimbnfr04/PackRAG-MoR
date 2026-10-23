@@ -1,0 +1,238 @@
+{
+  "id": "AUTHORITY",
+  "status": "PASS",
+  "actual_weight_inference": true,
+  "model_load_not_excluded": false,
+  "generate_calls_for_case": 1,
+  "result": {
+    "state": "ANSWER_ACCEPTED",
+    "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+    "citations": [
+      "S1"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+        "title": "SYNTHETIC Aster-9 rule",
+        "locator": "new",
+        "publisher": "SYNTHETIC FIXTURE ONLY",
+        "canonical_uri": "https://example.invalid/synthetic-law",
+        "pack_id": "org.packrag.contract.conflict.authority",
+        "version": "1.0.0",
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4f7d82b9683ffdb02ab467ab"
+            ],
+            "state": "RESOLVED_AUTHORITY",
+            "reason": "PREFERRED_EDITION",
+            "preferred": "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+            "retained": [
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507"
+            ],
+            "required": [
+              [
+                "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+              ]
+            ]
+          }
+        ],
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      }
+    ],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+      "as_of": "2026-10-07",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.conflict.authority",
+        "1.0.0",
+        "dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 13.202700001784251,
+      "retrieval_ms": 1.1474999992060475,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 215,
+        "prompt_ms": 2964.875,
+        "prompt_per_token_ms": 13.790116279069768,
+        "prompt_per_second": 72.51570470930479,
+        "predicted_n": 134,
+        "predicted_ms": 6424.417,
+        "predicted_per_token_ms": 48.30388721804511,
+        "predicted_per_second": 20.702267614322043,
+        "host_generation_wall_ms": 9411.235399998986,
+        "emitted_token_count": 134,
+        "reasoning_token_count": 114,
+        "final_and_terminal_token_count": 20,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 9563.898899999913
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.conflict.authority",
+        "chunk_id": "4e3ec8b76f322fb709ad6507",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9597538709640503,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.authority",
+            "1.0.0",
+            "dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633"
+          ]
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4f7d82b9683ffdb02ab467ab"
+            ],
+            "state": "RESOLVED_AUTHORITY",
+            "reason": "PREFERRED_EDITION",
+            "preferred": "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+            "retained": [
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507"
+            ],
+            "required": [
+              [
+                "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+              ]
+            ]
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.contract.conflict.authority",
+        "version": "1.0.0",
+        "manifest_sha256": "dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633",
+        "chunk_id": "4e3ec8b76f322fb709ad6507",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "relevant": true,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4f7d82b9683ffdb02ab467ab"
+            ],
+            "state": "RESOLVED_AUTHORITY",
+            "reason": "PREFERRED_EDITION",
+            "preferred": "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+            "retained": [
+              "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507"
+            ],
+            "required": [
+              [
+                "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+              ]
+            ]
+          }
+        ],
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 215,
+      "evidence": 60,
+      "max_new": 512
+    },
+    "rejection_reason": null
+  }
+}

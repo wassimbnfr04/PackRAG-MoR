@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-06T21:49:19.038774+00:00",
+  "limits": "Read-only instantaneous diagnostic during the running gate; not peak-memory profiling, per-query latency or causal bottleneck/thermal acceptance.",
+  "process-id": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  "current-meminfo": {
+    "returncode": 0,
+    "stdout": "No process found for: org.packrag.product\n",
+    "stderr": ""
+  },
+  "thermal-status": {
+    "returncode": 0,
+    "stdout": "IsStatusOverride: false\nThermalEventListeners:\n\tcallbacks: 3\n\tkilled: false\n\tbroadcasts count: -1\nThermalStatusListeners:\n\tcallbacks: 8\n\tkilled: false\n\tbroadcasts count: -1\nThermal Status: 3\nCached temperatures:\n\tTemperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}\n\tTemperature{mValue=48.7, mType=0, mName=AP, mStatus=0}\n\tTemperature{mValue=49.5, mType=5, mName=PA, mStatus=0}\n\tTemperature{mValue=38.4, mType=2, mName=BAT, mStatus=0}\n\tTemperature{mValue=33.0, mType=4, mName=USB, mStatus=0}\n\tTemperature{mValue=44.4, mType=3, mName=SKIN, mStatus=3}\nHAL Ready: true\nHAL connection:\n\tThermalHAL 2.0 connected: yes\nCurrent temperatures from HAL:\n\tTemperature{mValue=48.7, mType=0, mName=AP, mStatus=0}\n\tTemperature{mValue=38.4, mType=2, mName=BAT, mStatus=0}\n\tTemperature{mValue=49.5, mType=5, mName=PA, mStatus=0}\n\tTemperature{mValue=44.4, mType=3, mName=SKIN, mStatus=3}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}\n\tTemperature{mValue=33.0, mType=4, mName=USB, mStatus=0}\nCurrent cooling devices from HAL:\nTemperature static thresholds from HAL:\nTemperature headroom thresholds:\n[NaN, 0.8666667, 0.93333334, 1.0, 1.1333333, 1.4333333, 2.4333334]\n",
+    "stderr": ""
+  }
+}

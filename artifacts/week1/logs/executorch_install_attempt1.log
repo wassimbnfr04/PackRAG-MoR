@@ -1,0 +1,6 @@
+ERROR: Could not find a version that satisfies the requirement executorch==1.5.0 (from versions: none)
+ERROR: No matching distribution found for executorch==1.5.0
+WARNING: Failed to remove contents in a temporary directory 'C:\Users\Fkagf\AppData\Local\Temp\pip-build-tracker-z_t8afff'.
+You can safely remove it manually.
+WARNING: Failed to remove contents in a temporary directory 'C:\Users\Fkagf\AppData\Local\Temp\pip-download-ib4gsrhv'.
+You can safely remove it manually.

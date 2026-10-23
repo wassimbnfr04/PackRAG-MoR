@@ -1,0 +1,61 @@
+{
+  "id": "G0-A03",
+  "category": "abstention",
+  "question": "Which is faster under that condition, Motor M1 or Motor M2?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "Motor M1 operates at 1,800 rpm under the specified test condition."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 381,
+    "prompt_ms": 3958.803,
+    "prompt_per_token_ms": 10.39055905511811,
+    "prompt_per_second": 96.24121230584095,
+    "predicted_n": 224,
+    "predicted_ms": 8326.248,
+    "predicted_per_token_ms": 37.337434977578475,
+    "predicted_per_second": 26.78277178388153,
+    "host_generation_wall_ms": 12330.461300000024,
+    "emitted_token_count": 224,
+    "reasoning_token_count": 215,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 381,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"Motor M1 operates at 1,800 rpm under the specified test condition. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "79414f3cfbbd9e1a368f05534e7c6c93b48f53fdcd28bb9bc2c20a0cc94cd32a",
+    "final_only": "INSUFFICIENT_EVIDENCE",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "ef6a562b188499085a23b1ee62010f2c7e27543ff2792a1900998fe8194a0290"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS_WALKING_RETRY7_RESUME_RUNNING_NOT_FULL_F2",
+  "created_utc": "2026-10-11T21:23:32.041018+00:00",
+  "note": "Final-source unchanged debug0076 walking identical-code retry0002 PASS actual1method/7controls, both cold validated74\u00b0C[S1] answers153 emitted tokens, narrow callback exact result1/data confirmed, original SHA d729a92b608a8dbc91e96d34b500ee23064fb31107cdbedeab16bf0cb710bc3a, owner50 unchanged. First walking grant failure10.269s preserved FAIL with unknown unpersisted callback cause; retry does not establish permanent repair/root cause. Existing current-source fault3methods/28controls remain accepted. Resume0002 verifies failed-parent accepted fault originals and strict walking original/JUnit/APK identities before remaining process-death/allslot/ViewModel3methods19controls; parent currentlyRUNNING source preflight, no later PASS yet. Android599 inputs/installed pair unchanged, no overlapping tests or user foreground window. BG8/44 and UI6/31/visible reviews remain separately accepted. Next compiled demo0077 matrix, restoration/interrupted-root/custody/closure/checkpoint beforeF3/F4. User can use other apps; keepPackRAGclosed/USBconnected/mobiledataon. FullF2/M4/product not complete; final owner packs excluded.",
+  "walking_execution_sha256": "92d964e5cba76995a1f2e2c84defbe62f855010f49868aaa92ce72598e227c67",
+  "original_sha256": "d729a92b608a8dbc91e96d34b500ee23064fb31107cdbedeab16bf0cb710bc3a"
+}

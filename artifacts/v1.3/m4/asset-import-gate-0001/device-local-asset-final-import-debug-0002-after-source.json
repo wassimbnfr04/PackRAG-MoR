@@ -1,0 +1,31 @@
+{
+  "status": "PASS_OWNED_FULL_ASSET_SOURCE_SET_VALIDATED_NOT_IMPORT_OR_F2_ACCEPTANCE",
+  "started_utc": "2026-10-11T21:56:23.957055+00:00",
+  "runner_sha256": "34b599661db5de660a61ebdf470cf5791ff575b8fd881d500914ddbacf431513",
+  "build": "build-0076",
+  "namespace": "files/f2-full-assets-0001",
+  "verify_only": true,
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product.test sh -c 'set -eu; root=files/f2-full-assets-0001; test -d files; test ! -L files; test -d \"$root\"; test ! -L \"$root\"; test -f \"$root/owner.marker\"; test ! -L \"$root/owner.marker\"; test \"$(wc -c < \"$root/owner.marker\")\" -eq 26; test \"$(cat \"$root/owner.marker\")\" = \"PackRAG F2 full assets v1\"; for entry in \"$root\"/* \"$root\"/.[!.]*; do if test -e \"$entry\" || test -L \"$entry\"; then case \"${entry##*/}\" in owner.marker|full-generator.asset|full-template.asset|full-tokenizer.asset|full-encoder.asset) ;; *) exit 91 ;; esac; fi; done; test -f \"$root/full-generator.asset\"; test ! -L \"$root/full-generator.asset\"; test \"$(wc -c < \"$root/full-generator.asset\")\" -eq 1593894944; test -f \"$root/full-template.asset\"; test ! -L \"$root/full-template.asset\"; test \"$(wc -c < \"$root/full-template.asset\")\" -eq 5443; test -f \"$root/full-tokenizer.asset\"; test ! -L \"$root/full-tokenizer.asset\"; test \"$(wc -c < \"$root/full-tokenizer.asset\")\" -eq 25301672; test -f \"$root/full-encoder.asset\"; test ! -L \"$root/full-encoder.asset\"; test \"$(wc -c < \"$root/full-encoder.asset\")\" -eq 390004608; sha256sum \"$root/full-generator.asset\" \"$root/full-template.asset\" \"$root/full-tokenizer.asset\" \"$root/full-encoder.asset\"'"
+      ],
+      "returncode": 0,
+      "stdout": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03  files/f2-full-assets-0001/full-generator.asset\nea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef  files/f2-full-assets-0001/full-template.asset\n4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f  files/f2-full-assets-0001/full-tokenizer.asset\n68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70  files/f2-full-assets-0001/full-encoder.asset\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "files/f2-full-assets-0001/full-generator.asset": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "files/f2-full-assets-0001/full-template.asset": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "files/f2-full-assets-0001/full-tokenizer.asset": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+    "files/f2-full-assets-0001/full-encoder.asset": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70"
+  },
+  "source_total_bytes": 2009206667,
+  "scope": "Exact four known owner inputs copied read-only on device into newly owned test UID flat namespace; no host model export, arbitrary paths, custody traversal or product permissions. Every pipeline return checked with pipefail. Fixed no-follow types/marker/whitelist/size and full source SHA verified. Namespace deliberately retained; verify-only records reuse explicitly. No import/native/UI acceptance implied.",
+  "finished_utc": "2026-10-11T21:56:29.188179+00:00"
+}

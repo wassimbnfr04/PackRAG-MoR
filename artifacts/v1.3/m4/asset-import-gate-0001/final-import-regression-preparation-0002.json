@@ -1,0 +1,134 @@
+{
+  "status": "PREPARED_FINAL_SOURCE_IMPORT_REGRESSIONS_NOT_EXECUTED_OR_ACCEPTED",
+  "created_utc": "2026-10-11T20:51:12.420344+00:00",
+  "final_build": "build-0076",
+  "final_android_inputs": 599,
+  "selected_dependency_sha256": {
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetImporter.kt": "8e3743936be2efbb402654417b8445792a8d32e6df265982b77357469e015906",
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetUriSource.kt": "fa5d4efdd29f8a9e32d7456cb2f70cd18bdfe05901b436b5d079b29c09c3cb37",
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetLeases.kt": "00f2cac5dbc5b7a190782406e0f0e288adf57f6863a2df330cbc6adbe35700c3",
+    "product/android/app/src/main/java/org/packrag/product/ProductSession.kt": "d6190e8327b3b414dba5588a9a0c4089be1f032fa363e782d1dc4a4f4407383d",
+    "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": "ca84048e23742aacd11bceaf0bff79e3bd77d3fb3f949eb7be073f8131bfc4b0",
+    "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureGrantReceiver.java": "7106ce2e7a3310072c0e312ca08517276b344132004d1b65f02a31ad29350d62",
+    "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureProvider.java": "af400523462391cee16a3b5a5084a0d74fdfd14d21edf7fc2dfdc96265e4d8ec",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportTestSupport.kt": "b7656ff3337e9384b39d5c80a04507eab9d339f261648eb84ae95739af799ba2",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportFaultDeviceTest.kt": "c448e60ec9a2a40e4fd0b018a7617a26f0ebbb5abee6e01ca1feb591e405694a",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportWalkingDeviceTest.kt": "ffa9f1272df848f07c660d0032bb0a22d2601cf74278b2dbe4e092c3977fc432",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportProcessDeathDeviceTest.kt": "f25197d80590972eae0e7d4808f30e9c7bfea0a850ac3d404004ba4413a1d11d",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportAllSlotsDeviceTest.kt": "52c9c1979fd2a32fa9dde570a9f0637027c9e37a1d38362b1d1ebfa05b7f175c",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportViewModelDeviceTest.kt": "cbebb8d2adb244ef577c52ca39258d7cd24c43b76445bec0a90715ebdc395df9"
+  },
+  "historical_dependency_differences": {
+    "build-0063": {
+      "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": {
+        "previous_sha256": "e70670df71a11f6b7cf1e8580f36b94a8f77cd233704e4cad121b83bfec6d66b",
+        "final_sha256": "ca84048e23742aacd11bceaf0bff79e3bd77d3fb3f949eb7be073f8131bfc4b0"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureGrantReceiver.java": {
+        "previous_sha256": "7f6d5d4f521594c90b581bc29e8f0be18b300b88c4b253df5ed73ca3fa34d068",
+        "final_sha256": "7106ce2e7a3310072c0e312ca08517276b344132004d1b65f02a31ad29350d62"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureProvider.java": {
+        "previous_sha256": "fefbaefefefcbd649c8b2c1543364c4ca9ea5027daa3da7500618ff907751279",
+        "final_sha256": "af400523462391cee16a3b5a5084a0d74fdfd14d21edf7fc2dfdc96265e4d8ec"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportTestSupport.kt": {
+        "previous_sha256": null,
+        "final_sha256": "b7656ff3337e9384b39d5c80a04507eab9d339f261648eb84ae95739af799ba2"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportProcessDeathDeviceTest.kt": {
+        "previous_sha256": null,
+        "final_sha256": "f25197d80590972eae0e7d4808f30e9c7bfea0a850ac3d404004ba4413a1d11d"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportAllSlotsDeviceTest.kt": {
+        "previous_sha256": null,
+        "final_sha256": "52c9c1979fd2a32fa9dde570a9f0637027c9e37a1d38362b1d1ebfa05b7f175c"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportViewModelDeviceTest.kt": {
+        "previous_sha256": null,
+        "final_sha256": "cbebb8d2adb244ef577c52ca39258d7cd24c43b76445bec0a90715ebdc395df9"
+      }
+    },
+    "build-0065": {
+      "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": {
+        "previous_sha256": "e70670df71a11f6b7cf1e8580f36b94a8f77cd233704e4cad121b83bfec6d66b",
+        "final_sha256": "ca84048e23742aacd11bceaf0bff79e3bd77d3fb3f949eb7be073f8131bfc4b0"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureGrantReceiver.java": {
+        "previous_sha256": "7f6d5d4f521594c90b581bc29e8f0be18b300b88c4b253df5ed73ca3fa34d068",
+        "final_sha256": "7106ce2e7a3310072c0e312ca08517276b344132004d1b65f02a31ad29350d62"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureProvider.java": {
+        "previous_sha256": "fefbaefefefcbd649c8b2c1543364c4ca9ea5027daa3da7500618ff907751279",
+        "final_sha256": "af400523462391cee16a3b5a5084a0d74fdfd14d21edf7fc2dfdc96265e4d8ec"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportTestSupport.kt": {
+        "previous_sha256": null,
+        "final_sha256": "b7656ff3337e9384b39d5c80a04507eab9d339f261648eb84ae95739af799ba2"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportAllSlotsDeviceTest.kt": {
+        "previous_sha256": null,
+        "final_sha256": "52c9c1979fd2a32fa9dde570a9f0637027c9e37a1d38362b1d1ebfa05b7f175c"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportViewModelDeviceTest.kt": {
+        "previous_sha256": null,
+        "final_sha256": "cbebb8d2adb244ef577c52ca39258d7cd24c43b76445bec0a90715ebdc395df9"
+      }
+    },
+    "build-0066": {
+      "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": {
+        "previous_sha256": "e70670df71a11f6b7cf1e8580f36b94a8f77cd233704e4cad121b83bfec6d66b",
+        "final_sha256": "ca84048e23742aacd11bceaf0bff79e3bd77d3fb3f949eb7be073f8131bfc4b0"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportTestSupport.kt": {
+        "previous_sha256": null,
+        "final_sha256": "b7656ff3337e9384b39d5c80a04507eab9d339f261648eb84ae95739af799ba2"
+      },
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportViewModelDeviceTest.kt": {
+        "previous_sha256": null,
+        "final_sha256": "cbebb8d2adb244ef577c52ca39258d7cd24c43b76445bec0a90715ebdc395df9"
+      }
+    },
+    "build-0067": {
+      "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportTestSupport.kt": {
+        "previous_sha256": "1707f2ed08069d10d5e6ec0cc8451b88404561c8ce06b3af63270655cd1cb4b8",
+        "final_sha256": "b7656ff3337e9384b39d5c80a04507eab9d339f261648eb84ae95739af799ba2"
+      }
+    },
+    "build-0070": {},
+    "build-0075": {}
+  },
+  "prepared_runners": {
+    "run_final_faults_installed_0001.py": {
+      "original": "run_hardening_0002.py",
+      "original_sha256": "56210cb0d630bad7d92c7fa2fb09a0bb090dc6b9ffbb97fcafbc8f1dde66575d",
+      "prepared_sha256": "5363bdd0ee61a6c21870e131d3a5240c238fdd82024f64bdc678e37da645c9fb",
+      "changes": "Installed-pair verification replaces reinstall; 2400s watchdog becomes 3000s where present. Deep validators unchanged; no performance acceptance."
+    },
+    "run_final_restart_installed_0001.py": {
+      "original": "run_restart.py",
+      "original_sha256": "b9c2f869959348db1fae19a887910abf32a3825ef163b631205bb255448647c1",
+      "prepared_sha256": "97765f1476255c95cd745fafd847504af597932fa24bb1a7710a067f6ac95911",
+      "changes": "Installed-pair verification replaces reinstall; 2400s watchdog becomes 3000s where present. Deep validators unchanged; no performance acceptance."
+    },
+    "run_final_all_slots_installed_0001.py": {
+      "original": "run_all_slots.py",
+      "original_sha256": "31198af8e578f12ef52086afb2f79034be77e55a375e601e9f8e0af0b43e9abf",
+      "prepared_sha256": "66c19946d9a76d507bba8fcd30da698bca8314f66e6f76e28b4b2446a8bbfc99",
+      "changes": "Installed-pair verification replaces reinstall; 2400s watchdog becomes 3000s where present. Deep validators unchanged; no performance acceptance."
+    },
+    "run_final_viewmodel_installed_0001.py": {
+      "original": "run_viewmodel.py",
+      "original_sha256": "ab9b77fca3d19e68671121e7ecd0e6109dfd01837da47d3415b22802269aa608",
+      "prepared_sha256": "e3552f06ab8b8829d804752391c349180e524798ef94266fdcfe5aefd16f1929",
+      "changes": "Installed-pair verification replaces reinstall; 2400s watchdog becomes 3000s where present. Deep validators unchanged; no performance acceptance."
+    },
+    "run_final_walking_installed_0001.py": {
+      "original": "run_walking.py",
+      "original_sha256": "a8d190e22e0601c9b0f70a740ca5b97054d3a867baee81ee05cfe663d48198b4",
+      "prepared_sha256": "3d5c2d95612ab2ff9dcf90dfb7a585960022c4aebea397ac888025963f4c0535",
+      "changes": "Two reinstall commands replaced by exact installed public APK SHA guards. Native watchdog1200s becomes3000s. Existing seven semantic controls, narrow grant, originals, owner50 before/after checks unchanged."
+    }
+  },
+  "scope": "Explicit thirteen public dependency paths only; no directory/custody traversal. Historical outputs/runners immutable. Fresh final fault3methods/28controls, walking1/7, restart1/3, allslots1/8, ViewModel1/8 required. These are preparation only. Current adjacent batch remains frozen and uninterrupted. No radio/data/owner pack changes."
+}

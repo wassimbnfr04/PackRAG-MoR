@@ -1,0 +1,19 @@
+{
+  "status": "FAIL_HOME_DIAGNOSTIC_MEASUREMENTS_NOT_VISIBLE_SOURCE_CANONICAL_VISIBLE",
+  "recorded_utc": "2026-10-10T19:32:14.224886+00:00",
+  "images": {
+    "m4-diagnostic-home.png": {
+      "sha256": "d645970eb14c1652c522387ca1f52fb745dff9c5abdaa2fcac21580d524f76a2",
+      "bytes": 251109
+    },
+    "m4-diagnostic-source.png": {
+      "sha256": "217f53a00d3753b6aa3158d7da31184436a02270e6b01fe90d69213490c99dbc",
+      "bytes": 261722
+    }
+  },
+  "review_method": "Both exact original PNGs inspected with view_image, not inferred from test tags.",
+  "home": "Accepted answer/citation/header are readable, but IME occupies the lower half; only diagnostics heading reaches the viewport. Numeric diagnostic observations are not visually demonstrated.",
+  "source": "Canonical English sentence including74\u00b0C is complete above navigation; attribution/unknown fields are readable. Tested viewport only.",
+  "automated_scope": "JUnit one method/seven controls106.073s and original JSON PASS stay unchanged; visual acceptance fails independently.",
+  "next": "Hold later policy/full acceptance. Preserve0046/test/source/screenshots; repair capture-only hide-IME/measurement anchor, fresh build and actual UI retry. Do not alter old PNGs."
+}

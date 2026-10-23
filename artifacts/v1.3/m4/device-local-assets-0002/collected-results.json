@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-11T14:39:24.449239+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug.apk": "fe79e4eed5ca3c8e2c4efa862bb24573e7c459afa1cd6c5d3a5c5a7e649dbdc0",
+    "app-debug-androidTest.apk": "543f19e50a2ce3d5c4d234866f2b92a25a00968f3c392831af77269c9f675a95"
+  },
+  "saved_sha256": {
+    "m4-local-assets-negative.json": "3719403566a33a89ea5de99a31f002b26b43c21baf5e2ea44a876e4b54270456",
+    "m4-local-assets-runtime.json": "71bf9835d78ea66f6a69d71cb46b623161b3bd4ac69a3fa58f4a9da2c34f4a63",
+    "m4-local-assets-viewmodel.json": "76038160bb7185be9e7b47159fe39c6bd29ec9377ff9cc01f49be9d93fb39168"
+  },
+  "formatted_primary_parsed_equal": [
+    "m4-local-assets-negative.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-assets-negative.json"
+      ],
+      "started_at": "2026-10-11T14:39:24.140392+00:00",
+      "ended_at": "2026-10-11T14:39:24.259151+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-assets-runtime.json"
+      ],
+      "started_at": "2026-10-11T14:39:24.259151+00:00",
+      "ended_at": "2026-10-11T14:39:24.344753+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-assets-viewmodel.json"
+      ],
+      "started_at": "2026-10-11T14:39:24.344753+00:00",
+      "ended_at": "2026-10-11T14:39:24.444902+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

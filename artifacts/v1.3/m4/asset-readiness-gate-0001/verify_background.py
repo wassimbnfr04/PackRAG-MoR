@@ -1,0 +1,69 @@
+"""Independent F1 device-original and relevant-regression checks, not milestone closure."""
+import argparse,hashlib,json,re
+from datetime import datetime,timezone
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[4];HERE=Path(__file__).parent;M4=ROOT/'artifacts/v1.3/m4'
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def sha(p):
+    with p.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
+parser=argparse.ArgumentParser();parser.add_argument('--run',required=True);args=parser.parse_args();run=M4/args.run
+assert run.parent==M4;target=HERE/(args.run+'-verified.json');assert not target.exists()
+execution=read(HERE/(args.run+'-execution.json'));phase=execution['phase'];variant=execution['variant']
+assert execution['status']=='PASS_F1_'+phase.upper()+'_ACTUAL_ORIGINALS_NOT_FULL_F1'
+manifest=read(run/'instrumentation-manifest.json');collection=read(run/'collected-results.json')
+assert manifest['status']==collection['status']=='PASS' and manifest['variant']==variant
+assert all(row['returncode']==0 for row in execution['commands'])
+build=M4/execution['build'];host=read(HERE/(execution['build']+'-host-capture.json'))
+assert manifest['apk_sha256']==collection['apk_sha256']==host['apk_sha256']
+for name,value in read(build/'source-at-build-start.json')['files'].items():assert sha(ROOT/name)==value,name
+observations={};guards=[];legacy=None
+if phase=='adjacent' and variant=='demo':
+    legacy=read(HERE/'policy-schema-and-owner-guard-0001.json')
+    assert legacy['status']=='PASS_ACTUAL_POLICY_PHASE_FINAL_OWNER_GUARD_AND_UNCHANGED_LEGACY_SCHEMA_NOT_CLOSURE'
+    assert legacy['guarded_file_count']==50 and all(row['returncode']==0 for row in legacy['commands'])
+    assert set(legacy['legacy_report_contracts'])=={'m4-ui-query-policy.json','m4-source-details-policy.json'}
+for name,value in collection['saved_sha256'].items():
+    assert Path(name).name==name and sha(run/'original-adb'/name)==value
+    data=read(run/'original-adb'/name);assert data==read(run/name) and data['status']=='PASS'
+    assert all(row['passed'] is True for row in data['cases'])
+    assert len({row['id'] for row in data['cases']})==len(data['cases'])
+    schema=legacy['legacy_report_contracts'].get(name) if legacy else None
+    if schema:
+        assert schema['original_sha256']==value and sorted(data)==schema['exact_key_set']
+        assert sha(ROOT/schema['test_source'])==schema['test_source_sha256']
+        assert data['compiled_developer_mode'] is False and 'owner_registry_and_model_sha256' not in data
+        assert schema['missing_owner_guard'] is True
+        if schema['missing_network_mode']:
+            assert name=='m4-source-details-policy.json' and 'network_mode' not in data
+        else:assert data['network_mode']=='MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET'
+        observations[name]=dict(cases=len(data['cases']),original_sha256=value,
+            owner_guard_scope='Independent post-phase50-file sidecar, not an in-method guard in this unchanged legacy report',
+            network_scope='Compiled APK no-INTERNET pin; this original omits network metadata' if schema['missing_network_mode'] else 'Original declared mode plus compiled APK pin')
+    else:
+        assert data['network_mode']=='MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET'
+        guards.append(data['owner_registry_and_model_sha256']);observations[name]=dict(cases=len(data['cases']),original_sha256=value)
+assert all(guard==guards[0] for guard in guards),'Owner guards differ across accepted methods'
+if legacy:assert guards and guards[0]==legacy['owner_public_file_sha256']
+if phase=='core':
+    assert set(observations)=={'m4-local-assets-negative.json','m4-local-assets-runtime.json','m4-local-assets-viewmodel.json'}
+    assert observations['m4-local-assets-negative.json']['cases']==5
+    assert observations['m4-local-assets-runtime.json']['cases']==5
+    assert observations['m4-local-assets-viewmodel.json']['cases']==3
+    positive=read(run/'m4-local-assets-runtime.json');vm=read(run/'m4-local-assets-viewmodel.json')
+    assert positive['actual_weight_inference'] is True and vm['actual_weight_inference'] is True
+    assert positive['raw_reasoning_persisted'] is False and vm['raw_reasoning_persisted'] is False
+    assert '74 °C' in positive['answer'] and '[S1]' in positive['answer'] and '</think>' not in positive['answer']
+    assert 0<positive['prefill_tokens']<=1536 and 0<positive['evidence_tokens']<=1200 and 0<positive['emitted_tokens']<=512
+    assert positive['initialization_ms']>0 and positive['session_wall_ms']>=positive['initialization_ms']
+    assert all(data['guards_unchanged'] is True for data in [read(run/name) for name in observations])
+text=(run/'instrumentation.txt').read_text(encoding='utf-8')
+expected=3 if phase=='core' or variant=='demo' else 5
+assert f'OK ({expected} tests)' in text and 'FAILURES' not in text
+match=re.search(r'Time:\s*([0-9][0-9\s\u00a0\u202f]*[.,][0-9]+)',text);assert match
+seconds=float(re.sub(r'\s','',match[1]).replace(',','.'))
+record=dict(status='PASS_F1_'+phase.upper()+'_INDEPENDENT_ORIGINAL_CONTRACT_CHECK_NOT_CLOSURE',recorded_utc=datetime.now(timezone.utc).isoformat(),
+    run=args.run,variant=variant,methods=expected,whole_instrumentation_seconds=seconds,observations=observations,
+    owner_public_file_sha256=guards[0],execution_sha256=sha(HERE/(args.run+'-execution.json')),
+    legacy_policy_guard_sidecar_sha256=sha(HERE/'policy-schema-and-owner-guard-0001.json') if legacy else None,
+    scope='Actual original bytes, source/APK/host binding, fixed independent case counts/positive token bounds and owner equality. UI and cross-variant closure remain separate. Functional timings are not hardware-performance acceptance.')
+target.write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8');print(record['status'],expected,'methods',seconds,'seconds')

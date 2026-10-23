@@ -1,0 +1,1107 @@
+{
+  "architecture_sha256": "9b02f83b186a5b7f0101add861c6ecb40f5eb0b13016f50fa0c76efc6de07536",
+  "status": "VERIFIED_M3_RUNTIME_BOUNDARIES_NOT_FULL_PRODUCT_ACCEPTANCE",
+  "requirements": [
+    {
+      "id": "V13-P0086",
+      "paragraph": 86,
+      "requirement": "Validate paths, sizes, count, type allow-list, hashes and signature before activation",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P0300",
+      "paragraph": 300,
+      "requirement": "FROZEN DECISION — A Knowledge Pack is immutable data. It contains no executable code, model adapters, scripts, native libraries, or behavior overrides.",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P0303",
+      "paragraph": 303,
+      "requirement": "No neural/ directory exists in KPack 1.0. Future schema versions may add extensions, but v1 parsers MUST reject unknown executable-like entries and MUST ignore no payload that is not declared in the signed manifest.",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P0305",
+      "paragraph": 305,
+      "requirement": "• UTF-8 normalized forward-slash paths only.",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P0307",
+      "paragraph": 307,
+      "requirement": "• No absolute paths, drive prefixes, “..” segments, symlinks, hardlinks, devices, or duplicate paths.",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P0310",
+      "paragraph": 310,
+      "requirement": "• Maximum 5,000 entries, 512 MiB total uncompressed size, and 256 MiB per entry in v1.",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P0311",
+      "paragraph": 311,
+      "requirement": "• Every payload entry other than the two control files manifest.json and manifest.sig MUST appear exactly once in manifest.files with byte length and SHA-256. manifest.json MUST NOT list or hash itself; manifest.sig is verified separately.",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P0319",
+      "paragraph": 319,
+      "requirement": "Exactly \"1.0\" for v1.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0328",
+      "paragraph": 328,
+      "requirement": "Validated with SemVer 2.0.0 rules; never compared lexicographically.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0330",
+      "paragraph": 330,
+      "requirement": "RFC3339 UTC",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0334",
+      "paragraph": 334,
+      "requirement": "publisher name + trusted key_id.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0337",
+      "paragraph": 337,
+      "requirement": "BCP-47/ISO language tags used by source/derived text.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0340",
+      "paragraph": 340,
+      "requirement": "ISO country/subdivision codes or empty for global packs.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0349",
+      "paragraph": 349,
+      "requirement": "For active KPack v1: exactly granite97m-multi-r2-384-v1, pinned model revision/hash, dim=384, normalization and runtime contract.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0352",
+      "paragraph": 352,
+      "requirement": "Exactly \"mobile-v1\" for MVP release packs. The app defines mobile-v1; the pack cannot redefine its resource limits or algorithms.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0355",
+      "paragraph": 355,
+      "requirement": "core_api=\"1.x\"; generator-language expectations; no generator-specific neural cache.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0358",
+      "paragraph": 358,
+      "requirement": "path, sha256, bytes, media_type, required flag.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0361",
+      "paragraph": 361,
+      "requirement": "source/chunk/relation counts cross-checked against DB and KDX1.",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P0369",
+      "paragraph": 369,
+      "requirement": "The builder serializes manifest.json using RFC 8785 JSON Canonicalization Scheme, writes those exact bytes to the archive, and signs those exact bytes with Ed25519. The Android verifier MUST NOT semantically trust or reserialize the manifest before signature verification. Because key_id is inside the signed JSON, the release trust store is intentionally small: the verifier tries the raw 64-byte signature against each pinned release public key (maximum eight keys in KPack 1.0), requires exactly one key to verify, then parses manifest.json and requires publisher.key_id to match that verified key. Only after this step may schema, compatibility, paths, counts, or calibration fields be accepted.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0371",
+      "paragraph": 371,
+      "requirement": "• Release/demo app contains a built-in trust store of approved publisher public keys keyed by key_id.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0372",
+      "paragraph": 372,
+      "requirement": "• Signature verification selects the signer cryptographically by trying the bounded pinned-key set; unverified JSON is never trusted for key selection.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0373",
+      "paragraph": 373,
+      "requirement": "• Private signing keys never exist on the phone.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0374",
+      "paragraph": 374,
+      "requirement": "• A valid signature proves integrity and publisher-key possession; it does not prove factual correctness.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0375",
+      "paragraph": 375,
+      "requirement": "• Release v1 does not allow arbitrary third-party publisher keys to be silently trusted. A future “advanced trust” UI can be added as a separate feature.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0376",
+      "paragraph": 376,
+      "requirement": "• Debug builds may use a dedicated test key whose key_id cannot be confused with the release key.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0378",
+      "paragraph": 378,
+      "requirement": "FROZEN DECISION — Android minSdk 26 MUST NOT rely on platform java.security.Signature for Ed25519. The v1 verifier uses com.google.crypto.tink:tink-android:1.23.0 with RAW Ed25519 signatures and a pinned release public key.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0379",
+      "paragraph": 379,
+      "requirement": "• manifest.sig is a standard 64-byte Ed25519 signature over the exact raw manifest.json bytes.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0380",
+      "paragraph": 380,
+      "requirement": "• The PC builder uses a compatible Ed25519 implementation and stores the public key/key_id in release metadata; the private key never ships.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0381",
+      "paragraph": 381,
+      "requirement": "• A fixed cross-language test vector is mandatory: PC signs the canonical manifest bytes; Android Tink verifies the exact signature; wrong-message and wrong-key tests must fail.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0382",
+      "paragraph": 382,
+      "requirement": "• The trust store is application-owned. Packs cannot add trusted keys.",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P0384",
+      "paragraph": 384,
+      "requirement": "• KPack is data-only. It MAY carry calibration values and compatibility identifiers, but it MUST NOT redefine mobile-v1 candidate counts, RRF k, graph limits, evidence chunk/token caps, query rewrite policy, reranker policy, or memory/CPU limits.",
+      "status": "VERIFIED",
+      "boundary": "pack cannot replace app-owned mobile-v1 and finite calibration schema",
+      "implementation": [
+        "product/config/runtime-profile.json",
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Finite range rejection prevents accepting out-of-range calibration; does not certify measured quality."
+    },
+    {
+      "id": "V13-P0385",
+      "paragraph": 385,
+      "requirement": "• The application owns the frozen mobile-v1 profile and clamps all pack-provided numeric calibration values to schema-defined finite ranges.",
+      "status": "VERIFIED",
+      "boundary": "pack cannot replace app-owned mobile-v1 and finite calibration schema",
+      "implementation": [
+        "product/config/runtime-profile.json",
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Finite range rejection prevents accepting out-of-range calibration; does not certify measured quality."
+    },
+    {
+      "id": "V13-P0388",
+      "paragraph": 388,
+      "requirement": "The database is built once on the PC and opened read-only on Android. The app executes only fixed prepared statements. Packs never provide SQL code to execute.",
+      "status": "VERIFIED",
+      "boundary": "disposable DB/FTS validation, immutable original and fixed queries",
+      "implementation": [
+        "product/packrag/database.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackVerifier.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/database-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Exact schema/type/provenance contracts; source truth and human review remain separate."
+    },
+    {
+      "id": "V13-P0633",
+      "paragraph": 633,
+      "requirement": ".kpack selected\n      ↓\nread ZIP central directory; reject traversal / absolute / duplicate / symlink / type violations and enforce count/size limits\n      ↓\nread raw manifest.json (bounded size) + raw 64-byte manifest.sig\n      ↓\nWITHOUT trusting JSON fields, try signature verification against the bounded built-in trust-store keys; require exactly one matching public key\n      ↓\nparse the now-authenticated manifest; require publisher.key_id == matched key and validate schema/compatibility\n      ↓\nstream-extract payloads to .staging while computing SHA-256; manifest.json and manifest.sig are control files and are not entries in manifest.files\n      ↓\ncompare every declared payload hash + byte length and reject undeclared payloads\n      ↓\nvalidate KDX1 header/count/hashes/norms\n      ↓\ncopy knowledge.sqlite to a disposable writable validation DB; run PRAGMA integrity_check, foreign_key_check, schema audit, and FTS5 external-content integrity-check(rank=1); delete validation copy\n      ↓\nkeep the hash-verified staged knowledge.sqlite unmodified and mount it read-only after activation\n      ↓\nfsync staging → atomic rename into packs/<pack_id>/<version> → registry transaction switches active version → retain previous version for one-step rollback",
+      "status": "VERIFIED",
+      "boundary": "atomic lifecycle, explicit older warning/no automatic rollback, correct-CRC tamper negatives",
+      "implementation": [
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackRegistry.kt",
+        "product/android/app/src/main/java/org/packrag/product/MainActivity.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/device-management-ui-0001/m3-pack-management-ui.json",
+        "artifacts/v1.3/m3/device-release-trust-ui-0001/m3-pack-management-ui.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Controlled faults, actual process SIGKILL/hot journals and physical UI are distinct; no physical power-cut or exhaustive crash claim."
+    },
+    {
+      "id": "V13-P0635",
+      "paragraph": 635,
+      "requirement": "Automatic rollback to an older version is forbidden. A deliberate user rollback is permitted from Pack Details and must display an “older content” warning. When a newer valid version is installed, the previous version may be retained until the next successful app restart or until storage cleanup, whichever is later.",
+      "status": "VERIFIED",
+      "boundary": "atomic lifecycle, explicit older warning/no automatic rollback, correct-CRC tamper negatives",
+      "implementation": [
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackRegistry.kt",
+        "product/android/app/src/main/java/org/packrag/product/MainActivity.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/device-management-ui-0001/m3-pack-management-ui.json",
+        "artifacts/v1.3/m3/device-release-trust-ui-0001/m3-pack-management-ui.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Controlled faults, actual process SIGKILL/hot journals and physical UI are distinct; no physical power-cut or exhaustive crash claim."
+    },
+    {
+      "id": "V13-P0637",
+      "paragraph": 637,
+      "requirement": "The automated test suite MUST flip one byte in knowledge.sqlite and one byte in dense.kdx and confirm the pack is rejected with a hash mismatch before activation. It MUST also test a traversal filename, duplicate filename, oversized-declared archive, unknown signer, wrong signature, invalid KDX1 magic, and broken SQLite integrity.",
+      "status": "VERIFIED",
+      "boundary": "atomic lifecycle, explicit older warning/no automatic rollback, correct-CRC tamper negatives",
+      "implementation": [
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackRegistry.kt",
+        "product/android/app/src/main/java/org/packrag/product/MainActivity.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/device-management-ui-0001/m3-pack-management-ui.json",
+        "artifacts/v1.3/m3/device-release-trust-ui-0001/m3-pack-management-ui.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Controlled faults, actual process SIGKILL/hot journals and physical UI are distinct; no physical power-cut or exhaustive crash claim."
+    },
+    {
+      "id": "V13-P1000",
+      "paragraph": 1000,
+      "requirement": "• ZIP central directory readable",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P1001",
+      "paragraph": 1001,
+      "requirement": "• ≤5,000 entries",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P1002",
+      "paragraph": 1002,
+      "requirement": "• ≤512 MiB total uncompressed",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P1003",
+      "paragraph": 1003,
+      "requirement": "• No absolute/traversal/symlink/duplicate path",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P1004",
+      "paragraph": 1004,
+      "requirement": "• Only declared allow-listed paths",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P1005",
+      "paragraph": 1005,
+      "requirement": "• manifest.json is valid UTF-8 RFC8785-compatible JSON",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P1006",
+      "paragraph": 1006,
+      "requirement": "• manifest.sig length = 64 bytes",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P1007",
+      "paragraph": 1007,
+      "requirement": "• Before semantic manifest parsing, the raw signature verifies against exactly one public key in the bounded built-in trust store",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P1008",
+      "paragraph": 1008,
+      "requirement": "• After authentication, publisher.key_id in the parsed manifest matches that cryptographically selected key; fixed cross-language Tink/Python test vector passes",
+      "status": "VERIFIED",
+      "boundary": "raw-byte signature before semantic trust, app-owned public keys and custody",
+      "implementation": [
+        "product/packrag/validation.py",
+        "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt",
+        "product/config/release-trust.json"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/d2a-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d2b-gate-0001/gate.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Demo is instrumentable/Android Debug signed; final release signing is M8. Private seed excluded, never an output identity. Paragraph378 minSdk26 rationale does not override frozen minSdk28."
+    },
+    {
+      "id": "V13-P1009",
+      "paragraph": 1009,
+      "requirement": "• manifest.json and manifest.sig are the only control files and are excluded from manifest.files; all declared payloads are present and no undeclared payloads exist",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P1010",
+      "paragraph": 1010,
+      "requirement": "• All byte lengths and SHA-256 hashes match",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P1011",
+      "paragraph": 1011,
+      "requirement": "• schema_version supported",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P1012",
+      "paragraph": 1012,
+      "requirement": "• pack version parses as SemVer 2.0.0",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P1013",
+      "paragraph": 1013,
+      "requirement": "• compatible_retrieval_profile == mobile-v1",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P1014",
+      "paragraph": 1014,
+      "requirement": "• embedding_profile_id == granite97m-multi-r2-384-v1",
+      "status": "VERIFIED",
+      "boundary": "authenticated typed manifest and frozen compatibility",
+      "implementation": [
+        "product/packrag/manifest.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ManifestSchema.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/manifest-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Calibration/source/reviewer fields are structural admission only; genuine release inputs and measured calibration remain M5/M6."
+    },
+    {
+      "id": "V13-P1015",
+      "paragraph": 1015,
+      "requirement": "• SQLite PRAGMA integrity_check = ok",
+      "status": "VERIFIED",
+      "boundary": "disposable DB/FTS validation, immutable original and fixed queries",
+      "implementation": [
+        "product/packrag/database.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackVerifier.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/database-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Exact schema/type/provenance contracts; source truth and human review remain separate."
+    },
+    {
+      "id": "V13-P1016",
+      "paragraph": 1016,
+      "requirement": "• Expected tables/columns/indexes exist",
+      "status": "VERIFIED",
+      "boundary": "disposable DB/FTS validation, immutable original and fixed queries",
+      "implementation": [
+        "product/packrag/database.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackVerifier.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/database-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Exact schema/type/provenance contracts; source truth and human review remain separate."
+    },
+    {
+      "id": "V13-P1017",
+      "paragraph": 1017,
+      "requirement": "• PRAGMA foreign_key_check returns no rows; source_id/chunk_id uniqueness valid",
+      "status": "VERIFIED",
+      "boundary": "disposable DB/FTS validation, immutable original and fixed queries",
+      "implementation": [
+        "product/packrag/database.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackVerifier.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/database-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Exact schema/type/provenance contracts; source truth and human review remain separate."
+    },
+    {
+      "id": "V13-P1018",
+      "paragraph": 1018,
+      "requirement": "• On a disposable writable validation copy of knowledge.sqlite, FTS5 external-content integrity-check with rank=1 succeeds and FTS row count equals chunks row count; the hash-verified install copy remains unmodified/read-only",
+      "status": "VERIFIED",
+      "boundary": "disposable DB/FTS validation, immutable original and fixed queries",
+      "implementation": [
+        "product/packrag/database.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackVerifier.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/database-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Exact schema/type/provenance contracts; source truth and human review remain separate."
+    },
+    {
+      "id": "V13-P1019",
+      "paragraph": 1019,
+      "requirement": "• KDX1 magic/version/dimension/count valid and exact file length = 84 + N×D×4",
+      "status": "VERIFIED",
+      "boundary": "independent streamed KDX structure/norm then validated-row binding",
+      "implementation": [
+        "product/packrag/kdx.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/KdxFormat.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/validation-order-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Vectors are finite normalized format data; no semantic embedding correctness claim from synthetic mutations."
+    },
+    {
+      "id": "V13-P1020",
+      "paragraph": 1020,
+      "requirement": "• KDX1 embedding-profile hash matches manifest",
+      "status": "VERIFIED",
+      "boundary": "independent streamed KDX structure/norm then validated-row binding",
+      "implementation": [
+        "product/packrag/kdx.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/KdxFormat.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/validation-order-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Vectors are finite normalized format data; no semantic embedding correctness claim from synthetic mutations."
+    },
+    {
+      "id": "V13-P1021",
+      "paragraph": 1021,
+      "requirement": "• dense_row forms contiguous 0..N-1",
+      "status": "VERIFIED",
+      "boundary": "disposable DB/FTS validation, immutable original and fixed queries",
+      "implementation": [
+        "product/packrag/database.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackVerifier.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/database-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Exact schema/type/provenance contracts; source truth and human review remain separate."
+    },
+    {
+      "id": "V13-P1022",
+      "paragraph": 1022,
+      "requirement": "• All vector values finite and norm within tolerance",
+      "status": "VERIFIED",
+      "boundary": "independent streamed KDX structure/norm then validated-row binding",
+      "implementation": [
+        "product/packrag/kdx.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/KdxFormat.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/validation-order-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Vectors are finite normalized format data; no semantic embedding correctness claim from synthetic mutations."
+    },
+    {
+      "id": "V13-P1023",
+      "paragraph": 1023,
+      "requirement": "• Every chunk locator non-empty",
+      "status": "VERIFIED",
+      "boundary": "disposable DB/FTS validation, immutable original and fixed queries",
+      "implementation": [
+        "product/packrag/database.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackVerifier.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/database-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Exact schema/type/provenance contracts; source truth and human review remain separate."
+    },
+    {
+      "id": "V13-P1024",
+      "paragraph": 1024,
+      "requirement": "• Every cited snapshot path stays inside sources/",
+      "status": "VERIFIED",
+      "boundary": "disposable DB/FTS validation, immutable original and fixed queries",
+      "implementation": [
+        "product/packrag/database.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackVerifier.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/database-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Exact schema/type/provenance contracts; source truth and human review remain separate."
+    },
+    {
+      "id": "V13-P1026",
+      "paragraph": 1026,
+      "requirement": "• No executable/script/native-library extension",
+      "status": "VERIFIED",
+      "boundary": "data-only ZIP and positive type/MIME admission",
+      "implementation": [
+        "product/packrag/archive.py",
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/ArchivePolicy.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/archive-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/data-type-fixtures-0001/cases.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Path/MIME admission, not arbitrary-byte detection or snapshot decoding; no execution/viewer added."
+    },
+    {
+      "id": "V13-P1027",
+      "paragraph": 1027,
+      "requirement": "• Pack installs atomically into app-private storage",
+      "status": "VERIFIED",
+      "boundary": "atomic lifecycle, explicit older warning/no automatic rollback, correct-CRC tamper negatives",
+      "implementation": [
+        "product/android/kpack-registry/src/main/java/org/packrag/packs/PackRegistry.kt",
+        "product/android/app/src/main/java/org/packrag/product/MainActivity.kt"
+      ],
+      "evidence": [
+        "artifacts/v1.3/m3/device-management-ui-0001/m3-pack-management-ui.json",
+        "artifacts/v1.3/m3/device-release-trust-ui-0001/m3-pack-management-ui.json",
+        "artifacts/v1.3/m3/d3-gate-0001/gate.json"
+      ],
+      "limits": "Controlled faults, actual process SIGKILL/hot journals and physical UI are distinct; no physical power-cut or exhaustive crash claim."
+    }
+  ],
+  "deferred": [
+    {
+      "paragraphs": [
+        306,
+        308,
+        309,
+        312,
+        331,
+        367
+      ],
+      "milestones": "M5/M6",
+      "reason": "Full release-builder explicit inputs and logical reproducibility; runtime manifest/transport identity already separate."
+    },
+    {
+      "paragraphs": [
+        346,
+        386
+      ],
+      "milestone": "M4",
+      "reason": "Complete freshness/product inspection UI; incompatible dense profile activation already rejected."
+    },
+    {
+      "paragraphs": [
+        364,
+        1025
+      ],
+      "milestones": "M5/M6/M7",
+      "reason": "Exactly40 genuine verified development queries per pack and measured thresholds, separate held-out benchmark; synthetic admission metadata does not satisfy this."
+    },
+    {
+      "paragraphs": [
+        294,
+        295,
+        649,
+        652
+      ],
+      "milestone": "M8",
+      "reason": "Final generator golden and measured interactive/stress physical acceptance, no toolchain/model/native change in D3."
+    }
+  ]
+}

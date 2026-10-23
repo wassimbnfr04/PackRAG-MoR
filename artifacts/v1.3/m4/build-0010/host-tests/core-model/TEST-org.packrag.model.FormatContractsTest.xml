@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.model.FormatContractsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-07T00:12:04.869Z" hostname="RAZER" time="0.069">
+  <properties/>
+  <testcase name="sharedLanguageTemporalAndWhitespaceCases" classname="org.packrag.model.FormatContractsTest" time="0.069"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

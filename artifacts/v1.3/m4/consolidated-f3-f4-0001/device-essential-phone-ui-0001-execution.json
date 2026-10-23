@@ -1,0 +1,176 @@
+{
+  "status": "PASS_FRESH_CONSOLIDATED_PHASE_NOT_FULL_M4_ACCEPTANCE",
+  "started_utc": "2026-10-12T16:26:53.209601+00:00",
+  "phase": "debug-ui",
+  "build": "build-0097",
+  "variant": "debug",
+  "runner_sha256": "3d95d6b1a16a0fe486f8b354aac0262f378a48e9c4d678a216c20e2698c800ef",
+  "matrix_sha256": "072aa5be614956c6f9a98c487c942b7e5697fbe01e57bda6e693ba63e07ce754",
+  "pair_sha256": "987efe9b7cf4e6b8854f86aed50344b6b289a452702fe392a1f6fe11f12398a6",
+  "installation_sha256": "8bf56d88a3fc4f87f8cb21f1f6f3acc53123c5d0dec655c8699906b814a4478d",
+  "classes": [
+    "ProductUiE2eTest"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-essential-phone-ui-0001-before-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "before-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0097",
+        "--output",
+        "device-essential-phone-ui-0001-before-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "before-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-essential-phone-ui-0001-before-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "before-source4-modes"
+    },
+    {
+      "label": "ProductUiE2eTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m4-isolated-ui-e2e.json; rm -f files/m4-isolated-ui-e2e.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m4-isolated-ui-e2e.json": "ef01b525decd5bcb55c5555cdf3639bb68382bd29aabc99bfa8fa9e4df765303"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-essential-phone-ui-0001-productuie2etest",
+        "--class-name",
+        "org.packrag.product.ProductUiE2eTest",
+        "--result-file",
+        "m4-isolated-ui-e2e.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "ProductUiE2eTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-essential-phone-ui-0001-productuie2etest",
+        "--files",
+        "m4-isolated-ui-e2e.json"
+      ],
+      "returncode": 0,
+      "label": "ProductUiE2eTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-essential-phone-ui-0001-productuie2etest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "ProductUiE2eTest-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-essential-phone-ui-0001-after-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "after-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0097",
+        "--output",
+        "device-essential-phone-ui-0001-after-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "after-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-essential-phone-ui-0001-after-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "after-source4-modes"
+    }
+  ],
+  "completed": [
+    {
+      "class": "ProductUiE2eTest",
+      "methods": 1,
+      "run": "device-essential-phone-ui-0001-productuie2etest",
+      "original_sha256": {
+        "m4-isolated-ui-e2e.json": "d3807cf0a99d149be2d28be5071114ce3e2757fad84f3e49ea0e5e754873e768"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "b449fb085437158fadf526678588d4ca500775dc15c0f305496a1122493d2c5f"
+    }
+  ],
+  "foreground_window_sha256": "f8867d0df0d8bb95c7900a2dc47df0d9457d661fac56c1a0cbbab6a1c66de59b",
+  "active_class": "ProductUiE2eTest",
+  "active_expected_methods": 1,
+  "scope": "Fixed selected per-class JUnit/count/ID contracts, exact current source/APK hashes, originals collected before next class, fresh output names and explicit owner50/source4 no-follow/mode guards. Private custody never enumerated. Native execution only where selected tests require it; no-INTERNET with mobile data on is not radio isolation. Synthetic signed protocol tests are not genuine calibration/domain gold, controlled performance or whole release acceptance. UI original PNG review remains independent.",
+  "updated_utc": "2026-10-12T16:29:24.716019+00:00"
+}

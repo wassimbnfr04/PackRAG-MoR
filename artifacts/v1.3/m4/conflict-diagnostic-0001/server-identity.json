@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "/mnt/c/Users/Fkagf/Downloads/MOR CAPTSONE/04_LFM25_26B_Candidate_Evidence/runtime/wsl-build/bin/llama-server",
+    "-m",
+    "/mnt/c/Users/Fkagf/Downloads/MOR CAPTSONE/LFM2.5-2.6B-QAD-Q4_0.gguf",
+    "-c",
+    "2048",
+    "-t",
+    "8",
+    "-tb",
+    "8",
+    "-ngl",
+    "0",
+    "-np",
+    "1",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18533",
+    "--jinja",
+    "--chat-template-file",
+    "/mnt/c/Users/Fkagf/Downloads/MOR CAPTSONE/04_LFM25_26B_Candidate_Evidence/model/chat_template.jinja",
+    "--no-warmup",
+    "--perf"
+  ],
+  "distro": "kali-linux",
+  "port": 18533,
+  "start_to_ready_host_ms": 21863.21400000088,
+  "measurement": "process start to health; not pure load or TTFT",
+  "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+  "binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+  "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+}

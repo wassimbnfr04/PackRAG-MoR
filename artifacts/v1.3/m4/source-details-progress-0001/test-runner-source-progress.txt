@@ -1,0 +1,8 @@
+run started: 35 tests
+10-10 17:12:02.919 31156 31329 I TestRunner: started: installedTamperIdentityMissingAndRemovedDetailsFailWithoutMutation(org.packrag.product.SourceDetailsDeviceTest)
+10-10 17:12:05.847 31156 31329 I TestRunner: finished: installedTamperIdentityMissingAndRemovedDetailsFailWithoutMutation(org.packrag.product.SourceDetailsDeviceTest)
+10-10 17:12:05.850 31156 31329 I TestRunner: started: originalSignedRowsActiveInactiveInspectionAndOwnedCopies(org.packrag.product.SourceDetailsDeviceTest)
+10-10 17:12:13.840 31156 31329 I TestRunner: finished: originalSignedRowsActiveInactiveInspectionAndOwnedCopies(org.packrag.product.SourceDetailsDeviceTest)
+10-10 17:12:13.842 31156 31329 I TestRunner: started: actualAnswerContextSurvivesInspectionAndMutationClearsDetails(org.packrag.product.SourceDetailsViewModelTest)
+10-10 17:14:54.780 31156 31329 I TestRunner: finished: actualAnswerContextSurvivesInspectionAndMutationClearsDetails(org.packrag.product.SourceDetailsViewModelTest)
+10-10 17:14:54.790 31156 31329 I TestRunner: started: actualStaleAnswerOwnsContextJurisdictionExcludesAndPackChangeClearsIt(org.packrag.product.QueryControlsDeviceTest)

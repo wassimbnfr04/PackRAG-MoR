@@ -1,0 +1,3 @@
+Keep reasoning brief and reserve enough generation for a complete, concise final answer.
+Every paragraph, including any introduction or heading, must contain a supplied citation. For procedures, use short numbered steps and cite each step.
+Do not invent missing specifications or prerequisites.

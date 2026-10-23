@@ -1,0 +1,12 @@
+{
+  "status": "REPAIRED_DEMO_PACKAGED_POLICY_INSPECTION_PASS_NOT_DEVICE_ACCEPTANCE",
+  "apk_sha256": "f1c9c073088e66f1257333fe38f76fe56352b601976a5bea296bb07f50a4d736",
+  "native_jni_sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef",
+  "development_keys_absent": true,
+  "debug_crash_probe_absent": true,
+  "no_internet_permission": true,
+  "approved_store_matches": true,
+  "private_key_file_entries": 0,
+  "instrumentation_debuggable": true,
+  "final_release": false
+}

@@ -1,0 +1,120 @@
+{
+  "status": "ONE_READ_ONLY_OBSERVATION_NOT_PER_QUERY_PEAK_OR_CAUSAL_BOTTLENECK_PROOF",
+  "during_run": "device-production-representations-0002",
+  "pid": "18413",
+  "commands": [
+    {
+      "name": "pid",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-09T20:05:35.077308+00:00",
+      "finished_utc": "2026-10-09T20:05:35.264525+00:00"
+    },
+    {
+      "name": "status",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/18413/status"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-09T20:05:35.264525+00:00",
+      "finished_utc": "2026-10-09T20:05:35.428724+00:00"
+    },
+    {
+      "name": "cgroup",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/18413/cgroup"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-09T20:05:35.428724+00:00",
+      "finished_utc": "2026-10-09T20:05:35.587192+00:00"
+    },
+    {
+      "name": "sched",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/18413/sched"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-09T20:05:35.587192+00:00",
+      "finished_utc": "2026-10-09T20:05:35.730565+00:00"
+    },
+    {
+      "name": "thermal",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "thermalservice"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-09T20:05:35.730565+00:00",
+      "finished_utc": "2026-10-09T20:05:35.861719+00:00"
+    },
+    {
+      "name": "activity",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "activity",
+        "processes",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-09T20:05:35.861719+00:00",
+      "finished_utc": "2026-10-09T20:05:35.979177+00:00"
+    },
+    {
+      "name": "test-progress",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "-s",
+        "TestRunner:I"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-09T20:05:35.979177+00:00",
+      "finished_utc": "2026-10-09T20:05:38.470133+00:00"
+    }
+  ],
+  "limits": [
+    "Different files sampled at different instants; not synchronized per-query telemetry",
+    "No controlled alternative hardware/software trial; does not identify cause of timing differences",
+    "No scheduler/radio/affinity/governor/root/thermal change or test interruption",
+    "Permission-denied outputs, if any, remain explicit; no permission bypass"
+  ]
+}

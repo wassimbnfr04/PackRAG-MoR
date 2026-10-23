@@ -1,0 +1,53 @@
+{
+  "status": "PASS_EXACT_KNOWN_INTERRUPTED_TEST_ROOT_PUBLIC_BYTES_PRESERVED_AND_REMOVED_NOT_FULL_F2",
+  "started_utc": "2026-10-11T21:57:31.810399+00:00",
+  "parent_sha256": "7914805c4c8a1710efbcd291cba2c392524a1fed6cadfe9629dfe8902712004e",
+  "inspection_sha256": "0fa5b205473b168788655a402418cd62c4290c5b04e90d1d32d081e6cd885673",
+  "failed_progress_sha256": "5f03a42ac3d38753e1fac4b9382bdbc12cd9aa2692f383e2d434b4051e58e7e7",
+  "runner_sha256": "355d2edc49a98e2aac2738154fa2a2e22322c4f0f63298639ec92cfbc3ebdedc",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; root=files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; test -d \"$root\"; test ! -L \"$root\"; test \"$(readlink -f \"$root\")\" = /data/user/0/org.packrag.product/files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; test \"$(ls -A \"$root\")\" = \"models\nregistry\"; test -d \"$root/models\"; test ! -L \"$root/models\"; test -d \"$root/registry\"; test ! -L \"$root/registry\"; test -d \"$root/registry/.staging\"; test ! -L \"$root/registry/.staging\"; test -d \"$root/registry/packs\"; test ! -L \"$root/registry/packs\"; test \"$(ls -A \"$root/models\")\" = chat_template.jinja; test \"$(ls -A \"$root/registry\")\" = \".staging\npacks\nregistry.lock\nregistry.sqlite\"; test -z \"$(ls -A \"$root/registry/.staging\")\"; test -z \"$(ls -A \"$root/registry/packs\")\"; test -f \"$root/models/chat_template.jinja\"; test ! -L \"$root/models/chat_template.jinja\"; test \"$(wc -c < \"$root/models/chat_template.jinja\")\" -eq 5443; test \"$(sha256sum \"$root/models/chat_template.jinja\" | cut -d \" \" -f 1)\" = ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef; test -f \"$root/registry/registry.lock\"; test ! -L \"$root/registry/registry.lock\"; test \"$(wc -c < \"$root/registry/registry.lock\")\" -eq 0; test \"$(sha256sum \"$root/registry/registry.lock\" | cut -d \" \" -f 1)\" = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855; test -f \"$root/registry/registry.sqlite\"; test ! -L \"$root/registry/registry.sqlite\"; test \"$(wc -c < \"$root/registry/registry.sqlite\")\" -eq 57344; test \"$(sha256sum \"$root/registry/registry.sqlite\" | cut -d \" \" -f 1)\" = 4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c; echo EXACT_CLOSED_TEST_ROOT_PREFLIGHT_PASS'"
+      ],
+      "returncode": 0,
+      "stdout": "EXACT_CLOSED_TEST_ROOT_PREFLIGHT_PASS\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; root=files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; test -d \"$root\"; test ! -L \"$root\"; test \"$(readlink -f \"$root\")\" = /data/user/0/org.packrag.product/files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; test \"$(ls -A \"$root\")\" = \"models\nregistry\"; test -d \"$root/models\"; test ! -L \"$root/models\"; test -d \"$root/registry\"; test ! -L \"$root/registry\"; test -d \"$root/registry/.staging\"; test ! -L \"$root/registry/.staging\"; test -d \"$root/registry/packs\"; test ! -L \"$root/registry/packs\"; test \"$(ls -A \"$root/models\")\" = chat_template.jinja; test \"$(ls -A \"$root/registry\")\" = \".staging\npacks\nregistry.lock\nregistry.sqlite\"; test -z \"$(ls -A \"$root/registry/.staging\")\"; test -z \"$(ls -A \"$root/registry/packs\")\"; test -f \"$root/models/chat_template.jinja\"; test ! -L \"$root/models/chat_template.jinja\"; test \"$(wc -c < \"$root/models/chat_template.jinja\")\" -eq 5443; test \"$(sha256sum \"$root/models/chat_template.jinja\" | cut -d \" \" -f 1)\" = ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef; test -f \"$root/registry/registry.lock\"; test ! -L \"$root/registry/registry.lock\"; test \"$(wc -c < \"$root/registry/registry.lock\")\" -eq 0; test \"$(sha256sum \"$root/registry/registry.lock\" | cut -d \" \" -f 1)\" = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855; test -f \"$root/registry/registry.sqlite\"; test ! -L \"$root/registry/registry.sqlite\"; test \"$(wc -c < \"$root/registry/registry.sqlite\")\" -eq 57344; test \"$(sha256sum \"$root/registry/registry.sqlite\" | cut -d \" \" -f 1)\" = 4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c; rm -- \"$root/models/chat_template.jinja\" \"$root/registry/registry.lock\" \"$root/registry/registry.sqlite\"; rmdir -- \"$root/models\" \"$root/registry/.staging\" \"$root/registry/packs\" \"$root/registry\" \"$root\"; test ! -e \"$root\"; test ! -L \"$root\"; echo EXACT_KNOWN_TEST_ROOT_REMOVED'"
+      ],
+      "returncode": 0,
+      "stdout": "EXACT_KNOWN_TEST_ROOT_REMOVED\r\n",
+      "stderr": ""
+    }
+  ],
+  "saved_public_originals": {
+    "models/chat_template.jinja": {
+      "path": "artifacts/v1.3/m4/asset-import-gate-0001/interrupted-visual-public-leaves-0001/models__chat_template.jinja",
+      "bytes": 5443,
+      "sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "registry/registry.lock": {
+      "path": "artifacts/v1.3/m4/asset-import-gate-0001/interrupted-visual-public-leaves-0001/registry__registry.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "registry/registry.sqlite": {
+      "path": "artifacts/v1.3/m4/asset-import-gate-0001/interrupted-visual-public-leaves-0001/registry__registry.sqlite",
+      "bytes": 57344,
+      "sha256": "4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c"
+    }
+  },
+  "scope": "Only exact recorded failed-test UUID after terminal background PASS, full no-follow closed-tree preflight and saved/hash-verified62787 public bytes; three explicit unlinks and empty-directory rmdir, no recursion. Original experiment logs/JSON/PNGs untouched, readonly source4 retained and no owner default files/radios/settings changed. Source4/owner50 post-checks and whole F2 closure remain separate.",
+  "finished_utc": "2026-10-11T21:57:33.507960+00:00"
+}

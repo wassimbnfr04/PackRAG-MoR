@@ -1,0 +1,76 @@
+{
+  "id": "G0-C02",
+  "category": "citation",
+  "question": "What are the nominal input voltage and maximum input current of the Arden A5?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Arden A5 has a nominal input voltage of 48 V DC."
+    },
+    {
+      "id": "S2",
+      "text": "The Arden A5 has a maximum input current of 6 A."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The Arden A5 has a nominal input voltage of 48 V DC. [S1]",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "48 V DC",
+    "6 A"
+  ],
+  "required_citations": [
+    "S1",
+    "S2"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [
+    "6 A"
+  ],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 409,
+    "prompt_ms": 4261.311,
+    "prompt_per_token_ms": 10.418853300733495,
+    "prompt_per_second": 95.97985220980117,
+    "predicted_n": 262,
+    "predicted_ms": 9736.699,
+    "predicted_per_token_ms": 37.30536015325671,
+    "predicted_per_second": 26.805799378208157,
+    "host_generation_wall_ms": 14027.67689999746,
+    "emitted_token_count": 262,
+    "reasoning_token_count": 239,
+    "final_and_terminal_token_count": 23,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 409,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The Arden A5 has a nominal input voltage of 48 V DC. [S1]\" | \"The Arden A5 has a maximum input current of 6 A. [S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "22a3482bd9ca9a9b21d6f06efbf262b3f45d4e5268b0acf4ae633f84ce2a7196",
+    "final_only": "1. The Arden A5 has a nominal input voltage of 48 V DC. [S1]",
+    "quotation_match": true,
+    "quote_unit_count": 2,
+    "quote_units_sha256": [
+      "e9c5b685f27250ccd07fe64df80e1c019015fc6856cd7679eaea4eedc544f96e",
+      "79e7797a7b657c1cffbe10c5d8a9b788359effff04e33962db315c6ef1f92abb"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

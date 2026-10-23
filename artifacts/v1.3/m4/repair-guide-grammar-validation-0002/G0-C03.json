@@ -1,0 +1,66 @@
+{
+  "id": "G0-C03",
+  "category": "citation",
+  "question": "What type of service port does the Boreal B6 use?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Boreal B6 warranty reference is WB-17."
+    },
+    {
+      "id": "S2",
+      "text": "The Boreal B6 service port uses USB-C."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "The Boreal B6 uses a USB-C service port [S2].",
+  "citations": [
+    "S2"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "USB-C"
+  ],
+  "required_citations": [
+    "S2"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 299,
+    "prompt_ms": 3201.08,
+    "prompt_per_token_ms": 10.705953177257525,
+    "prompt_per_second": 93.4059754832744,
+    "predicted_n": 151,
+    "predicted_ms": 5519.465,
+    "predicted_per_token_ms": 36.79643333333333,
+    "predicted_per_second": 27.17654700229098,
+    "host_generation_wall_ms": 8767.603700001928,
+    "emitted_token_count": 151,
+    "reasoning_token_count": 135,
+    "final_and_terminal_token_count": 16,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 299,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" cite (\" \" cite)* \".\"?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\" | \"[S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "ba7565debd0621201aae38ffd288e6141cab38a53095558a8602e3c9530fcb6d",
+    "final_only": "The Boreal B6 uses a USB-C service port [S2]."
+  },
+  "manual_semantic_review_required": true
+}

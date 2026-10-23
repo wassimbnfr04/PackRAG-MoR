@@ -1,0 +1,13 @@
+{
+  "status": "F2_ACTUAL_IMPORTING_PROCESS_RECOVERY_STARTING_NOT_ACCEPTED",
+  "recorded_utc": "2026-10-11T17:33:07.354567+00:00",
+  "host_capture_sha256": "7dde81b7223b3ff5056e930da0936c49a52b2d49bcc63d65ac25a4d45e392eaf",
+  "preexecution_source_delta_0064_to_0065": {
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportProcessDeathDeviceTest.kt": {
+      "before": "8ebb5986c773da3f6d1f892b020ac338b7ef4cd400e88b4a4095cd6586f39e0c",
+      "after": "f25197d80590972eae0e7d4808f30e9c7bfea0a850ac3d404004ba4413a1d11d"
+    }
+  },
+  "unchanged_product_sha256": "97c6084a6f66520afdcea38e0a11b0eae588b1dd645e92d6d8028a44c8761d04",
+  "note": "Current M4F2 actual process-recovery iteration START at 2026-10-11T17:33:07.354567+00:00: corrected hardening/native0063 passes28+7 controls, all originals saved/known50 owner guards match. New debug-only unexported AssetImportCrashProbeService uses a bounded-marker-owned UUID root under asset-import-crash, fixed official-template URI, actual importer and binder-triggered worker. It kills only its own separate importing test process at COPYING>0, verified/pre-rename COMMITTING, and post-rename COMMITTED. Main instrumentation/phone/chat stay alive; no owner model/default registry or radio writes. New device test copies only3 actual non-template models once under space guard, seeds deliberately different old template5bytes/legacy partial and exact signed synthetic pack, proves child disconnect/PID distinctions and owned stage/final state before real startup; then actual pinned cold native74\u00b0C[S1] after each recovery. Precommit full-correct-stage must be deleted/never promoted and old final must block native until a fresh real URI repair; postcommit exact template must survive without repair. Build0064 host73 passes but is not run physically; pre-execution report refinement0065 makes abandoned-stage field null/not-applicable after commit and syncs probe marker/directory. Only one test source changes, product APK identical0064/65. Build0065 passes73 host/591 frozen inputs/APK/pins/no INTERNET. Actual device-process-death0001 is starting, no physical PASS yet. This proves importing subprocess loss in one kernel if it passes, not whole-phone/main restart, physical power loss/cache failure, cross-process warm-model leases, all-slot imports/system picker, full F2/M4/product/performance acceptance. F2 all4 artifact imports/ViewModel/picker UI/approved-policy/retained regressions/restoration/custody/closure/checkpoint remain before F3; F3/F4/later software/release/delivery remain. Owner final packs excluded; mobile data on, PackRAG kept closed."
+}

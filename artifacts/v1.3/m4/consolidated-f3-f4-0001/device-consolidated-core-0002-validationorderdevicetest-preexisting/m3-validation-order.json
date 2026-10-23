@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "valid",
+      "passed": true,
+      "accept": true,
+      "before_db": false,
+      "rejection": null
+    },
+    {
+      "id": "broken-db-and-bad-kdx-magic",
+      "passed": true,
+      "accept": false,
+      "before_db": true,
+      "rejection": "DATABASE_INDEX_REJECTED"
+    },
+    {
+      "id": "broken-db-and-nonfinite-kdx",
+      "passed": true,
+      "accept": false,
+      "before_db": true,
+      "rejection": "DATABASE_INDEX_REJECTED"
+    },
+    {
+      "id": "mapping-binding-after-validated-db",
+      "passed": true,
+      "accept": false,
+      "before_db": false,
+      "rejection": "DATABASE_INDEX_REJECTED"
+    },
+    {
+      "id": "broken-db-after-valid-kdx",
+      "passed": true,
+      "accept": false,
+      "before_db": false,
+      "rejection": "DATABASE_INDEX_REJECTED"
+    },
+    {
+      "id": "norm-upper-inside",
+      "passed": true,
+      "accept": true,
+      "before_db": false,
+      "rejection": null
+    },
+    {
+      "id": "norm-upper-outside",
+      "passed": true,
+      "accept": false,
+      "before_db": true,
+      "rejection": "DATABASE_INDEX_REJECTED"
+    },
+    {
+      "id": "norm-lower-inside",
+      "passed": true,
+      "accept": true,
+      "before_db": false,
+      "rejection": null
+    },
+    {
+      "id": "norm-lower-outside",
+      "passed": true,
+      "accept": false,
+      "before_db": true,
+      "rejection": "DATABASE_INDEX_REJECTED"
+    }
+  ],
+  "prior_active_and_original_hashes_preserved": true,
+  "failed_staging_cleaned": true,
+  "caller_inputs_unchanged": true,
+  "limits": "Synthetic signed combined-corruption and norm-boundary fixtures; mapping hash requires validated DB row IDs. No embedding\/source truth, release calibration or performance claim."
+}

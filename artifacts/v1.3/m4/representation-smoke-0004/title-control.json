@@ -1,0 +1,164 @@
+{
+  "id": "title-control",
+  "status": "PASS",
+  "result": {
+    "state": "RESERVED_CONTROL_TOKEN_IN_INPUT",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+      "as_of": "2026-10-09",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.title-control",
+        "1.0.0",
+        "cdefcfce2144553f4bc11c452830cccf176b116ebc8b7e5b0d1b96530eccf2eb"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 14.997399997810135,
+      "retrieval_ms": 1.5959999982442241,
+      "end_to_end_ms": 56.01490000117337
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.title-control",
+        "chunk_id": "8e969c85e5b46404b88eb3c4",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9610453844070435,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.title-control",
+            "1.0.0",
+            "cdefcfce2144553f4bc11c452830cccf176b116ebc8b7e5b0d1b96530eccf2eb"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.title-control",
+              "1.0.0",
+              "cdefcfce2144553f4bc11c452830cccf176b116ebc8b7e5b0d1b96530eccf2eb"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "La température maximale de fonctionnement continu du contrôleur thermique Aster-9 est de 74 °C.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "8e969c85e5b46404b88eb3c4",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "fr",
+              "legal_status": "n/a",
+              "locator": "thermal",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "rowid": 1,
+              "search_text": "La température maximale de fonctionnement continu du contrôleur thermique Aster-9 est de 74 °C.",
+              "section": "thermal",
+              "sha256_original": "b7021dba3c5e30e0148cae00ccfa547f00781950a6acb2d81080260b2f88a16a",
+              "source_from": null,
+              "source_id": "title-control-thermal",
+              "source_title": "Aster-9 <|role|>",
+              "source_until": null,
+              "text_sha256": "b7021dba3c5e30e0148cae00ccfa547f00781950a6acb2d81080260b2f88a16a",
+              "title": "Aster-9 <|role|>"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+              "relations": []
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "8e969c85e5b46404b88eb3c4",
+                "derivation_method": "official_translation",
+                "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": null,
+                "reviewer_id": null,
+                "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+                "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.9610453844070435,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  },
+  "generate_calls_for_case": 0,
+  "actual_weight_inference": false,
+  "model_load_not_excluded": true
+}

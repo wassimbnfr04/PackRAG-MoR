@@ -1,0 +1,512 @@
+{
+  "case_id": "M1-G0-D07",
+  "passed": true,
+  "expected_fact": "8",
+  "result": {
+    "state": "ANSWER_ACCEPTED",
+    "answer": "According to the verified evidence, recovery mode on the Solace V2 is entered by holding the RESET button for 8 seconds while power is applied [S1].",
+    "citations": [
+      "S1"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "canonical_text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+        "title": "Solace V2",
+        "locator": "G0-D07",
+        "publisher": "PackRAG synthetic development fixture",
+        "canonical_uri": null,
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      }
+    ],
+    "query": {
+      "raw": "How is recovery mode entered on the Solace V2?",
+      "as_of": "2026-10-05",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "how is recovery mode entered on the solace v2?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.development.walking-skeleton",
+        "0.1.0",
+        "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 16.53459999943152,
+      "retrieval_ms": 1.2700999996013707,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 396,
+        "prompt_ms": 5110.41,
+        "prompt_per_token_ms": 12.905075757575757,
+        "prompt_per_second": 77.48889032386833,
+        "predicted_n": 193,
+        "predicted_ms": 9009.547,
+        "predicted_per_token_ms": 46.92472395833334,
+        "predicted_per_second": 21.310727387292612,
+        "host_generation_wall_ms": 14155.781699999352,
+        "emitted_token_count": 193,
+        "reasoning_token_count": 158,
+        "final_and_terminal_token_count": 35,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 14459.420099999988
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.938240647315979,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "exact": false,
+        "sparse_rank": 2,
+        "dense_rank": 3,
+        "dense_cosine": 0.785516619682312,
+        "rrf": 0.03200204813108039,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "exact": false,
+        "sparse_rank": 4,
+        "dense_rank": 6,
+        "dense_cosine": 0.7477502822875977,
+        "rrf": 0.030776515151515152,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "exact": false,
+        "sparse_rank": 7,
+        "dense_rank": 4,
+        "dense_cosine": 0.7580035924911499,
+        "rrf": 0.03055037313432836,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "exact": false,
+        "sparse_rank": 6,
+        "dense_rank": 5,
+        "dense_cosine": 0.7489298582077026,
+        "rrf": 0.030536130536130537,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "a7b2ed8ce984da406426ebf4",
+        "exact": false,
+        "sparse_rank": 10,
+        "dense_rank": 2,
+        "dense_cosine": 0.7906759977340698,
+        "rrf": 0.0304147465437788,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "3c0d779d818604ab90126609",
+        "exact": false,
+        "sparse_rank": 3,
+        "dense_rank": 10,
+        "dense_cosine": 0.7081431746482849,
+        "rrf": 0.030158730158730156,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "exact": false,
+        "sparse_rank": 5,
+        "dense_rank": 8,
+        "dense_cosine": 0.7263952493667603,
+        "rrf": 0.030090497737556562,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "29e38c9e841a0cd8d92a090c",
+        "exact": false,
+        "sparse_rank": 9,
+        "dense_rank": 7,
+        "dense_cosine": 0.7386467456817627,
+        "rrf": 0.029418126757516764,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "d46745e3c80bd1ed8f10d062",
+        "exact": false,
+        "sparse_rank": 8,
+        "dense_rank": 9,
+        "dense_cosine": 0.7172003984451294,
+        "rrf": 0.02919863597612958,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c"
+          ]
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+        "relevant": true,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "id": "S2",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "id": "S3",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "text_sha256": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      },
+      {
+        "id": "S4",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "5be6ef9340d1c971c1b5c8a762d62d021f6b09df455f5a78fdacc234eb7fcc6c",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        }
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 396,
+      "evidence": 242,
+      "max_new": 512
+    },
+    "rejection_reason": null
+  }
+}

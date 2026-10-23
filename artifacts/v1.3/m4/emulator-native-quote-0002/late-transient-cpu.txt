@@ -1,0 +1,10 @@
+Tasks: 337 total,   1 running, 336 sleeping,   0 stopped,   0 zombie
+  Mem:  6072516K total,  5863408K used,   209108K free,    40652K buffers
+ Swap:  4554380K total,   418216K used,  4136164K free,  3714084K cached
+200%cpu 156%user   7%nice  26%sys   0%idle   0%iow   7%irq   4%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+ 9145 u0_a216      20   0  18G 2.2G 1.6G S  144  39.3  32:36.48 org.packrag.product
+ 1606 u0_a146      20   0  16G 245M 195M S 18.5   4.1   0:38.45 com.google.android.gms
+10108 shell        20   0  10G 5.1M 4.2M R  7.4   0.0   0:00.01 top -b -n 1 -m 5
+  653 system       18  -2  18G 444M 264M S  7.4   7.4   4:46.55 system_server
+ 7762 u0_a147      20   0  17G 255M 183M S  3.7   4.2   0:07.44 com.google.android.googlequicksearchbox:search

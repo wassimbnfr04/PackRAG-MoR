@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.product.ResultNavigationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-11T16:31:54.449Z" hostname="RAZER" time="0.001">
+  <properties/>
+  <testcase name="restoredIdentifiersReturnOnlyTheSameCompletedOwnedSource" classname="org.packrag.product.ResultNavigationTest" time="0.001"/>
+  <testcase name="processLossMissingAnswerOrMissingIdentityCannotRestoreOldCitation" classname="org.packrag.product.ResultNavigationTest" time="0.0"/>
+  <testcase name="repeatedS1InAReplacementAndAmbiguousRecordsCannotRebindOldNavigation" classname="org.packrag.product.ResultNavigationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

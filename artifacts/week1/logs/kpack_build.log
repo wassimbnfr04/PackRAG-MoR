@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\shutil.py", line 633, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpimldlrnl\\validation.sqlite'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\core.py", line 183, in validate
+    ids=validate_database(stage/'knowledge.sqlite',m)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\core.py", line 125, in validate_database
+    with tempfile.TemporaryDirectory() as t:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py", line 950, in __exit__
+    self.cleanup()
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py", line 909, in onexc
+    _os.unlink(path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpimldlrnl\\validation.sqlite'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\cli.py", line 27, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\cli.py", line 18, in main
+    result=build(args.out)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\build.py", line 71, in build
+    result=validate(out,[bytes(key.verify_key)],developer_mode=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\core.py", line 187, in validate
+    raise PackError(str(e)) from e
+kpack_builder.core.PackError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpimldlrnl\\validation.sqlite'

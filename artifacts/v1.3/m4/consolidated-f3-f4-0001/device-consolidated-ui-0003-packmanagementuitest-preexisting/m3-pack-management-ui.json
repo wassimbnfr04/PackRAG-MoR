@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "older-activation-visible-warning-cancel-preserves-active",
+      "passed": true
+    },
+    {
+      "id": "deliberate-rollback-confirmation-keeps-newest-history",
+      "passed": true
+    },
+    {
+      "id": "explicit-deactivate-and-reactivate-newest",
+      "passed": true
+    },
+    {
+      "id": "removal-cancel-and-confirm-no-automatic-fallback",
+      "passed": true
+    },
+    {
+      "id": "all-inactive-no-pack-through-ui",
+      "passed": true
+    },
+    {
+      "id": "activity-recreation-retains-explicit-state",
+      "passed": true
+    },
+    {
+      "id": "explicit-fifty-owner-public-files-unchanged",
+      "passed": true
+    }
+  ],
+  "isolated_registry": true,
+  "mobile_data_preserved": true,
+  "owner_registry_and_model_sha256": {
+    "models\/LFM2.5-2.6B-QAD-Q4_0.gguf": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "models\/chat_template.jinja": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/chat_template.jinja.part-private-assets-0004": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/granite\/onnx\/model.onnx": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "models\/granite\/onnx\/model.onnx.part": "7e3331bc72f89056c6af5c2abad23193bf882a26765c50f4cb33cc769a5b583a",
+    "models\/granite\/tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/registry.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packs\/registry.sqlite": "cf140bbf898aea7eb194406fa440e916cd2d746bb77b222a7c447f3f0e28ed10",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "production-registry\/registry.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "production-registry\/registry.sqlite": "4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c"
+  },
+  "owner_guard_scope": "EXPLICIT_50_PUBLIC_BASELINE_FILES_NO_ENUMERATION",
+  "limits": "Synthetic lifecycle UI only; real LFM generation\/source navigation and import-copy consent are separate tests. Recreation retains ViewModel, not process-death recovery."
+}

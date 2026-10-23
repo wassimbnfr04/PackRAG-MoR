@@ -1,0 +1,27 @@
+{
+  "status": "PASS_COMPLETED_METHOD_PARITY_NOT_FULL_INSTRUMENTATION_OR_MILESTONE_ACCEPTANCE",
+  "recorded_utc": "2026-10-09T18:26:25.811840+00:00",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug-androidTest.apk": "a777e5f45c8fc2290af949da6af59d96cc1cec3c64710204c9e0661384e78a4e",
+    "app-debug.apk": "f2cada35609b67060e07b04547112bd8e6a9374d724d132406fd5576a3b35e6e"
+  },
+  "original_adb_bytes_sha256": "102621e3a35b051242f22a3f04e84de8ca6442261bf16d4e568492d836179546",
+  "fixed_cases": 32,
+  "signed_packs": 20,
+  "rejected_imports": 6,
+  "exact_tokenizer_admission_cases": 14,
+  "maximum_embedding_error": 1.30385160446167e-07,
+  "maximum_cosine_error": 1.6666226076988977e-07,
+  "remaining": "Eight actual runtime and retained development methods; compiled policy, restoration and closure remain required",
+  "command": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "shell",
+    "run-as",
+    "org.packrag.product",
+    "cat",
+    "files/m4-representations.json"
+  ]
+}

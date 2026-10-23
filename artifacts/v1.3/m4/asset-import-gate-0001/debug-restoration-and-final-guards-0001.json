@@ -1,0 +1,110 @@
+{
+  "status": "PASS_F2_EXACT_DEBUG_RESTORATION_CONSENT4_OWNER50_SOURCE4_NOT_CLOSURE",
+  "started_utc": "2026-10-11T22:20:52.823861+00:00",
+  "policy_sha256": "160e36fca281a87f16919753eeddfe550a5408b9c394035ad7e81ef944050f74",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\install_pair_serial.py",
+        "--build",
+        "build-0076",
+        "--variant",
+        "debug",
+        "--output",
+        "adjacent-debug-restoration-0001.json"
+      ],
+      "returncode": 0,
+      "label": "install"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-final-debug-consent-0001",
+        "--class-name",
+        "org.packrag.product.PackImportConsentTest",
+        "--result-file",
+        "m3-import-consent.json",
+        "--timeout",
+        "900",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "consent"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-final-debug-consent-0001",
+        "--files",
+        "m3-import-consent.json"
+      ],
+      "returncode": 0,
+      "label": "collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "owner-at-f2-closure-0001.json"
+      ],
+      "returncode": 0,
+      "label": "owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_final_owner_no_follow_0001.py"
+      ],
+      "returncode": 0,
+      "label": "owner50-nofollow"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0076",
+        "--output",
+        "source4-at-f2-closure-0001.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "source4"
+    }
+  ],
+  "installed_proof_sha256": "c10eff714af864282733a5b84533f004efb200be89100023d7142f9271197891",
+  "manifest_sha256": "19ee7897d4364d591993889b872f51d1bdba237a372ead59dc5957e23a68fbd7",
+  "collection_sha256": "cec291880d0e731d7401eac8504d428864d503109a343db9a8de0af281704106",
+  "original_sha256": "0ee774b6713fdc54911725c667ff3aa084c4ccfd8320c210628c951d12cc7d72",
+  "methods": 1,
+  "controls": 4,
+  "owner_guard_sha256": "4984f6ff06b9bb0d8ef546858e6acfacb64725f2fce049b7e3bcfe15c7f8680e",
+  "source4_guard_sha256": "486545374953609065da109f64d3f83d5759f43d1c7481b333e3f090b380bab3",
+  "owner_nofollow_guard_sha256": "85c28200351d4713f2e8e492a1d6c8a3e4304c79f5d3aa6e06bca6a5db59e4fd",
+  "scope": "Exact prepared debug APKs restored serially in place, no uninstall/clear. Actual four isolated private-copy/older-version-consent controls, no new visual-dialog or native-generation claim. All original reports saved; fixed50 owner public files and retained readonly four full-size test inputs match. Source599 unchanged. Policy fixture/calibration/performance/radio/release limits remain; final custody, gate/index and checkpoint still required.",
+  "finished_utc": "2026-10-11T22:22:22.109280+00:00"
+}

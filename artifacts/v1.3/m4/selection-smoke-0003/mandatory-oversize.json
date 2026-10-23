@@ -1,0 +1,938 @@
+{
+  "id": "mandatory-oversize",
+  "status": "PASS",
+  "expected_state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+  "result": {
+    "state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What are the safety requirements for BUNDLE-X9?",
+      "as_of": "2026-10-09",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "normalized": "what are the safety requirements for bundle-x9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.mandatory-oversize",
+        "1.0.0",
+        "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 8.686899998792796,
+      "retrieval_ms": 1.414199999999255,
+      "end_to_end_ms": 94.81099999902654
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.mandatory-oversize",
+        "chunk_id": "de4007485c3423ff37bcb693",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.8610914945602417,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.mandatory-oversize",
+            "1.0.0",
+            "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.mandatory-oversize",
+              "1.0.0",
+              "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": 1,
+              "canonical_text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "de4007485c3423ff37bcb693",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "fr",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "row00",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 1,
+              "search_text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+              "section": "row00",
+              "sha256_original": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "manual",
+              "source_title": "SYNTHETIC TEST MANUAL",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+              "title": "SYNTHETIC TEST MANUAL"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+              "relations": [
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "de4007485c3423ff37bcb693",
+                  "provenance": "explicit-reference",
+                  "relation_type": "exception_to",
+                  "to_chunk_id": "2e2153a45f4da98b6cf1ab76"
+                }
+              ]
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "de4007485c3423ff37bcb693",
+                "derivation_method": "official_translation",
+                "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": null,
+                "reviewer_id": null,
+                "text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+                "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.8610914945602417,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+                  "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+                "retained": [
+                  "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+                  "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+                ],
+                "required": [
+                  [
+                    "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                    "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                  ],
+                  [
+                    "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                    "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+            ],
+            "state": "RESOLVED_RELATION",
+            "reason": "RETAIN_BASE_AND_COMPANIONS",
+            "preferred": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+            "retained": [
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+            ],
+            "required": [
+              [
+                "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+              ],
+              [
+                "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+              ]
+            ]
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+          "relations": [
+            {
+              "from_chunk_id": "de4007485c3423ff37bcb693",
+              "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+              "relation_type": "exception_to",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-selection",
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.mandatory-oversize",
+        "chunk_id": "191a8da23f0fd6086da0f31f",
+        "exact": true,
+        "sparse_rank": 3,
+        "dense_rank": 2,
+        "dense_cosine": 0.8175281286239624,
+        "rrf": 0.03200204813108039,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.mandatory-oversize",
+            "1.0.0",
+            "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+          ]
+        ],
+        "fused_rank": 2,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.mandatory-oversize",
+              "1.0.0",
+              "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": 1,
+              "canonical_text": "The protective enclosure must remain securely closed.",
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "191a8da23f0fd6086da0f31f",
+              "dense_row": 2,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "fr",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "row02",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 3,
+              "search_text": "The protective enclosure must remain securely closed.",
+              "section": "row02",
+              "sha256_original": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "manual",
+              "source_title": "SYNTHETIC TEST MANUAL",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+              "title": "SYNTHETIC TEST MANUAL"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "191a8da23f0fd6086da0f31f",
+                "derivation_method": "official_translation",
+                "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": null,
+                "reviewer_id": null,
+                "text": "The protective enclosure must remain securely closed.",
+                "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 3,
+            "dense_rank": 2,
+            "cosine": 0.8175281286239624,
+            "rrf": 0.03200204813108039,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-selection",
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.mandatory-oversize",
+        "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+        "exact": true,
+        "sparse_rank": 2,
+        "dense_rank": 3,
+        "dense_cosine": 0.804964542388916,
+        "rrf": 0.03200204813108039,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.mandatory-oversize",
+            "1.0.0",
+            "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+          ]
+        ],
+        "fused_rank": 3,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.mandatory-oversize",
+              "1.0.0",
+              "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": 1,
+              "canonical_text": "A technician must inspect the red cable for physical damage.",
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+              "dense_row": 1,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "fr",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "row01",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 2,
+              "search_text": "A technician must inspect the red cable for physical damage.",
+              "section": "row01",
+              "sha256_original": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "manual",
+              "source_title": "SYNTHETIC TEST MANUAL",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+              "title": "SYNTHETIC TEST MANUAL"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+                "derivation_method": "official_translation",
+                "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": null,
+                "reviewer_id": null,
+                "text": "A technician must inspect the red cable for physical damage.",
+                "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 3,
+            "cosine": 0.804964542388916,
+            "rrf": 0.03200204813108039,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-selection",
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.mandatory-oversize",
+        "chunk_id": "6df516db7affc2913b8d3a29",
+        "exact": true,
+        "sparse_rank": 4,
+        "dense_rank": 4,
+        "dense_cosine": 0.7966630458831787,
+        "rrf": 0.03125,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.mandatory-oversize",
+            "1.0.0",
+            "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+          ]
+        ],
+        "fused_rank": 4,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.mandatory-oversize",
+              "1.0.0",
+              "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": 1,
+              "canonical_text": "A technician must use dry insulated gloves while servicing the unit.",
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "6df516db7affc2913b8d3a29",
+              "dense_row": 3,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "fr",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "row03",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 4,
+              "search_text": "A technician must use dry insulated gloves while servicing the unit.",
+              "section": "row03",
+              "sha256_original": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "manual",
+              "source_title": "SYNTHETIC TEST MANUAL",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "6312c6f6714fb980c797d4f889d5d1678ba1a669b03bfbe3f35d58bc1a6a0842",
+              "title": "SYNTHETIC TEST MANUAL"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "6df516db7affc2913b8d3a29",
+                "derivation_method": "official_translation",
+                "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": null,
+                "reviewer_id": null,
+                "text": "A technician must use dry insulated gloves while servicing the unit.",
+                "text_sha256": "6312c6f6714fb980c797d4f889d5d1678ba1a669b03bfbe3f35d58bc1a6a0842"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 4,
+            "dense_rank": 4,
+            "cosine": 0.7966630458831787,
+            "rrf": 0.03125,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-selection",
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.mandatory-oversize",
+        "chunk_id": "2e2153a45f4da98b6cf1ab76",
+        "exact": true,
+        "sparse_rank": 5,
+        "dense_rank": 5,
+        "dense_cosine": 0.7739471793174744,
+        "rrf": 0.03076923076923077,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.mandatory-oversize",
+            "1.0.0",
+            "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+          ]
+        ],
+        "fused_rank": 5,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.mandatory-oversize",
+              "1.0.0",
+              "373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": 1,
+              "canonical_text": "A technician must disconnect the unit from its power supply prior to service.",
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "2e2153a45f4da98b6cf1ab76",
+              "dense_row": 4,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "fr",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "row04",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 5,
+              "search_text": "A technician must disconnect the unit from its power supply prior to service.",
+              "section": "row04",
+              "sha256_original": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "manual",
+              "source_title": "SYNTHETIC TEST MANUAL",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+              "title": "SYNTHETIC TEST MANUAL"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+              "relations": [
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "de4007485c3423ff37bcb693",
+                  "provenance": "explicit-reference",
+                  "relation_type": "exception_to",
+                  "to_chunk_id": "2e2153a45f4da98b6cf1ab76"
+                }
+              ]
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-selection",
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "2e2153a45f4da98b6cf1ab76",
+                "derivation_method": "official_translation",
+                "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": null,
+                "reviewer_id": null,
+                "text": "The synthetic controller has a continuous operating temperature limit of 74 °C. pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad",
+                "text_sha256": "c22b8a7075b037d1d79bd605f61fc3c6af234f7d1255746f4c3e3e8e6cc8f585"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 5,
+            "dense_rank": 5,
+            "cosine": 0.7739471793174744,
+            "rrf": 0.03076923076923077,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+                  "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+                "retained": [
+                  "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+                  "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+                ],
+                "required": [
+                  [
+                    "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                    "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                  ],
+                  [
+                    "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                    "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+            ],
+            "state": "RESOLVED_RELATION",
+            "reason": "RETAIN_BASE_AND_COMPANIONS",
+            "preferred": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+            "retained": [
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+            ],
+            "required": [
+              [
+                "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+              ],
+              [
+                "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+              ]
+            ]
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+          "relations": [
+            {
+              "from_chunk_id": "de4007485c3423ff37bcb693",
+              "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+              "relation_type": "exception_to",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-selection",
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": [],
+    "selection": {
+      "keys": [],
+      "decisions": [
+        {
+          "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+          "reason": "MANDATORY_TOKEN_CAP",
+          "trial": [
+            "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+            "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+          ],
+          "representative": null,
+          "evidence_tokens": 2134,
+          "prefill_tokens": 2307
+        },
+        {
+          "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#191a8da23f0fd6086da0f31f",
+          "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+          "trial": [],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#4363e8b9e2be6e5e2dfe71a7",
+          "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+          "trial": [],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#6df516db7affc2913b8d3a29",
+          "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+          "trial": [],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76",
+          "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+          "trial": [],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        }
+      ],
+      "sources": [],
+      "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE"
+    }
+  },
+  "generate_calls_for_case": 0,
+  "diagnostic_final_candidate_not_product_answer": null
+}

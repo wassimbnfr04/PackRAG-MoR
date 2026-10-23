@@ -1,0 +1,16 @@
+{
+  "status": "PASS_E2_CHECKPOINT_SOURCE_EVIDENCE_HISTORY_PHONE_BEFORE_E3_NOT_E3_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T18:27:42.641483+00:00",
+  "baseline_commit": "b25ebfcf9dad3b340c92bacbcc1313bd0c479ffc",
+  "e2_gate_sha256": "d9a5dd9b701e897bf6798026aa07e05f00613248b5a9e70d94943ee9e189e494",
+  "runtime_inputs": 188,
+  "android_inputs": 561,
+  "e2_public_outputs_unchanged": 690,
+  "historical_unchanged": 587,
+  "committed_whitelist_blobs": 738,
+  "saved_final_original_results": 69,
+  "restored_build": "build-0041",
+  "serial": "R3CT908DHHR",
+  "mobile_data_preserved": true,
+  "statement": "Read-only baseline verification precedes E3 implementation; owner final knowledge content stays outside agent authorship."
+}

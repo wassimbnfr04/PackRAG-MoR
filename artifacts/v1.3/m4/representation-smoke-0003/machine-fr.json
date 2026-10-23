@@ -1,0 +1,86 @@
+{
+  "id": "machine-fr",
+  "status": "PASS",
+  "result": {
+    "state": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+      "as_of": "2026-10-09",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.machine-fr",
+        "1.0.0",
+        "3efa69c7e16b16ca4b711f4de31c5d24ede5244675b721e55268160041bb48f4"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 9.904900000037742,
+      "retrieval_ms": 0.8211000003939262,
+      "end_to_end_ms": 29.08960000058869
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.machine-fr",
+        "chunk_id": "22a95091b4242050efce6abe",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9658147096633911,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.machine-fr",
+            "1.0.0",
+            "3efa69c7e16b16ca4b711f4de31c5d24ede5244675b721e55268160041bb48f4"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  },
+  "generate_calls_for_case": 0,
+  "actual_weight_inference": false,
+  "model_load_not_excluded": true
+}

@@ -1,0 +1,2 @@
+10-10 21:22:32.105  7886  7960 I TestRunner: run started: 30 tests
+10-10 21:22:32.110  7886  7960 I TestRunner: started: approvedNativeDiagnosticsAndRejectedDeveloperImportKeepPolicyAndResultOwnership(org.packrag.product.DiagnosticPolicyDeviceTest)

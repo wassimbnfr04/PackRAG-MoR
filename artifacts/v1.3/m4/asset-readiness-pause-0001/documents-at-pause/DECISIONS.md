@@ -1,0 +1,610 @@
+# Implementation decisions
+
+10 October2026 E3 — first completed-diagnostic flow passes actual cold/warm generation and copied context after reader closure on0043; originals and nine source snapshots remain immutable. Nullable timing and absent-session initialization must not become measured zero. Candidate diagnostics copy returned ranks/scores/identities/origins without requesting generator representation. The next0045 iteration retains existing synchronous registry snapshot/session monitors and bridges only lazy constructor verification/load and fixed SQLite FTS to Dispatchers.IO.asExecutor via a completed FutureTask. Waiting after caller interruption preserves reader lifetime, then restores the interrupt flag. CPU path/admission/prompt/output/native/backend pins are unchanged. Optional execution observations replace no SQL/model behavior and save no raw data. Actual executor identity is tested directly, because installed coroutine bytecode shows Dispatchers.IO is its own executor; the failed0044 wrapper-field assumption remains in original failure XML/log and source snapshots. No dispatcher/performance/E3 acceptance is inferred before the new actual phone result. No architecture change or optimization is introduced; adjacent navigation/lifecycle remains prepared, not implemented, until this iteration passes.
+
+E2 VERIFIED 10 October 2026 18:24 UTC: copied source attribution/location and captured canonical/rendering/origin details, plus freshly verified active/inactive pack inspection, pass. Python 1034 (run0015), 40 host methods per final variant, 561 Android and 188 public runtime inputs; all six retained actual desktop gates pass. Repaired foreground UI: 4 methods/191.572s; full development: 35/2403.586s; compiled policy: 29/1715.644s; restored debug0041 consent: 1/3.019s. All 69 final original JSON results are saved. Each variant independently checks 17 signed fixtures, 34 active/inactive inspections, 43 public source rows/all 19 fields and 11 rejection controls; retained tokenizer/runtime/selection parity passes. The initial automated UI PASS and visual FAIL remain unchanged. Exactly two layout sources were repaired; fresh debug0041/demo0042 and actual repaired screenshots prove readable canonical AR/FR text in the tested viewport. No old Android run is promoted to repaired acceptance. Original build, fixture, checker and collection failures remain recorded. All 412 E1 outputs and 587 historical identities remain unchanged. Owner models/default registries/mobile data are preserved. This closes E2 only: E3, F, software builder/evaluation, nondebuggable release, physical measurements and final documentation/three archives remain. Synthetic assertions do not establish genuine licensing, review, calibration or gold accuracy; structural citations do not establish semantic entailment. No test is running.
+
+Read-only pack inspection returns copied data from a freshly authenticated private staging snapshot and retains captured answer context; mutation uses the existing consent/session controls. URI/path metadata is displayed as signed attribution, not fetched. Unknown redistribution remains distinct from false. Source-viewer is the architecture-specified module. Insets repair changes product layout, so repaired Android gates are newly executed; Python/desktop reuse is explicitly limited to 188 unchanged inputs. Functional times and the separate process sample are not performance or causal bottleneck acceptance.
+
+10 October2026 E2 result custody — focused production-policy0001 passed all three JUnit methods and original result collection. Development restoration0012 then passed JUnit1/four cases, but the primary run-as result read returned nonzero. Its exact cause is unknown because the inherited runner did not retain that command's stderr; do not call it a proven transport defect or change its FAIL status. Separately recover byte-exact original JSON before any APK switch, bind failed manifest/log hashes, and run fresh same-APK restoration0014 with original collection; it passes. Foreground source-details UI requires its own prepared untouched window; earlier E1 availability is not treated as indefinite screen availability. No runtime/source/test expectation weakened and no E3 progression.
+
+10 October2026 E2 — the architecture specifies source-viewer; add that boundary using existing pinned Compose/activity/lifecycle versions. Expose exact copied attribution/location fields without changing sourceMetadata/ranking/prompt/decoding. Keep unknown versus false distinct. Inspect installed versions via a freshly authenticated staging snapshot and expected manifest identity, with no active/trust/history mutation; share existing consent controls between list and detail screens. Preserve the original answer/trace/submission during read-only inspection. No network URL/snapshot opening is added. Explicit isolated fixture keys in instrumentation do not change compiled product admission; production rejects the new fixture signer. Original build/fixture/report-checker failures and report corrections are retained. Final owner content remains excluded.
+
+
+E1 VERIFIED 10 October 2026 15:57 UTC: query/date/jurisdiction/current-law controls and owned submitted context/freshness pass. Python1010 (run0014), host37 per final variant,548 Android/185 unchanged runtime inputs, retained real desktop walking14, foreground UI2/92.52s, actual ViewModel2/265.632s, full development30/2031.659s, compiled-policy26/1488.936s and restoreddebug0035/consent1/2.864s pass. All61 final structured original results are saved; both policy variants match43 retained tokenizer/admission and19 retained runtime-state comparisons, with D3 selection/origin/identity guards preserved. Every902 prior D3 public output and587 historical identity is unchanged. Original sandbox/UI/readiness failures remain FAIL with exact test-only scroll repair and byte-identical product-APK proof; no old run is relabeled. Close immutable ui-query-gate0002 and checkpoint before E2 source/pack details. Full M4/product remains incomplete: E2, E3, F, software evaluation, nondebuggable release, physical performance and final documentation/three archives remain. Owner authors final knowledge content; synthetic tests are not genuine licensing/review/calibration/gold or semantic-entailment proof. Phone mobile data/models/default registries preserved; no test is running.
+
+
+
+E1 uses exact validated input bytes and captured verified identities. Empty jurisdiction means no filter; freshness is advisory at the submitted date. Completed RuntimeTrace stays bound to that submission; edits and Activity recreation retain the original result context. Formatting/citation validation is not semantic entailment. The management repair only scrolls before the same assertion; exact product APKs and185 runtime inputs permit bounded reuse of the already executed Python/desktop results, never a claim of rerunning them. Compiled demo policy is independently tested and remains an instrumentable debug-signed test build, not the final release.
+
+
+
+10 October2026 — owner resumes with phone available. ui-query-resume0001 verifies all saved D3/current source and587 historical identities before changes. E1 preserves existing query/date/code validation, frozen evidence, retrieval/output policies and tested epoch/join/mutex cancellation. Empty jurisdiction maps to no jurisdiction filter; nonempty input is used exactly, without trimming or uppercasing. Freshness is advisory at captured query.asOf >= signed update_check_after, matching Python. Submitted context/pack identities are owned snapshots, not relabeled by form edits. Friendly UI guidance retains machine codes. Local-operation badge describes no INTERNET permission, never radio isolation. Final pack content stays owner scope.
+
+
+
+10 October local /9 October23:16 UTC — owner pause: all physical gates/restoration and final acceptance were already complete; no test was killed. Finish only the verified checkpoint save (19f760e), record durable paused state, and stop before E1. Development0030/owner models/registries/radios stay preserved; phone may be disconnected. Resume only after the owner's instruction, starting with checkpoint/source/evidence verification and E1. Final pack authorship remains owner scope; testing packs remain authorized.
+
+
+
+10 October local /9 October23:11 UTC — D3 acceptance: retain the original full30-method development run under its actual0028 identities only after exact one-reporting-key source delta, unchanged542 other Android inputs, byte-identical whole product APKs, new actual affected3-method run under0030 and complete parity proof. Full25 compiled-policy methods under0031 and restored0030/four consent checks independently pass; all59 originals are saved. Final preflight rechecks complete source/history/retained/new gates. Preserve every failure and raw old timing key; normalized corrections are interpretation artifacts. No old evidence is relabeled as a rerun. Close/checkpoint D3 before E1. Final content remains owner scope; subsequent software/evaluation/release work uses clearly labeled test packs. The combined acceptance-document patch failed a speculative DECISIONS heading before any file was written; the verified-heading retry applies only documentation, leaving tests/evidence unchanged.
+
+
+
+9 October D3 reporting: the direct-runtime selection instrumentation constructs encoder/backend outside PackRag.ask, so its inherited-looking `total_ms_including_initialization_not_benchmark` field actually excludes construction/model verification/load. Keep completed/running raw evidence immutable, record the exact correction and fix the reporter label after the current full test finishes. A report-only repair may retain unchanged runtime/regression evidence only with exact source-delta proof and byte-identical product APKs, plus new actual affected device methods; it must not be treated as a new run of old evidence or an optimization. All milestone acceptance still requires complete method coverage and correctly interpreted outputs. Performance remains M8.
+
+
+
+## 2026-10-09 — Owner clarifies software/app scope and permits any test packs
+
+
+
+The owner clarifies: "focus on the development of the RAG system and the mobile app and leave the final knowledge packs for me but you use whatever packs for testing." This supersedes the earlier broad hold below. Test-only pack creation/fixtures/sample demonstrators are authorized. Do not author the owner's final release knowledge content or imply synthetic protocol review/calibration labels are genuine approval/measurement. Complete software/import/retrieval/Android/evaluation interfaces and tests; report final-content/source-review/calibration acceptance as owner-supplied dependencies, not silently passed requirements. Historical evidence remains immutable.
+
+
+
+## 2026-10-09 — Owner holds knowledge-pack development
+
+
+
+The owner's explicit "DONT START DEVELOPING THE KNOWLEDGE PACK YET" overrides later release-pack planning. Do not start M5/M6 source/content/review/calibration or new pack-content fixtures. Continue runtime/Android tests with existing signed corpora and unchanged regression protocol inputs. Reuse the existing walking archive for actual smoke; do not author a new public content pack. Do not infer permission to lift this hold from phone availability or runtime acceptance.
+
+
+
+## 2026-10-09 — D3 mandatory failures and bounded first iteration
+
+
+
+Any attempted mandatory bundle missing/unresolved/over the chunk or actual-token caps rejects the request with the existing conflict state instead of falling back to a partial legal interpretation. Optional capped rows receive explicit decisions; final selected relevance is checked independently. Context equality initially includes local identifiers as a conservative stricter redundancy rule. Fixed JSON expectations were created after the first pure prototype but before its first execution; no pre-code oracle claim or observed-output fitting is made. Full986 and adjacent117 passing tests remain intermediate; actual walking, Android ownership/selector and all final physical/parity gates remain required. Details and procedural mistakes are retained in M4D3_METHODS.md.
+
+
+
+## 2026-10-09 — D3 atomic selection and conservative coverage rules before implementation
+
+
+
+Begin only after verified D2db7cfd4. Record the final1-based candidate pool positions after existing conflict-scoped ordering/dedup/global cap; selector uses those positions rather than resorting scores and losing authority member placement. Expand each considered resolved conflict's required canonical hash pairs transitively from the retrieved eligible pool, deduplicate shared members and test the entire sorted trial using actual evidence/full-template costs. Missing/unresolved required evidence rejects deterministically; an oversized bundle never admits a partial subset. Five mandatory companions must keep the existing INCOMPLETE_LEGAL_CONFLICT_EVIDENCE guard. Final selected evidence must remain relevant and eligible.
+
+
+
+Literal redundancy requires identical canonical source/text hashes plus identical source/version/jurisdiction/validity/status/rendering/relationship/admission context; word overlap and nonidentical text never establish equivalence. Mandatory conflict members are exempt. Preserve all actual merged origins and dropped reasons; do not attribute representative metadata to other origins. Source coverage may prefer an uncovered original source only among contiguous ordinary candidates with equal priority/RRF/exact/cosine value; fall back to original pool position, leave conflict members in their existing order, and render selected evidence in original pool order. Lower retrieval values cannot jump higher ones. Record source-coverage counts as counts, not answerability proof.
+
+
+
+Own selected canonical/rendered/source/validity/relationship/rank/origin data, token arrays and nested collections. Freeze raw/normalized query/as-of/jurisdiction/current-law, sorted active identities, mobile-v1 caps/profile and exact model/template/runtime identity before generation. Use frozen values for prompt costs/serialization/citations/diagnostics and reject inconsistent admission state. Independently fixed pure cost tests are selector-control proofs only; actual GGUF/Granite and real desktop/phone gates remain mandatory. Existing historical corpora/results stay unchanged; deliberate changed selections get new versioned references with unchanged source identities and explanations. No model/native/constants/decoding/graph profile or architecture change is introduced by these rules.
+
+
+
+## 2026-10-09 — Accept repaired D2 only after all physical/restoration/source gates
+
+
+
+Initial792/26/21 passing fixtures remain bounded/held because the compiled-host NEL audit exposes a real presence mismatch. Accept only fresh repaired954/29-host-per-variant/27 development+22 policy/full49 original results/restoration2.504s and43 tokenizer/19 runtime-state-provenance parity with169 runtime/524 Android source identities and587 history/292 D1/479 initial D2 output identities unchanged. Preserve initial held gate0001, build0017 failure, import-path/preparation errors and unexecuted overbroad-count helper versions. Paragraph548 role/template/rendering serialization is now verified; paragraph404 retains E canonical/rendered UI and M6 actual source/review obligations, and546/521 full freezing remains D3. Functional stress/thermal and public-APK size observations are supporting measurements with explicit limits, not performance/bottleneck/final-package acceptance. SourceText repair uses the existing frozen whitespace property, no source normalization or model/native/profile change. Record immutable closure0002/checkpoint before D3.
+
+
+
+## 2026-10-09 — D2 frozen source-text presence, preserving authenticated bytes
+
+
+
+Independent compiled-core audit0001 measures a real U+0085 NEL mismatch between pinned Python strip and Kotlin isNotBlank. Both the Kotlin DB validator and representation boundary now use SourceText.nonBlank against the already frozen query whitespace table, with no normalization, trimming or signed-byte mutation. The29 blank scalars include Unicode whitespace and the four Python legacy control separators U+001C–U+001F; other scalars, including Arabic marks/ZWSP/BOM, remain nonblank. Python retains its existing DB predicate and adds a canonical-presence defense to the resolver. This implements cross-platform presence consistency within v1.3, not a new architecture or semantic interpretation of text.38 independently specified cases, exhaustive valid scalars,116 resolver checks and six signed NEL imports are the regression contract. Four whitespace-only fields reject; two nonblank provenance values surrounded by NEL must retain every original byte. Synthetic official/review labels remain protocol controls. Initial47 passing phone results do not cover this newly discovered gap; fresh builds/full phone gates are mandatory before D2 acceptance.
+
+
+
+## 2026-10-09 — D2 authenticated generator representation
+
+
+
+Begin after verified D1a52cdc6. English source primary language (en or en-* BCP47) uses unchanged canonical text directly. Other source languages need authenticated purpose=generator English text with official_translation or human_reviewed_translation metadata; a machine_draft never enters generation even in developer mode. Prefer a unique exact en tag; otherwise accept one unique English regional/script rendering and reject ambiguous choices rather than invent provenance ranking. Required source/reviewer/date/hash metadata remains checked by signed database validation and the representation boundary. Resolve representations once for prompt preparation, count/render their exact text, preserve the actual immutable representation records with the prepared evidence, and expose them separately from unchanged canonical source/citation text/language/hash. Reserved controls in canonical or generator text remain rejected; ordinary XML data is escaped losslessly. Missing renderings reject safely before generation; no replacement/translation or graph source is synthesized. Full D3 redundancy/version/evidence-freeze enhancements remain separate. Synthetic reviewer/official labels prove protocol behavior only; release M6 needs actual source/review evidence.
+
+
+
+## 2026-10-09 — D1 exact union, fused cap and merged relevance
+
+
+
+After verified C2b4451838, reconcile paragraphs521/532/998 without changing retrieval constants or adding an architecture. Each pack admits all eligible exact hits union its best16 sparse/dense RRF candidates. An exact hit also in fused16 consumes one fused slot and appears once; an exact hit outside fused16 remains admitted without consuming a slot. Fused ranking uses RRF, exact tie-break, cosine, pack/chunk IDs; general ordering retains priority tier. Existing resolved conflict preferences reorder only their own occupied member positions. Deduplicate canonical source/text hashes with origin preservation, then apply global32.
+
+
+
+Paragraph532 says "For non-identifier candidates, the highest-ranked candidate": implement the first nonidentifier in that final ordered pool, evaluated with its representative pack's authenticated thresholds. Lower passing or calibrated candidates cannot rescue a failing or uncalibrated top nonidentifier. All eligible exact hits are retrieval-relevant, never automatically answerable. A CALIBRATED synthetic fixture tests threshold transport/wiring only, not measured calibration. Fixed positive/negative boundaries and expected relevant flags are specified independently of retrieval execution. Historical numeric references remain immutable; changed cap references receive new paths bound to the identical signed pack and stored actual query-vector bytes, explicitly not a fresh desktop embedding measurement. Actual Android encoder/tokenizer/generation and retained desktop gates remain required before acceptance or D2.
+
+
+
+
+## 2026-10-09 — Resume the saved pending restoration
+
+
+
+
+
+The owner explicitly resumes with the phone available. Source/runtime143, Android458, saved outputs and debug0012 APKs match the paused identities before installation. Run only the pending development restoration/consent first; prior22/17 phone gates are not relabeled as new executions. Preserve pause.json/snapshots; closure may complete only after restoration and full input/result/history checks. Mobile data remains on.
+
+
+
+
+
+## 2026-10-07 — Owner pause after running policy gate
+
+
+
+
+
+The owner asks to let the current17-method phone test finish and then stop until the phone is available again. Save all final outputs before stopping; do not start debug restoration or another phone gate. The demo build therefore remains installed when stopping, with owner assets/registries preserved. C2b cannot be declared complete until the pending development restoration and immutable closure pass on resume.
+
+
+
+
+
+## 2026-10-07 — Bring required XML serialization into C2b repair
+
+
+
+
+
+The new exception integration exposes a citation-compliance failure: final candidate says74°C but Source S2 in prose, so strict output rejection is correct. Both required chunks/caps are correct. Frozen paragraph548 requires XML roles/source envelopes, while the walking baseline used plain labels. Implement that specified format and escape XML data/attributes losslessly now; this is a repair within v1.3, not a new policy/decoding/validator architecture. Never append citations or accept malformed citation groups. Same frozen evidence under XML accepts74°C[S2] in diagnostic0002; complete revalidation remains mandatory. Freeze new10 actual XML token references using normalized queries to match the already-normalized B2 runtime; preserve and distinguish older raw-vector/plain-label tokenizer references and every historical result.
+
+
+
+
+
+## 2026-10-07 — C2b conflict interpretation begins after3e765ae
+
+
+
+
+
+ADR-002 records the missing ordinal/scope/comparability convention as an adopted implementation decision, with behavior unverified until complete integrated gates. Null rank is unknown; lower ordinal is stronger only within common curator/jurisdiction. Bare aliases never group unrelated provisions. Full explicit-reference/curated legal assertions can define a related set without graph expansion; low-confidence/structure legal edges, cycles, weaker replacements, unknown/incomparable rank and inconsistent edition claims remain unresolved. Several paragraphs of one original edition are not competing versions. Base/amendment/exception coverage must survive final selection or generation is rejected. Initial40 independently fixed Python contracts and caller-order reversals pass in conflict-unit0001; this is not full C2 acceptance.
+
+
+
+
+
+## 2026-10-07 — Expose authenticated source/relationship fields before ordering (M4C2a)
+
+
+
+
+
+The existing signed schema already contains authority_rank, document_version, issued_at, article and typed directed relations/provenance/confidence. Load them on both platforms and attach them to actual cited source metadata, preserving null/empty/Unicode/max-int values and original edge direction/confidence. Python copies exposed relation dictionaries; metadata exposure does not inject related evidence, resolve alias ambiguity, infer dates, or apply authority ordering. Retained packs keep their exact retrieval references. New metadata fixture article headers are embedded using explicitly documented nonempty article else section, with empty contextual prefix and unchanged canonical text; exact inputs and actual fresh Granite document vectors are saved. The unchanged normalized query vector's earlier actual measurement is reused explicitly and rerun by the Android encoder. This prepares C2b's inputs without inventing an authority convention; C2b's rank/comparability/scope decision requires a source-bound ADR and separate acceptance.
+
+
+
+
+
+## 2026-10-07 — Explicit interval provenance (M4C1)
+
+
+
+
+
+Use one interval-provenance function per platform for filtering and runtime metadata. Preserve signed source/chunk starts and exclusive ends, compute only their intersection, mark null source bounds unknown and null chunk bounds inherited even when both sides are open. Do not derive dates from release/freshness/retrieval time. Empty intersections reject explicitly. Current-law status rejection remains exactly repealed/superseded; historical status alone is not a new rejection. Add validity to selected/cited desktop metadata and Android SourceRecord without altering the generator prompt or canonical text. The source screen will present this structured metadata in E; C1 alone does not claim UI presentation. No architecture extension or optimization. Signed synthetic boundary fixtures have actual pinned Granite vectors; fixed eligible sets/provenance expectations are independent of retrieval output. Numeric ordering is a desktop parity reference, not human legal truth.
+
+
+
+
+
+## 2026-10-06 — GeneratorBackend as a dependency boundary (M4A)
+
+
+
+
+
+The specified generator-api module owns tokenizer, identity, owned generation-result and cancellation/close interfaces. Grounded runtime depends on this module, not generator-llama; ProductSession alone constructs the pinned LFM implementation. NativeEmission retains its exact JNI class name and constructor descriptor ([B[IIDDDD)V and implements GenerationResult directly, sharing the original arrays without a second raw-buffer copy. The existing consumer still clears the buffer in finally. Covariant concrete generate return preserves existing callers; the actual cancellation device gate now uses only GeneratorBackend/GenerationResult. No C++/model/template/decoding/compiler or acceleration change is intended, and unchanged JNI bytes are an acceptance requirement. Desktop gains a structural tokenizer/generator protocol and retains the existing Generated import; its server lifecycle stays with the existing owned-server launcher. It does not falsely claim a new desktop abort API. No optional MoR execution is enabled by adding the interface.
+
+
+
+
+
+## 2026-10-06 — Positive pack data-type admission
+
+
+
+
+
+The final M3 audit found that the earlier deny-list admitted unknown extensions such as lua and kt. Source paragraphs86/300/303/1004 require a type allow-list, so the importer now admits only txt, md, pdf, csv, tsv, json, xml, png, jpg, jpeg and webp under sources/, plus the four exact root control/core paths. Signed MIME metadata must match the admitted extension (case-insensitive) or application/octet-stream; the latter retains existing opaque-snapshot fixture compatibility. SQLite admits application/vnd.sqlite3 or opaque data; KDX admits opaque data. Unknown, extensionless, HTML/SVG/office-macro/archive/script/model/native formats reject before payload interpretation. Optional snapshots are opaque immutable provenance bytes, never code, runtime configuration or executable viewers. This is path/MIME admission, not content sniffing, semantic document validation, sanitization, or proof that a PDF has no embedded active content. Future snapshot rendering must separately constrain its renderer; this change does not add one. The signed42-case corpus includes every allowed format, opaque MIME alternatives, upper-case declarations, unknown types and hostile/mismatched MIME. This implements the frozen data-only rule rather than adding a new architecture.
+
+
+
+
+
+## 2026-10-06 — Validation dependency ordering and public evidence boundaries
+
+
+
+
+
+Independent KDX header/profile/count/size/finite/norm checks precede SQLite, as the architecture install flow requires. Dense-row mapping hash binding needs ordered validated DB IDs and therefore follows disposable DB validation. Newly signed combined-corruption fixtures prove the ordering; a valid KDX with broken DB still rejects on SQLite. Both languages read float32 rows and accumulate squared components in ascending order as doubles, matching tolerance decisions just inside/outside1%. These validate format, not semantic correctness of embeddings. Legacy/historical validators are unchanged. Android streams size/CRC during extraction and verifies SHA256 of written bytes before any KDX/DB interpretation; desktop uses bounded entry reads, not a constant-memory streaming claim.
+
+
+
+
+
+Public result/smoke/build-source hash collection shares a private/build/cache/outside-path exclusion before reading files. This is a custody boundary, not merely a filename-extension convention. The original architecture index is immutable; a supplemental exact-text source-bound index adds sixteen lower-case policy/modal/supporting paragraphs missed by its case-sensitive rule. Paragraph635's warning/no-automatic-rollback rule is explicitly covered. A mapped or schema-validated paragraph is not automatically a product acceptance claim.
+
+
+
+
+
+## 2026-10-06 — Instrumentable production-policy demonstrator artifact
+
+
+
+
+
+Use an explicit demo build type initialized from release, with ALLOW_DEVELOPMENT_PACKS=false, release library variants and no debug source set. It is deliberately debuggable and signed with the existing development certificate solely to permit instrumentation and reuse the app-private pinned model assets without duplicating2GB. It is not the final non-debuggable signed product release. Same application ID preserves the owner's model and development registry; production policy selects a separate registry. The demo cannot load development key assets or the debug crash-probe service, and ignores debug root routing. Actual ViewModel imports and actual core inference must pass on the compiled demo. Host tests explicitly include release variants because [AGP9 defaults unit tests to the tested build type](https://developer.android.com/build/releases/agp-9-0-0-release-notes). Final release signing/hardening remains M8.
+
+
+
+
+
+## 2026-10-06 — Application-owned publisher trust and separate production registry
+
+
+
+
+
+The bounded built-in public-key store names the PackRAG project demonstrator publisher, not an official source publisher or a human reviewer. Its Ed25519 signer identity authorizes transport admission only. The same public JSON is compiled into Android and available to desktop tooling; packs, launch extras and imported URIs cannot extend it. Production uses only approved public keys and disallows UNCALIBRATED manifests. Debug development trust additionally retains the two frozen development public keys. Production has a separate app-private production-registry so changing build policy cannot reinterpret or delete the owner's development registry.
+
+
+
+
+
+The persistent project signer seed is held only in ignored product/.private, with Windows inheritance removed and access limited to the current owner and SYSTEM. It is not tracked, printed, hashed into reports, shipped in APK assets or included in delivery ZIPs. Public setup metadata and reproducible setup instructions are separate. A missing seed fails signing; setup refuses silent rotation of existing public configuration. Synthetic production-admission fixtures use plainly labeled schema-only calibration fields and never qualify as measured release-pack calibration. Actual production build-policy testing and the final signed non-debuggable release remain separate gates.
+
+
+
+
+
+These decisions are implementation details or readings of explicit v1.3 text, not changes to frozen architecture. Architecture changes belong in `docs/adr`.
+
+
+
+
+
+## 2026-10-05 — Authenticated JSON and installation identity budgets
+
+
+
+
+
+Retain exact raw signature verification against at most eight pinned keys before any structural scan or JSON interpretation. After authentication, an iterative byte scanner limits nesting to32 and balances brackets outside quoted strings with escaped-quote/backslash handling; recursive JCS/JSON parsing follows. This scanner is a resource precheck, not a replacement JSON parser. The actual schema is much shallower; a4096-level signed input must fail with the nesting-limit error before recursive parsing, while brackets inside large quoted strings remain accepted by the raw verifier. Canonicalization failures, including duplicate properties, receive a stable rejection label. Separate Python verify_raw_manifest from strict schema validation to share the cryptographic/JCS/signer-binding contract with Tink and test the exact ordering. Existing malformed/unknown-signature tests remain mandatory.
+
+
+
+
+
+Pack ID and version must each fit255 UTF8 bytes, matching the immutable Android directory component limit already enforced by the registry. Enforce this shared importer contract before mounting, not only during Android rename. Signed255-byte positives and256-byte negatives prevent desktop/phone disagreement. These are implementation parser/filesystem budgets within v1.3's bounded data-only importer, not generator/retrieval architecture changes. No historical corpus is modified.
+
+
+
+
+
+## 2026-10-05 — Bind Android gate selection to frozen build inputs
+
+
+
+
+
+C2 device-c2-regression0001 fails two initialization errors because the command mistyped StrictManifestDeviceTest and StrictDatabaseDeviceTest as nonexistent classes. Six other methods pass independently, but the combined gate remains FAIL and no progression is allowed. Preserve the old wrapper snapshot and all outputs; correct the command in a new run against the unchanged build0011 APK. The runner now rejects absent/non-test/duplicate/malformed class selections before ADB by checking their expected Android test source path against the build-start identity, and records those source identities plus its own SHA256. Eight regression checks cover the exact mistake and valid frozen selection. This is an orchestration repair, not a change to model/security/runtime behavior.
+
+
+
+
+
+## 2026-10-05 — Incremental integration governs
+
+
+
+
+
+The owner's latest instruction supersedes an isolated/big-bang reading of the earlier clean-repository mission. Keep historical evidence intact and introduce clean production modules under `product/` in the existing working repository. Maintain the real integrated path and gate each milestone. Avoid resetting/committing unrelated existing changes. Evidence: PLAN.md and existing 49-test regression result.
+
+
+
+
+
+## 2026-10-05 — Historical promotion record versus current authority
+
+
+
+
+
+v1.3 §7.10 and Appendix H explicitly accept ADR-001. LFM2.5 is now the product generator. Historical FULL DOCUMENTATION/conditional ADRs remain byte-identical records of their earlier state. Record the new accepted ADR separately. MoR is desktop research; SmolLM2 is historical only.
+
+
+
+
+
+## 2026-10-05 — Normative sections govern stale labels
+
+
+
+
+
+Appendix B's helper name `computeDynamicEvidenceBudgetWithMorTokenizer` is a stale name: §7.4/§15 explicitly require the exact LFM tokenizer/template. Implement that specified behavior and regression-test it. §8.6 mentions minSdk26 only in its platform-Ed25519 warning; §16.1/16.2 freeze the actual app at minSdk28, compile/target37 and Tink1.23.0. These readings do not change a frozen value.
+
+
+
+
+
+## 2026-10-05 — Granite revision migration
+
+
+
+
+
+The v1.3 manifest/result examples explicitly pin `c61e626a6255c490879d0af885078b61929d51f6`; historical synthetic packs used `835ad14087e140460703cf0fae09f97d469d65c2`. The official API confirmed the new revision exists. Retain historical packs for baseline regression; create new versioned synthetic/product packs using v1.3 assets. Do not relabel old vectors as the new revision. Model/ONNX/tokenizer hashes will be computed from downloaded pinned bytes before activation.
+
+
+
+
+
+## 2026-10-05 — Network and acceptance
+
+
+
+
+
+§7.10/Appendix E distinguish local/no-INTERNET architecture from optional airplane demonstration. Preserve the owner's mobile-data connection; do not treat prior radio-on capability evidence as airplane proof. The final app must omit INTERNET and function with all local assets; physical golden/parity/resource tests remain separate requirements.
+
+
+
+
+
+## 2026-10-05 — Versioned baseline test repair
+
+
+
+
+
+First baseline attempt lacked a pre-created results parent and encountered Windows temp access denial. Second attempt confirmed denial even with workspace-local temp paths. Approved third attempt with fresh workspace-local output completed 49/49. No legacy source, pack, frozen answer or rubric was changed to force a pass.
+
+
+## 2026-10-05 — M1 foundation reuse
+
+
+
+
+
+The existing `kpack_builder.core` is an audited shared data-format library with passing positive/negative contract tests. The first integrated product slice reuses only that library and its schema, not historical experiment runners or builders. Product activation adds exact v1.3 profile matching and keeps new packs/results in new locations. Full lifecycle/security hardening remains M3; this reuse does not assert M3 completion.
+
+
+
+
+
+M0 acceptance establishes the mapped architecture, immutable-history guard and baseline contracts. Asset download/hash activation is a dependency of M1's real runtime acceptance. An asset acquisition in progress is not a foundation regression failure or permission to use an unverified model.
+
+
+
+
+
+## 2026-10-05 — Bounded embedding profile
+
+
+
+
+
+The product records maximum embedding input length 512 as an explicit bounded-input implementation choice in the signed embedding profile, rather than claiming the upstream model's maximum is 512. Upstream metadata advertises a longer context. Inputs exceeding this product bound are rejected, not silently truncated. CLS pooling, normalization, tokenizer assets, ONNX bytes and the four-field document-input construction are hash-bound. Empty safe context prefixes are valid for the synthetic development fixture. This does not change the frozen generator context of 2048 or its tokenizer.
+
+
+
+
+
+## 2026-10-05 — Desktop runtime reuse
+
+
+
+
+
+Reuse the existing exact-commit CPU llama-server binary only after verifying its bytes, the GGUF, official template and license. Launch a new owned server on a separate loopback port with new logs; do not rerun a historical experiment script or overwrite its outputs. Android uses JNI and no INTERNET permission; the desktop loopback backend is a development integration surface.
+
+
+
+
+
+## 2026-10-05 — Android increments and supporting UI dependencies
+
+
+
+
+
+Within M2, first compile the clean app/core/embedding project, then establish exact tokenizer/encoder parity, then connect verified pack retrieval and JNI generation and the canonical source view. No scaffold-only build satisfies M2. Android mandatory toolchain versions remain the architecture pins. Compose BOM is pinned to `2026.09.00`, as documented by [Google's Compose BOM guidance](https://developer.android.com/develop/ui/compose/bom), with supporting Activity `1.13.0` and Lifecycle `2.11.0` versions from official AndroidX release information. These supporting library choices do not change the architecture.
+
+
+
+
+
+## 2026-10-05 — Android permission and asset-deployment repairs
+
+
+
+
+
+ONNX Runtime Android 1.30.0's dependency manifest adds INTERNET; the mandatory phone assertion caught it before inference. The main product manifest explicitly removes that inherited permission in every build variant. Preserve the dependency manifest and failed APK/test identities as evidence; do not relax the assertion.
+
+
+
+
+
+Shell-created external model assets were inaccessible to the app. Install debug-test assets into the app's private files under its own UID through `run-as`, without a broad storage permission. Windows `adb shell` text stdin truncated the binary ONNX at its first Ctrl-Z byte (byte 11); SHA verification rejected the partial file before activation. A full 0–255 binary probe passed through `adb exec-in run-as ... dd`. Use this binary path, hash the entire staging file, restrict its mode, then rename. An exec-in shell-redirection quoting attempt also failed and was not accepted. Existing historical device model bytes are read/verified without modification. These are setup/security repairs, not model-capability results.
+
+
+
+
+
+Android's [Pattern API](https://developer.android.com/reference/java/util/regex/Pattern#UNICODE_CHARACTER_CLASS) documents that Unicode classes are always enabled and the desktop UNICODE_CHARACTER_CLASS flag is unsupported. Keep the pinned pre-tokenization regex unchanged; set that flag only on desktop JVMs. Add eight whitespace cases to new reference version 0002 and require exact token IDs on both JVM and physical Android. Do not relabel host-only parity as phone parity.
+
+
+
+
+
+## 2026-10-05 — M2 pack/retrieval increment scope
+
+
+
+
+
+Android independently verifies Ed25519 raw bytes using Tink, bounded pinned keys and JCS before interpreting fields; audits portable data-only ZIP names; checks every payload, disposable SQLite schema/integrity/FTS copy, original DB identity and KDX mapping/profile/vectors. Import snapshots are app-owned and bounded. Read-only active DB and mapped FP32 vectors drive the actual phone retrieval parity; no precomputed answer or desktop retrieval is substituted on the phone. A first-activation registry refuses replacement and reauthenticates its stored transport on reopening. Atomic update/rollback/fault handling and exhaustive hostile-format validation remain the explicit next M3 gate, not a claim made by this increment.
+
+
+
+
+
+The first C host assertion incorrectly named the frozen pack `developer` instead of `development`. Preserve `build-0006` failure, correct the test and require the passing `build-0007` before phone validation. Source identities are now captured at build start; older build manifests retain their original narrower scope. Ten actual-phone retrieval cases and four negative imports passed in `device-retrieval-0001` before advancing to JNI generation.
+
+
+
+
+
+## 2026-10-05 — JNI baseline and measurement boundaries
+
+
+
+
+
+Build exact clean pinned llama.cpp as a static dependency of the product JNI library, using NDK/API28 arm64 and portable armv8-a, GGML_NATIVE/OpenMP/KleidiAI/LLAMAFILE disabled. This establishes CPU correctness before hardware-specific optimization. A persistent model/context and greedy sampler use context2048, one sequence, four threads, batch256/ubatch128, no GPU offload and FlashAttention disabled. Reset recurrent/KV state per question. Native handles use shared lifetime ownership, serialized context access and a CPU abort callback. No LoRA, prompt logging or raw reasoning persistence is introduced.
+
+
+
+
+
+Actual full prompt IDs match all ten independent desktop official-Jinja references on the phone before weight inference starts. Vocabulary-only parity is expressly not inference acceptance. Actual emitted IDs include a terminal EOG when sampled; reasoning partition includes the closing delimiter; first-model-token timing includes hidden reasoning and is not time to a visible answer. Total UI-session question wall time includes lazy initialization; per-prefill/decode timing does not. Model load/hash/context time is separate. The developer public key is a debug-only asset; release trust configuration is intentionally still pending M3. No private key is packaged.
+
+
+
+
+
+The GGUF transfer passed in private-assets-0004, but the immediate small-template SHA command failed; that file became visible afterward. Add a bounded completion wait requiring the entire expected SHA, never acceptance of partial bytes, and rerun as private-assets-0005. Both new model assets then passed. Preserve the failed run and its scope.
+
+
+
+
+
+An initial actual answer passed but was slow. Record resource/scheduling snapshots without changing radios, priorities, affinity or thermal/security controls. The running instrumentation process is in the foreground scheduling group; that alone does not establish interactive top-app performance. Keep correctness and later optimized/resource acceptance separate. APK bytes remain in versioned evidence directories and are hash-bound by manifests; Git checkpoints exclude large regenerable APK binaries but do not delete them.
+
+
+
+
+
+## 2026-10-05 — M2 final gate and UI retry
+
+
+
+
+
+The14-case physical runtime gate passed before installing cancellation builds. Updated cancellation/recovery passed actual inference. Preserve the first failed physical UI run; it lost its Compose hierarchy before inference while screen activity was displaced. Add explicit startup synchronization and record the actual ViewModel initial state before requiring UI semantics. With the owner's untouched-phone availability, the new versioned retry passes question, actual buffered answer and canonical source navigation. Treat its87.416-second whole-test duration as a functional gate, not controlled latency or optimization evidence. M2 is verified; M3 hardens the integrated path rather than claiming the bounded first-activation prototype is production-ready.
+
+
+
+
+
+## 2026-10-05 — Strict product authentication and manifest corpus
+
+
+
+
+
+Move the desktop product off the legacy manifest acceptance path without editing that historical source: bounded app-owned transport copy, exact raw PyNaCl signature verification, canonical-byte identity, then strict product field semantics before DB parsing. Android applies the same semantics after raw Tink authentication. Keep DB/KDX format helpers as explicit temporary migration inputs. Signed hostile fixtures use a distinct ephemeral instrumentation key; synthetic calibration numbers establish schema behavior only.50 shared semantic cases and50 independently signed transports agree on desktop/phone;176 Python regressions and actual desktop/phone source smoke pass. Preserve the first M3 UI displacement failure and its renewed-availability retry rather than overwriting it.
+
+
+
+
+
+## 2026-10-05 — Disposable DB contract and recorded provenance
+
+
+
+
+
+Replace the desktop legacy DB validator with product-owned fixed-schema validation; preserve historical source. Compare complete normative producer DDL while allowing insignificant whitespace/comments and identifier/keyword case, preserving quoted literal semantics. Validate actual stored types and source/chunk/link/alias/derived metadata on the disposable copy. Reject release machine drafts and incomplete recorded official/human-review metadata; synthetic test reviewer strings do not prove genuine review.48 signed DB fixtures and39 language/date/whitespace cases agree on desktop and physical Android. Full264 Python regressions, retained phone manifest/retrieval gates, real14-case desktop smoke and actual phone question-to-canonical-source runtime smoke pass before archive progression. Persistent model/runtime semantics remain unchanged.
+
+
+
+
+
+## 2026-10-05 — Portable ZIP names and transport framing
+
+
+
+
+
+Use one frozen Unicode15 full-fold mapping on Python/JVM/Android, rather than mismatched Python casefold and Java lowercase duplicate rules. Sort signed file declarations by Unicode codepoint, preserving the producer's ordering for supplementary names. Bound UTF8 path/segment lengths to filesystem-compatible4096/255 bytes. Audit classic central records and every local segment before authentication; retain signed payload SHA256 as the semantic integrity check and add explicit Android CRC validation. Allow supported transport timestamps/comments and small forced-ZIP64 local sizes, but reject ZIP64 central records unnecessary under bounded caps. Local/central inconsistencies, duplicate names, gaps and overlaps are importer failures, never generator/retrieval evidence.65 newly frozen signed fixture archives contain synthetic data only; private signing bytes are ephemeral and not stored.
+
+
+
+
+
+## 2026-10-05 — Atomic registry and honest crash-test scope
+
+
+
+
+
+Sync immutable staged files/directories, rename on the same filesystem, then atomically change FULL-synchronous SQLite records. Retain the previous version; verify installed original bytes on reopen and disable untrusted content without reconstruction or automatic rollback. Hold the query snapshot against lifecycle mutation. Migrate the old prototype only after verification; filesystem/transaction failures must preserve its valid active record for retry. Uncertain COMMIT outcomes preserve renamed files for recovery.
+
+
+
+
+
+Separate exception fault tests from an actual debug-only subprocess SIGKILL probe. The first combined device run passes17 controlled checks but fails the hot-journal assertion: its zero-header journal does not establish recovery. Add explicit probe-only transaction write pressure and require recorded valid header bytes before reopening; normal cache/registry operations are not performance-tuned by this test. Preserve failed evidence. Signed zero-row KDX/DB packs are valid format boundaries, so represent their vectors as empty buffers rather than attempting zero-byte mappings. Freeze a separate new empty fixture; never edit old completed corpora.
+
+
+# M4B1: pinned query normalization, 6 October 2026
+
+
+
+
+
+Measured query-audit0002 detects Python Unicode15 versus JDK17 Unicode13 NFKC disagreement for U+1E030. Implement the existing specified NFKC/default-lower/Arabic-mark removal/whitespace semantics with a shared frozen Unicode15 table, preserving raw canonical text and the separate archive-casefold implementation. No architecture change or performance optimization is introduced. Expanded decomposition/composition/lowercase tables are generated deterministically by pinned Python3.12; official UnicodeData/properties cross-check this dependency and the official Unicode15 NormalizationTest corpus independently checks all five columns. Hangul decomposition/composition is algorithmic; canonical ordering is stable; default Greek final-sigma context ignores Case_Ignorable scalars. Locale-specific Turkish/Lithuanian rules are not selected. New word-property tables are prepared but are not yet wired into identifier retrieval (B2). No stricter raw-query validation is introduced in B1. Existing surrogate handling will be reconciled in B2. Table identities and official source/license acquisition hashes are public; this is correctness work, not a change to tokenizer, model or native runtime.
+
+
+
+
+
+# M4B2 query/alias decisions, 6 October 2026
+
+
+
+
+
+Implement normalized embedding input per source998 while preserving raw prompt/user text; old raw-input embedding/parity references remain unchanged and continue testing their explicitly supplied vectors. New normalized-input references receive new locations. Query dates use the existing shared strict ISO parser, jurisdiction the manifest syntax, current-law Python values strict Boolean, raw input valid Unicode scalars and nonempty normalized search. Kotlin's declared parameter types already prevent dynamic non-string/non-Boolean values. NUL/control handling is not arbitrarily broadened here; final prompt admission is D and English product-language admission is E.
+
+
+
+
+
+Use frozen15 letter/number/underscore word boundaries and terms, ordered by scalar codepoints; leave schema FTS5 unicode61 unchanged. Collect every eligible alias target before local/global caps. Original source-byte hash identifies one interpretation, so multiple sections, duplicate source bytes or different local source IDs do not manufacture ambiguity. Different eligible original hashes sharing one matched alias fail closed with the existing Android IDENTIFIER_AMBIGUOUS state, now shared by Python. This conservative existing ambiguity policy is extended across packs; it is not global authority ranking or a claim of legal conflict resolution. C must reconcile explicit amendment/conflict sets separately and retain appropriate ambiguity behavior. Multiple different aliases in one question may intentionally name different sources; only one alias with different interpretations is ambiguous. Deduplicated origins remain in deterministic representative-ranking order and retain each unique pack/version/manifest identity once. Exact hits remain relevant per521/532 without automatic permission to answer.
+
+
+
+
+10 October E3 validation decision: exercise the real compiled demo ViewModel using existing approved calibration-schema-only.kpack rather than caller-injected trust or a fake generator. Its positive schema assertions remain explicitly synthetic. Keep demo instrumentability/debug-signing distinct from final nondebuggable release. Retain actual0047 UI/0046 lifecycle only under exact unchanged production APK/source proof; new policy/full regressions are fresh runs.
+
+
+E3 current10 October20:09 UTC: retained UI0002 FINISHED four methods/one failure/200.195s. Three passing originals/two PNGs saved separately; overall FAIL unchanged. Final query assertion observes ANSWER_ACCEPTED instead of NO_RELEVANT_EVIDENCE. Old test busy-false wait can observe old completion after a posted tap; test-only strengthening now requires distinct completedResultId AND exact edited question/date/jurisdiction, keeps all answer assertions and adds immediate/new state observations. Hypothesis pending actual evidence, not declared app fix. Exact one test source changed/573 other Android inputs unchanged. Fresh debug0050/demo0051, actual four-method UI/visual and full37/30/restoration/parity/closure required before F. No phone test running; no radio/owner-file changes.
+
+Detailed exact source repair and pre-repair bytes: diagnostics-gate-0001/retained-resubmission-repair.json and retained-resubmission-before/QueryControlsUiTest.kt. The three partial originals are solely completed-method evidence; failed query JSON is not promoted. No full-background driver started.
+
+
+E3 current10 October20:16 UTC: UI0003 finished four methods/one failure124.251s. Corrected query-controls PASSES actual generated answer/recreation/source/final edited-context distinct completion with NO_RELEVANT_EVIDENCE; immediate observation already busy, so prior0002 race is not retroactively proved. SourceDetails first query fails ANSWER_ACCEPTED versus null before completion; three completed passing originals/PNGs/ownership observation saved, overall FAIL retained. Exact SourceDetails/Query helper repair now waits actual ViewModel state replacement after action click and then idle/completion; all expectations unchanged,572 other Android inputs unchanged. Fresh0052/53 and UI0004/full gates required. No phone test running; F/later held; mobile data unchanged.
+
+ui-action-dispatch-repair.json binds exact two pre/post test bytes. No production callback/output or expected answer is changed. Await-state reference means an actual submitted action must be observed, including fast no-generation outcomes that need not expose a busy interval; ignored actions fail30s rather than consume stale prior state.
+
+
+E3 VERIFIED within diagnostics/execution/lifecycle/UI contracts at 2026-10-10T22:01:54.155709+00:00. Python1034 and53 host methods per matched0052/53 variant pass;188 runtime/574 Android inputs are bound. Actual retained UI4/216.928s, full development37/3302.645s, compiled policy30/2182.969s and restored0052 consent1/4.014s pass. All72 final method originals plus the extra edited-query ownership original are saved before APK switches; both new AR/FR PNGs actually inspected. 43 retained tokenizer/admission cases/19 runtime states, selection28/9 tokenizer/8 runtime/2 guards/2 origins and signed source17 packs/34 inspections/43 rows/19 fields/11 negatives per variant pass. New desktop14 passes; six earlier actual desktop gates are explicitly retained under unchanged188 runtime inputs. Actual0047 diagnostic navigation/seven controls/viewport is retained through exact selected source and whole product APK equality, not described as a0052 rerun. Original host/Python/device/visual/three retained UI failures and every partial scope stay unchanged. Two UI dispatch helpers were strengthened; all app/answer expectations and whole product APK bytes remained unchanged. Owner models are preserved; all accepted later owner guards use the documented post-launch registry baseline. Earlier failed0002 changed default registry bytes and remains an explicit exception, with no causal actor/logical-row equality claim. All690 E2 public outputs/587 historical identities remain unchanged. Mobile data stays on, app has no INTERNET permission. E3 closure/exact checkpoint is being recorded; next M4F local assets and final normative UI/product audit under M4F_ASSET_READINESS_PREPARATION.md. Full M4/product, builder/evaluation software, nondebuggable release/physical metrics, documentation and three archives remain. Owner authors final knowledge content. Synthetic assertions are not genuine licensing/review/calibration/gold; structural citation checks are not semantic entailment; functional timings are not benchmarks. No phone test is running.
+
+Final E3 gate and exact checkpoint follow successful check-only; original commands/sources/APK identities/failed attempts/custody are recorded under artifacts/v1.3/m4/diagnostics-gate-0001. F preparation is dependency planning only until E3 checkpoint verification.
+
+
+Actual E3 restoration/recovery detail, 2026-10-10T22:02:44.758391+00:00: full0052 development37 and full0053 compiled-policy30 completed successfully, with all37/30 original JSONs saved before each APK switch. The previously discovered old0014 output-directory collision then actually raised FileExistsError/WinError183 in v13_test_android.py at mkdir(exist_ok=False), before record construction or any ADB action. The loaded driver retained its original argv; it was allowed to finish the running full suites without interruption. full-background-execution.json remains FAIL with its successful firstfour commands and failed fifth command; stage4 stderr remains original. No historical0014 file was replaced, renamed or promoted. recover_restoration.py rechecked their five public hashes and every574 current Android input, required both full-suite PASS manifests/all67 originals, then executed fresh0052 consent0015 and its original collector. The new restoration passes one method/four controls in4.014 JUnit seconds. full-background-recovered-execution.json binds the prior failure and the actual new commands; it does not relabel the failed driver or imply a full-suite rerun. Latest verify_full_parity_restoration_final.py and verify_and_record_final.py --check-only both actually pass, with tool outputs/durations recorded in final-check-tool-execution.json. The document-update helper repeated check-only before recording acceptance. The policy progress observer also refused a single current PID immediately after the suite ended; its underlying PID stdout/return were not retained, so absence versus multiple PIDs is not inferred. No progress JSON was created by that refusal. This observation is separate from the terminal30-method PASS and originals. E3 closure/checkpoint follow; no phone test is currently running. This closes diagnostics/execution/lifecycle/UI acceptance only, not M4F, final content, factual gold accuracy or release performance.
+
+
+M4F1 IMPLEMENTING at 2026-10-10T22:10:32.381828+00:00 after verified E3/ac98b4f. Preimplementation guard verifies574 Android/188 runtime inputs and every prior E3 public output; before-sources and independent acceptance are saved in asset-readiness-gate-0001/M4F1_ASSET_CONTRACT.md. First integrate read-only pinned four-file readiness, actionable query errors and the real asset-check screen; relevant host/contracts/actual background walking and UI/visual must pass before F2 URI staging/import. F3 normative presentation/F4 final M4/software builder/evaluation/release/physical metrics/documentation/three archives remain. Owner supplies final knowledge content. No phone test is running; mobile data stays on.
+Fixed four existing paths/pins; no alternate model/profile/trust store or network downloader. Pure readiness precedes URI import; URI failures belong to F2. Existing constructors retain independent hash checks. No architecture change or final-pack authorship is introduced.
+
+## Owner-requested pause 2026-10-10T22:24:49.164257+00:00
+
+OWNER PAUSED at 2026-10-10T22:24:49.164257+00:00. All tracked current builds/tests have completed; none were killed. No new phone test will start until the owner explicitly resumes with the phone available. The phone can be disconnected. M4E3 is verified and committed at ac98b4fa6b9fd89b9f0f53023cb1f6115408567f. Current work is M4F1 local asset readiness: build-0054 completed successfully, 62 host methods passed with zero failures/errors/skips, and all 577 public Android build inputs still match the tested snapshot. Six F1 source changes and their tested bytes are retained in asset-readiness-gate-0001/first-host-sources. Build-0054 has not been installed; F1 phone/native/UI validation has not started. F1 is unfinished and uncommitted, not an accepted milestone. Next on resume: verify this pause snapshot, review failed-query asset-status presentation, then add/run F1 physical readiness/native/UI and adjacent regressions before F2. F2 import, F3 presentation, F4 full M4 audit, builder/evaluation software, final Android release/physical measurements and documentation/three archives remain. Final knowledge content remains owner supplied; permitted test packs may be used. Mobile data remains on. Historical evidence and the earlier default-registry byte-change exception remain unchanged. Functional timings are not performance benchmarks, and host success does not establish phone acceptance.
+
+No build/test/device command was launched for this pause. A read-only process inventory via Get-CimInstance was denied by the sandbox; it does not prove process absence. Completion is established by the tracked terminal sessions and saved terminal result manifests. No process was terminated. The pending failed-query asset-status display review is a code-review concern, not an observed failing test.

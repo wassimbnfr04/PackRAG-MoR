@@ -1,0 +1,13 @@
+{
+  "status": "NOT_PROMOTED_AFFECTED_FULL_GUIDE_FALSE_ABSTENTION",
+  "experiment": "repair-evidence-quotation-pilot-0001",
+  "results": {
+    "FAN_FULL_GUIDE": "INSUFFICIENT_EVIDENCE",
+    "FAN_PARAPHRASE": "ANSWER_ACCEPTED",
+    "TUBE_FULL_GUIDE": "ANSWER_ACCEPTED",
+    "FAN_UNDOCUMENTED_TORQUE": "INSUFFICIENT_EVIDENCE",
+    "TUBE_UNDOCUMENTED_PRESSURE": "INSUFFICIENT_EVIDENCE"
+  },
+  "review": "Accepted fan paraphrase and full tube are complete literal original procedure paragraphs with actualS1 emission; torque/pressure correctly abstain. Full fan falsely abstained when only original source-start tokens or INSUFFICIENT were allowed. Numbered-quotation pilot rechecks that failure and both negatives; no source/gold change.",
+  "limits": "Only recorded complete single-paragraph procedures are covered. Selection/relevance/sufficiency still require manual review and full frozen security regression. No code is promoted into Android/Python runtime."
+}

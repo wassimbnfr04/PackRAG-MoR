@@ -1,0 +1,1 @@
+The baseline probe failed Java compilation before any normalization comparison: Java processes Unicode escapes before string lexing, and control-character range escapes broke the source string. This is an audit harness failure, not a product normalization result. The original source/input/error are preserved; corrected probe uses doubled backslashes in query-audit0002.

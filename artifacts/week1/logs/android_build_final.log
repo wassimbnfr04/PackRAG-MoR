@@ -1,0 +1,95 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :week1-spike:preBuild UP-TO-DATE
+> Task :week1-spike:preDebugBuild UP-TO-DATE
+> Task :week1-spike:generateDebugResources UP-TO-DATE
+> Task :week1-spike:packageDebugResources UP-TO-DATE
+> Task :week1-spike:processDebugNavigationResources UP-TO-DATE
+> Task :week1-spike:parseDebugLocalResources UP-TO-DATE
+> Task :week1-spike:generateDebugRFile UP-TO-DATE
+> Task :week1-spike:javaPreCompileDebug UP-TO-DATE
+> Task :week1-spike:checkDebugAarMetadata UP-TO-DATE
+> Task :week1-spike:mapDebugSourceSetPaths UP-TO-DATE
+> Task :week1-spike:compileDebugNavigationResources UP-TO-DATE
+> Task :week1-spike:mergeDebugResources UP-TO-DATE
+> Task :week1-spike:createDebugCompatibleScreenManifests
+> Task :week1-spike:extractDeepLinksDebug
+> Task :week1-spike:processDebugMainManifest
+> Task :week1-spike:processDebugManifest
+> Task :week1-spike:preDebugUnitTestBuild UP-TO-DATE
+> Task :week1-spike:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :week1-spike:generateDebugAssets UP-TO-DATE
+> Task :week1-spike:javaPreCompileDebugUnitTest
+> Task :week1-spike:mergeDebugAssets
+> Task :week1-spike:compressDebugAssets
+> Task :week1-spike:generateDebugGlobalSynthetics
+> Task :week1-spike:desugarDebugFileDependencies
+> Task :week1-spike:checkDebugDuplicateClasses
+> Task :week1-spike:mergeDebugJniLibFolders
+> Task :week1-spike:compileDebugKotlin
+> Task :week1-spike:compileDebugJavaWithJavac NO-SOURCE
+> Task :week1-spike:processDebugJavaRes
+> Task :week1-spike:mergeLibDexDebug
+> Task :week1-spike:mergeDebugNativeLibs
+> Task :week1-spike:mergeDebugJavaResource
+> Task :week1-spike:mergeExtDexDebug
+> Task :week1-spike:validateSigningDebug
+> Task :week1-spike:writeDebugAppMetadata
+> Task :week1-spike:writeDebugSigningConfigVersions
+> Task :week1-spike:preDebugAndroidTestBuild SKIPPED
+> Task :week1-spike:generateDebugAndroidTestResources
+
+> Task :week1-spike:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libsqliteJni.so. Run with --info option to learn more.
+
+> Task :week1-spike:packageDebugAndroidTestResources
+> Task :week1-spike:processDebugAndroidTestNavigationResources
+> Task :week1-spike:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :week1-spike:javaPreCompileDebugAndroidTest
+> Task :week1-spike:parseDebugAndroidTestLocalResources
+> Task :week1-spike:mergeDebugAndroidTestAssets
+> Task :week1-spike:compressDebugAndroidTestAssets
+> Task :week1-spike:generateDebugAndroidTestRFile
+> Task :week1-spike:generateDebugAndroidTestGlobalSynthetics
+> Task :week1-spike:processDebugManifestForPackage
+> Task :week1-spike:checkDebugAndroidTestDuplicateClasses
+> Task :week1-spike:desugarDebugAndroidTestFileDependencies
+> Task :week1-spike:mergeLibDexDebugAndroidTest
+> Task :week1-spike:checkDebugAndroidTestAarMetadata
+> Task :week1-spike:mapDebugAndroidTestSourceSetPaths
+> Task :week1-spike:compileDebugAndroidTestNavigationResources
+> Task :week1-spike:mergeExtDexDebugAndroidTest
+> Task :week1-spike:mergeDebugAndroidTestManifest
+> Task :week1-spike:processDebugAndroidTestManifest
+> Task :week1-spike:mergeDebugAndroidTestJniLibFolders
+> Task :week1-spike:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :week1-spike:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :week1-spike:validateSigningDebugAndroidTest
+> Task :week1-spike:writeDebugAndroidTestSigningConfigVersions
+> Task :week1-spike:mergeDebugAndroidTestResources
+> Task :week1-spike:processDebugResources
+> Task :week1-spike:bundleDebugClassesToRuntimeJar
+> Task :week1-spike:bundleDebugClassesToCompileJar
+> Task :week1-spike:processDebugAndroidTestResources
+> Task :week1-spike:dexBuilderDebug
+> Task :week1-spike:mergeProjectDexDebug
+> Task :week1-spike:compileDebugUnitTestKotlin
+> Task :week1-spike:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :week1-spike:processDebugUnitTestJavaRes
+> Task :week1-spike:compileDebugAndroidTestKotlin
+> Task :week1-spike:testDebugUnitTest
+> Task :week1-spike:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :week1-spike:processDebugAndroidTestJavaRes
+> Task :week1-spike:dexBuilderDebugAndroidTest
+> Task :week1-spike:mergeProjectDexDebugAndroidTest
+> Task :week1-spike:packageDebug
+> Task :week1-spike:createDebugApkListingFileRedirect
+> Task :week1-spike:assembleDebug
+> Task :week1-spike:mergeDebugAndroidTestJavaResource
+> Task :week1-spike:packageDebugAndroidTest
+> Task :week1-spike:createDebugAndroidTestApkListingFileRedirect
+> Task :week1-spike:assembleDebugAndroidTest
+
+BUILD SUCCESSFUL in 1m 18s
+72 actionable tasks: 62 executed, 10 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.6.0/userguide/configuration_cache_enabling.html

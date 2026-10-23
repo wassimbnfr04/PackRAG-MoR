@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-10T16:44:23.192570+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-demo.apk": "04cf0bf27ec0cb4ae60b1074931369a2ea3968ae741fd4bfefa3efd017befe27",
+    "app-demo-androidTest.apk": "75be013c0b3858c103dc14f857a660c4fedf2ed88e57390b8ea62d7a8d54ed2e"
+  },
+  "saved_sha256": {
+    "m4-source-details-rows.json": "7cce29a76c5b6bb89e7af22d0c7375fd89c7ce8698d8238c1d40a9000c5af7b7",
+    "m4-source-details-rejections.json": "499c0ca5fbfe7930631b04ca78c6e946a6cf38ec8ab6b02027754c092d1faa70",
+    "m4-source-details-policy.json": "b9827859f6063d4d1efb9ffacaeff1c3b67085d492b778cdd92de31edc8d61ca"
+  },
+  "formatted_primary_parsed_equal": [
+    "m4-source-details-rows.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-rows.json"
+      ],
+      "started_at": "2026-10-10T16:44:22.697479+00:00",
+      "ended_at": "2026-10-10T16:44:22.871398+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-rejections.json"
+      ],
+      "started_at": "2026-10-10T16:44:22.871398+00:00",
+      "ended_at": "2026-10-10T16:44:23.031469+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-policy.json"
+      ],
+      "started_at": "2026-10-10T16:44:23.031469+00:00",
+      "ended_at": "2026-10-10T16:44:23.187570+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

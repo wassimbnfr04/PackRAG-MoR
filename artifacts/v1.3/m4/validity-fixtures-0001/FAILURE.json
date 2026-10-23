@@ -1,0 +1,5 @@
+{
+  "status": "FAIL_SANDBOX_TEMP_PERMISSION_NO_ACCEPTANCE",
+  "reason": "Windows sandbox denied opening transport.kpack in tempfile-created private directory; cleanup denied as well. Fixture generation reached signed archive but never validated it or saved parity cases/Android corpus.",
+  "retry": "Fresh versioned run with approved execution; existing fixed shared contract files may be reused only when byte-identical. No runtime rule was relaxed."
+}

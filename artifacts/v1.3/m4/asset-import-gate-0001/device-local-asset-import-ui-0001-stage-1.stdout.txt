@@ -1,0 +1,69 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetImportUiDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.LocalAssetImportUiDeviceTest:
+INSTRUMENTATION_STATUS: test=actualSystemPickerCancelCorruptProgressCancelRecreationAndVerifiedImportKeepResult
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetImportUiDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Failed to assert the following: (Text + InputText + EditableText contains 'rejected' (ignoreCase: false))
+Semantics of the node:
+Node #130 at (l=68.0, t=233.0, r=1012.0, b=437.0)px, Tag: 'local-assets-message'
+Text = '[LOCAL_ASSET_IMPORT_HASH_MISMATCH: Asset import rejected before installation. Previous file retained.]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 33 siblings
+Selector used: (TestTag = 'local-assets-message')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:237)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:233)
+	at org.packrag.product.LocalAssetImportUiDeviceTest.actualSystemPickerCancelCorruptProgressCancelRecreationAndVerifiedImportKeepResult(LocalAssetImportUiDeviceTest.kt:113)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualSystemPickerCancelCorruptProgressCancelRecreationAndVerifiedImportKeepResult(org.packrag.product.LocalAssetImportUiDeviceTest):
+java.lang.AssertionError: Failed to assert the following: (Text + InputText + EditableText contains 'rejected' (ignoreCase: false))
+Semantics of the node:
+Node #130 at (l=68.0, t=233.0, r=1012.0, b=437.0)px, Tag: 'local-assets-message'
+Text = '[LOCAL_ASSET_IMPORT_HASH_MISMATCH: Asset import rejected before installation. Previous file retained.]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 33 siblings
+Selector used: (TestTag = 'local-assets-message')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:237)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:233)
+	at org.packrag.product.LocalAssetImportUiDeviceTest.actualSystemPickerCancelCorruptProgressCancelRecreationAndVerifiedImportKeepResult(LocalAssetImportUiDeviceTest.kt:113)
+
+INSTRUMENTATION_STATUS: test=actualSystemPickerCancelCorruptProgressCancelRecreationAndVerifiedImportKeepResult
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 149,932
+There was 1 failure:
+1) actualSystemPickerCancelCorruptProgressCancelRecreationAndVerifiedImportKeepResult(org.packrag.product.LocalAssetImportUiDeviceTest)
+java.lang.AssertionError: Failed to assert the following: (Text + InputText + EditableText contains 'rejected' (ignoreCase: false))
+Semantics of the node:
+Node #130 at (l=68.0, t=233.0, r=1012.0, b=437.0)px, Tag: 'local-assets-message'
+Text = '[LOCAL_ASSET_IMPORT_HASH_MISMATCH: Asset import rejected before installation. Previous file retained.]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 33 siblings
+Selector used: (TestTag = 'local-assets-message')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:237)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:233)
+	at org.packrag.product.LocalAssetImportUiDeviceTest.actualSystemPickerCancelCorruptProgressCancelRecreationAndVerifiedImportKeepResult(LocalAssetImportUiDeviceTest.kt:113)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
+

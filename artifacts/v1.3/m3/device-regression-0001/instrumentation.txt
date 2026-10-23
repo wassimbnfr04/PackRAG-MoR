@@ -1,0 +1,38 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.StrictManifestDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.StrictManifestDeviceTest:
+INSTRUMENTATION_STATUS: test=signedHostileManifestCorpusAndUntouchedValidPack
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.StrictManifestDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=signedHostileManifestCorpusAndUntouchedValidPack
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.PackRetrievalParityTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.PackRetrievalParityTest:
+INSTRUMENTATION_STATUS: test=authenticatedActivationRestartAndDesktopRetrievalParity
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.PackRetrievalParityTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=authenticatedActivationRestartAndDesktopRetrievalParity
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 12,686
+
+OK (2 tests)
+
+
+INSTRUMENTATION_CODE: -1

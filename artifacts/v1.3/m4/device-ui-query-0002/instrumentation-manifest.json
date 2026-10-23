@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-10-10T14:45:32.544393+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.QueryControlsUiTest,org.packrag.product.PackManagementUiTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [],
+  "status": "FAIL"
+}

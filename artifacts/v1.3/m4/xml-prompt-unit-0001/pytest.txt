@@ -1,0 +1,3 @@
+......................................................                   [100%]
+- generated xml file: C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\xml-prompt-unit-0001\combined-junit.xml -
+54 passed in 2.20s

@@ -1,0 +1,7 @@
+{
+  "status": "PREPARED_RESUME_REQUIRES_STRICT_WALKING_RETRY_PASS_NOT_EXECUTED",
+  "created_utc": "2026-10-11T21:20:31.857664+00:00",
+  "original_sha256": "3eb6a6c78419185e43f1c01b46f7722093de4c89747fa2d584cf12d196cdc4dc",
+  "prepared_sha256": "0ba66dc62cd67a138964fd837aae57457abaed2cd9f226c41afcd1432289bd18",
+  "scope": "Immutable failed parent plus accepted fault originals and actual identical-build walking retry are verified before any remaining test. No restart/all-slot/ViewModel test starts while walking is active or failed. Remaining3methods19controls merge current-source evidence into7/54 only if all deep checks pass. Earlier callback cause remains unproved."
+}

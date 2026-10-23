@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.sources.SourcePresentationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-12T01:41:12.430Z" hostname="RAZER" time="0.085">
+  <properties/>
+  <testcase name="packDetailsCopyTheirCollectionsAndKeepOrphanSources" classname="org.packrag.sources.SourcePresentationTest" time="0.042"/>
+  <testcase name="exactSignedAssertionsRemainDistinctFromUnknownValues" classname="org.packrag.sources.SourcePresentationTest" time="0.008"/>
+  <testcase name="inheritedUnknownAndExclusiveIntersectionAreNotConfused" classname="org.packrag.sources.SourcePresentationTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

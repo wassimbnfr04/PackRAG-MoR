@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <service android:name=".AssetImportCrashProbeService" android:exported="false"
+            android:process=":asset_import_crash_probe" />
+        <service android:name=".RegistryCrashProbeService" android:exported="false"
+            android:process=":registry_crash_probe" />
+    </application>
+</manifest>

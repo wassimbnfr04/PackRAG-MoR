@@ -1,0 +1,133 @@
+{
+  "status": "FAIL_NO_WORKFLOW_ACCEPTANCE",
+  "started_utc": "2026-10-12T19:48:22.997745+00:00",
+  "serial": "emulator-5580",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "settings",
+        "get",
+        "system",
+        "font_scale"
+      ],
+      "returncode": 0,
+      "stdout": "1.0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0111\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0111\\app-debug.apk: 1 file pushed, 0 skipped. 122.8 MB/s (74844706 bytes in 0.581s)\r\n"
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0111\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0111\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 109.9 MB/s (11753731 bytes in 0.102s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.ChatWorkflowUiTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0,
+      "stdout": "INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=2\r\nINSTRUMENTATION_STATUS: stream=\r\norg.packrag.product.ChatWorkflowUiTest:\r\nINSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker\r\nINSTRUMENTATION_STATUS_CODE: 1\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=2\r\nINSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Semantic Node has no parent layout with a Scroll SemanticsAction\r\n\tat androidx.compose.ui.test.ActionsKt.scrollToNode(Actions.kt:98)\r\n\tat androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:83)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1$click(ChatWorkflowUiTest.kt:45)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:52)\r\n\tat org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)\r\n\r\nINSTRUMENTATION_STATUS: stream=\r\nError in largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest):\r\njava.lang.AssertionError: Semantic Node has no parent layout with a Scroll SemanticsAction\r\n\tat androidx.compose.ui.test.ActionsKt.scrollToNode(Actions.kt:98)\r\n\tat androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:83)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1$click(ChatWorkflowUiTest.kt:45)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:52)\r\n\tat org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)\r\n\r\nINSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker\r\nINSTRUMENTATION_STATUS_CODE: -2\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest\r\nINSTRUMENTATION_STATUS: current=2\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=2\r\nINSTRUMENTATION_STATUS: stream=\r\nINSTRUMENTATION_STATUS: test=actualPickerCancellationSignedImportAndSafeRejectionExposeObservedStages\r\nINSTRUMENTATION_STATUS_CODE: 1\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest\r\nINSTRUMENTATION_STATUS: current=2\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=2\r\nINSTRUMENTATION_STATUS: stream=.\r\nINSTRUMENTATION_STATUS: test=actualPickerCancellationSignedImportAndSafeRejectionExposeObservedStages\r\nINSTRUMENTATION_STATUS_CODE: 0\r\nINSTRUMENTATION_RESULT: stream=\r\n\r\nTime: 47.135\r\nThere was 1 failure:\r\n1) largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest)\r\njava.lang.AssertionError: Semantic Node has no parent layout with a Scroll SemanticsAction\r\n\tat androidx.compose.ui.test.ActionsKt.scrollToNode(Actions.kt:98)\r\n\tat androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:83)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1$click(ChatWorkflowUiTest.kt:45)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:52)\r\n\tat org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)\r\n\tat org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)\r\n\r\nFAILURES!!!\r\nTests run: 2,  Failures: 1\r\n\r\n\r\nINSTRUMENTATION_CODE: -1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-workflow-picker.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-f3-kpack-stages.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-f3-kpack-activation.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-f3-kpack-rejection.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-workflow-controls.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a",
+    "app-debug-androidTest.apk": "af9eee6fbe24624df174ef2f9153948ee4e2a8d5d87b999e9600e4baeaafb237"
+  },
+  "error_type": "JSONDecodeError",
+  "updated_utc": "2026-10-12T19:49:17.618159+00:00"
+}

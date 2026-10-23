@@ -1,0 +1,2234 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "atomic-last",
+      "status": "PASS",
+      "state": "OUTPUT_REJECTED",
+      "expected_state": "OUTPUT_REJECTED",
+      "answer": null,
+      "generate_calls": 1,
+      "selected": [
+        "de4007485c3423ff37bcb693",
+        "191a8da23f0fd6086da0f31f",
+        "4363e8b9e2be6e5e2dfe71a7",
+        "2e2153a45f4da98b6cf1ab76"
+      ],
+      "evidence": [
+        {
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "chunk": {
+            "chunk_id": "de4007485c3423ff37bcb693",
+            "source_id": "manual",
+            "canonical_text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+            "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+            "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+            "title": "SYNTHETIC TEST MANUAL",
+            "source_title": "SYNTHETIC TEST MANUAL",
+            "section": "row00",
+            "locator": "row00",
+            "dense_row": 0,
+            "jurisdiction": "MA",
+            "source_from": null,
+            "source_until": null,
+            "effective_from": null,
+            "effective_until": null,
+            "legal_status": "active",
+            "publisher": "SYNTHETIC PackRAG contract fixture",
+            "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+            "language": "en",
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null
+          },
+          "source_metadata": {
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null,
+            "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+            "relations": [
+              {
+                "from_chunk_id": "de4007485c3423ff37bcb693",
+                "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                "relation_type": "exception_to",
+                "provenance": "explicit-reference",
+                "confidence": 1
+              }
+            ]
+          },
+          "rendering": {
+            "text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+            "language": "en",
+            "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+            "derivation_method": "canonical",
+            "derivation_source": null,
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "en",
+            "canonical_text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+          },
+          "fused_rank": 1,
+          "exact": true,
+          "relevant": true,
+          "sparse_rank": 1,
+          "dense_rank": 1,
+          "cosine": 0.8610915251851182,
+          "rrf": 0.03278688524590164,
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "de4007485c3423ff37bcb693",
+                "source_id": "manual",
+                "canonical_text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+                "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row00",
+                "locator": "row00",
+                "dense_row": 0,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": [
+                  {
+                    "from_chunk_id": "de4007485c3423ff37bcb693",
+                    "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                    "relation_type": "exception_to",
+                    "provenance": "explicit-reference",
+                    "confidence": 1
+                  }
+                ]
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 1,
+              "dense_rank": 1,
+              "cosine": 0.8610915251851182,
+              "rrf": 0.03278688524590164,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": [
+                {
+                  "members": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "state": "RESOLVED_RELATION",
+                  "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                  "resolved": true,
+                  "retained": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "required": [
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                    ],
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                    ]
+                  ],
+                  "reason": "RETAIN_BASE_AND_COMPANIONS"
+                }
+              ]
+            }
+          ],
+          "conflicts": [
+            {
+              "members": [
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+              ],
+              "state": "RESOLVED_RELATION",
+              "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "resolved": true,
+              "retained": [
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+              ],
+              "required": [
+                [
+                  "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                  "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                ],
+                [
+                  "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                  "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                ]
+              ],
+              "reason": "RETAIN_BASE_AND_COMPANIONS"
+            }
+          ]
+        },
+        {
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "chunk": {
+            "chunk_id": "191a8da23f0fd6086da0f31f",
+            "source_id": "manual",
+            "canonical_text": "The protective enclosure must remain securely closed.",
+            "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+            "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+            "title": "SYNTHETIC TEST MANUAL",
+            "source_title": "SYNTHETIC TEST MANUAL",
+            "section": "row02",
+            "locator": "row02",
+            "dense_row": 2,
+            "jurisdiction": "MA",
+            "source_from": null,
+            "source_until": null,
+            "effective_from": null,
+            "effective_until": null,
+            "legal_status": "active",
+            "publisher": "SYNTHETIC PackRAG contract fixture",
+            "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+            "language": "en",
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null
+          },
+          "source_metadata": {
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null,
+            "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+            "relations": []
+          },
+          "rendering": {
+            "text": "The protective enclosure must remain securely closed.",
+            "language": "en",
+            "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+            "derivation_method": "canonical",
+            "derivation_source": null,
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "en",
+            "canonical_text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c"
+          },
+          "fused_rank": 2,
+          "exact": true,
+          "relevant": true,
+          "sparse_rank": 3,
+          "dense_rank": 2,
+          "cosine": 0.8175282068078649,
+          "rrf": 0.03200204813108039,
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "191a8da23f0fd6086da0f31f",
+                "source_id": "manual",
+                "canonical_text": "The protective enclosure must remain securely closed.",
+                "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row02",
+                "locator": "row02",
+                "dense_row": 2,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": []
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 3,
+              "dense_rank": 2,
+              "cosine": 0.8175282068078649,
+              "rrf": 0.03200204813108039,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": []
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "chunk": {
+            "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+            "source_id": "manual",
+            "canonical_text": "A technician must inspect the red cable for physical damage.",
+            "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+            "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+            "title": "SYNTHETIC TEST MANUAL",
+            "source_title": "SYNTHETIC TEST MANUAL",
+            "section": "row01",
+            "locator": "row01",
+            "dense_row": 1,
+            "jurisdiction": "MA",
+            "source_from": null,
+            "source_until": null,
+            "effective_from": null,
+            "effective_until": null,
+            "legal_status": "active",
+            "publisher": "SYNTHETIC PackRAG contract fixture",
+            "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+            "language": "en",
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null
+          },
+          "source_metadata": {
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null,
+            "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+            "relations": []
+          },
+          "rendering": {
+            "text": "A technician must inspect the red cable for physical damage.",
+            "language": "en",
+            "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+            "derivation_method": "canonical",
+            "derivation_source": null,
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "en",
+            "canonical_text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f"
+          },
+          "fused_rank": 3,
+          "exact": true,
+          "relevant": true,
+          "sparse_rank": 2,
+          "dense_rank": 3,
+          "cosine": 0.80496448854574,
+          "rrf": 0.03200204813108039,
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+                "source_id": "manual",
+                "canonical_text": "A technician must inspect the red cable for physical damage.",
+                "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row01",
+                "locator": "row01",
+                "dense_row": 1,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": []
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 2,
+              "dense_rank": 3,
+              "cosine": 0.80496448854574,
+              "rrf": 0.03200204813108039,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": []
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "chunk": {
+            "chunk_id": "2e2153a45f4da98b6cf1ab76",
+            "source_id": "manual",
+            "canonical_text": "A technician must disconnect the unit from its power supply prior to service.",
+            "text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+            "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+            "title": "SYNTHETIC TEST MANUAL",
+            "source_title": "SYNTHETIC TEST MANUAL",
+            "section": "row04",
+            "locator": "row04",
+            "dense_row": 4,
+            "jurisdiction": "MA",
+            "source_from": null,
+            "source_until": null,
+            "effective_from": null,
+            "effective_until": null,
+            "legal_status": "active",
+            "publisher": "SYNTHETIC PackRAG contract fixture",
+            "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+            "language": "en",
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null
+          },
+          "source_metadata": {
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null,
+            "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+            "relations": [
+              {
+                "from_chunk_id": "de4007485c3423ff37bcb693",
+                "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                "relation_type": "exception_to",
+                "provenance": "explicit-reference",
+                "confidence": 1
+              }
+            ]
+          },
+          "rendering": {
+            "text": "A technician must disconnect the unit from its power supply prior to service.",
+            "language": "en",
+            "text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+            "derivation_method": "canonical",
+            "derivation_source": null,
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "en",
+            "canonical_text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+          },
+          "fused_rank": 5,
+          "exact": true,
+          "relevant": true,
+          "sparse_rank": 5,
+          "dense_rank": 5,
+          "cosine": 0.7739471254421321,
+          "rrf": 0.03076923076923077,
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "2e2153a45f4da98b6cf1ab76",
+                "source_id": "manual",
+                "canonical_text": "A technician must disconnect the unit from its power supply prior to service.",
+                "text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row04",
+                "locator": "row04",
+                "dense_row": 4,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": [
+                  {
+                    "from_chunk_id": "de4007485c3423ff37bcb693",
+                    "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                    "relation_type": "exception_to",
+                    "provenance": "explicit-reference",
+                    "confidence": 1
+                  }
+                ]
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 5,
+              "dense_rank": 5,
+              "cosine": 0.7739471254421321,
+              "rrf": 0.03076923076923077,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": [
+                {
+                  "members": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "state": "RESOLVED_RELATION",
+                  "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                  "resolved": true,
+                  "retained": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "required": [
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                    ],
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                    ]
+                  ],
+                  "reason": "RETAIN_BASE_AND_COMPANIONS"
+                }
+              ]
+            }
+          ],
+          "conflicts": [
+            {
+              "members": [
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+              ],
+              "state": "RESOLVED_RELATION",
+              "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "resolved": true,
+              "retained": [
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+              ],
+              "required": [
+                [
+                  "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                  "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                ],
+                [
+                  "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                  "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                ]
+              ],
+              "reason": "RETAIN_BASE_AND_COMPANIONS"
+            }
+          ]
+        }
+      ],
+      "selection": {
+        "admission": "READY",
+        "keys": [
+          "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+          "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+          "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#4363e8b9e2be6e5e2dfe71a7",
+          "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+        ],
+        "sources": [
+          "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e"
+        ],
+        "decisions": [
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+            "reason": "SELECTED",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 128,
+            "prefill_tokens": 299
+          },
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+            "reason": "SELECTED",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 183,
+            "prefill_tokens": 354
+          },
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#4363e8b9e2be6e5e2dfe71a7",
+            "reason": "SELECTED",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#4363e8b9e2be6e5e2dfe71a7",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 241,
+            "prefill_tokens": 412
+          },
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#6df516db7affc2913b8d3a29",
+            "reason": "CHUNK_CAP",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#4363e8b9e2be6e5e2dfe71a7",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#6df516db7affc2913b8d3a29",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76",
+            "reason": "REQUIRED_COMPANION",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 128,
+            "prefill_tokens": 299
+          }
+        ]
+      },
+      "sources": [],
+      "prefill_tokens": 412,
+      "evidence_tokens": 241,
+      "emitted_tokens_including_terminal": 348,
+      "runtime_call_ms_excluding_encoder_generator_construction": 316439.537852,
+      "scope": "POST_OBSERVATION_REJECTION_REGRESSION_ORIGINAL_ACCEPTANCE_FAILED"
+    },
+    {
+      "id": "five-mandatory",
+      "status": "PASS",
+      "state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+      "expected_state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+      "answer": null,
+      "generate_calls": 0,
+      "selected": [],
+      "evidence": [],
+      "selection": {
+        "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+        "keys": [],
+        "sources": [],
+        "decisions": [
+          {
+            "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#de4007485c3423ff37bcb693",
+            "reason": "MANDATORY_CHUNK_CAP",
+            "trial": [
+              "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#de4007485c3423ff37bcb693",
+              "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#191a8da23f0fd6086da0f31f",
+              "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#4363e8b9e2be6e5e2dfe71a7",
+              "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#6df516db7affc2913b8d3a29",
+              "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#191a8da23f0fd6086da0f31f",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#4363e8b9e2be6e5e2dfe71a7",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#6df516db7affc2913b8d3a29",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#2e2153a45f4da98b6cf1ab76",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          }
+        ]
+      },
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "runtime_call_ms_excluding_encoder_generator_construction": 573.586329,
+      "scope": "PRE_GENERATION_PROTOCOL_CONTROL"
+    },
+    {
+      "id": "missing-global",
+      "status": "PASS",
+      "state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+      "expected_state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+      "answer": null,
+      "generate_calls": 0,
+      "selected": [],
+      "evidence": [],
+      "selection": {
+        "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+        "keys": [],
+        "sources": [],
+        "decisions": [
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#de4007485c3423ff37bcb693",
+            "reason": "MISSING_REQUIRED_MEMBER",
+            "trial": [
+              "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#de4007485c3423ff37bcb693"
+            ],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#191a8da23f0fd6086da0f31f",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#4363e8b9e2be6e5e2dfe71a7",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#6df516db7affc2913b8d3a29",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#51b59fd4cd0f931b36730aae",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#374c942e358b67e8e7bb4467",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#2e2153a45f4da98b6cf1ab76",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#204e821867cf369cfaa62cf9",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#bd21fa531ceb74435dde432a",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#8f8b8a0bdb1b991549670135",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#6933c46049d2b832185b0487",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#002cd5a968ff1d3d8483a417",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#a7f0cb785e004032115a5403",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#21f7283a7d77b8049089dc68",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#29dfc686c111098af478feaf",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#554739f4bb26cdbe6d8285c9",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#a8127588059135830617b79d",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#d7f383f6888351baaec259a8",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#b5ce2e8cea6b9e6ff73807e2",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#097deeeff90b7d9c05deb503",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#761b3e6b4a61b6dea2cfcff8",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#246f48670c7042e792f61d97",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#e4cf42e399e12e597ebc3551",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#c46ab7d5d296469148476cff",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#d81327f9d66b01315df06f36",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#185b6e570be8cc5d13975794",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#c18a696ca88a221cc0d16469",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#7fcfb216adfcffd48326b9d0",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#b8ed80d005613dd1839bfc47",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#e706f55add2981f64e4ee002",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#27577e0953b613f255282c72",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#f98de5d150002efcfdc2db12",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          }
+        ]
+      },
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "runtime_call_ms_excluding_encoder_generator_construction": 116.578555,
+      "scope": "PRE_GENERATION_PROTOCOL_CONTROL"
+    },
+    {
+      "id": "mandatory-oversize",
+      "status": "PASS",
+      "state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+      "expected_state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+      "answer": null,
+      "generate_calls": 0,
+      "selected": [],
+      "evidence": [],
+      "selection": {
+        "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+        "keys": [],
+        "sources": [],
+        "decisions": [
+          {
+            "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+            "reason": "MANDATORY_TOKEN_CAP",
+            "trial": [
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+              "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 2134,
+            "prefill_tokens": 2307
+          },
+          {
+            "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#191a8da23f0fd6086da0f31f",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#4363e8b9e2be6e5e2dfe71a7",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#6df516db7affc2913b8d3a29",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76",
+            "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+            "trial": [],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          }
+        ]
+      },
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "runtime_call_ms_excluding_encoder_generator_construction": 148.526093,
+      "scope": "PRE_GENERATION_PROTOCOL_CONTROL"
+    },
+    {
+      "id": "optional-oversize",
+      "status": "PASS",
+      "state": "NO_RELEVANT_EVIDENCE",
+      "expected_state": "NO_RELEVANT_EVIDENCE",
+      "answer": null,
+      "generate_calls": 0,
+      "selected": [],
+      "evidence": [],
+      "selection": {
+        "admission": "NO_RELEVANT_EVIDENCE",
+        "keys": [],
+        "sources": [],
+        "decisions": [
+          {
+            "key": "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#78e38b4f176be01967256951",
+            "reason": "TOKEN_CAP",
+            "trial": [
+              "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#78e38b4f176be01967256951"
+            ],
+            "representative": null,
+            "evidence_tokens": 2061,
+            "prefill_tokens": 2233
+          },
+          {
+            "key": "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#3cd3e857ee701fd360163b22",
+            "reason": "SELECTED",
+            "trial": [
+              "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#3cd3e857ee701fd360163b22"
+            ],
+            "representative": null,
+            "evidence_tokens": 56,
+            "prefill_tokens": 228
+          }
+        ]
+      },
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "runtime_call_ms_excluding_encoder_generator_construction": 97.911953,
+      "scope": "PRE_GENERATION_PROTOCOL_CONTROL"
+    },
+    {
+      "id": "all-oversize",
+      "status": "PASS",
+      "state": "INPUT_TOO_LONG",
+      "expected_state": "INPUT_TOO_LONG",
+      "answer": null,
+      "generate_calls": 0,
+      "selected": [],
+      "evidence": [],
+      "selection": {
+        "admission": "INPUT_TOO_LONG",
+        "keys": [],
+        "sources": [],
+        "decisions": [
+          {
+            "key": "org.packrag.contract.all-oversize@1.0.0:4119197bff57a4c9e1246b48652c140b61e9cf8a20b5ab173038664eb6d4edb3#36fde3100f8d83fa33999f50",
+            "reason": "TOKEN_CAP",
+            "trial": [
+              "org.packrag.contract.all-oversize@1.0.0:4119197bff57a4c9e1246b48652c140b61e9cf8a20b5ab173038664eb6d4edb3#36fde3100f8d83fa33999f50"
+            ],
+            "representative": null,
+            "evidence_tokens": 2060,
+            "prefill_tokens": 2231
+          }
+        ]
+      },
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "runtime_call_ms_excluding_encoder_generator_construction": 78.467656,
+      "scope": "PRE_GENERATION_PROTOCOL_CONTROL"
+    },
+    {
+      "id": "boundary1201",
+      "status": "PASS",
+      "state": "INPUT_TOO_LONG",
+      "expected_state": "INPUT_TOO_LONG",
+      "answer": null,
+      "generate_calls": 0,
+      "selected": [],
+      "evidence": [],
+      "selection": {
+        "admission": "INPUT_TOO_LONG",
+        "keys": [],
+        "sources": [],
+        "decisions": [
+          {
+            "key": "org.packrag.contract.boundary1201@1.0.0:02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3#ab09bd7b287237a1efdcc0df",
+            "reason": "TOKEN_CAP",
+            "trial": [
+              "org.packrag.contract.boundary1201@1.0.0:02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3#ab09bd7b287237a1efdcc0df"
+            ],
+            "representative": null,
+            "evidence_tokens": 1201,
+            "prefill_tokens": 1373
+          }
+        ]
+      },
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "runtime_call_ms_excluding_encoder_generator_construction": 66.650937,
+      "scope": "PRE_GENERATION_PROTOCOL_CONTROL"
+    },
+    {
+      "id": "atomic-format-control",
+      "status": "PASS",
+      "state": "ANSWER_ACCEPTED",
+      "expected_state": "ANSWER_ACCEPTED",
+      "answer": "The BUNDLE-X9 has several safety requirements including a continuous operating temperature limit of 74 °C [S1], the protective enclosure must remain securely closed [S2], a technician must inspect the red cable for physical damage [S3], and the unit must be disconnected from its power supply prior to service [S4].",
+      "generate_calls": 1,
+      "selected": [
+        "de4007485c3423ff37bcb693",
+        "191a8da23f0fd6086da0f31f",
+        "4363e8b9e2be6e5e2dfe71a7",
+        "2e2153a45f4da98b6cf1ab76"
+      ],
+      "evidence": [
+        {
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "chunk": {
+            "chunk_id": "de4007485c3423ff37bcb693",
+            "source_id": "manual",
+            "canonical_text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+            "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+            "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+            "title": "SYNTHETIC TEST MANUAL",
+            "source_title": "SYNTHETIC TEST MANUAL",
+            "section": "row00",
+            "locator": "row00",
+            "dense_row": 0,
+            "jurisdiction": "MA",
+            "source_from": null,
+            "source_until": null,
+            "effective_from": null,
+            "effective_until": null,
+            "legal_status": "active",
+            "publisher": "SYNTHETIC PackRAG contract fixture",
+            "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+            "language": "en",
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null
+          },
+          "source_metadata": {
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null,
+            "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+            "relations": [
+              {
+                "from_chunk_id": "de4007485c3423ff37bcb693",
+                "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                "relation_type": "exception_to",
+                "provenance": "explicit-reference",
+                "confidence": 1
+              }
+            ]
+          },
+          "rendering": {
+            "text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+            "language": "en",
+            "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+            "derivation_method": "canonical",
+            "derivation_source": null,
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "en",
+            "canonical_text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+          },
+          "fused_rank": 1,
+          "exact": true,
+          "relevant": true,
+          "sparse_rank": 1,
+          "dense_rank": 1,
+          "cosine": 0.8568208507865838,
+          "rrf": 0.03278688524590164,
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "de4007485c3423ff37bcb693",
+                "source_id": "manual",
+                "canonical_text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+                "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row00",
+                "locator": "row00",
+                "dense_row": 0,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": [
+                  {
+                    "from_chunk_id": "de4007485c3423ff37bcb693",
+                    "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                    "relation_type": "exception_to",
+                    "provenance": "explicit-reference",
+                    "confidence": 1
+                  }
+                ]
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 1,
+              "dense_rank": 1,
+              "cosine": 0.8568208507865838,
+              "rrf": 0.03278688524590164,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": [
+                {
+                  "members": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "state": "RESOLVED_RELATION",
+                  "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                  "resolved": true,
+                  "retained": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "required": [
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                    ],
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                    ]
+                  ],
+                  "reason": "RETAIN_BASE_AND_COMPANIONS"
+                }
+              ]
+            }
+          ],
+          "conflicts": [
+            {
+              "members": [
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+              ],
+              "state": "RESOLVED_RELATION",
+              "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "resolved": true,
+              "retained": [
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+              ],
+              "required": [
+                [
+                  "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                  "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                ],
+                [
+                  "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                  "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                ]
+              ],
+              "reason": "RETAIN_BASE_AND_COMPANIONS"
+            }
+          ]
+        },
+        {
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "chunk": {
+            "chunk_id": "191a8da23f0fd6086da0f31f",
+            "source_id": "manual",
+            "canonical_text": "The protective enclosure must remain securely closed.",
+            "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+            "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+            "title": "SYNTHETIC TEST MANUAL",
+            "source_title": "SYNTHETIC TEST MANUAL",
+            "section": "row02",
+            "locator": "row02",
+            "dense_row": 2,
+            "jurisdiction": "MA",
+            "source_from": null,
+            "source_until": null,
+            "effective_from": null,
+            "effective_until": null,
+            "legal_status": "active",
+            "publisher": "SYNTHETIC PackRAG contract fixture",
+            "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+            "language": "en",
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null
+          },
+          "source_metadata": {
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null,
+            "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+            "relations": []
+          },
+          "rendering": {
+            "text": "The protective enclosure must remain securely closed.",
+            "language": "en",
+            "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+            "derivation_method": "canonical",
+            "derivation_source": null,
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "en",
+            "canonical_text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c"
+          },
+          "fused_rank": 2,
+          "exact": true,
+          "relevant": true,
+          "sparse_rank": 3,
+          "dense_rank": 2,
+          "cosine": 0.8235966880538842,
+          "rrf": 0.03200204813108039,
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "191a8da23f0fd6086da0f31f",
+                "source_id": "manual",
+                "canonical_text": "The protective enclosure must remain securely closed.",
+                "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row02",
+                "locator": "row02",
+                "dense_row": 2,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": []
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 3,
+              "dense_rank": 2,
+              "cosine": 0.8235966880538842,
+              "rrf": 0.03200204813108039,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": []
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "chunk": {
+            "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+            "source_id": "manual",
+            "canonical_text": "A technician must inspect the red cable for physical damage.",
+            "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+            "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+            "title": "SYNTHETIC TEST MANUAL",
+            "source_title": "SYNTHETIC TEST MANUAL",
+            "section": "row01",
+            "locator": "row01",
+            "dense_row": 1,
+            "jurisdiction": "MA",
+            "source_from": null,
+            "source_until": null,
+            "effective_from": null,
+            "effective_until": null,
+            "legal_status": "active",
+            "publisher": "SYNTHETIC PackRAG contract fixture",
+            "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+            "language": "en",
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null
+          },
+          "source_metadata": {
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null,
+            "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+            "relations": []
+          },
+          "rendering": {
+            "text": "A technician must inspect the red cable for physical damage.",
+            "language": "en",
+            "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+            "derivation_method": "canonical",
+            "derivation_source": null,
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "en",
+            "canonical_text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f"
+          },
+          "fused_rank": 3,
+          "exact": true,
+          "relevant": true,
+          "sparse_rank": 2,
+          "dense_rank": 3,
+          "cosine": 0.8123335713590286,
+          "rrf": 0.03200204813108039,
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+                "source_id": "manual",
+                "canonical_text": "A technician must inspect the red cable for physical damage.",
+                "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row01",
+                "locator": "row01",
+                "dense_row": 1,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": []
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 2,
+              "dense_rank": 3,
+              "cosine": 0.8123335713590286,
+              "rrf": 0.03200204813108039,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": []
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "chunk": {
+            "chunk_id": "2e2153a45f4da98b6cf1ab76",
+            "source_id": "manual",
+            "canonical_text": "A technician must disconnect the unit from its power supply prior to service.",
+            "text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+            "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+            "title": "SYNTHETIC TEST MANUAL",
+            "source_title": "SYNTHETIC TEST MANUAL",
+            "section": "row04",
+            "locator": "row04",
+            "dense_row": 4,
+            "jurisdiction": "MA",
+            "source_from": null,
+            "source_until": null,
+            "effective_from": null,
+            "effective_until": null,
+            "legal_status": "active",
+            "publisher": "SYNTHETIC PackRAG contract fixture",
+            "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+            "language": "en",
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null
+          },
+          "source_metadata": {
+            "authority_rank": 1,
+            "document_version": null,
+            "issued_at": null,
+            "article": null,
+            "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+            "relations": [
+              {
+                "from_chunk_id": "de4007485c3423ff37bcb693",
+                "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                "relation_type": "exception_to",
+                "provenance": "explicit-reference",
+                "confidence": 1
+              }
+            ]
+          },
+          "rendering": {
+            "text": "A technician must disconnect the unit from its power supply prior to service.",
+            "language": "en",
+            "text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+            "derivation_method": "canonical",
+            "derivation_source": null,
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "en",
+            "canonical_text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+          },
+          "fused_rank": 5,
+          "exact": true,
+          "relevant": true,
+          "sparse_rank": 5,
+          "dense_rank": 5,
+          "cosine": 0.7805806422573894,
+          "rrf": 0.03076923076923077,
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "2e2153a45f4da98b6cf1ab76",
+                "source_id": "manual",
+                "canonical_text": "A technician must disconnect the unit from its power supply prior to service.",
+                "text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row04",
+                "locator": "row04",
+                "dense_row": 4,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": [
+                  {
+                    "from_chunk_id": "de4007485c3423ff37bcb693",
+                    "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                    "relation_type": "exception_to",
+                    "provenance": "explicit-reference",
+                    "confidence": 1
+                  }
+                ]
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 5,
+              "dense_rank": 5,
+              "cosine": 0.7805806422573894,
+              "rrf": 0.03076923076923077,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": [
+                {
+                  "members": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "state": "RESOLVED_RELATION",
+                  "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                  "resolved": true,
+                  "retained": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "required": [
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                    ],
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                    ]
+                  ],
+                  "reason": "RETAIN_BASE_AND_COMPANIONS"
+                }
+              ]
+            }
+          ],
+          "conflicts": [
+            {
+              "members": [
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+              ],
+              "state": "RESOLVED_RELATION",
+              "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "resolved": true,
+              "retained": [
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+              ],
+              "required": [
+                [
+                  "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                  "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                ],
+                [
+                  "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                  "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                ]
+              ],
+              "reason": "RETAIN_BASE_AND_COMPANIONS"
+            }
+          ]
+        }
+      ],
+      "selection": {
+        "admission": "READY",
+        "keys": [
+          "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+          "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+          "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#4363e8b9e2be6e5e2dfe71a7",
+          "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+        ],
+        "sources": [
+          "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e"
+        ],
+        "decisions": [
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+            "reason": "SELECTED",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 128,
+            "prefill_tokens": 311
+          },
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+            "reason": "SELECTED",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 183,
+            "prefill_tokens": 366
+          },
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#4363e8b9e2be6e5e2dfe71a7",
+            "reason": "SELECTED",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#4363e8b9e2be6e5e2dfe71a7",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 241,
+            "prefill_tokens": 424
+          },
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#6df516db7affc2913b8d3a29",
+            "reason": "CHUNK_CAP",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#191a8da23f0fd6086da0f31f",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#4363e8b9e2be6e5e2dfe71a7",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#6df516db7affc2913b8d3a29",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": null,
+            "prefill_tokens": null
+          },
+          {
+            "key": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76",
+            "reason": "REQUIRED_COMPANION",
+            "trial": [
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+              "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+            ],
+            "representative": null,
+            "evidence_tokens": 128,
+            "prefill_tokens": 311
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "chunk_id": "de4007485c3423ff37bcb693",
+          "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+          "canonical_text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+          "canonical_text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+          "source_id": "manual",
+          "fused_rank": 1,
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "de4007485c3423ff37bcb693",
+                "source_id": "manual",
+                "canonical_text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+                "text_sha256": "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row00",
+                "locator": "row00",
+                "dense_row": 0,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": [
+                  {
+                    "from_chunk_id": "de4007485c3423ff37bcb693",
+                    "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                    "relation_type": "exception_to",
+                    "provenance": "explicit-reference",
+                    "confidence": 1
+                  }
+                ]
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 1,
+              "dense_rank": 1,
+              "cosine": 0.8568208507865838,
+              "rrf": 0.03278688524590164,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": [
+                {
+                  "members": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "state": "RESOLVED_RELATION",
+                  "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                  "resolved": true,
+                  "retained": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "required": [
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                    ],
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                    ]
+                  ],
+                  "reason": "RETAIN_BASE_AND_COMPANIONS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "chunk_id": "191a8da23f0fd6086da0f31f",
+          "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+          "canonical_text": "The protective enclosure must remain securely closed.",
+          "canonical_text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+          "source_id": "manual",
+          "fused_rank": 2,
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "191a8da23f0fd6086da0f31f",
+                "source_id": "manual",
+                "canonical_text": "The protective enclosure must remain securely closed.",
+                "text_sha256": "5e759526ece771feb0d27d334cd1496cddd754e5a2825dede76dead3e07f177c",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row02",
+                "locator": "row02",
+                "dense_row": 2,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": []
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 3,
+              "dense_rank": 2,
+              "cosine": 0.8235966880538842,
+              "rrf": 0.03200204813108039,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": []
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+          "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+          "canonical_text": "A technician must inspect the red cable for physical damage.",
+          "canonical_text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+          "source_id": "manual",
+          "fused_rank": 3,
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+                "source_id": "manual",
+                "canonical_text": "A technician must inspect the red cable for physical damage.",
+                "text_sha256": "45637f728540bd170f8b1656fb6ec9dd74088940585e0c6c41c940421322868f",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row01",
+                "locator": "row01",
+                "dense_row": 1,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": []
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 2,
+              "dense_rank": 3,
+              "cosine": 0.8123335713590286,
+              "rrf": 0.03200204813108039,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": []
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "chunk_id": "2e2153a45f4da98b6cf1ab76",
+          "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+          "canonical_text": "A technician must disconnect the unit from its power supply prior to service.",
+          "canonical_text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+          "source_id": "manual",
+          "fused_rank": 5,
+          "identity": [
+            "org.packrag.contract.atomic-last",
+            "1.0.0",
+            "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+          ],
+          "origin_records": [
+            {
+              "identity": [
+                "org.packrag.contract.atomic-last",
+                "1.0.0",
+                "848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3"
+              ],
+              "chunk": {
+                "chunk_id": "2e2153a45f4da98b6cf1ab76",
+                "source_id": "manual",
+                "canonical_text": "A technician must disconnect the unit from its power supply prior to service.",
+                "text_sha256": "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0",
+                "original_sha256": "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                "title": "SYNTHETIC TEST MANUAL",
+                "source_title": "SYNTHETIC TEST MANUAL",
+                "section": "row04",
+                "locator": "row04",
+                "dense_row": 4,
+                "jurisdiction": "MA",
+                "source_from": null,
+                "source_until": null,
+                "effective_from": null,
+                "effective_until": null,
+                "legal_status": "active",
+                "publisher": "SYNTHETIC PackRAG contract fixture",
+                "canonical_uri": "https:\/\/example.invalid\/synthetic-selection",
+                "language": "en",
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null
+              },
+              "metadata": {
+                "authority_rank": 1,
+                "document_version": null,
+                "issued_at": null,
+                "article": null,
+                "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+                "relations": [
+                  {
+                    "from_chunk_id": "de4007485c3423ff37bcb693",
+                    "to_chunk_id": "2e2153a45f4da98b6cf1ab76",
+                    "relation_type": "exception_to",
+                    "provenance": "explicit-reference",
+                    "confidence": 1
+                  }
+                ]
+              },
+              "derived": [],
+              "exact": true,
+              "sparse_rank": 5,
+              "dense_rank": 5,
+              "cosine": 0.7805806422573894,
+              "rrf": 0.03076923076923077,
+              "calibration": {
+                "status": "UNCALIBRATED",
+                "agreed": null,
+                "dense_only": null
+              },
+              "conflicts": [
+                {
+                  "members": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "state": "RESOLVED_RELATION",
+                  "preferred": "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                  "resolved": true,
+                  "retained": [
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#de4007485c3423ff37bcb693",
+                    "org.packrag.contract.atomic-last@1.0.0:848b9cf8b82d35eb3eac2d0e9086c6151575a3db853eecf382292aa23cea78d3#2e2153a45f4da98b6cf1ab76"
+                  ],
+                  "required": [
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "906dd6ef70a32f5ba3bc3dd2b2840211df6bf6d9df8a7d9fe2527799ccd5c6e0"
+                    ],
+                    [
+                      "53c9fbe531603be4991f4582ffd5b9976add191bf82c0843a4d4f5068657060e",
+                      "be595c4141fdaa713fe8efaec387384ed917a5dec15facf772607f05c814adbb"
+                    ]
+                  ],
+                  "reason": "RETAIN_BASE_AND_COMPANIONS"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "prefill_tokens": 424,
+      "evidence_tokens": 241,
+      "emitted_tokens_including_terminal": 359,
+      "runtime_call_ms_excluding_encoder_generator_construction": 185418.911407,
+      "scope": "POST_OBSERVATION_FORMAT_CONTROL_NOT_HELDOUT"
+    }
+  ],
+  "raw_reasoning_persisted": false,
+  "network_mode": "MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET",
+  "scope": "REAL_LFM_SYNTHETIC_PROTOCOL_NOT_RELEASE_ACCURACY_OR_PERFORMANCE"
+}

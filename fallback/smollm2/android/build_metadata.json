@@ -1,0 +1,30 @@
+{
+  "candidate_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+  "phone_validated_commit": null,
+  "binaries": {
+    "llama-cli": {
+      "path": "fallback/smollm2/android/build-arm64/bin/llama-cli",
+      "sha256": "5962d5063b93d899f528dd87deb1ad2ac48cadb2dfc03f67a15e2d024e32c942",
+      "bytes": 156546912,
+      "abi": "arm64-v8a",
+      "android_platform": "android-28",
+      "cross_build": "PASS",
+      "phone_executed": false
+    },
+    "llama-completion": {
+      "path": "fallback/smollm2/android/build-arm64/bin/llama-completion",
+      "sha256": "8f5e713e12d390f140dc4fcb6fb424eb674770a1196cfc9833ea7e430e9cf54e",
+      "bytes": 109604664,
+      "abi": "arm64-v8a",
+      "android_platform": "android-28",
+      "cross_build": "PASS",
+      "phone_executed": false
+    }
+  },
+  "gguf": "4723b60dcc23b06f59c356e979c26e9f417195056eb60ecbbb6d95f78eb8cdd7",
+  "ndk": "30.0.16248370",
+  "cmake": "3.31.1",
+  "cpu_only": true,
+  "shared_libraries": false,
+  "openmp": false
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS_F1_ADJACENT_ACTUAL_ORIGINALS_NOT_FULL_F1",
+  "phase": "adjacent",
+  "variant": "demo",
+  "build": "build-0057",
+  "run": "device-local-assets-policy-adjacent-0001",
+  "android_inputs": 579,
+  "host_totals": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0057",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-policy-adjacent-0001",
+        "--class-name",
+        "org.packrag.product.DiagnosticPolicyDeviceTest,org.packrag.product.QueryControlsPolicyTest,org.packrag.product.SourceDetailsPolicyTest",
+        "--result-file",
+        "m4-diagnostic-policy.json",
+        "--timeout",
+        "3600",
+        "--variant",
+        "demo"
+      ],
+      "started_utc": "2026-10-11T15:40:27.913550+00:00",
+      "finished_utc": "2026-10-11T15:45:02.633603+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-policy-adjacent-0001",
+        "--files",
+        "m4-diagnostic-policy.json,m4-ui-query-policy.json,m4-source-details-policy.json"
+      ],
+      "started_utc": "2026-10-11T15:45:02.641774+00:00",
+      "finished_utc": "2026-10-11T15:45:03.286286+00:00",
+      "returncode": 0
+    }
+  ],
+  "original_sha256": {
+    "m4-diagnostic-policy.json": "0055ca2fe115b367f2ca53b69fd83e0044e40e3446358ce28f9bec3436a460b4",
+    "m4-ui-query-policy.json": "2ac4222083af82b4c05a1e953126a39a336622a1dc5dafcfa734dfeff4822657",
+    "m4-source-details-policy.json": "b9827859f6063d4d1efb9ffacaeff1c3b67085d492b778cdd92de31edc8d61ca"
+  },
+  "instrumentation_sha256": "f5f0e1091c7808bd2d12a296023b07f736208279ff9393c6a0442ccdcd3f7507",
+  "collection_sha256": "43e2469d9030abad52a549ad0a86f46757e12f52d1ef0ca95ac638cd85ac6556"
+}

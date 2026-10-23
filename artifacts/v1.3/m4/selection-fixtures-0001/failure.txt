@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_selection_fixtures.py", line 109, in main
+    assert len(tokenizer.tokenize(block(text),add_special=False))==cap
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,49 @@
+{
+  "status": "OBSERVATIONAL_POLICY_BATCH_THERMAL_CONTEXT_NOT_PERFORMANCE_OR_BOTTLENECK_ACCEPTANCE",
+  "started_utc": "2026-10-11T22:11:04.487713+00:00",
+  "observed_parent_status": "RUNNING_F2_ADJACENT_BACKGROUND_NOT_ACCEPTED",
+  "observed_active_class": "LocalAssetReadinessDeviceTest",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "thermalservice"
+      ],
+      "returncode": 0,
+      "selected_stdout_lines": [
+        "Thermal Status: 4",
+        "Temperature{mValue=54.6, mType=0, mName=AP, mStatus=0}",
+        "Temperature{mValue=41.1, mType=2, mName=BAT, mStatus=0}",
+        "Temperature{mValue=46.3, mType=3, mName=SKIN, mStatus=4}",
+        "Temperature{mValue=54.6, mType=0, mName=AP, mStatus=0}",
+        "Temperature{mValue=41.1, mType=2, mName=BAT, mStatus=0}",
+        "Temperature{mValue=46.3, mType=3, mName=SKIN, mStatus=4}"
+      ],
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "battery"
+      ],
+      "returncode": 0,
+      "selected_stdout_lines": [
+        "USB powered: true",
+        "status: 5",
+        "level: 100",
+        "temperature: 411"
+      ],
+      "stderr": ""
+    }
+  ],
+  "finished_utc": "2026-10-11T22:11:04.935578+00:00",
+  "scope": "Read-only selected Android service fields during the parent readiness-class context. Exact copy/verification/encoder/generator/cleanup subphase is unknown; no CPU/memory/peak/causal attribution or controlled benchmark. No radio/root/governor/affinity/thermal/charging settings changes. Functional durations under this context cannot establish M8 hardware/software bottleneck or target latency."
+}

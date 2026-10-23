@@ -1,0 +1,131 @@
+{
+  "status": "FAIL_NO_NATIVE_OR_M4_ACCEPTANCE",
+  "started_utc": "2026-10-12T18:44:26.362406+00:00",
+  "serial": "emulator-5580",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "settings",
+        "get",
+        "system",
+        "font_scale"
+      ],
+      "returncode": 0,
+      "stdout": "1.0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0108\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0108\\app-debug.apk: 1 file pushed, 0 skipped. 78.5 MB/s (74844706 bytes in 0.909s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~PVpOe6PqfqyxDHTzsOh7eg==/org.packrag.product-MbzzKtQMo7aP3QIGfNfFFg==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~PVpOe6PqfqyxDHTzsOh7eg==/org.packrag.product-MbzzKtQMo7aP3QIGfNfFFg==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a  /data/app/~~PVpOe6PqfqyxDHTzsOh7eg==/org.packrag.product-MbzzKtQMo7aP3QIGfNfFFg==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0108\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0108\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 85.5 MB/s (11732979 bytes in 0.131s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~tc-bhby96_MALugtocH8Kg==/org.packrag.product.test-a0YS6w0y8fxxy78wDbHI9Q==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~tc-bhby96_MALugtocH8Kg==/org.packrag.product.test-a0YS6w0y8fxxy78wDbHI9Q==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "bcbb499af8655c824533a2565d54a3af59d6c96d8327d9187bae7f068b47939a  /data/app/~~tc-bhby96_MALugtocH8Kg==/org.packrag.product.test-a0YS6w0y8fxxy78wDbHI9Q==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.EmulatorChatRepairUiTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0,
+      "stdout": "INSTRUMENTATION_STATUS: class=org.packrag.product.EmulatorChatRepairUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=\r\norg.packrag.product.EmulatorChatRepairUiTest:\r\nINSTRUMENTATION_STATUS: test=actualRepairChatCapturesEvidenceAndRejectsPartialGuide\r\nINSTRUMENTATION_STATUS_CODE: 1\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.EmulatorChatRepairUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Check failed.\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:78)\r\n\tat org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)\r\n\tat org.packrag.product.EmulatorChatRepairUiTest.actualRepairChatCapturesEvidenceAndRejectsPartialGuide(EmulatorChatRepairUiTest.kt:52)\r\n\r\nINSTRUMENTATION_STATUS: stream=\r\nError in actualRepairChatCapturesEvidenceAndRejectsPartialGuide(org.packrag.product.EmulatorChatRepairUiTest):\r\njava.lang.IllegalStateException: Check failed.\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:78)\r\n\tat org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)\r\n\tat org.packrag.product.EmulatorChatRepairUiTest.actualRepairChatCapturesEvidenceAndRejectsPartialGuide(EmulatorChatRepairUiTest.kt:52)\r\n\r\nINSTRUMENTATION_STATUS: test=actualRepairChatCapturesEvidenceAndRejectsPartialGuide\r\nINSTRUMENTATION_STATUS_CODE: -2\r\nINSTRUMENTATION_RESULT: stream=\r\n\r\nTime: 938.122\r\nThere was 1 failure:\r\n1) actualRepairChatCapturesEvidenceAndRejectsPartialGuide(org.packrag.product.EmulatorChatRepairUiTest)\r\njava.lang.IllegalStateException: Check failed.\r\n\tat org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:78)\r\n\tat org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)\r\n\tat org.packrag.product.EmulatorChatRepairUiTest.actualRepairChatCapturesEvidenceAndRejectsPartialGuide(EmulatorChatRepairUiTest.kt:52)\r\n\r\nFAILURES!!!\r\nTests run: 1,  Failures: 1\r\n\r\n\r\nINSTRUMENTATION_CODE: -1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-emulator-chat-repair.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a",
+    "app-debug-androidTest.apk": "bcbb499af8655c824533a2565d54a3af59d6c96d8327d9187bae7f068b47939a"
+  },
+  "observed_status": "OBSERVED_NOT_PASS",
+  "original_sha256": {
+    "m4-emulator-chat-repair.json": "6ea76c3f0de957bbb4510cbac28afeb664e981f513d8de43119075b83840a69f"
+  },
+  "error_type": "AssertionError",
+  "updated_utc": "2026-10-12T19:00:14.145721+00:00"
+}

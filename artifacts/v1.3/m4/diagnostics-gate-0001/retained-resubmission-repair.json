@@ -1,0 +1,11 @@
+{
+  "status": "TEST_OWNERSHIP_WAIT_REPAIRED_REVALIDATION_REQUIRED",
+  "recorded_utc": "2026-10-10T20:09:34.169783+00:00",
+  "changed_source": "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt",
+  "before_sha256": "064ec81264ef39ebaa5d2d8f1a9b7189fc7479835f8749bb05cc8985e6265e76",
+  "after_sha256": "590a2e3d1028f9fa775ac82916a46158915083d1878ff3baa43752db3bdfa090",
+  "unchanged_android_inputs": 573,
+  "unchanged_expected_answer": "NO_RELEVANT_EVIDENCE",
+  "failure_run": "device-ui-diagnostics-retained-0002",
+  "scope": "Busy false alone can observe previous completion; diagnosis is a source-supported hypothesis pending actual immediate/new ownership observations. No product/runtime/test expectation changes; fresh matched builds and all four UI methods required. Earlier suite remains FAIL."
+}

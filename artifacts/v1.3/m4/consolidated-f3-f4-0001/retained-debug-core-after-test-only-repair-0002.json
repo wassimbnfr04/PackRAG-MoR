@@ -1,0 +1,26 @@
+{
+  "status": "PASS_DATED_UNAFFECTED_DEBUG_CORE_RETENTION_NOT_NEW_0093_EXECUTION",
+  "recorded_utc": "2026-10-12T14:50:18.132864+00:00",
+  "dated_build": "build-0089",
+  "current_build": "build-0093",
+  "dated_execution_sha256": "1cfbd84a5209de2f10854a8b59b4eb5107ec13d77de58bf80e9c48aa2986b5d4",
+  "changed_android_inputs": [
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticNavigationUiTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportUiDeviceTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportVisualDeviceTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetsUiTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/PackOverviewLongUiTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/PackOverviewUiTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/ProductAccessibilityUiTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/ProductUiTestSupport.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt",
+    "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt"
+  ],
+  "unchanged_shared_inputs": 612,
+  "all_selected_core_test_sources_unchanged": true,
+  "selected_core_sources_reference_changed_ui_support": false,
+  "full_product_apk_byte_identical": true,
+  "product_apk_sha256": "0176e7141025a4f60dd920534cb7a53ee20c82903d7ab0f65bebb425bcca3d56",
+  "scope": "Actual dated core12/14/297 retained under complete product APK equality and all612 shared inputs. Eleven exclusively UI-test launch/recreation sources changed; core selected classes/fixtures/runtime/dependencies unchanged. Never relabeled as new0093 execution; repaired UI and remaining phases require current selected testAPK/pair originals."
+}

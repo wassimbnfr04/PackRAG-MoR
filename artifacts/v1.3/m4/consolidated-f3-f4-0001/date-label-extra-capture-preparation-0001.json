@@ -1,0 +1,9 @@
+{
+  "status": "DETACHED_TEST_ONLY_CANDIDATE_NOT_APPLIED_OR_BUILT_OR_EXECUTED",
+  "recorded_utc": "2026-10-12T15:54:35.784003+00:00",
+  "current_source_sha256": "eb7db053f9c3de3459ba6abc5218a58ea5abd39106dfd365eee9917384612029",
+  "candidate_sha256": "98dd7ccbf2662131acffd3dadc8e82f544317148d2a76cf726e250eb94009b10",
+  "work": "Add independent full date-label/value screenshot before jurisdiction input in same existing2methods10controls, requiring six unmodified original images. Needed because current form viewport targets Ask and date field is offscreen, not evidence of an unfixed label.",
+  "application_gate": "Only after current frozen-input background batches reach terminal state; verify current source and whole product unchanged, build new matched test pair and require fresh announced foreground window. Never change623 watched sources during active tests.",
+  "scope": "No product change; no added final knowledge pack or new fake data. Current five original PNGs reviewed only for actual captured content, whole-form/date-label visual acceptance remains pending."
+}

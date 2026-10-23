@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_FACTUAL_TEST_DIGESTS_NOT_FULL_OEM_DOCUMENT_OR_RELEASE_PACK",
+  "frozen_utc": "2026-10-12T18:03:42.625745+00:00",
+  "scope": "Agent-authored compact factual test documents covering published guide procedures; upstream original HTML hashes/URLs are in repair-source-acquisition-0001.json. Not verbatim complete manuals, genuine human review/calibration or final owner packs.",
+  "documents": [
+    {
+      "id": "framework-laptop12-fan",
+      "source": "framework-fan-digest",
+      "title": "Framework Laptop 12 fan procedure \u2014 factual test digest",
+      "locator": "Guide677 steps1\u201318",
+      "text": "Framework Laptop 12 fan cleaning or replacement procedure. Unplug the laptop and shut it down through the operating system; do not leave it suspended. Confirm the edge LEDs are off and the laptop is silent. Use a T5 Torx bit. Place the laptop face-down and loosen all eight captive bottom screws. Turn it face-up and open the lid flat. Lift the Input Cover at the hinge cutouts; magnets resist slightly. If excessive force is needed, check every bottom screw. Gently work the fan connector edges loose with the flat screwdriver end, then slide the connector out. Loosen the two captive T5 screws securing the fan and lift the fan out. Clean blades and exhaust fins with a soft-bristled brush or clean toothbrush, then remove dust with a dust blower. Seat the cleaned or replacement fan, secure its two screws, and gently reconnect its plug; do not force the socket. Insert the Input Cover bottom edge into the base tabs, lower the top until its magnets engage, and check every corner sits flush. Close the lid, turn the laptop face-down and tighten the eight bottom screws.",
+      "aliases": [
+        "Framework Laptop 12"
+      ],
+      "publisher": "PackRAG factual test digest; referenced guide by Framework",
+      "license": "LicenseRef-PackRAG-Factual-Test-Digest",
+      "upstream_url": "https://guides.frame.work/Guide/Fan/677?lang=en",
+      "text_sha256": "3abc2d222603fb86041f2973a62564150f691ccedcb122920e6f15476d9cff94"
+    },
+    {
+      "id": "bicycle-inner-tube",
+      "source": "bicycle-tube-digest",
+      "title": "Bicycle inner tube procedure \u2014 factual test digest",
+      "locator": "iFixit9863 steps1\u20136 and conclusion",
+      "text": "Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification.",
+      "aliases": [
+        "bicycle",
+        "bike"
+      ],
+      "publisher": "PackRAG factual test digest; referenced guide by Brett Hartt and iFixit contributors",
+      "license": "LicenseRef-PackRAG-Factual-Test-Digest",
+      "upstream_url": "https://www.ifixit.com/Guide/Bicycle+Tire+Inner+Tube+Replacement/9863",
+      "text_sha256": "4eea33f8f4a1ce9e319d9298d8b4adc5b30eefc3142d25e36fe20152a1f381c2"
+    }
+  ]
+}

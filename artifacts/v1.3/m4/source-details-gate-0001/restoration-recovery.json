@@ -1,0 +1,61 @@
+{
+  "status": "PASS_FRESH_DEVELOPMENT_RESTORATION_ORIGINAL_SAVED_PRIOR_COLLECTION_FAILURE_PRESERVED_NOT_E2_CLOSURE",
+  "recorded_utc": "2026-10-10T16:49:32.099557+00:00",
+  "failed_manifest_sha256": "4c0495fdf9dbd9bda7960ce36eb63c8972c570e444a2231a190cff9fafe8f360",
+  "original_instrumentation_sha256": "6d2f24bc4301aec3ce4f68b04fc0ded170ec150ee96e07dc781ba93ba6386762",
+  "recovered_original_sha256": "df22c462d489f8bab053e245d3b41080d47f38446e342fb7c04916a314537e48",
+  "command": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "exec-out",
+    "run-as",
+    "org.packrag.product",
+    "cat",
+    "files/m3-import-consent.json"
+  ],
+  "stderr_utf8": "",
+  "failure": "Primary result read returned nonzero after successful JUnit; original runner did not save that command stderr, so exact cause is unknown.",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0039",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-development-restore-0014",
+        "--class-name",
+        "org.packrag.product.PackImportConsentTest",
+        "--result-file",
+        "m3-import-consent.json",
+        "--timeout",
+        "300"
+      ],
+      "started_utc": "2026-10-10T16:49:32.114547+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:50:24.502731+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-development-restore-0014",
+        "--files",
+        "m3-import-consent.json"
+      ],
+      "started_utc": "2026-10-10T16:50:24.502731+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:50:24.936511+00:00"
+    }
+  ]
+}

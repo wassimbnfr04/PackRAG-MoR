@@ -1,0 +1,182 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :core-model:preBuild UP-TO-DATE
+> Task :core-model:preDebugBuild UP-TO-DATE
+> Task :core-model:processDebugNavigationResources UP-TO-DATE
+> Task :embedding-onnx:preBuild UP-TO-DATE
+> Task :embedding-onnx:preDebugBuild UP-TO-DATE
+> Task :embedding-onnx:processDebugNavigationResources UP-TO-DATE
+> Task :kpack-registry:preBuild UP-TO-DATE
+> Task :kpack-registry:preDebugBuild UP-TO-DATE
+> Task :kpack-registry:processDebugNavigationResources
+> Task :retrieval:preBuild UP-TO-DATE
+> Task :retrieval:preDebugBuild UP-TO-DATE
+> Task :retrieval:processDebugNavigationResources
+> Task :security-crypto:preBuild UP-TO-DATE
+> Task :security-crypto:preDebugBuild UP-TO-DATE
+> Task :security-crypto:processDebugNavigationResources
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :core-model:generateDebugResources UP-TO-DATE
+> Task :core-model:packageDebugResources UP-TO-DATE
+> Task :core-model:parseDebugLocalResources UP-TO-DATE
+> Task :core-model:generateDebugRFile UP-TO-DATE
+> Task :core-model:javaPreCompileDebug UP-TO-DATE
+> Task :embedding-onnx:generateDebugResources UP-TO-DATE
+> Task :embedding-onnx:packageDebugResources UP-TO-DATE
+> Task :embedding-onnx:parseDebugLocalResources UP-TO-DATE
+> Task :embedding-onnx:generateDebugRFile UP-TO-DATE
+> Task :embedding-onnx:javaPreCompileDebug UP-TO-DATE
+> Task :kpack-registry:generateDebugResources
+> Task :kpack-registry:packageDebugResources
+> Task :security-crypto:generateDebugResources
+> Task :security-crypto:packageDebugResources
+> Task :security-crypto:javaPreCompileDebug
+> Task :security-crypto:parseDebugLocalResources
+> Task :kpack-registry:javaPreCompileDebug
+> Task :kpack-registry:parseDebugLocalResources
+> Task :retrieval:generateDebugResources
+> Task :retrieval:packageDebugResources
+> Task :retrieval:parseDebugLocalResources
+> Task :kpack-registry:generateDebugRFile
+> Task :security-crypto:generateDebugRFile
+> Task :retrieval:generateDebugRFile
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :retrieval:javaPreCompileDebug
+> Task :core-model:writeDebugAarMetadata UP-TO-DATE
+> Task :embedding-onnx:writeDebugAarMetadata UP-TO-DATE
+> Task :kpack-registry:writeDebugAarMetadata
+> Task :retrieval:writeDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :security-crypto:writeDebugAarMetadata
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :core-model:extractDeepLinksDebug UP-TO-DATE
+> Task :core-model:processDebugManifest UP-TO-DATE
+> Task :embedding-onnx:extractDeepLinksDebug UP-TO-DATE
+> Task :embedding-onnx:processDebugManifest UP-TO-DATE
+> Task :kpack-registry:extractDeepLinksDebug
+> Task :kpack-registry:processDebugManifest
+> Task :retrieval:extractDeepLinksDebug
+> Task :retrieval:processDebugManifest
+> Task :security-crypto:extractDeepLinksDebug
+> Task :security-crypto:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :core-model:mapDebugSourceSetPaths UP-TO-DATE
+> Task :core-model:compileDebugLibraryResources UP-TO-DATE
+> Task :embedding-onnx:mapDebugSourceSetPaths UP-TO-DATE
+> Task :embedding-onnx:compileDebugLibraryResources UP-TO-DATE
+> Task :kpack-registry:mapDebugSourceSetPaths
+> Task :kpack-registry:compileDebugLibraryResources
+> Task :retrieval:mapDebugSourceSetPaths
+> Task :retrieval:compileDebugLibraryResources
+> Task :security-crypto:mapDebugSourceSetPaths
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :security-crypto:compileDebugLibraryResources
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :core-model:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-model:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :core-model:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :embedding-onnx:preDebugUnitTestBuild UP-TO-DATE
+> Task :embedding-onnx:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :embedding-onnx:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :kpack-registry:preDebugUnitTestBuild UP-TO-DATE
+> Task :kpack-registry:generateDebugUnitTestStubRFile
+> Task :kpack-registry:javaPreCompileDebugUnitTest
+> Task :retrieval:preDebugUnitTestBuild UP-TO-DATE
+> Task :retrieval:generateDebugUnitTestStubRFile
+> Task :retrieval:javaPreCompileDebugUnitTest
+> Task :security-crypto:preDebugUnitTestBuild UP-TO-DATE
+> Task :security-crypto:generateDebugUnitTestStubRFile
+> Task :security-crypto:javaPreCompileDebugUnitTest
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :core-model:generateDebugAssets UP-TO-DATE
+> Task :core-model:mergeDebugAssets UP-TO-DATE
+> Task :embedding-onnx:generateDebugAssets UP-TO-DATE
+> Task :embedding-onnx:mergeDebugAssets UP-TO-DATE
+> Task :kpack-registry:generateDebugAssets UP-TO-DATE
+> Task :kpack-registry:mergeDebugAssets
+> Task :retrieval:generateDebugAssets UP-TO-DATE
+> Task :retrieval:mergeDebugAssets
+> Task :security-crypto:generateDebugAssets UP-TO-DATE
+> Task :security-crypto:mergeDebugAssets
+> Task :security-crypto:compileDebugKotlin
+> Task :app:processDebugResources
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :security-crypto:compileDebugJavaWithJavac NO-SOURCE
+> Task :core-model:compileDebugKotlin
+> Task :core-model:compileDebugJavaWithJavac NO-SOURCE
+> Task :core-model:processDebugJavaRes
+> Task :security-crypto:bundleLibCompileToJarDebug
+> Task :security-crypto:processDebugJavaRes
+> Task :security-crypto:bundleLibRuntimeToJarDebug
+> Task :core-model:bundleLibRuntimeToJarDebug
+> Task :core-model:bundleLibCompileToJarDebug
+> Task :core-model:compileDebugUnitTestKotlin NO-SOURCE
+> Task :core-model:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core-model:processDebugUnitTestJavaRes NO-SOURCE
+> Task :core-model:testDebugUnitTest NO-SOURCE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :embedding-onnx:compileDebugKotlin
+> Task :embedding-onnx:compileDebugJavaWithJavac NO-SOURCE
+> Task :embedding-onnx:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :embedding-onnx:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :embedding-onnx:processDebugJavaRes UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :embedding-onnx:compileDebugUnitTestKotlin
+> Task :security-crypto:compileDebugUnitTestKotlin
+> Task :kpack-registry:compileDebugKotlin
+> Task :kpack-registry:compileDebugJavaWithJavac NO-SOURCE
+> Task :kpack-registry:bundleLibCompileToJarDebug
+> Task :kpack-registry:processDebugJavaRes
+> Task :kpack-registry:bundleLibRuntimeToJarDebug
+> Task :embedding-onnx:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :embedding-onnx:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :retrieval:compileDebugKotlin
+> Task :embedding-onnx:testDebugUnitTest
+> Task :retrieval:compileDebugJavaWithJavac NO-SOURCE
+> Task :retrieval:bundleLibCompileToJarDebug
+> Task :retrieval:processDebugJavaRes
+> Task :retrieval:bundleLibRuntimeToJarDebug
+> Task :retrieval:compileDebugUnitTestKotlin NO-SOURCE
+> Task :retrieval:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :retrieval:processDebugUnitTestJavaRes NO-SOURCE
+> Task :retrieval:testDebugUnitTest NO-SOURCE
+> Task :security-crypto:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:mergeExtDexDebug
+> Task :security-crypto:processDebugUnitTestJavaRes
+> Task :app:compileDebugKotlin
+> Task :kpack-registry:compileDebugUnitTestKotlin
+
+> Task :security-crypto:testDebugUnitTest FAILED
+
+ManifestContractTest > authenticRawBytesAndBoundedTrustBeforeParsing FAILED
+    org.junit.ComparisonFailure at ManifestContractTest.kt:16
+
+1 test completed, 1 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':security-crypto:testDebugUnitTest'.
+> There were failing tests. See the report at: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/security-crypto/build/reports/tests/testDebugUnitTest/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 1m 9s
+122 actionable tasks: 72 executed, 50 up-to-date

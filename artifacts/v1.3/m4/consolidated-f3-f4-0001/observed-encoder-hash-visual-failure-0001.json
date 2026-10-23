@@ -1,0 +1,12 @@
+{
+  "status": "FAIL_MANUAL_REQUIRED_VISIBLE_FIELD_HOLD_LATER_UI_CLASSES",
+  "recorded_utc": "2026-10-12T14:55:58.057348+00:00",
+  "class": "ProductAccessibilityUiTest",
+  "automated_class": "PASS2methods10controls; original JUnit/JSON retained without relabeling",
+  "png": "artifacts\\v1.3\\m4\\device-consolidated-ui-0003-productaccessibilityuitest\\original-sidecars\\m4-f3-large-font-encoder-observed-hash.png",
+  "sha256": "e6defddc0a5bb42e84c64d7d23914a7059a524c50a32d86f51feb42bfe56082f",
+  "observed": "Observed SHA256 label at bottom of full original viewport; observed64-digit value is offscreen. Expected hash is visible. Semantics text equality/partial visibility does not establish full visible field.",
+  "action": "Let current PackImportUiTest finish; stop before later classes. Add explicit further scroll for observed field and assert displayed before new original capture; rerun same full accessibility class and independent image review. No image editing or product data change.",
+  "marker_semantics": "Controller literal stop status says owner request; this request file records validation hold required by owner milestone failure rule, not phone availability withdrawal.",
+  "manual_review_scope": "Viewed full original images; display tool resize is disclosed. No claim of spoken screen-reader output or whole GUI acceptance."
+}

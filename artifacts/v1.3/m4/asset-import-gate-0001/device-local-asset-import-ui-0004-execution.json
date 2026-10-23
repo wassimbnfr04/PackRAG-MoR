@@ -1,0 +1,107 @@
+{
+  "status": "PASS_F2_SYSTEM_PICKER_PHONE_CONTRACTS_VISUAL_REVIEW_PENDING_NOT_FULL_F2",
+  "started_utc": "2026-10-11T19:09:14.882073+00:00",
+  "runner_sha256": "bee56bf8e0fa0da26471181ae43de275bfd3eba8e98b5bcae2c44d1ee124baa8",
+  "build": "build-0073",
+  "run": "device-local-asset-import-ui-0004",
+  "foreground_authorized": true,
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0073",
+        "--output",
+        "device-local-asset-import-ui-0004-before-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0073",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-ui-0004",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportUiDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-ui.json",
+        "--timeout",
+        "2400",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-ui-0004",
+        "--files",
+        "m4-local-asset-import-ui.json,m4-local-asset-import-ui-progress.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0073",
+        "--output",
+        "device-local-asset-import-ui-0004-after-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-import-ui-0004-after-known-guard.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "png_sha256": {
+    "m4-local-asset-import-ui-progress.png": "a979c3360b99fa9bd79a76b8f32bc68831f9ad9fe5a5d7616fd4cd94212f2c8d",
+    "m4-local-asset-import-ui-verified.png": "a1165999e185c4094f9d10dcc0513d20869cb36747e76ab1ec5c7f5586071187"
+  },
+  "original_sha256": {
+    "m4-local-asset-import-ui.json": "6f9dc61ef3dcbd3c0c3112dd19b60afbd273e3b49f6d2cb6ff1bb899aafd6e9b",
+    "m4-local-asset-import-ui-progress.json": "7d5d3431336e03580e10453d8edac07301d06bfc7c3339f02fc6960c80095d82"
+  },
+  "cases": [
+    "actual-document-read-denied-before-system-picker-grant",
+    "actual-system-picker-cancel-keeps-file-and-completed-result",
+    "actual-picked-corrupt-file-rejected-without-replacing-file-or-completion",
+    "actual-displayed-byte-progress-and-ui-cancel-wait-for-cleanup",
+    "actual-picker-slot-survives-pending-activity-recreation-and-granted-verified-import",
+    "asset-page-recreation-back-and-canonical-evidence-navigation-retain-completion",
+    "actual-post-import-ui-query-cold-native-and-validated-cited-answer",
+    "known-owner-fifty-public-files-unchanged"
+  ],
+  "scope": "Actual Android picker and protected selected-document grant, cancel/corrupt/progress/cancel/recreation/verified import, completed result and canonical navigation, new real cited synthetic native answer. Separate visual review mandatory. Test-only isolated Application/actual ViewModelStore injection; empty launch registry retained. No owner pack authorship, domain/gold/performance/full F2/M4/release acceptance. Mobile data preserved.",
+  "finished_utc": "2026-10-11T19:15:53.324842+00:00"
+}

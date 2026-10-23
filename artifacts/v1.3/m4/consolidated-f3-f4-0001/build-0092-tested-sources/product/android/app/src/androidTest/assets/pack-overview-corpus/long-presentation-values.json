@@ -1,0 +1,16 @@
+{
+  "scope": "UNSIGNED SYNTHETIC VALUES — PRESENTATION COMPONENT ONLY; not publisher authentication or signed-pack admission",
+  "pack_id": "org.packrag.test.presentation-only",
+  "version": "0.0.1+synthetic",
+  "manifest_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "name": "Synthetic long pack <b>literal</b> mechanical repair context mechanical repair context mechanical repair context mechanical repair context mechanical repair context mechanical repair context mechanical repair context mechanical repair context ",
+  "publisher_name": "LONG PUBLISHER <b>literal</b> مصدر اصطناعي فقط مصدر اصطناعي فقط مصدر اصطناعي فقط مصدر اصطناعي فقط مصدر اصطناعي فقط مصدر اصطناعي فقط مصدر اصطناعي فقط مصدر اصطناعي فقط  PUBLISHER END",
+  "publisher_key_id": "ed25519:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "update_check_after": "2027-01-01",
+  "device_date": "2027-01-01",
+  "manifest_bytes": 2586,
+  "payload_bytes": 85076,
+  "transport_bytes": 21565,
+  "older_version": "0.0.0",
+  "older_manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+}

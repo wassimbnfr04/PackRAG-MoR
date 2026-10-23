@@ -1,0 +1,1219 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "valid-db",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "empty-locator",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Empty required DB text"
+    },
+    {
+      "id": "empty-canonical",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Empty required DB text"
+    },
+    {
+      "id": "wrong-canonical-hash",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "dangling-source-alias",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Dangling alias target"
+    },
+    {
+      "id": "dangling-chunk-alias",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Dangling alias target"
+    },
+    {
+      "id": "bad-alias-normalization",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Noncanonical alias normalization"
+    },
+    {
+      "id": "unicode-alias-normalization",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "dangling-relation",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Dangling relation target"
+    },
+    {
+      "id": "bad-relation-kind",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "bad-relation-provenance",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "valid-relation",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "bad-legal-status",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "bad-source-retrieved-date",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.time.format.DateTimeParseException",
+      "rejection_message": "Text '2026-02-30' could not be parsed: Invalid date 'FEBRUARY 30'"
+    },
+    {
+      "id": "bad-source-clock",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "bad-source-interval",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Invalid DB validity interval"
+    },
+    {
+      "id": "bad-chunk-date",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.time.format.DateTimeParseException",
+      "rejection_message": "Text '2026-02-30' could not be parsed: Invalid date 'FEBRUARY 30'"
+    },
+    {
+      "id": "bad-chunk-interval",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Invalid DB validity interval"
+    },
+    {
+      "id": "undeclared-jurisdiction",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Undeclared source jurisdiction"
+    },
+    {
+      "id": "valid-jurisdiction",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "undeclared-source-language",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Undeclared source language"
+    },
+    {
+      "id": "valid-language-variant",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "source-hash-invalid",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Invalid DB hash"
+    },
+    {
+      "id": "negative-authority",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "snapshot-traversal",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "snapshot-undeclared",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Invalid snapshot provenance path"
+    },
+    {
+      "id": "valid-snapshot",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "snapshot-wrong-original-hash",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Snapshot/original source hash mismatch"
+    },
+    {
+      "id": "reverse-character-location",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Reversed DB location bounds"
+    },
+    {
+      "id": "invalid-page-location",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "wrong-storage-type",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "DB storage type mismatch"
+    },
+    {
+      "id": "missing-alias-index",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Unexpected/missing DB object"
+    },
+    {
+      "id": "missing-check-constraint",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Full DB schema mismatch: sources"
+    },
+    {
+      "id": "wrong-fts-columns",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Full DB schema mismatch: chunks_fts"
+    },
+    {
+      "id": "extra-trigger",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "broken-fts-index",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "android.database.SQLException",
+      "rejection_message": "Error code: 267, message: database disk image is malformed"
+    },
+    {
+      "id": "broken-sqlite-header",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "android.database.SQLException",
+      "rejection_message": "Error code: 26, message: file is not a database"
+    },
+    {
+      "id": "valid-official-derived-metadata",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-human-derived-metadata",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "derived-no-reviewer",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Empty required DB text"
+    },
+    {
+      "id": "derived-bad-reviewed-date",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.time.format.DateTimeParseException",
+      "rejection_message": "Text '2026-02-30' could not be parsed: Invalid date 'FEBRUARY 30'"
+    },
+    {
+      "id": "derived-no-provenance",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Empty required DB text"
+    },
+    {
+      "id": "derived-unknown-method",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "machine-draft-developer",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "machine-draft-release",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Machine draft cannot ship as release evidence"
+    },
+    {
+      "id": "derived-hash-mismatch",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "derived-undeclared-language",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    },
+    {
+      "id": "derived-dangling-chunk",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException",
+      "rejection_message": "Failed requirement."
+    }
+  ],
+  "format_cases": [
+    {
+      "language": "en",
+      "passed": true
+    },
+    {
+      "language": "ar",
+      "passed": true
+    },
+    {
+      "language": "fr",
+      "passed": true
+    },
+    {
+      "language": "en-US",
+      "passed": true
+    },
+    {
+      "language": "zh-Hant-CN",
+      "passed": true
+    },
+    {
+      "language": "de-CH-1901",
+      "passed": true
+    },
+    {
+      "language": "sl-rozaj-biske",
+      "passed": true
+    },
+    {
+      "language": "en-a-foo-b-bar-x-private",
+      "passed": true
+    },
+    {
+      "language": "x-demo",
+      "passed": true
+    },
+    {
+      "language": "I-KLINGON",
+      "passed": true
+    },
+    {
+      "language": "en-GB-oed",
+      "passed": true
+    },
+    {
+      "language": "abcd",
+      "passed": true
+    },
+    {
+      "language": "zh-cmn-Hans-CN",
+      "passed": true
+    },
+    {
+      "language": "en_US",
+      "passed": true
+    },
+    {
+      "language": "english words",
+      "passed": true
+    },
+    {
+      "language": "en-",
+      "passed": true
+    },
+    {
+      "language": "en-a",
+      "passed": true
+    },
+    {
+      "language": "x",
+      "passed": true
+    },
+    {
+      "language": "en-a-foo-a-bar",
+      "passed": true
+    },
+    {
+      "language": "de-1901-1901",
+      "passed": true
+    },
+    {
+      "language": "en-abcdefghi",
+      "passed": true
+    },
+    {
+      "language": "en-x-",
+      "passed": true
+    },
+    {
+      "group": "dates",
+      "input": "2026-10-05",
+      "passed": true
+    },
+    {
+      "group": "dates",
+      "input": "2024-02-29",
+      "passed": true
+    },
+    {
+      "group": "dates",
+      "input": "2026-02-29",
+      "passed": true
+    },
+    {
+      "group": "dates",
+      "input": "0000-01-01",
+      "passed": true
+    },
+    {
+      "group": "dates",
+      "input": "2026-1-1",
+      "passed": true
+    },
+    {
+      "group": "timestamps",
+      "input": "2026-10-05T00:00:00Z",
+      "passed": true
+    },
+    {
+      "group": "timestamps",
+      "input": "2026-10-05T00:00:00.123Z",
+      "passed": true
+    },
+    {
+      "group": "timestamps",
+      "input": "2016-12-31T23:59:60Z",
+      "passed": true
+    },
+    {
+      "group": "timestamps",
+      "input": "2026-02-30T00:00:00Z",
+      "passed": true
+    },
+    {
+      "group": "timestamps",
+      "input": "2026-10-05T24:00:00Z",
+      "passed": true
+    },
+    {
+      "group": "timestamps",
+      "input": "2026-10-05T00:60:00Z",
+      "passed": true
+    },
+    {
+      "group": "timestamps",
+      "input": "2026-10-05T00:00:60Z",
+      "passed": true
+    },
+    {
+      "group": "timestamps",
+      "input": "2026-10-05T00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "normalized": "aster-9",
+      "passed": true
+    },
+    {
+      "normalized": "a b",
+      "passed": true
+    },
+    {
+      "normalized": "سلام",
+      "passed": true
+    },
+    {
+      "normalized": "a b",
+      "passed": true
+    }
+  ],
+  "purpose": "ACTUAL_ANDROID_SIGNED_DB_FTS_METADATA_PROVENANCE_AND_FORMAT_GATE",
+  "limits": "Synthetic translation/reviewer/calibration records test field rules only; no genuine official/human review or release calibration claim",
+  "corpus": {
+    "cases": [
+      {
+        "id": "valid-db",
+        "filename": "valid-db.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "caf1f7e3d10aadba7fb952055c6b35529714c31e3089270c0440fe6121439047",
+        "construction": {
+          "id": "valid-db",
+          "accept": true
+        }
+      },
+      {
+        "id": "empty-locator",
+        "filename": "empty-locator.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "284bb3b0f3ddfad17da9321b00b2efaad6ccf7d61ebaa35d83e03c1872ac4fa7",
+        "construction": {
+          "id": "empty-locator",
+          "accept": false,
+          "sql": [
+            "UPDATE chunks SET locator='' WHERE dense_row=0"
+          ]
+        }
+      },
+      {
+        "id": "empty-canonical",
+        "filename": "empty-canonical.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "babef352ea17275c33d165d27c65c6545a10238d4c9794286ad7aa1511663148",
+        "construction": {
+          "id": "empty-canonical",
+          "accept": false,
+          "sql": [
+            "UPDATE chunks SET canonical_text='',text_sha256='e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855' WHERE dense_row=0"
+          ]
+        }
+      },
+      {
+        "id": "wrong-canonical-hash",
+        "filename": "wrong-canonical-hash.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "eb86c578b66015977ea2ade6293d82d3b07048bf93745f7d031a4a7b9538e7b8",
+        "construction": {
+          "id": "wrong-canonical-hash",
+          "accept": false,
+          "sql": [
+            "UPDATE chunks SET text_sha256=printf('%064d',0) WHERE dense_row=0"
+          ]
+        }
+      },
+      {
+        "id": "dangling-source-alias",
+        "filename": "dangling-source-alias.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "1cf04f62b5024915d4d16b1f2bd6ee86a3ce0de0c370b1021851bfdea4750af0",
+        "construction": {
+          "id": "dangling-source-alias",
+          "accept": false,
+          "sql": [
+            "INSERT INTO aliases VALUES('missing','missing','source','absent-source','synonym')"
+          ]
+        }
+      },
+      {
+        "id": "dangling-chunk-alias",
+        "filename": "dangling-chunk-alias.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "83d772dac97cc277336e7b7f2c157d3b023088538321410b5c3e75b3f6a1beaf",
+        "construction": {
+          "id": "dangling-chunk-alias",
+          "accept": false,
+          "sql": [
+            "INSERT INTO aliases VALUES('missing','missing','chunk','absent-chunk','synonym')"
+          ]
+        }
+      },
+      {
+        "id": "bad-alias-normalization",
+        "filename": "bad-alias-normalization.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "03729f96f1ea939aab37dae56333899c79e7235fad64da7aa703186a06b55dfc",
+        "construction": {
+          "id": "bad-alias-normalization",
+          "accept": false,
+          "sql": [
+            "UPDATE aliases SET normalized_alias=upper(normalized_alias)"
+          ]
+        }
+      },
+      {
+        "id": "unicode-alias-normalization",
+        "filename": "unicode-alias-normalization.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "c82cddf1db1494691c920a54819ae2afc4ed09d9fe5de4938f6ef499544e3316",
+        "construction": {
+          "id": "unicode-alias-normalization",
+          "accept": true,
+          "sql": [
+            "UPDATE aliases SET alias=char(133)||'ＡＳＴＥＲ-９'||char(133) WHERE normalized_alias='aster-9'"
+          ]
+        }
+      },
+      {
+        "id": "dangling-relation",
+        "filename": "dangling-relation.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "8491dc8ffde1f7822512f009dab0ec2c2065888ff6bc8abffb58fb3376c33d88",
+        "construction": {
+          "id": "dangling-relation",
+          "accept": false,
+          "relation": {
+            "target": "absent-chunk",
+            "type": "cites",
+            "provenance": "explicit-reference",
+            "confidence": 1
+          }
+        }
+      },
+      {
+        "id": "bad-relation-kind",
+        "filename": "bad-relation-kind.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "fbaba9544a14d9e5caeaac61cdaa7ccdb184e76a8f396031c7dca56d4fd2b578",
+        "construction": {
+          "id": "bad-relation-kind",
+          "accept": false,
+          "relation": {
+            "type": "exec",
+            "provenance": "curated",
+            "confidence": 1
+          }
+        }
+      },
+      {
+        "id": "bad-relation-provenance",
+        "filename": "bad-relation-provenance.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "2cebdb7ac82f0d7603682313a45084744830ba7146ea0f58790e3c9bc7f76046",
+        "construction": {
+          "id": "bad-relation-provenance",
+          "accept": false,
+          "relation": {
+            "type": "cites",
+            "provenance": "unverified-model-guess",
+            "confidence": 1
+          }
+        }
+      },
+      {
+        "id": "valid-relation",
+        "filename": "valid-relation.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "f1c2e805ab503110f5e06639bca4499f9b9e4ce3a6555f24ff2815c56f79c685",
+        "construction": {
+          "id": "valid-relation",
+          "accept": true,
+          "relation": {
+            "type": "cites",
+            "provenance": "explicit-reference",
+            "confidence": 0.9
+          }
+        }
+      },
+      {
+        "id": "bad-legal-status",
+        "filename": "bad-legal-status.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "d47bf01d7a80c50f36ed1c3114a18efd03b3a03f8068727776da1c0f06530755",
+        "construction": {
+          "id": "bad-legal-status",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET legal_status='certainly-current'"
+          ]
+        }
+      },
+      {
+        "id": "bad-source-retrieved-date",
+        "filename": "bad-source-retrieved-date.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "927b2134d349c3de67a786d486aeaefc27b3b8485c6338360adf576dee51e4a2",
+        "construction": {
+          "id": "bad-source-retrieved-date",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET retrieved_at='2026-02-30'"
+          ]
+        }
+      },
+      {
+        "id": "bad-source-clock",
+        "filename": "bad-source-clock.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "314f6515a0599b063d5ffd6f7f68c73153e194a07b759b6e8921a537d14f3ced",
+        "construction": {
+          "id": "bad-source-clock",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET retrieved_at='2026-10-05T24:00:00Z'"
+          ]
+        }
+      },
+      {
+        "id": "bad-source-interval",
+        "filename": "bad-source-interval.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "ad0b20030d87439e7e25ba797fd3c255b6acc4fa1ac7f67c942f9483e804befb",
+        "construction": {
+          "id": "bad-source-interval",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET effective_from='2027-01-01',effective_until_excl='2026-01-01'"
+          ]
+        }
+      },
+      {
+        "id": "bad-chunk-date",
+        "filename": "bad-chunk-date.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "38e2ff5c5556728dbd808a06c76e981f8c02f238485037646727a832bd535b15",
+        "construction": {
+          "id": "bad-chunk-date",
+          "accept": false,
+          "sql": [
+            "UPDATE chunks SET effective_from='2026-02-30' WHERE dense_row=0"
+          ]
+        }
+      },
+      {
+        "id": "bad-chunk-interval",
+        "filename": "bad-chunk-interval.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "b015894859980039b3718f6602960ea7509ec852d9cc55d96388dafb439b3eb9",
+        "construction": {
+          "id": "bad-chunk-interval",
+          "accept": false,
+          "sql": [
+            "UPDATE chunks SET effective_from='2027-01-01',effective_until_excl='2026-01-01' WHERE dense_row=0"
+          ]
+        }
+      },
+      {
+        "id": "undeclared-jurisdiction",
+        "filename": "undeclared-jurisdiction.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "cc8ce9f71e7ba17c5b597df76646ae7717366c62096e8b4a9ade570fb26b64f2",
+        "construction": {
+          "id": "undeclared-jurisdiction",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET jurisdiction='MA'"
+          ]
+        }
+      },
+      {
+        "id": "valid-jurisdiction",
+        "filename": "valid-jurisdiction.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "655fd2aeac42a8119de104d5f23e9f0b38e2c740964a8b58ae084606f8e77060",
+        "construction": {
+          "id": "valid-jurisdiction",
+          "accept": true,
+          "sql": [
+            "UPDATE sources SET jurisdiction='MA'"
+          ],
+          "manifest": {
+            "jurisdictions": [
+              "MA"
+            ]
+          }
+        }
+      },
+      {
+        "id": "undeclared-source-language",
+        "filename": "undeclared-source-language.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "8a12b3d8dac5656caa5dc1fd2874a3d7c3536152dad490aadcee2a837618f827",
+        "construction": {
+          "id": "undeclared-source-language",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET language='fr'"
+          ]
+        }
+      },
+      {
+        "id": "valid-language-variant",
+        "filename": "valid-language-variant.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "2b4760d8bb38c79736bdc075bb73d1e8a198203008baa1a52c385614c18526ff",
+        "construction": {
+          "id": "valid-language-variant",
+          "accept": true,
+          "sql": [
+            "UPDATE sources SET language='en-US'"
+          ],
+          "manifest": {
+            "languages": [
+              "en-US"
+            ]
+          }
+        }
+      },
+      {
+        "id": "source-hash-invalid",
+        "filename": "source-hash-invalid.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "1e388e5cd228397d58b76ce004df4ce05808023b54ded68f9714118d891866dd",
+        "construction": {
+          "id": "source-hash-invalid",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET sha256_original='AUTO'"
+          ]
+        }
+      },
+      {
+        "id": "negative-authority",
+        "filename": "negative-authority.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "daf41f80b4119e9204b05eb02fb036dd4adbbbf326a86955e1f2edf5b8dc79c1",
+        "construction": {
+          "id": "negative-authority",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET authority_rank=-1"
+          ]
+        }
+      },
+      {
+        "id": "snapshot-traversal",
+        "filename": "snapshot-traversal.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "0c7f5132b04eed9579ea974edb648ef938df66acdb4def1f530cba4c3215f640",
+        "construction": {
+          "id": "snapshot-traversal",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET snapshot_path='../private.txt'"
+          ]
+        }
+      },
+      {
+        "id": "snapshot-undeclared",
+        "filename": "snapshot-undeclared.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "c8d06b40e26c9ac76c210c59c480682cda67cd652f245d111d639dddff503754",
+        "construction": {
+          "id": "snapshot-undeclared",
+          "accept": false,
+          "sql": [
+            "UPDATE sources SET snapshot_path='sources/missing.txt'"
+          ]
+        }
+      },
+      {
+        "id": "valid-snapshot",
+        "filename": "valid-snapshot.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "f0d7151eff35f174b37aa9ea3fac2bd6b70038b258875213b332345abade1b57",
+        "construction": {
+          "id": "valid-snapshot",
+          "accept": true,
+          "snapshot": true
+        }
+      },
+      {
+        "id": "snapshot-wrong-original-hash",
+        "filename": "snapshot-wrong-original-hash.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "94ec150589fd1df21fd700df1978450f8b50981777a08b7fd6060d00284fae37",
+        "construction": {
+          "id": "snapshot-wrong-original-hash",
+          "accept": false,
+          "snapshot": true,
+          "sql": [
+            "UPDATE sources SET sha256_original=printf('%064d',0)"
+          ]
+        }
+      },
+      {
+        "id": "reverse-character-location",
+        "filename": "reverse-character-location.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "2d666d2acf57eee07a874cb550a4b50cffb61984896f05e10de900eb20910175",
+        "construction": {
+          "id": "reverse-character-location",
+          "accept": false,
+          "sql": [
+            "UPDATE chunks SET character_start=9,character_end=1 WHERE dense_row=0"
+          ]
+        }
+      },
+      {
+        "id": "invalid-page-location",
+        "filename": "invalid-page-location.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "8f8821e8364c901c657ae66e41381aeb8808988df2edb23067ed87e8ed406b1c",
+        "construction": {
+          "id": "invalid-page-location",
+          "accept": false,
+          "sql": [
+            "UPDATE chunks SET page_start=0 WHERE dense_row=0"
+          ]
+        }
+      },
+      {
+        "id": "wrong-storage-type",
+        "filename": "wrong-storage-type.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "164ed0fcc7f7f4d244fd5158857f8c5c88d114361d7eb907e40d84830e4559b8",
+        "construction": {
+          "id": "wrong-storage-type",
+          "accept": false,
+          "sql": [
+            "UPDATE chunks SET canonical_text=X'AABB' WHERE dense_row=0"
+          ]
+        }
+      },
+      {
+        "id": "missing-alias-index",
+        "filename": "missing-alias-index.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "991fd536ee649fa43ad1fb83a4b7803063a583e4fbd43e6bbeda98af3f140166",
+        "construction": {
+          "id": "missing-alias-index",
+          "accept": false,
+          "sql": [
+            "DROP INDEX aliases_norm_idx"
+          ]
+        }
+      },
+      {
+        "id": "missing-check-constraint",
+        "filename": "missing-check-constraint.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "3fc782dd941aef1e6db9af9ebdb94982ba09e803a9b0246b842e486b31289166",
+        "construction": {
+          "id": "missing-check-constraint",
+          "accept": false,
+          "sql": [
+            "PRAGMA writable_schema=ON",
+            "UPDATE sqlite_master SET sql=replace(sql,' CHECK(redistribution_allowed IN (0,1))','') WHERE name='sources'",
+            "PRAGMA writable_schema=OFF"
+          ]
+        }
+      },
+      {
+        "id": "wrong-fts-columns",
+        "filename": "wrong-fts-columns.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "bb82c2dc3add993ece35cd0ad6edb85c3672a2fb8c7655c4c827ecf961655f9a",
+        "construction": {
+          "id": "wrong-fts-columns",
+          "accept": false,
+          "sql": [
+            "DROP TABLE chunks_fts",
+            "CREATE VIRTUAL TABLE chunks_fts USING fts5(title,section,article,search_text,locator,content='chunks',content_rowid='rowid',tokenize='unicode61 remove_diacritics 2')"
+          ]
+        }
+      },
+      {
+        "id": "extra-trigger",
+        "filename": "extra-trigger.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "70f12c8e9ba9e33c823cfdd274c457f412dbcbca4d011686889b9d2c557b1734",
+        "construction": {
+          "id": "extra-trigger",
+          "accept": false,
+          "sql": [
+            "CREATE TRIGGER untrusted_trigger AFTER INSERT ON sources BEGIN SELECT 1; END"
+          ]
+        }
+      },
+      {
+        "id": "broken-fts-index",
+        "filename": "broken-fts-index.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "d55db208a6501dd4725aa3078ddbbab4f94371b9d51e2aa8207800427a70a4ba",
+        "construction": {
+          "id": "broken-fts-index",
+          "accept": false,
+          "after_rebuild_sql": [
+            "INSERT INTO chunks_fts(chunks_fts) VALUES('delete-all')"
+          ]
+        }
+      },
+      {
+        "id": "broken-sqlite-header",
+        "filename": "broken-sqlite-header.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "8851ef712fe46cf9ccdc859288ba941d599417c20e5fbd903b4bebad0f37ca95",
+        "construction": {
+          "id": "broken-sqlite-header",
+          "accept": false,
+          "corrupt_header": true
+        }
+      },
+      {
+        "id": "valid-official-derived-metadata",
+        "filename": "valid-official-derived-metadata.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "ea925319651f631cdeaa5ee3d1f7e87e9820f33474c4503075e5d1d6fb97abff",
+        "construction": {
+          "id": "valid-official-derived-metadata",
+          "accept": true,
+          "derived": {
+            "method": "official_translation"
+          }
+        }
+      },
+      {
+        "id": "valid-human-derived-metadata",
+        "filename": "valid-human-derived-metadata.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "4506aef767a85d51313a0efd2ecb54d26a730ae7f891e52a9fca30b139375593",
+        "construction": {
+          "id": "valid-human-derived-metadata",
+          "accept": true,
+          "derived": {
+            "method": "human_reviewed_translation"
+          }
+        }
+      },
+      {
+        "id": "derived-no-reviewer",
+        "filename": "derived-no-reviewer.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "169fdb6ea537f4dda00d77470e8dca7ca8f0410b9a2adb267c5b389eb139d3e4",
+        "construction": {
+          "id": "derived-no-reviewer",
+          "accept": false,
+          "derived": {
+            "method": "human_reviewed_translation",
+            "reviewer": null
+          }
+        }
+      },
+      {
+        "id": "derived-bad-reviewed-date",
+        "filename": "derived-bad-reviewed-date.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "73be1357a722f3fe5989644aa58b52005342dfc1fe4fea42d7bb833d83f5926e",
+        "construction": {
+          "id": "derived-bad-reviewed-date",
+          "accept": false,
+          "derived": {
+            "method": "human_reviewed_translation",
+            "reviewed_at": "2026-02-30"
+          }
+        }
+      },
+      {
+        "id": "derived-no-provenance",
+        "filename": "derived-no-provenance.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "e8f7654d510ea72de538cd78f734fa34ba2be805c450e0483a0522e10528eee0",
+        "construction": {
+          "id": "derived-no-provenance",
+          "accept": false,
+          "derived": {
+            "method": "official_translation",
+            "source": null
+          }
+        }
+      },
+      {
+        "id": "derived-unknown-method",
+        "filename": "derived-unknown-method.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "5a0eebfb59b0fd310a42d042e946bf7600b09e075aebb48df0a29390897f64b1",
+        "construction": {
+          "id": "derived-unknown-method",
+          "accept": false,
+          "derived": {
+            "method": "automatic-trust-me"
+          }
+        }
+      },
+      {
+        "id": "machine-draft-developer",
+        "filename": "machine-draft-developer.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "92eab14ab34af945d5c6634a25de02dc798708171d4e0b1d545723d53a4bd2ea",
+        "construction": {
+          "id": "machine-draft-developer",
+          "accept": true,
+          "derived": {
+            "method": "machine_draft"
+          }
+        }
+      },
+      {
+        "id": "machine-draft-release",
+        "filename": "machine-draft-release.kpack",
+        "accept": false,
+        "developer_mode": false,
+        "sha256": "a306a0c3394e936fd3a0bf20b330094c7ad7d93c60320b5e2386b15ca46ee583",
+        "construction": {
+          "id": "machine-draft-release",
+          "accept": false,
+          "developer_mode": false,
+          "calibrated": true,
+          "derived": {
+            "method": "machine_draft"
+          }
+        }
+      },
+      {
+        "id": "derived-hash-mismatch",
+        "filename": "derived-hash-mismatch.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "ce1102f610e2a927c956a957817974dec83a000af872bf85ac3015948b2430ba",
+        "construction": {
+          "id": "derived-hash-mismatch",
+          "accept": false,
+          "derived": {
+            "method": "official_translation",
+            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+          }
+        }
+      },
+      {
+        "id": "derived-undeclared-language",
+        "filename": "derived-undeclared-language.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "545dac48eac100c96e6b44cd23490fc617015527ef82c55e54fd84607164c901",
+        "construction": {
+          "id": "derived-undeclared-language",
+          "accept": false,
+          "derived": {
+            "method": "official_translation",
+            "language": "fr"
+          }
+        }
+      },
+      {
+        "id": "derived-dangling-chunk",
+        "filename": "derived-dangling-chunk.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "2d315a4b1b68acbdb64dbe9b0086b2007c3a7aa2612d0ac910f4b6748a43da09",
+        "construction": {
+          "id": "derived-dangling-chunk",
+          "accept": false,
+          "derived": {
+            "method": "official_translation",
+            "chunk_id": "absent-chunk"
+          }
+        }
+      }
+    ],
+    "public_key_sha256": "7dabd3de66d40538524e040009918309f19db534649b6cca7380094cde406579",
+    "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "purpose": "SIGNED_AUTHENTICATED_DB_NEGATIVES_NOT_REVIEWED_RELEASE_PROVENANCE",
+    "private_seed": "EPHEMERAL_NOT_SAVED",
+    "script_sha256": "6cd0bd8495db4f30714026847d69e8043556e8c6e1405bd19b827595d7fb099c"
+  }
+}

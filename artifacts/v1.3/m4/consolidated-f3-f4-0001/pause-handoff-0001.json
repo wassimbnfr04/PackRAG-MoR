@@ -1,0 +1,47 @@
+{
+  "status": "HUMAN_REQUESTED_PAUSE_AFTER_TERMINAL_HOST_TESTS_NOT_M4_ACCEPTANCE",
+  "recorded_utc": "2026-10-12T02:44:01.982007+00:00",
+  "tests_killed": false,
+  "known_running_tests": 0,
+  "new_phone_tests_this_cycle": 0,
+  "phone_last_verified_pair": "debug0081; no new install this cycle",
+  "debug_build": "build-0087",
+  "android_inputs": 623,
+  "host_methods": 91,
+  "fresh_complete_python": {
+    "tests": 1035,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "matching_demo_0088_started": false,
+  "m4_complete": false,
+  "raw_proof_sha256": {
+    "artifacts/v1.3/m4/build-0087/build-result.json": "e1518913b179a7d4dac79e5d2a2840614ddc40a877aee07f3db0dc510281aca1",
+    "artifacts/v1.3/m4/build-0087/host-test-summary.json": "e134371de952059b0a8e4b17517f872210737a6b72a9b191ca911f8aa93f6921",
+    "artifacts/v1.3/m4/consolidated-f3-f4-0001/build-0087-capture.json": "004f0f507cb27b42251301127bf625c7a69c676a5cb394e35560b99316d0388a",
+    "artifacts/v1.3/m4/consolidated-f3-f4-0001/python-full-0002/execution.json": "aedac655a897f402fc9762d26261bc839d0ac7d1aaf67276bd2bc5e5c123b36a"
+  },
+  "current_document_sha256": {
+    "STATUS.md": "1c52b65160faf4290e4c4169a58db6bf62f1ce0f73316c6b279544463099dc67",
+    "PLAN.md": "b02d6497a7473d21f140ad781d8d5a8be405e87ea4f11ba9143cde590a2df256",
+    "DECISIONS.md": "1e3cb1e33120681202025c677a024f039de248c25496c374f0dee27aa6b71c07",
+    "docs/v1.3/FULL_DOCUMENTATION_WORKING.md": "b7a3dc4cec23126112e57276c9edd8ce9f565f099c9fad543d56f1c4518f044a",
+    "docs/v1.3/M4_IMPLEMENTATION_LOG.md": "c34397c450996b1bab87e8f57d26c4c26a6d7658932a0699e9a9ca5f1dcedc50"
+  },
+  "resume_actions": [
+    "matching final-source demo/policy build",
+    "consolidated fixed device controller/matrix plus isolated legacy GUI test setup",
+    "final-source physical background security/import/policy/parity/native/lifecycle/asset regressions",
+    "fresh owner-available foreground window, UI tests and original PNG review",
+    "versioned desktop walking smoke, custody/traceability, M4 closure/checkpoint"
+  ],
+  "constraints": [
+    "Stop development and launches until owner resumes",
+    "Mobile data remains on",
+    "Historical experiment outputs immutable",
+    "Final owner knowledge packs excluded",
+    "No private signing custody or sealed pytest-temp traversal/hash/export",
+    "Preserve owner data and unrelated repository changes"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "valid",
+      "passed": true,
+      "accept": true
+    },
+    {
+      "id": "one-byte-knowledge-sqlite",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "one-byte-dense-kdx",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "wrong-signature",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "unknown-signer",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "wrong-message",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "missing-signature",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "broken-db-header",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-magic",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-version",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-dtype",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-metric",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-dimension",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-flags",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-count",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-profile-hash",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-mapping-hash",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-truncated",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-extra-byte",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-nan",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-positive-infinity",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-negative-infinity",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-norm-zero",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-norm-small",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-norm-large",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "kdx-norm-near-low",
+      "passed": true,
+      "accept": true
+    },
+    {
+      "id": "kdx-norm-near-high",
+      "passed": true,
+      "accept": true
+    },
+    {
+      "id": "kdx-norm-negative-unit",
+      "passed": true,
+      "accept": true
+    },
+    {
+      "id": "pack-id-255",
+      "passed": true,
+      "accept": true
+    },
+    {
+      "id": "version-255",
+      "passed": true,
+      "accept": true
+    },
+    {
+      "id": "pack-id-256",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "version-256",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "json-depth-33",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "json-depth-4096",
+      "passed": true,
+      "accept": false
+    },
+    {
+      "id": "noncanonical-signed",
+      "passed": true,
+      "accept": false
+    }
+  ],
+  "raw_signature_vectors": [
+    {
+      "id": "valid-manifest",
+      "passed": true
+    },
+    {
+      "id": "signed-depth-32",
+      "passed": true
+    },
+    {
+      "id": "signed-depth-33",
+      "passed": true
+    },
+    {
+      "id": "signed-depth-4096",
+      "passed": true
+    },
+    {
+      "id": "quoted-brackets-escapes",
+      "passed": true
+    },
+    {
+      "id": "unknown-before-depth",
+      "passed": true
+    },
+    {
+      "id": "malformed-utf8",
+      "passed": true
+    },
+    {
+      "id": "duplicate-json-keys",
+      "passed": true
+    }
+  ],
+  "json_bounds": [
+    {
+      "id": "array-depth-1",
+      "passed": true
+    },
+    {
+      "id": "array-depth-31",
+      "passed": true
+    },
+    {
+      "id": "array-depth-32",
+      "passed": true
+    },
+    {
+      "id": "array-depth-33",
+      "passed": true
+    },
+    {
+      "id": "array-depth-4096",
+      "passed": true
+    },
+    {
+      "id": "quoted-depth",
+      "passed": true
+    },
+    {
+      "id": "escaped-quote",
+      "passed": true
+    },
+    {
+      "id": "scalar",
+      "passed": true
+    },
+    {
+      "id": "unbalanced",
+      "passed": true
+    },
+    {
+      "id": "unterminated-array",
+      "passed": true
+    },
+    {
+      "id": "unterminated-string",
+      "passed": true
+    }
+  ],
+  "eight_distinct_keys_and_five_rejected_sets": true,
+  "prior_active_original_hashes_preserved": true,
+  "failed_staging_cleaned": true,
+  "caller_inputs_unchanged": true,
+  "limits": "Synthetic security vectors; no release calibration, source truth or exhaustive fuzzing claim. 255-byte identity components install on this physical filesystem; release publisher trust is a separate gate."
+}

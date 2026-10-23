@@ -1,0 +1,74 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.ProductAccessibilityUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.ProductAccessibilityUiTest:
+INSTRUMENTATION_STATUS: test=largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ProductAccessibilityUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.ProductAccessibilityUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ProductAccessibilityUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: expected:<[org.packrag.product]> but was:<[com.sec.android.app.launcher]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ProductUiTestSupport.foreground(ProductUiTestSupport.kt:34)
+	at org.packrag.product.ProductUiTestSupport.ready(ProductUiTestSupport.kt:37)
+	at org.packrag.product.ProductAccessibilityUiTest.realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult$lambda$0(ProductAccessibilityUiTest.kt:25)
+	at org.packrag.product.ProductAccessibilityUiTest$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:54)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:43)
+	at org.packrag.product.ProductAccessibilityUiTest.realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult(ProductAccessibilityUiTest.kt:24)
+
+INSTRUMENTATION_STATUS: stream=
+Error in realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult(org.packrag.product.ProductAccessibilityUiTest):
+org.junit.ComparisonFailure: expected:<[org.packrag.product]> but was:<[com.sec.android.app.launcher]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ProductUiTestSupport.foreground(ProductUiTestSupport.kt:34)
+	at org.packrag.product.ProductUiTestSupport.ready(ProductUiTestSupport.kt:37)
+	at org.packrag.product.ProductAccessibilityUiTest.realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult$lambda$0(ProductAccessibilityUiTest.kt:25)
+	at org.packrag.product.ProductAccessibilityUiTest$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:54)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:43)
+	at org.packrag.product.ProductAccessibilityUiTest.realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult(ProductAccessibilityUiTest.kt:24)
+
+INSTRUMENTATION_STATUS: test=realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 28,075
+There was 1 failure:
+1) realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult(org.packrag.product.ProductAccessibilityUiTest)
+org.junit.ComparisonFailure: expected:<[org.packrag.product]> but was:<[com.sec.android.app.launcher]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ProductUiTestSupport.foreground(ProductUiTestSupport.kt:34)
+	at org.packrag.product.ProductUiTestSupport.ready(ProductUiTestSupport.kt:37)
+	at org.packrag.product.ProductAccessibilityUiTest.realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult$lambda$0(ProductAccessibilityUiTest.kt:25)
+	at org.packrag.product.ProductAccessibilityUiTest$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:54)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:43)
+	at org.packrag.product.ProductAccessibilityUiTest.realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult(ProductAccessibilityUiTest.kt:24)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
+

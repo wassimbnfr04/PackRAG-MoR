@@ -1,0 +1,24 @@
+{
+  "status": "FIRST_ACTUAL_POLICY_RUNNER_LOG_OBSERVED_NOT_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T21:22:55.066667+00:00",
+  "actual_observed_pid": 7886,
+  "first_policy_start": "10-10 21:22:32.110  7886  7960 I TestRunner: started: approvedNativeDiagnosticsAndRejectedDeveloperImportKeepPolicyAndResultOwnership(org.packrag.product.DiagnosticPolicyDeviceTest)",
+  "pid_argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "shell",
+    "pidof",
+    "org.packrag.product"
+  ],
+  "pid_stdout": "7886\n",
+  "log_argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "logcat",
+    "-d",
+    "-s",
+    "TestRunner:I"
+  ]
+}

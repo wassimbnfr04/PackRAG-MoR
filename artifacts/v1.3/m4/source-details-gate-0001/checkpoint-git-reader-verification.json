@@ -1,0 +1,24 @@
+{
+  "status": "PASS_READ_ONLY_REAL_GIT_BINARY_TEXT_MISSING_AND_INDEX_COMPARISON_NOT_STAGING_OR_COMMIT",
+  "cases": [
+    {
+      "path": "product/android/app/build.gradle.kts",
+      "bytes": 2456,
+      "sha256": "5e32008cb8a8a29caa39233f51893e4f62e575938836668ea4c81d9929225650"
+    },
+    {
+      "path": "docs/v1.3/M4E1_METHODS.md",
+      "bytes": 14398,
+      "sha256": "66e9e6d5a1368359db1151f281290def04b82529b108645a2814c31fbac93dda"
+    },
+    {
+      "path": "product/android/app/src/androidTest/assets/archive-corpus/absolute.kpack",
+      "bytes": 21776,
+      "sha256": "0ecf6a842dc62f750569b9758913d300de9773c08570b626f7065ce85ec24676"
+    }
+  ],
+  "missing_path_with_spaces": true,
+  "zero_input": true,
+  "library_sha256": "25514d973485b8b166a6696da8fb313a92c1d02610a36672111e262b5443021a",
+  "scope": "Exact byte comparison to independent git show on text/binary/missing and current index; no index or repository mutation."
+}

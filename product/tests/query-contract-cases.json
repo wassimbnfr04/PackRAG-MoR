@@ -1,0 +1,349 @@
+{
+  "purpose": "SHARED_SYNTHETIC_QUERY_DATE_SCALAR_WORD_ALIAS_CONTRACT_NOT_LANGUAGE_OR_GOLD_REVIEW",
+  "query_cases": [
+    {
+      "id": "valid-default",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-low-year",
+      "raw": "What is Aster-9?",
+      "as_of": "0001-01-01",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-high-year",
+      "raw": "What is Aster-9?",
+      "as_of": "9999-12-31",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-leap",
+      "raw": "What is Aster-9?",
+      "as_of": "2024-02-29",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-jurisdiction",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06",
+      "jurisdiction": "MA",
+      "current_law": true,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-subdivision",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06",
+      "jurisdiction": "MA-CAS",
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-numeric-subdivision",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06",
+      "jurisdiction": "MA-123",
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-supplementary",
+      "raw": "What is \ud801\udc00?",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-nul-deferred-prompt-admission",
+      "raw": "A\u0000B",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "valid-compatibility",
+      "raw": " \uff21\uff53\uff54\uff45\uff52\uff0d\uff19  temperature? ",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": true,
+      "error": null
+    },
+    {
+      "id": "zero-year",
+      "raw": "What is Aster-9?",
+      "as_of": "0000-01-01",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_DATE"
+    },
+    {
+      "id": "compact",
+      "raw": "What is Aster-9?",
+      "as_of": "20261006",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_DATE"
+    },
+    {
+      "id": "week-date",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-W41-2",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_DATE"
+    },
+    {
+      "id": "invalid-leap",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-02-29",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_DATE"
+    },
+    {
+      "id": "invalid-day",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-04-31",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_DATE"
+    },
+    {
+      "id": "signed-year",
+      "raw": "What is Aster-9?",
+      "as_of": "+2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_DATE"
+    },
+    {
+      "id": "space",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06 ",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_DATE"
+    },
+    {
+      "id": "month-zero",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-00-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_DATE"
+    },
+    {
+      "id": "lower-jurisdiction",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06",
+      "jurisdiction": "ma",
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_JURISDICTION"
+    },
+    {
+      "id": "long-jurisdiction",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06",
+      "jurisdiction": "MA-ABCD",
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_JURISDICTION"
+    },
+    {
+      "id": "empty-jurisdiction",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06",
+      "jurisdiction": "",
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_JURISDICTION"
+    },
+    {
+      "id": "spaced-jurisdiction",
+      "raw": "What is Aster-9?",
+      "as_of": "2026-10-06",
+      "jurisdiction": " MA",
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_JURISDICTION"
+    },
+    {
+      "id": "empty",
+      "raw": "",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "EMPTY_QUESTION"
+    },
+    {
+      "id": "whitespace",
+      "raw": " \t\u0085",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "EMPTY_QUESTION"
+    },
+    {
+      "id": "removed-arabic-only",
+      "raw": "\u0640\u064b\u0670",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "EMPTY_QUESTION"
+    },
+    {
+      "id": "unpaired-high",
+      "raw": "\ud800",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_TEXT"
+    },
+    {
+      "id": "unpaired-low",
+      "raw": "\udc00",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_TEXT"
+    },
+    {
+      "id": "high-before-ascii",
+      "raw": "\ud800x",
+      "as_of": "2026-10-06",
+      "jurisdiction": null,
+      "current_law": false,
+      "accept": false,
+      "error": "INVALID_QUERY_TEXT"
+    }
+  ],
+  "word_cases": [
+    {
+      "raw": "foo-Bar \uff11\uff12\uff13 \ud801\udc00",
+      "terms": [
+        "123",
+        "bar",
+        "foo",
+        "\ud801\udc28"
+      ]
+    },
+    {
+      "raw": "caf\u00e9 e\u0301",
+      "terms": [
+        "caf\u00e9",
+        "\u00e9"
+      ]
+    },
+    {
+      "raw": "a!b_c\u00b2",
+      "terms": [
+        "a",
+        "b_c2"
+      ]
+    },
+    {
+      "raw": "\u0301",
+      "terms": []
+    },
+    {
+      "raw": "\ud838\udc309",
+      "terms": [
+        "\u04309"
+      ]
+    }
+  ],
+  "alias_cases": [
+    {
+      "text": "Aster-9!",
+      "alias": "Aster-9",
+      "matched": true
+    },
+    {
+      "text": "\u0627Aster-9",
+      "alias": "Aster-9",
+      "matched": false
+    },
+    {
+      "text": "\ud801\udc28Aster-9",
+      "alias": "Aster-9",
+      "matched": false
+    },
+    {
+      "text": "\u0301Aster-9!",
+      "alias": "Aster-9",
+      "matched": true
+    },
+    {
+      "text": "Aster-9_",
+      "alias": "Aster-9",
+      "matched": false
+    },
+    {
+      "text": "xAster-9 Aster-9",
+      "alias": "Aster-9",
+      "matched": true
+    },
+    {
+      "text": "Aster-9Aster-9",
+      "alias": "Aster-9",
+      "matched": false
+    },
+    {
+      "text": "\u0000Aster-9\u0000",
+      "alias": "Aster-9",
+      "matched": true
+    },
+    {
+      "text": "\ud838\udc309",
+      "alias": "\u04309",
+      "matched": true
+    },
+    {
+      "text": "Aster-90",
+      "alias": "Aster-9",
+      "matched": false
+    },
+    {
+      "text": "anything",
+      "alias": "",
+      "matched": false
+    }
+  ]
+}

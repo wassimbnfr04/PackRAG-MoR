@@ -1,0 +1,19 @@
+{
+  "status": "PASS_ANDROID_SHELL_SYNTAX_ONLY_NO_COMMAND_EXECUTION",
+  "created_utc": "2026-10-11T21:46:46.470310+00:00",
+  "cleanup_source_sha256": "355d2edc49a98e2aac2738154fa2a2e22322c4f0f63298639ec92cfbc3ebdedc",
+  "cleanup_command_sha256": "587f2c24453a10163355042f7427f8fa0ef5383ac168bdbd7b2ca750505c7839",
+  "command": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "shell",
+      "sh -n -c 'set -eu; test -d files; test ! -L files; root=files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; test -d \"$root\"; test ! -L \"$root\"; test \"$(readlink -f \"$root\")\" = /data/user/0/org.packrag.product/files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; test \"$(ls -A \"$root\")\" = \"models\nregistry\"; test -d \"$root/models\"; test ! -L \"$root/models\"; test -d \"$root/registry\"; test ! -L \"$root/registry\"; test -d \"$root/registry/.staging\"; test ! -L \"$root/registry/.staging\"; test -d \"$root/registry/packs\"; test ! -L \"$root/registry/packs\"; test -f \"$root/models/chat_template.jinja\"; test ! -L \"$root/models/chat_template.jinja\"; test \"$(wc -c < \"$root/models/chat_template.jinja\")\" -eq 5443; test \"$(sha256sum \"$root/models/chat_template.jinja\" | cut -d \" \" -f 1)\" = ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef; test -f \"$root/registry/registry.lock\"; test ! -L \"$root/registry/registry.lock\"; test \"$(wc -c < \"$root/registry/registry.lock\")\" -eq 0; test \"$(sha256sum \"$root/registry/registry.lock\" | cut -d \" \" -f 1)\" = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855; test -f \"$root/registry/registry.sqlite\"; test ! -L \"$root/registry/registry.sqlite\"; test \"$(wc -c < \"$root/registry/registry.sqlite\")\" -eq 57344; test \"$(sha256sum \"$root/registry/registry.sqlite\" | cut -d \" \" -f 1)\" = 4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c; rm -- \"$root/models/chat_template.jinja\" \"$root/registry/registry.lock\" \"$root/registry/registry.sqlite\"; rmdir -- \"$root/models\" \"$root/registry/.staging\" \"$root/registry/packs\" \"$root/registry\" \"$root\"; test ! -e \"$root\"; test ! -L \"$root\"; echo EXACT_KNOWN_TEST_ROOT_REMOVED'"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "scope": "Exact cleanup command strings constructed from restricted authored AST assignments/concatenation loops only. Android sh -n parses the entire preflight/unlink/rmdir script without executing commands; no run-as/file reads/deletes/app/registry changes. Not actual cleanup or whole F2 acceptance."
+}

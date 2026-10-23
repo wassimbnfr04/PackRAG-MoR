@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.model.ConflictContractTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-09T17:01:04.759Z" hostname="RAZER" time="0.145">
+  <properties/>
+  <testcase name="fortyIndependentFixedContractsAndCallerOrderAreShared" classname="org.packrag.model.ConflictContractTest" time="0.14"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

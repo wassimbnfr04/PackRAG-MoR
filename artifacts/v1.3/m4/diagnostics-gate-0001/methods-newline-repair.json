@@ -1,0 +1,6 @@
+{
+  "status": "DOCUMENT_FORMAT_CORRECTION_ONLY",
+  "before_sha256": "09eafc79d4ecc53a65f6945ef7183c4c669fc1913d11efbc1dc255c734d01811",
+  "after_sha256": "5e8c95eaca75864b63deeefa18e509af1fe3606d18b4c06700218b7b7177a167",
+  "scope": "Replace exactly two literal newline escapes in the19:45 document append with actual newlines; content and all runtime/results unchanged."
+}

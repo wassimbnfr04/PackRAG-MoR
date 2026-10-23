@@ -1,0 +1,15 @@
+{
+  "status": "ACTUAL_RETAINED_UI_AND_VISUAL_PASS_FULL_BACKGROUND_RUNNING_NOT_E3_CLOSURE",
+  "recorded_utc": "2026-10-10T20:25:52.701289+00:00",
+  "driver_session": 65092,
+  "ui_junit_methods": 4,
+  "ui_junit_seconds": 216.928,
+  "additional_ownership_report": "m4-ui-query-resubmission-observation.json",
+  "ordinary_phone_use_allowed": true,
+  "keep_packrag_closed": true,
+  "planned_background_methods": {
+    "development": 37,
+    "compiled_policy": 30,
+    "restore": 1
+  }
+}

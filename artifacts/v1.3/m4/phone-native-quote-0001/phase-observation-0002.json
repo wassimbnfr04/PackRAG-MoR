@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-12T23:02:09.797788+00:00",
+  "args": [
+    "shell",
+    "run-as org.packrag.product sh -c 'ls -d files/m4-native-quote-*'"
+  ],
+  "returncode": 0,
+  "stdout": "files/m4-native-quote-81998f5a-1582-4e78-bdf6-72276c1a5e1a\r\n",
+  "stderr": "",
+  "inference": "Private test registry exists only after direct parity/cap/cancellation assertions and native model closure. Final guide/abstention/deactivation/owner checks remain pending. Prior0001 sh argument splitting listed app-root names and did not establish this phase."
+}

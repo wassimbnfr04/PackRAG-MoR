@@ -1,0 +1,12 @@
+{
+  "serial": "R3CT908DHHR",
+  "package": "org.packrag.product",
+  "files": [
+    {
+      "path": "files/models/granite/tokenizer.json",
+      "bytes": 25301672,
+      "sha256": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+      "acquisition": "RAW_ADB_STDIN_AS_APP_UID_HASH_VERIFIED_THEN_RENAMED"
+    }
+  ]
+}

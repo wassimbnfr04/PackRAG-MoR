@@ -1,0 +1,45 @@
+{
+  "status": "PASS_E3_IO_AND_CONVERSION_RUNTIME_ORIGINAL_NOT_LIFECYCLE_OR_E3_CLOSURE",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0045",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-diagnostics-0003",
+        "--class-name",
+        "org.packrag.product.DiagnosticRuntimeDeviceTest",
+        "--result-file",
+        "m4-diagnostic-runtime.json",
+        "--timeout",
+        "900"
+      ],
+      "started_utc": "2026-10-10T19:09:17.548914+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T19:14:57.530938+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-diagnostics-0003",
+        "--files",
+        "m4-diagnostic-runtime.json"
+      ],
+      "started_utc": "2026-10-10T19:14:57.530938+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T19:14:57.989556+00:00"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS_APPROVED_POLICY6_METHODS26_CONTROLS_RESTORATION_RUNNING_NOT_FULL_F2",
+  "recorded_utc": "2026-10-11T22:21:20.860724+00:00",
+  "parent_sha256": "160e36fca281a87f16919753eeddfe550a5408b9c394035ad7e81ef944050f74",
+  "completed": [
+    {
+      "class_name": "LocalAssetReadinessDeviceTest",
+      "methods": 3,
+      "controls": 13,
+      "run": "device-local-asset-adjacent-demo-0001-readiness",
+      "original_sha256": {
+        "m4-local-assets-negative.json": "5788fd0f92758630dc8893f48f6351911eb25de0cda0a64f16f41cb4c723767f",
+        "m4-local-assets-runtime.json": "cc9c4a1cab25a94e08f1e5423a731380c31f53b61e0d96ba18fe790f1b3f1f64",
+        "m4-local-assets-viewmodel.json": "0f3d245cd270b3486b3322d43882fe6a398a9b64aae40b766a0366dbd9e1939d"
+      },
+      "manifest_sha256": "5c37bba1e90a230448334e0b75e94f73aa391ddfe65009623ceba480bb8ecdd2"
+    },
+    {
+      "class_name": "QueryControlsPolicyTest",
+      "methods": 1,
+      "controls": 3,
+      "run": "device-local-asset-adjacent-demo-0001-query-policy",
+      "original_sha256": {
+        "m4-ui-query-policy.json": "2ac4222083af82b4c05a1e953126a39a336622a1dc5dafcfa734dfeff4822657"
+      },
+      "manifest_sha256": "6d7dd490482066eaf6833306b5519416e836cf59b55cc0bb74367aa7e07aae90"
+    },
+    {
+      "class_name": "SourceDetailsPolicyTest",
+      "methods": 1,
+      "controls": 2,
+      "run": "device-local-asset-adjacent-demo-0001-source-policy",
+      "original_sha256": {
+        "m4-source-details-policy.json": "b9827859f6063d4d1efb9ffacaeff1c3b67085d492b778cdd92de31edc8d61ca"
+      },
+      "manifest_sha256": "46bd440a21c3d2533d731dc621647bfad520337cc8a7c94a7dd3142a510d3150"
+    },
+    {
+      "class_name": "DiagnosticPolicyDeviceTest",
+      "methods": 1,
+      "controls": 8,
+      "run": "device-local-asset-adjacent-demo-0001-diagnostic-policy",
+      "original_sha256": {
+        "m4-diagnostic-policy.json": "1ce1a4755536e7d1b0156694442b56213ccd57d992cc74a0f4d1c84bda97c80a"
+      },
+      "manifest_sha256": "caae27f12bba85b8f5abc7f070e554eb958ae28d62883e586d63d7dbdeeba5e0"
+    }
+  ],
+  "scope": "Entire actual demo0077 matrix and post-source/owner guards terminalPASS. All originals saved. Exact debug restoration is separately running; no fullF2/gate/checkpoint accepted yet."
+}

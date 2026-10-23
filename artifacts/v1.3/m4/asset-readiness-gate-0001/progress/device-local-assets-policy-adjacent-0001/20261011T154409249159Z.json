@@ -1,0 +1,40 @@
+{
+  "status": "OBSERVATION_ONLY_NOT_TERMINAL_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T15:44:09.249159+00:00",
+  "observed_pid": "6235",
+  "run_context": "device-local-assets-policy-adjacent-0001",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "6235\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "--pid=6235",
+        "-v",
+        "threadtime",
+        "-s",
+        "TestRunner:I",
+        "*:S"
+      ],
+      "returncode": 0,
+      "stdout": "--------- beginning of main\n10-11 15:41:33.692  6235  6255 I TestRunner: run started: 3 tests\n10-11 15:41:33.693  6235  6255 I TestRunner: started: approvedNativeDiagnosticsAndRejectedDeveloperImportKeepPolicyAndResultOwnership(org.packrag.product.DiagnosticPolicyDeviceTest)\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Log rows belong to observed PID. Completed manifest/JUnit and originals, not this observation, establish test outcome."
+}

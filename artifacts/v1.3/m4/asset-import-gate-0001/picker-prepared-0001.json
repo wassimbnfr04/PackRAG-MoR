@@ -1,0 +1,8 @@
+{
+  "status": "PREPARED_F2_UI_NOT_EXECUTED_OR_ACCEPTED",
+  "recorded_utc": "2026-10-11T18:38:59.966629+00:00",
+  "runner_sha256": "52a475c8b14813708634ca35f673762812df1901bea72ca87a1a6a58307ea599",
+  "methods_sha256": "af11815c9ddb3074d3fd1a4f7a03b9fd22e93c4930c683689140e2fc3e2ac7a1",
+  "preparation_original_sha256": "a669dc536aab229fc68cb7a10cfafff8cefe2802e17d810902bd0dfe1320baa2",
+  "note": "M4F2 system-picker gate PREPARED 2026-10-11T18:38:59.966629+00:00: build0069/frozen598/host73 and actual background picker-preparation0001 pass, original saved/hash-bound, known50 unchanged. Target package lookup null; explicit shell OPEN_DOCUMENT octet-stream resolves DocumentsUI; product MANAGE_DOCUMENTS denied and unselected protected document read denied. This is preparation only, no selection/UI acceptance. Product APK byte-identical to physically passing ViewModel0067. Concrete run_picker_ui.py and M4F2_SYSTEM_PICKER_METHODS.md bind eight actual picker/cancel/corrupt/progress/recreation/result/navigation/new native answer/owner controls, two exact PNGs requiring independent visible-scope review, original capture before switch and failure preservation. Fresh ten-minute unlocked untouched-phone window requested; do not infer approval from elapsed time. Background work remains authorized. Approved-policy and retained regression/restoration/custody/closure/checkpoint remain before F3/F4. Owner final packs excluded; mobile data stays on. User explicitly directed completion of all M4; status questions do not cancel continuous work."
+}

@@ -1,0 +1,219 @@
+{
+  "status": "PASS_OWNED_FULL_ASSET_SOURCE_SET_VALIDATED_NOT_IMPORT_OR_F2_ACCEPTANCE",
+  "started_utc": "2026-10-11T17:49:25.781861+00:00",
+  "runner_sha256": "34b599661db5de660a61ebdf470cf5791ff575b8fd881d500914ddbacf431513",
+  "build": "build-0066",
+  "namespace": "files/f2-full-assets-0001",
+  "verify_only": false,
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0066\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0066\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product.test sh -c 'set -eu; test ! -L files; if test ! -e files; then mkdir files; fi; test -d files'"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product.test",
+        "df",
+        "-k",
+        "files"
+      ],
+      "returncode": 0,
+      "stdout": "Filesystem       1K-blocks      Used Available Use% Mounted on\n/dev/block/dm-55 235587564 174170176  61286316  74% /storage/emulated/0/Android/obb\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product.test sh -c 'set -eu; umask 077; test -d files; test ! -L files; test ! -e files/f2-full-assets-0001; test ! -L files/f2-full-assets-0001; mkdir files/f2-full-assets-0001; printf \"%s\\n\" \"PackRAG F2 full assets v1\" > files/f2-full-assets-0001/owner.marker; chmod 400 files/f2-full-assets-0001/owner.marker'"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "set -o pipefail; false | true; echo pipeline_status=$?"
+      ],
+      "returncode": 0,
+      "stdout": "pipeline_status=1\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; test -d files/models; test ! -L files/models; test -f files/models/LFM2.5-2.6B-QAD-Q4_0.gguf; test ! -L files/models/LFM2.5-2.6B-QAD-Q4_0.gguf; test \"$(wc -c < files/models/LFM2.5-2.6B-QAD-Q4_0.gguf)\" -eq 1593894944; sha256sum files/models/LFM2.5-2.6B-QAD-Q4_0.gguf'"
+      ],
+      "returncode": 0,
+      "stdout": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03  files/models/LFM2.5-2.6B-QAD-Q4_0.gguf\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "set -o pipefail; run-as org.packrag.product cat files/models/LFM2.5-2.6B-QAD-Q4_0.gguf | run-as org.packrag.product.test sh -c 'set -eu; umask 077; set -C; test -d files/f2-full-assets-0001; test ! -L files/f2-full-assets-0001; cat > files/f2-full-assets-0001/full-generator.asset; chmod 400 files/f2-full-assets-0001/full-generator.asset'"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; test -d files/models; test ! -L files/models; test -f files/models/chat_template.jinja; test ! -L files/models/chat_template.jinja; test \"$(wc -c < files/models/chat_template.jinja)\" -eq 5443; sha256sum files/models/chat_template.jinja'"
+      ],
+      "returncode": 0,
+      "stdout": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef  files/models/chat_template.jinja\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "set -o pipefail; run-as org.packrag.product cat files/models/chat_template.jinja | run-as org.packrag.product.test sh -c 'set -eu; umask 077; set -C; test -d files/f2-full-assets-0001; test ! -L files/f2-full-assets-0001; cat > files/f2-full-assets-0001/full-template.asset; chmod 400 files/f2-full-assets-0001/full-template.asset'"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; test -d files/models; test ! -L files/models; test -d files/models/granite; test ! -L files/models/granite; test -f files/models/granite/tokenizer.json; test ! -L files/models/granite/tokenizer.json; test \"$(wc -c < files/models/granite/tokenizer.json)\" -eq 25301672; sha256sum files/models/granite/tokenizer.json'"
+      ],
+      "returncode": 0,
+      "stdout": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f  files/models/granite/tokenizer.json\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "set -o pipefail; run-as org.packrag.product cat files/models/granite/tokenizer.json | run-as org.packrag.product.test sh -c 'set -eu; umask 077; set -C; test -d files/f2-full-assets-0001; test ! -L files/f2-full-assets-0001; cat > files/f2-full-assets-0001/full-tokenizer.asset; chmod 400 files/f2-full-assets-0001/full-tokenizer.asset'"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; test -d files/models; test ! -L files/models; test -d files/models/granite; test ! -L files/models/granite; test -d files/models/granite/onnx; test ! -L files/models/granite/onnx; test -f files/models/granite/onnx/model.onnx; test ! -L files/models/granite/onnx/model.onnx; test \"$(wc -c < files/models/granite/onnx/model.onnx)\" -eq 390004608; sha256sum files/models/granite/onnx/model.onnx'"
+      ],
+      "returncode": 0,
+      "stdout": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70  files/models/granite/onnx/model.onnx\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "set -o pipefail; run-as org.packrag.product cat files/models/granite/onnx/model.onnx | run-as org.packrag.product.test sh -c 'set -eu; umask 077; set -C; test -d files/f2-full-assets-0001; test ! -L files/f2-full-assets-0001; cat > files/f2-full-assets-0001/full-encoder.asset; chmod 400 files/f2-full-assets-0001/full-encoder.asset'"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product.test chmod 500 files/f2-full-assets-0001"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product.test sh -c 'set -eu; root=files/f2-full-assets-0001; test -d files; test ! -L files; test -d \"$root\"; test ! -L \"$root\"; test -f \"$root/owner.marker\"; test ! -L \"$root/owner.marker\"; test \"$(wc -c < \"$root/owner.marker\")\" -eq 26; test \"$(cat \"$root/owner.marker\")\" = \"PackRAG F2 full assets v1\"; for entry in \"$root\"/* \"$root\"/.[!.]*; do if test -e \"$entry\" || test -L \"$entry\"; then case \"${entry##*/}\" in owner.marker|full-generator.asset|full-template.asset|full-tokenizer.asset|full-encoder.asset) ;; *) exit 91 ;; esac; fi; done; test -f \"$root/full-generator.asset\"; test ! -L \"$root/full-generator.asset\"; test \"$(wc -c < \"$root/full-generator.asset\")\" -eq 1593894944; test -f \"$root/full-template.asset\"; test ! -L \"$root/full-template.asset\"; test \"$(wc -c < \"$root/full-template.asset\")\" -eq 5443; test -f \"$root/full-tokenizer.asset\"; test ! -L \"$root/full-tokenizer.asset\"; test \"$(wc -c < \"$root/full-tokenizer.asset\")\" -eq 25301672; test -f \"$root/full-encoder.asset\"; test ! -L \"$root/full-encoder.asset\"; test \"$(wc -c < \"$root/full-encoder.asset\")\" -eq 390004608; sha256sum \"$root/full-generator.asset\" \"$root/full-template.asset\" \"$root/full-tokenizer.asset\" \"$root/full-encoder.asset\"'"
+      ],
+      "returncode": 0,
+      "stdout": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03  files/f2-full-assets-0001/full-generator.asset\nea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef  files/f2-full-assets-0001/full-template.asset\n4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f  files/f2-full-assets-0001/full-tokenizer.asset\n68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70  files/f2-full-assets-0001/full-encoder.asset\n",
+      "stderr": ""
+    }
+  ],
+  "available_bytes_before_source": 62757187584,
+  "required_two_sets_and_reserve_bytes": 4085522198,
+  "source_sha256": {
+    "files/f2-full-assets-0001/full-generator.asset": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "files/f2-full-assets-0001/full-template.asset": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "files/f2-full-assets-0001/full-tokenizer.asset": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+    "files/f2-full-assets-0001/full-encoder.asset": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70"
+  },
+  "source_total_bytes": 2009206667,
+  "scope": "Exact four known owner inputs copied read-only on device into newly owned test UID flat namespace; no host model export, arbitrary paths, custody traversal or product permissions. Every pipeline return checked with pipefail. Fixed no-follow types/marker/whitelist/size and full source SHA verified. Namespace deliberately retained; verify-only records reuse explicitly. No import/native/UI acceptance implied.",
+  "finished_utc": "2026-10-11T17:50:50.899934+00:00"
+}

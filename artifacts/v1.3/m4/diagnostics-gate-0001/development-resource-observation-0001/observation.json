@@ -1,0 +1,55 @@
+{
+  "status": "READ_ONLY_ASYNCHRONOUS_FUNCTIONAL_RESOURCE_SAMPLE_NOT_BENCHMARK",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "ps",
+        "-p",
+        "12346",
+        "-o",
+        "PID,STAT,TIME,NAME"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-10T20:33:58.110219+00:00",
+      "finished_utc": "2026-10-10T20:33:58.323643+00:00",
+      "saved": "process.txt",
+      "sha256": "800f36d5be3c33f02a9af41089481905ab1897a3d5cc901b2f66e5a931ff4209"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "thermalservice"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-10T20:33:58.338148+00:00",
+      "finished_utc": "2026-10-10T20:33:58.473357+00:00",
+      "saved": "thermal.txt",
+      "sha256": "0702d52959b1f0e10f1c2577c00e7b0becb1bee21e3316d6c17b1f2c490f7753"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "12346"
+      ],
+      "returncode": 0,
+      "started_utc": "2026-10-10T20:33:58.490693+00:00",
+      "finished_utc": "2026-10-10T20:34:00.949353+00:00",
+      "saved": "memory.txt",
+      "sha256": "a9474349ee675b567a38c92393d1923cb8b0012da6fb8623d49017fa37773411"
+    }
+  ],
+  "scope": "Current development-test PID12346, separate sampling instants. Process TIME is printed verbatim, not wall elapsed or instantaneous CPU percentage. Memory is a reported sample, not a measured peak. Thermal status is reported raw; no causal diagnosis, thermal safety bypass, frequency/priority/radio/root/heap/affinity/RAM mutation."
+}

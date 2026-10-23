@@ -1,0 +1,33 @@
+{
+  "status": "PASS_ORIGINAL_SCOPED_VISUAL_AND_FINAL_REVIEW_NOT_M4",
+  "utc": "2026-10-12T23:31:26.222082+00:00",
+  "reviewer": "Codex original image inspection",
+  "images": [
+    {
+      "file": "m4-quoted-guide-answer.png",
+      "sha256": "bc993b0145f295debeadb998ea038f5163dc71dab4228fd2a3dfe6e69312f681",
+      "review": "Readable normal dark chat, fixed composer/header/source action and complete reassembly/no-force/flush/tighten tail. This scroll position crops preparation/removal above the viewport; no whole-answer-image claim. Full final is retained inJSON and exact source asserted.",
+      "passed": true
+    },
+    {
+      "file": "m4-quoted-guide-source.png",
+      "sha256": "aecb2eb17e87a79a0440258ca233b5bac63b48f56ab2a8153ca21c1bfdb63eb0",
+      "review": "Complete canonical185-word fan digest visibly fits in the source viewport. Metadata above states unknown equipment-law fields and no original external snapshot; actual source assertion/locator bound in test. No upstream manufacturer-verification claim.",
+      "passed": true
+    },
+    {
+      "file": "m4-quoted-guide-diagnostic-tokens.png",
+      "sha256": "f3add1866af2af258a27f540241c3b38b4948cb6a593ce015cf12f9ec9a563ae",
+      "review": "Actual ANSWER_ACCEPTED/GenerationCalled and928prefill/548evidence/828emitted visible and readable. No raw reasoning text. Remaining fields are below this viewport.",
+      "passed": true
+    },
+    {
+      "file": "m4-quoted-guide-diagnostic-policy.png",
+      "sha256": "c66cd37d3bee82bf21b5ced50898807133c6bff004acc0eaaec8337078e4c968",
+      "review": "Actual model-loaded/ONNX initialized/two candidates/captured question/date and3072context/1536prefill/1536emission/1200evidence/4chunks/graphfalse plus full configSHA visible. Constructor verification+load4311.180ms visible; this is not end-to-end visible latency or peak memory.",
+      "passed": true
+    }
+  ],
+  "semantic": "Original final text equals entire selected fan canonical rendering with[S1]. The immutable JSON retains preparation/removal/cleaning/reassembly; raw reasoning not retained. Three observations areNoActive0,completeGuide828,NoActive0. Strict51-file guard and earlier-source/recreation/Newchat assertions passed in originalJUnit341.679s.",
+  "scope": "Normal dark phone presentation/current primary factory, source and captured diagnostics. Not everyfield/fullsource-header screenshot, universal screen-reader/language/equipment validation, controlled performance or full project completion."
+}

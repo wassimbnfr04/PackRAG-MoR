@@ -1,0 +1,55 @@
+{
+  "started_at": "2026-10-05T16:07:09.288077+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.GeneratorPromptParityTest",
+  "apk_sha256": {
+    "app-debug.apk": "5ec8610c7a616e7b833e7cf8990c127097e9052749572591f079cf01407c773b",
+    "app-debug-androidTest.apk": "50819d129da293359e0750da401cbb5c6dcaac8b9443ee12d74c045af8f3731e"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m2\\build-0008\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m2\\build-0008\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.GeneratorPromptParityTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "status": "PASS"
+}

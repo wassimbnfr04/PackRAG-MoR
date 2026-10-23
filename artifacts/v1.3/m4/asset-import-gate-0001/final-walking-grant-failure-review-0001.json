@@ -1,0 +1,21 @@
+{
+  "status": "FAIL_WALKING_GRANT_BEFORE_GENERATION_RETRY_NOT_ACCEPTED",
+  "created_utc": "2026-10-11T21:17:52.283635+00:00",
+  "note": "Final-source debug0076 fault3methods/28controls PASS with original bytes. Walking actual JUnit1 failed10.269s at grantAfterInstrumentationStarts line59 (result=1/NARROW_TEMPLATE_READ_GRANTED assertions share the same line), before native inference. Exact callback output was not persisted by frozen old helper, so which condition/cause is unproved. Outer ADB narrow template broadcast passed immediately before instrumentation; a subsequent explicit ADB diagnostic broadcast also returned result1 and NARROW_TEMPLATE_READ_GRANTED. No assertion weakened, permission adopted, product source changed or later test launched. Parent stopped; failure-time walking JSON reports oldPASS and is explicitly stale/unaccepted. One identical installed-only build0076 walking retry in new directory device-local-asset-final-walking-debug-0002 starts to distinguish a transient transport/grant issue; no causal claim yet. F2closure/F3/F4 held; foreground6methods31controls/visible reviews remain dated separately; untouched window ended, mobile data on/PackRAGclosed.",
+  "failed_parent_sha256": "4d1b520d43cc68bef515042c30b6abe3d54fbe0001d1c1c468ae3841ecb0da69",
+  "faults": [
+    {
+      "selection": "faults",
+      "methods": 3,
+      "controls": 28,
+      "run": "device-local-asset-final-import-debug-0001-faults",
+      "execution_sha256": "1b3133d8efcd938c40a43e08ac4dc83665b9cfafc97fa70e16ef6f531e39c077",
+      "manifest_sha256": "1095e80adbaa0a80cab9a885cc1cfd40a67135de5fb5864509b313d85bdd22d1",
+      "original_sha256": {
+        "m4-local-asset-import-uri-faults.json": "d1ffb1ebab6c9e715ae2f4303e3f6d10032352e8532e12c1ed0c4d757d5f3f46",
+        "m4-local-asset-import-provider-cancel.json": "ea003421c6da532b02d506b9207f707d419288e8cdf62b952da4f309c421961d",
+        "m4-local-asset-import-path-recovery.json": "48cdc543e536a80f51e3fea411fa73b436e5abb417c0611b107cb1c741e568e3"
+      }
+    }
+  ]
+}

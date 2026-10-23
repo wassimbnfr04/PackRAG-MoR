@@ -1,0 +1,27 @@
+{
+  "android": {
+    "expected": 640,
+    "missing": [],
+    "changed": []
+  },
+  "python": {
+    "expected": 211,
+    "missing": [
+      "scripts/acquire_flashattention_wheel.py",
+      "scripts/build_full_documentation.py",
+      "scripts/execute_phone_gate.py",
+      "scripts/inventory_full_documentation.py",
+      "scripts/package_decision_bundle.py",
+      "scripts/package_full_implementation.py",
+      "scripts/package_reviewed_week1.py",
+      "scripts/package_review_copy.py",
+      "scripts/regenerate_phone_week1_report.py",
+      "scripts/report_system_role_retest.py",
+      "scripts/retest_phone_system_role.py",
+      "scripts/verify_full_documentation.py"
+    ],
+    "changed": [
+      "scripts/finalize_week1.py"
+    ]
+  }
+}

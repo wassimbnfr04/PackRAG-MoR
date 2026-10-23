@@ -1,0 +1,49 @@
+{
+  "status": "PASS_NEW_E2_SIGNED_SOURCE_VALUES_AND_ALL_RETAINED_DESKTOP_GATES_NOT_E2_CLOSURE",
+  "recorded_utc": "2026-10-10T16:37:34.730304+00:00",
+  "phone": {
+    "packs": 17,
+    "active_inactive_inspections": 34,
+    "exact_public_source_rows": 43,
+    "fields_per_row": 21,
+    "rejection_controls": 11,
+    "original_results": 3,
+    "pack_metadata_truth": "SIGNED_ASSERTIONS_NOT_EXTERNAL_LICENSE_REVIEW_CALIBRATION_APPROVAL"
+  },
+  "desktop": {
+    "python_tests": 1034,
+    "runtime_inputs": 188,
+    "all_six_desktop_gates": [
+      {
+        "run": "existing-walking-smoke-0014",
+        "result": "smoke-results.json",
+        "record_sha256": "dddf3042dc64a7b7518ebb7b2761002d53092d63e893e98bce09fe13e2bd254d"
+      },
+      {
+        "run": "conflict-smoke-0008",
+        "result": "conflict-smoke-results.json",
+        "record_sha256": "d30d3b8b07629f169bea3b3b149645352114ac80fc8c69a2542d53768cad9352"
+      },
+      {
+        "run": "relevance-smoke-0005",
+        "result": "relevance-smoke-results.json",
+        "record_sha256": "9f3d2b4f042fd377a11e059fa3a8e3ee4c444effeade6879c1bf69c5c92c1cf7"
+      },
+      {
+        "run": "representation-smoke-0005",
+        "result": "representation-smoke-results.json",
+        "record_sha256": "ff844b9a2c2ff5572e91b9fdbdaef634f2853458e41d0074cb512aefc6577512"
+      },
+      {
+        "run": "source-text-smoke-0003",
+        "result": "source-text-smoke-results.json",
+        "record_sha256": "fb0399b1c4ebff481996e4df3272571065248292ee3f43bf3bb8ce5e494c33ab"
+      },
+      {
+        "run": "selection-smoke-0003",
+        "result": "selection-smoke-results.json",
+        "record_sha256": "1135c48c19ef581e5eb9c7c4a66702d2f3d0768439e89196d502be4bc1661f45"
+      }
+    ]
+  }
+}

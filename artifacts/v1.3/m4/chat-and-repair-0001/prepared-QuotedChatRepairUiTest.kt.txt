@@ -1,0 +1,77 @@
+package org.packrag.product
+
+import android.net.Uri
+import androidx.compose.ui.test.*
+import androidx.compose.ui.test.junit4.v2.createEmptyComposeRule
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import java.io.File
+import org.json.JSONArray
+import org.json.JSONObject
+import org.junit.Assert.*
+import org.junit.Rule
+import org.junit.Test
+import org.junit.runner.RunWith
+import org.packrag.generator.GenerationPolicy
+
+/** One actual quoted guide through the primary app factory; isolated registry and owner custody. */
+@RunWith(AndroidJUnit4::class)
+class QuotedChatRepairUiTest {
+    @get:Rule val compose=createEmptyComposeRule()
+    @Test fun primaryAppCompleteRepairSourceAndVisibleCapturedDiagnostics() {
+        val support=ProductUiTestSupport;val before=ChatRepairOwner.snapshot()
+        val images=JSONObject();val observations=JSONArray()
+        val output=File(support.context.filesDir,"m4-quoted-chat-repair-0001.json")
+        fun save(status:String)=output.writeText(JSONObject().put("status",status)
+            .put("environment",if(before.size==51)"PHYSICAL_ARM64" else "OWNED_EMULATOR_X86_64")
+            .put("observations",observations).put("visual_png",images).put("owner_sha256_before",JSONObject(before))
+            .put("raw_reasoning_persisted",false).put("scope","One actual primary-app repair guide and captured result navigation; not controlled performance or held-out accuracy").toString(2))
+        save("STARTED_NOT_PASS")
+        support.activity { scenario,model ->
+            support.ready(compose,model)
+            fun click(tag:String)=compose.onNodeWithTag(tag).performScrollTo().performClick()
+            val question="My Framework Laptop 12 fan is dirty and noisy. How do I remove, clean, and reinstall it? Give an ordered guide including preparation and reassembly."
+            fun ask(id:String,expected:String):UiState {
+                compose.onNodeWithTag("query-question").performTextReplacement(question);support.hideKeyboard(scenario)
+                val prior=model.state.value.completedResultId;click("query-submit")
+                compose.waitUntil(900_000){!model.state.value.busy && model.state.value.completedResultId!=null && model.state.value.completedResultId!=prior}
+                support.ready(compose,model);val result=model.state.value;val trace=requireNotNull(result.trace)
+                observations.put(JSONObject().put("id",id).put("actual",result.answer!!.state).put("final_text",result.answer.text ?: JSONObject.NULL)
+                    .put("emitted_tokens",trace.emittedTokens).put("prefill_tokens",trace.prefillTokens).put("reasoning_tokens",trace.reasoningTokens)
+                    .put("result_id",result.completedResultId))
+                save("OBSERVED_NOT_PASS");assertEquals(expected,result.answer.state);return result
+            }
+            assertEquals(0,ask("before-import","NO_ACTIVE_PACK").trace!!.emittedTokens)
+            model.importPack(Uri.fromFile(File(support.context.filesDir,"m4-repair-fixture-0001.kpack")));support.ready(compose,model)
+            click("query-controls-toggle");compose.onNodeWithTag("query-date").performScrollTo().performTextReplacement("2026-10-12")
+            support.hideKeyboard(scenario);click("query-controls-toggle")
+            val accepted=ask("verified-pack-complete-guide","ANSWER_ACCEPTED")
+            val trace=requireNotNull(accepted.trace);val source=accepted.answer!!.sources.single();val resultId=requireNotNull(accepted.completedResultId)
+            assertEquals("3abc2d222603fb86041f2973a62564150f691ccedcb122920e6f15476d9cff94",source.canonicalTextSha256)
+            assertEquals("1. ${source.generatorRepresentation!!.text} [S1]",accepted.answer.text)
+            assertEquals(GenerationPolicy.QUOTE_CONFIG_SHA,trace.evidenceContext!!.profile.generationPolicySha256)
+            assertEquals(3072,trace.evidenceContext!!.profile.context);assertEquals(1536,trace.evidenceContext!!.profile.generated)
+            assertTrue(trace.emittedTokens in 1..1536);assertNotNull(trace.reasoningTokens)
+            compose.onNodeWithTag("assistant-$resultId").performScrollTo().assertIsDisplayed()
+            images.put("m4-quoted-guide-answer.png",support.screenshot(compose,"m4-quoted-guide-answer.png"))
+            click("source-$resultId-${source.evidenceId}")
+            compose.onNodeWithTag("source-canonical-text").performScrollTo().assertTextEquals(source.canonicalText).assertIsDisplayed()
+            images.put("m4-quoted-guide-source.png",support.screenshot(compose,"m4-quoted-guide-source.png"));click("source-back-answer")
+            click("app-menu");click("diagnostics-toggle");support.instrument.sendKeyDownUpSync(android.view.KeyEvent.KEYCODE_BACK)
+            val emitted=diagnosticLines(trace).single{it.label=="Emitted tokens (includes terminal)"}
+            compose.onNodeWithText("${emitted.label}: ${emitted.value}").performScrollTo().assertIsDisplayed()
+            images.put("m4-quoted-guide-diagnostic-tokens.png",support.screenshot(compose,"m4-quoted-guide-diagnostic-tokens.png"))
+            compose.onNodeWithTag("captured-generation-policy").performScrollTo().assertTextEquals("Captured generation policy SHA-256: ${GenerationPolicy.QUOTE_CONFIG_SHA}").assertIsDisplayed()
+            images.put("m4-quoted-guide-diagnostic-policy.png",support.screenshot(compose,"m4-quoted-guide-diagnostic-policy.png"))
+            click("manage-packs");val row=model.state.value.installed.single();click("deactivate-${row.tag}");support.ready(compose,model);click("packs-back-answer")
+            assertEquals(0,ask("after-deactivation","NO_ACTIVE_PACK").trace!!.emittedTokens)
+            // Earlier S1 remains bound to its original accepted result after the newer completion.
+            click("source-$resultId-${source.evidenceId}")
+            compose.onNodeWithTag("source-canonical-text").performScrollTo().assertTextEquals(source.canonicalText);click("source-back-answer")
+            scenario.recreate();support.awaitForeground(scenario);support.ready(compose,model)
+            assertEquals(3,model.turns.value.size);assertEquals(resultId,model.turns.value[1].resultId)
+            click("new-chat");assertTrue(model.turns.value.isEmpty());assertTrue(model.state.value.packs.isEmpty())
+            save("FUNCTIONAL_ASSERTIONS_PASSED_CUSTODY_AND_VISUAL_REVIEW_PENDING")
+        }
+        assertEquals(before,ChatRepairOwner.snapshot());save("PASS_EXECUTION_ORIGINAL_FINAL_AND_VISUAL_REVIEW_REQUIRED")
+    }
+}

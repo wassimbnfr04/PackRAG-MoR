@@ -1,0 +1,40 @@
+{
+  "status": "OBSERVATION_ONLY_NOT_TERMINAL_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T15:26:01.110352+00:00",
+  "observed_pid": "16500",
+  "run_context": "device-local-assets-ui-0001",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "16500\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "--pid=16500",
+        "-v",
+        "threadtime",
+        "-s",
+        "TestRunner:I",
+        "*:S"
+      ],
+      "returncode": 0,
+      "stdout": "--------- beginning of main\n10-11 15:25:56.522 16500 16519 I TestRunner: run started: 1 tests\n10-11 15:25:56.523 16500 16519 I TestRunner: started: realAssetCheckRecreationBackAndCitedAnswerKeepOwnedCompletion(org.packrag.product.LocalAssetsUiTest)\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Log rows belong to observed PID. Completed manifest/JUnit and originals, not this observation, establish test outcome."
+}

@@ -1,0 +1,55 @@
+{
+  "started_at": "2026-10-05T18:56:11.104912+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.AtomicRegistryDeviceTest,org.packrag.product.RegistryProcessDeathDeviceTest",
+  "apk_sha256": {
+    "app-debug.apk": "62b26d39af86cf415b4bd1126df099d7e9ea686a2ce84857d131bd9f580ec8f1",
+    "app-debug-androidTest.apk": "9d7185eda82537771be54720a52164313557f26a0b418875f48aca74d9ed21a4"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m3\\build-0008\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m3\\build-0008\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.AtomicRegistryDeviceTest,org.packrag.product.RegistryProcessDeathDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "status": "FAIL"
+}

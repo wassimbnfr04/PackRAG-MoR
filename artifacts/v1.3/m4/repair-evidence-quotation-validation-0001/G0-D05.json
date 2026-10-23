@@ -1,0 +1,67 @@
+{
+  "id": "G0-D05",
+  "category": "direct",
+  "question": "What closing torque is specified for the Meridia V3 isolation-valve stem nut?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m. [S1]",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "18 N·m"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 388,
+    "prompt_ms": 4037.614,
+    "prompt_per_token_ms": 10.406221649484536,
+    "prompt_per_second": 96.09635789850144,
+    "predicted_n": 134,
+    "predicted_ms": 4881.862,
+    "predicted_per_token_ms": 36.70572932330827,
+    "predicted_per_second": 27.24370332467407,
+    "host_generation_wall_ms": 8932.0790999991,
+    "emitted_token_count": 134,
+    "reasoning_token_count": 105,
+    "final_and_terminal_token_count": 29,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 388,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "bb06437c27cadbb13675547f2304b6d712c3368476b677a886f15dec93b5b81a",
+    "final_only": "1. The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m. [S1]",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "812c024b0c489f48e5b1dc90ad1bc0d11c9a15a64ce9ed9cdb5c8ff565707dc8"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

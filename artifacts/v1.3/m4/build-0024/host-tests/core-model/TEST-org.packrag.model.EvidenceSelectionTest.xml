@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.model.EvidenceSelectionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-09T21:04:02.969Z" hostname="RAZER" time="0.031">
+  <properties/>
+  <testcase name="negativeWholeTrialCostsReject" classname="org.packrag.model.EvidenceSelectionTest" time="0.007"/>
+  <testcase name="twentyEightFixedSelectionPlansAndCallerReversal" classname="org.packrag.model.EvidenceSelectionTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "actual-process-death-after_verify",
+      "passed": true,
+      "probe": {
+        "state": "KILLING",
+        "point": "after_verify",
+        "pid": 21987,
+        "reason": null
+      },
+      "journal_existed_before_reopen": false,
+      "journal_bytes_before_reopen": 0,
+      "journal_header_hex": "",
+      "probe_cache_pages": 1,
+      "test_transaction_pressure_bytes": 0,
+      "actual_active_version": "1.0.0",
+      "manifest_sha256": "8ae8fc6e7d451215061aca0f0b26b2e0a094cb2adb750d85179eadf6aee5e003",
+      "old_payloads_unchanged": true
+    },
+    {
+      "id": "actual-process-death-after_fsync",
+      "passed": true,
+      "probe": {
+        "state": "KILLING",
+        "point": "after_fsync",
+        "pid": 22003,
+        "reason": null
+      },
+      "journal_existed_before_reopen": false,
+      "journal_bytes_before_reopen": 0,
+      "journal_header_hex": "",
+      "probe_cache_pages": 1,
+      "test_transaction_pressure_bytes": 0,
+      "actual_active_version": "1.0.0",
+      "manifest_sha256": "8ae8fc6e7d451215061aca0f0b26b2e0a094cb2adb750d85179eadf6aee5e003",
+      "old_payloads_unchanged": true
+    },
+    {
+      "id": "actual-process-death-after_rename",
+      "passed": true,
+      "probe": {
+        "state": "KILLING",
+        "point": "after_rename",
+        "pid": 22035,
+        "reason": null
+      },
+      "journal_existed_before_reopen": false,
+      "journal_bytes_before_reopen": 0,
+      "journal_header_hex": "",
+      "probe_cache_pages": 1,
+      "test_transaction_pressure_bytes": 0,
+      "actual_active_version": "1.0.0",
+      "manifest_sha256": "8ae8fc6e7d451215061aca0f0b26b2e0a094cb2adb750d85179eadf6aee5e003",
+      "old_payloads_unchanged": true
+    },
+    {
+      "id": "actual-process-death-after_version_insert",
+      "passed": true,
+      "probe": {
+        "state": "KILLING",
+        "point": "after_version_insert",
+        "pid": 22078,
+        "reason": null
+      },
+      "journal_existed_before_reopen": true,
+      "journal_bytes_before_reopen": 32264,
+      "journal_header_hex": "d9d505f920a163d700000002c32c8f200000000f0000020000001000",
+      "probe_cache_pages": 1,
+      "test_transaction_pressure_bytes": 1048576,
+      "actual_active_version": "1.0.0",
+      "manifest_sha256": "8ae8fc6e7d451215061aca0f0b26b2e0a094cb2adb750d85179eadf6aee5e003",
+      "old_payloads_unchanged": true
+    },
+    {
+      "id": "actual-process-death-after_active_write",
+      "passed": true,
+      "probe": {
+        "state": "KILLING",
+        "point": "after_active_write",
+        "pid": 22116,
+        "reason": null
+      },
+      "journal_existed_before_reopen": true,
+      "journal_bytes_before_reopen": 69128,
+      "journal_header_hex": "d9d505f920a163d70000000245c394e10000000f0000020000001000",
+      "probe_cache_pages": 1,
+      "test_transaction_pressure_bytes": 1048576,
+      "actual_active_version": "1.0.0",
+      "manifest_sha256": "8ae8fc6e7d451215061aca0f0b26b2e0a094cb2adb750d85179eadf6aee5e003",
+      "old_payloads_unchanged": true
+    },
+    {
+      "id": "actual-process-death-before_commit",
+      "passed": true,
+      "probe": {
+        "state": "KILLING",
+        "point": "before_commit",
+        "pid": 22163,
+        "reason": null
+      },
+      "journal_existed_before_reopen": true,
+      "journal_bytes_before_reopen": 69128,
+      "journal_header_hex": "d9d505f920a163d7000000025fa706570000000f0000020000001000",
+      "probe_cache_pages": 1,
+      "test_transaction_pressure_bytes": 1048576,
+      "actual_active_version": "1.0.0",
+      "manifest_sha256": "8ae8fc6e7d451215061aca0f0b26b2e0a094cb2adb750d85179eadf6aee5e003",
+      "old_payloads_unchanged": true
+    },
+    {
+      "id": "actual-process-death-after_commit",
+      "passed": true,
+      "probe": {
+        "state": "KILLING",
+        "point": "after_commit",
+        "pid": 22188,
+        "reason": null
+      },
+      "journal_existed_before_reopen": false,
+      "journal_bytes_before_reopen": 0,
+      "journal_header_hex": "",
+      "probe_cache_pages": 1,
+      "test_transaction_pressure_bytes": 0,
+      "actual_active_version": "1.0.1",
+      "manifest_sha256": "6645f41f44046c2b5ab26167354b220cf5d65792ed03cfb8cad3f24dc7117f21",
+      "old_payloads_unchanged": true
+    }
+  ],
+  "corpus": {
+    "purpose": "SYNTHETIC_IMMUTABLE_VERSIONS_NOT_RELEASE_CALIBRATION",
+    "cases": [
+      {
+        "id": "v1",
+        "filename": "v1.kpack",
+        "version": "1.0.0",
+        "sha256": "d0aea3a00e8957edbcbb77fe45d35364f40b9060234ca9226da44087154b34ab",
+        "manifest_sha256": "8ae8fc6e7d451215061aca0f0b26b2e0a094cb2adb750d85179eadf6aee5e003"
+      },
+      {
+        "id": "v2",
+        "filename": "v2.kpack",
+        "version": "1.0.1",
+        "sha256": "1fa4ae0bf5205855583b989cbe3f44564a8589de41ff6b4744bbdf7fe089d8cc",
+        "manifest_sha256": "6645f41f44046c2b5ab26167354b220cf5d65792ed03cfb8cad3f24dc7117f21"
+      },
+      {
+        "id": "v3",
+        "filename": "v3.kpack",
+        "version": "1.0.10",
+        "sha256": "be3a46add0de4a48985a6f1fb597b3d6bc215e93a5b308ccae25fae7a0adc47d",
+        "manifest_sha256": "78c8745b8aa8741eca095b1c02f1fe8946bf96c92ebb66b675099c217264f552"
+      },
+      {
+        "id": "older",
+        "filename": "older.kpack",
+        "version": "0.9.0",
+        "sha256": "ba3b99ad1901c76fd039f03d9f722d8d40cb70931b5f9f7ac30b84db15788e8a",
+        "manifest_sha256": "e482a73c46fabb52f05b699bda2f07733b046247a55876384722b3c1f843e250"
+      },
+      {
+        "id": "equal-build",
+        "filename": "equal-build.kpack",
+        "version": "1.0.1+build2",
+        "sha256": "02b90dffd2370f43ef49ad1e3fe29078575fb64392339bfc0e7d162aa130d9ca",
+        "manifest_sha256": "da1044113bb715297f7523d8f7ebce21787dddb05e2f2dcab8c6e1dfbaf15601"
+      },
+      {
+        "id": "collision",
+        "filename": "collision.kpack",
+        "version": "1.0.1",
+        "sha256": "0004b1fe26dc1d7e862b94e8b8aa2363b2276c5761dd606579860aa1ae519a85",
+        "manifest_sha256": "e941a2307be2dc3e7414b9bc9481b315d9e7fd15152eef5f3725414860208be9"
+      }
+    ],
+    "public_key_sha256": "d402ea2d0f20d2dc4b58699d30c052565eb999346dddf4e6e6b528312d3f4740",
+    "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "private_seed": "EPHEMERAL_NOT_SAVED",
+    "script_sha256": "8b032678793a3e45b4bbb4df70c1b93cf10b81318a90a55dc000305a490dd520"
+  },
+  "purpose": "ACTUAL_ANDROID_SEPARATE_PROCESS_SIGKILL_AT_FSYNC_RENAME_SQLITE_CHECKPOINTS",
+  "limits": "Actual app subprocess death and journal recovery; not physical power loss or hardware storage-cache failure. Probe is debug-only and unexported."
+}

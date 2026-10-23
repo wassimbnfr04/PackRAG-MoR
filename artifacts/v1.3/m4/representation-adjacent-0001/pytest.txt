@@ -1,0 +1,5 @@
+........................................................................ [ 40%]
+........................................................................ [ 80%]
+..................................                                       [100%]
+- generated xml file: C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\representation-adjacent-0001\combined-junit.xml -
+178 passed in 4.43s

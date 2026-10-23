@@ -1,0 +1,6 @@
+{
+  "id": "ambiguous",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "admission": "AMBIGUOUS_GENERATOR_REPRESENTATION",
+  "actual_tokenizer": {}
+}

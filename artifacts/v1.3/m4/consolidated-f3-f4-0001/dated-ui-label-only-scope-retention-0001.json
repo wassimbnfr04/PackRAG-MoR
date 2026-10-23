@@ -1,0 +1,25 @@
+{
+  "status": "DATED_SCOPED_GUI_RETAINED_WITH_LABEL_ONLY_PRODUCTION_DELTA_NOT_NEW_EXECUTION",
+  "reviewed_utc": "2026-10-12T16:33:44.750128+00:00",
+  "dated_build": "build-0093",
+  "current_product_build": "build-0099",
+  "changed_files": {
+    "product/android/app/src/androidTest/java/org/packrag/product/EmulatorUiSmokeTest.kt": "ebc28aabcea69409c55783f85d597869bf5ad97090108019df03ef59464d69ce",
+    "product/android/app/src/androidTest/java/org/packrag/product/ProductAccessibilityUiTest.kt": "eb7db053f9c3de3459ba6abc5218a58ea5abd39106dfd365eee9917384612029",
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": "06f263250ab14c922e8d599dc2eea0acb3df0e9ea03bbc2421e07bdbb53c2e9b"
+  },
+  "unchanged_input_count": 621,
+  "retained_scope": [
+    "Picker signed import/rejection/stage controls",
+    "Pack metadata byte domains/advisory/chip navigation and context controls",
+    "Unsigned long metadata/component rendering",
+    "Pack management functional controls with existing strict original schema review"
+  ],
+  "excluded_scope": [
+    "Old date/jurisdiction field raster",
+    "Unreviewed/offscreen signed publisher/key/version/full manifest hash raster",
+    "Current code execution or whole APK equality with0093",
+    "Unexecuted first-time GUI classes and final M4 acceptance"
+  ],
+  "justification": "Only product source delta from0093 is two home-form label maxLines and independent guidance texts. Relevant pack importer/overview/management/shared helper and crypto/registry source inputs unchanged; labelled home form validated freshly on phone0097/emulator0099. Source diff and original source/results remain versioned."
+}

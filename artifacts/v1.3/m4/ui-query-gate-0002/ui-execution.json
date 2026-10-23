@@ -1,0 +1,29 @@
+{
+  "status": "FAIL",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0033",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-ui-query-0001",
+        "--class-name",
+        "org.packrag.product.QueryControlsUiTest,org.packrag.product.PackManagementUiTest",
+        "--result-file",
+        "m4-ui-query-controls.json",
+        "--timeout",
+        "1200"
+      ],
+      "started_utc": "2026-10-10T14:40:22.309200+00:00",
+      "returncode": 1,
+      "finished_utc": "2026-10-10T14:43:04.923148+00:00"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-10-11T17:50:59.578538+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.LocalAssetImportAllSlotsDeviceTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0066\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0066\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.LocalAssetImportAllSlotsDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "97c6084a6f66520afdcea38e0a11b0eae588b1dd645e92d6d8028a44c8761d04",
+    "app-debug-androidTest.apk": "64a5566de0977663cf1efedacafcaedfd522e715e643d9bace3aec0c32cba4e3"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.LocalAssetImportAllSlotsDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportAllSlotsDeviceTest.kt",
+      "source_sha256": "52c9c1979fd2a32fa9dde570a9f0637027c9e37a1d38362b1d1ebfa05b7f175c"
+    }
+  },
+  "status": "PASS"
+}

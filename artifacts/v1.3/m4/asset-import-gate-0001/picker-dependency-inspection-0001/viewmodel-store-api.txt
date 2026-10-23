@@ -1,0 +1,10 @@
+Compiled from "ViewModelStore.kt"
+public class androidx.lifecycle.ViewModelStore {
+  public androidx.lifecycle.ViewModelStore();
+  public final void put(java.lang.Object, androidx.lifecycle.ViewModel);
+  public final androidx.lifecycle.ViewModel get(java.lang.Object);
+  public final <T extends androidx.lifecycle.ViewModel> T getOrPut(java.lang.Object, kotlin.jvm.functions.Function0<? extends T>);
+  public final java.util.Set<java.lang.Object> keys();
+  public final void clear();
+  public java.lang.String toString();
+}

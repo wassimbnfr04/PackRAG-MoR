@@ -1,0 +1,55 @@
+Downloading https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\http\client.py", line 1358, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\http\client.py", line 1404, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\http\client.py", line 1353, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\http\client.py", line 1113, in _send_output
+    self.send(msg)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\http\client.py", line 1057, in send
+    self.connect()
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\http\client.py", line 1492, in connect
+    super().connect()
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\http\client.py", line 1023, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\acquire_tooling.py", line 35, in <module>
+    main()
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\acquire_tooling.py", line 19, in main
+    download('https://dl.google.com/android/repository/platform-tools-latest-windows.zip', target)
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\acquire_tooling.py", line 15, in download
+    urllib.request.urlretrieve(url, target)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\urllib\request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>

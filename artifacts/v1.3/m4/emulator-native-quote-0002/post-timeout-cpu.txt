@@ -1,0 +1,10 @@
+Tasks: 333 total,   1 running, 332 sleeping,   0 stopped,   0 zombie
+  Mem:  6072516K total,  5824592K used,   247924K free,    41504K buffers
+ Swap:  4554380K total,   461540K used,  4092840K free,  3691020K cached
+200%cpu 200%user   0%nice   0%sys   8%idle   0%iow   4%irq   4%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+ 9145 u0_a216      20   0  18G 2.2G 1.6G S  192  39.3  59:44.80 org.packrag.product
+10800 shell        20   0  10G 5.0M 4.1M R  3.8   0.0   0:00.01 top -b -n 1 -m 5
+ 9840 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kworker/u8:1-blk_crypto_wq]
+ 9825 u0_a98       20   0  16G 108M  58M S  0.0   1.8   0:00.05 com.android.providers.calendar
+ 9788 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kworker/u9:2-blk_crypto_wq]

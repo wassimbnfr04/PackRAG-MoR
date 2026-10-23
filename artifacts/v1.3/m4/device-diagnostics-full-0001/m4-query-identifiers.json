@@ -1,0 +1,454 @@
+{
+  "status": "PASS",
+  "purpose": "SIGNED_SYNTHETIC_NORMALIZED_ACTUAL_GRANITE_PARITY_NOT_GENERATION_OR_RELEASE_CALIBRATION",
+  "query_contract_cases": [
+    {
+      "id": "valid-default",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-low-year",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-high-year",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-leap",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-jurisdiction",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-subdivision",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-numeric-subdivision",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-supplementary",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-nul-deferred-prompt-admission",
+      "status": "PASS"
+    },
+    {
+      "id": "valid-compatibility",
+      "status": "PASS"
+    },
+    {
+      "id": "zero-year",
+      "status": "PASS"
+    },
+    {
+      "id": "compact",
+      "status": "PASS"
+    },
+    {
+      "id": "week-date",
+      "status": "PASS"
+    },
+    {
+      "id": "invalid-leap",
+      "status": "PASS"
+    },
+    {
+      "id": "invalid-day",
+      "status": "PASS"
+    },
+    {
+      "id": "signed-year",
+      "status": "PASS"
+    },
+    {
+      "id": "space",
+      "status": "PASS"
+    },
+    {
+      "id": "month-zero",
+      "status": "PASS"
+    },
+    {
+      "id": "lower-jurisdiction",
+      "status": "PASS"
+    },
+    {
+      "id": "long-jurisdiction",
+      "status": "PASS"
+    },
+    {
+      "id": "empty-jurisdiction",
+      "status": "PASS"
+    },
+    {
+      "id": "spaced-jurisdiction",
+      "status": "PASS"
+    },
+    {
+      "id": "empty",
+      "status": "PASS"
+    },
+    {
+      "id": "whitespace",
+      "status": "PASS"
+    },
+    {
+      "id": "removed-arabic-only",
+      "status": "PASS"
+    },
+    {
+      "id": "unpaired-high",
+      "status": "PASS"
+    },
+    {
+      "id": "unpaired-low",
+      "status": "PASS"
+    },
+    {
+      "id": "high-before-ascii",
+      "status": "PASS"
+    }
+  ],
+  "word_cases": 5,
+  "alias_boundary_cases": 11,
+  "signed_packs": [
+    {
+      "id": "primary",
+      "filename": "primary.kpack",
+      "sha256": "827a786bf6a48b480fd4bd0353434a35778552a39e5d4c67a884296592fcab01",
+      "chunks": 44
+    },
+    {
+      "id": "twin",
+      "filename": "twin.kpack",
+      "sha256": "180f7f3a51ff8502ba71924335bcb2a9d95ce10b3dc77e19eb0287c7f8a47804",
+      "chunks": 44
+    },
+    {
+      "id": "distinct",
+      "filename": "distinct.kpack",
+      "sha256": "c6beb434e2ae487a6fd7a86b0fcb869ba8d9d1fb19318fcea202c581c0677974",
+      "chunks": 42
+    },
+    {
+      "id": "source-alias",
+      "filename": "source-alias.kpack",
+      "sha256": "1792b447ca6249f9924488191ba7d127ed1cf49db0cbd196b40654936aec6e5f",
+      "chunks": 2
+    },
+    {
+      "id": "within-duplicate",
+      "filename": "within-duplicate.kpack",
+      "sha256": "d4cefe4af9f82d9f7bdfb276605e770a451eb6aa666252088ba9871b270fa4ce",
+      "chunks": 2
+    },
+    {
+      "id": "collision",
+      "filename": "collision.kpack",
+      "sha256": "450002361bc2eedd6f85026bbe89b8cda30e50fc01dc5b34dd1072914f29cf03",
+      "chunks": 1
+    },
+    {
+      "id": "expired",
+      "filename": "expired.kpack",
+      "sha256": "aed4990c526412333e6c8f2bdd13ec81b0d7e2aacacc66dc4b671b1b4670a0a3",
+      "chunks": 1
+    },
+    {
+      "id": "lost-collision",
+      "filename": "lost-collision.kpack",
+      "sha256": "1c53263600df015e6c8a0a8fa981997843c9d1ccfba937318a5966711bab2e2b",
+      "chunks": 1
+    }
+  ],
+  "retrieval_cases": [
+    {
+      "id": "NORMALIZED_FULLWIDTH",
+      "status": "PASS",
+      "ambiguous": false,
+      "candidate_count": 16,
+      "candidate_order": [
+        "org.packrag.contract.primary:e334914a51861e2b7939301d",
+        "org.packrag.contract.primary:7a3136bf3989bf0e6b3e6f15",
+        "org.packrag.contract.primary:3c48f24782ba2424e38b5a98",
+        "org.packrag.contract.primary:4a97f4097dd0ec879e83abdd",
+        "org.packrag.contract.primary:36c097ee3379dd978d08be6d",
+        "org.packrag.contract.primary:49bac2e6e8a100026bd584fe",
+        "org.packrag.contract.primary:b78b6d7a0c338e6d42e0b962",
+        "org.packrag.contract.primary:c2452f66747914e5049e4a8f",
+        "org.packrag.contract.primary:c7493248b510beb85b63b136",
+        "org.packrag.contract.primary:bcd4fcf957ab3cfa579df36d",
+        "org.packrag.contract.primary:845eaff67ce4b588deb20a4c",
+        "org.packrag.contract.primary:24fe0b898011a10c5857bac0",
+        "org.packrag.contract.primary:2845e1ed1299949e34396cf4",
+        "org.packrag.contract.primary:ef19976bd6e948b99278f72c",
+        "org.packrag.contract.primary:9ff39e96c59197f52e3ffc6a",
+        "org.packrag.contract.primary:870a7d965a10c56ba0d96a42"
+      ],
+      "max_embedding_abs_error": 1.1920928955078125E-7,
+      "max_dense_cosine_error": 1.2691641582129876E-7
+    },
+    {
+      "id": "CROSS_SOURCE_AMBIGUITY",
+      "status": "PASS",
+      "ambiguous": true,
+      "candidate_count": 17,
+      "candidate_order": [
+        "org.packrag.contract.primary:e334914a51861e2b7939301d",
+        "org.packrag.contract.collision:f581c9d5b575a7b7ee272a15",
+        "org.packrag.contract.primary:7a3136bf3989bf0e6b3e6f15",
+        "org.packrag.contract.primary:36c097ee3379dd978d08be6d",
+        "org.packrag.contract.primary:4a97f4097dd0ec879e83abdd",
+        "org.packrag.contract.primary:49bac2e6e8a100026bd584fe",
+        "org.packrag.contract.primary:3c48f24782ba2424e38b5a98",
+        "org.packrag.contract.primary:b78b6d7a0c338e6d42e0b962",
+        "org.packrag.contract.primary:bcd4fcf957ab3cfa579df36d",
+        "org.packrag.contract.primary:845eaff67ce4b588deb20a4c",
+        "org.packrag.contract.primary:c2452f66747914e5049e4a8f",
+        "org.packrag.contract.primary:2845e1ed1299949e34396cf4",
+        "org.packrag.contract.primary:870a7d965a10c56ba0d96a42",
+        "org.packrag.contract.primary:c7493248b510beb85b63b136",
+        "org.packrag.contract.primary:29421fdb571f008504a90d81",
+        "org.packrag.contract.primary:24fe0b898011a10c5857bac0",
+        "org.packrag.contract.primary:195c5050edabba4ab75cb23e"
+      ],
+      "max_embedding_abs_error": 1.19674950838089E-7,
+      "max_dense_cosine_error": 1.3716059599211405E-7
+    },
+    {
+      "id": "DUPLICATE_ORIGINAL_DIFFERENT_LOCAL_IDS",
+      "status": "PASS",
+      "ambiguous": false,
+      "candidate_count": 16,
+      "candidate_order": [
+        "org.packrag.contract.primary:e334914a51861e2b7939301d",
+        "org.packrag.contract.primary:7a3136bf3989bf0e6b3e6f15",
+        "org.packrag.contract.primary:36c097ee3379dd978d08be6d",
+        "org.packrag.contract.primary:4a97f4097dd0ec879e83abdd",
+        "org.packrag.contract.primary:49bac2e6e8a100026bd584fe",
+        "org.packrag.contract.primary:3c48f24782ba2424e38b5a98",
+        "org.packrag.contract.primary:b78b6d7a0c338e6d42e0b962",
+        "org.packrag.contract.primary:bcd4fcf957ab3cfa579df36d",
+        "org.packrag.contract.primary:845eaff67ce4b588deb20a4c",
+        "org.packrag.contract.primary:c2452f66747914e5049e4a8f",
+        "org.packrag.contract.primary:2845e1ed1299949e34396cf4",
+        "org.packrag.contract.primary:870a7d965a10c56ba0d96a42",
+        "org.packrag.contract.primary:c7493248b510beb85b63b136",
+        "org.packrag.contract.primary:29421fdb571f008504a90d81",
+        "org.packrag.contract.primary:24fe0b898011a10c5857bac0",
+        "org.packrag.contract.primary:195c5050edabba4ab75cb23e"
+      ],
+      "max_embedding_abs_error": 1.19674950838089E-7,
+      "max_dense_cosine_error": 1.3716059599211405E-7
+    },
+    {
+      "id": "SOURCE_ALIAS_MULTIPLE_SECTIONS",
+      "status": "PASS",
+      "ambiguous": false,
+      "candidate_count": 2,
+      "candidate_order": [
+        "org.packrag.contract.source-alias:d1b3edc45f9f50902f638a5f",
+        "org.packrag.contract.source-alias:fde7930ac1179ccb642f1447"
+      ],
+      "max_embedding_abs_error": 1.19674950838089E-7,
+      "max_dense_cosine_error": 7.47027424363722E-8
+    },
+    {
+      "id": "WITHIN_PACK_DEDUP_ORIGIN_UNIQUE",
+      "status": "PASS",
+      "ambiguous": false,
+      "candidate_count": 1,
+      "candidate_order": [
+        "org.packrag.contract.within-duplicate:ef564705a90752df6c79b5df"
+      ],
+      "max_embedding_abs_error": 1.19674950838089E-7,
+      "max_dense_cosine_error": 3.1127137312125797E-8
+    },
+    {
+      "id": "INELIGIBLE_COLLISION_IGNORED",
+      "status": "PASS",
+      "ambiguous": false,
+      "candidate_count": 16,
+      "candidate_order": [
+        "org.packrag.contract.primary:e334914a51861e2b7939301d",
+        "org.packrag.contract.primary:7a3136bf3989bf0e6b3e6f15",
+        "org.packrag.contract.primary:36c097ee3379dd978d08be6d",
+        "org.packrag.contract.primary:4a97f4097dd0ec879e83abdd",
+        "org.packrag.contract.primary:49bac2e6e8a100026bd584fe",
+        "org.packrag.contract.primary:3c48f24782ba2424e38b5a98",
+        "org.packrag.contract.primary:b78b6d7a0c338e6d42e0b962",
+        "org.packrag.contract.primary:bcd4fcf957ab3cfa579df36d",
+        "org.packrag.contract.primary:845eaff67ce4b588deb20a4c",
+        "org.packrag.contract.primary:c2452f66747914e5049e4a8f",
+        "org.packrag.contract.primary:2845e1ed1299949e34396cf4",
+        "org.packrag.contract.primary:870a7d965a10c56ba0d96a42",
+        "org.packrag.contract.primary:c7493248b510beb85b63b136",
+        "org.packrag.contract.primary:29421fdb571f008504a90d81",
+        "org.packrag.contract.primary:24fe0b898011a10c5857bac0",
+        "org.packrag.contract.primary:195c5050edabba4ab75cb23e"
+      ],
+      "max_embedding_abs_error": 1.19674950838089E-7,
+      "max_dense_cosine_error": 1.3716059599211405E-7
+    },
+    {
+      "id": "CROSS_POOL_32_CAP",
+      "status": "PASS",
+      "ambiguous": false,
+      "candidate_count": 32,
+      "candidate_order": [
+        "org.packrag.contract.distinct:259f60aa49228921f4a04e4b",
+        "org.packrag.contract.distinct:197f2d62e52b1ce3a4cc45a9",
+        "org.packrag.contract.primary:118e8a13cde2c25efe2c391a",
+        "org.packrag.contract.primary:3c48f24782ba2424e38b5a98",
+        "org.packrag.contract.distinct:1baafa539fa792a688f59437",
+        "org.packrag.contract.distinct:0c0aa4caf57a82da73f29a04",
+        "org.packrag.contract.primary:49bac2e6e8a100026bd584fe",
+        "org.packrag.contract.distinct:782c3b392500222460aa0ad8",
+        "org.packrag.contract.primary:05aacc5c0fc7d652c8e8f754",
+        "org.packrag.contract.distinct:46ad729de534dca72c8af1bf",
+        "org.packrag.contract.primary:4a97f4097dd0ec879e83abdd",
+        "org.packrag.contract.primary:845eaff67ce4b588deb20a4c",
+        "org.packrag.contract.primary:195c5050edabba4ab75cb23e",
+        "org.packrag.contract.distinct:2b0b20b4888061e28939c2ba",
+        "org.packrag.contract.primary:2845e1ed1299949e34396cf4",
+        "org.packrag.contract.distinct:27bcc297c71f6f0bb5183025",
+        "org.packrag.contract.distinct:0d9e4f446f0f6910a12b88bc",
+        "org.packrag.contract.distinct:8c13c606e3607899e1b378a8",
+        "org.packrag.contract.primary:658b812c284935083390632c",
+        "org.packrag.contract.primary:857adc51d565643ca45fd85f",
+        "org.packrag.contract.distinct:322dc4f914af02352ad43a74",
+        "org.packrag.contract.distinct:591c9a082a041aabe5845e46",
+        "org.packrag.contract.primary:70d4cf272c0c7bda48ed70b7",
+        "org.packrag.contract.primary:870a7d965a10c56ba0d96a42",
+        "org.packrag.contract.primary:8648c8958771e28b4530f5c5",
+        "org.packrag.contract.distinct:7d3b9ae240ab1e49e07af557",
+        "org.packrag.contract.primary:bcd4fcf957ab3cfa579df36d",
+        "org.packrag.contract.distinct:002cbdb1ed71fb96c05938a7",
+        "org.packrag.contract.primary:be6fb5992753924807b77b48",
+        "org.packrag.contract.distinct:9cbf8f8a525ccc891dbfd551",
+        "org.packrag.contract.primary:144dc315a63cadc1906fa9a5",
+        "org.packrag.contract.distinct:15b4e68c3b15721d45f5cc15"
+      ],
+      "max_embedding_abs_error": 7.59027898311615E-8,
+      "max_dense_cosine_error": 1.650577533540698E-7
+    },
+    {
+      "id": "AMBIGUITY_BEFORE_LOCAL_CAP",
+      "status": "PASS",
+      "ambiguous": true,
+      "candidate_count": 32,
+      "candidate_order": [
+        "org.packrag.contract.primary:118e8a13cde2c25efe2c391a",
+        "org.packrag.contract.lost-collision:0ea5098206a37829469d8bbd",
+        "org.packrag.contract.primary:870a7d965a10c56ba0d96a42",
+        "org.packrag.contract.primary:857adc51d565643ca45fd85f",
+        "org.packrag.contract.primary:9af45906920246d80af52dcb",
+        "org.packrag.contract.primary:7a3136bf3989bf0e6b3e6f15",
+        "org.packrag.contract.primary:29421fdb571f008504a90d81",
+        "org.packrag.contract.primary:ac5c2b5f93716a9c2c8fb357",
+        "org.packrag.contract.primary:a1a3056166ae3f41af618c04",
+        "org.packrag.contract.primary:05aacc5c0fc7d652c8e8f754",
+        "org.packrag.contract.primary:4a97f4097dd0ec879e83abdd",
+        "org.packrag.contract.primary:a68adb5a3ef3cb45c7a54ff4",
+        "org.packrag.contract.primary:845eaff67ce4b588deb20a4c",
+        "org.packrag.contract.primary:49bac2e6e8a100026bd584fe",
+        "org.packrag.contract.primary:658b812c284935083390632c",
+        "org.packrag.contract.primary:badfef595ed01f2041f9aa86",
+        "org.packrag.contract.primary:b4eaa536ffe37742403ca395",
+        "org.packrag.contract.primary:3c48f24782ba2424e38b5a98",
+        "org.packrag.contract.primary:fe531b38a119612530ad0db3",
+        "org.packrag.contract.primary:24fe0b898011a10c5857bac0",
+        "org.packrag.contract.primary:2845e1ed1299949e34396cf4",
+        "org.packrag.contract.primary:be6fb5992753924807b77b48",
+        "org.packrag.contract.primary:36c097ee3379dd978d08be6d",
+        "org.packrag.contract.primary:6fef0b005722f4027eb4b14d",
+        "org.packrag.contract.primary:144dc315a63cadc1906fa9a5",
+        "org.packrag.contract.primary:70d4cf272c0c7bda48ed70b7",
+        "org.packrag.contract.primary:c7493248b510beb85b63b136",
+        "org.packrag.contract.primary:ef19976bd6e948b99278f72c",
+        "org.packrag.contract.primary:8633d95093fadcb04bfb000d",
+        "org.packrag.contract.primary:195c5050edabba4ab75cb23e",
+        "org.packrag.contract.primary:8648c8958771e28b4530f5c5",
+        "org.packrag.contract.primary:ea1d9ec431afb99931228f20"
+      ],
+      "max_embedding_abs_error": 1.4528632164001465E-7,
+      "max_dense_cosine_error": 1.789288387454846E-7
+    },
+    {
+      "id": "DIFFERENT_ALIASES_NOT_AMBIGUOUS",
+      "status": "PASS",
+      "ambiguous": false,
+      "candidate_count": 32,
+      "candidate_order": [
+        "org.packrag.contract.primary:e334914a51861e2b7939301d",
+        "org.packrag.contract.distinct:591c9a082a041aabe5845e46",
+        "org.packrag.contract.primary:9af45906920246d80af52dcb",
+        "org.packrag.contract.distinct:560655ed07a91e9528a6ff28",
+        "org.packrag.contract.distinct:322dc4f914af02352ad43a74",
+        "org.packrag.contract.distinct:0c0aa4caf57a82da73f29a04",
+        "org.packrag.contract.distinct:0d9e4f446f0f6910a12b88bc",
+        "org.packrag.contract.distinct:3e70104978f1f0a19c3a0b18",
+        "org.packrag.contract.distinct:2b0b20b4888061e28939c2ba",
+        "org.packrag.contract.distinct:7ae7bddc9c3038e3818ac830",
+        "org.packrag.contract.distinct:197f2d62e52b1ce3a4cc45a9",
+        "org.packrag.contract.distinct:15b4e68c3b15721d45f5cc15",
+        "org.packrag.contract.distinct:359b763bdda5a2f39821f9db",
+        "org.packrag.contract.distinct:8c13c606e3607899e1b378a8",
+        "org.packrag.contract.distinct:7d3b9ae240ab1e49e07af557",
+        "org.packrag.contract.distinct:46ad729de534dca72c8af1bf",
+        "org.packrag.contract.distinct:002cbdb1ed71fb96c05938a7",
+        "org.packrag.contract.primary:7a3136bf3989bf0e6b3e6f15",
+        "org.packrag.contract.distinct:9cbf8f8a525ccc891dbfd551",
+        "org.packrag.contract.primary:3c48f24782ba2424e38b5a98",
+        "org.packrag.contract.primary:2845e1ed1299949e34396cf4",
+        "org.packrag.contract.primary:24fe0b898011a10c5857bac0",
+        "org.packrag.contract.primary:118e8a13cde2c25efe2c391a",
+        "org.packrag.contract.primary:29421fdb571f008504a90d81",
+        "org.packrag.contract.primary:bcd4fcf957ab3cfa579df36d",
+        "org.packrag.contract.primary:4a97f4097dd0ec879e83abdd",
+        "org.packrag.contract.primary:658b812c284935083390632c",
+        "org.packrag.contract.primary:49bac2e6e8a100026bd584fe",
+        "org.packrag.contract.primary:870a7d965a10c56ba0d96a42",
+        "org.packrag.contract.primary:36c097ee3379dd978d08be6d",
+        "org.packrag.contract.primary:c7493248b510beb85b63b136",
+        "org.packrag.contract.primary:857adc51d565643ca45fd85f"
+      ],
+      "max_embedding_abs_error": 1.1920928955078125E-7,
+      "max_dense_cosine_error": 1.4489889788027455E-7
+    },
+    {
+      "id": "ALIAS_NOT_SUBSTRING",
+      "status": "PASS",
+      "ambiguous": false,
+      "candidate_count": 16,
+      "candidate_order": [
+        "org.packrag.contract.primary:e334914a51861e2b7939301d",
+        "org.packrag.contract.primary:c7493248b510beb85b63b136",
+        "org.packrag.contract.primary:2845e1ed1299949e34396cf4",
+        "org.packrag.contract.primary:badfef595ed01f2041f9aa86",
+        "org.packrag.contract.primary:7a3136bf3989bf0e6b3e6f15",
+        "org.packrag.contract.primary:24fe0b898011a10c5857bac0",
+        "org.packrag.contract.primary:8648c8958771e28b4530f5c5",
+        "org.packrag.contract.primary:3c48f24782ba2424e38b5a98",
+        "org.packrag.contract.primary:9ff39e96c59197f52e3ffc6a",
+        "org.packrag.contract.primary:9e66fc3eb6e367d24d954bc9",
+        "org.packrag.contract.primary:195c5050edabba4ab75cb23e",
+        "org.packrag.contract.primary:29421fdb571f008504a90d81",
+        "org.packrag.contract.primary:870a7d965a10c56ba0d96a42",
+        "org.packrag.contract.primary:b78b6d7a0c338e6d42e0b962",
+        "org.packrag.contract.primary:36c097ee3379dd978d08be6d",
+        "org.packrag.contract.primary:8633d95093fadcb04bfb000d"
+      ],
+      "max_embedding_abs_error": 9.872019290924072E-8,
+      "max_dense_cosine_error": 1.3844736779233813E-7
+    }
+  ],
+  "graph_enabled": false,
+  "second_rrf": false
+}

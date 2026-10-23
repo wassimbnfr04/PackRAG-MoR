@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.generator.GenerationPolicyContractTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-12T23:22:10.988Z" hostname="RAZER" time="0.142">
+  <properties/>
+  <testcase name="requestOwnsTokensUnitsAndContextBudget" classname="org.packrag.generator.GenerationPolicyContractTest" time="0.105"/>
+  <testcase name="unicodeUnitAndGrammarBytesMatchIndependentPythonFixture" classname="org.packrag.generator.GenerationPolicyContractTest" time="0.018"/>
+  <testcase name="admissionRejectsInventedCitedTextWrongIdentityOrderingAndDuplicates" classname="org.packrag.generator.GenerationPolicyContractTest" time="0.007"/>
+  <testcase name="hashApprovedPolicyAndBaselineRemainIndependent" classname="org.packrag.generator.GenerationPolicyContractTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "tampered-knowledge.sqlite",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "tampered-dense.kdx",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "tampered-manifest.json",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "tampered-manifest.sig",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "tampered-transport.kpack",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "tampered-sources\/thermal.txt",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "unexpected-installed-file",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "installed-symbolic-link-even-with-correct-payload-bytes",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "wrong-requested-identity",
+      "error_type": "IllegalArgumentException",
+      "passed": true
+    },
+    {
+      "id": "missing-version",
+      "error_type": "IllegalStateException",
+      "passed": true
+    },
+    {
+      "id": "removed-version",
+      "error_type": "IllegalStateException",
+      "passed": true
+    }
+  ],
+  "active_trust_history_unchanged_during_inspection": true,
+  "raw_reasoning_persisted": false
+}

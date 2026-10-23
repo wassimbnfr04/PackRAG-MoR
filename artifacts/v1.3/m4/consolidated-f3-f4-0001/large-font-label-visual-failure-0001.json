@@ -1,0 +1,9 @@
+{
+  "status": "FAIL_REQUIRED_READABLE_LARGE_FONT_FORM_PRODUCT_LABEL_REPAIR",
+  "recorded_utc": "2026-10-12T15:33:22.719161+00:00",
+  "run": "device-consolidated-ui-0004-productaccessibilityuitest",
+  "png": "m4-f3-large-font-form.png",
+  "observed": "Multiline floating As-of date (YYYY-MM-DD) and Jurisdiction (empty=all) labels overlap adjacent content at320dp/2x. Automated semantics state/width/touch tests passed; raster is not complete readability acceptance.",
+  "repair": "Short single-line field labels; place format/empty-jurisdiction guidance as separate normal Text. Query parsing, tags, submitted context, source/citation/runtime/security constants unchanged. Rebuild both policies and require new physical UI/native smoke; previous product APK identity no longer establishes new product acceptance.",
+  "scope": "Keep original failure images and prior dated passes unchanged. No visual/manual approval for current five PNGs."
+}

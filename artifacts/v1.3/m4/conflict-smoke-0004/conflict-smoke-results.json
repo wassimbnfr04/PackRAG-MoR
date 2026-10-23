@@ -1,0 +1,3120 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "UNKNOWN",
+      "status": "PASS",
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true,
+      "generate_calls_for_case": 0,
+      "result": {
+        "state": "IDENTIFIER_AMBIGUOUS",
+        "answer": null,
+        "citations": [],
+        "sources": [],
+        "query": {
+          "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+          "as_of": "2026-10-07",
+          "jurisdiction": "MA",
+          "current_law": false,
+          "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+        },
+        "active_packs": [
+          [
+            "org.packrag.contract.conflict.unknown",
+            "1.0.0",
+            "7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7"
+          ]
+        ],
+        "generator": {
+          "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+          "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+          "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+          "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+          "quantization": "QAD-Q4_0",
+          "backend": "llama.cpp-cpu-wsl-desktop"
+        },
+        "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+        "timings": {
+          "embedding_ms": 15.505999999732012,
+          "retrieval_ms": 0.9585999996488681,
+          "end_to_end_ms": 16.679199999998673
+        },
+        "candidates": [
+          {
+            "pack_id": "org.packrag.contract.conflict.unknown",
+            "chunk_id": "d0fe55d8071dda66699b185a",
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 1,
+            "dense_cosine": 0.9597538709640503,
+            "rrf": 0.03252247488101534,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.unknown",
+                "1.0.0",
+                "7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+                ],
+                "state": "UNRESOLVED",
+                "reason": "UNKNOWN_AUTHORITY",
+                "preferred": null,
+                "retained": [
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+                ],
+                "required": []
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.unknown",
+            "chunk_id": "3b04982272456d62c8cfb0ae",
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 2,
+            "dense_cosine": 0.9591396450996399,
+            "rrf": 0.03252247488101534,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.unknown",
+                "1.0.0",
+                "7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+                ],
+                "state": "UNRESOLVED",
+                "reason": "UNKNOWN_AUTHORITY",
+                "preferred": null,
+                "retained": [
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+                ],
+                "required": []
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          }
+        ],
+        "selected": [],
+        "warnings": []
+      }
+    },
+    {
+      "id": "DIFFERENT_CURATORS",
+      "status": "PASS",
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true,
+      "generate_calls_for_case": 0,
+      "result": {
+        "state": "IDENTIFIER_AMBIGUOUS",
+        "answer": null,
+        "citations": [],
+        "sources": [],
+        "query": {
+          "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+          "as_of": "2026-10-07",
+          "jurisdiction": "MA",
+          "current_law": false,
+          "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+        },
+        "active_packs": [
+          [
+            "org.packrag.contract.conflict.curator-a",
+            "1.0.0",
+            "980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206"
+          ],
+          [
+            "org.packrag.contract.conflict.curator-b",
+            "1.0.0",
+            "4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac"
+          ]
+        ],
+        "generator": {
+          "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+          "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+          "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+          "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+          "quantization": "QAD-Q4_0",
+          "backend": "llama.cpp-cpu-wsl-desktop"
+        },
+        "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+        "timings": {
+          "embedding_ms": 10.074899999835907,
+          "retrieval_ms": 1.4996000004430243,
+          "end_to_end_ms": 11.832199999844306
+        },
+        "candidates": [
+          {
+            "pack_id": "org.packrag.contract.conflict.curator-b",
+            "chunk_id": "bae9d841f870c8bc6f110bfb",
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "dense_cosine": 0.9597538709640503,
+            "rrf": 0.03278688524590164,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.curator-b",
+                "1.0.0",
+                "4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.curator-b@1.0.0:4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac#bae9d841f870c8bc6f110bfb",
+                  "org.packrag.contract.conflict.curator-a@1.0.0:980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206#a3a47a8b2e383ef11b25603f"
+                ],
+                "state": "UNRESOLVED",
+                "reason": "INCOMPARABLE_CURATORS",
+                "preferred": null,
+                "retained": [
+                  "org.packrag.contract.conflict.curator-b@1.0.0:4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac#bae9d841f870c8bc6f110bfb",
+                  "org.packrag.contract.conflict.curator-a@1.0.0:980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206#a3a47a8b2e383ef11b25603f"
+                ],
+                "required": []
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:466a8424cc0cb1d1128440cfb2fec8f228dd4760884bc0559bd717217b6abf92",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.curator-a",
+            "chunk_id": "a3a47a8b2e383ef11b25603f",
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "dense_cosine": 0.9591396450996399,
+            "rrf": 0.03278688524590164,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.curator-a",
+                "1.0.0",
+                "980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.curator-b@1.0.0:4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac#bae9d841f870c8bc6f110bfb",
+                  "org.packrag.contract.conflict.curator-a@1.0.0:980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206#a3a47a8b2e383ef11b25603f"
+                ],
+                "state": "UNRESOLVED",
+                "reason": "INCOMPARABLE_CURATORS",
+                "preferred": null,
+                "retained": [
+                  "org.packrag.contract.conflict.curator-b@1.0.0:4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac#bae9d841f870c8bc6f110bfb",
+                  "org.packrag.contract.conflict.curator-a@1.0.0:980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206#a3a47a8b2e383ef11b25603f"
+                ],
+                "required": []
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          }
+        ],
+        "selected": [],
+        "warnings": []
+      }
+    },
+    {
+      "id": "BEFORE_CAP",
+      "status": "PASS",
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true,
+      "generate_calls_for_case": 0,
+      "result": {
+        "state": "IDENTIFIER_AMBIGUOUS",
+        "answer": null,
+        "citations": [],
+        "sources": [],
+        "query": {
+          "raw": "Unit-00 Unit-01 Unit-02 Unit-03 Unit-04 Unit-05 Unit-06 Unit-07 Unit-08 Unit-09 Unit-10 Unit-11 Unit-12 Unit-13 Unit-14 Unit-15 Unit-16 Unit-17 Unit-18 Unit-19 Unit-20 Unit-21 Unit-22 Unit-23 Unit-24 Unit-25 Unit-26 Unit-27 Unit-28 Unit-29 Unit-30 Unit-31 Unit-32 Unit-33 Unit-34 Unit-35 Unit-36 Unit-37 Unit-38 Unit-39 Unit-40 Unit-41 LOST",
+          "as_of": "2026-10-07",
+          "jurisdiction": "MA",
+          "current_law": false,
+          "normalized": "unit-00 unit-01 unit-02 unit-03 unit-04 unit-05 unit-06 unit-07 unit-08 unit-09 unit-10 unit-11 unit-12 unit-13 unit-14 unit-15 unit-16 unit-17 unit-18 unit-19 unit-20 unit-21 unit-22 unit-23 unit-24 unit-25 unit-26 unit-27 unit-28 unit-29 unit-30 unit-31 unit-32 unit-33 unit-34 unit-35 unit-36 unit-37 unit-38 unit-39 unit-40 unit-41 lost"
+        },
+        "active_packs": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "generator": {
+          "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+          "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+          "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+          "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+          "quantization": "QAD-Q4_0",
+          "backend": "llama.cpp-cpu-wsl-desktop"
+        },
+        "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+        "timings": {
+          "embedding_ms": 48.68549999991956,
+          "retrieval_ms": 6.324899999981426,
+          "end_to_end_ms": 56.06800000032308
+        },
+        "candidates": [
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "50225f6f91784beae829e5e6",
+            "exact": true,
+            "sparse_rank": 4,
+            "dense_rank": 2,
+            "dense_cosine": 0.8333669900894165,
+            "rrf": 0.031754032258064516,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-03",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "3d43dc0694fd917618571e11",
+            "exact": true,
+            "sparse_rank": 3,
+            "dense_rank": 3,
+            "dense_cosine": 0.8328630924224854,
+            "rrf": 0.031746031746031744,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-00",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "7c0306d3750b56bbd1ce89e4",
+            "exact": true,
+            "sparse_rank": 6,
+            "dense_rank": 1,
+            "dense_cosine": 0.8372195363044739,
+            "rrf": 0.031544957774465976,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-06",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "28e0a37fe08d8696750ce399",
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 9,
+            "dense_cosine": 0.8192533254623413,
+            "rrf": 0.030621785881252923,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-02",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "bd333b19b318cb2e1e96cb97",
+            "exact": true,
+            "sparse_rank": 8,
+            "dense_rank": 4,
+            "dense_cosine": 0.8266609311103821,
+            "rrf": 0.030330882352941176,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-01",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "725cc4dbfcb99c955d7c0b7e",
+            "exact": true,
+            "sparse_rank": 5,
+            "dense_rank": 7,
+            "dense_cosine": 0.8213839530944824,
+            "rrf": 0.030309988518943745,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-09",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "f61884c709d60cf345d914c3",
+            "exact": true,
+            "sparse_rank": 10,
+            "dense_rank": 5,
+            "dense_cosine": 0.8253891468048096,
+            "rrf": 0.02967032967032967,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-05",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "08e64f24fcb1048dd8534838",
+            "exact": true,
+            "sparse_rank": 11,
+            "dense_rank": 6,
+            "dense_cosine": 0.8238775134086609,
+            "rrf": 0.029236022193768675,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-31",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "d5130a2fed39b2f0ebf1bcf3",
+            "exact": true,
+            "sparse_rank": 9,
+            "dense_rank": 12,
+            "dense_cosine": 0.8183603286743164,
+            "rrf": 0.028381642512077296,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-07",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "b9c25c26174de307671886fd",
+            "exact": true,
+            "sparse_rank": 7,
+            "dense_rank": 15,
+            "dense_cosine": 0.8157468438148499,
+            "rrf": 0.028258706467661692,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-04",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "1f621275e0d15da2652e065f",
+            "exact": true,
+            "sparse_rank": 15,
+            "dense_rank": 17,
+            "dense_cosine": 0.8153043985366821,
+            "rrf": 0.02632034632034632,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-18",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "1b7cbd860adc2a2fdd600471",
+            "exact": true,
+            "sparse_rank": 14,
+            "dense_rank": 22,
+            "dense_cosine": 0.8126797676086426,
+            "rrf": 0.025708635464733027,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-10",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "2c6593bd3738897934967a39",
+            "exact": true,
+            "sparse_rank": 16,
+            "dense_rank": 21,
+            "dense_cosine": 0.813362717628479,
+            "rrf": 0.025503573749187783,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-15",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "432e001b72ce6bb2006a5623",
+            "exact": true,
+            "sparse_rank": 22,
+            "dense_rank": 16,
+            "dense_cosine": 0.815613865852356,
+            "rrf": 0.025353016688061617,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-11",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "1f024a45ac9f6b3d46451464",
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": null,
+            "dense_cosine": 0.8104931712150574,
+            "rrf": 0.01639344262295082,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-08",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "0ca367e3b9ae589b3a70313d",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 8,
+            "dense_cosine": 0.8205773830413818,
+            "rrf": 0.014705882352941176,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-33",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "e9b2c600c3e651dd11f2cd79",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 10,
+            "dense_cosine": 0.8185708522796631,
+            "rrf": 0.014285714285714285,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-23",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "93b80ff92aedc56453e24c37",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 11,
+            "dense_cosine": 0.8185360431671143,
+            "rrf": 0.014084507042253521,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-16",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "0d37a05d0a81aaedfa7666d0",
+            "exact": true,
+            "sparse_rank": 12,
+            "dense_rank": null,
+            "dense_cosine": 0.802617609500885,
+            "rrf": 0.013888888888888888,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-14",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "62fc52a5711763e2612a01a4",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 13,
+            "dense_cosine": 0.8182475566864014,
+            "rrf": 0.0136986301369863,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-34",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "1b4248a893c52b1fd6f47b8a",
+            "exact": true,
+            "sparse_rank": 13,
+            "dense_rank": null,
+            "dense_cosine": 0.8020867705345154,
+            "rrf": 0.0136986301369863,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-17",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "27167e4528b7098a6ef99134",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 14,
+            "dense_cosine": 0.8168882131576538,
+            "rrf": 0.013513513513513514,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-36",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "2ccf18ca7db0c84871acab71",
+            "exact": true,
+            "sparse_rank": 17,
+            "dense_rank": null,
+            "dense_cosine": 0.785737156867981,
+            "rrf": 0.012987012987012988,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-27",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "d4af34e9ea5ee67baf7d7241",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 18,
+            "dense_cosine": 0.8152419924736023,
+            "rrf": 0.01282051282051282,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-40",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "3687878c1400135ff46035e7",
+            "exact": true,
+            "sparse_rank": 18,
+            "dense_rank": null,
+            "dense_cosine": 0.8060092926025391,
+            "rrf": 0.01282051282051282,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-28",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "94043e52a4dc1fcc32d5e1c3",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 19,
+            "dense_cosine": 0.8151179552078247,
+            "rrf": 0.012658227848101266,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-30",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "37ea124dc586508b34e34439",
+            "exact": true,
+            "sparse_rank": 19,
+            "dense_rank": null,
+            "dense_cosine": 0.800317645072937,
+            "rrf": 0.012658227848101266,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-29",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "1777a96c0b9d604e4fffde3e",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 20,
+            "dense_cosine": 0.8145501613616943,
+            "rrf": 0.0125,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-41",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "3bec56c14be79ac255156d65",
+            "exact": true,
+            "sparse_rank": 20,
+            "dense_rank": null,
+            "dense_cosine": 0.801106333732605,
+            "rrf": 0.0125,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-22",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "40f99ecd20f85267e8f0fa68",
+            "exact": true,
+            "sparse_rank": 21,
+            "dense_rank": null,
+            "dense_cosine": 0.8064074516296387,
+            "rrf": 0.012345679012345678,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-26",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "eb3f1ed236b5d6370de30fb7",
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 23,
+            "dense_cosine": 0.8126540184020996,
+            "rrf": 0.012048192771084338,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-13",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.before-cap",
+            "chunk_id": "43c38d081078e056b50bd07f",
+            "exact": true,
+            "sparse_rank": 23,
+            "dense_rank": null,
+            "dense_cosine": 0.8093967437744141,
+            "rrf": 0.012048192771084338,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.before-cap",
+                "1.0.0",
+                "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+              ]
+            ],
+            "conflicts": [],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Unit-20",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          }
+        ],
+        "selected": [],
+        "warnings": []
+      }
+    },
+    {
+      "id": "FIVE_COMPANIONS",
+      "status": "PASS",
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true,
+      "generate_calls_for_case": 0,
+      "result": {
+        "state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+        "answer": null,
+        "citations": [],
+        "sources": [],
+        "query": {
+          "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+          "as_of": "2026-10-07",
+          "jurisdiction": "MA",
+          "current_law": false,
+          "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+        },
+        "active_packs": [
+          [
+            "org.packrag.contract.conflict.five-companions",
+            "1.0.0",
+            "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+          ]
+        ],
+        "generator": {
+          "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+          "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+          "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+          "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+          "quantization": "QAD-Q4_0",
+          "backend": "llama.cpp-cpu-wsl-desktop"
+        },
+        "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+        "timings": {
+          "embedding_ms": 10.925699999916105,
+          "retrieval_ms": 1.3176999996176164,
+          "end_to_end_ms": 233.57690000011644
+        },
+        "candidates": [
+          {
+            "pack_id": "org.packrag.contract.conflict.five-companions",
+            "chunk_id": "b72b7dcf3b36a21d13ec29f9",
+            "exact": true,
+            "sparse_rank": 4,
+            "dense_rank": 1,
+            "dense_cosine": 0.8745331764221191,
+            "rrf": 0.032018442622950824,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.five-companions",
+                "1.0.0",
+                "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "b72b7dcf3b36a21d13ec29f9",
+                  "to_chunk_id": "602a09b58756b9c5473429f6",
+                  "relation_type": "amends",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.five-companions",
+            "chunk_id": "602a09b58756b9c5473429f6",
+            "exact": true,
+            "sparse_rank": 3,
+            "dense_rank": 2,
+            "dense_cosine": 0.8729296922683716,
+            "rrf": 0.03200204813108039,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.five-companions",
+                "1.0.0",
+                "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "602a09b58756b9c5473429f6",
+                  "to_chunk_id": "53349cf478b37619701431c7",
+                  "relation_type": "amends",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                },
+                {
+                  "from_chunk_id": "b72b7dcf3b36a21d13ec29f9",
+                  "to_chunk_id": "602a09b58756b9c5473429f6",
+                  "relation_type": "amends",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.five-companions",
+            "chunk_id": "53349cf478b37619701431c7",
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 4,
+            "dense_cosine": 0.8681949377059937,
+            "rrf": 0.031754032258064516,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.five-companions",
+                "1.0.0",
+                "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "53349cf478b37619701431c7",
+                  "to_chunk_id": "1606132bfb9c4d6c539b3c84",
+                  "relation_type": "amends",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                },
+                {
+                  "from_chunk_id": "602a09b58756b9c5473429f6",
+                  "to_chunk_id": "53349cf478b37619701431c7",
+                  "relation_type": "amends",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.five-companions",
+            "chunk_id": "1606132bfb9c4d6c539b3c84",
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 5,
+            "dense_cosine": 0.8672785758972168,
+            "rrf": 0.03177805800756621,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.five-companions",
+                "1.0.0",
+                "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "1606132bfb9c4d6c539b3c84",
+                  "to_chunk_id": "ff3cb43f52951870d0331466",
+                  "relation_type": "amends",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                },
+                {
+                  "from_chunk_id": "53349cf478b37619701431c7",
+                  "to_chunk_id": "1606132bfb9c4d6c539b3c84",
+                  "relation_type": "amends",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.five-companions",
+            "chunk_id": "ff3cb43f52951870d0331466",
+            "exact": true,
+            "sparse_rank": 5,
+            "dense_rank": 3,
+            "dense_cosine": 0.8720558285713196,
+            "rrf": 0.03125763125763126,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.five-companions",
+                "1.0.0",
+                "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "1606132bfb9c4d6c539b3c84",
+                  "to_chunk_id": "ff3cb43f52951870d0331466",
+                  "relation_type": "amends",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          }
+        ],
+        "selected": [],
+        "warnings": []
+      }
+    },
+    {
+      "id": "AUTHORITY",
+      "status": "PASS",
+      "actual_weight_inference": true,
+      "model_load_not_excluded": false,
+      "generate_calls_for_case": 1,
+      "result": {
+        "state": "ANSWER_ACCEPTED",
+        "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+        "citations": [
+          "S1"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+            "title": "SYNTHETIC Aster-9 rule",
+            "locator": "new",
+            "publisher": "SYNTHETIC FIXTURE ONLY",
+            "canonical_uri": "https://example.invalid/synthetic-law",
+            "pack_id": "org.packrag.contract.conflict.authority",
+            "version": "1.0.0",
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4f7d82b9683ffdb02ab467ab"
+                ],
+                "state": "RESOLVED_AUTHORITY",
+                "reason": "PREFERRED_EDITION",
+                "preferred": "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+                "retained": [
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ]
+                ]
+              }
+            ],
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          }
+        ],
+        "query": {
+          "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+          "as_of": "2026-10-07",
+          "jurisdiction": "MA",
+          "current_law": false,
+          "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+        },
+        "active_packs": [
+          [
+            "org.packrag.contract.conflict.authority",
+            "1.0.0",
+            "dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633"
+          ]
+        ],
+        "generator": {
+          "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+          "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+          "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+          "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+          "quantization": "QAD-Q4_0",
+          "backend": "llama.cpp-cpu-wsl-desktop"
+        },
+        "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+        "timings": {
+          "embedding_ms": 9.888699999919481,
+          "retrieval_ms": 0.9881999999379332,
+          "generation": {
+            "cache_n": 0,
+            "prompt_n": 237,
+            "prompt_ms": 2531.055,
+            "prompt_per_token_ms": 10.679556962025316,
+            "prompt_per_second": 93.63684313458224,
+            "predicted_n": 170,
+            "predicted_ms": 6211.894,
+            "predicted_per_token_ms": 36.75676923076923,
+            "predicted_per_second": 27.205873120178804,
+            "host_generation_wall_ms": 8760.850499999833,
+            "emitted_token_count": 170,
+            "reasoning_token_count": 150,
+            "final_and_terminal_token_count": 20,
+            "token_partition_method": "actual_emitted_ids",
+            "ttft_ms": null,
+            "ttft_measurement": "not_measured_nonstreaming"
+          },
+          "end_to_end_ms": 8892.685299999812
+        },
+        "candidates": [
+          {
+            "pack_id": "org.packrag.contract.conflict.authority",
+            "chunk_id": "4e3ec8b76f322fb709ad6507",
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "dense_cosine": 0.9597538709640503,
+            "rrf": 0.03278688524590164,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.authority",
+                "1.0.0",
+                "dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4f7d82b9683ffdb02ab467ab"
+                ],
+                "state": "RESOLVED_AUTHORITY",
+                "reason": "PREFERRED_EDITION",
+                "preferred": "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+                "retained": [
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          }
+        ],
+        "selected": [
+          {
+            "id": "S1",
+            "pack_id": "org.packrag.contract.conflict.authority",
+            "version": "1.0.0",
+            "manifest_sha256": "dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633",
+            "chunk_id": "4e3ec8b76f322fb709ad6507",
+            "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+            "relevant": true,
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4f7d82b9683ffdb02ab467ab"
+                ],
+                "state": "RESOLVED_AUTHORITY",
+                "reason": "PREFERRED_EDITION",
+                "preferred": "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507",
+                "retained": [
+                  "org.packrag.contract.conflict.authority@1.0.0:dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633#4e3ec8b76f322fb709ad6507"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ]
+                ]
+              }
+            ],
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            }
+          }
+        ],
+        "warnings": [],
+        "token_budget": {
+          "prefill": 237,
+          "evidence": 65,
+          "max_new": 512
+        },
+        "rejection_reason": null
+      }
+    },
+    {
+      "id": "SUPERSEDES_CURRENT",
+      "status": "PASS",
+      "actual_weight_inference": true,
+      "model_load_not_excluded": false,
+      "generate_calls_for_case": 1,
+      "result": {
+        "state": "ANSWER_ACCEPTED",
+        "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+        "citations": [
+          "S1"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+            "title": "SYNTHETIC Aster-9 rule",
+            "locator": "new",
+            "publisher": "SYNTHETIC FIXTURE ONLY",
+            "canonical_uri": "https://example.invalid/synthetic-law",
+            "pack_id": "org.packrag.contract.conflict.supersedes",
+            "version": "1.0.0",
+            "validity": {
+              "source_from": "2026-01-01",
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": "2026-01-01",
+              "effective_until_excl": null,
+              "source_start_unknown": false,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347",
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#2ba76dfe0a809b02ff162035"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "PREFERRED_EDITION",
+                "preferred": "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347",
+                "retained": [
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ]
+                ]
+              }
+            ],
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "f59d2d76c4efa9c6c541d347",
+                  "to_chunk_id": "2ba76dfe0a809b02ff162035",
+                  "relation_type": "supersedes",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          }
+        ],
+        "query": {
+          "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+          "as_of": "2026-10-07",
+          "jurisdiction": "MA",
+          "current_law": false,
+          "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+        },
+        "active_packs": [
+          [
+            "org.packrag.contract.conflict.supersedes",
+            "1.0.0",
+            "19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d"
+          ]
+        ],
+        "generator": {
+          "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+          "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+          "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+          "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+          "quantization": "QAD-Q4_0",
+          "backend": "llama.cpp-cpu-wsl-desktop"
+        },
+        "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+        "timings": {
+          "embedding_ms": 14.966499999900407,
+          "retrieval_ms": 1.0237000001325214,
+          "generation": {
+            "cache_n": 0,
+            "prompt_n": 241,
+            "prompt_ms": 2460.173,
+            "prompt_per_token_ms": 10.2081867219917,
+            "prompt_per_second": 97.9605905763538,
+            "predicted_n": 170,
+            "predicted_ms": 6434.113,
+            "predicted_per_token_ms": 38.07167455621302,
+            "predicted_per_second": 26.266246800452524,
+            "host_generation_wall_ms": 8918.885699999919,
+            "emitted_token_count": 170,
+            "reasoning_token_count": 150,
+            "final_and_terminal_token_count": 20,
+            "token_partition_method": "actual_emitted_ids",
+            "ttft_ms": null,
+            "ttft_measurement": "not_measured_nonstreaming"
+          },
+          "end_to_end_ms": 9086.5632
+        },
+        "candidates": [
+          {
+            "pack_id": "org.packrag.contract.conflict.supersedes",
+            "chunk_id": "f59d2d76c4efa9c6c541d347",
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 1,
+            "dense_cosine": 0.9597538709640503,
+            "rrf": 0.03252247488101534,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.supersedes",
+                "1.0.0",
+                "19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347",
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#2ba76dfe0a809b02ff162035"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "PREFERRED_EDITION",
+                "preferred": "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347",
+                "retained": [
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": "2026-01-01",
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": "2026-01-01",
+              "effective_until_excl": null,
+              "source_start_unknown": false,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "f59d2d76c4efa9c6c541d347",
+                  "to_chunk_id": "2ba76dfe0a809b02ff162035",
+                  "relation_type": "supersedes",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          }
+        ],
+        "selected": [
+          {
+            "id": "S1",
+            "pack_id": "org.packrag.contract.conflict.supersedes",
+            "version": "1.0.0",
+            "manifest_sha256": "19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d",
+            "chunk_id": "f59d2d76c4efa9c6c541d347",
+            "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+            "relevant": true,
+            "validity": {
+              "source_from": "2026-01-01",
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": "2026-01-01",
+              "effective_until_excl": null,
+              "source_start_unknown": false,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347",
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#2ba76dfe0a809b02ff162035"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "PREFERRED_EDITION",
+                "preferred": "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347",
+                "retained": [
+                  "org.packrag.contract.conflict.supersedes@1.0.0:19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d#f59d2d76c4efa9c6c541d347"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ]
+                ]
+              }
+            ],
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "f59d2d76c4efa9c6c541d347",
+                  "to_chunk_id": "2ba76dfe0a809b02ff162035",
+                  "relation_type": "supersedes",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          }
+        ],
+        "warnings": [],
+        "token_budget": {
+          "prefill": 241,
+          "evidence": 67,
+          "max_new": 512
+        },
+        "rejection_reason": null
+      }
+    },
+    {
+      "id": "EXCEPTION",
+      "status": "PASS",
+      "actual_weight_inference": true,
+      "model_load_not_excluded": false,
+      "generate_calls_for_case": 1,
+      "result": {
+        "state": "ANSWER_ACCEPTED",
+        "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S2].",
+        "citations": [
+          "S2"
+        ],
+        "sources": [
+          {
+            "id": "S2",
+            "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+            "title": "SYNTHETIC Aster-9 rule",
+            "locator": "new",
+            "publisher": "SYNTHETIC FIXTURE ONLY",
+            "canonical_uri": "https://example.invalid/synthetic-law",
+            "pack_id": "org.packrag.contract.conflict.exception",
+            "version": "1.0.0",
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                "retained": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ],
+                  [
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac",
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac"
+                  ]
+                ]
+              }
+            ],
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "daf91d8d98e942d608496b1e",
+                  "to_chunk_id": "31510a8f66c242b20db48aa4",
+                  "relation_type": "exception_to",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          }
+        ],
+        "query": {
+          "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+          "as_of": "2026-10-07",
+          "jurisdiction": "MA",
+          "current_law": false,
+          "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+        },
+        "active_packs": [
+          [
+            "org.packrag.contract.conflict.exception",
+            "1.0.0",
+            "0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634"
+          ]
+        ],
+        "generator": {
+          "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+          "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+          "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+          "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+          "quantization": "QAD-Q4_0",
+          "backend": "llama.cpp-cpu-wsl-desktop"
+        },
+        "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+        "timings": {
+          "embedding_ms": 12.789700000212179,
+          "retrieval_ms": 2.0200000003569585,
+          "generation": {
+            "cache_n": 0,
+            "prompt_n": 304,
+            "prompt_ms": 3044.669,
+            "prompt_per_token_ms": 10.015358552631579,
+            "prompt_per_second": 99.84664999709328,
+            "predicted_n": 233,
+            "predicted_ms": 8553.233,
+            "predicted_per_token_ms": 36.86738362068966,
+            "predicted_per_second": 27.124246469142136,
+            "host_generation_wall_ms": 11625.884499999756,
+            "emitted_token_count": 233,
+            "reasoning_token_count": 213,
+            "final_and_terminal_token_count": 20,
+            "token_partition_method": "actual_emitted_ids",
+            "ttft_ms": null,
+            "ttft_measurement": "not_measured_nonstreaming"
+          },
+          "end_to_end_ms": 11815.424699999767
+        },
+        "candidates": [
+          {
+            "pack_id": "org.packrag.contract.conflict.exception",
+            "chunk_id": "daf91d8d98e942d608496b1e",
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 2,
+            "dense_cosine": 0.9379855394363403,
+            "rrf": 0.03225806451612903,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.exception",
+                "1.0.0",
+                "0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                "retained": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ],
+                  [
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac",
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "daf91d8d98e942d608496b1e",
+                  "to_chunk_id": "31510a8f66c242b20db48aa4",
+                  "relation_type": "exception_to",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          },
+          {
+            "pack_id": "org.packrag.contract.conflict.exception",
+            "chunk_id": "31510a8f66c242b20db48aa4",
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "dense_cosine": 0.9597538709640503,
+            "rrf": 0.03278688524590164,
+            "relevant": true,
+            "origins": [
+              [
+                "org.packrag.contract.conflict.exception",
+                "1.0.0",
+                "0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634"
+              ]
+            ],
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                "retained": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ],
+                  [
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac",
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac"
+                  ]
+                ]
+              }
+            ],
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "daf91d8d98e942d608496b1e",
+                  "to_chunk_id": "31510a8f66c242b20db48aa4",
+                  "relation_type": "exception_to",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          }
+        ],
+        "selected": [
+          {
+            "id": "S1",
+            "pack_id": "org.packrag.contract.conflict.exception",
+            "version": "1.0.0",
+            "manifest_sha256": "0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634",
+            "chunk_id": "daf91d8d98e942d608496b1e",
+            "text_sha256": "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac",
+            "relevant": true,
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                "retained": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ],
+                  [
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac",
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac"
+                  ]
+                ]
+              }
+            ],
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "daf91d8d98e942d608496b1e",
+                  "to_chunk_id": "31510a8f66c242b20db48aa4",
+                  "relation_type": "exception_to",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          },
+          {
+            "id": "S2",
+            "pack_id": "org.packrag.contract.conflict.exception",
+            "version": "1.0.0",
+            "manifest_sha256": "0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634",
+            "chunk_id": "31510a8f66c242b20db48aa4",
+            "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+            "relevant": true,
+            "validity": {
+              "source_from": null,
+              "source_until_excl": null,
+              "chunk_from": null,
+              "chunk_until_excl": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "source_start_unknown": true,
+              "source_end_unknown": true,
+              "chunk_start_inherits": true,
+              "chunk_end_inherits": true,
+              "empty_intersection": false,
+              "jurisdiction": "MA",
+              "legal_status": "active"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                "retained": [
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#daf91d8d98e942d608496b1e",
+                  "org.packrag.contract.conflict.exception@1.0.0:0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634#31510a8f66c242b20db48aa4"
+                ],
+                "required": [
+                  [
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+                    "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+                  ],
+                  [
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac",
+                    "610a84db5128efd0d843c73cbbbb4a9a98c15f584e36bad55a6ff5ba06e96bac"
+                  ]
+                ]
+              }
+            ],
+            "source_metadata": {
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "article": "Aster-9",
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "from_chunk_id": "daf91d8d98e942d608496b1e",
+                  "to_chunk_id": "31510a8f66c242b20db48aa4",
+                  "relation_type": "exception_to",
+                  "provenance": "explicit-reference",
+                  "confidence": 1.0
+                }
+              ]
+            }
+          }
+        ],
+        "warnings": [],
+        "token_budget": {
+          "prefill": 304,
+          "evidence": 133,
+          "max_new": 512
+        },
+        "rejection_reason": null
+      }
+    }
+  ],
+  "tokenizer_cases": 19,
+  "purpose": "REAL_LFM_SYNTHETIC_CONFLICT_INTEGRATION_NOT_RELEASE_LEGAL_REVIEW_CALIBRATION_OR_PERFORMANCE",
+  "raw_reasoning_persisted": false
+}

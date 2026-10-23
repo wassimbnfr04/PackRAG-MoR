@@ -1,0 +1,41 @@
+{
+  "status": "PARTIAL_BACKGROUND_PROGRESS_NOT_FULL_ACCEPTANCE",
+  "note": "F2 adjacent debug progress 2026-10-11T20:53:31.850986+00:00: actual 6 methods/29 controls accepted with original hashes; active DiagnosticRuntimeDeviceTest; whole background batch status RUNNING_F2_ADJACENT_BACKGROUND_NOT_ACCEPTED remains unaccepted. No Android source/build/install change. Owner authorized a future announced20-minute window; not started. Final-source affected import7methods/54controls prepared with preserved deep validators and installed-only runners; first host preparation KeyError (older absent helper) preserved and repaired in new preparation0002, no device failure. See M4F2_FINAL_IMPORT_REGRESSION_PREPARATION.md. F2closure/F3/F4 pending, final owner packs excluded/mobile data on.",
+  "parent_snapshot_sha256": "891296ccf459a53021b1d48973d98f94b2d2aa44c8a764a36802f90ae5ab22ca",
+  "completed": [
+    {
+      "class_name": "LocalAssetReadinessDeviceTest",
+      "methods": 3,
+      "controls": 13,
+      "run": "device-local-asset-adjacent-debug-0001-readiness",
+      "original_sha256": {
+        "m4-local-assets-negative.json": "e00344a6455202498279302f214383d045e5ed0d1202cd9cbd5b9b57c944a0c8",
+        "m4-local-assets-runtime.json": "ece3a25b6f1cd4514b0db6619f50b774f2f9326717022299c5fc8cfaa5e2b07c",
+        "m4-local-assets-viewmodel.json": "a131f910e15e1e6592842f6258033cb723ff4b03259dc07f050df4823caa3248"
+      },
+      "manifest_sha256": "0d0154a5d79aa1ed159eac05d2e2d837170b600eae5e906be6b51e4ae0d72975"
+    },
+    {
+      "class_name": "QueryControlsDeviceTest",
+      "methods": 2,
+      "controls": 11,
+      "run": "device-local-asset-adjacent-debug-0001-query",
+      "original_sha256": {
+        "m4-ui-query-inputs.json": "5ca4fe9b0922f09337d8dd2add87c6324c39a23fa5e42d2415046b8f33048551",
+        "m4-ui-query-runtime.json": "63de20729e90132fff8dfa6bf28e7adca1a0d1cd3f611574d6c688d72cc260a9"
+      },
+      "manifest_sha256": "c9448c1b28a5d8f7259b743b2777be0673c2f983221271a0ae3fcb0a5755df23"
+    },
+    {
+      "class_name": "SourceDetailsViewModelTest",
+      "methods": 1,
+      "controls": 5,
+      "run": "device-local-asset-adjacent-debug-0001-sources",
+      "original_sha256": {
+        "m4-source-details-viewmodel.json": "e6418e4063ea1e511ed2e57ad0176c13d7c049e7f23002663f768d352f866c52"
+      },
+      "manifest_sha256": "193963ca7467f9d2e7b5fc7b1bb378bcf02fa33855d47b5c24e960b83411b92e"
+    }
+  ],
+  "active_class": "DiagnosticRuntimeDeviceTest"
+}

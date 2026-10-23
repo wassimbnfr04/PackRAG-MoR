@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.runtime.OutputContractTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-10T18:42:31.682Z" hostname="RAZER" time="0.068">
+  <properties/>
+  <testcase name="bufferedReasoningAndCitationContracts" classname="org.packrag.runtime.OutputContractTest" time="0.064"/>
+  <testcase name="xmlDataEscapingCannotCloseRolesOrAttributes" classname="org.packrag.runtime.OutputContractTest" time="0.003"/>
+  <testcase name="reservedInputIsNotSilentlyEdited" classname="org.packrag.runtime.OutputContractTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

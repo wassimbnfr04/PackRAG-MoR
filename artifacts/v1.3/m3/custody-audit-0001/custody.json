@@ -1,0 +1,12 @@
+{
+  "private_seed_public_hash_recorded": false,
+  "scope": "Local directory ACL and git ignore; final archive inspection remains required",
+  "private_seed_content_read": false,
+  "permitted_principals": [
+    "CURRENT_OWNER",
+    "WINDOWS_SYSTEM"
+  ],
+  "protected_from_inherited_rules": true,
+  "status": "OWNER_AND_SYSTEM_DIRECTORY_ACL_VERIFIED",
+  "rule_count": 2
+}

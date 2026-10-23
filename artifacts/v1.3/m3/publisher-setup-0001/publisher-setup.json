@@ -1,0 +1,17 @@
+{
+  "status": "PUBLIC_CONFIGURATION_CREATED_NOT_RELEASE_ACCEPTANCE",
+  "recorded_utc": "2026-10-06T20:34:33.293281+00:00",
+  "publisher": {
+    "name": "PackRAG project demonstrator publisher",
+    "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+    "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+  },
+  "private_seed_reused": false,
+  "private_seed": "LOCAL_OWNER_ONLY_NOT_EXPORTED",
+  "public_configuration_sha256": {
+    "product/config/release-trust.json": "2bf01e87216790babca17fd0990731cf57a3877430a9662642a0f5e0d99c87a5",
+    "product/android/app/src/main/assets/release-trust.json": "2bf01e87216790babca17fd0990731cf57a3877430a9662642a0f5e0d99c87a5"
+  },
+  "script_sha256": "87a10e9ef7469d6d560b49173ecc3eb76291b0b1c81ea9faa57da4e603766f52",
+  "limits": "Project-owned demonstrator signer; not original source authority, source truth, calibration quality or final release approval. Private seed is excluded from tracked/delivery artifacts."
+}

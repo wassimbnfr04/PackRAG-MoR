@@ -1,0 +1,619 @@
+{
+  "id": "ar-reviewed",
+  "status": "PASS",
+  "result": {
+    "state": "ANSWER_ACCEPTED",
+    "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+    "citations": [
+      "S1"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "canonical_text": "تبلغ درجة حرارة التشغيل المستمر القصوى لوحدة التحكم الحراري Aster-9 مقدار 74 °C.",
+        "title": "Aster-9",
+        "locator": "thermal",
+        "publisher": "SYNTHETIC PackRAG contract fixture",
+        "canonical_uri": null,
+        "canonical_language": "ar",
+        "canonical_text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+        "generator_representation": {
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "language": "en",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+          "reviewed_at": "2026-10-09",
+          "canonical_language": "ar",
+          "canonical_text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9"
+        },
+        "pack_id": "org.packrag.contract.ar-reviewed",
+        "version": "1.0.0",
+        "manifest_sha256": "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b",
+        "source_id": "ar-reviewed-thermal",
+        "chunk_id": "12f50df9409d38834872a1fc",
+        "original_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+        "fused_rank": 1,
+        "origins": [
+          {
+            "identity": [
+              "org.packrag.contract.ar-reviewed",
+              "1.0.0",
+              "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "تبلغ درجة حرارة التشغيل المستمر القصوى لوحدة التحكم الحراري Aster-9 مقدار 74 °C.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "12f50df9409d38834872a1fc",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "ar",
+              "legal_status": "n/a",
+              "license": "CC0-1.0",
+              "locator": "thermal",
+              "notes": "SYNTHETIC protocol source; review labels are not real human/official claims",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 1,
+              "search_text": "تبلغ درجة حرارة التشغيل المستمر القصوى لوحدة التحكم الحراري Aster-9 مقدار 74 °C.",
+              "section": "thermal",
+              "sha256_original": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "ar-reviewed-thermal",
+              "source_title": "Aster-9",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+              "title": "Aster-9"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": null,
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": "SYNTHETIC protocol source; review labels are not real human/official claims"
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "12f50df9409d38834872a1fc",
+                "derivation_method": "human_reviewed_translation",
+                "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": "2026-10-09",
+                "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+                "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+                "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.9541395902633667,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": null,
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": "SYNTHETIC protocol source; review labels are not real human/official claims"
+        },
+        "source_location": {
+          "chunk_title": "Aster-9",
+          "section": "thermal",
+          "page_start": null,
+          "page_end": null,
+          "character_start": null,
+          "character_end": null
+        }
+      }
+    ],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+      "as_of": "2026-10-09",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.ar-reviewed",
+        "1.0.0",
+        "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 12.169499999799882,
+      "retrieval_ms": 0.9575999993103324,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 230,
+        "prompt_ms": 2868.652,
+        "prompt_per_token_ms": 12.4724,
+        "prompt_per_second": 80.17703088419229,
+        "predicted_n": 112,
+        "predicted_ms": 4722.953,
+        "predicted_per_token_ms": 42.54912612612613,
+        "predicted_per_second": 23.50224531135499,
+        "host_generation_wall_ms": 7621.879399999671,
+        "emitted_token_count": 112,
+        "reasoning_token_count": 92,
+        "final_and_terminal_token_count": 20,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 7764.4211999995605
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.ar-reviewed",
+        "chunk_id": "12f50df9409d38834872a1fc",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9541395902633667,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.ar-reviewed",
+            "1.0.0",
+            "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.ar-reviewed",
+              "1.0.0",
+              "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "تبلغ درجة حرارة التشغيل المستمر القصوى لوحدة التحكم الحراري Aster-9 مقدار 74 °C.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "12f50df9409d38834872a1fc",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "ar",
+              "legal_status": "n/a",
+              "license": "CC0-1.0",
+              "locator": "thermal",
+              "notes": "SYNTHETIC protocol source; review labels are not real human/official claims",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 1,
+              "search_text": "تبلغ درجة حرارة التشغيل المستمر القصوى لوحدة التحكم الحراري Aster-9 مقدار 74 °C.",
+              "section": "thermal",
+              "sha256_original": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "ar-reviewed-thermal",
+              "source_title": "Aster-9",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+              "title": "Aster-9"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": null,
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": "SYNTHETIC protocol source; review labels are not real human/official claims"
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "12f50df9409d38834872a1fc",
+                "derivation_method": "human_reviewed_translation",
+                "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": "2026-10-09",
+                "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+                "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+                "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.9541395902633667,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": null,
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": "SYNTHETIC protocol source; review labels are not real human/official claims"
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.contract.ar-reviewed",
+        "version": "1.0.0",
+        "manifest_sha256": "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b",
+        "chunk_id": "12f50df9409d38834872a1fc",
+        "text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+        "source_id": "ar-reviewed-thermal",
+        "original_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+        "fused_rank": 1,
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9541395902633667,
+        "rrf": 0.03278688524590164,
+        "origins": [
+          [
+            "org.packrag.contract.ar-reviewed",
+            "1.0.0",
+            "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b"
+          ]
+        ],
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.ar-reviewed",
+              "1.0.0",
+              "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "تبلغ درجة حرارة التشغيل المستمر القصوى لوحدة التحكم الحراري Aster-9 مقدار 74 °C.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "12f50df9409d38834872a1fc",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "ar",
+              "legal_status": "n/a",
+              "license": "CC0-1.0",
+              "locator": "thermal",
+              "notes": "SYNTHETIC protocol source; review labels are not real human/official claims",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 1,
+              "search_text": "تبلغ درجة حرارة التشغيل المستمر القصوى لوحدة التحكم الحراري Aster-9 مقدار 74 °C.",
+              "section": "thermal",
+              "sha256_original": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "ar-reviewed-thermal",
+              "source_title": "Aster-9",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+              "title": "Aster-9"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": null,
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": "SYNTHETIC protocol source; review labels are not real human/official claims"
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "12f50df9409d38834872a1fc",
+                "derivation_method": "human_reviewed_translation",
+                "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": "2026-10-09",
+                "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+                "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+                "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.9541395902633667,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "relevant": true,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "language": "en",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+          "reviewed_at": "2026-10-09",
+          "canonical_language": "ar",
+          "canonical_text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:12045c5fd99e29c90efaff05d4ef3e4b252a87d260b666cbd39473cb37ef5a5d",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": null,
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": "SYNTHETIC protocol source; review labels are not real human/official claims"
+        },
+        "source_location": {
+          "chunk_title": "Aster-9",
+          "section": "thermal",
+          "page_start": null,
+          "page_end": null,
+          "character_start": null,
+          "character_end": null
+        }
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 230,
+      "evidence": 59,
+      "max_new": 512
+    },
+    "selection": {
+      "keys": [
+        "org.packrag.contract.ar-reviewed@1.0.0:5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b#12f50df9409d38834872a1fc"
+      ],
+      "decisions": [
+        {
+          "key": "org.packrag.contract.ar-reviewed@1.0.0:5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b#12f50df9409d38834872a1fc",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.contract.ar-reviewed@1.0.0:5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b#12f50df9409d38834872a1fc"
+          ],
+          "representative": null,
+          "evidence_tokens": 59,
+          "prefill_tokens": 230
+        }
+      ],
+      "sources": [
+        "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9"
+      ],
+      "admission": "READY"
+    },
+    "evidence_context": {
+      "query": {
+        "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+        "as_of": "2026-10-09",
+        "jurisdiction": null,
+        "current_law": false,
+        "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+      },
+      "active_packs": [
+        [
+          "org.packrag.contract.ar-reviewed",
+          "1.0.0",
+          "5fc1c0396c317be6e406a7437519056acdc405fedfb187f3df45d62aae17e20b"
+        ]
+      ],
+      "profile": {
+        "architecture_version": "1.3",
+        "batch_size": 1,
+        "context_tokens": 2048,
+        "core_api": "1.0",
+        "cross_pack_pool_limit": 32,
+        "dense_candidate_k": 24,
+        "generated_tokens_cap": 512,
+        "graph_benchmark": {
+          "max_extra": 12,
+          "max_hops": 1,
+          "profile_id": "mobile-v1-graph",
+          "seed_k": 6
+        },
+        "graph_enabled": false,
+        "max_evidence_chunks": 4,
+        "max_evidence_tokens_cap": 1200,
+        "neural_reranker": false,
+        "per_pack_fused_cap": 16,
+        "prefill_tokens_cap": 1536,
+        "product_language": "en",
+        "profile_id": "mobile-v1",
+        "query_rewrite": false,
+        "rrf_k": 60,
+        "sparse_candidate_k": 24,
+        "temperature": 0.0,
+        "top_p": 1.0
+      },
+      "generator": {
+        "backend": "llama.cpp-cpu-wsl-desktop",
+        "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+        "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+        "quantization": "QAD-Q4_0",
+        "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+        "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+      },
+      "normalized_query": "what is the maximum continuous operating temperature of the aster-9?"
+    },
+    "rejection_reason": null
+  },
+  "generate_calls_for_case": 1,
+  "actual_weight_inference": true,
+  "model_load_not_excluded": true
+}

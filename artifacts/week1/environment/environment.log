@@ -1,0 +1,58 @@
+**********************
+PowerShell transcript start
+Start time: 20260929233112
+Username: razer\Fkagf
+RunAs User: razer\Fkagf
+Configuration Name: 
+Machine: RAZER (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Users\Fkagf\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+& .\scripts\inventory.ps1
+Process ID: 34204
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\week1\environment\environment.log
+
+Caption                  Version    BuildNumber OSArchitecture
+-------                  -------    ----------- --------------
+Microsoft Windows 11 Pro 10.0.26200 26200       64-bit
+
+
+
+
+
+python : C:\Python314\python.exe
+py : C:\WINDOWS\py.exe
+git : C:\Program Files\Git\cmd\git.exe
+cmake : NOT_ON_PATH
+ninja : NOT_ON_PATH
+java : C:\Program Files\Common Files\Oracle\Java\javapath\java.exe
+javac : C:\Program Files\Common Files\Oracle\Java\javapath\javac.exe
+adb : NOT_ON_PATH
+nvcc : NOT_ON_PATH
+nvidia-smi : C:\WINDOWS\system32\nvidia-smi.exe
+wsl : C:\WINDOWS\system32\wsl.exe
+gradle : NOT_ON_PATH
+
+
+
+
+
+ANDROID_HOME= ANDROID_SDK_ROOT= JAVA_HOME=
+NOT_FOUND: C:\Users\Fkagf\AppData\Local\Android\Sdk
+NOT_FOUND: C:/Program Files/Android/Android Studio
+
+
+
+NOT_FOUND: C:/Program Files/Microsoft Visual Studio/2022
+**********************
+PowerShell transcript end
+End time: 20260929233118
+**********************

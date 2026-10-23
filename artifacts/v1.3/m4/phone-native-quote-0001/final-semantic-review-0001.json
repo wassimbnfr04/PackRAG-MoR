@@ -1,0 +1,26 @@
+{
+  "status": "PASS_COMPLETE_CANONICAL_SINGLE_UNIT_GUIDE_AND_NEGATIVE_CONTROL",
+  "utc": "2026-10-12T23:16:04.315690+00:00",
+  "original_report_sha256": "57db1685ad25585b075a2885c36209791d8f594afaf7b204f12aa7e993303872",
+  "checks": [
+    "do not leave it suspended",
+    "edge LEDs are off",
+    "T5 Torx",
+    "eight captive bottom screws",
+    "open the lid flat",
+    "check every bottom screw",
+    "Gently work the fan connector",
+    "two captive T5 screws",
+    "soft-bristled brush or clean toothbrush",
+    "dust blower",
+    "do not force the socket",
+    "base tabs",
+    "magnets engage",
+    "every corner sits flush",
+    "tighten the eight bottom screws"
+  ],
+  "canonical_sha256": "3abc2d222603fb86041f2973a62564150f691ccedcb122920e6f15476d9cff94",
+  "phone_guide_functional_ms": 559302.601875,
+  "method": "Native test checked exact selected canonical rendering. Additional final-only reading checks retained all prerequisites/removal/cleaning/reassembly/no-force/flush guidance in source order, with no new technical claim. Missing exactPSI correctly abstained. Agent review, not manufacturer or human domain validation.",
+  "scope": "One frozen supported guide and one negative on physical ARM; no heldout accuracy, controlled speed, multi-unit completeness, app UI or full M4 claim."
+}

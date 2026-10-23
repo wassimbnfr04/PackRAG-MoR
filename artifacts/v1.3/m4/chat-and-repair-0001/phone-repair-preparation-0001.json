@@ -1,0 +1,140 @@
+{
+  "status": "FAILED_NO_TEST_LAUNCHED",
+  "serial": "R3CT908DHHR",
+  "started_utc": "2026-10-12T19:13:57.263630+00:00",
+  "commands": [
+    {
+      "args": [
+        "get-state"
+      ],
+      "returncode": 0,
+      "stdout": "device\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.product.model"
+      ],
+      "returncode": 0,
+      "stdout": "SM-S908B\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.product.manufacturer"
+      ],
+      "returncode": 0,
+      "stdout": "samsung\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.build.version.release"
+      ],
+      "returncode": 0,
+      "stdout": "16\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.product.cpu.abilist"
+      ],
+      "returncode": 0,
+      "stdout": "arm64-v8a,armeabi-v7a,armeabi\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0110\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0110\\app-debug.apk: 1 file pushed, 0 skipped. 98.2 MB/s (74844706 bytes in 0.727s)\r\n"
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0110\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0110\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 154.3 MB/s (11734011 bytes in 0.073s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~6oP_5Wjl3uUvX5AqTYtZTQ==/org.packrag.product-c1p6Hs2Iy9ZUMmbS2c9tUQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~6oP_5Wjl3uUvX5AqTYtZTQ==/org.packrag.product-c1p6Hs2Iy9ZUMmbS2c9tUQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a  /data/app/~~6oP_5Wjl3uUvX5AqTYtZTQ==/org.packrag.product-c1p6Hs2Iy9ZUMmbS2c9tUQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~jY3jDEJOEh0_sjOdP4N0rQ==/org.packrag.product.test-wdLAJ4F-GiYKyDcyxQegdA==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~jY3jDEJOEh0_sjOdP4N0rQ==/org.packrag.product.test-wdLAJ4F-GiYKyDcyxQegdA==/base.apk"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "* daemon still not running\r\nadb.exe: cannot connect to daemon at tcp:5037: cannot connect to 127.0.0.1:5037: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10060)\r\n"
+    }
+  ],
+  "device": {
+    "ro.product.model": "SM-S908B",
+    "ro.product.manufacturer": "samsung",
+    "ro.build.version.release": "16",
+    "ro.product.cpu.abilist": "arm64-v8a,armeabi-v7a,armeabi"
+  },
+  "apk_sha256": {
+    "app-debug.apk": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a",
+    "app-debug-androidTest.apk": "87e58b329264b9e80c36718865af972211954de7bba3250e463e67353f6ce5ae"
+  },
+  "error_type": "AssertionError"
+}

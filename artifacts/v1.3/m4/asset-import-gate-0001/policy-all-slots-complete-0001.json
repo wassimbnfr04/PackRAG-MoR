@@ -1,0 +1,11 @@
+{
+  "status": "PASS_F2_PHYSICAL_APPROVED_POLICY_ALL_SLOT_NATIVE_ITERATION_NOT_FULL_F2",
+  "recorded_utc": "2026-10-11T18:47:17.274667+00:00",
+  "execution_sha256": "5c54d30d1e815df064de6f769e19854585da84879315b42b145cf53105888e20",
+  "pair_sha256": "3530a2188bac2055ce3edb03c70df5725c47fa4cf9d301f36e2b0cf58156cd82",
+  "original_sha256": {
+    "m4-local-asset-import-all-slots.json": "76647c5ce012cc0d1a407cfb53206caf68353ed4fa722f15ab5f957251610c6e",
+    "m4-local-asset-import-all-slots-progress.json": "76647c5ce012cc0d1a407cfb53206caf68353ed4fa722f15ab5f957251610c6e"
+  },
+  "note": "M4F2 approved-only import/native iteration PASSED 2026-10-11T18:47:17.274667+00:00: demo0070/debug0069 have identical598 frozen Android inputs,73 host methods each and identical native/public trust bytes. Actual policy all-slots0001 JUnit1 passes8 controls in234.251 whole-instrumentation seconds, importing all2009206667 bytes through actual separate-UID descriptors, exact pins/readback/atomic directory sync and cold/warm real cited74\u00b0C[S1] answers under approved-only signed calibration-schema fixture. This proves software policy, not genuine human calibration, domain/gold/performance or final nondebug release. Main/progress originals saved/hash-bound before restoring debug0069; known50 owner and readonly source4 unchanged. Owner explicitly authorized fresh10-minute untouched window; actual system-picker/UI0001 is RUNNING on frozen0069 under run_picker_ui.py. Do not kill/switch/compile/edit tested sources until terminal result and original JSON/PNG collection. Independent visible-scope PNG review and remaining adjacent regression guard repairs/matched final tests/restoration/custody/closure/checkpoint still required before F3/F4. F3 acceptance is prepared only, not implemented. Full F2/M4/product not declared; owner final packs excluded, mobile data on."
+}

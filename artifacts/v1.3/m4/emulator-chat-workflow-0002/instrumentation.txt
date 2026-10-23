@@ -1,0 +1,56 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.ChatWorkflowUiTest:
+INSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: expected:<MA-01> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:77)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+INSTRUMENTATION_STATUS: stream=
+Error in largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest):
+java.lang.AssertionError: expected:<MA-01> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:77)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+INSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 41.226
+There was 1 failure:
+1) largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest)
+java.lang.AssertionError: expected:<MA-01> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:77)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

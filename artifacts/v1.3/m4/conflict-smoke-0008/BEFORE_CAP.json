@@ -1,0 +1,4237 @@
+{
+  "id": "BEFORE_CAP",
+  "status": "PASS",
+  "actual_weight_inference": false,
+  "model_load_not_excluded": true,
+  "generate_calls_for_case": 0,
+  "result": {
+    "state": "IDENTIFIER_AMBIGUOUS",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "Unit-00 Unit-01 Unit-02 Unit-03 Unit-04 Unit-05 Unit-06 Unit-07 Unit-08 Unit-09 Unit-10 Unit-11 Unit-12 Unit-13 Unit-14 Unit-15 Unit-16 Unit-17 Unit-18 Unit-19 Unit-20 Unit-21 Unit-22 Unit-23 Unit-24 Unit-25 Unit-26 Unit-27 Unit-28 Unit-29 Unit-30 Unit-31 Unit-32 Unit-33 Unit-34 Unit-35 Unit-36 Unit-37 Unit-38 Unit-39 Unit-40 Unit-41 LOST",
+      "as_of": "2026-10-07",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "normalized": "unit-00 unit-01 unit-02 unit-03 unit-04 unit-05 unit-06 unit-07 unit-08 unit-09 unit-10 unit-11 unit-12 unit-13 unit-14 unit-15 unit-16 unit-17 unit-18 unit-19 unit-20 unit-21 unit-22 unit-23 unit-24 unit-25 unit-26 unit-27 unit-28 unit-29 unit-30 unit-31 unit-32 unit-33 unit-34 unit-35 unit-36 unit-37 unit-38 unit-39 unit-40 unit-41 lost"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.conflict.before-cap",
+        "1.0.0",
+        "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 50.490899999203975,
+      "retrieval_ms": 9.129000000029919,
+      "end_to_end_ms": 63.374600000315695
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "50225f6f91784beae829e5e6",
+        "exact": true,
+        "sparse_rank": 4,
+        "dense_rank": 2,
+        "dense_cosine": 0.8333669900894165,
+        "rrf": 0.031754032258064516,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-03",
+              "authority_rank": 0,
+              "canonical_text": "Unit-03 equipment requires an inspection every 13 hours.",
+              "canonical_uri": "https://example.invalid/unit-03",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "50225f6f91784beae829e5e6",
+              "dense_row": 3,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit03",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 4,
+              "search_text": "Unit-03 equipment requires an inspection every 13 hours.",
+              "section": "unit03",
+              "sha256_original": "09c58c24b2b503b4388c3fec4a337c624aca93a0ee32960b6302325c9178495e",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit03",
+              "source_title": "Unit-03",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "09c58c24b2b503b4388c3fec4a337c624aca93a0ee32960b6302325c9178495e",
+              "title": "Unit-03"
+            },
+            "source_metadata": {
+              "article": "Unit-03",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-03",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 4,
+            "dense_rank": 2,
+            "cosine": 0.8333669900894165,
+            "rrf": 0.031754032258064516,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-03",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-03",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "3d43dc0694fd917618571e11",
+        "exact": true,
+        "sparse_rank": 3,
+        "dense_rank": 3,
+        "dense_cosine": 0.8328630924224854,
+        "rrf": 0.031746031746031744,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 2,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-00",
+              "authority_rank": 0,
+              "canonical_text": "Unit-00 equipment requires an inspection every 10 hours.",
+              "canonical_uri": "https://example.invalid/unit-00",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "3d43dc0694fd917618571e11",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit00",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 1,
+              "search_text": "Unit-00 equipment requires an inspection every 10 hours.",
+              "section": "unit00",
+              "sha256_original": "57c8f3916a836b56251e54928e994e3984aa134f07375471be4e43311b69e998",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit00",
+              "source_title": "Unit-00",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "57c8f3916a836b56251e54928e994e3984aa134f07375471be4e43311b69e998",
+              "title": "Unit-00"
+            },
+            "source_metadata": {
+              "article": "Unit-00",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-00",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 3,
+            "dense_rank": 3,
+            "cosine": 0.8328630924224854,
+            "rrf": 0.031746031746031744,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-00",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-00",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "7c0306d3750b56bbd1ce89e4",
+        "exact": true,
+        "sparse_rank": 6,
+        "dense_rank": 1,
+        "dense_cosine": 0.8372195363044739,
+        "rrf": 0.031544957774465976,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 3,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-06",
+              "authority_rank": 0,
+              "canonical_text": "Unit-06 equipment requires an inspection every 16 hours.",
+              "canonical_uri": "https://example.invalid/unit-06",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "7c0306d3750b56bbd1ce89e4",
+              "dense_row": 6,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit06",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 7,
+              "search_text": "Unit-06 equipment requires an inspection every 16 hours.",
+              "section": "unit06",
+              "sha256_original": "0b2566450b06e9b58f64a294a8d4b6238c0d3bae4062613b8f3f184eba143a71",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit06",
+              "source_title": "Unit-06",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "0b2566450b06e9b58f64a294a8d4b6238c0d3bae4062613b8f3f184eba143a71",
+              "title": "Unit-06"
+            },
+            "source_metadata": {
+              "article": "Unit-06",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-06",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 6,
+            "dense_rank": 1,
+            "cosine": 0.8372195363044739,
+            "rrf": 0.031544957774465976,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-06",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-06",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "28e0a37fe08d8696750ce399",
+        "exact": true,
+        "sparse_rank": 2,
+        "dense_rank": 9,
+        "dense_cosine": 0.8192533254623413,
+        "rrf": 0.030621785881252923,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 4,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-02",
+              "authority_rank": 0,
+              "canonical_text": "Unit-02 equipment requires an inspection every 12 hours.",
+              "canonical_uri": "https://example.invalid/unit-02",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "28e0a37fe08d8696750ce399",
+              "dense_row": 2,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit02",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 3,
+              "search_text": "Unit-02 equipment requires an inspection every 12 hours.",
+              "section": "unit02",
+              "sha256_original": "6b5950099445b614a0544c621ac2f542c9fce7c64c997aac66e9750c5f7652d9",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit02",
+              "source_title": "Unit-02",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "6b5950099445b614a0544c621ac2f542c9fce7c64c997aac66e9750c5f7652d9",
+              "title": "Unit-02"
+            },
+            "source_metadata": {
+              "article": "Unit-02",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-02",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 9,
+            "cosine": 0.8192533254623413,
+            "rrf": 0.030621785881252923,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-02",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-02",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "bd333b19b318cb2e1e96cb97",
+        "exact": true,
+        "sparse_rank": 8,
+        "dense_rank": 4,
+        "dense_cosine": 0.8266609311103821,
+        "rrf": 0.030330882352941176,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 5,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-01",
+              "authority_rank": 0,
+              "canonical_text": "Unit-01 equipment requires an inspection every 11 hours.",
+              "canonical_uri": "https://example.invalid/unit-01",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "bd333b19b318cb2e1e96cb97",
+              "dense_row": 1,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit01",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 2,
+              "search_text": "Unit-01 equipment requires an inspection every 11 hours.",
+              "section": "unit01",
+              "sha256_original": "d765023572e3be08ffbc385b25cc2273f405f1e7c8324ab4e247cd3673e19004",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit01",
+              "source_title": "Unit-01",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "d765023572e3be08ffbc385b25cc2273f405f1e7c8324ab4e247cd3673e19004",
+              "title": "Unit-01"
+            },
+            "source_metadata": {
+              "article": "Unit-01",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-01",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 8,
+            "dense_rank": 4,
+            "cosine": 0.8266609311103821,
+            "rrf": 0.030330882352941176,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-01",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-01",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "725cc4dbfcb99c955d7c0b7e",
+        "exact": true,
+        "sparse_rank": 5,
+        "dense_rank": 7,
+        "dense_cosine": 0.8213839530944824,
+        "rrf": 0.030309988518943745,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 6,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-09",
+              "authority_rank": 0,
+              "canonical_text": "Unit-09 equipment requires an inspection every 19 hours.",
+              "canonical_uri": "https://example.invalid/unit-09",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "725cc4dbfcb99c955d7c0b7e",
+              "dense_row": 9,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit09",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 10,
+              "search_text": "Unit-09 equipment requires an inspection every 19 hours.",
+              "section": "unit09",
+              "sha256_original": "ed38a32401b1385583f6beb226343b4e9f9b4d85856b1f2ecd5785c4f84f52e8",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit09",
+              "source_title": "Unit-09",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "ed38a32401b1385583f6beb226343b4e9f9b4d85856b1f2ecd5785c4f84f52e8",
+              "title": "Unit-09"
+            },
+            "source_metadata": {
+              "article": "Unit-09",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-09",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 5,
+            "dense_rank": 7,
+            "cosine": 0.8213839530944824,
+            "rrf": 0.030309988518943745,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-09",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-09",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "f61884c709d60cf345d914c3",
+        "exact": true,
+        "sparse_rank": 10,
+        "dense_rank": 5,
+        "dense_cosine": 0.8253891468048096,
+        "rrf": 0.02967032967032967,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 7,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-05",
+              "authority_rank": 0,
+              "canonical_text": "Unit-05 equipment requires an inspection every 15 hours.",
+              "canonical_uri": "https://example.invalid/unit-05",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "f61884c709d60cf345d914c3",
+              "dense_row": 5,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit05",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 6,
+              "search_text": "Unit-05 equipment requires an inspection every 15 hours.",
+              "section": "unit05",
+              "sha256_original": "a4fc82557f2d028e2c64c37c0c7744bd8532ad0fead655597e7c08b20c05e3f9",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit05",
+              "source_title": "Unit-05",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "a4fc82557f2d028e2c64c37c0c7744bd8532ad0fead655597e7c08b20c05e3f9",
+              "title": "Unit-05"
+            },
+            "source_metadata": {
+              "article": "Unit-05",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-05",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 10,
+            "dense_rank": 5,
+            "cosine": 0.8253891468048096,
+            "rrf": 0.02967032967032967,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-05",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-05",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "08e64f24fcb1048dd8534838",
+        "exact": true,
+        "sparse_rank": 11,
+        "dense_rank": 6,
+        "dense_cosine": 0.8238775134086609,
+        "rrf": 0.029236022193768675,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 8,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-31",
+              "authority_rank": 0,
+              "canonical_text": "Unit-31 equipment requires an inspection every 41 hours.",
+              "canonical_uri": "https://example.invalid/unit-31",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "08e64f24fcb1048dd8534838",
+              "dense_row": 31,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit31",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 32,
+              "search_text": "Unit-31 equipment requires an inspection every 41 hours.",
+              "section": "unit31",
+              "sha256_original": "f70276ea082e58fa233fa15140399e4bdaead92d71ee1457dbe87b30db88a9d6",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit31",
+              "source_title": "Unit-31",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "f70276ea082e58fa233fa15140399e4bdaead92d71ee1457dbe87b30db88a9d6",
+              "title": "Unit-31"
+            },
+            "source_metadata": {
+              "article": "Unit-31",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-31",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 11,
+            "dense_rank": 6,
+            "cosine": 0.8238775134086609,
+            "rrf": 0.029236022193768675,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-31",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-31",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "d5130a2fed39b2f0ebf1bcf3",
+        "exact": true,
+        "sparse_rank": 9,
+        "dense_rank": 12,
+        "dense_cosine": 0.8183603286743164,
+        "rrf": 0.028381642512077296,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 9,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-07",
+              "authority_rank": 0,
+              "canonical_text": "Unit-07 equipment requires an inspection every 17 hours.",
+              "canonical_uri": "https://example.invalid/unit-07",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "d5130a2fed39b2f0ebf1bcf3",
+              "dense_row": 7,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit07",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 8,
+              "search_text": "Unit-07 equipment requires an inspection every 17 hours.",
+              "section": "unit07",
+              "sha256_original": "ff48f2bbf3269dbeae046564391a7368692e590f0222ab7b573d55c1e7554ed9",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit07",
+              "source_title": "Unit-07",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "ff48f2bbf3269dbeae046564391a7368692e590f0222ab7b573d55c1e7554ed9",
+              "title": "Unit-07"
+            },
+            "source_metadata": {
+              "article": "Unit-07",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-07",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 9,
+            "dense_rank": 12,
+            "cosine": 0.8183603286743164,
+            "rrf": 0.028381642512077296,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-07",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-07",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "b9c25c26174de307671886fd",
+        "exact": true,
+        "sparse_rank": 7,
+        "dense_rank": 15,
+        "dense_cosine": 0.8157468438148499,
+        "rrf": 0.028258706467661692,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 10,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-04",
+              "authority_rank": 0,
+              "canonical_text": "Unit-04 equipment requires an inspection every 14 hours.",
+              "canonical_uri": "https://example.invalid/unit-04",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "b9c25c26174de307671886fd",
+              "dense_row": 4,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit04",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 5,
+              "search_text": "Unit-04 equipment requires an inspection every 14 hours.",
+              "section": "unit04",
+              "sha256_original": "770aa5a65ddab6e618f15bfb0b9bfa79b7e4de23331c41dc4472aaaca36b584c",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit04",
+              "source_title": "Unit-04",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "770aa5a65ddab6e618f15bfb0b9bfa79b7e4de23331c41dc4472aaaca36b584c",
+              "title": "Unit-04"
+            },
+            "source_metadata": {
+              "article": "Unit-04",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-04",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 7,
+            "dense_rank": 15,
+            "cosine": 0.8157468438148499,
+            "rrf": 0.028258706467661692,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-04",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-04",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "1f621275e0d15da2652e065f",
+        "exact": true,
+        "sparse_rank": 15,
+        "dense_rank": 17,
+        "dense_cosine": 0.8153043985366821,
+        "rrf": 0.02632034632034632,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 11,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-18",
+              "authority_rank": 0,
+              "canonical_text": "Unit-18 equipment requires an inspection every 28 hours.",
+              "canonical_uri": "https://example.invalid/unit-18",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "1f621275e0d15da2652e065f",
+              "dense_row": 18,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit18",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 19,
+              "search_text": "Unit-18 equipment requires an inspection every 28 hours.",
+              "section": "unit18",
+              "sha256_original": "6873c719a3d8c0de7234d1e7f5160ae576c9634e826dd166424745bef3a43b78",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit18",
+              "source_title": "Unit-18",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "6873c719a3d8c0de7234d1e7f5160ae576c9634e826dd166424745bef3a43b78",
+              "title": "Unit-18"
+            },
+            "source_metadata": {
+              "article": "Unit-18",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-18",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 15,
+            "dense_rank": 17,
+            "cosine": 0.8153043985366821,
+            "rrf": 0.02632034632034632,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-18",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-18",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "1b7cbd860adc2a2fdd600471",
+        "exact": true,
+        "sparse_rank": 14,
+        "dense_rank": 22,
+        "dense_cosine": 0.8126797676086426,
+        "rrf": 0.025708635464733027,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 12,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-10",
+              "authority_rank": 0,
+              "canonical_text": "Unit-10 equipment requires an inspection every 20 hours.",
+              "canonical_uri": "https://example.invalid/unit-10",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "1b7cbd860adc2a2fdd600471",
+              "dense_row": 10,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit10",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 11,
+              "search_text": "Unit-10 equipment requires an inspection every 20 hours.",
+              "section": "unit10",
+              "sha256_original": "12ec00bed31cc6820781860174ed592ee124872e04bc4b27d6303ced6d990892",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit10",
+              "source_title": "Unit-10",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "12ec00bed31cc6820781860174ed592ee124872e04bc4b27d6303ced6d990892",
+              "title": "Unit-10"
+            },
+            "source_metadata": {
+              "article": "Unit-10",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-10",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 14,
+            "dense_rank": 22,
+            "cosine": 0.8126797676086426,
+            "rrf": 0.025708635464733027,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-10",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-10",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "2c6593bd3738897934967a39",
+        "exact": true,
+        "sparse_rank": 16,
+        "dense_rank": 21,
+        "dense_cosine": 0.813362717628479,
+        "rrf": 0.025503573749187783,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 13,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-15",
+              "authority_rank": 0,
+              "canonical_text": "Unit-15 equipment requires an inspection every 25 hours.",
+              "canonical_uri": "https://example.invalid/unit-15",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "2c6593bd3738897934967a39",
+              "dense_row": 15,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit15",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 16,
+              "search_text": "Unit-15 equipment requires an inspection every 25 hours.",
+              "section": "unit15",
+              "sha256_original": "2f457c493b7164d7e436b1f1978495e650a898e772a4adf9556d90657d47cd27",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit15",
+              "source_title": "Unit-15",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "2f457c493b7164d7e436b1f1978495e650a898e772a4adf9556d90657d47cd27",
+              "title": "Unit-15"
+            },
+            "source_metadata": {
+              "article": "Unit-15",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-15",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 16,
+            "dense_rank": 21,
+            "cosine": 0.813362717628479,
+            "rrf": 0.025503573749187783,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-15",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-15",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "432e001b72ce6bb2006a5623",
+        "exact": true,
+        "sparse_rank": 22,
+        "dense_rank": 16,
+        "dense_cosine": 0.815613865852356,
+        "rrf": 0.025353016688061617,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 14,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-11",
+              "authority_rank": 0,
+              "canonical_text": "Unit-11 equipment requires an inspection every 21 hours.",
+              "canonical_uri": "https://example.invalid/unit-11",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "432e001b72ce6bb2006a5623",
+              "dense_row": 11,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit11",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 12,
+              "search_text": "Unit-11 equipment requires an inspection every 21 hours.",
+              "section": "unit11",
+              "sha256_original": "78e4203a8ee9d3caa7a10e73eba2130711ea06eff39d52828072e64b32d5557a",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit11",
+              "source_title": "Unit-11",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "78e4203a8ee9d3caa7a10e73eba2130711ea06eff39d52828072e64b32d5557a",
+              "title": "Unit-11"
+            },
+            "source_metadata": {
+              "article": "Unit-11",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-11",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 22,
+            "dense_rank": 16,
+            "cosine": 0.815613865852356,
+            "rrf": 0.025353016688061617,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-11",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-11",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "1f024a45ac9f6b3d46451464",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": null,
+        "dense_cosine": 0.8104931712150574,
+        "rrf": 0.01639344262295082,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 15,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-08",
+              "authority_rank": 0,
+              "canonical_text": "Unit-08 equipment requires an inspection every 18 hours.",
+              "canonical_uri": "https://example.invalid/unit-08",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "1f024a45ac9f6b3d46451464",
+              "dense_row": 8,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit08",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 9,
+              "search_text": "Unit-08 equipment requires an inspection every 18 hours.",
+              "section": "unit08",
+              "sha256_original": "711b92bb1a759d464c2799ce07c61f8e79ed82a50b3b078a4bbaf92ed9040a9a",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit08",
+              "source_title": "Unit-08",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "711b92bb1a759d464c2799ce07c61f8e79ed82a50b3b078a4bbaf92ed9040a9a",
+              "title": "Unit-08"
+            },
+            "source_metadata": {
+              "article": "Unit-08",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-08",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": null,
+            "cosine": 0.8104931712150574,
+            "rrf": 0.01639344262295082,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-08",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-08",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "0ca367e3b9ae589b3a70313d",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 8,
+        "dense_cosine": 0.8205773830413818,
+        "rrf": 0.014705882352941176,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 16,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-33",
+              "authority_rank": 0,
+              "canonical_text": "Unit-33 equipment requires an inspection every 43 hours.",
+              "canonical_uri": "https://example.invalid/unit-33",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "0ca367e3b9ae589b3a70313d",
+              "dense_row": 33,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit33",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 34,
+              "search_text": "Unit-33 equipment requires an inspection every 43 hours.",
+              "section": "unit33",
+              "sha256_original": "e11c89a07145a65e245b8131b19fae8e0d7ae42d877bd5befd3f6d5922a17b50",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit33",
+              "source_title": "Unit-33",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "e11c89a07145a65e245b8131b19fae8e0d7ae42d877bd5befd3f6d5922a17b50",
+              "title": "Unit-33"
+            },
+            "source_metadata": {
+              "article": "Unit-33",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-33",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 8,
+            "cosine": 0.8205773830413818,
+            "rrf": 0.014705882352941176,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-33",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-33",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "e9b2c600c3e651dd11f2cd79",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 10,
+        "dense_cosine": 0.8185708522796631,
+        "rrf": 0.014285714285714285,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 17,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-23",
+              "authority_rank": 0,
+              "canonical_text": "Unit-23 equipment requires an inspection every 33 hours.",
+              "canonical_uri": "https://example.invalid/unit-23",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "e9b2c600c3e651dd11f2cd79",
+              "dense_row": 23,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit23",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 24,
+              "search_text": "Unit-23 equipment requires an inspection every 33 hours.",
+              "section": "unit23",
+              "sha256_original": "2583a281aff5ac20096756df05a61c71c919e00e53f1425086dd185a12e75a02",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit23",
+              "source_title": "Unit-23",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "2583a281aff5ac20096756df05a61c71c919e00e53f1425086dd185a12e75a02",
+              "title": "Unit-23"
+            },
+            "source_metadata": {
+              "article": "Unit-23",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-23",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 10,
+            "cosine": 0.8185708522796631,
+            "rrf": 0.014285714285714285,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-23",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-23",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "93b80ff92aedc56453e24c37",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 11,
+        "dense_cosine": 0.8185360431671143,
+        "rrf": 0.014084507042253521,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 18,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-16",
+              "authority_rank": 0,
+              "canonical_text": "Unit-16 equipment requires an inspection every 26 hours.",
+              "canonical_uri": "https://example.invalid/unit-16",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "93b80ff92aedc56453e24c37",
+              "dense_row": 16,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit16",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 17,
+              "search_text": "Unit-16 equipment requires an inspection every 26 hours.",
+              "section": "unit16",
+              "sha256_original": "1254d6fa0a8048f7eb0b7270acf0c8071d1e19bc3b903aac15851943adb2b660",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit16",
+              "source_title": "Unit-16",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "1254d6fa0a8048f7eb0b7270acf0c8071d1e19bc3b903aac15851943adb2b660",
+              "title": "Unit-16"
+            },
+            "source_metadata": {
+              "article": "Unit-16",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-16",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 11,
+            "cosine": 0.8185360431671143,
+            "rrf": 0.014084507042253521,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-16",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-16",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "0d37a05d0a81aaedfa7666d0",
+        "exact": true,
+        "sparse_rank": 12,
+        "dense_rank": null,
+        "dense_cosine": 0.802617609500885,
+        "rrf": 0.013888888888888888,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 19,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-14",
+              "authority_rank": 0,
+              "canonical_text": "Unit-14 equipment requires an inspection every 24 hours.",
+              "canonical_uri": "https://example.invalid/unit-14",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "0d37a05d0a81aaedfa7666d0",
+              "dense_row": 14,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit14",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 15,
+              "search_text": "Unit-14 equipment requires an inspection every 24 hours.",
+              "section": "unit14",
+              "sha256_original": "22d17ee342a9fbc44666a4a7ae436dcd4a1f5781c85d6f7f0a1bd2b620193478",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit14",
+              "source_title": "Unit-14",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "22d17ee342a9fbc44666a4a7ae436dcd4a1f5781c85d6f7f0a1bd2b620193478",
+              "title": "Unit-14"
+            },
+            "source_metadata": {
+              "article": "Unit-14",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-14",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 12,
+            "dense_rank": null,
+            "cosine": 0.802617609500885,
+            "rrf": 0.013888888888888888,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-14",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-14",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "62fc52a5711763e2612a01a4",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 13,
+        "dense_cosine": 0.8182475566864014,
+        "rrf": 0.0136986301369863,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 20,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-34",
+              "authority_rank": 0,
+              "canonical_text": "Unit-34 equipment requires an inspection every 44 hours.",
+              "canonical_uri": "https://example.invalid/unit-34",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "62fc52a5711763e2612a01a4",
+              "dense_row": 34,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit34",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 35,
+              "search_text": "Unit-34 equipment requires an inspection every 44 hours.",
+              "section": "unit34",
+              "sha256_original": "89383ae3d39e22bdb9f4d9211d50c79be66fa4d926537fb8ec1b0a895dea28f6",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit34",
+              "source_title": "Unit-34",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "89383ae3d39e22bdb9f4d9211d50c79be66fa4d926537fb8ec1b0a895dea28f6",
+              "title": "Unit-34"
+            },
+            "source_metadata": {
+              "article": "Unit-34",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-34",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 13,
+            "cosine": 0.8182475566864014,
+            "rrf": 0.0136986301369863,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-34",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-34",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "1b4248a893c52b1fd6f47b8a",
+        "exact": true,
+        "sparse_rank": 13,
+        "dense_rank": null,
+        "dense_cosine": 0.8020867705345154,
+        "rrf": 0.0136986301369863,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 21,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-17",
+              "authority_rank": 0,
+              "canonical_text": "Unit-17 equipment requires an inspection every 27 hours.",
+              "canonical_uri": "https://example.invalid/unit-17",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "1b4248a893c52b1fd6f47b8a",
+              "dense_row": 17,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit17",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 18,
+              "search_text": "Unit-17 equipment requires an inspection every 27 hours.",
+              "section": "unit17",
+              "sha256_original": "87a0916a77fbe55f06541c3f65b1bc9d5a51adc1aa89ea9c1d639dbcfbf9515d",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit17",
+              "source_title": "Unit-17",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "87a0916a77fbe55f06541c3f65b1bc9d5a51adc1aa89ea9c1d639dbcfbf9515d",
+              "title": "Unit-17"
+            },
+            "source_metadata": {
+              "article": "Unit-17",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-17",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 13,
+            "dense_rank": null,
+            "cosine": 0.8020867705345154,
+            "rrf": 0.0136986301369863,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-17",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-17",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "27167e4528b7098a6ef99134",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 14,
+        "dense_cosine": 0.8168882131576538,
+        "rrf": 0.013513513513513514,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 22,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-36",
+              "authority_rank": 0,
+              "canonical_text": "Unit-36 equipment requires an inspection every 46 hours.",
+              "canonical_uri": "https://example.invalid/unit-36",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "27167e4528b7098a6ef99134",
+              "dense_row": 36,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit36",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 37,
+              "search_text": "Unit-36 equipment requires an inspection every 46 hours.",
+              "section": "unit36",
+              "sha256_original": "c09b8acc4ba8ec9b9fe69f3726d4d6e581e341670d7ffc05717f93558a50ae8c",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit36",
+              "source_title": "Unit-36",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "c09b8acc4ba8ec9b9fe69f3726d4d6e581e341670d7ffc05717f93558a50ae8c",
+              "title": "Unit-36"
+            },
+            "source_metadata": {
+              "article": "Unit-36",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-36",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 14,
+            "cosine": 0.8168882131576538,
+            "rrf": 0.013513513513513514,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-36",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-36",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "2ccf18ca7db0c84871acab71",
+        "exact": true,
+        "sparse_rank": 17,
+        "dense_rank": null,
+        "dense_cosine": 0.785737156867981,
+        "rrf": 0.012987012987012988,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 23,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-27",
+              "authority_rank": 0,
+              "canonical_text": "Unit-27 equipment requires an inspection every 37 hours.",
+              "canonical_uri": "https://example.invalid/unit-27",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "2ccf18ca7db0c84871acab71",
+              "dense_row": 27,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit27",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 28,
+              "search_text": "Unit-27 equipment requires an inspection every 37 hours.",
+              "section": "unit27",
+              "sha256_original": "78fea809298cc94d06dc6960386a634c84c85d1a1ab136fe1481e39ff64f774b",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit27",
+              "source_title": "Unit-27",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "78fea809298cc94d06dc6960386a634c84c85d1a1ab136fe1481e39ff64f774b",
+              "title": "Unit-27"
+            },
+            "source_metadata": {
+              "article": "Unit-27",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-27",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 17,
+            "dense_rank": null,
+            "cosine": 0.785737156867981,
+            "rrf": 0.012987012987012988,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-27",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-27",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "d4af34e9ea5ee67baf7d7241",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 18,
+        "dense_cosine": 0.8152419924736023,
+        "rrf": 0.01282051282051282,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 24,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-40",
+              "authority_rank": 0,
+              "canonical_text": "Unit-40 equipment requires an inspection every 50 hours.",
+              "canonical_uri": "https://example.invalid/unit-40",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "d4af34e9ea5ee67baf7d7241",
+              "dense_row": 40,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit40",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 41,
+              "search_text": "Unit-40 equipment requires an inspection every 50 hours.",
+              "section": "unit40",
+              "sha256_original": "604deedb3ad870b0f75429d2dd1e0e95a4ad203d42f2f1f9f9670156c8aec637",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit40",
+              "source_title": "Unit-40",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "604deedb3ad870b0f75429d2dd1e0e95a4ad203d42f2f1f9f9670156c8aec637",
+              "title": "Unit-40"
+            },
+            "source_metadata": {
+              "article": "Unit-40",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-40",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 18,
+            "cosine": 0.8152419924736023,
+            "rrf": 0.01282051282051282,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-40",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-40",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "3687878c1400135ff46035e7",
+        "exact": true,
+        "sparse_rank": 18,
+        "dense_rank": null,
+        "dense_cosine": 0.8060092926025391,
+        "rrf": 0.01282051282051282,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 25,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-28",
+              "authority_rank": 0,
+              "canonical_text": "Unit-28 equipment requires an inspection every 38 hours.",
+              "canonical_uri": "https://example.invalid/unit-28",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "3687878c1400135ff46035e7",
+              "dense_row": 28,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit28",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 29,
+              "search_text": "Unit-28 equipment requires an inspection every 38 hours.",
+              "section": "unit28",
+              "sha256_original": "ad85723c01e658b4e73c2373d02bbe499a4214f3e713147b002154c89e062102",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit28",
+              "source_title": "Unit-28",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "ad85723c01e658b4e73c2373d02bbe499a4214f3e713147b002154c89e062102",
+              "title": "Unit-28"
+            },
+            "source_metadata": {
+              "article": "Unit-28",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-28",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 18,
+            "dense_rank": null,
+            "cosine": 0.8060092926025391,
+            "rrf": 0.01282051282051282,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-28",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-28",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "94043e52a4dc1fcc32d5e1c3",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 19,
+        "dense_cosine": 0.8151179552078247,
+        "rrf": 0.012658227848101266,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 26,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-30",
+              "authority_rank": 0,
+              "canonical_text": "Unit-30 equipment requires an inspection every 40 hours.",
+              "canonical_uri": "https://example.invalid/unit-30",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "94043e52a4dc1fcc32d5e1c3",
+              "dense_row": 30,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit30",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 31,
+              "search_text": "Unit-30 equipment requires an inspection every 40 hours.",
+              "section": "unit30",
+              "sha256_original": "67614857ec35cdc4bc3ae70bd5a6bee339fb901554baf21109ba243568c7a5e2",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit30",
+              "source_title": "Unit-30",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "67614857ec35cdc4bc3ae70bd5a6bee339fb901554baf21109ba243568c7a5e2",
+              "title": "Unit-30"
+            },
+            "source_metadata": {
+              "article": "Unit-30",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-30",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 19,
+            "cosine": 0.8151179552078247,
+            "rrf": 0.012658227848101266,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-30",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-30",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "37ea124dc586508b34e34439",
+        "exact": true,
+        "sparse_rank": 19,
+        "dense_rank": null,
+        "dense_cosine": 0.800317645072937,
+        "rrf": 0.012658227848101266,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 27,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-29",
+              "authority_rank": 0,
+              "canonical_text": "Unit-29 equipment requires an inspection every 39 hours.",
+              "canonical_uri": "https://example.invalid/unit-29",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "37ea124dc586508b34e34439",
+              "dense_row": 29,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit29",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 30,
+              "search_text": "Unit-29 equipment requires an inspection every 39 hours.",
+              "section": "unit29",
+              "sha256_original": "31a8608e6d3d0a970c95f0842522be4914273025193b002bd504008aafd95196",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit29",
+              "source_title": "Unit-29",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "31a8608e6d3d0a970c95f0842522be4914273025193b002bd504008aafd95196",
+              "title": "Unit-29"
+            },
+            "source_metadata": {
+              "article": "Unit-29",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-29",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 19,
+            "dense_rank": null,
+            "cosine": 0.800317645072937,
+            "rrf": 0.012658227848101266,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-29",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-29",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "1777a96c0b9d604e4fffde3e",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 20,
+        "dense_cosine": 0.8145501613616943,
+        "rrf": 0.0125,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 28,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-41",
+              "authority_rank": 0,
+              "canonical_text": "Unit-41 equipment requires an inspection every 51 hours.",
+              "canonical_uri": "https://example.invalid/unit-41",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "1777a96c0b9d604e4fffde3e",
+              "dense_row": 41,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit41",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 42,
+              "search_text": "Unit-41 equipment requires an inspection every 51 hours.",
+              "section": "unit41",
+              "sha256_original": "d1f10078680332d214a407ab5f0033d43086acae86a2bd1c563c4343fae42002",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit41",
+              "source_title": "Unit-41",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "d1f10078680332d214a407ab5f0033d43086acae86a2bd1c563c4343fae42002",
+              "title": "Unit-41"
+            },
+            "source_metadata": {
+              "article": "Unit-41",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-41",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 20,
+            "cosine": 0.8145501613616943,
+            "rrf": 0.0125,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-41",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-41",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "3bec56c14be79ac255156d65",
+        "exact": true,
+        "sparse_rank": 20,
+        "dense_rank": null,
+        "dense_cosine": 0.801106333732605,
+        "rrf": 0.0125,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 29,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-22",
+              "authority_rank": 0,
+              "canonical_text": "Unit-22 equipment requires an inspection every 32 hours.",
+              "canonical_uri": "https://example.invalid/unit-22",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "3bec56c14be79ac255156d65",
+              "dense_row": 22,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit22",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 23,
+              "search_text": "Unit-22 equipment requires an inspection every 32 hours.",
+              "section": "unit22",
+              "sha256_original": "21a34a7451faa4117c25e850d4ad92b3c61b764c0ad32016080204ea7736e790",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit22",
+              "source_title": "Unit-22",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "21a34a7451faa4117c25e850d4ad92b3c61b764c0ad32016080204ea7736e790",
+              "title": "Unit-22"
+            },
+            "source_metadata": {
+              "article": "Unit-22",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-22",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 20,
+            "dense_rank": null,
+            "cosine": 0.801106333732605,
+            "rrf": 0.0125,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-22",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-22",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "40f99ecd20f85267e8f0fa68",
+        "exact": true,
+        "sparse_rank": 21,
+        "dense_rank": null,
+        "dense_cosine": 0.8064074516296387,
+        "rrf": 0.012345679012345678,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 30,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-26",
+              "authority_rank": 0,
+              "canonical_text": "Unit-26 equipment requires an inspection every 36 hours.",
+              "canonical_uri": "https://example.invalid/unit-26",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "40f99ecd20f85267e8f0fa68",
+              "dense_row": 26,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit26",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 27,
+              "search_text": "Unit-26 equipment requires an inspection every 36 hours.",
+              "section": "unit26",
+              "sha256_original": "aa95eb594a0bce44463e56e0805ddf9acdd478c609937c6238ade2de3f2fb800",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit26",
+              "source_title": "Unit-26",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "aa95eb594a0bce44463e56e0805ddf9acdd478c609937c6238ade2de3f2fb800",
+              "title": "Unit-26"
+            },
+            "source_metadata": {
+              "article": "Unit-26",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-26",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 21,
+            "dense_rank": null,
+            "cosine": 0.8064074516296387,
+            "rrf": 0.012345679012345678,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-26",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-26",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "eb3f1ed236b5d6370de30fb7",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 23,
+        "dense_cosine": 0.8126540184020996,
+        "rrf": 0.012048192771084338,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 31,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-13",
+              "authority_rank": 0,
+              "canonical_text": "Unit-13 equipment requires an inspection every 23 hours.",
+              "canonical_uri": "https://example.invalid/unit-13",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "eb3f1ed236b5d6370de30fb7",
+              "dense_row": 13,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit13",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 14,
+              "search_text": "Unit-13 equipment requires an inspection every 23 hours.",
+              "section": "unit13",
+              "sha256_original": "ac8e8a47d212a498e6cc19710dfcc4d33bf0ffc04b41cf943eab8da428f5ded4",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit13",
+              "source_title": "Unit-13",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "ac8e8a47d212a498e6cc19710dfcc4d33bf0ffc04b41cf943eab8da428f5ded4",
+              "title": "Unit-13"
+            },
+            "source_metadata": {
+              "article": "Unit-13",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-13",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 23,
+            "cosine": 0.8126540184020996,
+            "rrf": 0.012048192771084338,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-13",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-13",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "43c38d081078e056b50bd07f",
+        "exact": true,
+        "sparse_rank": 23,
+        "dense_rank": null,
+        "dense_cosine": 0.8093967437744141,
+        "rrf": 0.012048192771084338,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "fused_rank": 32,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.before-cap",
+              "1.0.0",
+              "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+            ],
+            "chunk": {
+              "article": "Unit-20",
+              "authority_rank": 0,
+              "canonical_text": "Unit-20 equipment requires an inspection every 30 hours.",
+              "canonical_uri": "https://example.invalid/unit-20",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "43c38d081078e056b50bd07f",
+              "dense_row": 20,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "unit20",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 21,
+              "search_text": "Unit-20 equipment requires an inspection every 30 hours.",
+              "section": "unit20",
+              "sha256_original": "26237a072ea337a1e906a4d646d495cfd70aff9291fc3949c7bec2def8ccfd90",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "unit20",
+              "source_title": "Unit-20",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "26237a072ea337a1e906a4d646d495cfd70aff9291fc3949c7bec2def8ccfd90",
+              "title": "Unit-20"
+            },
+            "source_metadata": {
+              "article": "Unit-20",
+              "authority_rank": 0,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/unit-20",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 23,
+            "dense_rank": null,
+            "cosine": 0.8093967437744141,
+            "rrf": 0.012048192771084338,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-20",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/unit-20",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  }
+}

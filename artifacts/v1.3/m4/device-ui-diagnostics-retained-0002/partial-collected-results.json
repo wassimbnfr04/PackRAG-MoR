@@ -1,0 +1,95 @@
+{
+  "status": "SAVED_THREE_COMPLETED_METHODS_OVERALL_SUITE_FAIL",
+  "recorded_utc": "2026-10-10T20:08:52.519547+00:00",
+  "original_sha256": {
+    "m4-source-details-ui.json": "fe7dc556c451de9a770b638567bbc850bc76f7a47db07a1904e6b161f76c63d6",
+    "m4-source-details-languages-ui.json": "b99856805cce86873e74bda62a8db48a2ee28c0b69cbb4a6de437c9364949b5f",
+    "m3-pack-management-ui.json": "d8f0f537ff948fd4e4c92a829ee093705366c22f1f17e7ee466db668e1be530e",
+    "m4-source-details-ar.png": "ba59f0916715433f74d6d41bd3d4de08b8bce37c69510baafb36b593803726da",
+    "m4-source-details-fr.png": "85485346cf1e2b2721b8bce5083ba27317de424a707a5965ee8ae7bf2da479e6"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "-s",
+        "TestRunner:I"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-ui.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-languages-ui.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-pack-management-ui.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-ar.png"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-fr.png"
+      ],
+      "returncode": 0
+    }
+  ],
+  "failed_method": "capturedControlsSurviveRealGenerationEditsRecreationAndSourceNavigation",
+  "not_collected_as_new": [
+    "m4-ui-query-controls.json"
+  ],
+  "failure": "Expected NO_RELEVANT_EVIDENCE, observed ANSWER_ACCEPTED at final resubmission assertion. No cause claimed before diagnosis; no stale failed-method JSON promoted."
+}

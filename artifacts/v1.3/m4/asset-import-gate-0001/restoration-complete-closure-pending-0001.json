@@ -1,0 +1,6 @@
+{
+  "status": "PASS_FINAL_RESTORATION_GUARDS_CLOSURE_CHECK_PENDING",
+  "recorded_utc": "2026-10-11T22:22:34.868368+00:00",
+  "restoration_sha256": "bd049e5d48d06928ab004bb3eaa2e58d01d2864576d2f6218aec3b3d7d7983eb",
+  "scope": "Full approved6/26 and debug restoration consent1/4, owner50 including no-follow snapshot and source4 all terminalPASS. Old durable state preserved as public text before concise current-state rewrite. No fullF2/gate/checkpoint claim yet."
+}

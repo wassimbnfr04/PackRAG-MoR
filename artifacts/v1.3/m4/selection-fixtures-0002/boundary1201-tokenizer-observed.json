@@ -1,0 +1,9 @@
+{
+  "id": "boundary1201",
+  "ambiguous": false,
+  "pool": [
+    "ab09bd7b287237a1efdcc0df"
+  ],
+  "admission": "INPUT_TOO_LONG",
+  "selected": []
+}

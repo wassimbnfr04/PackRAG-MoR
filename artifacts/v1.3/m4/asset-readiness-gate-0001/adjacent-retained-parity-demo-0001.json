@@ -1,0 +1,46 @@
+{
+  "status": "PASS_F1_FRESH_ADJACENT_CASE_CONTRACTS_MATCH_ACCEPTED_E3_NOT_WHOLE_PHONE_PARITY_OR_CLOSURE",
+  "recorded_utc": "2026-10-11T15:49:59.871373+00:00",
+  "variant": "demo",
+  "run": "device-local-assets-policy-adjacent-0001",
+  "prior_run": "device-diagnostics-policy-full-0001",
+  "verified_sha256": "28b189725ddb00784f820056b47adf6d7e9bf5ddb14e2ec061b30f52295c5424",
+  "coverage": {
+    "m4-diagnostic-policy.json": {
+      "case_ids": [
+        "compiled-production-policy-fresh-no-pack-no-fabricated-load-or-generation",
+        "actual-viewmodel-approved-publisher-import-without-caller-trust-injection",
+        "actual-approved-cold-warm-native-citations-owned-candidates-pins-and-token-partitions",
+        "read-only-production-inspection-retains-reference-identical-completed-result",
+        "new-jurisdiction-abstention-records-no-generation-and-cannot-reuse-prior-result",
+        "production-mutation-clears-attribution-and-no-active-distinguishes-previously-loaded-session",
+        "actual-production-developer-import-rejected-clears-live-result-retains-approved-inactive-payload",
+        "owner-default-registries-models-and-signed-payloads-byte-identical"
+      ],
+      "cases": 8,
+      "prior_original_sha256": "fd8c26a7140517a88377bdb87b60ae9d0a474c5dd386fe39840e197514e1e21c",
+      "fresh_original_sha256": "0055ca2fe115b367f2ca53b69fd83e0044e40e3446358ce28f9bec3436a460b4"
+    },
+    "m4-ui-query-policy.json": {
+      "case_ids": [
+        "production-no-pack-captures-controls-no-initialization",
+        "production-invalid-date-clears-old-context",
+        "production-viewmodel-rejects-developer-signer"
+      ],
+      "cases": 3,
+      "prior_original_sha256": "2ac4222083af82b4c05a1e953126a39a336622a1dc5dafcfa734dfeff4822657",
+      "fresh_original_sha256": "2ac4222083af82b4c05a1e953126a39a336622a1dc5dafcfa734dfeff4822657"
+    },
+    "m4-source-details-policy.json": {
+      "case_ids": [
+        "production-missing-inspection-no-verified-dto-or-activation",
+        "production-app-rejects-new-unapproved-fixture-key"
+      ],
+      "cases": 2,
+      "prior_original_sha256": "b9827859f6063d4d1efb9ffacaeff1c3b67085d492b778cdd92de31edc8d61ca",
+      "fresh_original_sha256": "b9827859f6063d4d1efb9ffacaeff1c3b67085d492b778cdd92de31edc8d61ca"
+    }
+  },
+  "cases": 13,
+  "scope": "Exact ordered case IDs and completed passing assertions under unchanged retained test source, saved original binding to accepted E3/current verified run. Does not require exact model wording, timings or pre-/post-launch registry digests to match; those scopes have independent actual checks. Full security/retrieval/parity suite remains mandatory at F4."
+}

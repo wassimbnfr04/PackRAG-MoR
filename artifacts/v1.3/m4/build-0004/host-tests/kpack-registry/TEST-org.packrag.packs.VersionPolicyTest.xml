@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.packs.VersionPolicyTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-06T22:33:46.154Z" hostname="RAZER" time="0.019">
+  <properties/>
+  <testcase name="olderAndEqualPrecedenceRequireAcknowledgment" classname="org.packrag.packs.VersionPolicyTest" time="0.007"/>
+  <testcase name="immutableIdentityAndNumericPrecedence" classname="org.packrag.packs.VersionPolicyTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,168 @@
+{
+  "status": "PASS_POLICY_AND_VERIFIED_DEBUG_RESTORATION_NOT_M4",
+  "utc": "2026-10-12T23:34:17.863441+00:00",
+  "commands": [
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0122\\app-demo.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0122\\app-demo.apk: 1 file pushed, 0 skipped. 125.6 MB/s (80096868 bytes in 0.608s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~y6C5NglvbYN5Dtl4J4M7nw==/org.packrag.product-Fic3Tgv009lli2jLcbpjBg==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~y6C5NglvbYN5Dtl4J4M7nw==/org.packrag.product-Fic3Tgv009lli2jLcbpjBg==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "6443375de309df4fcd130fe60546c44afc12bb0e62e8acd2fd3765fb3ec2f515  /data/app/~~y6C5NglvbYN5Dtl4J4M7nw==/org.packrag.product-Fic3Tgv009lli2jLcbpjBg==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0122\\app-demo-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0122\\app-demo-androidTest.apk: 1 file pushed, 0 skipped. 127.8 MB/s (11829360 bytes in 0.088s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~YaSvwMyeK1i7d1_UDfrksA==/org.packrag.product.test-bqyJeYGKZZ7_N1BNEMpfFw==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~YaSvwMyeK1i7d1_UDfrksA==/org.packrag.product.test-bqyJeYGKZZ7_N1BNEMpfFw==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "7a8e2e3df4c3f09b3f64b779ac51888c228d0210efbe5a2b7e4daa435371edf8  /data/app/~~YaSvwMyeK1i7d1_UDfrksA==/org.packrag.product.test-bqyJeYGKZZ7_N1BNEMpfFw==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.QuotedProductionPolicyDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0,
+      "stdout": "INSTRUMENTATION_STATUS: class=org.packrag.product.QuotedProductionPolicyDeviceTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=\r\norg.packrag.product.QuotedProductionPolicyDeviceTest:\r\nINSTRUMENTATION_STATUS: test=matchedCompiledPolicyPreservesHistoricalReportAndOwnerFiles\r\nINSTRUMENTATION_STATUS_CODE: 1\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.QuotedProductionPolicyDeviceTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=.\r\nINSTRUMENTATION_STATUS: test=matchedCompiledPolicyPreservesHistoricalReportAndOwnerFiles\r\nINSTRUMENTATION_STATUS_CODE: 0\r\nINSTRUMENTATION_RESULT: stream=\r\n\r\nTime: 18,605\r\n\r\nOK (1 test)\r\n\r\n\r\nINSTRUMENTATION_CODE: -1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-quoted-production-policy-0001.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved original bytes",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0120\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0120\\app-debug.apk: 1 file pushed, 0 skipped. 119.6 MB/s (121753897 bytes in 0.971s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~tlhD-9aWOnf0LeJBAYdnww==/org.packrag.product-spePYGmv5YU17FU_ilatRQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~tlhD-9aWOnf0LeJBAYdnww==/org.packrag.product-spePYGmv5YU17FU_ilatRQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "176475b17787c3b9ab4c7e5115291c0ab03be44cc7194bf629ad0c74814400a7  /data/app/~~tlhD-9aWOnf0LeJBAYdnww==/org.packrag.product-spePYGmv5YU17FU_ilatRQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0120\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0120\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 171.7 MB/s (12579592 bytes in 0.070s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~CLMqH6zubJ6WIds_v4TBhA==/org.packrag.product.test-iNSEzBQ6J8EZYz1B0Jbyjw==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~CLMqH6zubJ6WIds_v4TBhA==/org.packrag.product.test-iNSEzBQ6J8EZYz1B0Jbyjw==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "7a4862d48e9631b74210bbc84bad2f8bad8513787f34115bd666aa58ba59be39  /data/app/~~CLMqH6zubJ6WIds_v4TBhA==/org.packrag.product.test-iNSEzBQ6J8EZYz1B0Jbyjw==/base.apk\r\n",
+      "stderr": ""
+    }
+  ],
+  "phone_settings_changed": false,
+  "policy_status": "PASS_CURRENT_COMPILED_NONDEVELOPMENT_POLICY_NOT_FINAL_RELEASE",
+  "owner_public_files_unchanged": 51,
+  "current_source_inputs_unchanged": 640,
+  "restored_debug_build": "build-0120",
+  "updated_utc": "2026-10-12T23:36:41.441447+00:00"
+}

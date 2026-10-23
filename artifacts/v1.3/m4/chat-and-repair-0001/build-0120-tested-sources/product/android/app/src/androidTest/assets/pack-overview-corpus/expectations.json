@@ -1,0 +1,57 @@
+{
+  "scope": "Fixed independently frozen existing signed synthetic fixture metadata, not real content/calibration/review or inferred from the product DTO at execution.",
+  "fixtures": {
+    "walking-skeleton.kpack": {
+      "transport_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+      "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+      "pack_id": "org.packrag.development.walking-skeleton",
+      "version": "0.1.0",
+      "name": "Synthetic v1.3 development pack",
+      "publisher_name": "PackRAG DEVELOPMENT ONLY",
+      "publisher_key_id": "ed25519:5148c71b861624fabbcd4a5a9e0a2804963fd7132119ca4cd375677e445b5081",
+      "update_check_after": "2027-01-01",
+      "manifest_bytes": 2586,
+      "payload_bytes": 85076,
+      "transport_bytes": 21565
+    },
+    "lifecycle-corpus/v1.kpack": {
+      "transport_sha256": "d0aea3a00e8957edbcbb77fe45d35364f40b9060234ca9226da44087154b34ab",
+      "manifest_sha256": "8ae8fc6e7d451215061aca0f0b26b2e0a094cb2adb750d85179eadf6aee5e003",
+      "pack_id": "org.packrag.development.walking-skeleton",
+      "version": "1.0.0",
+      "name": "Synthetic v1.3 development pack",
+      "publisher_name": "PackRAG DEVELOPMENT ONLY",
+      "publisher_key_id": "ed25519:d402ea2d0f20d2dc4b58699d30c052565eb999346dddf4e6e6b528312d3f4740",
+      "update_check_after": "2027-01-01",
+      "manifest_bytes": 2589,
+      "payload_bytes": 85076,
+      "transport_bytes": 21561
+    },
+    "lifecycle-corpus/v2.kpack": {
+      "transport_sha256": "1fa4ae0bf5205855583b989cbe3f44564a8589de41ff6b4744bbdf7fe089d8cc",
+      "manifest_sha256": "6645f41f44046c2b5ab26167354b220cf5d65792ed03cfb8cad3f24dc7117f21",
+      "pack_id": "org.packrag.development.walking-skeleton",
+      "version": "1.0.1",
+      "name": "Synthetic v1.3 development pack",
+      "publisher_name": "PackRAG DEVELOPMENT ONLY",
+      "publisher_key_id": "ed25519:d402ea2d0f20d2dc4b58699d30c052565eb999346dddf4e6e6b528312d3f4740",
+      "update_check_after": "2027-01-01",
+      "manifest_bytes": 2589,
+      "payload_bytes": 85076,
+      "transport_bytes": 21562
+    },
+    "release-trust-corpus/calibration-schema-only.kpack": {
+      "transport_sha256": "eb1d477f32e60ce97784320994d473690dd97ff4d13b49d921c93aad82b58011",
+      "manifest_sha256": "da063519398922758871d9a42bb1fc8597a198c8da8eba27c1ef01806082c5af",
+      "pack_id": "org.packrag.test.release-policy",
+      "version": "0.0.1+fixture",
+      "name": "SYNTHETIC TRUST TEST — NOT RELEASE CALIBRATION",
+      "publisher_name": "PackRAG project demonstrator publisher",
+      "publisher_key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+      "update_check_after": "2027-01-01",
+      "manifest_bytes": 2691,
+      "payload_bytes": 85076,
+      "transport_bytes": 21650
+    }
+  }
+}

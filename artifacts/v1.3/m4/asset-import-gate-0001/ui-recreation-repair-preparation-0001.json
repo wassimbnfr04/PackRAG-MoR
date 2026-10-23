@@ -1,0 +1,13 @@
+{
+  "status": "PREPARED_STOPPED_CALLER_RECREATION_REPAIR_NOT_RETRY_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T19:00:14.818084+00:00",
+  "execution_sha256": "6e26f1e415d10bf231f1a3e455b822762cbb825bdc4ee8ff379644a063a04fba",
+  "progress_sha256": "e8a18d3cdbc2898eb4a0636bc1215d7293eae5dc5ad17342f79d26064cdccae0",
+  "instrumentation_sha256": "91bd1aca1b85eb98f766410b36fe13145b3d5bb0070d3c9277923cfc6cbdda20",
+  "changed_test_source": {
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportUiDeviceTest.kt": "e9c8c77c340968262bf20a73b13e2fea67ca4edc7d8bb5291126a4c76aadd811"
+  },
+  "unchanged_inputs": 597,
+  "driver_sha256": "e5329b5e270ba3ef3d7fb54be70ce1d9d10d1ad8a10423d95a33620857ea88ee",
+  "note": "UI0002 terminal FAIL189.619s after four recorded passing actual controls,128-byte displayed progress/cancel, owner50 unchanged. ActivityScenario.recreate() attempted to force the caller RESUMED while the actual Android picker correctly kept it STOPPED; frozen JUnit fails in the helper before actual recreation, no saveable-slot success claim. Replace only this test source with direct platform Activity.recreate() on the stopped caller and test-only Application lifecycle observation scoped to the unique launch UUID. Require real old destruction/distinct new Activity/saved bundle/same ViewModel/picker remaining foreground before selecting official document; persist all facts, never merely assume request implies recreation. Primary platform contract: https://developer.android.com/reference/android/app/Activity#recreate(). No product, global orientation/window/power/radio or permissions change. Original failed logs/partial progress PNG retained, not full acceptance. Build0072 pending; new driver strengthens structured recreation validation. Prior ten-minute foreground window ended; fresh window required when repaired test is concrete. Full F2/F3/F4 held."
+}

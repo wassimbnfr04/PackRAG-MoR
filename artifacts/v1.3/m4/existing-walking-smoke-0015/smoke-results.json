@@ -1,0 +1,13 @@
+{
+  "status": "FAIL",
+  "cases": [],
+  "purpose": "D3_EXISTING_SYNTHETIC_WALKING_NOT_RELEASE_OR_PACKBENCH",
+  "pack_created": false,
+  "limitations": [
+    "Existing uncalibrated exact-alias pack",
+    "Structural citations are not semantic sufficiency proof",
+    "Desktop WSL CPU, not physical acceptance",
+    "No raw reasoning persisted",
+    "Corruption copy only; no new knowledge content"
+  ]
+}

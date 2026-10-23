@@ -1,0 +1,13 @@
+{
+  "status": "PREPARED_HOST_ONLY_CLOSURE_IDENTITIES_NOT_EXECUTED_OR_ACCEPTED",
+  "recorded_utc": "2026-10-11T22:15:12.117426+00:00",
+  "files": {
+    "artifacts/v1.3/m4/asset-import-gate-0001/restore_debug_and_guard_0001.py": "02c8e02591424db64e5e2b796fc7bdeed0f63fd480761fb369a2a885428d78c7",
+    "artifacts/v1.3/m4/asset-import-gate-0001/capture_final_owner_no_follow_0001.py": "d00cfd762996ee6d2a6efbede8512243b15a38defaed090dbe20554e4648b406",
+    "artifacts/v1.3/m4/asset-import-gate-0001/check_f2_acceptance_0001.py": "0573559a065017844f207444d2a13450a218347c361f25cc5c2a94a2b71785a3",
+    "artifacts/v1.3/m4/asset-import-gate-0001/checkpoint_f2_0001.py": "a0890c27d9d39285e5660577a9b20b96a166cfb5038ddd24a47b786d022d2f06",
+    "docs/v1.3/M4F2_CLOSURE_METHODS.md": "3beeaef59aa5df3bd2c5f613c05ce6fbd05bdd4a24dc3e07a8ed5c0a21cf3a83",
+    "docs/v1.3/M4F3_ACCEPTANCE_PREPARATION.md": "f72f364a864578f2ef88c10359fc4f6d2023575a6d2846e69d20653a36739c38"
+  },
+  "scope": "AST checks and explicit public documentation identities only. Android inputs599 and APK pair unchanged; policy batch active. Prepared host scripts may only execute their dependent steps after terminal prerequisites pass; no F2 closure/checkpoint/F3 implementation claim."
+}

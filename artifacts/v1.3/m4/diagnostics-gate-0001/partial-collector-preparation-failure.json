@@ -1,0 +1,6 @@
+{
+  "status": "FAIL_CHECKER_BEFORE_COLLECTION_REPAIRED_TERMINAL_SCOPE",
+  "before_sha256": "5b62102495a10b47c75971b5e3d613dc4b50d59446d3d75cf5ffd85e4a61786c",
+  "cause": "Android repeats each failure in status stack, status stream and final summary. Count only final result summary, while retaining two failed/finished methods. No original files were read or written by the failed collector.",
+  "scope": "No phone test/source/assertion or suite FAIL status changed."
+}

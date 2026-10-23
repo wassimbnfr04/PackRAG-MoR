@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\asset-import-gate-0001\run_hardening.py", line 30, in <module>
+    target.write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8');assert result.returncode==0,'Hold F2/later increments; preserve original failure and any completed passing originals'
+                                                                                ^^^^^^^^^^^^^^^^^^^^
+AssertionError: Hold F2/later increments; preserve original failure and any completed passing originals

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_BOUNDED_PATH_SIZE_AND_CREDENTIAL_PATTERN_REVIEW",
+  "files_scanned": 14936,
+  "bytes_scanned": 231345406,
+  "credential_pattern_findings": [],
+  "intentionally_public_test_seed": "tests/signature_vector/test_private_key; documented non-secret interop fixture, not publisher custody",
+  "excluded": [
+    {
+      "path": "artifacts/v1.3/m4/asset-import-gate-0001/picker-dependency-inspection-0001/lifecycle-2.11.0-classes.jar",
+      "sha256": "13467966db82d4e02438be611ca80343c9381dcee5d8b259c14cc706d03ecb7f",
+      "reason": "compiled_binary_or_private_model_extension_excluded_from_source_publication"
+    },
+    {
+      "path": "artifacts/week1/android/week1-spike-debug-androidTest.apk",
+      "sha256": "fcb565aba17b2f41073996781542975983bece642fb9c360a79617a7757257d3",
+      "reason": "compiled_binary_or_private_model_extension_excluded_from_source_publication"
+    },
+    {
+      "path": "artifacts/week1/android/week1-spike-debug.apk",
+      "sha256": "2e907b8ee636dcb7a576eba64f4a1d83c927fcdc84e9cc22e67ddb7256235c68",
+      "reason": "compiled_binary_or_private_model_extension_excluded_from_source_publication"
+    }
+  ],
+  "scope": "Fresh snapshot only, filename restrictions and listed credential patterns; not a claim of universal secret-detection or license clearance",
+  "no_original_git_history_included": true
+}

@@ -1,0 +1,26 @@
+{
+  "instrumentation_debuggable": true,
+  "tool_paths": {
+    "jdk": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\java\\jdk-17.0.20.1+1",
+    "gradle": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\gradle-9.6.0\\bin\\gradle.bat",
+    "sdkmanager": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-cli\\cmdline-tools\\bin\\sdkmanager.bat",
+    "sdk": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk",
+    "cmdline_tools_package": "cmdline-tools;23.0"
+  },
+  "status": "BUILD_AND_HOST_TESTS_PASS_NOT_DEVICE_ACCEPTANCE",
+  "exit_code": 0,
+  "arguments": [
+    "-p",
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\product\\android",
+    "--no-daemon",
+    "--console=plain",
+    "--max-workers=4",
+    "testReleaseUnitTest",
+    ":app:assembleDemo",
+    ":app:assembleDemoAndroidTest",
+    "-PpackragTestBuildType=demo",
+    "--offline"
+  ],
+  "final_release_acceptance": false,
+  "variant": "demo"
+}

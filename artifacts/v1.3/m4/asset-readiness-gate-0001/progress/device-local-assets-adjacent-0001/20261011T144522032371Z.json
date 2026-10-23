@@ -1,0 +1,40 @@
+{
+  "status": "OBSERVATION_ONLY_NOT_TERMINAL_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T14:45:22.032371+00:00",
+  "observed_pid": "7790",
+  "run_context": "device-local-assets-adjacent-0001",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "7790\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "--pid=7790",
+        "-v",
+        "threadtime",
+        "-s",
+        "TestRunner:I",
+        "*:S"
+      ],
+      "returncode": 0,
+      "stdout": "--------- beginning of main\n10-11 14:40:59.141  7790  7895 I TestRunner: run started: 5 tests\n10-11 14:40:59.142  7790  7895 I TestRunner: started: actualColdWarmAndNoPackDiagnosticsKeepOwnedContextAfterReaderClose(org.packrag.product.DiagnosticRuntimeDeviceTest)\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Log rows belong to observed PID. Completed manifest/JUnit and originals, not this observation, establish test outcome."
+}

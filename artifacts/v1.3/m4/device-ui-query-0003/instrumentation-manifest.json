@@ -1,0 +1,67 @@
+{
+  "started_at": "2026-10-10T14:46:50.699888+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.QueryControlsUiTest,org.packrag.product.PackManagementUiTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0035\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0035\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.QueryControlsUiTest,org.packrag.product.PackManagementUiTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "de8d3241978754c81e4f383e51d0a4d72358fe84734436c9ea39fa4aa4c64bfc",
+    "app-debug-androidTest.apk": "600487aa0be536d806070f26f904b2e115964e32300e8ce4c421fb134385507d"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.QueryControlsUiTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt",
+      "source_sha256": "064ec81264ef39ebaa5d2d8f1a9b7189fc7479835f8749bb05cc8985e6265e76"
+    },
+    "org.packrag.product.PackManagementUiTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt",
+      "source_sha256": "b03b3e3d4ede5a1de4e0e6942a80f40358f9618b835898eace823b3c4ebb4236"
+    }
+  },
+  "status": "PASS"
+}

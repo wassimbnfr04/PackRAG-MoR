@@ -1,0 +1,271 @@
+ACTIVITY MANAGER RUNNING PROCESSES (dumpsys activity processes)
+  All known processes:
+  *APP* UID 10469 ProcessRecord{e1892b1 18413:org.packrag.product/u0a469}
+    user #0 uid=10469 gids={50469, 20469, 9997}
+    mRequiredAbi=arm64-v8a instructionSet=arm64
+    dir=/data/app/~~zTlvkm_TAvHXEkx97MI4qg==/org.packrag.product-Zm7XjHy1p35SkHWjcHLsZg==/base.apk publicDir=/data/app/~~zTlvkm_TAvHXEkx97MI4qg==/org.packrag.product-Zm7XjHy1p35SkHWjcHLsZg==/base.apk data=/data/user/0/org.packrag.product
+    packageList={org.packrag.product}
+    compat={450dpi}
+    mInstr=ActiveInstrumentation{7ac0430 {org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner} 1 procs}
+    thread=com.android.server.am.ApplicationThreadDeferred@aa498a9
+    pid=18413
+    lastActivityTime=-2m22s801ms    startUpTime=-9m55s814ms    startElapsedTime=-9m55s814ms
+    startSeq=66865
+    mountMode=DEFAULT
+    lastRssTime=-1s66ms rssProcState=4 rssStatType=0 nextRssTime=+5m2s651ms
+    lastRss=281MB lastCachedRss=0,00
+    trimMemoryLevel=0
+    procStateMemTracker: best=1 (1=1 7.59375x)
+    lastRequestedGc=-9m55s686ms lastLowMemory=-9m55s686ms reportLowMemory=false
+    currentHostingComponentTypes=0x8 historicalHostingComponentTypes=0x8
+    reportedInteraction=true time=-8m4s897ms fgInteractionTime=-9m54s897ms
+    adjSeq=2003804 lruSeq=1459134
+    oom adj: max=1001 curRaw=0 setRaw=0 cur=0 set=0
+    mCurSchedGroup=2 setSchedGroup=2 systemNoUi=false
+    curProcState=4 mRepProcState=4 setProcState=4 lastStateTime=-9m54s895ms
+    curCapability=-CMNFU-T setCapability=-CMNFU-T
+
+    cached=false empty=false
+    scheduleServiceTimeoutPending=false
+    Published Providers:
+      - androidx.startup.InitializationProvider
+        -> ContentProviderRecord{a4eae2e u0 org.packrag.product/androidx.startup.InitializationProvider}
+      - ai.onnxruntime.TelemetryInitializer
+        -> ContentProviderRecord{2265dcf u0 org.packrag.product/ai.onnxruntime.TelemetryInitializer}
+    Connected Providers:
+      - 7bff4e3/com.android.providers.settings/.SettingsProvider->18413:org.packrag.product/u0a469 s1/1 u0/0 +9m55s17ms
+    mReceivers:
+      - ReceiverList{e8a80ff 18413 org.packrag.product/10469/u0 remote:7cda01e}
+    lastCompactTime=0 lastCompactProfile=null
+    hasPendingCompaction=false    isFreezeExempt=false isPendingFreeze=false isFrozen=false
+    earliestFreezableTimeMs=--
+     Configuration={1.0 604mcc?mnc [fr_FR] ldltr sw384dp w384dp h823dp 450dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2316) mAppBounds=Rect(0, 0 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2316) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mEmbedActivityMode=undefined mPopOver=undefined mOverlappingWithCutout=false} s.74198 fontWeightAdjustment=0 ff=0 bf=-1 bts=0 cst=1.0 nightDim=0 themeSeq=0}
+     OverrideConfiguration={0.0 ?mcc0mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undefined mAlwaysOnTop=undefined mRotation=undefined mStageConfig=undefined mEmbedActivityMode=undefined mPopOver=undefined mOverlappingWithCutout=false} ?fontWeightAdjustment ff=0 bf=-1 bts=-1 cst=0.0 nightDim=-1 themeSeq=0}
+     mLastReportedConfiguration={1.0 604mcc?mnc [fr_FR] ldltr sw384dp w384dp h823dp 450dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2316) mAppBounds=Rect(0, 0 - 1080, 2316) mMaxBounds=Rect(0, 0 - 1080, 2316) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mEmbedActivityMode=undefined mPopOver=undefined mOverlappingWithCutout=false} s.74198 fontWeightAdjustment=0 ff=0 bf=-1 bts=0 cst=1.0 nightDim=0 themeSeq=0}
+    isMLException=
+false
+
+  Active instrumentation:
+    Instrumentation #0: ActiveInstrumentation{7ac0430 {org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner} 1 procs}
+      mClass=ComponentInfo{org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner} mFinished=false
+      mRunningProcesses:
+        #0: ProcessRecord{e1892b1 18413:org.packrag.product/u0a469}
+      mTargetProcesses=[org.packrag.product]
+      mTargetInfo=ApplicationInfo{805335c org.packrag.product}
+        packageName=org.packrag.product
+        labelRes=0x0 nonLocalizedLabel=PackRAG icon=0x0 banner=0x0
+        processName=org.packrag.product
+        uid=10469 flags=0x20c83e46 privateFlags=0x8c001000 theme=0x0
+        sourceDir=/data/app/~~zTlvkm_TAvHXEkx97MI4qg==/org.packrag.product-Zm7XjHy1p35SkHWjcHLsZg==/base.apk
+        resourceDirs=[/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk]
+        overlayPaths=[/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk]
+        dataDir=/data/user/0/org.packrag.product
+        enabled=true minSdkVersion=28 targetSdkVersion=37 versionCode=1 targetSandboxVersion=1
+        createTimestamp=413607873
+      mWatcher=android.app.IInstrumentationWatcher$Stub$Proxy@5051665
+      mUiAutomationConnection=android.app.IUiAutomationConnection$Stub$Proxy@71b7f3a
+mHasBackgroundActivityStartsPermission=true
+mHasBackgroundForegroundServiceStartsPermission=true
+      mArguments=Bundle[mParcelledData.dataSize=1784]
+
+  OOM levels:
+    -900: SYSTEM_ADJ (  196,608K)
+    -800: PERSISTENT_PROC_ADJ (  196,608K)
+    -700: PERSISTENT_SERVICE_ADJ (  196,608K)
+      0: FOREGROUND_APP_ADJ (  196,608K)
+     100: VISIBLE_APP_ADJ (  239,616K)
+     200: PERCEPTIBLE_APP_ADJ (  282,624K)
+     225: PERCEPTIBLE_MEDIUM_APP_ADJ (  313,344K)
+     250: PERCEPTIBLE_LOW_APP_ADJ (  313,344K)
+     300: BACKUP_APP_ADJ (  577,536K)
+     400: HEAVY_WEIGHT_APP_ADJ (  577,536K)
+     500: SERVICE_ADJ (  577,536K)
+     600: HOME_APP_ADJ (  577,536K)
+     700: PREVIOUS_APP_ADJ (  577,536K)
+     800: SERVICE_B_ADJ (  577,536K)
+     850: PICKED_ADJ (  577,536K)
+     900: CACHED_APP_MIN_ADJ (  577,536K)
+     999: CACHED_APP_MAX_ADJ (  869,376K)
+
+  Process OOM control (85 total, non-act at 13, non-svc at 13):
+    Proc #60: fg     F/ /FGS  -CMNFU-T  t: 0 18413:org.packrag.product/u0a469 (instrumentation)
+        oom: max=1001 curRaw=0 setRaw=0 cur=0 set=0
+        state: cur=FGS  set=FGS  lastRss=281MB lastCachedRss=0,00
+        cached=false empty=false hasAboveClient=false
+
+  mHomeProcess: ProcessRecord{b14fb74 2944:com.sec.android.app.launcher/u0a155}
+  mPreviousProcess: ProcessRecord{7ebdd36 9344:com.whatsapp/u0a407}
+
+  Raw LRU list (dumpsys activity lru):
+    Other:
+    #24: fg     FGS  -CMNFU-T 18413:org.packrag.product/u0a469
+
+  Process LRU list (sorted by oom_adj, 85 total, non-act at 13, non-svc at 13):
+    Proc #60: fg     F/ /FGS  -CMNFU-T  t: 0 18413:org.packrag.product/u0a469 (instrumentation)
+
+  PID mappings:
+    PID #18413: ProcessRecord{e1892b1 18413:org.packrag.product/u0a469}
+
+  mPendingStarts: 
+    29095: ProcessRecord{9327577 0:com.instagram.android/u0a541}
+  mProcessLimit: 1030
+  mNumNonCachedProcs: 76
+  mNumCachedHiddenProcs: 4
+  mProcessLimitOverride(OverrideMaxCachedProcesses): -1
+  DHA_CACHE_MIN: 4
+  DHA_CACHE_MAX: 518
+  DHA_EMPTY_MIN: 8
+  DHA_EMPTY_MAX: 512
+  AMC_CUR_MAX_CACHED: 1030
+  AMC_CUR_MAX_EMPTY: 512
+
+  LMKD_enable_userspace_lmk true
+  LMKD_use_minfree_levels false
+  LMKD_enable_upgrade_criadj false
+  LMKD_freelimit_enable true
+  LMKD_freelimit_val 13
+  LMKD_upgrade_pressure 80
+  LMKD_custom_sw_limit 500
+  LMKD_custom_tm_limit 1000
+  LMKD_psi_medium_th 70
+  LMKD_psi_critical_th 120
+  LMKD_use_lowmem_keep_except true
+  APPCOMPACTOR_ENABLE false
+
+ KPM Stats(policy):
+ [idx,avg_mem,mem_avl,avg_swap,hotCnt,prKillCnt,svKillCnt,PkgCnt,PkgKillCnt,lmkdTotal,lmkdPrev,lmkdService,lmkdPicked,lmkdSeed,lmkdCri,lmk,cachedkill,emptykill,cur_state,next_state,policy_state,psi_cpu_avg,psi_mem_avg,psi_io_avg,psi_cpu_max,psi_mem_max,psi_io_max,reset_status,lmkdState,lmkdStateCnt,lmkdCnt,tiny_nxst_history,time]
+ 
+ 73,3791,0,4140,32,0,32,11,0,1799,0,507,6,46,0,5,1261,3,3,3,24,3,1,54,13,5,0,5,[0 1269 5 0 0 504 0 0 0 0 0 0 0 0 0 0],[1799 523 513 513 507 507 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 3 3 3 3 3 3],20261009_191448
+ 72,3732,0,4027,29,0,38,8,0,2123,0,613,5,56,0,4,1445,3,3,3,31,4,1,79,19,5,0,5,[0 1487 4 0 0 612 0 0 0 0 0 0 0 0 0 0],[2123 629 618 618 613 613 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 3 3 3 3 3 3],20261009_180801
+ 71,3287,0,4334,35,0,23,8,0,1476,0,194,5,10,0,4,1237,3,3,3,20,2,1,54,6,5,0,5,[0 1255 4 0 0 198 0 0 0 0 0 0 0 0 0 0],[1476 202 199 199 194 194 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 3 3 3 3 3 3],20261009_170022
+ 70,3039,0,4829,38,0,13,10,0,668,0,112,7,10,0,3,542,3,3,3,15,1,0,49,4,2,0,5,[0 551 3 0 0 108 0 0 0 0 0 0 0 0 0 0],[668 119 119 119 112 112 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 1 1 3 3 3 3 3],20261009_133605
+ 69,3021,0,4888,37,0,19,9,0,2092,0,238,11,24,0,3,1719,3,3,3,16,1,1,55,11,4,0,8,[0 1807 3 0 0 239 0 0 1 0 0 0 0 0 0 0],[2092 254 249 249 238 238 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 3 3 3 3 3 3],20261009_121815
+ 68,2786,0,5223,44,0,19,8,0,624,0,122,0,17,0,4,488,3,3,3,15,1,0,56,7,2,0,5,[0 487 4 0 0 122 0 0 0 0 0 0 0 0 0 0],[624 122 122 122 122 122 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 1 3 3 3 1 3],20261009_013029
+ 67,3156,0,4740,40,0,23,11,0,1090,0,151,0,20,0,1,916,3,3,3,15,1,1,49,5,2,0,5,[0 933 2 0 0 154 0 0 0 0 0 0 0 0 0 0],[1090 153 151 151 151 151 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 3 3 3 3 3 3],20261009_000700
+ 66,3084,0,5020,39,0,23,8,0,1193,0,214,0,54,0,4,857,3,3,3,17,2,1,48,12,5,0,10,[0 970 5 0 0 211 0 0 0 0 1 0 0 0 0 0],[1193 241 214 214 214 214 0 0 0 0 0 0 0 0 0 0 0],[3 1 1 3 3 3 3 3 3 3],20261008_215518
+ 65,3023,0,5507,40,0,3,8,0,237,0,22,0,2,0,1,176,3,3,3,13,2,1,34,7,5,0,5,[0 211 0 0 0 22 0 0 0 0 0 0 0 0 0 0],[237 22 22 22 22 22 0 0 0 0 0 0 0 0 0 0 0],[1 1 1 1 3 1 1 3 3 1],20261008_203347
+ 64,3134,0,4955,36,0,11,9,0,386,0,42,0,7,0,4,321,3,3,3,16,1,1,42,5,3,0,5,[0 340 4 0 0 42 0 0 0 0 0 0 0 0 0 0],[386 42 42 42 42 42 0 0 0 0 0 0 0 0 0 0 0],[2 1 3 3 3 1 3 3 1 1],20261008_200436
+ 63,3438,0,4321,33,0,17,9,0,1207,0,119,0,8,0,5,1031,3,3,3,15,1,1,53,8,3,0,5,[0 1069 5 0 0 119 0 0 0 0 0 0 0 0 0 0],[1207 127 119 119 119 119 0 0 0 0 0 0 0 0 0 0 0],[3 3 1 3 3 3 3 1 3 1],20261008_191304
+ 62,3147,0,4530,39,0,18,9,0,713,0,127,1,17,0,3,564,3,3,3,16,2,1,50,10,4,0,12,[0 581 3 0 0 125 0 0 0 0 0 0 1 0 0 0],[713 129 128 128 127 127 0 0 0 0 0 0 0 0 0 0 0],[3 1 1 3 3 3 3 3 3 3],20261008_151426
+ 61,3371,0,4379,42,0,15,10,0,626,0,81,6,9,0,5,516,3,3,3,12,1,1,36,6,6,0,12,[0 531 4 0 0 83 0 0 0 0 1 0 1 0 0 0],[626 87 87 87 81 81 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 3 3 1 2 3 1],20261008_142356
+ 60,3066,0,4777,41,0,15,10,0,547,0,71,3,10,0,2,451,3,3,3,15,2,1,41,10,5,0,5,[0 465 2 0 0 71 0 0 0 0 0 0 0 0 0 0],[546 77 74 74 71 71 0 0 0 0 0 0 0 0 0 0 0],[3 1 1 3 1 3 3 3 3 3],20261008_124246
+ 59,3140,0,4543,46,0,5,7,0,319,0,40,2,1,0,0,271,3,3,3,12,1,0,30,3,2,0,5,[0 277 0 0 0 41 0 0 0 0 0 0 0 0 0 0],[320 42 42 42 40 40 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 1 1 3 1 1 1 3],20261008_114653
+ 58,3201,0,4339,46,0,13,7,0,1699,0,170,1,37,0,4,1433,3,3,3,16,1,0,63,9,3,0,12,[0 1498 3 0 0 167 0 0 2 0 1 0 1 0 0 0],[1699 177 171 171 170 170 0 0 0 0 0 0 0 0 0 0 0],[3 1 1 3 3 3 3 1 3 3],20261008_105415
+ 57,3090,0,4906,40,0,11,6,0,489,0,56,0,6,0,0,420,3,3,3,13,1,0,32,4,1,0,5,[0 430 0 0 0 56 0 0 0 0 0 0 0 0 0 0],[489 56 56 56 56 56 0 0 0 0 0 0 0 0 0 0 0],[1 1 3 3 3 3 3 3 1 3],20261008_013432
+ 56,3411,0,4521,40,0,15,7,0,794,0,98,0,4,0,3,670,3,3,3,13,1,0,41,6,3,0,5,[0 689 2 0 0 98 0 0 0 0 0 0 0 0 0 0],[794 98 98 98 98 98 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 3 3 3 1 1 1],20261007_233645
+ 55,3278,0,5052,41,0,14,11,0,543,0,89,0,17,0,9,427,3,3,3,14,1,1,41,6,4,0,5,[0 442 9 0 0 92 0 0 0 0 0 0 0 0 0 0],[543 89 89 89 89 89 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 3 3 3 1 1 3 3],20261007_205110
+ 54,3173,0,4941,39,0,18,12,0,443,0,91,0,6,0,1,353,3,3,3,20,2,1,65,18,7,0,5,[0 349 1 0 0 88 0 0 0 0 0 0 0 0 0 0],[443 93 91 91 91 91 0 0 0 0 0 0 0 0 0 0 0],[3 1 1 3 3 3 1 1 3 3],20261007_195157
+ 53,3300,0,4854,35,0,9,10,0,463,0,53,0,7,0,3,391,3,3,3,12,1,0,29,5,2,0,5,[0 406 3 0 0 53 0 0 0 0 0 0 0 0 0 0],[463 55 53 53 53 53 0 0 0 0 0 0 0 0 0 0 0],[3 1 3 1 1 1 1 1 3 3],20261007_190231
+ 52,3208,0,4760,41,0,13,8,0,755,0,137,0,26,0,4,594,3,3,3,13,1,0,54,11,4,0,5,[0 612 4 0 0 136 0 0 0 0 0 0 0 0 0 0],[755 141 137 137 137 137 0 0 0 0 0 0 0 0 0 0 0],[3 3 3 1 1 3 3 3 1 3],20261007_181204
+ 51,3401,0,5098,43,0,8,8,0,397,0,51,0,15,0,5,328,3,3,3,13,1,0,45,7,3,0,5,[0 339 6 0 0 50 0 0 0 0 0 0 0 0 0 0],[397 53 51 51 51 51 0 0 0 0 0 0 0 0 0 0 0],[3 3 1 3 3 3 1 1 3 3],20261007_165310
+
+ Heavy Pss List(policy):
+ [idx, peakLmkdKillAdj, [procMemInfo], [{native(Pss SwapPss Rss)}{sys}{pers}{persvc}{fore}{vis}{percept}{perceptl}{perceptm}{backup}{heavy}{servicea}{home}{prev}{serviceb}{picked}{cached}], [Process name, Process version, Package name, Package version, label, pss, swap, rss, procstats_dumpPssUssRss], ...]
+ 74,didn't happen Previous App Kill by LMKD
+ 73,didn't happen Previous App Kill by LMKD
+ 72,didn't happen Previous App Kill by LMKD
+ 71,didn't happen Previous App Kill by LMKD
+ 70,didn't happen Previous App Kill by LMKD
+ 69,didn't happen Previous App Kill by LMKD
+ 68,didn't happen Previous App Kill by LMKD
+ 67,didn't happen Previous App Kill by LMKD
+ 66,910,[10515 276 3594 3520 1642 1875 0 0 16384 11930 311 249 476 0 0 249 1367 0 408 233],[{368 524 885}{497 71 624}{480 293 1035}{33 98 177}{623 155 881}{993 1333 2610}{355 864 959}{-1 -1 -1}{137 84 441}{-1 -1 -1}{-1 -1 -1}{417 41 1528}{-1 -1 -1}{239 5 887}{-1 -1 -1}{122 391 293}{90 39 362}],[system, ver: 36, PackageName: android, PackageVer: 16, adj: sys, pss: 497 mb, swap: 71 mb, rss: 624 mb, empty],[com.instagram.android, ver: 385511888, PackageName: com.instagram.android, PackageVer: 449.0.0.52.84, adj: fore, pss: 384 mb, swap: 116 mb, rss: 484 mb, on_norm_top:2:0:0:0:0:0:0:541:498:541],[com.expressvpn.vpn, ver: 12790040, PackageName: com.expressvpn.vpn, PackageVer: 12.79.0, adj: vis, pss: 141 mb, swap: 304 mb, rss: 221 mb, on_norm_top:1:0:0:0:0:0:0:136:136:136],[com.android.systemui, ver: 36, PackageName: com.android.systemui, PackageVer: 16, adj: pers, pss: 303 mb, swap: 130 mb, rss: 394 mb, on_norm_pers:1:0:0:0:0:0:0:336:336:336],[org.mozilla.firefox, ver: 2016185927, PackageName: org.mozilla.firefox, PackageVer: 156.0.1, adj: percept, pss: 129 mb, swap: 211 mb, rss: 231 mb, on_norm_top:1:0:0:0:0:0:0:439:439:439]
+ 65,didn't happen Previous App Kill by LMKD
+ 64,didn't happen Previous App Kill by LMKD
+ 63,didn't happen Previous App Kill by LMKD
+ 62,didn't happen Previous App Kill by LMKD
+ 61,800,[10515 590 3064 2546 1351 1218 0 0 16384 12256 418 244 480 0 0 291 1164 0 498 255],[{1019 532 1919}{455 68 584}{470 235 1063}{29 98 180}{528 3 1003}{2189 1508 5800}{82 146 301}{-1 -1 -1}{25 77 123}{-1 -1 -1}{-1 -1 -1}{72 18 297}{-1 -1 -1}{118 26 736}{-1 -1 -1}{47 0 109}{515 831 1358}],[com.instagram.android, ver: 385511888, PackageName: com.instagram.android, PackageVer: 449.0.0.52.84, adj: cached, pss: 113 mb, swap: 558 mb, rss: 215 mb, on_norm_service:1:0:0:0:0:0:0:600:600:600,on_norm_home:1:0:0:0:0:0:0:210:210:210],[vendor.samsung.hardware.camera.provider@4.0-service_64, ver: 0, PackageName: null, PackageVer: null, adj: native, pss: 515 mb, swap: 32 mb, rss: 523 mb, null],[system, ver: 36, PackageName: android, PackageVer: 16, adj: sys, pss: 455 mb, swap: 68 mb, rss: 584 mb, empty],[com.expressvpn.vpn, ver: 12790040, PackageName: com.expressvpn.vpn, PackageVer: 12.79.0, adj: vis, pss: 94 mb, swap: 344 mb, rss: 181 mb, on_norm_top:2:0:0:0:0:0:0:170:171:172],[com.android.systemui, ver: 36, PackageName: com.android.systemui, PackageVer: 16, adj: pers, pss: 279 mb, swap: 96 mb, rss: 381 mb, on_norm_pers:2:0:0:0:0:0:0:242:281:320]
+ 60,didn't happen Previous App Kill by LMKD
+ 59,didn't happen Previous App Kill by LMKD
+ 58,905,[10515 539 3832 3458 1421 2097 0 0 16384 12169 261 248 476 0 0 239 1309 0 421 212],[{608 557 1219}{399 70 514}{392 369 978}{40 108 192}{382 125 684}{1109 1370 3224}{133 336 468}{-1 -1 -1}{441 370 1113}{-1 -1 -1}{-1 -1 -1}{141 5 439}{-1 -1 -1}{168 3 676}{109 63 650}{31 151 119}{764 258 1851}],[system, ver: 36, PackageName: android, PackageVer: 16, adj: sys, pss: 399 mb, swap: 70 mb, rss: 514 mb, empty],[com.expressvpn.vpn, ver: 12790040, PackageName: com.expressvpn.vpn, PackageVer: 12.79.0, adj: vis, pss: 59 mb, swap: 371 mb, rss: 145 mb, on_crit_top:1:0:0:0:0:0:0:142:142:142],[com.android.systemui, ver: 36, PackageName: com.android.systemui, PackageVer: 16, adj: pers, pss: 273 mb, swap: 130 mb, rss: 367 mb, off_norm_pers:1:0:0:0:0:0:0:339:339:339],[com.whatsapp, ver: 263707322, PackageName: com.whatsapp, PackageVer: 2.26.37.73, adj: perceptl, pss: 107 mb, swap: 266 mb, rss: 208 mb, off_norm_home:1:0:0:0:0:0:0:185:185:185],[com.samsung.android.honeyboard, ver: 592089400, PackageName: com.samsung.android.honeyboard, PackageVer: 5.9.20.89, adj: percept, pss: 82 mb, swap: 197 mb, rss: 163 mb, on_norm_bfgs:1:0:0:0:0:0:0:198:198:198]
+ 57,didn't happen Previous App Kill by LMKD
+ 56,didn't happen Previous App Kill by LMKD
+ 55,didn't happen Previous App Kill by LMKD
+ 54,didn't happen Previous App Kill by LMKD
+ 53,didn't happen Previous App Kill by LMKD
+ 52,didn't happen Previous App Kill by LMKD
+ 51,didn't happen Previous App Kill by LMKD
+
+ KPM Stats(bigdata):
+ [idx,avg_mem,mem_avl,avg_swap,hotCnt,prKillCnt,svKillCnt,PkgCnt,PkgKillCnt,lmkdTotal,lmkdPrev,lmkdService,lmkdPicked,lmkdSeed,lmkdCri,lmk,cachedkill,emptykill,cur_state,next_state,policy_state,psi_cpu_avg,psi_mem_avg,psi_io_avg,psi_cpu_max,psi_mem_max,psi_io_max,reset_status,lmkdState,lmkdStateCnt,lmkdCnt,tiny_nxst_history,time]
+ 
+ 6,3077,0,4925,310,0,136,26,0,7973,0,1077,20,144,0,25,6472,3,3,3,16,1,1,56,12,5,0,10,[0 6785 26 0 0 1076 0 0 1 0 1 0 0 0 0 0],[7973 1134 1097 1097 1077 1077 0 0 0 0 0 0 0 0 0 0 0],[0 0 0 0 0 0 0 0 0 0],20261009_155511
+ 5,3234,0,4713,502,0,158,32,0,8110,0,1101,13,159,0,42,6671,3,3,3,14,1,1,65,18,7,0,12,[0 6895 40 0 0 1096 0 0 2 0 2 0 3 0 0 0],[8110 1141 1114 1114 1101 1101 0 0 0 0 0 0 0 0 0 0 0],[0 0 0 0 0 0 0 0 0 0],20261008_155501
+ 4,3427,0,4749,534,0,234,36,0,13620,0,2698,18,387,0,55,10463,3,3,3,17,2,1,74,18,10,0,12,[0 10745 54 0 0 2667 0 0 2 0 1 0 2 0 0 0],[13620 2835 2716 2716 2698 2698 0 0 0 0 0 0 0 0 0 0 0],[0 0 0 0 0 0 0 0 0 0],20261007_155544
+ 3,3321,0,4837,234,0,148,27,0,9396,0,1335,51,208,0,23,7715,3,3,3,19,2,1,68,18,5,0,12,[0 7914 22 0 1 1317 0 0 1 0 1 0 4 0 0 0],[9396 1455 1386 1386 1335 1335 0 0 0 0 0 0 0 0 0 0 0],[0 0 0 0 0 0 0 0 0 0],20261006_155505
+ 2,3137,0,4966,598,0,136,32,0,8156,0,921,46,138,0,27,6867,3,3,3,15,1,1,56,12,12,0,12,[0 7089 23 0 1 917 0 0 2 0 1 0 4 0 0 0],[8156 985 967 967 921 921 0 0 0 0 0 0 0 0 0 0 0],[0 0 0 0 0 0 0 0 0 0],20261005_155601
+ 1,3220,0,4073,595,0,122,22,0,8351,0,971,27,175,0,9,7056,2,3,2,16,1,1,85,15,7,0,12,[0 7195 11 0 1 960 0 0 0 0 0 0 7 0 0 0],[8351 1039 998 998 971 971 0 0 0 0 0 0 0 0 0 0 0],[0 0 0 0 0 0 0 0 0 0],20261004_155512
+
+ Heavy Pss List(bigdata):
+ [idx, peakLmkdKillAdj, [procMemInfo], [{native(Pss SwapPss Rss)}{sys}{pers}{persvc}{fore}{vis}{percept}{perceptl}{perceptm}{backup}{heavy}{servicea}{home}{prev}{serviceb}{picked}{cached}], [Process name, Process version, Package name, Package version, label, pss, swap, rss, procstats_dumpPssUssRss], ...]
+ 7,didn't happen Previous App Kill by LMKD
+ 6,910,[10515 276 3594 3520 1642 1875 0 0 16384 11930 311 249 476 0 0 249 1367 0 408 233],[{368 524 885}{497 71 624}{480 293 1035}{33 98 177}{623 155 881}{993 1333 2610}{355 864 959}{-1 -1 -1}{137 84 441}{-1 -1 -1}{-1 -1 -1}{417 41 1528}{-1 -1 -1}{239 5 887}{-1 -1 -1}{122 391 293}{90 39 362}],[system, ver: 36, PackageName: android, PackageVer: 16, adj: sys, pss: 497 mb, swap: 71 mb, rss: 624 mb, empty],[com.instagram.android, ver: 385511888, PackageName: com.instagram.android, PackageVer: 449.0.0.52.84, adj: fore, pss: 384 mb, swap: 116 mb, rss: 484 mb, on_norm_top:2:0:0:0:0:0:0:541:498:541],[com.expressvpn.vpn, ver: 12790040, PackageName: com.expressvpn.vpn, PackageVer: 12.79.0, adj: vis, pss: 141 mb, swap: 304 mb, rss: 221 mb, on_norm_top:1:0:0:0:0:0:0:136:136:136],[com.android.systemui, ver: 36, PackageName: com.android.systemui, PackageVer: 16, adj: pers, pss: 303 mb, swap: 130 mb, rss: 394 mb, on_norm_pers:1:0:0:0:0:0:0:336:336:336],[org.mozilla.firefox, ver: 2016185927, PackageName: org.mozilla.firefox, PackageVer: 156.0.1, adj: percept, pss: 129 mb, swap: 211 mb, rss: 231 mb, on_norm_top:1:0:0:0:0:0:0:439:439:439]
+ 5,905,[10515 539 3832 3458 1421 2097 0 0 16384 12169 261 248 476 0 0 239 1309 0 421 212],[{608 557 1219}{399 70 514}{392 369 978}{40 108 192}{382 125 684}{1109 1370 3224}{133 336 468}{-1 -1 -1}{441 370 1113}{-1 -1 -1}{-1 -1 -1}{141 5 439}{-1 -1 -1}{168 3 676}{109 63 650}{31 151 119}{764 258 1851}],[system, ver: 36, PackageName: android, PackageVer: 16, adj: sys, pss: 399 mb, swap: 70 mb, rss: 514 mb, empty],[com.expressvpn.vpn, ver: 12790040, PackageName: com.expressvpn.vpn, PackageVer: 12.79.0, adj: vis, pss: 59 mb, swap: 371 mb, rss: 145 mb, on_crit_top:1:0:0:0:0:0:0:142:142:142],[com.android.systemui, ver: 36, PackageName: com.android.systemui, PackageVer: 16, adj: pers, pss: 273 mb, swap: 130 mb, rss: 367 mb, off_norm_pers:1:0:0:0:0:0:0:339:339:339],[com.whatsapp, ver: 263707322, PackageName: com.whatsapp, PackageVer: 2.26.37.73, adj: perceptl, pss: 107 mb, swap: 266 mb, rss: 208 mb, off_norm_home:1:0:0:0:0:0:0:185:185:185],[com.samsung.android.honeyboard, ver: 592089400, PackageName: com.samsung.android.honeyboard, PackageVer: 5.9.20.89, adj: percept, pss: 82 mb, swap: 197 mb, rss: 163 mb, on_norm_bfgs:1:0:0:0:0:0:0:198:198:198]
+ 4,800,[10515 345 3792 3616 1989 1618 0 0 16384 11964 352 240 480 0 0 315 1153 0 427 247],[{400 525 1136}{552 65 692}{282 386 864}{38 88 188}{854 156 1505}{1165 1818 3232}{56 136 259}{-1 -1 -1}{167 193 710}{-1 -1 -1}{-1 -1 -1}{258 10 1027}{-1 -1 -1}{33 1 216}{95 187 301}{2 28 47}{831 617 2108}],[system, ver: 36, PackageName: android, PackageVer: 16, adj: sys, pss: 552 mb, swap: 65 mb, rss: 692 mb, empty],[com.expressvpn.vpn, ver: 12790040, PackageName: com.expressvpn.vpn, PackageVer: 12.79.0, adj: vis, pss: 47 mb, swap: 372 mb, rss: 127 mb, on_norm_top:2:0:0:0:0:0:0:116:115:116],[com.android.systemui, ver: 36, PackageName: com.android.systemui, PackageVer: 16, adj: pers, pss: 162 mb, swap: 196 mb, rss: 258 mb, on_norm_pers:1:0:0:0:0:0:0:356:356:356,on_mod_pers:1:0:0:0:0:0:0:302:302:302],[org.mozilla.firefox, ver: 2016185927, PackageName: org.mozilla.firefox, PackageVer: 156.0.1, adj: vis, pss: 175 mb, swap: 167 mb, rss: 275 mb, on_norm_top:1:0:0:0:0:0:0:318:318:318,on_norm_heavy:1:0:0:0:0:0:0:375:375:375],[com.sec.android.app.launcher, ver: 1700705013, PackageName: com.sec.android.app.launcher, PackageVer: 17.0.07.13, adj: vis, pss: 250 mb, swap: 80 mb, rss: 361 mb, on_norm_top:2:0:0:0:0:0:0:358:280:358]
+ 3,800,[10515 215 2781 2805 1674 1113 0 0 16384 11766 269 267 473 0 0 258 1338 0 408 333],[{747 522 2325}{407 69 517}{333 291 876}{57 60 197}{1815 344 2591}{1188 1617 3046}{122 143 388}{72 89 170}{225 462 654}{-1 -1 -1}{-1 -1 -1}{141 15 602}{-1 -1 -1}{308 67 667}{-1 -1 -1}{4 25 45}{260 331 915}],[com.instagram.android, ver: 385412173, PackageName: com.instagram.android, PackageVer: 448.0.0.53.84, adj: fore, pss: 704 mb, swap: 214 mb, rss: 820 mb, on_norm_top:1:0:0:0:0:0:0:639:639:639],[system, ver: 36, PackageName: android, PackageVer: 16, adj: sys, pss: 407 mb, swap: 69 mb, rss: 517 mb, empty],[com.expressvpn.vpn, ver: 12790040, PackageName: com.expressvpn.vpn, PackageVer: 12.79.0, adj: vis, pss: 132 mb, swap: 271 mb, rss: 223 mb, on_norm_top:1:0:0:0:0:0:0:218:218:218],[com.android.systemui, ver: 36, PackageName: com.android.systemui, PackageVer: 16, adj: pers, pss: 215 mb, swap: 137 mb, rss: 310 mb, on_norm_pers:1:0:0:0:0:0:0:356:356:356],[org.mozilla.firefox, ver: 2016185927, PackageName: org.mozilla.firefox, PackageVer: 156.0.1, adj: vis, pss: 179 mb, swap: 125 mb, rss: 290 mb, on_norm_home:1:0:0:0:0:0:0:313:313:313]
+ 2,800,[10515 290 3107 3003 1578 1441 0 0 16384 12817 306 283 445 0 0 258 1222 0 403 388],[{351 472 931}{421 59 544}{405 158 1112}{63 58 253}{925 2 1554}{1510 989 3527}{94 111 373}{-1 -1 -1}{114 88 400}{-1 -1 -1}{-1 -1 -1}{443 33 1678}{-1 -1 -1}{423 593 832}{-1 -1 -1}{18 209 110}{119 236 476}],[com.instagram.android, ver: 385412173, PackageName: com.instagram.android, PackageVer: 448.0.0.53.84, adj: prev, pss: 110 mb, swap: 590 mb, rss: 212 mb, off_norm_home:1:0:0:0:0:0:0:357:357:357,on_norm_top:2:0:0:0:0:0:0:655:769:883],[system, ver: 36, PackageName: android, PackageVer: 16, adj: sys, pss: 421 mb, swap: 59 mb, rss: 544 mb, empty],[com.expressvpn.vpn, ver: 12790040, PackageName: com.expressvpn.vpn, PackageVer: 12.79.0, adj: vis, pss: 147 mb, swap: 278 mb, rss: 240 mb, on_low_top:3:0:0:0:0:0:0:174:188:212],[com.android.systemui, ver: 36, PackageName: com.android.systemui, PackageVer: 16, adj: pers, pss: 251 mb, swap: 55 mb, rss: 354 mb, on_norm_pers:3:0:0:0:0:0:0:322:361:390],[org.mozilla.firefox, ver: 2016185927, PackageName: org.mozilla.firefox, PackageVer: 156.0.1, adj: fore, pss: 290 mb, swap: 0 mb, rss: 445 mb, off_norm_top:2:0:0:0:0:0:0:416:408:416,on_norm_home:2:0:0:0:0:0:0:380:368:380]
+ 1,didn't happen Previous App Kill by LMKD
+ 
+ KPM Tunable Parameters:
+ KPM_POLICY_ENABLE: true
+ KPM_DEBUG_ENABLE: false
+ KPM_CURRENT_STATE: HEAVY
+ KPM_WARM_UP_TRIGGER_TUNABLE: 20
+ KPM_POLICY_TRIGGER_TUNABLE: 50
+ KPM_WARM_UP_CYCLES_TUNABLE: 3
+ KPM_MEM_CRITICAL_LOW_DETECT_ENABLE: true
+ MEMORY_CRITICAL_LOW_KILL_DETECT_ADJ : 700
+ MEMORY_CRITICAL_LOW_PROCESS_KILL_RATIO_TH : 4%
+ MEMORY_CRITICAL_LOW_USE_PACKAGE_RATIO : true
+ MEMORY_CRITICAL_LOW_PROCESS_KILL_PACKAGE_RATIO_TH : 13%
+ KPM_POLICY_SWAPPINESS_DEFAULT : 130
+ KPM_POLICY_SWAPPINESS_CURRENT : 130
+ 
+
+ KPM Auto Restart Parameters
+ - Min Triggger Size    : 10
+ - Never Collect Within : 12
+ - Compact Trigger Size : 300
+ - Native Flood Ratio   : 30
+ - Syspers Flood Ratio  : 30
+
+
+ ChimeraTrigger Stats:
+ - Last Policy Score      : 3.0
+ - Trigger Threshold Score: 3.0
+ - Trigger Required       : true
+ - Last Triggered Time(ms): 0
+
+MemoryFloodDetector
+ProcessSamplingManager
+ Constants
+  MAX_SKIP=6
+  MAX_SKIP_IN_USER_TRIAL=0
+  PERCENT_DEVICE_SAMPLING=30
+  SKIP_FIRST_AFTER_BOOT=false
+  MAX_SIZE_JSON_STRING=19500
+ States
+  mIsSampleDevice=false
+  mSkipCount=6
+  mCurrentState=1
+
+MemoryStabilityEventManager
+  mLastRealtimeMinutes=8640
+  mLastUptimeMinutes=6653
+  mLastCounter=[-1, -1]
+  IS_HIGH_CAPACITY_RAM: true
+  MLList NAP Process name : []
+  MLList AUF Process name : [0_&_org.mozilla.firefox, 0_&_com.brave.browser, 0_&_com.whatsapp]
+
+  mDeviceIdleAllowlist=[1000, 1001, 2000, 5006, 5017, 5022, 5025, 5026, 5250, 5278, 10030, 10047, 10048, 10052, 10053, 10059, 10065, 10068, 10074, 10077, 10082, 10085, 10087, 10089, 10091, 10094, 10096, 10097, 10098, 10099, 10100, 10102, 10104, 10108, 10109, 10111, 10115, 10118, 10119, 10120, 10121, 10122, 10124, 10125, 10126, 10129, 10130, 10133, 10139, 10140, 10143, 10144, 10152, 10158, 10159, 10180, 10182, 10188, 10192, 10196, 10216, 10217, 10221, 10222, 10226, 10229, 10231, 10253, 10260, 10284, 10303, 10327, 10340, 10361, 10363, 10392, 10424, 10435, 10446, 10459, 10476, 10497, 10523, 10569, 10609, 10614]
+  mDeviceIdleExceptIdleAllowlist=[1000, 1001, 2000, 5006, 5017, 5022, 5025, 5026, 5250, 5278, 10030, 10047, 10048, 10052, 10053, 10059, 10065, 10068, 10074, 10077, 10082, 10085, 10087, 10089, 10091, 10094, 10096, 10097, 10098, 10099, 10100, 10102, 10104, 10105, 10108, 10109, 10111, 10115, 10118, 10119, 10120, 10121, 10122, 10124, 10125, 10126, 10129, 10130, 10133, 10139, 10140, 10143, 10144, 10152, 10158, 10159, 10168, 10180, 10182, 10183, 10188, 10192, 10196, 10216, 10217, 10221, 10222, 10226, 10229, 10231, 10240, 10252, 10253, 10254, 10260, 10284, 10303, 10327, 10340, 10361, 10363, 10392, 10424, 10435, 10446, 10459, 10476, 10497, 10523, 10569, 10609, 10614]
+  mDeviceIdleTempAllowlist=[10108]
+  mBackgroundAppIdAllowlist=[1002, 10429, 10222, 10217, 5279, 10428, 10425, 5279]
+  mFgsStartTempAllowList:
+    u0a108:  duration=20000 callingUid=u0a108 reasonCode=ACTIVITY_RECOGNITION reason=ef4a30d Intent { flg=0x10 xflg=0x4 cmp=com.samsung.android.rubin.app/com.samsung.android.rubin.smombie.service.activityevents.ActivityTransitionEventReceiver (has extras) }/u0 expiration=2026-10-09 20:05:50.719 (+13s608ms)
+  Processes that are in background restricted:
+     # 0: ProcessRecord{3595084 2186:com.lemon.lvoverseas:push/u0a61}
+     # 1: ProcessRecord{4bfcfb5 1200:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a61i563}
+     # 2: ProcessRecord{63124a0 32076:com.lemon.lvoverseas/u0a61}
+  mForceBackgroundCheck=false
+  CUR_TRIM_EMPTY_PROCESSES:256  CUR_TRIM_CACHED_PROCESSES:172

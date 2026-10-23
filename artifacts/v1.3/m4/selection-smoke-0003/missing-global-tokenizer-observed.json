@@ -1,0 +1,272 @@
+{
+  "id": "missing-global",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+  "actual_tokenizer": {},
+  "max_embedding_abs_error": 0.0,
+  "selection": {
+    "keys": [],
+    "decisions": [
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#de4007485c3423ff37bcb693",
+        "reason": "MISSING_REQUIRED_MEMBER",
+        "trial": [
+          "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#de4007485c3423ff37bcb693"
+        ],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#191a8da23f0fd6086da0f31f",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#4363e8b9e2be6e5e2dfe71a7",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#6df516db7affc2913b8d3a29",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#51b59fd4cd0f931b36730aae",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#374c942e358b67e8e7bb4467",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#2e2153a45f4da98b6cf1ab76",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#204e821867cf369cfaa62cf9",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#bd21fa531ceb74435dde432a",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#8f8b8a0bdb1b991549670135",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#6933c46049d2b832185b0487",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#002cd5a968ff1d3d8483a417",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#a7f0cb785e004032115a5403",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#21f7283a7d77b8049089dc68",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#29dfc686c111098af478feaf",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#554739f4bb26cdbe6d8285c9",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#a8127588059135830617b79d",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#d7f383f6888351baaec259a8",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#b5ce2e8cea6b9e6ff73807e2",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#097deeeff90b7d9c05deb503",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#761b3e6b4a61b6dea2cfcff8",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#246f48670c7042e792f61d97",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#e4cf42e399e12e597ebc3551",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#c46ab7d5d296469148476cff",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#d81327f9d66b01315df06f36",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#185b6e570be8cc5d13975794",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#c18a696ca88a221cc0d16469",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#7fcfb216adfcffd48326b9d0",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#b8ed80d005613dd1839bfc47",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#e706f55add2981f64e4ee002",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#27577e0953b613f255282c72",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.missing-global@1.0.0:bd5e5ab5bc3e2715a5b6498a7499292aaa9416cba1aaa36c5458a2ab94086404#f98de5d150002efcfdc2db12",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      }
+    ],
+    "sources": [],
+    "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE"
+  }
+}

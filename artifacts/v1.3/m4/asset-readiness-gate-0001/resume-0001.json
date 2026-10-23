@@ -1,0 +1,20 @@
+{
+  "status": "PASS_EXACT_OWNER_PAUSE_STATE_RESUMED_NOT_F1_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T14:14:32.927561+00:00",
+  "head": "ac98b4fa6b9fd89b9f0f53023cb1f6115408567f",
+  "checked_android_inputs": 577,
+  "checked_runtime_inputs": 188,
+  "checked_e3_outputs": 1131,
+  "checked_pause_documents": 5,
+  "adb": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "devices",
+      "-l"
+    ],
+    "stdout": "List of devices attached\nR3CT908DHHR            device product:b0sxeea model:SM_S908B device:b0s transport_id:1\n\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  "owner_authorization": "Phone available; pick up from where you left off. Final knowledge content excluded; test packs permitted; mobile data stays on."
+}

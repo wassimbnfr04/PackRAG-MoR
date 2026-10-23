@@ -1,0 +1,66 @@
+{
+  "started_at": "2026-10-06T20:52:13.164052+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.PackManagementUiTest,org.packrag.product.ProductUiE2eTest",
+  "runner_sha256": "bd2241ffd12226f0e37070bf6c6b8a4386872a1df933171a330ce62cf5abd460",
+  "apk_sha256": {
+    "app-debug.apk": "7dcd70877e3db525bfd5440918da7e267de8595a3d5819770a9eb59a2e537d29",
+    "app-debug-androidTest.apk": "515461272b203c320f6a063811fdb6a495b114350f6b6c573a2d13fc4fd38785"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m3\\build-0013\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m3\\build-0013\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.PackManagementUiTest,org.packrag.product.ProductUiE2eTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "selected_test_sources": {
+    "org.packrag.product.PackManagementUiTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt",
+      "source_sha256": "2a9628265f525db3209f3b8370ab7d99a52bb91bcb278fc39f44ab29f47bb699"
+    },
+    "org.packrag.product.ProductUiE2eTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ProductUiE2eTest.kt",
+      "source_sha256": "11e977dcb73b770a7a2ce6d630d61158f6aac45037b0a8be8e6657fb90d58af8"
+    }
+  },
+  "status": "PASS"
+}

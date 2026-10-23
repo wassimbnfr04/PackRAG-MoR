@@ -1,0 +1,22 @@
+{
+  "changed": {
+    "product/android/app/src/androidTest/java/org/packrag/product/ChatRepairUiTest.kt": [
+      "4b696a33c3cf69c30b833cb45f0b9205fa21b3fa1442627f8efa7791b133f973",
+      "5349ff4c5f4341da2dfd76dde87195ea73d1556f498956cea01c7aa55bcd8881"
+    ],
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticPolicyDeviceTest.kt": [
+      "bfd8ee0c836f56b39556933debfe54e66950becf9d29dc04bbbca0103aa86be4",
+      "ecbcd64bd3bd7320027cb5c39c29e006ef7266200c53747775c8309131ffe755"
+    ],
+    "product/android/app/src/main/java/org/packrag/product/DiagnosticsPanel.kt": [
+      "b32b2080055bbb3e07c86d44be18383bce40b9a5095ee090d6b030129a645de3",
+      "c84c5d5754f26fcc9e950223571b88cfbcf34f90da8470fe89b82e7411f1c880"
+    ],
+    "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": [
+      "abb432be92e8799d7fc2b14d1576b1322953b637e8e971714fc6a25cc86b474b",
+      "2273540a76c42a63b9b6736be3b34cae30adca0678d0231f5b4684985b259704"
+    ]
+  },
+  "unchanged_count": 635,
+  "scope": "Exact delta from physically passed native0119 to current primary-app0120. Only factory/diagnostic presentation/current UI and approved-profile expectations change; native/API/retrieval/crypto/registry/config/assets unchanged. No claim that old whole APK equals current APK."
+}

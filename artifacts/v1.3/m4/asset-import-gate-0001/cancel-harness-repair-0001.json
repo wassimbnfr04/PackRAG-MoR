@@ -1,0 +1,24 @@
+{
+  "status": "TEST_HARNESS_DISPATCH_REPAIR_PREPARED_NOT_PHYSICAL_CANCEL_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T17:08:35.544524+00:00",
+  "source_delta": {
+    "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureProvider.java": {
+      "before": "bbdecb2311cf7375b6b12ee5f204a3b7989dcd4af3f9e4cc4bf8314aa5223f00",
+      "after": "fefbaefefefcbd649c8b2c1543364c4ca9ea5027daa3da7500618ff907751279"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportFaultDeviceTest.kt": {
+      "before": "27cd24c3a64b9b745750606407b9c6f54472a1d97de6163a3e928464b2835405",
+      "after": "c448e60ec9a2a40e4fd0b018a7617a26f0ebbb5abee6e01ca1feb591e405694a"
+    }
+  },
+  "unchanged_product_sha256": "802c817870f3828498175c05f1862e6b5f6eb467d5517a164123aa75eed0dd75",
+  "host_capture_sha256": "4765fd54343f8bb51ef349e19c34c276a3b0dac10dc4fd1162ba863a75141699",
+  "public_api_basis": "Android ContentResolver read-mode content URI opens a typed */* descriptor. ContentProvider default typed implementation calls the two-argument openAssetFile. Explicit typed-cancellable/noncancellable/asset overrides now route each fixture to its intended handler; regular fallback is direct descriptor construction, without virtual-call recursion.",
+  "references": [
+    "https://developer.android.com/reference/android/content/ContentResolver",
+    "https://developer.android.com/reference/android/content/ContentProvider"
+  ],
+  "limits": "First failed method only establishes future already done, not its result/cause, because no byte/result trace was saved. Earlier25 passing assertions are preserved but short-pipe label alone does NOT establish a physical pipe: old typed default can serve the regular fallback. That first assertion is not accepted as pipe-transport evidence. No rejected input/path assertion or original output is rewritten.",
+  "correction": "Test-only counters now record typed-cancellable/plain/pipe dispatch; cancellation test requires partial observed bytes1..5442 and exact counter increments, then unfinished future. Cooperative blocked pipe leaves500ms between bounded valid writes, so a closed reader is detected by the next write even if the open-time signal transport is detached. Opening cancellation separately tests actual transported signal. Record explicit byte/ms labels and verify timings only for the two *_ms keys; bytes are not interpreted as milliseconds.",
+  "next": "Fresh0063 faults0002 then native walking0003 in serial; halt on failure, collect originals before later work. No startup/process-death/all-slot/UI or F2 acceptance is advanced by this prepared repair."
+}

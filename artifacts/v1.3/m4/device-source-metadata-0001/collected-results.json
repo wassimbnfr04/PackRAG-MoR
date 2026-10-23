@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-07T00:22:11.202048+00:00",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug.apk": "9335db3e0699ba2f088f46408953c5d2aa777f13f18e0eb180736655c9e2b743",
+    "app-debug-androidTest.apk": "3f2770fd7541d2a299ca99abb996ce8c1fbacddaf9cbd1a35e05571aa86d423e"
+  },
+  "source": "App-private final JSON after complete successful instrumentation; original ADB bytes preserved",
+  "saved_sha256": {
+    "m4-validity.json": "e84af8bfe9cf9e4c3148dce5d36a5c86715c3b5c41e4b887f5c2198edd653254",
+    "m4-query-identifiers.json": "2b12ec3341ca92cdd7e892d6c8c0668a4e26f07505d2148ea4e47e965abe07dd",
+    "m4-query-unicode.json": "6971c8af3407c006002f142a1e5f2c9fe4c370e9f0d11cdf3f8d7e902fb515d6",
+    "m2-generator-prompt-parity.json": "8796dd14a007728c3eb995c48a33326fad9a0952546f2df27cba4776c014ab7e",
+    "m2-pack-retrieval-parity.json": "7e5abf42111eda278370c06b0fbcb1002c6f62925a11114817e81094b51cdabc",
+    "m3-data-types.json": "41442dfabdf9e042334b726c3dbacb226042984926e000c3195129f9451ab224",
+    "m3-extension-names.json": "4b4eaf2cae593b7d620912cf2a10e43fb771165ce1a6d204242624fa1dc665f0",
+    "m3-validation-order.json": "051594a58b1ee4aa90627759b572f62e16ec74258b2d81e4fb03837ca084fa8b",
+    "m3-residual-security.json": "1e3e0dc55745be0509f3b509902b054bdf42789eca9406eae306998d1890fc5b",
+    "m3-manifest-schema.json": "3c6fbe2869ebc818c24db8bb90548b5bc7fdd138f8ed1267f12b076e0986650d",
+    "m3-database-validation.json": "eaffa8217833e34c55b3d9b00ef832c09ebeaf53a2236c08dffe65c2fcf4b67b",
+    "m3-archive-validation.json": "a6bdfdea8c6c246d1433594e4d1da852b2761e0219a376dd48de113c0595cad3",
+    "m4-query-identifier-runtime.json": "b54fa65a54c3f82c1350760553069af14b15a66b29c51eb805d9ff3a3b34524e",
+    "m2-generator-cancellation.json": "52b2575282fa1929cc476966172e7aaa4ea77b50f16ba6fcf1886bdf565a00d8",
+    "product-runtime-smoke.json": "66e4d5928f29482f974984c09e5bed6d7d4a2a5a6a98939a6375663d7355c25f",
+    "m3-explicit-lifecycle.json": "30c400a38b0783ce957fc755fd8c15e9af26c7ed298ed8348a4ea27a4a80fd80",
+    "m3-atomic-registry.json": "005b8d9a6316ea4ab533daba4a4ef040698d34c90ab9552f461d7f7f878d6433",
+    "m3-process-death.json": "a7a248c6f1c7cbc15550797c915d84ba650435c18a245bf8e13b4fdd3136de45",
+    "m3-import-consent.json": "0ee774b6713fdc54911725c667ff3aa084c4ccfd8320c210628c951d12cc7d72"
+  }
+}

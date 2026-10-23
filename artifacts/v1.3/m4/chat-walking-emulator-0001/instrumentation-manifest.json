@@ -1,0 +1,92 @@
+{
+  "started_at": "2026-10-12T17:59:47.213757+00:00",
+  "serial": "emulator-5580",
+  "class_name": "org.packrag.product.ChatWalkingUiTest",
+  "variant": "debug",
+  "runner_sha256": "bf8c46acaaddcfaef8e2f27d05bc5917117a46741e4d749867568bc60a17f6b8",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~G8OJ-or6mooLg6newKcwaw==/org.packrag.product-yeO_zzrryO_xDt-SrVe-3Q==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "sha256sum",
+        "/data/app/~~G8OJ-or6mooLg6newKcwaw==/org.packrag.product-yeO_zzrryO_xDt-SrVe-3Q==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "529b87c46cff0448410f295869e69e46a231f111e4a7ef6b3cb0ee15e8c409da  /data/app/~~G8OJ-or6mooLg6newKcwaw==/org.packrag.product-yeO_zzrryO_xDt-SrVe-3Q==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~fiXZ7tlb2hMBdjCPWK2XEw==/org.packrag.product.test-PCuDYMKICmYmBCrFFWTYhg==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "sha256sum",
+        "/data/app/~~fiXZ7tlb2hMBdjCPWK2XEw==/org.packrag.product.test-PCuDYMKICmYmBCrFFWTYhg==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "0d7e6efb3e8f98ec796a8828162d715d6e51dfae6a01013a85014075923a0197  /data/app/~~fiXZ7tlb2hMBdjCPWK2XEw==/org.packrag.product.test-PCuDYMKICmYmBCrFFWTYhg==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.ChatWalkingUiTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "529b87c46cff0448410f295869e69e46a231f111e4a7ef6b3cb0ee15e8c409da",
+    "app-debug-androidTest.apk": "0d7e6efb3e8f98ec796a8828162d715d6e51dfae6a01013a85014075923a0197"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.ChatWalkingUiTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ChatWalkingUiTest.kt",
+      "source_sha256": "70f12a36dde7248701b3a06f9c8df7c58059cf11e07c2a02860876d22a86f8c6"
+    }
+  },
+  "transport": "VERIFY_EXACT_INSTALLED_APKS_NO_REINSTALL",
+  "status": "FAIL"
+}

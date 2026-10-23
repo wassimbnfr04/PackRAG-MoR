@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "production-missing-inspection-no-verified-dto-or-activation",
+      "passed": true
+    },
+    {
+      "id": "production-app-rejects-new-unapproved-fixture-key",
+      "passed": true
+    }
+  ],
+  "compiled_developer_mode": false,
+  "raw_reasoning_persisted": false
+}

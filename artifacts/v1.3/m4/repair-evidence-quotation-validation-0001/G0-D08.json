@@ -1,0 +1,67 @@
+{
+  "id": "G0-D08",
+  "category": "direct",
+  "question": "What maximum load is the Orion-R12 relay rated for at 24 V DC?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC. [S1]",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "12 A"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 387,
+    "prompt_ms": 4029.212,
+    "prompt_per_token_ms": 10.411400516795865,
+    "prompt_per_second": 96.04855738541433,
+    "predicted_n": 208,
+    "predicted_ms": 7641.501,
+    "predicted_per_token_ms": 36.91546376811594,
+    "predicted_per_second": 27.08891878702888,
+    "host_generation_wall_ms": 11731.585100002121,
+    "emitted_token_count": 208,
+    "reasoning_token_count": 180,
+    "final_and_terminal_token_count": 28,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 387,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "d036b8f1f16df0f1209015d55bb5401be38fab0636119a83e4c477e737f8b75f",
+    "final_only": "1. The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC. [S1]",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "8984cc115645beb8e0d94bb7cc608899edb8003a6eef22304b6eeb8dc4b7c970"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

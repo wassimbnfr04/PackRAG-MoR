@@ -1,0 +1,24 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.PackImportConsentTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.PackImportConsentTest:
+INSTRUMENTATION_STATUS: test=olderImportConsentBindsPrivateCopyAndCleansIt
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.PackImportConsentTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=olderImportConsentBindsPrivateCopyAndCleansIt
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 2,31
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1
+

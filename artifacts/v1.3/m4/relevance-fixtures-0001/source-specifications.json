@@ -1,0 +1,58 @@
+{
+  "purpose": "SYNTHETIC_PROTOCOL_NOT_MEASURED_CALIBRATION",
+  "packs": [
+    [
+      "a-strict",
+      1,
+      [],
+      null
+    ],
+    [
+      "b-lenient",
+      0,
+      [],
+      null
+    ],
+    [
+      "c-uncal",
+      null,
+      [],
+      null
+    ],
+    [
+      "d-lenient",
+      0,
+      [],
+      null
+    ],
+    [
+      "e-legacy",
+      0,
+      [],
+      null
+    ],
+    [
+      "f-exact",
+      1,
+      [
+        "EXACTCODE"
+      ],
+      null
+    ],
+    [
+      "g-exact-uncal",
+      null,
+      [
+        "EXACTOTHER"
+      ],
+      null
+    ],
+    [
+      "i-duplicate-lenient",
+      0,
+      [],
+      "a-strict"
+    ]
+  ],
+  "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+}

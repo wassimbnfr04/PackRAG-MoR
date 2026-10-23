@@ -1,0 +1,9 @@
+{
+  "status": "BOOTSTRAP_ONLY_DO_NOT_INSTALL_BEFORE_PINNED_REBUILD",
+  "actual_apk_sha256": "c2de7fc886c019dbdbe18d96757529b0ac3f356b1e93785f476e3005c4e94a8a",
+  "actual_packaged_libraries": {
+    "arm64-v8a": "5cf4b9131b3532f65d4fcfe88a7dfd172183518f738f971ee7d8321e6f5682a7",
+    "x86_64": "e7cf27062fc074bb3cef513593e9d4d213c8dc3e6432344a3c18a73058105715"
+  },
+  "source_manifest_sha256": "79d7333f177cb0952f82d5f0e78dbb43b85519a43f7d99d9b31d047bd166079f"
+}

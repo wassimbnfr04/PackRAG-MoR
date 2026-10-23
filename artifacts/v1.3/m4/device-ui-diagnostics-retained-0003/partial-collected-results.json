@@ -1,0 +1,111 @@
+{
+  "status": "SAVED_COMPLETED_PASSING_METHODS_OVERALL_SUITE_FAIL",
+  "recorded_utc": "2026-10-10T20:15:29.777994+00:00",
+  "method_status_codes": {
+    "realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls": -2,
+    "verifiedArabicFrenchCanonicalAndEnglishRenderingComponentScreenshots": 0,
+    "capturedControlsSurviveRealGenerationEditsRecreationAndSourceNavigation": 0,
+    "isolatedPackControlsWarningsRemovalAndRestart": 0
+  },
+  "original_sha256": {
+    "m4-source-details-languages-ui.json": "71914318b549eaf9fc07fb5ee0e8c5a1e232d89f8587539b8b9e44715285be29",
+    "m4-ui-query-controls.json": "7ecfce29f33a9a33e23041f3c09c90a772782e67974fece80b7e94e9371d74fc",
+    "m3-pack-management-ui.json": "d8f0f537ff948fd4e4c92a829ee093705366c22f1f17e7ee466db668e1be530e",
+    "m4-source-details-ar.png": "db03fa74755df4bed1e12af63ac0bbf74a0ed1befdfbb19cf315700e2b4bbac3",
+    "m4-source-details-fr.png": "cfe3821b2b1dc95dfabf3046939df08ddedea25aa76885479199083eaecf1fd0",
+    "m4-ui-query-resubmission-observation.json": "af94efcda8006ad068b8a8d47c95c544afab2a40e7a7e1589a341a4e5765a814"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "-s",
+        "TestRunner:I"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-languages-ui.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-ui-query-controls.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-pack-management-ui.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-ar.png"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-fr.png"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-ui-query-resubmission-observation.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "scope": "Only JUnit status0 methods with actual report-write source are collected as fresh; failed method reports may be stale and are never promoted. Overall suite FAIL unchanged."
+}

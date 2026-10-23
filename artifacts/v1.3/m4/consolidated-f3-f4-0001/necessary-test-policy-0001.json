@@ -1,0 +1,65 @@
+{
+  "status": "OWNER_REQUESTED_NECESSARY_TEST_POLICY_NOT_FULL_M4_ACCEPTANCE",
+  "recorded_utc": "2026-10-12T16:09:15.409664+00:00",
+  "owner_steering": [
+    "Use an emulator and only necessary tests.",
+    "Corrected earlier no-download preference: download emulator.",
+    "Run necessary phone tests meanwhile."
+  ],
+  "current_build": "build-0097",
+  "current_matched_demo": "build-0098",
+  "historical_baseline_source_capture_sha256": "0eb6c6c41e87385b78fe0ca16682302721dc4dbdc768b27ea703021c15a86c82",
+  "unchanged_component_source_and_build_inputs": {
+    "retrieval": {
+      "product/android/retrieval/build.gradle.kts": "d8b5b6989e2a2017eb4f9c98fa329dc877b487e9d3ce6c54696ed6d3330fde95",
+      "product/android/retrieval/src/main/AndroidManifest.xml": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "product/android/retrieval/src/main/java/org/packrag/retrieval/Retrieval.kt": "8aeb625812dbf33c40b48e07c7236a6390ea54a5871f8d625e71be1f94e7bad0"
+    },
+    "generator-llama": {
+      "product/android/generator-llama/build.gradle.kts": "b6117c33a15cc9249f0f59d08fb5c2a3e3445a1b73234334f60ce014c0bb5ee4",
+      "product/android/generator-llama/src/main/AndroidManifest.xml": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "product/android/generator-llama/src/main/cpp/CMakeLists.txt": "5b0de0ef3a296e175984165fd8c797e4c7d6ebffc4ee2afaf8228681e026821c",
+      "product/android/generator-llama/src/main/cpp/generator_jni.cpp": "c6fae20346522febd0cdc2e34e4900b2419b644d9e3f7205a951c95f8b284f6d",
+      "product/android/generator-llama/src/main/java/org/packrag/generator/LlamaGenerator.kt": "27185d7fea3d7e7c986ba3260f7893aa16238225c2ca12be4850662317b38866"
+    },
+    "embedding-onnx": {
+      "product/android/embedding-onnx/build.gradle.kts": "d5a086a57fa0c396797f350e0bd5f8dd23315078d9f9762eebc346a438ef62c0",
+      "product/android/embedding-onnx/src/main/AndroidManifest.xml": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "product/android/embedding-onnx/src/main/java/org/packrag/embedding/GraniteEncoder.kt": "c8ce0831d711d98a2e78a109caf66275d64e14c37c45c682ee9bceea2ab64f26",
+      "product/android/embedding-onnx/src/main/java/org/packrag/embedding/GraniteTokenizer.kt": "61f62b4a61c57f28f4e8329c48ce64af27b97a3cce5b51d62fb5a3364ba1c792"
+    },
+    "grounded-runtime": {
+      "product/android/grounded-runtime/build.gradle.kts": "59a4b548dee44e6a2016801b1191f8ab9d5ca6bcf57ade71e711c5bae650eaff",
+      "product/android/grounded-runtime/src/main/AndroidManifest.xml": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "product/android/grounded-runtime/src/main/java/org/packrag/runtime/Diagnostics.kt": "107fe8fa8d55beb4c822f7f91c984ebf904d1b7510f2cabe142f7a14c560a35b",
+      "product/android/grounded-runtime/src/main/java/org/packrag/runtime/OutputValidator.kt": "e127e9f38fe626196b194c0b49857a4b70f65bf5748f2d1de2f785185a2fa255",
+      "product/android/grounded-runtime/src/main/java/org/packrag/runtime/PackRag.kt": "d627bbbbad16053deb853fc2e9b364fc762edec231b99fa5172ac5a347312d6a",
+      "product/android/grounded-runtime/src/main/java/org/packrag/runtime/Prompt.kt": "aa49c98011540f34e99f3a0dabbd8dd3ca80ab556e25532a69302802721b4cee"
+    },
+    "security-crypto": {
+      "product/android/security-crypto/build.gradle.kts": "8c8f500c5036ea5e0417d0b3598bc0d40bf93dddcf7c657bbb7f737bc9fefed4",
+      "product/android/security-crypto/src/main/AndroidManifest.xml": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "product/android/security-crypto/src/main/java/org/packrag/crypto/ApprovedPublishers.kt": "914eb5a574328d084b841597590837140974de7c992319b24ce1441db982517b",
+      "product/android/security-crypto/src/main/java/org/packrag/crypto/JsonBounds.kt": "ceaf089a76e1837d2ea9f85d3597d2e6fea3506f855ec61f69eaffdd7d922115",
+      "product/android/security-crypto/src/main/java/org/packrag/crypto/RawManifestVerifier.kt": "50e12ffe169c1ee557350b1b83af1dfb301263ae333a362a6d8729752af0180b"
+    }
+  },
+  "fresh_completed": {
+    "core_classes": 12,
+    "core_methods": 14,
+    "core_execution_sha256": "7f53c7183d1ad344ca201f7057780ee4a9788ecf4bcfa79383ae62313f132e30",
+    "embedding_parity": "One method passed before broad batch held; original remains dated and immutable."
+  },
+  "pending_launch_policy": {
+    "unchanged_retrieval_generator_embedding_runtime_crypto": "Reuse prior accepted component evidence plus fresh current security/smoke and embedding parity; no automatic entire repeated suite solely for form-label changes.",
+    "unresolved_F4_grant_and_asset_import": "Run one existing seven-control actual-phone walking check, preserving original grant callback before assertions.",
+    "new_or_changed_UI": "Cover missing first-time behavior and changed fields; retain unchanged previously reviewed cases with explicit scope. Emulator first when boot and unchanged APK compatibility are proved.",
+    "hardware_final": "Actual phone native functionality/performance/resource checks required; emulator results cannot be reported as phone measurements."
+  },
+  "limitations": [
+    "This identity comparison proves listed component inputs match build0077; it does not prove every current APK byte or all integrations are identical.",
+    "Historical test outputs keep their original dates/builds; no conversion into newly executed results.",
+    "Unpassed first-time acceptance controls and unresolved failures remain required.",
+    "Final M4 acceptance remains incomplete."
+  ]
+}

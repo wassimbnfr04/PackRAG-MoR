@@ -1,0 +1,10 @@
+{
+  "id": "optional-oversize",
+  "ambiguous": false,
+  "pool": [
+    "78e38b4f176be01967256951",
+    "3cd3e857ee701fd360163b22"
+  ],
+  "admission": null,
+  "selected": []
+}

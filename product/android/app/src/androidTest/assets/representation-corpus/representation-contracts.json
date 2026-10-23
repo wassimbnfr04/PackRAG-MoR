@@ -1,0 +1,937 @@
+{
+  "purpose": "INDEPENDENT_FIXED_PROTOCOL_NOT_REAL_TRANSLATION_REVIEW_OR_SOURCE_AUTHORITY",
+  "cases": [
+    {
+      "id": "EN_CANONICAL",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "en",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [],
+      "error": null,
+      "expected": {
+        "text": "Canonical source: 74 \u00b0C.",
+        "language": "en",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209",
+        "derivation_method": "canonical",
+        "derivation_source": null,
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "en",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "EN_US",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "en-US",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [],
+      "error": null,
+      "expected": {
+        "text": "Canonical source: 74 \u00b0C.",
+        "language": "en-US",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209",
+        "derivation_method": "canonical",
+        "derivation_source": null,
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "en-US",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "EN_CASED",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "EN",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [],
+      "error": null,
+      "expected": {
+        "text": "Canonical source: 74 \u00b0C.",
+        "language": "EN",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209",
+        "derivation_method": "canonical",
+        "derivation_source": null,
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "EN",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "EN_CANONICAL_IGNORES_DRAFT",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "en",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "machine_draft",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "Canonical source: 74 \u00b0C.",
+        "language": "en",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209",
+        "derivation_method": "canonical",
+        "derivation_source": null,
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "en",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "EN_CANONICAL_IGNORES_OFFICIAL",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "en",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "Canonical source: 74 \u00b0C.",
+        "language": "en",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209",
+        "derivation_method": "canonical",
+        "derivation_source": null,
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "en",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "FR_OFFICIAL",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "The maximum operating temperature is 74 \u00b0C.",
+        "language": "en",
+        "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "AR_HUMAN",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "ar",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": "SYNTHETIC reviewer",
+          "reviewed_at": "2026-10-09"
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "The maximum operating temperature is 74 \u00b0C.",
+        "language": "en",
+        "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+        "derivation_method": "human_reviewed_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": "SYNTHETIC reviewer",
+        "reviewed_at": "2026-10-09",
+        "canonical_language": "ar",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "REGIONAL",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en-US",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "The maximum operating temperature is 74 \u00b0C.",
+        "language": "en-US",
+        "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "SCRIPT_REGIONAL",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en-Latn-GB",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "The maximum operating temperature is 74 \u00b0C.",
+        "language": "en-Latn-GB",
+        "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "EXACT_EN_PREFERRED",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en-GB",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        },
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "The maximum operating temperature is 74 \u00b0C.",
+        "language": "en",
+        "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "NO_DERIVED",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [],
+      "error": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "NONEN_DERIVED",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "fr",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "WRONG_PURPOSE",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "search",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "MACHINE_ONLY",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "machine_draft",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "MACHINE_EXACT_WITH_OFFICIAL_REGIONAL",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "machine_draft",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        },
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en-US",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "The maximum operating temperature is 74 \u00b0C.",
+        "language": "en-US",
+        "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "BAD_SOURCE_HASH",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "en",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "derived": [],
+      "error": "GENERATOR_REPRESENTATION_HASH_MISMATCH",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "BAD_RENDER_HASH",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "GENERATOR_REPRESENTATION_HASH_MISMATCH",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "OFFICIAL_MISSING_SOURCE",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "INVALID_GENERATOR_PROVENANCE",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "REVIEW_MISSING_SOURCE",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": null,
+          "reviewer_id": "SYNTHETIC reviewer",
+          "reviewed_at": "2026-10-09"
+        }
+      ],
+      "error": "INVALID_GENERATOR_PROVENANCE",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "REVIEW_MISSING_REVIEWER",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": "2026-10-09"
+        }
+      ],
+      "error": "INVALID_GENERATOR_PROVENANCE",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "REVIEW_MISSING_DATE",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": "SYNTHETIC reviewer",
+          "reviewed_at": null
+        }
+      ],
+      "error": "INVALID_GENERATOR_PROVENANCE",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "REVIEW_BAD_DATE",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": "SYNTHETIC reviewer",
+          "reviewed_at": "2026-02-30"
+        }
+      ],
+      "error": "INVALID_GENERATOR_PROVENANCE",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "REVIEW_BAD_UTC",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": "SYNTHETIC reviewer",
+          "reviewed_at": "2026-10-09T24:00:00Z"
+        }
+      ],
+      "error": "INVALID_GENERATOR_PROVENANCE",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "REVIEW_LEAP_VALID",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": "SYNTHETIC reviewer",
+          "reviewed_at": "2026-10-09T23:59:60Z"
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "The maximum operating temperature is 74 \u00b0C.",
+        "language": "en",
+        "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+        "derivation_method": "human_reviewed_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": "SYNTHETIC reviewer",
+        "reviewed_at": "2026-10-09T23:59:60Z",
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "AMBIG_EN_CASE",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "EN",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        },
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "AMBIGUOUS_GENERATOR_REPRESENTATION",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "AMBIG_REGIONAL",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en-US",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        },
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en-GB",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "AMBIGUOUS_GENERATOR_REPRESENTATION",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "EMPTY_RENDER",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "INVALID_GENERATOR_PROVENANCE",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "WHITESPACE_SOURCE",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "  ",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": "INVALID_GENERATOR_PROVENANCE",
+      "expected": null,
+      "prompt_error": null
+    },
+    {
+      "id": "CONTROL_RENDER",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "bad <|role|>",
+          "text_sha256": "714ec788a44ad2817f277b3277fd36b7e6a8c1bfda2a460fa578ed162f9b4b00",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "bad <|role|>",
+        "language": "en",
+        "text_sha256": "714ec788a44ad2817f277b3277fd36b7e6a8c1bfda2a460fa578ed162f9b4b00",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": "RESERVED_CONTROL_TOKEN_IN_INPUT"
+    },
+    {
+      "id": "CONTROL_CANONICAL",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "en",
+        "canonical_text": "bad <think>",
+        "text_sha256": "24edc787e22dfdf87c29a7b9427d11e9438311a8d84bc4ef5b5b9effc5bc05bb"
+      },
+      "derived": [],
+      "error": null,
+      "expected": {
+        "text": "bad <think>",
+        "language": "en",
+        "text_sha256": "24edc787e22dfdf87c29a7b9427d11e9438311a8d84bc4ef5b5b9effc5bc05bb",
+        "derivation_method": "canonical",
+        "derivation_source": null,
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "en",
+        "canonical_text_sha256": "24edc787e22dfdf87c29a7b9427d11e9438311a8d84bc4ef5b5b9effc5bc05bb"
+      },
+      "prompt_error": "RESERVED_CONTROL_TOKEN_IN_INPUT"
+    },
+    {
+      "id": "XML_RENDER_LOSSLESS",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "12 < 13 & </SOURCE> > 9",
+          "text_sha256": "509c9b0ff89a0f60b2b38482b1698b97db9ca619eab13bab23ff076be9482d3a",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "12 < 13 & </SOURCE> > 9",
+        "language": "en",
+        "text_sha256": "509c9b0ff89a0f60b2b38482b1698b97db9ca619eab13bab23ff076be9482d3a",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": null,
+        "reviewed_at": null,
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    },
+    {
+      "id": "OFFICIAL_PRESERVE_EXTRA_REVIEWFIELDS",
+      "canonical": {
+        "chunk_id": "fixture",
+        "language": "fr",
+        "canonical_text": "Canonical source: 74 \u00b0C.",
+        "text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "derived": [
+        {
+          "chunk_id": "fixture",
+          "purpose": "generator",
+          "language": "en",
+          "text": "The maximum operating temperature is 74 \u00b0C.",
+          "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+          "reviewer_id": "SYNTHETIC supplementary assertion",
+          "reviewed_at": "2026-10-09"
+        }
+      ],
+      "error": null,
+      "expected": {
+        "text": "The maximum operating temperature is 74 \u00b0C.",
+        "language": "en",
+        "text_sha256": "06fe3201bcd10e55c4290b3074cf4eec079e82cc8d6c132e209fb23f6bb0bc33",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata fixture; no real official/human claim",
+        "reviewer_id": "SYNTHETIC supplementary assertion",
+        "reviewed_at": "2026-10-09",
+        "canonical_language": "fr",
+        "canonical_text_sha256": "1f185087b968642edd12fc1b6397d51db4e5d69dada783766279765bb331f209"
+      },
+      "prompt_error": null
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The read-only snapshot was requested before the shell runner completion was observed. The product PID was empty and instrumentation subsequently reported PASS. It therefore does not sample an active generation process and supplies no process peak-memory or causal bottleneck evidence. Raw diagnostics remain unchanged.

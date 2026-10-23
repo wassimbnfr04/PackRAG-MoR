@@ -1,0 +1,9 @@
+"""Durable current state; runtime sources frozen while actual UI executes."""
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[4]
+message='E3 current10 October20:13 UTC: corrected retained UI0003 RUNNING under driver54135 on0050 after fresh awake/unlocked checks and announced five-minute untouched window. Matched0050/51 pass53 host each/574 same inputs; exactly one UI test changed from0048/49,573 other inputs and both whole product APKs identical. Actual final query must finish with distinct completion ID/exact edited context plus unchanged abstention/citations assertions; immediate/new state reporter may establish timing, no root cause yet claimed. Previous UI0001/0002 remain FAIL with only completed passing originals separately saved. Collect all four fresh reports/additional observation/two PNGs and actually inspect before prepared full37/30/restoration/parity/closure. Native policy eight/desktop14/Python1034 retained under explicit proofs. No F/later progression; mobile data/USB/owner data preserved.'
+for name in ['STATUS.md','PLAN.md']:
+    p=ROOT/name;text=p.read_text(encoding='utf-8-sig');first,rest=text.split('\n',1);p.write_text(first+'\n\n'+message+'\n'+rest,encoding='utf-8')
+for name in ['docs/v1.3/M4E3_METHODS.md','docs/v1.3/M4E3_EVIDENCE_INDEX.md','docs/v1.3/FULL_DOCUMENTATION_WORKING.md']:
+    with (ROOT/name).open('a',encoding='utf-8') as f:f.write('\n\n'+message+'\n\nPreflight resubmission-preflight.json proves exact test delta/product equality. Pre-execution driver collection contract corrected separately because observation uses a detailed stage status, while generic collector requires PASS. Original derived driver bytes and correction reason retained. Mistakenly placed documentation note preserved in diagnostic folder and appended to canonical docs/v1.3 working document; no runtime change.\n')
+print('Durable state records current UI driver54135 and held later milestones')

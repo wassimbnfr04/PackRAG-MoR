@@ -1,0 +1,7 @@
+{
+  "status": "FAIL",
+  "cases": [],
+  "tokenizer_cases": 19,
+  "purpose": "REAL_LFM_SYNTHETIC_CONFLICT_INTEGRATION_NOT_RELEASE_LEGAL_REVIEW_CALIBRATION_OR_PERFORMANCE",
+  "raw_reasoning_persisted": false
+}

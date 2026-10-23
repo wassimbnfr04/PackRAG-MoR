@@ -1,0 +1,9 @@
+{
+  "status": "FAILED_CLOSURE_SCRIPT_PREPARATION_NOT_PRODUCT_TEST_FAILURE",
+  "exception": "AssertionError",
+  "message": "python_tests=501, host_methods_per_variant=21",
+  "cause": "An earlier controlled replacement of tests=501 already changed the python_tests substring, so a later asserted old pattern was absent.",
+  "outputs_created_before_failure": [],
+  "secondary_error": "Patch target query-gate-0001/verify_and_record.py did not yet exist; no patch was applied.",
+  "interpretation": "No test result, runtime source, APK or existing closure artifact changed. Correct preparation checks the already-updated pattern and writes a new script only after all substitutions pass."
+}

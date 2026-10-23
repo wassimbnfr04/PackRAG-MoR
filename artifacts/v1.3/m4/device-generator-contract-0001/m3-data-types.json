@@ -1,0 +1,261 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "allow-txt",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-txt",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-md",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-md",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-pdf",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-pdf",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-csv",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-csv",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-tsv",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-tsv",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-json",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-json",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-xml",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-xml",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-png",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-png",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-jpg",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-jpg",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-jpeg",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-jpeg",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "allow-webp",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "opaque-webp",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "uppercase-data",
+      "passed": true,
+      "accept": true,
+      "rejection": null
+    },
+    {
+      "id": "deny-lua",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-kt",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-swift",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-weirdscript",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-bin",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-html",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-svg",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-docm",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-zip",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-onnx",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-gguf",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-exe",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-py",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "deny-extensionless",
+      "passed": true,
+      "accept": false,
+      "rejection": "Source data type not allow-listed"
+    },
+    {
+      "id": "script-mime",
+      "passed": true,
+      "accept": false,
+      "rejection": "Payload media type not allow-listed"
+    },
+    {
+      "id": "model-mime",
+      "passed": true,
+      "accept": false,
+      "rejection": "Payload media type not allow-listed"
+    },
+    {
+      "id": "wrong-data-mime",
+      "passed": true,
+      "accept": false,
+      "rejection": "Payload media type not allow-listed"
+    },
+    {
+      "id": "sqlite-script-mime",
+      "passed": true,
+      "accept": false,
+      "rejection": "Payload media type not allow-listed"
+    },
+    {
+      "id": "kdx-script-mime",
+      "passed": true,
+      "accept": false,
+      "rejection": "Payload media type not allow-listed"
+    }
+  ],
+  "prior_active_and_original_hashes_preserved": true,
+  "failed_staging_cleaned": true,
+  "caller_inputs_unchanged": true,
+  "limits": "Synthetic signed path/MIME admission only; snapshots are not decoded, executed or claimed as genuine source documents/calibration."
+}

@@ -1,0 +1,10 @@
+{
+  "purpose": "SYNTHETIC_VALID_ZERO_ROW_FORMAT_BOUNDARY",
+  "filename": "empty.kpack",
+  "sha256": "557d723aef14b7bfda31c6d990d27f8769b106c2caeaa614fedc8ffdba7e7f2e",
+  "manifest_sha256": "50bd727811549638ea52fd1fdcd04df01d03c4ea8f8c3b24214701fc7f00a8ed",
+  "public_key_sha256": "8850d3325712a193cef35bb7cdb8b1e32a471a4e5df395e350f3d1743006ef41",
+  "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+  "private_seed": "EPHEMERAL_NOT_SAVED",
+  "script_sha256": "9f18756d1d517a10d61e1e8252f2f24b4257046a1f84b2308d3e2206bf532ede"
+}

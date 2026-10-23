@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.packs.StrictManifestTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-06T23:36:11.534Z" hostname="RAZER" time="0.192">
+  <properties/>
+  <testcase name="sqlNormalizationPreservesLiteralSemantics" classname="org.packrag.packs.StrictManifestTest" time="0.036"/>
+  <testcase name="sharedManifestSemanticCorpus" classname="org.packrag.packs.StrictManifestTest" time="0.15"/>
+  <testcase name="semverPrecedenceNotLexical" classname="org.packrag.packs.StrictManifestTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

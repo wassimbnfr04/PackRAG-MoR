@@ -1,0 +1,28 @@
+-- llama.cpp version: 0.5.0-dev
+CMAKE_BUILD_TYPE=Release
+-- Setting GGML_NATIVE_DEFAULT to OFF
+-- Warning: ccache not found - consider installing it for faster compilation or disable this warning with GGML_CCACHE=OFF
+-- CMAKE_SYSTEM_PROCESSOR: aarch64
+-- GGML_SYSTEM_ARCH: ARM
+-- Including CPU backend
+-- ARM detected
+-- Checking for ARM features using flags:
+-- Adding CPU backend variant ggml-cpu:  
+-- ggml version: 0.25.3
+-- ggml commit:  19e28a2
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR) 
+CMake Warning at vendor/cpp-httplib/CMakeLists.txt:154 (message):
+  OpenSSL not found, HTTPS support disabled
+
+
+-- Generating embedded license file for target: llama-app
+-- Configuring done (1.3s)
+-- Generating done (0.9s)
+-- Build files have been written to: C:/Users/Fkagf/Downloads/MOR CAPTSONE/fallback/smollm2/android/build-arm64
+[1/10] Building CXX object tools/completion/CMakeFiles/llama-completion.dir/main.cpp.o
+[2/10] Provisioning UI assets
+-- UI: HF stamp matches 'ggml-org/llama-ui|b1', skipping HF fetch
+-- UI: assets unchanged, skipping embedding
+[3/5] Building CXX object tools/completion/CMakeFiles/llama-completion-impl.dir/completion.cpp.o
+[4/5] Linking CXX static library tools\completion\libllama-completion-impl.a
+[5/5] Linking CXX executable bin\llama-completion

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "TOP_FAIL_LOWER_PASS",
+    "packs": [
+      "a-strict",
+      "b-lenient"
+    ],
+    "raw": "What is the maximum continuous operating temperature?",
+    "expected_order": [
+      "a-strict",
+      "b-lenient"
+    ],
+    "expected_relevant": [
+      false,
+      false
+    ],
+    "expected_state": "NO_RELEVANT_EVIDENCE"
+  },
+  {
+    "id": "TOP_UNCAL_LOWER_PASS",
+    "packs": [
+      "c-uncal",
+      "d-lenient"
+    ],
+    "raw": "What is the maximum continuous operating temperature?",
+    "expected_order": [
+      "c-uncal",
+      "d-lenient"
+    ],
+    "expected_relevant": [
+      false,
+      false
+    ],
+    "expected_state": "NO_RELEVANT_EVIDENCE"
+  },
+  {
+    "id": "TOP_PASS_LOWER_PASS",
+    "packs": [
+      "b-lenient",
+      "d-lenient"
+    ],
+    "raw": "What is the maximum continuous operating temperature?",
+    "expected_order": [
+      "b-lenient",
+      "d-lenient"
+    ],
+    "expected_relevant": [
+      true,
+      false
+    ],
+    "expected_state": "ANSWER_ACCEPTED"
+  },
+  {
+    "id": "LEGACY_STATUS_DEFAULT",
+    "packs": [
+      "e-legacy"
+    ],
+    "raw": "What is the maximum continuous operating temperature?",
+    "expected_order": [
+      "e-legacy"
+    ],
+    "expected_relevant": [
+      true
+    ],
+    "expected_state": "ANSWER_ACCEPTED"
+  },
+  {
+    "id": "EXACT_THEN_FAIL",
+    "packs": [
+      "f-exact",
+      "a-strict"
+    ],
+    "raw": "EXACTCODE What is the maximum continuous operating temperature?",
+    "expected_order": [
+      "f-exact",
+      "a-strict"
+    ],
+    "expected_relevant": [
+      true,
+      false
+    ],
+    "expected_state": "ANSWER_ACCEPTED"
+  },
+  {
+    "id": "EXACT_UNCAL_THEN_PASS",
+    "packs": [
+      "g-exact-uncal",
+      "b-lenient"
+    ],
+    "raw": "EXACTOTHER What is the maximum continuous operating temperature?",
+    "expected_order": [
+      "g-exact-uncal",
+      "b-lenient"
+    ],
+    "expected_relevant": [
+      true,
+      true
+    ],
+    "expected_state": "ANSWER_ACCEPTED"
+  },
+  {
+    "id": "ALL_EXACT",
+    "packs": [
+      "f-exact",
+      "g-exact-uncal"
+    ],
+    "raw": "EXACTCODE EXACTOTHER What is the maximum continuous operating temperature?",
+    "expected_order": [
+      "f-exact",
+      "g-exact-uncal"
+    ],
+    "expected_relevant": [
+      true,
+      true
+    ],
+    "expected_state": "ANSWER_ACCEPTED"
+  },
+  {
+    "id": "DEDUP_OWN_STRICT",
+    "packs": [
+      "a-strict",
+      "i-duplicate-lenient"
+    ],
+    "raw": "What is the maximum continuous operating temperature?",
+    "expected_order": [
+      "a-strict"
+    ],
+    "expected_relevant": [
+      false
+    ],
+    "expected_state": "NO_RELEVANT_EVIDENCE"
+  }
+]

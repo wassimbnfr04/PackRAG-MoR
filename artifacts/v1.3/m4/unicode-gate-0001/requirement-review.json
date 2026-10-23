@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED_BOUNDED_QUERY_NORMALIZATION_NOT_FULL_RETRIEVAL",
+  "source_docx_sha256": "9b02f83b186a5b7f0101add861c6ecb40f5eb0b13016f50fa0c76efc6de07536",
+  "paragraph": {
+    "index": 469,
+    "text": "• Create search query with Unicode NFKC normalization and whitespace collapse.",
+    "in_table": false
+  },
+  "acceptance_gate": "artifacts/v1.3/m4/unicode-gate-0001/gate.json",
+  "implementation": [
+    "product/packrag/query_unicode.py",
+    "product/android/core-model/src/main/java/org/packrag/model/QueryUnicode.kt"
+  ],
+  "remaining": [
+    "Strict query parameters/normalized embedding input/word boundaries/cross-pack ambiguity are B2",
+    "Whole paragraphs521/532/998 include obligations in later increments"
+  ]
+}

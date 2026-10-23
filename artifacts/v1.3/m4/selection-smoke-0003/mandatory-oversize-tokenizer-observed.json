@@ -1,0 +1,57 @@
+{
+  "id": "mandatory-oversize",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+  "actual_tokenizer": {},
+  "max_embedding_abs_error": 0.0,
+  "selection": {
+    "keys": [],
+    "decisions": [
+      {
+        "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+        "reason": "MANDATORY_TOKEN_CAP",
+        "trial": [
+          "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#de4007485c3423ff37bcb693",
+          "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76"
+        ],
+        "representative": null,
+        "evidence_tokens": 2134,
+        "prefill_tokens": 2307
+      },
+      {
+        "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#191a8da23f0fd6086da0f31f",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#4363e8b9e2be6e5e2dfe71a7",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#6df516db7affc2913b8d3a29",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.mandatory-oversize@1.0.0:373f74183c023067d69fde8f8cc1ae582f06d118abe8742f69ec9f0ab1060fea#2e2153a45f4da98b6cf1ab76",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      }
+    ],
+    "sources": [],
+    "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE"
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "status": "PASS_F2_FRESH_ADJACENT_BACKGROUND_VARIANT_NOT_FULL_F2",
+  "started_utc": "2026-10-11T22:02:36.472533+00:00",
+  "runner_sha256": "5367fdacdca448b7e70eb828cc5cd3391d93e593831fd70045ece174e0c7f41b",
+  "build": "build-0077",
+  "variant": "demo",
+  "installed_proof_sha256": "cc8e75bf2fe12acd7ed4217e243b21373f248cbaeb432793fac66033e5a8752a",
+  "pair_sha256": "d68a0fe779c2cd5d88abe16236521a929acf65360ed6a77d0509ae697fbd09e2",
+  "plan": [
+    [
+      "readiness",
+      "LocalAssetReadinessDeviceTest",
+      3,
+      {
+        "m4-local-assets-negative.json": 5,
+        "m4-local-assets-runtime.json": 5,
+        "m4-local-assets-viewmodel.json": 3
+      }
+    ],
+    [
+      "query-policy",
+      "QueryControlsPolicyTest",
+      1,
+      {
+        "m4-ui-query-policy.json": 3
+      }
+    ],
+    [
+      "source-policy",
+      "SourceDetailsPolicyTest",
+      1,
+      {
+        "m4-source-details-policy.json": 2
+      }
+    ],
+    [
+      "diagnostic-policy",
+      "DiagnosticPolicyDeviceTest",
+      1,
+      {
+        "m4-diagnostic-policy.json": 8
+      }
+    ]
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-adjacent-demo-0001-before-known.json"
+      ],
+      "returncode": 0,
+      "label": "before-known"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0077",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-demo-0001-readiness",
+        "--class-name",
+        "org.packrag.product.LocalAssetReadinessDeviceTest",
+        "--result-file",
+        "m4-local-assets-negative.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "demo"
+      ],
+      "returncode": 0,
+      "label": "readiness-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-demo-0001-readiness",
+        "--files",
+        "m4-local-assets-negative.json,m4-local-assets-runtime.json,m4-local-assets-viewmodel.json"
+      ],
+      "returncode": 0,
+      "label": "readiness-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0077",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-demo-0001-query-policy",
+        "--class-name",
+        "org.packrag.product.QueryControlsPolicyTest",
+        "--result-file",
+        "m4-ui-query-policy.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "demo"
+      ],
+      "returncode": 0,
+      "label": "query-policy-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-demo-0001-query-policy",
+        "--files",
+        "m4-ui-query-policy.json"
+      ],
+      "returncode": 0,
+      "label": "query-policy-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0077",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-demo-0001-source-policy",
+        "--class-name",
+        "org.packrag.product.SourceDetailsPolicyTest",
+        "--result-file",
+        "m4-source-details-policy.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "demo"
+      ],
+      "returncode": 0,
+      "label": "source-policy-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-demo-0001-source-policy",
+        "--files",
+        "m4-source-details-policy.json"
+      ],
+      "returncode": 0,
+      "label": "source-policy-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0077",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-demo-0001-diagnostic-policy",
+        "--class-name",
+        "org.packrag.product.DiagnosticPolicyDeviceTest",
+        "--result-file",
+        "m4-diagnostic-policy.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "demo"
+      ],
+      "returncode": 0,
+      "label": "diagnostic-policy-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-demo-0001-diagnostic-policy",
+        "--files",
+        "m4-diagnostic-policy.json"
+      ],
+      "returncode": 0,
+      "label": "diagnostic-policy-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-adjacent-demo-0001-after-known.json"
+      ],
+      "returncode": 0,
+      "label": "after-known"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0077",
+        "--output",
+        "device-local-asset-adjacent-demo-0001-after-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "after-source"
+    }
+  ],
+  "completed": [
+    {
+      "class_name": "LocalAssetReadinessDeviceTest",
+      "methods": 3,
+      "controls": 13,
+      "run": "device-local-asset-adjacent-demo-0001-readiness",
+      "original_sha256": {
+        "m4-local-assets-negative.json": "5788fd0f92758630dc8893f48f6351911eb25de0cda0a64f16f41cb4c723767f",
+        "m4-local-assets-runtime.json": "cc9c4a1cab25a94e08f1e5423a731380c31f53b61e0d96ba18fe790f1b3f1f64",
+        "m4-local-assets-viewmodel.json": "0f3d245cd270b3486b3322d43882fe6a398a9b64aae40b766a0366dbd9e1939d"
+      },
+      "manifest_sha256": "5c37bba1e90a230448334e0b75e94f73aa391ddfe65009623ceba480bb8ecdd2"
+    },
+    {
+      "class_name": "QueryControlsPolicyTest",
+      "methods": 1,
+      "controls": 3,
+      "run": "device-local-asset-adjacent-demo-0001-query-policy",
+      "original_sha256": {
+        "m4-ui-query-policy.json": "2ac4222083af82b4c05a1e953126a39a336622a1dc5dafcfa734dfeff4822657"
+      },
+      "manifest_sha256": "6d7dd490482066eaf6833306b5519416e836cf59b55cc0bb74367aa7e07aae90"
+    },
+    {
+      "class_name": "SourceDetailsPolicyTest",
+      "methods": 1,
+      "controls": 2,
+      "run": "device-local-asset-adjacent-demo-0001-source-policy",
+      "original_sha256": {
+        "m4-source-details-policy.json": "b9827859f6063d4d1efb9ffacaeff1c3b67085d492b778cdd92de31edc8d61ca"
+      },
+      "manifest_sha256": "46bd440a21c3d2533d731dc621647bfad520337cc8a7c94a7dd3142a510d3150"
+    },
+    {
+      "class_name": "DiagnosticPolicyDeviceTest",
+      "methods": 1,
+      "controls": 8,
+      "run": "device-local-asset-adjacent-demo-0001-diagnostic-policy",
+      "original_sha256": {
+        "m4-diagnostic-policy.json": "1ce1a4755536e7d1b0156694442b56213ccd57d992cc74a0f4d1c84bda97c80a"
+      },
+      "manifest_sha256": "caae27f12bba85b8f5abc7f070e554eb958ae28d62883e586d63d7dbdeeba5e0"
+    }
+  ],
+  "active_class": "DiagnosticPolicyDeviceTest",
+  "scope": "Fresh per-class JUnit and exact original reports collected/validated before next class; fixed method/control counts; real pinned LFM accepted synthetic answers where specified. Actual exact installed APK hashes checked before every class, no repeated installs. Only explicit50 public owner files guarded; readonly full source4 retained. Compiled approved policy fixtures are calibration-schema software tests, not genuine human gold/release/domain or performance acceptance. UI/regression/restoration/custody/closure checkpoint still independent.",
+  "finished_utc": "2026-10-11T22:20:42.619676+00:00"
+}

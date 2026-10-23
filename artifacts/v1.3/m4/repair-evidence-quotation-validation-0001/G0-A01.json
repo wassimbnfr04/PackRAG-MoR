@@ -1,0 +1,61 @@
+{
+  "id": "G0-A01",
+  "category": "abstention",
+  "question": "What is the minimum supply voltage of the Aster-9?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Aster-9 maximum continuous operating temperature is 74 °C."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 375,
+    "prompt_ms": 3811.348,
+    "prompt_per_token_ms": 10.163594666666667,
+    "prompt_per_second": 98.390385763777,
+    "predicted_n": 161,
+    "predicted_ms": 5864.13,
+    "predicted_per_token_ms": 36.6508125,
+    "predicted_per_second": 27.28452472915846,
+    "host_generation_wall_ms": 9725.136599998223,
+    "emitted_token_count": 161,
+    "reasoning_token_count": 152,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 375,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The Aster-9 maximum continuous operating temperature is 74 °C. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "297c1984f04a97c81251f4494caead4ed932dbfdf1b23862a339a9f1190e9365",
+    "final_only": "INSUFFICIENT_EVIDENCE",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "548923f4193d51727481e354915259ed0e65f155f97e21f6d33ac4a386e0a331"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

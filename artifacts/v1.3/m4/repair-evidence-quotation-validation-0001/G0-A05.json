@@ -1,0 +1,67 @@
+{
+  "id": "G0-A05",
+  "category": "abstention",
+  "question": "What type of temperature sensor does the Atlas P2 use?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "For the Atlas P2, document A states that the temperature sensor is a thermistor."
+    },
+    {
+      "id": "S2",
+      "text": "For the same Atlas P2 hardware revision, document B states that the temperature sensor is an RTD.\n\nNeither source is marked newer or more authoritative."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 422,
+    "prompt_ms": 4284.506,
+    "prompt_per_token_ms": 10.152857819905215,
+    "prompt_per_second": 98.49443553119076,
+    "predicted_n": 259,
+    "predicted_ms": 9592.828,
+    "predicted_per_token_ms": 37.18150387596899,
+    "predicted_per_second": 26.89509287563584,
+    "host_generation_wall_ms": 13918.963199997961,
+    "emitted_token_count": 259,
+    "reasoning_token_count": 250,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 422,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"For the Atlas P2, document A states that the temperature sensor is a thermistor. [S1]\" | \"For the same Atlas P2 hardware revision, document B states that the temperature sensor is an RTD. [S2]\" | \"Neither source is marked newer or more authoritative. [S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "28531087a33e6909123515f702278dfd3d7c44c473b12c596ebf498a66ea9379",
+    "final_only": "INSUFFICIENT_EVIDENCE",
+    "quotation_match": true,
+    "quote_unit_count": 3,
+    "quote_units_sha256": [
+      "5c2c650a9c5093f00e06fcbe692beeaef47001a080fccf95aa84592b0aa9abaa",
+      "9f4ef67b3df076ffe9c80f1933a8100a24a7a914a754b51baf9b2302706761bd",
+      "c06b4e281a115d5edab9523ac7d581417bd352ff058d70b3f3764ac67d65f74b"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PREPARED_SAME_PRODUCT_FRESH_UI_CAPTURE_RETRY_NOT_EXECUTION",
+  "original_driver_sha256": "556330035f887b6cca549a9792a725faa2e9b295a92cce6aec68526e5c363eab",
+  "new_driver_sha256": "288a96390a7a201059f301ff2535fe9514cc7b488ec6cbfefb26b73f33a8ca38",
+  "replacements": {
+    "build-0046": "build-0047",
+    "device-ui-diagnostic-navigation-0001": "device-ui-diagnostic-navigation-0002",
+    "navigation-ui-execution.json": "navigation-ui-repaired-execution.json",
+    "navigation-ui-stage-": "navigation-ui-repaired-stage-",
+    "foreground-authorization.json": "foreground-retry-readiness.json"
+  },
+  "additional_guard": "capture-repair-preflight PASS",
+  "scope": "Same class/variant/timeout and original+PNG collection; fresh build47/run0002, actual renewed phone readiness. No old gate/result overwritten."
+}

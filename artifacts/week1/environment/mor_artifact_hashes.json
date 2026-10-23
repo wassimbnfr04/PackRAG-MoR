@@ -1,0 +1,12 @@
+{
+  "config.json": "2fe6351d8a8eede2ea51007417e76e02e65a61546852a2f04ef2cea83b6fb3c9",
+  "generation_config.json": "a3efd46d8718f4d739fd443227880fe7297554ffd6271591a2ca32c6319cdf75",
+  "pytorch_model.binn_vjhi2h.part": "e6efc64e291c041e90117a9fa9fb1f5a602d6a30d3a64a5fdae1899d093e7b8c",
+  "250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\\config.json": "8e5f14f99693d2ad597509d23316eef20a96d88ca0cc9d97f55fb29747331591",
+  "250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\\generation_config.json": "a3efd46d8718f4d739fd443227880fe7297554ffd6271591a2ca32c6319cdf75",
+  "250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\\pytorch_model.bin": "471986c279ea75dbdd0034d4b10f1ee75652a94fe202327c5b437b362c02fc4c",
+  "250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\\special_tokens_map.json": "847a47bace54f9f5e1eaade1c5584a917c2d4bd8ae382c2779d0d4a7f5677087",
+  "250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\\tokenizer.json": "7d27c493c729a66ecefc837280b05d948b1ed50d130eebdbf911b1b36cf38ed7",
+  "250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\\tokenizer_config.json": "ca33161368e2e6a888e70385e5475ba8787b41befbeb0061ecfa25c7417187e9",
+  "250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\\vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+}

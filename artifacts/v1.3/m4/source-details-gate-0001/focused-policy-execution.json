@@ -1,0 +1,73 @@
+{
+  "status": "FAIL",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0040",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-source-details-policy-0001",
+        "--class-name",
+        "org.packrag.product.SourceDetailsDeviceTest,org.packrag.product.SourceDetailsPolicyTest",
+        "--result-file",
+        "m4-source-details-rows.json",
+        "--timeout",
+        "900",
+        "--variant",
+        "demo"
+      ],
+      "started_utc": "2026-10-10T16:43:19.788409+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:44:22.460956+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-source-details-policy-0001",
+        "--files",
+        "m4-source-details-rows.json,m4-source-details-rejections.json,m4-source-details-policy.json"
+      ],
+      "started_utc": "2026-10-10T16:44:22.461965+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:44:23.207826+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0039",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-development-restore-0012",
+        "--class-name",
+        "org.packrag.product.PackImportConsentTest",
+        "--result-file",
+        "m3-import-consent.json",
+        "--timeout",
+        "900",
+        "--variant",
+        "debug"
+      ],
+      "started_utc": "2026-10-10T16:44:23.208824+00:00",
+      "returncode": 1,
+      "finished_utc": "2026-10-10T16:45:31.371031+00:00"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "NEW_SIGNED_SYNTHETIC_SOURCE_DETAILS_FIXTURE_NOT_E2_ACCEPTANCE",
+  "base_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+  "script_sha256": "a0dff7222c762a0cb34bee388bf96722ae050093710d34fe0bae0fc86c5a75c9",
+  "pack_sha256": "0ff0ffb5068f07e93a8043d171fb32cf8b2660a5fe4c5b05f1f37da63dec99dd",
+  "public_key_sha256": "cd65ef96b700d1f6a649ab64c014fb3e4d2995191f9b2b7a7b5c6315bd11638f",
+  "expectations_sha256": "15e6e883cdad061df35882ffcb461bcda7984e62f5e460e0c5256314129e4770",
+  "original_expectations_sha256": "cf8cada1d9976302dc5058808b8e3ebda67fe4028c75e68eafcf136d3373e837",
+  "dense_payload_unchanged_sha256": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+  "sources": 11,
+  "chunks": 10,
+  "private_seed": "EPHEMERAL_NOT_SAVED",
+  "original_and_canonical_text_equal": true,
+  "embedding_recipe": "UNCHANGED_ORIGINAL_CANONICAL_WALKING_VECTORS_METADATA_ONLY"
+}

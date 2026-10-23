@@ -1,0 +1,7 @@
+{
+  "original": "run_device_gates_repaired.py",
+  "new": "run_device_gates_final.py",
+  "original_sha256": "7b1b775a5330b9670152f24365fb9cc9dada47571ebf25af0cba76db2cad16fe",
+  "new_sha256": "143f604c70293110c46ab323e3685da435b1bdc944a07e8713cc3f74bd2e8f26",
+  "only_change": "Require fresh successful UI0003 rather than preflight-failed0002"
+}

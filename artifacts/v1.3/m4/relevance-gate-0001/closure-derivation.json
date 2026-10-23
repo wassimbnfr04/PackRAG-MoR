@@ -1,0 +1,6 @@
+{
+  "status": "PREPARED_NOT_ACCEPTANCE",
+  "old_script_sha256": "cad08bfee0655a157ff85b5a0c118dcc94ca6093d3b2c42e98eb2435d279c48a",
+  "new_script_sha256": "6a258700a55a7ff8e3905f696577068395eeaea2ca32167689c6caf96cd3c300",
+  "purpose": "Retained C2b checks plus complete D1 gates; explicit source/count/path changes"
+}

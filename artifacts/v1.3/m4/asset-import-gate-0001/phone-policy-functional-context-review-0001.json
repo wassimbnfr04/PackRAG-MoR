@@ -1,0 +1,8 @@
+{
+  "status": "OBSERVATIONAL_POLICY_THERMAL_STATUS4_REVIEW_NOT_CAUSAL_OR_PERFORMANCE_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T22:11:51.712045+00:00",
+  "context_sha256": "a14ec8c29f8d32f9b3d742eb613e4cec6fff3f1bac35a015a8ddc9f98fec8761",
+  "source_url": "https://developer.android.com/reference/android/os/PowerManager#THERMAL_STATUS_CRITICAL",
+  "finding": "Android thermal service snapshot reports status4 and skin mStatus4/46.3C. Official PowerManager constant4 is CRITICAL, the platform has applied its power reduction measures. AP54.6C and battery41.1C are individually named sensor observations, not a substitute for OS status or proof of generation phase/causal dominant bottleneck.",
+  "limits": "Readiness class was active in parent; exact functional subphase unrecorded. USB powered/full battery100/status5. No root/governor/radio/thermal policy/affinity/system setting changes or controlled speed claim. Preserve functional outcomes and actual context independently; performance conclusions require M8 controlled inputs, phase timestamps, idle baseline and resource measurements."
+}

@@ -1,0 +1,63 @@
+{
+  "observed_utc": "2026-10-06T22:41:51.910866+00:00",
+  "purpose": "READ_ONLY_INTERMEDIATE_PROCESS_OBSERVATION_NOT_PERFORMANCE_OR_CAUSAL_BOTTLENECK_ACCEPTANCE",
+  "limits": [
+    "One snapshot cannot measure per-question peak memory",
+    "CPU/thermal association cannot establish a causal bottleneck",
+    "No configuration/radio/privilege changes"
+  ],
+  "observations": [
+    {
+      "argv": [
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "19837\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "cat",
+        "/proc/19837/status"
+      ],
+      "returncode": 0,
+      "stdout": "Name:\tpackrag.product\nUmask:\t0077\nState:\tS (sleeping)\nTgid:\t19837\nNgid:\t0\nPid:\t19837\nPPid:\t1378\nTracerPid:\t0\nUid:\t10469\t10469\t10469\t10469\nGid:\t10469\t10469\t10469\t10469\nFDSize:\t256\nGroups:\t9997 20469 50469 \nVmPeak:\t21527340 kB\nVmSize:\t19374960 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t 2238724 kB\nVmRSS:\t  208852 kB\nRssAnon:\t   95564 kB\nRssFile:\t   95616 kB\nRssShmem:\t   17672 kB\nVmData:\t 3421276 kB\nVmStk:\t    8192 kB\nVmExe:\t       4 kB\nVmLib:\t  224976 kB\nVmPTE:\t    2356 kB\nVmSwap:\t  158216 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nThreads:\t31\nSigQ:\t0/35455\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000080001204\nSigIgn:\t0000000000000001\nSigCgt:\t0000006e400084f8\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t0000000000000000\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t2\nSeccomp_filters:\t1\nSpeculation_Store_Bypass:\tthread vulnerable\nCpus_allowed:\t7f\nCpus_allowed_list:\t0-6\nMems_allowed:\t1\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t845\nnonvoluntary_ctxt_switches:\t1067\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "top",
+        "-b",
+        "-n",
+        "1",
+        "-p",
+        "19837"
+      ],
+      "returncode": 0,
+      "stdout": "Tasks: 1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie\n  Mem:    10515M total,    10317M used,      197M free,        0M buffers\n Swap:    16383M total,     4057M used,    12326M free,     2847M cached\n800%cpu 286%user  41%nice 197%sys 245%idle   0%iow  21%irq  10%sirq   0%host\n  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS\n19837 u0_a469      20   0  18G 204M 111M S  0.0   1.9  23:40.37 org.packrag.product\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "dumpsys",
+        "thermalservice"
+      ],
+      "returncode": 0,
+      "stdout": "IsStatusOverride: false\nThermalEventListeners:\n\tcallbacks: 3\n\tkilled: false\n\tbroadcasts count: -1\nThermalStatusListeners:\n\tcallbacks: 9\n\tkilled: false\n\tbroadcasts count: -1\nThermal Status: 4\nCached temperatures:\n\tTemperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}\n\tTemperature{mValue=52.6, mType=0, mName=AP, mStatus=0}\n\tTemperature{mValue=54.3, mType=5, mName=PA, mStatus=0}\n\tTemperature{mValue=43.6, mType=2, mName=BAT, mStatus=0}\n\tTemperature{mValue=38.7, mType=4, mName=USB, mStatus=0}\n\tTemperature{mValue=48.2, mType=3, mName=SKIN, mStatus=4}\nHAL Ready: true\nHAL connection:\n\tThermalHAL 2.0 connected: yes\nCurrent temperatures from HAL:\n\tTemperature{mValue=52.6, mType=0, mName=AP, mStatus=0}\n\tTemperature{mValue=43.6, mType=2, mName=BAT, mStatus=0}\n\tTemperature{mValue=54.3, mType=5, mName=PA, mStatus=0}\n\tTemperature{mValue=48.2, mType=3, mName=SKIN, mStatus=4}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}\n\tTemperature{mValue=38.7, mType=4, mName=USB, mStatus=0}\nCurrent cooling devices from HAL:\nTemperature static thresholds from HAL:\nTemperature headroom thresholds:\n[NaN, 0.8666667, 0.93333334, 1.0, 1.1333333, 1.4333333, 2.4333334]\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "logcat",
+        "-d",
+        "-s",
+        "TestRunner:I",
+        "AndroidRuntime:E"
+      ],
+      "returncode": 0,
+      "stdout": "romptParity(org.packrag.product.GeneratorPromptParityTest)\n10-06 22:40:31.191 19837 20024 I TestRunner: finished: actualGgufTokenizerAndBudgetedOfficialPromptParity(org.packrag.product.GeneratorPromptParityTest)\n10-06 22:40:31.198 19837 20024 I TestRunner: started: authenticatedActivationRestartAndDesktopRetrievalParity(org.packrag.product.PackRetrievalParityTest)\n10-06 22:40:39.787 19837 20024 I TestRunner: finished: authenticatedActivationRestartAndDesktopRetrievalParity(org.packrag.product.PackRetrievalParityTest)\n10-06 22:40:39.791 19837 20024 I TestRunner: started: signedAllowListedDataAndForbiddenTypesPreserveActiveOriginals(org.packrag.product.DataTypeDeviceTest)\n10-06 22:40:46.952 19837 20024 I TestRunner: finished: signedAllowListedDataAndForbiddenTypesPreserveActiveOriginals(org.packrag.product.DataTypeDeviceTest)\n10-06 22:40:46.959 19837 20024 I TestRunner: started: extensionlessNamesCannotImpersonateAllowedSuffixes(org.packrag.product.ExtensionNameDeviceTest)\n10-06 22:40:47.744 19837 20024 I TestRunner: finished: extensionlessNamesCannotImpersonateAllowedSuffixes(org.packrag.product.ExtensionNameDeviceTest)\n10-06 22:40:47.747 19837 20024 I TestRunner: started: independentKdxChecksPrecedeSqliteAndMappingBindsAfterValidatedRows(org.packrag.product.ValidationOrderDeviceTest)\n10-06 22:40:50.864 19837 20024 I TestRunner: finished: independentKdxChecksPrecedeSqliteAndMappingBindsAfterValidatedRows(org.packrag.product.ValidationOrderDeviceTest)\n10-06 22:40:50.892 19837 20024 I TestRunner: started: signedPayloadHashStructuralKdxAndParserBoundaryGateBeforeActivation(org.packrag.product.ResidualSecurityDeviceTest)\n10-06 22:40:58.196 19837 20024 I TestRunner: finished: signedPayloadHashStructuralKdxAndParserBoundaryGateBeforeActivation(org.packrag.product.ResidualSecurityDeviceTest)\n10-06 22:40:58.211 19837 20024 I TestRunner: started: signedHostileManifestCorpusAndUntouchedValidPack(org.packrag.product.StrictManifestDeviceTest)\n10-06 22:41:01.486 19837 20024 I TestRunner: finished: signedHostileManifestCorpusAndUntouchedValidPack(org.packrag.product.StrictManifestDeviceTest)\n10-06 22:41:01.489 19837 20024 I TestRunner: started: signedDatabaseNegativesAndFormatParity(org.packrag.product.StrictDatabaseDeviceTest)\n10-06 22:41:09.231 19837 20024 I TestRunner: finished: signedDatabaseNegativesAndFormatParity(org.packrag.product.StrictDatabaseDeviceTest)\n10-06 22:41:09.235 19837 20024 I TestRunner: started: transportAndVerifiedImportParity(org.packrag.product.StrictArchiveDeviceTest)\n10-06 22:41:15.073 19837 20024 I TestRunner: finished: transportAndVerifiedImportParity(org.packrag.product.StrictArchiveDeviceTest)\n10-06 22:41:15.078 19837 20024 I TestRunner: started: explicitActivationRollbackRemovalIdentityHistoryAndCommittedRecovery(org.packrag.product.ExplicitLifecycleDeviceTest)\n10-06 22:41:25.479 19837 20024 I TestRunner: finished: explicitActivationRollbackRemovalIdentityHistoryAndCommittedRecovery(org.packrag.product.ExplicitLifecycleDeviceTest)\n10-06 22:41:25.483 19837 20024 I TestRunner: started: atomicUpdateProcessLossOriginalCorruptionMigrationAndSnapshotIsolation(org.packrag.product.AtomicRegistryDeviceTest)\n10-06 22:41:41.667 19837 20024 I TestRunner: finished: atomicUpdateProcessLossOriginalCorruptionMigrationAndSnapshotIsolation(org.packrag.product.AtomicRegistryDeviceTest)\n10-06 22:41:41.672 19837 20024 I TestRunner: started: abruptSeparateProcessDeathAndHotJournalRecovery(org.packrag.product.RegistryProcessDeathDeviceTest)\n",
+      "stderr": ""
+    }
+  ]
+}

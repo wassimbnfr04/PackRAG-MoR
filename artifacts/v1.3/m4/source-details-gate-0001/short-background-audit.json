@@ -1,0 +1,141 @@
+{
+  "status": "PASS_E2_SHORT_BACKGROUND_GATES_ORIGINALS_AND_RESTORATION_NOT_UI_FULL_SUITE_OR_CLOSURE",
+  "recorded_utc": "2026-10-10T16:52:55.216637+00:00",
+  "phone": {
+    "device-source-details-0001": {
+      "methods": 3,
+      "whole_instrumentation_seconds": 114.135,
+      "original_results": 3,
+      "apk_sha256": {
+        "app-debug.apk": "1836970079e0687fa55c56aecfd191a23cc9890d1e32b807307f0e78c6bb1a34",
+        "app-debug-androidTest.apk": "21984b50a3ead9b1f1c4900f8ad0a09e4abb150e9804c269c521483a45c0d123"
+      }
+    },
+    "device-source-details-policy-0001": {
+      "methods": 3,
+      "whole_instrumentation_seconds": 6.808,
+      "original_results": 3,
+      "apk_sha256": {
+        "app-demo.apk": "04cf0bf27ec0cb4ae60b1074931369a2ea3968ae741fd4bfefa3efd017befe27",
+        "app-demo-androidTest.apk": "75be013c0b3858c103dc14f857a660c4fedf2ed88e57390b8ea62d7a8d54ed2e"
+      }
+    },
+    "device-development-restore-0014": {
+      "methods": 1,
+      "whole_instrumentation_seconds": 2.149,
+      "original_results": 1,
+      "apk_sha256": {
+        "app-debug.apk": "1836970079e0687fa55c56aecfd191a23cc9890d1e32b807307f0e78c6bb1a34",
+        "app-debug-androidTest.apk": "21984b50a3ead9b1f1c4900f8ad0a09e4abb150e9804c269c521483a45c0d123"
+      }
+    }
+  },
+  "source_values": {
+    "device-source-details-0001": {
+      "packs": 17,
+      "active_inactive_inspections": 34,
+      "exact_public_source_rows": 43,
+      "fields_per_row": 19,
+      "field_names": [
+        "source_id",
+        "title",
+        "publisher",
+        "canonical_uri",
+        "retrieved_at",
+        "issued_at",
+        "effective_from",
+        "effective_until_excl",
+        "jurisdiction",
+        "language",
+        "document_version",
+        "sha256_original",
+        "license",
+        "redistribution_allowed",
+        "source_type",
+        "authority_rank",
+        "legal_status",
+        "snapshot_path",
+        "notes"
+      ],
+      "rejection_controls": 11,
+      "original_results": 3,
+      "pack_metadata_truth": "SIGNED_ASSERTIONS_NOT_EXTERNAL_LICENSE_REVIEW_CALIBRATION_APPROVAL"
+    },
+    "device-source-details-policy-0001": {
+      "packs": 17,
+      "active_inactive_inspections": 34,
+      "exact_public_source_rows": 43,
+      "fields_per_row": 19,
+      "field_names": [
+        "source_id",
+        "title",
+        "publisher",
+        "canonical_uri",
+        "retrieved_at",
+        "issued_at",
+        "effective_from",
+        "effective_until_excl",
+        "jurisdiction",
+        "language",
+        "document_version",
+        "sha256_original",
+        "license",
+        "redistribution_allowed",
+        "source_type",
+        "authority_rank",
+        "legal_status",
+        "snapshot_path",
+        "notes"
+      ],
+      "rejection_controls": 11,
+      "original_results": 3,
+      "pack_metadata_truth": "SIGNED_ASSERTIONS_NOT_EXTERNAL_LICENSE_REVIEW_CALIBRATION_APPROVAL"
+    }
+  },
+  "desktop": {
+    "python_tests": 1034,
+    "runtime_inputs": 188,
+    "all_six_desktop_gates": [
+      {
+        "run": "existing-walking-smoke-0014",
+        "result": "smoke-results.json",
+        "record_sha256": "dddf3042dc64a7b7518ebb7b2761002d53092d63e893e98bce09fe13e2bd254d"
+      },
+      {
+        "run": "conflict-smoke-0008",
+        "result": "conflict-smoke-results.json",
+        "record_sha256": "d30d3b8b07629f169bea3b3b149645352114ac80fc8c69a2542d53768cad9352"
+      },
+      {
+        "run": "relevance-smoke-0005",
+        "result": "relevance-smoke-results.json",
+        "record_sha256": "9f3d2b4f042fd377a11e059fa3a8e3ee4c444effeade6879c1bf69c5c92c1cf7"
+      },
+      {
+        "run": "representation-smoke-0005",
+        "result": "representation-smoke-results.json",
+        "record_sha256": "ff844b9a2c2ff5572e91b9fdbdaef634f2853458e41d0074cb512aefc6577512"
+      },
+      {
+        "run": "source-text-smoke-0003",
+        "result": "source-text-smoke-results.json",
+        "record_sha256": "fb0399b1c4ebff481996e4df3272571065248292ee3f43bf3bb8ce5e494c33ab"
+      },
+      {
+        "run": "selection-smoke-0003",
+        "result": "selection-smoke-results.json",
+        "record_sha256": "1135c48c19ef581e5eb9c7c4a66702d2f3d0768439e89196d502be4bc1661f45"
+      }
+    ]
+  },
+  "saved_successful_originals": 7,
+  "collection_failure_preserved": true,
+  "recovery_record_sha256": "6e8f1a7ec0b34b6073590d8a1f2985865bf6f705e256c4f5fd5a91fe711ac326",
+  "android_inputs": 561,
+  "owner_guard": "New actual ViewModel before/after models and default registries match retained E1 guard",
+  "limits": [
+    "Explicit isolated fixture-reader keys are not app trust admission",
+    "Demo debug signed/instrumentable, not final product release",
+    "No foreground UI, full retained phone-suite acceptance, benchmark, real content review or semantic entailment claim"
+  ]
+}

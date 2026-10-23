@@ -1,0 +1,36 @@
+{
+  "status": "PASS_COMPLETE_DEVELOPMENT_AND_PARITY_NOT_POLICY_RESTORATION_OR_MILESTONE_ACCEPTANCE",
+  "recorded_utc": "2026-10-09T18:54:29.165883+00:00",
+  "development_methods": 26,
+  "whole_instrumentation_seconds": 1586.006,
+  "saved_results": 26,
+  "families": [
+    {
+      "family": "representation",
+      "status": "PASS",
+      "exact_tokenizer_admission_cases": 14,
+      "actual_runtime_cases": 8
+    },
+    {
+      "family": "relevance",
+      "status": "PASS",
+      "exact_tokenizer_admission_cases": 8,
+      "actual_runtime_cases": 4
+    },
+    {
+      "family": "conflict",
+      "status": "PASS",
+      "exact_tokenizer_admission_cases": 19,
+      "actual_runtime_cases": 7
+    }
+  ],
+  "exact_tokenizer_cases": 41,
+  "runtime_state_cases": 19,
+  "native_cancel_return_ms": 171.806484,
+  "apk_sha256": {
+    "app-debug.apk": "f2cada35609b67060e07b04547112bd8e6a9374d724d132406fd5576a3b35e6e",
+    "app-debug-androidTest.apk": "a777e5f45c8fc2290af949da6af59d96cc1cec3c64710204c9e0661384e78a4e"
+  },
+  "collected_sha256": "a4dc2754599291d1787c26743ea2d7eaab5198ef01198d9dfb91ea73b76e1097",
+  "remaining": "Compiled-policy21 methods/results, development restoration0009 and complete immutable closure/checkpoint; D3 still blocked on D2 acceptance"
+}

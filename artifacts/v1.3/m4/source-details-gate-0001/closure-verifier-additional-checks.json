@@ -1,0 +1,12 @@
+{
+  "status": "PREPARED_VERIFIER_HARDENING_NOT_ACCEPTANCE",
+  "initial_derivation_sha256": "112d1687efe4dbc2b10d617770dccfe7cdd7b81c4bfa68bfea616fd900ae56c5",
+  "current_verifier_sha256": "b703c9a95d90b1270ddd30dc5d20ee3e767b14edc0f83836ca9a7bb40eeb018f",
+  "original_derived_copy": "verify_and_record_repaired-before-extra-repair-assertions.py",
+  "additional_checks": [
+    "Require exact two-source repair proof",
+    "Require original visual FAIL and automated UI PASS remain separate",
+    "Bind original visual-failure preservation and repair scope into final record"
+  ],
+  "reconstruction_failure": "Initial inline attempt compared LF encoding against original Windows CRLF write_text bytes; hash assertion failed before writing anything. This helper accepts only a byte representation matching the originally recorded SHA, never changes the expected hash."
+}

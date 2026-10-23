@@ -1,0 +1,109 @@
+{
+  "status": "PREPARED_FRESH_STRONG_ACTION_DISPATCH_UI_AND_FINAL_BACKGROUND_DRIVERS_NOT_EXECUTION",
+  "derivations": [
+    {
+      "original": "run_retained_ui_resubmission.py",
+      "original_sha256": "be8c605598fb4d1b2bfdf66fa1b2e6a2e9018b340c2409632b254064540b0421",
+      "derived": "run_retained_ui_action_dispatch.py",
+      "derived_sha256": "108fa57ce9440ba471a6555a94898fd0fedc69417cbc7e06ee7e9cce56c7cbc8",
+      "replacements": [
+        [
+          "build-0050",
+          "build-0052"
+        ],
+        [
+          "device-ui-diagnostics-retained-0003",
+          "device-ui-diagnostics-retained-0004"
+        ],
+        [
+          "retained-ui-resubmission-execution.json",
+          "retained-ui-action-dispatch-execution.json"
+        ],
+        [
+          "retained-ui-resubmission-stage-",
+          "retained-ui-action-dispatch-stage-"
+        ],
+        [
+          "foreground-retained-resubmission-readiness.json",
+          "foreground-retained-action-dispatch-readiness.json"
+        ],
+        [
+          "resubmission-preflight.json",
+          "action-dispatch-preflight.json"
+        ],
+        [
+          "PASS_E3_TEST_ONLY_RESUBMISSION_MATCHED_PAIR_NOT_DEVICE_ACCEPTANCE",
+          "PASS_E3_TEST_ONLY_ACTION_DISPATCH_MATCHED_PAIR_NOT_DEVICE_ACCEPTANCE"
+        ]
+      ]
+    },
+    {
+      "original": "record_foreground_retained_resubmission.py",
+      "original_sha256": "a1b20a8a22476ccb8f2a17bd881069b34f0241ba904288f23da68dbf39cb2a55",
+      "derived": "record_foreground_retained_action_dispatch.py",
+      "derived_sha256": "3cfc03bd2bb75cb452f5f4f0bf52c8083fb34f4808ee4d7f0630a0ab33ed2089",
+      "replacements": [
+        [
+          "foreground-retained-resubmission-readiness.json",
+          "foreground-retained-action-dispatch-readiness.json"
+        ],
+        [
+          "corrected final query synchronization",
+          "corrected two action-dispatch waits"
+        ]
+      ]
+    },
+    {
+      "original": "record_retained_visual_resubmission.py",
+      "original_sha256": "276a6340868357a1a158f2d8f43848ad0d397d8961c5f5ec0d3dd7d05ea54017",
+      "derived": "record_retained_visual_action_dispatch.py",
+      "derived_sha256": "439ae0c6b6da8e3d6922856d8d3400be5fe444d666ee42bf1d1aa6afde8f1e9b",
+      "replacements": [
+        [
+          "device-ui-diagnostics-retained-0003",
+          "device-ui-diagnostics-retained-0004"
+        ],
+        [
+          "retained-ui-resubmission-execution.json",
+          "retained-ui-action-dispatch-execution.json"
+        ]
+      ]
+    },
+    {
+      "original": "run_full_background_final.py",
+      "original_sha256": "d9965f2fef93f6b017204435d29bb534e5290c3738af0960bad8057cfb983c90",
+      "derived": "run_full_background_dispatch_final.py",
+      "derived_sha256": "27fa8491952e255d0ed9321179e5d8917e7b8da2e0b3e66985916d841dea1d83",
+      "replacements": [
+        [
+          "retained-ui-resubmission-execution.json",
+          "retained-ui-action-dispatch-execution.json"
+        ],
+        [
+          "build-0050",
+          "build-0052"
+        ],
+        [
+          "build-0051",
+          "build-0053"
+        ]
+      ]
+    },
+    {
+      "original": "verify_full_parity_final.py",
+      "original_sha256": "6969f362aa3e22b19dc641c86280df9c40b8b897c4811753e406c98c7b3c03f5",
+      "derived": "verify_full_parity_dispatch_final.py",
+      "derived_sha256": "1d5e69bbf261bfa5bacb70dd115b71fed477b695231bace92ff44792a9699465",
+      "replacements": [
+        [
+          "build-0050",
+          "build-0052"
+        ],
+        [
+          "build-0051",
+          "build-0053"
+        ]
+      ]
+    }
+  ]
+}

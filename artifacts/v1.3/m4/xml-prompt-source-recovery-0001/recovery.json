@@ -1,0 +1,22 @@
+{
+  "status": "PASS_HASH_EXACT_PRE_XML_SOURCE_RECONSTRUCTION",
+  "method": "C2a committed bytes plus exactly the recorded C2b companion-guard edits; accept only SHA256-equal bytes from frozen pre-XML input manifests",
+  "files": [
+    {
+      "path": "product/packrag/prompt.py",
+      "sha256": "b910e168ed0e5edb5c49793c5857460ce2921a506caf2bbfdda42485cf810c37"
+    },
+    {
+      "path": "product/android/grounded-runtime/src/main/java/org/packrag/runtime/Prompt.kt",
+      "sha256": "e5450c5fefdc80c298b358dc7a38638af05966da3ab1ea088483c1bc69aaa551"
+    },
+    {
+      "path": "product/android/app/src/androidTest/java/org/packrag/product/GeneratorPromptParityTest.kt",
+      "sha256": "4139bb3653f178b676a19a335a554cbe8a8c92cd2968275fdc6027b2b20ab950"
+    },
+    {
+      "path": "product/android/grounded-runtime/src/test/java/org/packrag/runtime/OutputContractTest.kt",
+      "sha256": "eb4d067b36118600d9371ab4af9d5e5788f2875a171cb078228b636ab921ef5c"
+    }
+  ]
+}

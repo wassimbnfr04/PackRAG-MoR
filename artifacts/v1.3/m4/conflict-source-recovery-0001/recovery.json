@@ -1,0 +1,21 @@
+{
+  "status": "PASS_HASH_EXACT_RECONSTRUCTION",
+  "method": "Reverse only documented harness edits, then accept bytes only if SHA256 equals the immutable recorded run input; original failed outputs are untouched",
+  "files": [
+    {
+      "filename": "initial-harness.py",
+      "sha256": "c34f4315f0125b30603bd930412111a6075daeceb9464eec0ada4f33e0a43f16",
+      "bound_input_manifest": "artifacts/v1.3/m4/conflict-smoke-0001/inputs.json"
+    },
+    {
+      "filename": "observation-harness.py",
+      "sha256": "e8c1f5adbbfeb0bf6db1c8d4567ea740b1c442bbbc5198c9dbe89f77bbcc0772",
+      "bound_input_manifest": "artifacts/v1.3/m4/conflict-smoke-0002/inputs.json"
+    },
+    {
+      "filename": "final-candidate-harness.py",
+      "sha256": "618ef73ae116b3721a9efd5f9ba2617ec2661363b59809ee1f3295da88068954",
+      "bound_input_manifest": "artifacts/v1.3/m4/conflict-diagnostic-0001/inputs.json"
+    }
+  ]
+}

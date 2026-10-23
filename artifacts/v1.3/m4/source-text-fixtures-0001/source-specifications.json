@@ -1,0 +1,95 @@
+{
+  "purpose": "SYNTHETIC_NEL_PRESENCE_BOUNDARY_NOT_REAL_REVIEW",
+  "cases": [
+    {
+      "id": "bad-source-nel",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": {
+        "purpose": "generator",
+        "language": "en",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "derivation_method": "official_translation",
+        "derivation_source": "\u0085",
+        "reviewer_id": null,
+        "reviewed_at": null
+      },
+      "accept": false
+    },
+    {
+      "id": "bad-reviewer-nel",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": {
+        "purpose": "generator",
+        "language": "en",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "derivation_method": "human_reviewed_translation",
+        "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+        "reviewer_id": "\u0085",
+        "reviewed_at": "2026-10-09"
+      },
+      "accept": false
+    },
+    {
+      "id": "bad-render-nel",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": {
+        "purpose": "generator",
+        "language": "en",
+        "text": "\u0085",
+        "text_sha256": "f7e0ef1c73a0bb196477a2fa9a5de1d790b0a32c6c8ea20e72e2b7e092bf1985",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+        "reviewer_id": null,
+        "reviewed_at": null
+      },
+      "accept": false
+    },
+    {
+      "id": "bad-canonical-nel",
+      "text": "\u0085",
+      "derived": {
+        "purpose": "generator",
+        "language": "en",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+        "reviewer_id": null,
+        "reviewed_at": null
+      },
+      "accept": false
+    },
+    {
+      "id": "good-source-nel",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": {
+        "purpose": "generator",
+        "language": "en",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "derivation_method": "official_translation",
+        "derivation_source": "\u0085SYNTHETIC_NOT_ACTUAL_OFFICIAL_SOURCE\u0085",
+        "reviewer_id": null,
+        "reviewed_at": null
+      },
+      "accept": true
+    },
+    {
+      "id": "good-reviewer-nel",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": {
+        "purpose": "generator",
+        "language": "en",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "derivation_method": "human_reviewed_translation",
+        "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+        "reviewer_id": "\u0085SYNTHETIC_NO_REAL_PERSON\u0085",
+        "reviewed_at": "2026-10-09"
+      },
+      "accept": true
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+Unable to initialize metrics, ensure C:\Users\Fkagf\.android is writable, details: C:\Users\Fkagf\.android\analytics.settings (Access is denied)
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:packageReleaseResources UP-TO-DATE
+> Task :core-model:preBuild UP-TO-DATE
+> Task :core-model:preReleaseBuild UP-TO-DATE
+> Task :core-model:processReleaseNavigationResources UP-TO-DATE
+> Task :embedding-onnx:preBuild UP-TO-DATE
+> Task :embedding-onnx:preReleaseBuild UP-TO-DATE
+> Task :embedding-onnx:processReleaseNavigationResources UP-TO-DATE
+> Task :generator-api:preBuild UP-TO-DATE
+> Task :generator-api:preReleaseBuild UP-TO-DATE
+> Task :generator-api:processReleaseNavigationResources UP-TO-DATE
+> Task :generator-llama:preBuild UP-TO-DATE
+> Task :generator-llama:preReleaseBuild UP-TO-DATE
+> Task :generator-llama:processReleaseNavigationResources UP-TO-DATE
+> Task :grounded-runtime:preBuild UP-TO-DATE
+> Task :grounded-runtime:preReleaseBuild UP-TO-DATE
+> Task :grounded-runtime:processReleaseNavigationResources UP-TO-DATE
+> Task :kpack-registry:preBuild UP-TO-DATE
+> Task :kpack-registry:preReleaseBuild UP-TO-DATE
+> Task :kpack-registry:processReleaseNavigationResources UP-TO-DATE
+> Task :retrieval:preBuild UP-TO-DATE
+> Task :retrieval:preReleaseBuild UP-TO-DATE
+> Task :retrieval:processReleaseNavigationResources UP-TO-DATE
+> Task :security-crypto:preBuild UP-TO-DATE
+> Task :security-crypto:preReleaseBuild UP-TO-DATE
+> Task :security-crypto:processReleaseNavigationResources UP-TO-DATE
+> Task :source-viewer:preBuild UP-TO-DATE
+> Task :source-viewer:preReleaseBuild UP-TO-DATE
+> Task :source-viewer:processReleaseNavigationResources UP-TO-DATE
+> Task :app:processReleaseNavigationResources UP-TO-DATE
+> Task :app:parseReleaseLocalResources UP-TO-DATE
+> Task :app:generateReleaseRFile UP-TO-DATE
+> Task :core-model:generateReleaseResources UP-TO-DATE
+> Task :core-model:packageReleaseResources UP-TO-DATE
+> Task :core-model:parseReleaseLocalResources UP-TO-DATE
+> Task :core-model:generateReleaseRFile UP-TO-DATE
+> Task :core-model:compileReleaseKotlin UP-TO-DATE
+> Task :core-model:javaPreCompileRelease UP-TO-DATE
+> Task :core-model:compileReleaseJavaWithJavac NO-SOURCE
+> Task :core-model:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :embedding-onnx:generateReleaseResources UP-TO-DATE
+> Task :embedding-onnx:packageReleaseResources UP-TO-DATE
+> Task :embedding-onnx:parseReleaseLocalResources UP-TO-DATE
+> Task :embedding-onnx:generateReleaseRFile UP-TO-DATE
+> Task :embedding-onnx:compileReleaseKotlin UP-TO-DATE
+> Task :embedding-onnx:javaPreCompileRelease UP-TO-DATE
+> Task :embedding-onnx:compileReleaseJavaWithJavac NO-SOURCE
+> Task :embedding-onnx:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :generator-api:generateReleaseResources UP-TO-DATE
+> Task :generator-api:packageReleaseResources UP-TO-DATE
+> Task :generator-api:parseReleaseLocalResources UP-TO-DATE
+> Task :generator-api:generateReleaseRFile UP-TO-DATE
+> Task :generator-api:compileReleaseKotlin UP-TO-DATE
+> Task :generator-api:javaPreCompileRelease UP-TO-DATE
+> Task :generator-api:compileReleaseJavaWithJavac NO-SOURCE
+> Task :generator-api:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :generator-llama:generateReleaseResources UP-TO-DATE
+> Task :generator-llama:packageReleaseResources UP-TO-DATE
+> Task :generator-llama:parseReleaseLocalResources UP-TO-DATE
+> Task :generator-llama:generateReleaseRFile UP-TO-DATE
+> Task :security-crypto:generateReleaseResources UP-TO-DATE
+> Task :security-crypto:packageReleaseResources UP-TO-DATE
+> Task :security-crypto:parseReleaseLocalResources UP-TO-DATE
+> Task :security-crypto:generateReleaseRFile UP-TO-DATE
+> Task :security-crypto:compileReleaseKotlin UP-TO-DATE
+> Task :security-crypto:javaPreCompileRelease UP-TO-DATE
+> Task :security-crypto:compileReleaseJavaWithJavac NO-SOURCE
+> Task :security-crypto:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :generator-llama:compileReleaseKotlin UP-TO-DATE
+> Task :generator-llama:javaPreCompileRelease UP-TO-DATE
+> Task :generator-llama:compileReleaseJavaWithJavac NO-SOURCE
+> Task :generator-llama:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :grounded-runtime:generateReleaseResources UP-TO-DATE
+> Task :grounded-runtime:packageReleaseResources UP-TO-DATE
+> Task :grounded-runtime:parseReleaseLocalResources UP-TO-DATE
+> Task :grounded-runtime:generateReleaseRFile UP-TO-DATE
+> Task :kpack-registry:generateReleaseResources UP-TO-DATE
+> Task :kpack-registry:packageReleaseResources UP-TO-DATE
+> Task :kpack-registry:parseReleaseLocalResources UP-TO-DATE
+> Task :kpack-registry:generateReleaseRFile UP-TO-DATE
+> Task :kpack-registry:compileReleaseKotlin UP-TO-DATE
+> Task :kpack-registry:javaPreCompileRelease UP-TO-DATE
+> Task :kpack-registry:compileReleaseJavaWithJavac NO-SOURCE
+> Task :kpack-registry:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :retrieval:generateReleaseResources UP-TO-DATE
+> Task :retrieval:packageReleaseResources UP-TO-DATE
+> Task :retrieval:parseReleaseLocalResources UP-TO-DATE
+> Task :retrieval:generateReleaseRFile UP-TO-DATE
+> Task :retrieval:compileReleaseKotlin UP-TO-DATE
+> Task :retrieval:javaPreCompileRelease UP-TO-DATE
+> Task :retrieval:compileReleaseJavaWithJavac NO-SOURCE
+> Task :retrieval:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :grounded-runtime:compileReleaseKotlin UP-TO-DATE
+> Task :grounded-runtime:javaPreCompileRelease UP-TO-DATE
+> Task :grounded-runtime:compileReleaseJavaWithJavac NO-SOURCE
+> Task :grounded-runtime:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :source-viewer:generateReleaseResources UP-TO-DATE
+> Task :source-viewer:packageReleaseResources UP-TO-DATE
+> Task :source-viewer:parseReleaseLocalResources UP-TO-DATE
+> Task :source-viewer:generateReleaseRFile UP-TO-DATE
+> Task :source-viewer:compileReleaseKotlin UP-TO-DATE
+> Task :source-viewer:javaPreCompileRelease UP-TO-DATE
+> Task :source-viewer:compileReleaseJavaWithJavac NO-SOURCE
+> Task :source-viewer:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :core-model:writeReleaseAarMetadata UP-TO-DATE
+> Task :embedding-onnx:writeReleaseAarMetadata UP-TO-DATE
+> Task :generator-api:writeReleaseAarMetadata UP-TO-DATE
+> Task :generator-llama:writeReleaseAarMetadata UP-TO-DATE
+> Task :grounded-runtime:writeReleaseAarMetadata UP-TO-DATE
+> Task :kpack-registry:writeReleaseAarMetadata UP-TO-DATE
+> Task :retrieval:writeReleaseAarMetadata UP-TO-DATE
+> Task :security-crypto:writeReleaseAarMetadata UP-TO-DATE
+> Task :source-viewer:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :app:compileReleaseNavigationResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :core-model:extractDeepLinksRelease UP-TO-DATE
+> Task :core-model:processReleaseManifest UP-TO-DATE
+> Task :embedding-onnx:extractDeepLinksRelease UP-TO-DATE
+> Task :embedding-onnx:processReleaseManifest UP-TO-DATE
+> Task :generator-api:extractDeepLinksRelease UP-TO-DATE
+> Task :generator-api:processReleaseManifest UP-TO-DATE
+> Task :generator-llama:extractDeepLinksRelease UP-TO-DATE
+> Task :generator-llama:processReleaseManifest UP-TO-DATE
+> Task :grounded-runtime:extractDeepLinksRelease UP-TO-DATE
+> Task :grounded-runtime:processReleaseManifest UP-TO-DATE
+> Task :kpack-registry:extractDeepLinksRelease UP-TO-DATE
+> Task :kpack-registry:processReleaseManifest UP-TO-DATE
+> Task :retrieval:extractDeepLinksRelease UP-TO-DATE
+> Task :retrieval:processReleaseManifest UP-TO-DATE
+> Task :security-crypto:extractDeepLinksRelease UP-TO-DATE
+> Task :security-crypto:processReleaseManifest UP-TO-DATE
+> Task :source-viewer:extractDeepLinksRelease UP-TO-DATE
+> Task :source-viewer:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseMainManifest UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseManifestForPackage UP-TO-DATE
+> Task :core-model:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :core-model:compileReleaseLibraryResources UP-TO-DATE
+> Task :embedding-onnx:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :embedding-onnx:compileReleaseLibraryResources UP-TO-DATE
+> Task :generator-api:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :generator-api:compileReleaseLibraryResources UP-TO-DATE
+> Task :generator-llama:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :generator-llama:compileReleaseLibraryResources UP-TO-DATE
+> Task :grounded-runtime:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :grounded-runtime:compileReleaseLibraryResources UP-TO-DATE
+> Task :kpack-registry:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :kpack-registry:compileReleaseLibraryResources UP-TO-DATE
+> Task :retrieval:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :retrieval:compileReleaseLibraryResources UP-TO-DATE
+> Task :security-crypto:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :security-crypto:compileReleaseLibraryResources UP-TO-DATE
+> Task :source-viewer:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :source-viewer:compileReleaseLibraryResources UP-TO-DATE
+
+> Task :app:compileReleaseKotlin
+e: java.nio.file.AccessDeniedException: C:\Users\Fkagf\AppData\Local\kotlin\daemon\kotlin-daemon-client-tsmarker7417130078600988338.tmp
+
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :core-model:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :core-model:processReleaseJavaRes UP-TO-DATE
+> Task :embedding-onnx:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :embedding-onnx:processReleaseJavaRes UP-TO-DATE
+> Task :generator-api:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :generator-api:processReleaseJavaRes UP-TO-DATE
+> Task :generator-llama:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :generator-llama:processReleaseJavaRes UP-TO-DATE
+> Task :grounded-runtime:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :grounded-runtime:processReleaseJavaRes UP-TO-DATE
+> Task :kpack-registry:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :kpack-registry:processReleaseJavaRes UP-TO-DATE
+> Task :retrieval:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :retrieval:processReleaseJavaRes UP-TO-DATE
+> Task :security-crypto:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :security-crypto:processReleaseJavaRes UP-TO-DATE
+> Task :source-viewer:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :source-viewer:processReleaseJavaRes UP-TO-DATE
+> Task :core-model:preReleaseUnitTestBuild UP-TO-DATE
+> Task :core-model:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :core-model:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :core-model:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :core-model:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :core-model:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :core-model:testReleaseUnitTest UP-TO-DATE
+> Task :embedding-onnx:preReleaseUnitTestBuild UP-TO-DATE
+> Task :embedding-onnx:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :embedding-onnx:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :embedding-onnx:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :embedding-onnx:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :embedding-onnx:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :embedding-onnx:testReleaseUnitTest UP-TO-DATE
+> Task :generator-api:preReleaseUnitTestBuild UP-TO-DATE
+> Task :generator-api:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :generator-api:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :generator-api:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :generator-api:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :generator-api:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :generator-api:testReleaseUnitTest UP-TO-DATE
+> Task :generator-llama:preReleaseUnitTestBuild UP-TO-DATE
+> Task :generator-llama:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :generator-llama:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :generator-llama:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :generator-llama:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :generator-llama:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :generator-llama:testReleaseUnitTest UP-TO-DATE
+> Task :grounded-runtime:preReleaseUnitTestBuild UP-TO-DATE
+> Task :grounded-runtime:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :grounded-runtime:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :grounded-runtime:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :grounded-runtime:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :grounded-runtime:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :grounded-runtime:testReleaseUnitTest UP-TO-DATE
+> Task :kpack-registry:preReleaseUnitTestBuild UP-TO-DATE
+> Task :kpack-registry:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :kpack-registry:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :kpack-registry:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :kpack-registry:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :kpack-registry:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :kpack-registry:testReleaseUnitTest UP-TO-DATE
+> Task :retrieval:preReleaseUnitTestBuild UP-TO-DATE
+> Task :retrieval:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :retrieval:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :retrieval:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :retrieval:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :retrieval:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :retrieval:testReleaseUnitTest NO-SOURCE
+> Task :security-crypto:preReleaseUnitTestBuild UP-TO-DATE
+> Task :security-crypto:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :security-crypto:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :security-crypto:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :security-crypto:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :security-crypto:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :security-crypto:testReleaseUnitTest UP-TO-DATE
+> Task :source-viewer:preReleaseUnitTestBuild UP-TO-DATE
+> Task :source-viewer:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :source-viewer:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :source-viewer:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :source-viewer:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :source-viewer:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :source-viewer:testReleaseUnitTest UP-TO-DATE
+> Task :app:preDemoBuild UP-TO-DATE
+> Task :app:mergeDemoNativeDebugMetadata NO-SOURCE
+> Task :app:generateDemoBuildConfig UP-TO-DATE
+> Task :app:generateDemoResources UP-TO-DATE
+> Task :app:packageDemoResources UP-TO-DATE
+> Task :app:processDemoNavigationResources UP-TO-DATE
+> Task :app:parseDemoLocalResources UP-TO-DATE
+> Task :app:generateDemoRFile UP-TO-DATE
+> Task :app:javaPreCompileDemo UP-TO-DATE
+> Task :app:generateDemoAssets UP-TO-DATE
+> Task :core-model:generateReleaseAssets UP-TO-DATE
+> Task :core-model:mergeReleaseAssets UP-TO-DATE
+> Task :embedding-onnx:generateReleaseAssets UP-TO-DATE
+> Task :embedding-onnx:mergeReleaseAssets UP-TO-DATE
+> Task :generator-api:generateReleaseAssets UP-TO-DATE
+> Task :generator-api:mergeReleaseAssets UP-TO-DATE
+> Task :generator-llama:generateReleaseAssets UP-TO-DATE
+> Task :generator-llama:mergeReleaseAssets UP-TO-DATE
+> Task :grounded-runtime:generateReleaseAssets UP-TO-DATE
+> Task :grounded-runtime:mergeReleaseAssets UP-TO-DATE
+> Task :kpack-registry:generateReleaseAssets UP-TO-DATE
+> Task :kpack-registry:mergeReleaseAssets UP-TO-DATE
+> Task :retrieval:generateReleaseAssets UP-TO-DATE
+> Task :retrieval:mergeReleaseAssets UP-TO-DATE
+> Task :security-crypto:generateReleaseAssets UP-TO-DATE
+> Task :security-crypto:mergeReleaseAssets UP-TO-DATE
+> Task :source-viewer:generateReleaseAssets UP-TO-DATE
+> Task :source-viewer:mergeReleaseAssets UP-TO-DATE
+> Task :app:mergeDemoAssets UP-TO-DATE
+> Task :app:compressDemoAssets UP-TO-DATE
+> Task :app:generateDemoGlobalSynthetics UP-TO-DATE
+> Task :app:checkDemoDuplicateClasses UP-TO-DATE
+> Task :app:desugarDemoFileDependencies UP-TO-DATE
+
+> Task :app:compileDemoKotlin
+e: java.nio.file.AccessDeniedException: C:\Users\Fkagf\AppData\Local\kotlin\daemon\kotlin-daemon-client-tsmarker9786296838285328961.tmp
+
+> Task :app:mergeExtDexDemo UP-TO-DATE
+> Task :grounded-runtime:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :embedding-onnx:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :retrieval:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :kpack-registry:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :source-viewer:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :core-model:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :generator-llama:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :security-crypto:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :generator-api:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :app:checkDemoAarMetadata UP-TO-DATE
+> Task :app:mergeLibDexDemo UP-TO-DATE
+> Task :app:mapDemoSourceSetPaths UP-TO-DATE
+> Task :app:compileDemoNavigationResources UP-TO-DATE
+> Task :app:mergeDemoResources UP-TO-DATE
+> Task :app:createDemoCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDemo UP-TO-DATE
+> Task :app:processDemoMainManifest UP-TO-DATE
+> Task :app:processDemoManifest UP-TO-DATE
+> Task :app:processDemoManifestForPackage UP-TO-DATE
+> Task :app:processDemoResources UP-TO-DATE
+> Task :app:mergeDemoJniLibFolders UP-TO-DATE
+> Task :core-model:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :core-model:mergeReleaseNativeLibs NO-SOURCE
+> Task :core-model:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :embedding-onnx:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :embedding-onnx:mergeReleaseNativeLibs NO-SOURCE
+> Task :embedding-onnx:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :generator-api:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :generator-api:mergeReleaseNativeLibs NO-SOURCE
+> Task :generator-api:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :generator-llama:configureCMakeRelease[arm64-v8a]
+> Task :generator-llama:buildCMakeRelease[arm64-v8a]
+> Task :generator-llama:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :generator-llama:mergeReleaseNativeLibs UP-TO-DATE
+> Task :generator-llama:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :grounded-runtime:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :grounded-runtime:mergeReleaseNativeLibs NO-SOURCE
+> Task :grounded-runtime:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :kpack-registry:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :kpack-registry:mergeReleaseNativeLibs NO-SOURCE
+> Task :kpack-registry:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :retrieval:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :retrieval:mergeReleaseNativeLibs NO-SOURCE
+> Task :retrieval:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :security-crypto:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :security-crypto:mergeReleaseNativeLibs NO-SOURCE
+> Task :security-crypto:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :source-viewer:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :source-viewer:mergeReleaseNativeLibs NO-SOURCE
+> Task :source-viewer:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDemoNativeLibs UP-TO-DATE
+> Task :app:stripDemoDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDemo UP-TO-DATE
+> Task :app:writeDemoAppMetadata UP-TO-DATE
+> Task :app:writeDemoSigningConfigVersions UP-TO-DATE
+> Task :app:preDemoAndroidTestBuild SKIPPED
+> Task :app:mergeDemoAndroidTestManifest UP-TO-DATE
+> Task :app:processDemoAndroidTestManifest UP-TO-DATE
+> Task :app:generateDemoAndroidTestBuildConfig UP-TO-DATE
+> Task :app:generateDemoAndroidTestResources UP-TO-DATE
+> Task :app:packageDemoAndroidTestResources UP-TO-DATE
+> Task :app:processDemoAndroidTestNavigationResources UP-TO-DATE
+> Task :app:parseDemoAndroidTestLocalResources UP-TO-DATE
+> Task :app:generateDemoAndroidTestRFile UP-TO-DATE
+> Task :app:javaPreCompileDemoAndroidTest UP-TO-DATE
+> Task :app:generateDemoAndroidTestAssets UP-TO-DATE
+> Task :app:mergeDemoAndroidTestAssets UP-TO-DATE
+> Task :app:compressDemoAndroidTestAssets UP-TO-DATE
+> Task :app:generateDemoAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:checkDemoAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:desugarDemoAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDemoAndroidTest UP-TO-DATE
+> Task :app:mergeLibDexDemoAndroidTest UP-TO-DATE
+> Task :app:checkDemoAndroidTestAarMetadata UP-TO-DATE
+> Task :app:mapDemoAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:compileDemoAndroidTestNavigationResources UP-TO-DATE
+> Task :app:mergeDemoAndroidTestResources UP-TO-DATE
+> Task :app:processDemoAndroidTestResources UP-TO-DATE
+> Task :app:mergeDemoAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeDemoAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripDemoAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningDemoAndroidTest UP-TO-DATE
+> Task :app:writeDemoAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:processReleaseJavaRes UP-TO-DATE
+> Task :app:compileDemoJavaWithJavac UP-TO-DATE
+> Task :app:processDemoJavaRes UP-TO-DATE
+> Task :app:mergeDemoJavaResource UP-TO-DATE
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:dexBuilderDemo
+> Task :app:compileReleaseUnitTestKotlin UP-TO-DATE
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :app:testReleaseUnitTest
+> Task :app:bundleDemoClassesToCompileJar
+> Task :app:mergeProjectDexDemo
+
+> Task :app:compileDemoAndroidTestKotlin
+e: java.nio.file.AccessDeniedException: C:\Users\Fkagf\AppData\Local\kotlin\daemon\kotlin-daemon-client-tsmarker12150487561315172523.tmp
+
+> Task :app:packageDemo
+> Task :app:createDemoApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDemo
+
+> Task :app:compileDemoAndroidTestKotlin
+w: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt:101:143 Unnecessary non-null assertion (!!) on a non-null receiver of type 'RuntimeTrace'.
+w: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt:102:53 Unnecessary non-null assertion (!!) on a non-null receiver of type 'RuntimeTrace'.
+
+> Task :app:compileDemoAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:processDemoAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeDemoAndroidTestJavaResource UP-TO-DATE
+> Task :app:dexBuilderDemoAndroidTest
+> Task :app:mergeProjectDexDemoAndroidTest
+> Task :app:packageDemoAndroidTest
+> Task :app:createDemoAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDemoAndroidTest
+
+[Incubating] Problems report is available at: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 2m 2s
+313 actionable tasks: 15 executed, 298 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.6.0/userguide/configuration_cache_enabling.html

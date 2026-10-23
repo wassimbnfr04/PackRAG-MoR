@@ -1,0 +1,25 @@
+{
+  "status": "F2_ALL_SLOT_ITERATION_STARTING_NOT_ACCEPTED",
+  "recorded_utc": "2026-10-11T17:49:24.320510+00:00",
+  "source_delta": {
+    "product/android/app/src/androidTest/assets/asset-import-source/owner-public-baseline.json": {
+      "before": null,
+      "after": "9a1dec6e9e6b5ca3fe2ca59ba416048da007b7f01b35ebba6d86d3b776ce9c5b"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureGrantReceiver.java": {
+      "before": "7f6d5d4f521594c90b581bc29e8f0be18b300b88c4b253df5ed73ca3fa34d068",
+      "after": "7106ce2e7a3310072c0e312ca08517276b344132004d1b65f02a31ad29350d62"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureProvider.java": {
+      "before": "fefbaefefefcbd649c8b2c1543364c4ca9ea5027daa3da7500618ff907751279",
+      "after": "af400523462391cee16a3b5a5084a0d74fdfd14d21edf7fc2dfdc96265e4d8ec"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportAllSlotsDeviceTest.kt": {
+      "before": null,
+      "after": "52c9c1979fd2a32fa9dde570a9f0637027c9e37a1d38362b1d1ebfa05b7f175c"
+    }
+  },
+  "unchanged_product_sha256": "97c6084a6f66520afdcea38e0a11b0eae588b1dd645e92d6d8028a44c8761d04",
+  "host_capture_sha256": "6e49854ca5832f007d1f35e73c073a0154c557174174f2eddd73cd1d1fc456cf",
+  "note": "Current M4F2 full-size four-slot iteration START at 2026-10-11T17:49:24.320510+00:00: actual importing-process recovery0065 passed3 checkpoints and originals/known50 guards saved. Build0066 passes73 host methods/593 frozen inputs/APK contracts; only2 test provider/grant sources plus new all-slot test and explicit known50 public-baseline asset change. Product APK is byte-identical0065/66; no product privileges/model pins/runtime change. Test provider exposes only4 fixed read-only routes backed by exact owned-marker/no-follow/expected-size source files under newly created test-UID files/f2-full-assets-0001. Rootless on-device pipefail-checked copies from4 known owner model paths, no host weight export, verify whole source SHA before/after; source preparation asserts free space for2 full sets+64MiB, unknown namespace causes stop. New production-API test starts with no model destination, imports each actual1593894944/5443/25301672/390004608bytes through separate-UID narrow grants, records monotonic observed bytes/stages/time and one descriptor open/close, independently hashes final files, verifies all4, then runs cold and warm real cited synthetic answers. Owner guard reads/hash only50 explicitly named public files without custody traversal. Source set deliberately retained and explicitly validated for later approved-policy/UI reuse; only isolated owned destination removed after native close. Actual device/source prep results pending, not full F2 acceptance. Next source preparation then all-slot actual test, original evidence/custody before later UI. System picker/ViewModel/UI/approved-policy/regressions/restoration/closure remain; no F3/full M4/product/release claim. Mobile data stays on and PackRAG closed; final knowledge packs owner supplied."
+}

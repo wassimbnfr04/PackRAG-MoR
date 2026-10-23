@@ -1,0 +1,40 @@
+{
+  "status": "OWNER_CONTINUATION_AND_UNTOUCHED_INSTRUCTION_PHONE_AWAKE_UNLOCKED",
+  "recorded_utc": "2026-10-10T20:01:08.755552+00:00",
+  "owner_quote": "Yes, retry after this run finishes; I will leave it untouched",
+  "source": "Actual human async reply to question call_c24b849a9d95488f83378a9642057229, received after foreground interruption; no new reply is invented.",
+  "foreground_window": "About five minutes, announced immediately before the prepared test. Mobile data stays on.",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "window",
+        "policy"
+      ],
+      "returncode": 0,
+      "observed_readiness": [
+        "showing=false",
+        "mIsShowing=false"
+      ]
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "power"
+      ],
+      "returncode": 0,
+      "observed_readiness": [
+        "mWakefulness=Awake"
+      ]
+    }
+  ],
+  "scope": "Readiness observed; no PIN/unlock/radio/governor/global-screen-timeout modification. Actual UI gate must independently pass."
+}

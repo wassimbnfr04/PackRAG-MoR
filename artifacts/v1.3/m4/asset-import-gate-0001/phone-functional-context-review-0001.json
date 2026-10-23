@@ -1,0 +1,10 @@
+{
+  "status": "OBSERVATIONAL_RESOURCE_CONTEXT_REVIEW_NOT_CAUSAL_PERFORMANCE_ACCEPTANCE",
+  "reviewed_utc": "2026-10-11T21:58:34.797001+00:00",
+  "original_context_sha256": "ebe31528ac0ab1c351a3c96f5900e76017edb6ce9324d33dbee8ffbd21046491",
+  "viewmodel_execution_sha256": "60674b0e4eb05d6279fede3088a1e803ce2f06ec2e194ad9c397a05a6369ea59",
+  "finding": "Thermal service reports status3, with skin sensor mStatus3. Official Android PowerManager constant3 means severe throttling. This is observed OS resource context, not proof of which workload caused it or of the dominant bottleneck.",
+  "source_url": "https://developer.android.com/reference/android/os/PowerManager#THERMAL_STATUS_SEVERE",
+  "sampling_limitation": "Five-second CPU samples21:56:00.918..21:56:06.110 and subsequent meminfo occur near terminal ViewModel test547.663s/completion and model release. Exact runtime subphase at sampling was not recorded; after sampling live report was PASS/COMPLETED. The original context wording while test running must be read as a parent-execution context, not evidence that native generation occupied the sample. CPU0.8668 core-equivalent/RSS/PSS/swap figures must not be classified as generation-only utilization or peak memory. No controlled cold/idle-device baseline or causal thermal attribution.",
+  "decision": "Preserve all original resource/test outputs. Complete lightweight file-preservation cleanup/documentation before next heavy policy matrix; do not change radio/root/governor/affinity/system thermal settings. Actual M8 controlled device/performance/resource comparisons remain independently required."
+}

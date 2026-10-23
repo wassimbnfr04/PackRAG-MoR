@@ -1,0 +1,56 @@
+{
+  "status": "PARTIAL_FINAL_IMPORT46_VIEWMODEL_RUNNING_NOT_ACCEPTED",
+  "note": "F2 final-source debug0076 import progress 2026-10-11T21:47:27.160958+00:00:6actualmethods/46controls accepted with exact original hashes (fault3/28, strict identical-code walking retry1/7, actual importing-subprocess loss1/3, full-size allslots1/8). Restart actual JUnit915.044s three checkpoints; main phone/instrumentation remain alive, no power-loss/crossprocesswarmlease or controlled-speed claim. All four actual2009206667-byte imports/readback/close and cold/warm cited answers passed; sources/owner guards collected before next. Final ViewModel1/8 RUNNING, whole seven-method54-control parent not yet accepted. Firstwalking callback failure remains immutable with unknown callback cause; F4 must persist exact callback text. Foreground6/31 and BG8/44 accepted separately; UIwindowended/mobiledataon/ownerotherappsallowed withPackRAGclosed USBconnected. Bounded interrupted visual root unchanged; prepared exact3leaf cleanup syntax parsed by Androidsh-n only (no execution/delete), actualcleanup awaits terminalbatchPASS. Demo0077 approved-only6/26 matrix, data-preserving debug restore, custody/immutableF2gate/checkpoint and F3/F4 still pending. FullM4/product not complete, final owner packs excluded.",
+  "parent_snapshot_sha256": "f8df57521b6c31fd3330d356287d4b498b12ac8584d3f62ef4cd7bb42c14c0ae",
+  "completed": [
+    {
+      "selection": "faults",
+      "methods": 3,
+      "controls": 28,
+      "run": "device-local-asset-final-import-debug-0001-faults",
+      "execution_sha256": "1b3133d8efcd938c40a43e08ac4dc83665b9cfafc97fa70e16ef6f531e39c077",
+      "manifest_sha256": "1095e80adbaa0a80cab9a885cc1cfd40a67135de5fb5864509b313d85bdd22d1",
+      "original_sha256": {
+        "m4-local-asset-import-uri-faults.json": "d1ffb1ebab6c9e715ae2f4303e3f6d10032352e8532e12c1ed0c4d757d5f3f46",
+        "m4-local-asset-import-provider-cancel.json": "ea003421c6da532b02d506b9207f707d419288e8cdf62b952da4f309c421961d",
+        "m4-local-asset-import-path-recovery.json": "48cdc543e536a80f51e3fea411fa73b436e5abb417c0611b107cb1c741e568e3"
+      },
+      "retained_from_failed_parent_sha256": "4d1b520d43cc68bef515042c30b6abe3d54fbe0001d1c1c468ae3841ecb0da69"
+    },
+    {
+      "selection": "walking",
+      "methods": 1,
+      "controls": 7,
+      "run": "device-local-asset-final-walking-debug-0002",
+      "execution_sha256": "92d964e5cba76995a1f2e2c84defbe62f855010f49868aaa92ce72598e227c67",
+      "manifest_sha256": "92d964e5cba76995a1f2e2c84defbe62f855010f49868aaa92ce72598e227c67",
+      "original_sha256": {
+        "m4-local-asset-import-walking.json": "d729a92b608a8dbc91e96d34b500ee23064fb31107cdbedeab16bf0cb710bc3a"
+      }
+    },
+    {
+      "selection": "restart",
+      "methods": 1,
+      "controls": 3,
+      "run": "device-local-asset-final-import-debug-0002-restart",
+      "execution_sha256": "eb0a7562c152adb08c2da2df9caeaaf4ffb41e6acb225a5de520b41bcb75f346",
+      "manifest_sha256": "c8e91c3f679813f2e2b7b9616fe4e8bee04c703153f1951ba216272755b2c403",
+      "original_sha256": {
+        "m4-local-asset-import-process-death.json": "70358cae4869620dc2ddeca4355b25ee643b98dfe935eb20b7eb1dcb6af2af89",
+        "m4-local-asset-import-process-death-progress.json": "70358cae4869620dc2ddeca4355b25ee643b98dfe935eb20b7eb1dcb6af2af89"
+      }
+    },
+    {
+      "selection": "all-slots",
+      "methods": 1,
+      "controls": 8,
+      "run": "device-local-asset-final-import-debug-0002-all-slots",
+      "execution_sha256": "49589fd811e1f40b7a88ccd145aeabc609472d333388a89e521821f206745e2d",
+      "manifest_sha256": "2b6cca74cdf47dfa956ce63034d48d797726c560245e60048088c0d0c2cf5eca",
+      "original_sha256": {
+        "m4-local-asset-import-all-slots.json": "6f65385dbf724ec8259415575e0e030cc8c142c101dedc92d01cc22e382fb574",
+        "m4-local-asset-import-all-slots-progress.json": "6f65385dbf724ec8259415575e0e030cc8c142c101dedc92d01cc22e382fb574"
+      }
+    }
+  ]
+}

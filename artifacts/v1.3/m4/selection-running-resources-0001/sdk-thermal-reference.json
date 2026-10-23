@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-09T22:50:26.142226+00:00",
+  "argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\java\\jdk-17.0.20.1+1\\bin\\javap.exe",
+    "-constants",
+    "-classpath",
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk\\platforms\\android-37.0\\android.jar",
+    "android.os.PowerManager"
+  ],
+  "returncode": 0,
+  "jar_sha256": "bf1b4387cc7ca94fc6ef684f040d9d16fbf16248e181819f020736ea2053f177",
+  "definition": "PowerManager.THERMAL_STATUS_SEVERE=3",
+  "limits": "The platform-reported severity label does not measure CPU clock, throttling magnitude, causality or a performance baseline"
+}

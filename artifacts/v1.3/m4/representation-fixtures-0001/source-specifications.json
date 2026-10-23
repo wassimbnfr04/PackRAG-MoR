@@ -1,0 +1,381 @@
+{
+  "purpose": "SYNTHETIC_NOT_REAL_REVIEW_OR_OFFICIAL_TRANSLATION",
+  "valid": [
+    {
+      "id": "en-canonical",
+      "language": "en",
+      "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+      "derived": [],
+      "state": "ANSWER_ACCEPTED",
+      "method": "canonical"
+    },
+    {
+      "id": "fr-official",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "ANSWER_ACCEPTED",
+      "method": "official_translation"
+    },
+    {
+      "id": "ar-reviewed",
+      "language": "ar",
+      "text": "\u062a\u0628\u0644\u063a \u062f\u0631\u062c\u0629 \u062d\u0631\u0627\u0631\u0629 \u0627\u0644\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0645\u0633\u062a\u0645\u0631 \u0627\u0644\u0642\u0635\u0648\u0649 \u0644\u0648\u062d\u062f\u0629 \u0627\u0644\u062a\u062d\u0643\u0645 \u0627\u0644\u062d\u0631\u0627\u0631\u064a Aster-9 \u0645\u0642\u062f\u0627\u0631 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+          "reviewed_at": "2026-10-09"
+        }
+      ],
+      "state": "ANSWER_ACCEPTED",
+      "method": "human_reviewed_translation"
+    },
+    {
+      "id": "fr-reviewed",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+          "reviewed_at": "2026-10-09"
+        }
+      ],
+      "state": "ANSWER_ACCEPTED",
+      "method": "human_reviewed_translation"
+    },
+    {
+      "id": "regional",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en-US",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "ANSWER_ACCEPTED",
+      "method": "official_translation"
+    },
+    {
+      "id": "preferred",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en-GB",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        },
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "ANSWER_ACCEPTED",
+      "method": "official_translation"
+    },
+    {
+      "id": "missing",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [],
+      "state": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "method": null
+    },
+    {
+      "id": "machine-fr",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "machine_draft",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "method": null
+    },
+    {
+      "id": "machine-ar",
+      "language": "ar",
+      "text": "\u062a\u0628\u0644\u063a \u062f\u0631\u062c\u0629 \u062d\u0631\u0627\u0631\u0629 \u0627\u0644\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0645\u0633\u062a\u0645\u0631 \u0627\u0644\u0642\u0635\u0648\u0649 \u0644\u0648\u062d\u062f\u0629 \u0627\u0644\u062a\u062d\u0643\u0645 \u0627\u0644\u062d\u0631\u0627\u0631\u064a Aster-9 \u0645\u0642\u062f\u0627\u0631 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "machine_draft",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "method": null
+    },
+    {
+      "id": "ambiguous",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en-US",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        },
+        {
+          "purpose": "generator",
+          "language": "en-GB",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "AMBIGUOUS_GENERATOR_REPRESENTATION",
+      "method": null
+    },
+    {
+      "id": "derived-control",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C. <|role|>",
+          "text_sha256": "526c12a9aa0a58460a5db192e98ba01712d131dc652a824c033d0f4fc3c5d441",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "RESERVED_CONTROL_TOKEN_IN_INPUT",
+      "method": "official_translation"
+    },
+    {
+      "id": "canonical-control",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C. <think>",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "RESERVED_CONTROL_TOKEN_IN_INPUT",
+      "method": "official_translation"
+    },
+    {
+      "id": "title-control",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "title": "Aster-9 <|role|>",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "RESERVED_CONTROL_TOKEN_IN_INPUT",
+      "method": "official_translation"
+    },
+    {
+      "id": "xml-data",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C. Literal data: 12 < 13 & </SOURCE> > 9.",
+          "text_sha256": "f3e6bc1ada205ea5b369f22177ddf6e7f0570209f331bfa9631fd007dd600c4e",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "state": "ANSWER_ACCEPTED",
+      "method": "official_translation"
+    }
+  ],
+  "invalid": [
+    {
+      "id": "bad-render-hash",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "import_accept": false
+    },
+    {
+      "id": "official-no-source",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "import_accept": false
+    },
+    {
+      "id": "human-no-reviewer",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": "2026-10-09"
+        }
+      ],
+      "import_accept": false
+    },
+    {
+      "id": "human-bad-date",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "human_reviewed_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+          "reviewed_at": "2026-02-30"
+        }
+      ],
+      "import_accept": false
+    },
+    {
+      "id": "unknown-method",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "unapproved_method",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "import_accept": false
+    },
+    {
+      "id": "bad-canonical-hash",
+      "language": "fr",
+      "text": "La temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C.",
+      "derived": [
+        {
+          "purpose": "generator",
+          "language": "en",
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "official_translation",
+          "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+          "reviewer_id": null,
+          "reviewed_at": null
+        }
+      ],
+      "bad_canonical_hash": true,
+      "import_accept": false
+    }
+  ]
+}

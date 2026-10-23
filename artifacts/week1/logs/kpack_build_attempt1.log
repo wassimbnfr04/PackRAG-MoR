@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\cli.py", line 27, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\cli.py", line 18, in main
+    result=build(args.out)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\kpack_builder\build.py", line 56, in build
+    from sentence_transformers import SentenceTransformer
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-pack\Lib\site-packages\sentence_transformers\__init__.py", line 10, in <module>
+    from sentence_transformers.backend import (
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-pack\Lib\site-packages\sentence_transformers\backend\__init__.py", line 5, in <module>
+    from .quantize import export_dynamic_quantized_onnx_model, export_static_quantized_openvino_model
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-pack\Lib\site-packages\sentence_transformers\backend\quantize.py", line 7, in <module>
+    from sentence_transformers.util import disable_datasets_caching, is_datasets_available
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-pack\Lib\site-packages\sentence_transformers\util\__init__.py", line 12, in <module>
+    from .file_io import disabled_tqdm, http_get, is_sentence_transformer_model, load_dir_path, load_file_path
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-pack\Lib\site-packages\sentence_transformers\util\file_io.py", line 7, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

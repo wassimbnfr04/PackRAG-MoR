@@ -1,0 +1,8 @@
+{
+  "observed_utc": "2026-10-06T23:06:36.987230+00:00",
+  "purpose": "CURRENT_GATE_PROGRESS_NOT_AGGREGATE_ACCEPTANCE",
+  "returncode": 0,
+  "stderr": "",
+  "tail": "--------- beginning of main\n10-06 23:04:43.222 27574 27595 I TestRunner: run started: 18 tests\n10-06 23:04:43.228 27574 27595 I TestRunner: started: sharedQueryContractsAndSignedNormalizedGraniteMultiPackParity(org.packrag.product.QueryIdentifierDeviceTest)\n10-06 23:04:57.300 27574 27595 I TestRunner: finished: sharedQueryContractsAndSignedNormalizedGraniteMultiPackParity(org.packrag.product.QueryIdentifierDeviceTest)\n10-06 23:04:57.305 27574 27595 I TestRunner: started: crossPackAmbiguityAbstainsBeforeGenerationAndExpiredCollisionRetainsRealAnswer(org.packrag.product.QueryIdentifierRuntimeDeviceTest)\n",
+  "filter_note": "Earlier duplicate TestRunner:I and TestRunner:E filters suppressed INFO progress; this single V filter includes both. Empty earlier tails did not establish absence of execution."
+}

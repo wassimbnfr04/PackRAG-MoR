@@ -1,0 +1,29 @@
+{
+  "status": "PASS_F2_SOURCE_VIEWER_VISIBLE_SCOPE_NOT_FULL_F2",
+  "reviewed_utc": "2026-10-11T21:08:56.465454+00:00",
+  "execution_sha256": "8e43746ff4a0d28c3b90fce4838cdf9efaeadcadba2c56e53edcc410afdb02dc",
+  "images": {
+    "m4-source-details-ar.png": {
+      "sha256": "e68eb0a50be9b3c0fe55f2f5a1bafcf1f868e4268939c2dde245c7c7c301392f",
+      "bytes": 264149,
+      "dimensions": [
+        1080,
+        2316
+      ],
+      "review": "PASS_VISIBLE_SCOPE",
+      "observation": "PASS visible source-viewer component scope: full-width PackRAG header and normal system-bar bounds; two-line Arabic canonical Aster-9/74 degrees C sentence readable at bottom. Mixed Arabic/Latin degree-unit punctuation displays in bidi visual order; no claim of improved typographic bidi layout. Visible unknown validity/intersection/jurisdiction/authority/version fields are explicit, public signing identifier wraps, synthetic/no-external-original-check disclaimers readable. Top notes begin above scroll viewport: ordinary scrolling, not missing product width. English generator rendering and earlier source identity/license fields are offscreen and not proved by this raster."
+    },
+    "m4-source-details-fr.png": {
+      "sha256": "ecb2b5ee3d6f467678b65a2221a8a4e5a25991a99d4c021cf996cde0a21b9961",
+      "bytes": 260815,
+      "dimensions": [
+        1080,
+        2316
+      ],
+      "review": "PASS_VISIBLE_SCOPE",
+      "observation": "PASS visible source-viewer component scope: full-width PackRAG header and normal system-bar bounds; complete French canonical Aster-9/74 degrees C sentence wraps legibly in two lines. Visible unknown validity/intersection/jurisdiction/authority/version fields, public signing identifier and synthetic/no-external-original-check disclaimers readable. Partial earlier field above viewport is normal scrolling. English generator rendering and earlier identity/license fields are offscreen and not proved by this raster."
+    }
+  },
+  "method": "Independent view_image inspection of exact unmodified exported1080x2316 originals; tool display resized955x2048, original bytes unchanged.",
+  "scope": "AR/FR signed-record component setContent after reader close, not new foreign inference or product custom-key pack admission. English real product flow passed separately with actual JUnit; no English screenshot exported. No offscreen/full-page/gold/performance/fullF2 acceptance."
+}

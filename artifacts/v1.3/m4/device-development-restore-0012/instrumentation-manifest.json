@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-10-10T16:44:23.407557+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.PackImportConsentTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0039\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0039\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.PackImportConsentTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "1836970079e0687fa55c56aecfd191a23cc9890d1e32b807307f0e78c6bb1a34",
+    "app-debug-androidTest.apk": "21984b50a3ead9b1f1c4900f8ad0a09e4abb150e9804c269c521483a45c0d123"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.PackImportConsentTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackImportConsentTest.kt",
+      "source_sha256": "7de5d03463241c60750c2d9e3a215f22a9c30f5443367b7302fd43227111e9c8"
+    }
+  },
+  "status": "FAIL"
+}

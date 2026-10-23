@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-10-11T19:28:17.038885+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.LocalAssetImportVisualDeviceTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [],
+  "apk_sha256": {
+    "app-debug.apk": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+    "app-debug-androidTest.apk": "e4b18b619f74dcb229b8a156436b7c53c26b1bde6f32129bfe77f34807489f62"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.LocalAssetImportVisualDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportVisualDeviceTest.kt",
+      "source_sha256": "2eca84660ba724a1491e042c7ac608dc4a3ac1109630cd35ba2c6216f395a6ad"
+    }
+  },
+  "status": "FAIL"
+}

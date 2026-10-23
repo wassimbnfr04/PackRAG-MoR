@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_relevance_references.py", line 108, in <module>
+    try:main()
+        ^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_relevance_references.py", line 83, in main
+    assert row==json.loads(json.dumps(previous)),(case['id'],'retained field changed')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('AUTHORITY', 'retained field changed')

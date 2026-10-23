@@ -1,0 +1,109 @@
+{
+  "status": "PASS_F2_URI_PATH_CANCEL_28_CONTROLS_NOT_NATIVE_SYSTEM_PICKER_OR_FULL_F2",
+  "started_utc": "2026-10-11T21:15:03.048996+00:00",
+  "build": "build-0076",
+  "run": "device-local-asset-final-import-debug-0001-faults",
+  "variant": "debug",
+  "runner_sha256": "5363bdd0ee61a6c21870e131d3a5240c238fdd82024f64bdc678e37da645c9fb",
+  "host_capture_sha256": "5bac84a1dfc618438ad5ebaee5f861ba740ea91a0526e32795891d0c65944796",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-final-import-debug-0001-faults",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportFaultDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-uri-faults.json",
+        "--timeout",
+        "1200",
+        "--variant",
+        "debug"
+      ],
+      "started_utc": "2026-10-11T21:15:03.048996+00:00",
+      "finished_utc": "2026-10-11T21:15:35.322191+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-final-import-debug-0001-faults",
+        "--files",
+        "m4-local-asset-import-uri-faults.json,m4-local-asset-import-provider-cancel.json,m4-local-asset-import-path-recovery.json"
+      ],
+      "started_utc": "2026-10-11T21:15:35.322191+00:00",
+      "finished_utc": "2026-10-11T21:15:35.917282+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-final-import-debug-0001-faults-after-known-guard.json"
+      ],
+      "started_utc": "2026-10-11T21:15:35.917282+00:00",
+      "finished_utc": "2026-10-11T21:15:39.093785+00:00",
+      "returncode": 0
+    }
+  ],
+  "finished_utc": "2026-10-11T21:15:39.324108+00:00",
+  "original_sha256": {
+    "m4-local-asset-import-uri-faults.json": "d1ffb1ebab6c9e715ae2f4303e3f6d10032352e8532e12c1ed0c4d757d5f3f46",
+    "m4-local-asset-import-provider-cancel.json": "ea003421c6da532b02d506b9207f707d419288e8cdf62b952da4f309c421961d",
+    "m4-local-asset-import-path-recovery.json": "48cdc543e536a80f51e3fea411fa73b436e5abb417c0611b107cb1c741e568e3"
+  },
+  "case_ids": {
+    "m4-local-asset-import-uri-faults.json": [
+      "actual-ungranted-uri-rejects-without-provider-open-and-preserves-final",
+      "actual-revoked-before-open-grant-rejects-and-regrant-is-explicit",
+      "actual-empty-uri-preserves-existing-pin-with-safe-error",
+      "actual-truncated-uri-preserves-existing-pin-with-safe-error",
+      "actual-oversized-uri-preserves-existing-pin-with-safe-error",
+      "actual-corrupt-uri-preserves-existing-pin-with-safe-error",
+      "actual-read-error-uri-preserves-existing-pin-with-safe-error",
+      "actual-wrong-slot-template-source-cannot-install-generator",
+      "actual-metadata-lie-uses-observed-stream-bytes-and-fixed-private-pin",
+      "actual-short-pipe-uses-observed-stream-bytes-and-fixed-private-pin",
+      "actual-cancel-at-COPYING-is-precommit-and-preserves-pin",
+      "actual-cancel-at-VERIFYING-is-precommit-and-preserves-pin",
+      "actual-cancel-at-COMMITTING-is-precommit-and-preserves-pin",
+      "actual-late-cancel-does-not-report-committed-file-as-unchanged-failure",
+      "file-scheme-cannot-bypass-content-descriptor-interface"
+    ],
+    "m4-local-asset-import-provider-cancel.json": [
+      "actual-blocked-pipe-read-cancel-closes-cooperative-producer-and-preserves-final",
+      "actual-descriptor-opening-cancellation-signal-reaches-provider-without-blocking-main",
+      "actual-fresh-uri-retry-after-both-cancellations-commits-cleanly"
+    ],
+    "m4-local-asset-import-path-recovery.json": [
+      "actual-new-session-reconciles-validated-abandoned-stage-without-promotion-or-legacy-deletion",
+      "unknown-private-named-entry-blocks-whole-startup-cleanup-without-traversal",
+      "actual-final-leaf-symlink-rejects-before-source-open-and-never-follows-target",
+      "actual-nested-destination-parent-symlink-rejects-before-source-open",
+      "actual-ownership-marker-symlink-rejected-without-reading-target",
+      "actual-owned-stage-name-with-symlink-type-cannot-be-deleted-or-promoted",
+      "actual-staging-directory-symlink-cannot-trigger-recursive-cleanup",
+      "actual-import-model-root-symlink-refuses-before-input-and-finally-does-not-follow-it",
+      "controlled-precommit-directory-sync-fault-preserves-real-final-and-reports-unconfirmed-cleanup",
+      "normal-new-session-recovers-after-injected-sync-fault-without-native-initialization"
+    ]
+  },
+  "case_count": 28,
+  "scope": "Three actual methods/28 controls, original bytes and known50 public owner hashes. Cooperative provider main cancel dispatch<1s/watchdogs are functional bounds, not M8 performance or arbitrary-provider IPC guarantee. Controlled sync exception is injection; new session same-process cleanup is not physical process death/power loss. Real native walking regression must pass before actual restart/all-slot/UI expansion."
+}

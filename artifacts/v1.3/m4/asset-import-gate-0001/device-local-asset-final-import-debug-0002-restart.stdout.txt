@@ -1,0 +1,7 @@
+device-local-asset-final-import-debug-0002-restart stage 0 START
+device-local-asset-final-import-debug-0002-restart stage 0 PASS
+device-local-asset-final-import-debug-0002-restart stage 1 START
+device-local-asset-final-import-debug-0002-restart stage 1 PASS
+device-local-asset-final-import-debug-0002-restart stage 2 START
+device-local-asset-final-import-debug-0002-restart stage 2 PASS
+PASS_F2_ACTUAL_IMPORTING_SUBPROCESS_LOSS_AND_NATIVE_RECOVERY_NOT_ALL_SLOT_UI_OR_FULL_F2

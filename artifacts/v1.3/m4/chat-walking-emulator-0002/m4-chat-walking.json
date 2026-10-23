@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "actual_weight_inference": false,
+  "raw_reasoning_persisted": false,
+  "environment": "FRESH_EMULATOR",
+  "cases": [
+    "real-normal-chat-shell-and-disabled-empty-submit",
+    "two-distinct-owned-no-pack-turns-with-captured-controls",
+    "recreation-menu-local-assets-return-and-new-chat",
+    "real-scoped-large-font-composer-and-query-controls"
+  ],
+  "visual_png": {
+    "m4-chat-normal-empty.png": {
+      "sha256": "578a7a2fe34cb44a7bb4abeea59901ac2993b682353e269a0033ff59e5e26a1a",
+      "bytes": 82406,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "96b097027313cb17becfa800ddef9ed5716bb4ef801c35b271c0139f3eea2dd5",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-chat-two-turns.png": {
+      "sha256": "4720bda812a6fa771cabd5e4da2460e955e91dcb6bdc8f214fbd5e98a6086b58",
+      "bytes": 101721,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "398032bf30df70c45e4caa79fc1bf182a3398b28528a78b0ab6d27bc16e05ad9",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-chat-large-font-composer.png": {
+      "sha256": "3827fe0619f43d6f310e9defbbfffdc8e54195b4d47c8e3ee87b403cf649639b",
+      "bytes": 157211,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "8f57d112674062ffede53641db9f8143002b4f420e41d66a6001b0249121025e",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-chat-large-font-controls.png": {
+      "sha256": "65a8b8911c336792d0e73a625a9a6665a48b926e6394a00c4e2ec295d75203af",
+      "bytes": 157869,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "3967d84d25e9e5168da4625d23f6408362ba8a2b6e0a71901efa88368921c303",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    }
+  },
+  "scope": "Actual isolated MainActivity and real ViewModel no-pack path. Four original PNGs require review. Does not establish repair capability or phone native performance; real repair inference is a separate gate."
+}

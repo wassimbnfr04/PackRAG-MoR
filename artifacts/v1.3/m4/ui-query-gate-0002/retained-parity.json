@@ -1,0 +1,112 @@
+{
+  "status": "PASS_RETAINED_PHONE_ORIGINALS_EXACT_TOKEN_ADMISSION_RUNTIME_PROVENANCE_NOT_E1_CLOSURE",
+  "recorded_utc": "2026-10-10T15:56:32.308624+00:00",
+  "accepted_verifier": "artifacts/v1.3/m4/selection-gate-0002/retained_checks_reporting.py",
+  "accepted_verifier_sha256": "a47cfec7f55a476ba7643506b7daa41a111a1df8e1640b5900af7185dda82bd1",
+  "exact_phone_block_sha256": "6f892117d782a99322f22e426ba227313479c0e2adb62c2ca1894f548314d110",
+  "phone": {
+    "device-query-regression-0001": {
+      "methods": 30,
+      "whole_instrumentation_seconds": 2031.659,
+      "saved_results": [
+        "m4-conflicts.json",
+        "m4-source-metadata.json",
+        "m4-validity.json",
+        "m4-query-identifiers.json",
+        "m4-query-unicode.json",
+        "m2-generator-prompt-parity.json",
+        "m2-pack-retrieval-parity.json",
+        "m3-data-types.json",
+        "m3-extension-names.json",
+        "m3-validation-order.json",
+        "m3-residual-security.json",
+        "m3-manifest-schema.json",
+        "m3-database-validation.json",
+        "m3-archive-validation.json",
+        "m4-relevance.json",
+        "m4-relevance-runtime.json",
+        "m4-conflict-runtime.json",
+        "m4-query-identifier-runtime.json",
+        "m2-generator-cancellation.json",
+        "product-runtime-smoke.json",
+        "m3-explicit-lifecycle.json",
+        "m3-atomic-registry.json",
+        "m3-process-death.json",
+        "m3-import-consent.json",
+        "m4-representations.json",
+        "m4-representation-runtime.json",
+        "m4-source-text.json",
+        "m4-selection-tokenizer.json",
+        "m4-selection-runtime.json",
+        "m4-selection-guards.json"
+      ],
+      "apk_sha256": {
+        "app-debug.apk": "de8d3241978754c81e4f383e51d0a4d72358fe84734436c9ea39fa4aa4c64bfc",
+        "app-debug-androidTest.apk": "600487aa0be536d806070f26f904b2e115964e32300e8ce4c421fb134385507d"
+      }
+    },
+    "device-query-policy-0001": {
+      "methods": 26,
+      "whole_instrumentation_seconds": 1488.936,
+      "saved_results": [
+        "m4-ui-query-policy.json",
+        "m4-conflicts.json",
+        "m4-source-metadata.json",
+        "m4-validity.json",
+        "m4-query-identifiers.json",
+        "m4-query-unicode.json",
+        "m2-generator-prompt-parity.json",
+        "m2-pack-retrieval-parity.json",
+        "m3-data-types.json",
+        "m3-extension-names.json",
+        "m3-validation-order.json",
+        "m3-residual-security.json",
+        "m3-manifest-schema.json",
+        "m3-database-validation.json",
+        "m3-archive-validation.json",
+        "m4-relevance.json",
+        "m4-relevance-runtime.json",
+        "m4-conflict-runtime.json",
+        "m3-production-policy.json",
+        "m3-release-trust-core.json",
+        "m4-representations.json",
+        "m4-representation-runtime.json",
+        "m4-source-text.json",
+        "m4-selection-tokenizer.json",
+        "m4-selection-runtime.json",
+        "m4-selection-guards.json"
+      ],
+      "apk_sha256": {
+        "app-demo.apk": "764815028b14266b45c64c89583477b438a005a56d4132d898b61eb0e057355f",
+        "app-demo-androidTest.apk": "3578ed56d16ebe3756353f8de4d982ae8e360a0725c73abb8fb9ebca0d441a2a"
+      }
+    }
+  },
+  "selection": {
+    "device-query-regression-0001": {
+      "actual_tokenizer_admission_cases": 9,
+      "runtime_state_cases": 8,
+      "pure_fixed_plans": 28,
+      "guards": 2,
+      "deduplicated_local_origins": 2,
+      "format_control": "POST_OBSERVATION_NOT_HELDOUT",
+      "original_question": "CONSERVATIVE_OUTPUT_REJECTION_ORIGINAL_SUPPORTED_ACCEPTANCE_REMAINS_FAIL",
+      "natural_language_wording_byte_equality_required": false,
+      "original_byte_captures": 30
+    },
+    "device-query-policy-0001": {
+      "actual_tokenizer_admission_cases": 9,
+      "runtime_state_cases": 8,
+      "pure_fixed_plans": 28,
+      "guards": 2,
+      "deduplicated_local_origins": 2,
+      "format_control": "POST_OBSERVATION_NOT_HELDOUT",
+      "original_question": "CONSERVATIVE_OUTPUT_REJECTION_ORIGINAL_SUPPORTED_ACCEPTANCE_REMAINS_FAIL",
+      "natural_language_wording_byte_equality_required": false,
+      "original_byte_captures": 26
+    }
+  },
+  "retained_actual_tokenizer_cases": 43,
+  "retained_runtime_states": 19,
+  "oracle_scope": "Existing accepted D3 exact fixture comparisons reused as expectations, not new held-out gold or natural-language byte equality"
+}

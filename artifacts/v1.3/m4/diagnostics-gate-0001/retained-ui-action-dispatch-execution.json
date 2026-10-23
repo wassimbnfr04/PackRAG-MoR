@@ -1,0 +1,50 @@
+{
+  "status": "PASS_E3_FOUR_RETAINED_UI_ORIGINALS_NOT_COMPLETE_E3",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0052",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-ui-diagnostics-retained-0004",
+        "--class-name",
+        "org.packrag.product.SourceDetailsUiTest,org.packrag.product.QueryControlsUiTest,org.packrag.product.PackManagementUiTest",
+        "--result-file",
+        "m4-source-details-ui.json",
+        "--timeout",
+        "1800"
+      ],
+      "started_utc": "2026-10-10T20:20:02.074523+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T20:24:42.642429+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-ui-diagnostics-retained-0004",
+        "--files",
+        "m4-source-details-ui.json,m4-source-details-languages-ui.json,m4-ui-query-controls.json,m3-pack-management-ui.json"
+      ],
+      "started_utc": "2026-10-10T20:24:42.643429+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T20:24:43.311633+00:00"
+    }
+  ],
+  "original_png_sha256": {
+    "m4-source-details-ar.png": "a64ae0f99da373f2a42c57ca2f863c02c1ee65388967e5cb9fd3f3dd7d52dee2",
+    "m4-source-details-fr.png": "ed99a781bd5a5f1187e6ce8d16f80804f2f35cc739b51c86472456ba2cb23a77"
+  },
+  "foreground_authorization": "Owner text reply required before invoking this prepared driver"
+}

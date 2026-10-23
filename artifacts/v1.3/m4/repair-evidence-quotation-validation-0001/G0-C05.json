@@ -1,0 +1,72 @@
+{
+  "id": "G0-C05",
+  "category": "citation",
+  "question": "What is the default data-logging interval of the TerraNode T8?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The TerraNode T8 default data-logging interval is 30 seconds."
+    },
+    {
+      "id": "S2",
+      "text": "The TerraNode T8 can retain up to 256 MB of local logs."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The TerraNode T8 default data-logging interval is 30 seconds. [S1]",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "30 seconds"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 407,
+    "prompt_ms": 4117.622,
+    "prompt_per_token_ms": 10.117007371007372,
+    "prompt_per_second": 98.84345867590565,
+    "predicted_n": 235,
+    "predicted_ms": 8911.262,
+    "predicted_per_token_ms": 38.08231623931624,
+    "predicted_per_second": 26.258906987584922,
+    "host_generation_wall_ms": 13072.59189999968,
+    "emitted_token_count": 235,
+    "reasoning_token_count": 213,
+    "final_and_terminal_token_count": 22,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 407,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The TerraNode T8 default data-logging interval is 30 seconds. [S1]\" | \"The TerraNode T8 can retain up to 256 MB of local logs. [S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "bb0c5b92cd065c8d3952dc87c463b0c4f3d73cc490971ec95a8407fc3dac5462",
+    "final_only": "1. The TerraNode T8 default data-logging interval is 30 seconds. [S1]",
+    "quotation_match": true,
+    "quote_unit_count": 2,
+    "quote_units_sha256": [
+      "9ca99883996b47a7b3d9c019900e4582bddf4bf7e6fca3ba1059a7237a018fed",
+      "b4b31e3bab57099d0a3fdd2bf09b62902b0e0ab8450b0dd60634a7e6f0fb3922"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

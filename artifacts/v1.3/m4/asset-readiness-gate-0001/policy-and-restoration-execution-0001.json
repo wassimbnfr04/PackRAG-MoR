@@ -1,0 +1,71 @@
+{
+  "status": "FAIL",
+  "started_utc": "2026-10-11T15:29:31.602644+00:00",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-readiness-gate-0001\\run_background.py",
+        "--build",
+        "build-0057",
+        "--run",
+        "device-local-assets-policy-0001",
+        "--variant",
+        "demo",
+        "--phase",
+        "core"
+      ],
+      "started_utc": "2026-10-11T15:29:31.602644+00:00",
+      "finished_utc": "2026-10-11T15:40:27.187895+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-readiness-gate-0001\\verify_background.py",
+        "--run",
+        "device-local-assets-policy-0001"
+      ],
+      "started_utc": "2026-10-11T15:40:27.187895+00:00",
+      "finished_utc": "2026-10-11T15:40:27.599123+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-readiness-gate-0001\\run_background.py",
+        "--build",
+        "build-0057",
+        "--run",
+        "device-local-assets-policy-adjacent-0001",
+        "--variant",
+        "demo",
+        "--phase",
+        "adjacent"
+      ],
+      "started_utc": "2026-10-11T15:40:27.602823+00:00",
+      "finished_utc": "2026-10-11T15:45:03.348037+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-readiness-gate-0001\\verify_background.py",
+        "--run",
+        "device-local-assets-policy-adjacent-0001"
+      ],
+      "started_utc": "2026-10-11T15:45:03.349034+00:00",
+      "finished_utc": "2026-10-11T15:45:03.666755+00:00",
+      "returncode": 1
+    }
+  ],
+  "scope": "Serial actual approved-policy core/adjacent with all originals before switching; restore tested development product and consent original; check actual final source/known owner-file guards. Requires independently completed development/UI/visual gates. No radios, private custody or owner data reset. Any failure holds F1; no F2 start."
+}

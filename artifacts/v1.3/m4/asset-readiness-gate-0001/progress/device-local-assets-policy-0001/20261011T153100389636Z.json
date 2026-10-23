@@ -1,0 +1,40 @@
+{
+  "status": "OBSERVATION_ONLY_NOT_TERMINAL_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T15:31:00.393827+00:00",
+  "observed_pid": "22971",
+  "run_context": "device-local-assets-policy-0001",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "22971\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "--pid=22971",
+        "-v",
+        "threadtime",
+        "-s",
+        "TestRunner:I",
+        "*:S"
+      ],
+      "returncode": 0,
+      "stdout": "--------- beginning of main\n10-11 15:30:39.436 22971 23001 I TestRunner: run started: 3 tests\n10-11 15:30:39.437 22971 23001 I TestRunner: started: actualPinnedColdWarmEvidenceAndOwnedTemplateCorruptionReleaseAndRecoverModels(org.packrag.product.LocalAssetReadinessDeviceTest)\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Log rows belong to observed PID. Completed manifest/JUnit and originals, not this observation, establish test outcome."
+}

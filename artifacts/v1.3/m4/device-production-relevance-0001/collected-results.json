@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-09T17:46:48.746072+00:00",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-demo.apk": "a789b7ac163978743f2f60e6bbbf9b6c5d4e936464988b4905105338e3743c96",
+    "app-demo-androidTest.apk": "1310671c90f369a5ff79147507f2eb204a796eea8ed08269ad5f31eda2e1f148"
+  },
+  "source": "Final app-private JSON after full successful instrumentation. original-adb preserves every ADB byte; runner primary is formatted and parsed-equal.",
+  "saved_sha256": {
+    "m4-conflicts.json": "49a1bcdac444b82944f51c754f212cbcd9b6b7ecb4fd67a11e35a9c736d94f16",
+    "m4-source-metadata.json": "b7314fee07394158fd442458445be229d238b8cb0a49b3c9c7524a7be66ef82a",
+    "m4-validity.json": "e84af8bfe9cf9e4c3148dce5d36a5c86715c3b5c41e4b887f5c2198edd653254",
+    "m4-query-identifiers.json": "2d998cbb874a600a3b3cf591715b0be95bc3863126d94cf2297e00790722ecb4",
+    "m4-query-unicode.json": "6971c8af3407c006002f142a1e5f2c9fe4c370e9f0d11cdf3f8d7e902fb515d6",
+    "m2-generator-prompt-parity.json": "ebae3b5dc0fd1bf9c6884a1641f645588305b9419a19ccb306e180b37243c1d6",
+    "m2-pack-retrieval-parity.json": "92490056a4c936761b86e936444beda8250c3ab1c72a0f8f84ab336897584eb1",
+    "m3-data-types.json": "41442dfabdf9e042334b726c3dbacb226042984926e000c3195129f9451ab224",
+    "m3-extension-names.json": "4b4eaf2cae593b7d620912cf2a10e43fb771165ce1a6d204242624fa1dc665f0",
+    "m3-validation-order.json": "051594a58b1ee4aa90627759b572f62e16ec74258b2d81e4fb03837ca084fa8b",
+    "m3-residual-security.json": "1e3e0dc55745be0509f3b509902b054bdf42789eca9406eae306998d1890fc5b",
+    "m3-manifest-schema.json": "3c6fbe2869ebc818c24db8bb90548b5bc7fdd138f8ed1267f12b076e0986650d",
+    "m3-database-validation.json": "eaffa8217833e34c55b3d9b00ef832c09ebeaf53a2236c08dffe65c2fcf4b67b",
+    "m3-archive-validation.json": "a6bdfdea8c6c246d1433594e4d1da852b2761e0219a376dd48de113c0595cad3",
+    "m4-conflict-runtime.json": "ca0c4b018cad1d6f940bfe3b8b5c1f962f9e3031fa4a84e54c04aa183645be56",
+    "m3-production-policy.json": "05d97d8bce82f8b303fb9b03e8d47e5ab4e2e4edb9e6851a7e3d7c7d42c7cfe5",
+    "m3-release-trust-core.json": "11974dd01365bdaeea77da83c9e92c09b1c661bd3c1c3aaebe985f4b7b26666c",
+    "m4-relevance.json": "08b0a167896a143cf0b11824ee68a4d86c4d44b7a9dd7e8ca0dd22a35bf5da0e",
+    "m4-relevance-runtime.json": "922cd99fb7ac8e07790a578ba778224d498550d18ede6815ba3eddf0e6b36316"
+  }
+}

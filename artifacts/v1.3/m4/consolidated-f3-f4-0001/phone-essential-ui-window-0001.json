@@ -1,0 +1,11 @@
+{
+  "status": "OWNER_AUTHORIZED_ANNOUNCED_FOREGROUND_WINDOW_NOT_ACCEPTANCE",
+  "build": "build-0097",
+  "matrix_sha256": "072aa5be614956c6f9a98c487c942b7e5697fbe01e57bda6e693ba63e07ce754",
+  "started_utc": "2026-10-12T16:26:52.950429+00:00",
+  "deadline_utc": "2026-10-12T16:33:52.950429+00:00",
+  "started_monotonic": 10250.296,
+  "deadline_monotonic": 10670.296,
+  "human_reply": "Yes, run that single test now",
+  "scope": "Single real question/source/back UI test only; mobile data remains on, no global settings changed. Let current test finish if deadline expires; no later launches."
+}

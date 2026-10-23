@@ -1,0 +1,699 @@
+{
+  "id": "BEFORE_CAP",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "generate_calls_for_case": 0,
+  "result": {
+    "state": "IDENTIFIER_AMBIGUOUS",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "Unit-00 Unit-01 Unit-02 Unit-03 Unit-04 Unit-05 Unit-06 Unit-07 Unit-08 Unit-09 Unit-10 Unit-11 Unit-12 Unit-13 Unit-14 Unit-15 Unit-16 Unit-17 Unit-18 Unit-19 Unit-20 Unit-21 Unit-22 Unit-23 Unit-24 Unit-25 Unit-26 Unit-27 Unit-28 Unit-29 Unit-30 Unit-31 Unit-32 Unit-33 Unit-34 Unit-35 Unit-36 Unit-37 Unit-38 Unit-39 Unit-40 Unit-41 LOST",
+      "as_of": "2026-10-07",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "normalized": "unit-00 unit-01 unit-02 unit-03 unit-04 unit-05 unit-06 unit-07 unit-08 unit-09 unit-10 unit-11 unit-12 unit-13 unit-14 unit-15 unit-16 unit-17 unit-18 unit-19 unit-20 unit-21 unit-22 unit-23 unit-24 unit-25 unit-26 unit-27 unit-28 unit-29 unit-30 unit-31 unit-32 unit-33 unit-34 unit-35 unit-36 unit-37 unit-38 unit-39 unit-40 unit-41 lost"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.conflict.before-cap",
+        "1.0.0",
+        "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 49.74850000144215,
+      "retrieval_ms": 6.713499999023043,
+      "end_to_end_ms": 57.13079999986803
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "50225f6f91784beae829e5e6",
+        "exact": true,
+        "sparse_rank": 4,
+        "dense_rank": 2,
+        "dense_cosine": 0.8333669900894165,
+        "rrf": 0.031754032258064516,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-03",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "3d43dc0694fd917618571e11",
+        "exact": true,
+        "sparse_rank": 3,
+        "dense_rank": 3,
+        "dense_cosine": 0.8328630924224854,
+        "rrf": 0.031746031746031744,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-00",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "7c0306d3750b56bbd1ce89e4",
+        "exact": true,
+        "sparse_rank": 6,
+        "dense_rank": 1,
+        "dense_cosine": 0.8372195363044739,
+        "rrf": 0.031544957774465976,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-06",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "28e0a37fe08d8696750ce399",
+        "exact": true,
+        "sparse_rank": 2,
+        "dense_rank": 9,
+        "dense_cosine": 0.8192533254623413,
+        "rrf": 0.030621785881252923,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-02",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "bd333b19b318cb2e1e96cb97",
+        "exact": true,
+        "sparse_rank": 8,
+        "dense_rank": 4,
+        "dense_cosine": 0.8266609311103821,
+        "rrf": 0.030330882352941176,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-01",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "725cc4dbfcb99c955d7c0b7e",
+        "exact": true,
+        "sparse_rank": 5,
+        "dense_rank": 7,
+        "dense_cosine": 0.8213839530944824,
+        "rrf": 0.030309988518943745,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-09",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "f61884c709d60cf345d914c3",
+        "exact": true,
+        "sparse_rank": 10,
+        "dense_rank": 5,
+        "dense_cosine": 0.8253891468048096,
+        "rrf": 0.02967032967032967,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-05",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "08e64f24fcb1048dd8534838",
+        "exact": true,
+        "sparse_rank": 11,
+        "dense_rank": 6,
+        "dense_cosine": 0.8238775134086609,
+        "rrf": 0.029236022193768675,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-31",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "d5130a2fed39b2f0ebf1bcf3",
+        "exact": true,
+        "sparse_rank": 9,
+        "dense_rank": 12,
+        "dense_cosine": 0.8183603286743164,
+        "rrf": 0.028381642512077296,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-07",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "b9c25c26174de307671886fd",
+        "exact": true,
+        "sparse_rank": 7,
+        "dense_rank": 15,
+        "dense_cosine": 0.8157468438148499,
+        "rrf": 0.028258706467661692,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-04",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "1f621275e0d15da2652e065f",
+        "exact": true,
+        "sparse_rank": 15,
+        "dense_rank": 17,
+        "dense_cosine": 0.8153043985366821,
+        "rrf": 0.02632034632034632,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-18",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "1b7cbd860adc2a2fdd600471",
+        "exact": true,
+        "sparse_rank": 14,
+        "dense_rank": 22,
+        "dense_cosine": 0.8126797676086426,
+        "rrf": 0.025708635464733027,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-10",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "2c6593bd3738897934967a39",
+        "exact": true,
+        "sparse_rank": 16,
+        "dense_rank": 21,
+        "dense_cosine": 0.813362717628479,
+        "rrf": 0.025503573749187783,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-15",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "432e001b72ce6bb2006a5623",
+        "exact": true,
+        "sparse_rank": 22,
+        "dense_rank": 16,
+        "dense_cosine": 0.815613865852356,
+        "rrf": 0.025353016688061617,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-11",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "1f024a45ac9f6b3d46451464",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": null,
+        "dense_cosine": 0.8104931712150574,
+        "rrf": 0.01639344262295082,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-08",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.before-cap",
+        "chunk_id": "0ca367e3b9ae589b3a70313d",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 8,
+        "dense_cosine": 0.8205773830413818,
+        "rrf": 0.014705882352941176,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.before-cap",
+            "1.0.0",
+            "ef41e580b236f332bae70aacfb0a70c2d4443a3f6d088896db6d3df66c759b9f"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Unit-33",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  }
+}

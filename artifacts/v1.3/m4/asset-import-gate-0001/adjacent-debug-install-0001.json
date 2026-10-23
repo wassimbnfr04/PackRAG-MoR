@@ -1,0 +1,271 @@
+{
+  "status": "PASS_SERIAL_INSTALLED_EXACT_APK_PAIR_NO_TEST_ACCEPTANCE",
+  "started_utc": "2026-10-11T20:25:33.524188+00:00",
+  "build": "build-0076",
+  "variant": "debug",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124  /data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~LIuY8fX7K_sAihCgqYX5Gg==/org.packrag.product.test-BBN4H8P9rV4UK7GF6SLRHw==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~LIuY8fX7K_sAihCgqYX5Gg==/org.packrag.product.test-BBN4H8P9rV4UK7GF6SLRHw==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "e4b18b619f74dcb229b8a156436b7c53c26b1bde6f32129bfe77f34807489f62  /data/app/~~LIuY8fX7K_sAihCgqYX5Gg==/org.packrag.product.test-BBN4H8P9rV4UK7GF6SLRHw==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\nSuccess\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 147.7 MB/s (11559562 bytes in 0.075s)\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "ab7312f059a93ddf41abc61136087ea54b8b3aeab4c3249c189a14644539789b  /data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124  /data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "ab7312f059a93ddf41abc61136087ea54b8b3aeab4c3249c189a14644539789b  /data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124  /data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "ab7312f059a93ddf41abc61136087ea54b8b3aeab4c3249c189a14644539789b  /data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124  /data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "ab7312f059a93ddf41abc61136087ea54b8b3aeab4c3249c189a14644539789b  /data/app/~~ciQjPWDE9VoJ9qnjA92-sg==/org.packrag.product.test-eaCkpBGBTgT5dpkGbXWbpQ==/base.apk\n",
+      "stderr": ""
+    }
+  ],
+  "apk_sha256": {
+    "org.packrag.product": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+    "org.packrag.product.test": "ab7312f059a93ddf41abc61136087ea54b8b3aeab4c3249c189a14644539789b"
+  },
+  "scope": "Only mismatched public APKs replaced in place serially; unchanged product reused. All install commands terminalSuccess and actual installed hashes exact before any test. Three consecutive pair identity checks are observations, not proof against an unknown future installer. No uninstall/clear/radio/security setting/upload. Timeout means unknown installer outcome: do not run tests or start another install until device decision/session settled and exact hashes reverified.",
+  "finished_utc": "2026-10-11T20:26:09.906339+00:00"
+}

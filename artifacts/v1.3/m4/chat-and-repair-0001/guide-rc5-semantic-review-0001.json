@@ -1,0 +1,40 @@
+{
+  "status": "BLOCKED_SEMANTIC_PROMOTION_NOT_REPAIR_ACCEPTANCE",
+  "candidate": "mobile-v1-guides-rc5",
+  "execution": "artifacts/v1.3/m4/repair-guide-grammar-validation-0003",
+  "scope": "Manual comparison to unchanged frozen factual digests and generator gold. Structural states alone do not establish correctness.",
+  "findings": [
+    {
+      "case": "FAN_PARAPHRASE",
+      "result": "FAIL",
+      "reason": "Opening instructions change check every bottom screw into check for proper tightening, which reverses the opening action. Excessive force and assurance language also lack source support."
+    },
+    {
+      "case": "TUBE_PARAPHRASE",
+      "result": "FAIL_ORDER",
+      "reason": "Answer deflates before wheel removal; supplied procedure releases/removes wheel before deflation. No basis supplied for reordering."
+    },
+    {
+      "case": "FAN_CONNECTOR",
+      "result": "FAIL_UNSUPPORTED_ASSURANCE",
+      "reason": "Concluding ensures without damaging the socket is stronger than gentle work/reconnection and do not force."
+    },
+    {
+      "case": "FAN_SAFE_START",
+      "result": "PRESENTATION_FAIL",
+      "reason": "Run-in steps and bold markup undermine readable guide despite structural paragraph acceptance."
+    },
+    {
+      "case": "G0-C02",
+      "result": "FAIL_COMPLETENESS",
+      "reason": "Nominal48VDC answered but requested maximum6A omitted."
+    },
+    {
+      "case": "G0-A05",
+      "result": "FAIL_ABSTENTION",
+      "reason": "Unresolved thermistor/RTD contradiction produced an accepted partial answer instead of deterministic abstention."
+    }
+  ],
+  "promotion": false,
+  "hidden_reasoning_saved": false
+}

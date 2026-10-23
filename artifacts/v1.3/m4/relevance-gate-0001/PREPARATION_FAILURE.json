@@ -1,0 +1,1 @@
+{"status":"PROCEDURAL_ADAPTER_ASSERTION_BEFORE_OUTPUT_WRITE","failure":"python_tests=691 replacement absent after an earlier overlapping tests=691 replacement","product_source_changed":false,"closure_or_acceptance_written":false,"repair":"Match dict(tests=691 separately from python_tests=691; assert every intended adapter replacement before output."}

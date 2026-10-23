@@ -1,0 +1,56 @@
+{
+  "id": "G0-A02",
+  "category": "abstention",
+  "question": "What color is the Cirrus C4 enclosure?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Cirrus C4 instrument weighs 3.8 kg."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 273,
+    "prompt_ms": 2835.705,
+    "prompt_per_token_ms": 10.387197802197802,
+    "prompt_per_second": 96.27235555179399,
+    "predicted_n": 186,
+    "predicted_ms": 6910.543,
+    "predicted_per_token_ms": 37.35428648648649,
+    "predicted_per_second": 26.770689365510062,
+    "host_generation_wall_ms": 9811.784699999407,
+    "emitted_token_count": 186,
+    "reasoning_token_count": 177,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 273,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" cite (\" \" cite)? (\" \" cite)? (\" \" cite)? (\"**\" | \"*\")? \".\"?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "971b40d27bd8bce6cc122810211f2d4be7df60528513e4ef0be18aeb2acd975b",
+    "final_only": "INSUFFICIENT_EVIDENCE"
+  },
+  "manual_semantic_review_required": true
+}

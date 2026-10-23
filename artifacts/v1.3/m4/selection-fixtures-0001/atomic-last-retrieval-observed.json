@@ -1,0 +1,13 @@
+{
+  "id": "atomic-last",
+  "ambiguous": false,
+  "pool": [
+    "de4007485c3423ff37bcb693",
+    "191a8da23f0fd6086da0f31f",
+    "4363e8b9e2be6e5e2dfe71a7",
+    "6df516db7affc2913b8d3a29",
+    "2e2153a45f4da98b6cf1ab76"
+  ],
+  "admission": null,
+  "selected": []
+}

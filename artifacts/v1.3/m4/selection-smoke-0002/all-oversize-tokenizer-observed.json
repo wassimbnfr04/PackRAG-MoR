@@ -1,0 +1,24 @@
+{
+  "id": "all-oversize",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "admission": "INPUT_TOO_LONG",
+  "actual_tokenizer": {},
+  "max_embedding_abs_error": 0.0,
+  "selection": {
+    "keys": [],
+    "decisions": [
+      {
+        "key": "org.packrag.contract.all-oversize@1.0.0:4119197bff57a4c9e1246b48652c140b61e9cf8a20b5ab173038664eb6d4edb3#36fde3100f8d83fa33999f50",
+        "reason": "TOKEN_CAP",
+        "trial": [
+          "org.packrag.contract.all-oversize@1.0.0:4119197bff57a4c9e1246b48652c140b61e9cf8a20b5ab173038664eb6d4edb3#36fde3100f8d83fa33999f50"
+        ],
+        "representative": null,
+        "evidence_tokens": 2060,
+        "prefill_tokens": 2231
+      }
+    ],
+    "sources": [],
+    "admission": "INPUT_TOO_LONG"
+  }
+}

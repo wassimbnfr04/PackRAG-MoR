@@ -1,0 +1,23 @@
+{
+  "status": "PASS_FAILURE_CUSTODY_AND_TEST_ONLY_RETRY_BINDING_NOT_NATIVE_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T16:38:54.134157+00:00",
+  "original_failure_sha256": {
+    "instrumentation.txt": "499b7e1e67d60a1386f44923906c5aa72f36dc3a1af38ae8a3ded2aa8b30582e",
+    "execution.json": "4715f843fcd0d55de834b94c39cf7df03094dc8b0d966bb9d317ac762b2ec42d",
+    "instrumentation-manifest.json": "4715f843fcd0d55de834b94c39cf7df03094dc8b0d966bb9d317ac762b2ec42d",
+    "failure.txt": "1f29a51670b5d74208c8864456f192e9ebcbe7536b0f5610587efcf7e6b18cfc"
+  },
+  "observed_failure": "First provider audit query denied before pre-import native query/import. Earlier actual receiver broadcast returned result1. Actual target/provider UIDs10469/10472 differ. Instrumentation whole-test time14.479s, not performance metric.",
+  "root_cause_limit": "Pre-instrumentation grant was insufficient at actual provider acquisition. Instrumentation setup revoking that grant is a hypothesis; no captured platform grant-lifecycle trace establishes its cause.",
+  "correction": "Only the instrumentation walking test now requests the same DUMP-protected explicit narrow read grant through actual UiAutomation shell broadcast after instrumentation starts. No adopted permission/product privilege/root/radio changes. Assert actual broadcast result before provider query. Real successful retry is required; none claimed here.",
+  "source_delta": {
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportWalkingDeviceTest.kt": {
+      "before": "9771dc5d4d1c89524352c0cc2dce427358f351520c45640902d5f0ca614d7c7f",
+      "after": "ffa9f1272df848f07c660d0032bb0a22d2601cf74278b2dbe4e092c3977fc432"
+    }
+  },
+  "unchanged_debug_product_sha256": "af94aa56b9e7d777bf850b016285fc967218e363bb8cf2cf1f4392d324b927b1",
+  "known50_postfailure_guard_sha256": "0331f74d18ef0db458a024fc69b014132984101502b7ccd8a20fbe1ca42a702f",
+  "retry": "device-local-asset-import-walking-0002",
+  "scope": "Failed0001 staysFAIL, no structured native/URI PASS original exists for it. All F2 hardening/UI progression held until corrected walking iteration passes; F2/F3/F4/later gates remain."
+}

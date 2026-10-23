@@ -1,0 +1,339 @@
+{
+  "recorded_utc": "2026-10-05T16:27:22.201485+00:00",
+  "serial": "R3CT908DHHR",
+  "pid": 17297,
+  "purpose": "READ_ONLY_SNAPSHOT_NOT_PEAK_OR_CAUSAL_BOTTLENECK_PROOF",
+  "commands": [
+    {
+      "argv": [
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "17297\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/cgroup"
+      ],
+      "returncode": 0,
+      "stdout": "5:freezer:/\n4:cpuset:/foreground\n3:cpuacct:/\n2:cpu:/foreground\n1:blkio:/\n0::/apps/uid_10469/pid_17297\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/cpuset"
+      ],
+      "returncode": 0,
+      "stdout": "/foreground\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/status"
+      ],
+      "returncode": 0,
+      "stdout": "Name:\tpackrag.product\nUmask:\t0077\nState:\tS (sleeping)\nTgid:\t17297\nNgid:\t0\nPid:\t17297\nPPid:\t1378\nTracerPid:\t0\nUid:\t10469\t10469\t10469\t10469\nGid:\t10469\t10469\t10469\t10469\nFDSize:\t128\nGroups:\t9997 20469 50469 \nVmPeak:\t21155844 kB\nVmSize:\t21155844 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t 2310596 kB\nVmRSS:\t 1808360 kB\nRssAnon:\t  205692 kB\nRssFile:\t 1599312 kB\nRssShmem:\t    3356 kB\nVmData:\t 3708604 kB\nVmStk:\t    8192 kB\nVmExe:\t       4 kB\nVmLib:\t  224904 kB\nVmPTE:\t    5824 kB\nVmSwap:\t  428804 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nThreads:\t26\nSigQ:\t0/35455\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000080001204\nSigIgn:\t0000000000000001\nSigCgt:\t0000006e400084f8\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t0000000000000000\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t2\nSeccomp_filters:\t1\nSpeculation_Store_Bypass:\tthread vulnerable\nCpus_allowed:\t7f\nCpus_allowed_list:\t0-6\nMems_allowed:\t1\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t65\nnonvoluntary_ctxt_switches:\t201\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/stat"
+      ],
+      "returncode": 0,
+      "stdout": "17297 (packrag.product) S 1378 1378 0 0 -1 1077936448 389460 0 76565 0 215292 2096 0 0 20 0 26 0 17414978 21663584256 452090 18446744073709551615 403094507520 403094511584 548851707088 0 0 0 4612 1 1073775864 0 0 0 17 1 0 0 0 0 0 403094515712 403094515736 403921166336 548851710127 548851710226 548851710226 548851716062 0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/17297/sched"
+      ],
+      "returncode": 0,
+      "stdout": "packrag.product (17297, #threads: 26)\n-------------------------------------------------------------------\nse.exec_start                                :     138764826.805530\nse.vruntime                                  :      17351389.320300\nse.sum_exec_runtime                          :           764.835373\nse.nr_migrations                             :                   65\nse.statistics.sum_sleep_runtime              :        618558.619649\nse.statistics.wait_start                     :             0.000000\nse.statistics.sleep_start                    :     143892888.672672\nse.statistics.block_start                    :             0.000000\nse.statistics.sleep_max                      :        295090.828476\nse.statistics.block_max                      :             0.702265\nse.statistics.exec_max                       :             3.980587\nse.statistics.slice_max                      :             0.000000\nse.statistics.wait_max                       :           201.683047\nse.statistics.wait_sum                       :           488.113243\nse.statistics.wait_count                     :                  271\nse.statistics.iowait_sum                     :             0.961797\nse.statistics.iowait_count                   :                    4\nse.statistics.nr_migrations_cold             :                    0\nse.statistics.nr_failed_migrations_affine    :                   38\nse.statistics.nr_failed_migrations_running   :                   33\nse.statistics.nr_failed_migrations_hot       :                   13\nse.statistics.nr_forced_migrations           :                    2\nse.statistics.nr_wakeups                     :                   65\nse.statistics.nr_wakeups_sync                :                   33\nse.statistics.nr_wakeups_migrate             :                   13\nse.statistics.nr_wakeups_local               :                   35\nse.statistics.nr_wakeups_remote              :                   30\nse.statistics.nr_wakeups_affine              :                    0\nse.statistics.nr_wakeups_affine_attempts     :                    0\nse.statistics.nr_wakeups_passive             :                    0\nse.statistics.nr_wakeups_idle                :                    0\navg_atom                                     :             2.875320\navg_per_cpu                                  :            11.766698\nnr_switches                                  :                  266\nnr_voluntary_switches                        :                   65\nnr_involuntary_switches                      :                  201\nse.load.weight                               :              1048576\nse.avg.load_sum                              :                11197\nse.avg.runnable_sum                          :             11467856\nse.avg.util_sum                              :               873531\nse.avg.load_avg                              :                  230\nse.avg.runnable_avg                          :                  230\nse.avg.util_avg                              :                    4\nse.avg.last_update_time                      :      136772527942980\nse.avg.util_est.ewma                         :                   13\nse.avg.util_est.enqueued                     :                    4\nuclamp.min                                   :                    0\nuclamp.max                                   :                 1024\neffective uclamp.min                         :                    0\neffective uclamp.max                         :                 1024\npolicy                                       :                    0\nprio                                         :                  120\nclock-delta                                  :                   78\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "Applications Memory Usage (in Kilobytes):\nUptime: 143912864 Realtime: 174788742\n\n** MEMINFO in pid 17297 [org.packrag.product] **\n                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap\n                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free\n                ------   ------   ------   ------   ------   ------   ------   ------\n  Native Heap   185062    66124   118924   331557   186276   618892   609145     4988\n  Dalvik Heap     3489     2696      704    61868     4972   112768    63616    49152\n Dalvik Other     3282     2268      556      736     4064                           \n        Stack      356      296       60      380      364                           \n       Ashmem       18        0        0        0      508                           \n    Other dev        8        0        8        0      364                           \n     .so mmap      342       24       68      124    16560                           \n    .jar mmap     1083        0       84        0    26916                           \n    .apk mmap     6232      100     6112      648     6424                           \n    .ttf mmap        2        0        0        0      104                           \n    .dex mmap       10        0        0        0      764                           \n    .oat mmap       18        0        0        0     1008                           \n    .art mmap     1497      212     1020     6679    11496                           \n   Other mmap  1548519        4  1548512        0  1549140                           \n      Unknown      242      196       36      788      872                           \n        TOTAL  2152940    71920  1676084   402780  1809832   731660   672761    54140\n \n App Summary\n                       Pss(KB)                        Rss(KB)\n                        ------                         ------\n           Java Heap:     3928                          16468\n         Native Heap:    66124                         186276\n                Code:     8172                          54464\n               Stack:      296                            364\n            Graphics:        0                              0\n       Private Other:  1669484\n              System:   404936\n             Unknown:                                 1552260\n \n           TOTAL PSS:  2152940            TOTAL RSS:  1809832       TOTAL SWAP PSS:   402780\n \n Objects\n               Views:        0         ViewRootImpl:        0\n         AppContexts:        4           Activities:        0\n              Assets:       33        AssetManagers:        0\n       Local Binders:        7        Proxy Binders:       41\n       Parcel memory:        4         Parcel count:       19\n    Death Recipients:        0             WebViews:        0\n \n Native Allocations\n                         Count                       Total(kB)\n                        ------                         ------\n    Other (malloced):      298                             26\n Other (nonmalloced):       57                             46\n \n SQL\n         MEMORY_USED:        0\n  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0\n \n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/proc/cpuinfo"
+      ],
+      "returncode": 0,
+      "stdout": "processor\t: 0\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd46\nCPU revision\t: 2\n\nprocessor\t: 1\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd46\nCPU revision\t: 2\n\nprocessor\t: 2\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd46\nCPU revision\t: 2\n\nprocessor\t: 3\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd46\nCPU revision\t: 2\n\nprocessor\t: 4\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x2\nCPU part\t: 0xd47\nCPU revision\t: 0\n\nprocessor\t: 5\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x2\nCPU part\t: 0xd47\nCPU revision\t: 0\n\nprocessor\t: 6\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x2\nCPU part\t: 0xd47\nCPU revision\t: 0\n\nprocessor\t: 7\nBogoMIPS\t: 51.20\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x2\nCPU part\t: 0xd48\nCPU revision\t: 0\n\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1344000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1824000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1344000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1824000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu1/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1344000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1824000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu2/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1152000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu3/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "1824000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu3/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu4/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "960000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu4/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "2515000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu4/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu5/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "960000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu5/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "2515000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu5/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu6/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "960000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu6/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "2515000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu6/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu7/cpufreq/scaling_cur_freq"
+      ],
+      "returncode": 0,
+      "stdout": "960000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu7/cpufreq/cpuinfo_max_freq"
+      ],
+      "returncode": 0,
+      "stdout": "2803000\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "shell",
+        "cat",
+        "/sys/devices/system/cpu/cpu7/cpufreq/scaling_governor"
+      ],
+      "returncode": 0,
+      "stdout": "energy_aware\n",
+      "stderr": ""
+    }
+  ]
+}

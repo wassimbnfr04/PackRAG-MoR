@@ -1,0 +1,16 @@
+{
+  "status": "PREPARED_QUERY_SUBMISSION_SYNC_NOT_RETRY_OR_F2_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T19:08:43.432730+00:00",
+  "execution_sha256": "e021c1f137c4be72475147e71eb35060da692d7a7c3e1a8a0597dd2dc3235d32",
+  "progress_sha256": "52d71d4c168383d0c75842648ae186386f4e4acc2a853203037420531669c973",
+  "partial_run_png_sha256": {
+    "m4-local-asset-import-ui-progress.png": "03dbe9fe2cc78c18a1218981afc276a9288ae4e81242610d34735fbda62bf249",
+    "m4-local-asset-import-ui-verified.png": "75bb5af0e63178f909c860ff6ca060815d5ade37e526af01f0da1db179e7e87c"
+  },
+  "changed_test_source": {
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportUiDeviceTest.kt": "014efd8cb957a38cfc0f67e00475d37db96c9846fa936b098800a77642101e28"
+  },
+  "unchanged_inputs": 597,
+  "driver_sha256": "bee56bf8e0fa0da26471181ae43de275bfd3eba8e98b5bcae2c44d1ee124baa8",
+  "note": "UI0003 terminal FAIL156.632s at unchanged completion UUID after attempted GUI submission. Six recorded actual controls pass, including destroyed stopped caller/distinct recreated Activity with saved bundle/same ViewModel/system picker foreground, exact selected official-template grant/install and canonical-source/back navigation. Two actual partial-run PNGs preserved; not full acceptance. Old answer retained at final check; dispatch/busy timing was not recorded, so missed touch versus synchronization remains unresolved, not a product-generation failure conclusion. Single test-source repair now checks entered question/date and enabled button, waits for Compose idle before tap, requires observed busy or changed/cleared completion within10s before waiting for final answer, and persists dispatch observation. Final new-ID/cold native/canonical/citation assertions unchanged; no automatic button retry or substituted generation.597 other inputs unchanged/product sources untouched; build0073 pending and whole product APK equality required. Owner50 unchanged after failure. New original/versioned driver prepared; current foreground window must be renewed if exhausted. Approved-policy0070 retained, full F2/F3/F4 not accepted."
+}

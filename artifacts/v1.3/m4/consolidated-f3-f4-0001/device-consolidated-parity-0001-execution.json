@@ -1,0 +1,148 @@
+{
+  "status": "STOPPED_BETWEEN_CLASSES_BY_EXPLICIT_REQUEST_NOT_ACCEPTANCE",
+  "started_utc": "2026-10-12T16:01:55.754135+00:00",
+  "phase": "debug-parity",
+  "build": "build-0097",
+  "variant": "debug",
+  "runner_sha256": "2da3c20a6c60e7cdd7c7fa84a20d130a67c5f64830f2899f7038b201be622eec",
+  "matrix_sha256": "3f5fb7acf30c9a2f6b19c988b4a6fb0b70da3d4cc5cfd651bf4d47e6df84a1d5",
+  "pair_sha256": "987efe9b7cf4e6b8854f86aed50344b6b289a452702fe392a1f6fe11f12398a6",
+  "installation_sha256": "8bf56d88a3fc4f87f8cb21f1f6f3acc53123c5d0dec655c8699906b814a4478d",
+  "classes": [
+    "EmbeddingParityTest",
+    "QueryUnicodeDeviceTest",
+    "QueryIdentifierDeviceTest",
+    "ValidityDeviceTest",
+    "SourceMetadataDeviceTest",
+    "ConflictDeviceTest",
+    "SourceTextDeviceTest",
+    "PackRetrievalParityTest",
+    "GeneratorPromptParityTest",
+    "RelevanceDeviceTest",
+    "RepresentationDeviceTest",
+    "SelectionDeviceTest"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-parity-0001-before-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "before-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0097",
+        "--output",
+        "device-consolidated-parity-0001-before-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "before-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-consolidated-parity-0001-before-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "before-source4-modes"
+    },
+    {
+      "label": "EmbeddingParityTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m2-embedding-parity.json; rm -f files/m2-embedding-parity.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m2-embedding-parity.json": "ecac0294b7e540bb921213f6582aae9c79a215a79a5f14418072dd3da4c14988"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-parity-0001-embeddingparitytest",
+        "--class-name",
+        "org.packrag.product.EmbeddingParityTest",
+        "--result-file",
+        "m2-embedding-parity.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "EmbeddingParityTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-parity-0001-embeddingparitytest",
+        "--files",
+        "m2-embedding-parity.json"
+      ],
+      "returncode": 0,
+      "label": "EmbeddingParityTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-parity-0001-embeddingparitytest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "EmbeddingParityTest-owner50"
+    }
+  ],
+  "completed": [
+    {
+      "class": "EmbeddingParityTest",
+      "methods": 1,
+      "run": "device-consolidated-parity-0001-embeddingparitytest",
+      "original_sha256": {
+        "m2-embedding-parity.json": "9988f158cd81410d3b5297fdea448e6e9ebb26dd47530c72e24ad1ecb5b8530d"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "b94adb2907e2e6e61650fe480c554404dd4e1f0f8fe15a70695de4cdcc64fdea"
+    }
+  ],
+  "active_class": "EmbeddingParityTest",
+  "active_expected_methods": 1,
+  "next_class": "QueryUnicodeDeviceTest",
+  "stop_request": "{\n  \"requested_utc\": \"2026-10-12T16:02:25.926045+00:00\",\n  \"reason\": \"Owner requested emulator-first and only necessary tests; let active class finish, then reassess pending launches without killing instrumentation.\"\n}\n",
+  "updated_utc": "2026-10-12T16:02:36.133462+00:00"
+}

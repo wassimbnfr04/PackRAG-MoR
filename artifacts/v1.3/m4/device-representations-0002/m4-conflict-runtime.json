@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "UNKNOWN",
+      "status": "PASS",
+      "state": "IDENTIFIER_AMBIGUOUS",
+      "answer": null,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 6913.647656,
+      "initialization_ms": 6872.357617,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "sources": []
+    },
+    {
+      "id": "DIFFERENT_CURATORS",
+      "status": "PASS",
+      "state": "IDENTIFIER_AMBIGUOUS",
+      "answer": null,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 88.642617,
+      "initialization_ms": 0,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "sources": []
+    },
+    {
+      "id": "BEFORE_CAP",
+      "status": "PASS",
+      "state": "IDENTIFIER_AMBIGUOUS",
+      "answer": null,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 254.392734,
+      "initialization_ms": 0,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "sources": []
+    },
+    {
+      "id": "FIVE_COMPANIONS",
+      "status": "PASS",
+      "state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+      "answer": null,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 90.485469,
+      "initialization_ms": 0,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "sources": []
+    },
+    {
+      "id": "AUTHORITY",
+      "status": "PASS",
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+      "actual_weight_inference": true,
+      "model_load_not_excluded": false,
+      "selected": [
+        "4e3ec8b76f322fb709ad6507"
+      ],
+      "prefill_tokens": 237,
+      "evidence_tokens": 65,
+      "emitted_tokens_including_terminal": 170,
+      "total_ms_including_lazy_initialization": 94685.082461,
+      "initialization_ms": 0,
+      "prefill_ms": 39702.004492,
+      "decode_wall_ms": 54903.394531,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "pack_id": "org.packrag.contract.conflict.authority",
+          "version": "1.0.0",
+          "manifest_sha256": "dcb92589dee62b3ef811e934e34522215c62681c01379ab8c2ffccfcb72f1633",
+          "conflict_states": [
+            "RESOLVED_AUTHORITY"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPERSEDES_CURRENT",
+      "status": "PASS",
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+      "actual_weight_inference": true,
+      "model_load_not_excluded": false,
+      "selected": [
+        "f59d2d76c4efa9c6c541d347"
+      ],
+      "prefill_tokens": 241,
+      "evidence_tokens": 67,
+      "emitted_tokens_including_terminal": 170,
+      "total_ms_including_lazy_initialization": 144565.843438,
+      "initialization_ms": 0,
+      "prefill_ms": 62153.546172,
+      "decode_wall_ms": 82340.006719,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "pack_id": "org.packrag.contract.conflict.supersedes",
+          "version": "1.0.0",
+          "manifest_sha256": "19b0cc9430e91cf0517d7d40db4307d855185d17afbda3e13056e75aeec82e0d",
+          "conflict_states": [
+            "RESOLVED_RELATION"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXCEPTION",
+      "status": "PASS",
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S2].",
+      "actual_weight_inference": true,
+      "model_load_not_excluded": false,
+      "selected": [
+        "daf91d8d98e942d608496b1e",
+        "31510a8f66c242b20db48aa4"
+      ],
+      "prefill_tokens": 304,
+      "evidence_tokens": 133,
+      "emitted_tokens_including_terminal": 233,
+      "total_ms_including_lazy_initialization": 156208.540938,
+      "initialization_ms": 0,
+      "prefill_ms": 76863.452422,
+      "decode_wall_ms": 78834.44207,
+      "sources": [
+        {
+          "id": "S2",
+          "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "pack_id": "org.packrag.contract.conflict.exception",
+          "version": "1.0.0",
+          "manifest_sha256": "0b1ac050363835b702fdbe8ad3cdc59903710f31ba16addbe573121dc80f7634",
+          "conflict_states": [
+            "RESOLVED_RELATION"
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_reasoning_persisted": false,
+  "purpose": "ACTUAL_LFM_SYNTHETIC_CONFLICT_RUNTIME_NOT_LEGAL_REVIEW_CALIBRATION_OR_PERFORMANCE",
+  "developer_trust": "EXPLICIT_ISOLATED_TEST_KEYS_NOT_PRODUCTION_DEFAULT",
+  "network_mode": "MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET"
+}

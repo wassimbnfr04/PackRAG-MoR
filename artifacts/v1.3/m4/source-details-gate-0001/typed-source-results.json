@@ -1,0 +1,37 @@
+{
+  "status": "PASS_DEVELOPMENT_SOURCE_JSON_TYPES_NOT_POLICY_OR_E2_CLOSURE",
+  "original_checker_sha256": "a201760cdaa4ae912853603bec25f6c97476cec5cf6b5e03a4410c8f9fb5cc5e",
+  "current_checker_sha256": "537fd3dbd45f5cfd394509e0cb117e400d2bf7e220f2f2a9f5d3c7b3fb7821f9",
+  "negative_type_controls": 5,
+  "development": {
+    "packs": 17,
+    "active_inactive_inspections": 34,
+    "exact_public_source_rows": 43,
+    "fields_per_row": 19,
+    "field_names": [
+      "source_id",
+      "title",
+      "publisher",
+      "canonical_uri",
+      "retrieved_at",
+      "issued_at",
+      "effective_from",
+      "effective_until_excl",
+      "jurisdiction",
+      "language",
+      "document_version",
+      "sha256_original",
+      "license",
+      "redistribution_allowed",
+      "source_type",
+      "authority_rank",
+      "legal_status",
+      "snapshot_path",
+      "notes"
+    ],
+    "rejection_controls": 11,
+    "original_results": 35,
+    "pack_metadata_truth": "SIGNED_ASSERTIONS_NOT_EXTERNAL_LICENSE_REVIEW_CALIBRATION_APPROVAL"
+  },
+  "statement": "All original signed expectations and device outputs are unchanged. Source-row comparison now requires identical JSON value types; bool/int/float equality cannot hide a format mismatch. Existing passing outputs are not relabelled or rerun."
+}

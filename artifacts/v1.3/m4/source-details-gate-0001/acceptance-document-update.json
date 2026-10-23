@@ -1,0 +1,48 @@
+{
+  "status": "E2_ACCEPTANCE_DOCUMENTED_AFTER_COMPLETE_CHECK_ONLY",
+  "recorded_utc": "2026-10-10T18:24:48.227485+00:00",
+  "whole_instrumentation_seconds": {
+    "device-ui-source-details-0002": 191.572,
+    "device-source-details-full-0001": 2403.586,
+    "device-source-details-policy-full-0001": 1715.644,
+    "device-development-restore-0013": 3.019
+  },
+  "updated": {
+    "STATUS.md": {
+      "before_sha256": "208be211ccdd6f437dbd4c2dc89d72cba20864582e5d200e45df360e4cb068d4",
+      "after_sha256": "f5cbca6507c59551ff14cebee4a90987c987731599bc8dd627dcfbb76c2181ca"
+    },
+    "PLAN.md": {
+      "before_sha256": "59aa184784534b78e2b77514135cad703d17d292eea4e93eb42e3467ba124ddf",
+      "after_sha256": "f1d86684fa16deb135cd056b6b22d98ec6cf03c544272ae510d140d2fa9eac67"
+    },
+    "DECISIONS.md": {
+      "before_sha256": "5cc2dafa554451125bc3e67131a4a4a56137c024a1acab95c7416c679e57cf0c",
+      "after_sha256": "f4cd028a9d14a991ed0f15097081e82fd640ced0e8bcea47c5dcb6dd76a87126"
+    },
+    "docs/v1.3/M4E2_METHODS.md": {
+      "before_sha256": "6915b28159cd261e4d319a6113246b1f3d3e59573d3e08558edfa0da07a169e4",
+      "after_sha256": "29c26c4651ae716b33581fdac22e3afbab2d71d4d3659ccd4f04544853e0a974"
+    },
+    "docs/v1.3/M4E2_EVIDENCE_INDEX.md": {
+      "before_sha256": "12aedb83de60dd5a524abf80e6552113b9201ed48c600162cf9e873bfd9b45b4",
+      "after_sha256": "0010bd1cd82560c21e9da3739ada7364f971b3f065465d5b2ad737331d24b326"
+    },
+    "docs/v1.3/M4_INCREMENT_PLAN.md": {
+      "before_sha256": "a5e4034d95eeb313d14302fa3d6f9fcf23768f0b15d346ff628aa0d912ecc33a",
+      "after_sha256": "93b1785bd1220ca9f9e930c5575db27b8df2babe8934aba537eb82d888cb8b95"
+    },
+    "docs/v1.3/M4_IMPLEMENTATION_LOG.md": {
+      "before_sha256": "00bc06ecd1f67f4ca8a63775a0503ddcea08a62b7c771bcf369fd0f53b42ee08",
+      "after_sha256": "584491758f4ae226cd149e948871829efbb6ac3bc4747640ad6a93fe0837cbe9"
+    },
+    "docs/architecture-compliance-matrix.md": {
+      "before_sha256": "8d2f88c9a221533d5d8641c0fd909bb62117d44499d3cd99669271404ccab65c",
+      "after_sha256": "60349da2349f095cf0f0291134cfa04ef34a89596378848920ab4d964a1adc77"
+    },
+    "docs/v1.3/FULL_DOCUMENTATION_WORKING.md": {
+      "before_sha256": "a1c54eb22f8521bb219cd8af3236fb87257efbb2ff1bb65ce8aa37daf39a6a89",
+      "after_sha256": "32cb40621d237de4188035122043315fcd0b725564c58479d66c2442f3d6a5bf"
+    }
+  }
+}

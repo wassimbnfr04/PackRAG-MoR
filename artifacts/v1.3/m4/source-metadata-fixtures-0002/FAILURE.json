@@ -1,0 +1,6 @@
+{
+  "status": "FAIL_FIXTURE_ARGUMENT_TYPE_NO_ACCEPTANCE",
+  "reason": "Nullable article was passed as document_input context_prefix; str.join rejects None. Failure occurs before new dense payload/final signed pack/cases/test assets.",
+  "repair": "Use nonempty article else section as second field, empty string context prefix as third; save exact inputs and regenerate actual Granite vectors in fresh0003.",
+  "product_or_model_failure": false
+}

@@ -1,0 +1,14 @@
+{
+  "key_id": "ed25519:67744919eb4747a5d16407c10e90287307a375fd6d5df28e4accbe2c7ee0b3e1",
+  "manifest_sha256": "4a5c81b87449e007674c88fa5b9e0fe6b5a6fbed1c23e03158b12c2fc4251216",
+  "signature_bytes": 64,
+  "public_key_bytes": 32,
+  "positive": "PASS",
+  "negative": [
+    "wrong_key",
+    "modified_manifest",
+    "modified_signature",
+    "truncated_signature",
+    "unknown_key"
+  ]
+}

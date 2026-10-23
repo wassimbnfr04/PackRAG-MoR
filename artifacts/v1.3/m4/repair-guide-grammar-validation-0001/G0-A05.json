@@ -1,0 +1,60 @@
+{
+  "id": "G0-A05",
+  "category": "abstention",
+  "question": "What type of temperature sensor does the Atlas P2 use?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "For the Atlas P2, document A states that the temperature sensor is a thermistor."
+    },
+    {
+      "id": "S2",
+      "text": "For the same Atlas P2 hardware revision, document B states that the temperature sensor is an RTD.\n\nNeither source is marked newer or more authoritative."
+    }
+  ],
+  "state": "GENERATION_UNUSABLE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": "unfinished_reasoning_or_truncated",
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 323,
+    "prompt_ms": 3521.995,
+    "prompt_per_token_ms": 10.904009287925696,
+    "prompt_per_second": 91.70938629952627,
+    "predicted_n": 1024,
+    "predicted_ms": 39313.635,
+    "predicted_per_token_ms": 38.42975073313783,
+    "predicted_per_second": 26.021506278928413,
+    "host_generation_wall_ms": 42858.951199999865,
+    "emitted_token_count": 1024,
+    "reasoning_token_count": 295,
+    "final_and_terminal_token_count": 729,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "limit",
+    "output_truncated": true,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 323,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" ws (\"INSUFFICIENT_EVIDENCE\" | line (\"\\n\" ws line)*) ws\nline ::= text \" \" cite (\" \" cite)* \".\"?\ntext ::= [^\\x5B\\x3C\\x00-\\x1F]+\ncite ::= \"[S1]\" | \"[S2]\"\nws ::= [ \\t\\r\\n]*\n",
+    "grammar_sha256": "e3c8db194a5250b8632c0eeba8e0918896e48638383f21380a8fd518790516f7",
+    "final_only": "Based on the provided verified evidence, there are conflicting reports about the temperature sensor type for the Atlas P2. Document A states that the temperature sensor is a thermistor [S1]."
+  },
+  "manual_semantic_review_required": true
+}

@@ -1,0 +1,77 @@
+{
+  "status": "FAIL",
+  "started_utc": "2026-10-11T19:01:02.730777+00:00",
+  "runner_sha256": "e5329b5e270ba3ef3d7fb54be70ce1d9d10d1ad8a10423d95a33620857ea88ee",
+  "build": "build-0072",
+  "run": "device-local-asset-import-ui-0003",
+  "foreground_authorized": true,
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0072",
+        "--output",
+        "device-local-asset-import-ui-0003-before-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0072",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-ui-0003",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportUiDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-ui.json",
+        "--timeout",
+        "2400",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 1
+    }
+  ],
+  "failure_type": "AssertionError",
+  "failure_message": "Hold later milestones; preserve and diagnose this failure",
+  "failure_captures": {
+    "m4-local-asset-import-ui.json": {
+      "returncode": 0,
+      "stderr_utf8": "",
+      "sha256": "82d61eff26a0445f0d46e761643ebb1b2019eb920472d8cb94be7de870f1e8e3",
+      "scope": "Unaccepted failure-time capture; may be absent, partial or stale. Interpret against current test_id and progress, never promote to PASS."
+    },
+    "m4-local-asset-import-ui-progress.json": {
+      "returncode": 0,
+      "stderr_utf8": "",
+      "sha256": "52d71d4c168383d0c75842648ae186386f4e4acc2a853203037420531669c973",
+      "scope": "Unaccepted failure-time capture; may be absent, partial or stale. Interpret against current test_id and progress, never promote to PASS."
+    },
+    "m4-local-asset-import-ui-progress.png": {
+      "returncode": 0,
+      "stderr_utf8": "",
+      "sha256": "03dbe9fe2cc78c18a1218981afc276a9288ae4e81242610d34735fbda62bf249",
+      "scope": "Unaccepted failure-time capture; may be absent, partial or stale. Interpret against current test_id and progress, never promote to PASS."
+    },
+    "m4-local-asset-import-ui-verified.png": {
+      "returncode": 0,
+      "stderr_utf8": "",
+      "sha256": "75bb5af0e63178f909c860ff6ca060815d5ade37e526af01f0da1db179e7e87c",
+      "scope": "Unaccepted failure-time capture; may be absent, partial or stale. Interpret against current test_id and progress, never promote to PASS."
+    }
+  },
+  "finished_utc": "2026-10-11T19:04:46.215037+00:00"
+}

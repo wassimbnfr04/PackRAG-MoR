@@ -1,0 +1,39 @@
+warning: no usable GPU found, --gpu-layers option will be ignored
+warning: one possible reason is that llama.cpp was compiled without GPU support
+warning: consult docs/build.md for compilation instructions
+0.00.045.781 I srv  llama_server: initializing ...
+0.00.045.790 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.055.890 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.064.704 I srv    load_model: loading model '/mnt/c/Users/Fkagf/Downloads/MOR CAPTSONE/LFM2.5-2.6B-QAD-Q4_0.gguf'
+0.19.761.631 I cmn          init: llama threadpool init, n_threads = 8
+0.19.837.828 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 2048, kv_unified = 'false'
+0.19.843.151 W srv          init: chat template supports preserving reasoning, it is enabled by default (may use more tokens, disable via --no-reasoning-preserve)
+0.19.843.204 I srv  llama_server: model loaded
+0.19.843.212 I srv  llama_server: listening on http://127.0.0.1:18533
+0.28.299.838 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+0.28.299.890 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.34.680.829 I slot print_timing: id  0 | task 0 | n_gen =    100, tg =  25.65 t/s, tg_3s =  25.91 t/s
+0.37.367.651 I slot print_timing: id  0 | task 0 | prompt eval time =    2520.88 ms /   237 tokens (   10.64 ms per token,    94.01 tokens per second)
+0.37.367.725 I slot print_timing: id  0 | task 0 |        eval time =    6546.86 ms /   170 tokens (   38.74 ms per token,    25.81 tokens per second)
+0.37.367.727 I slot print_timing: id  0 | task 0 |       total time =    9067.73 ms /   407 tokens
+0.37.367.728 I slot print_timing: id  0 | task 0 |    graphs reused =        167
+0.37.367.841 I slot      release: id  0 | task 0 | stop processing: n_tokens = 406, truncated = 0
+0.37.570.927 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.573 (> 0.100 thold), f_keep = 0.340
+0.37.577.903 I slot launch_slot_: id  0 | task 172 | processing task, is_child = 0
+0.43.711.906 I slot print_timing: id  0 | task 172 | n_gen =    100, tg =  27.31 t/s, tg_3s =  27.59 t/s
+0.46.376.930 I slot print_timing: id  0 | task 172 | prompt eval time =    2508.93 ms /   241 tokens (   10.41 ms per token,    96.06 tokens per second)
+0.46.376.964 I slot print_timing: id  0 | task 172 |        eval time =    6290.05 ms /   170 tokens (   37.22 ms per token,    26.87 tokens per second)
+0.46.376.965 I slot print_timing: id  0 | task 172 |       total time =    8798.98 ms /   411 tokens
+0.46.376.966 I slot print_timing: id  0 | task 172 |    graphs reused =        334
+0.46.377.023 I slot      release: id  0 | task 172 | stop processing: n_tokens = 410, truncated = 0
+0.46.508.742 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.454 (> 0.100 thold), f_keep = 0.337
+0.46.515.963 I slot launch_slot_: id  0 | task 344 | processing task, is_child = 0
+0.49.852.201 I slot print_timing: id  0 | task 344 | prompt processing, n_tokens =    300, progress = 0.99, t =   3.34 s / 89.92 tokens per second
+0.53.909.607 I slot print_timing: id  0 | task 344 | n_gen =    100, tg =  24.84 t/s, tg_3s =  25.10 t/s
+0.56.935.965 I slot print_timing: id  0 | task 344 | n_gen =    176, tg =  24.96 t/s, tg_3s =  25.11 t/s
+0.59.336.579 I slot print_timing: id  0 | task 344 | prompt eval time =    3408.74 ms /   304 tokens (   11.21 ms per token,    89.18 tokens per second)
+0.59.336.651 I slot print_timing: id  0 | task 344 |        eval time =    9411.82 ms /   233 tokens (   40.57 ms per token,    24.65 tokens per second)
+0.59.336.653 I slot print_timing: id  0 | task 344 |       total time =   12820.55 ms /   537 tokens
+0.59.336.655 I slot print_timing: id  0 | task 344 |    graphs reused =        564
+0.59.336.777 I slot      release: id  0 | task 344 | stop processing: n_tokens = 536, truncated = 0
+0.59.579.159 I srv    operator(): operator(): cleaning up before exit...

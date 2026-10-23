@@ -1,0 +1,27 @@
+{
+  "status": "OBSERVATIONAL_PROGRESS_NOT_CLASS_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T21:32:51.586294+00:00",
+  "reported_status": "RUNNING",
+  "checkpoint": "COMMITTING",
+  "completed_cases": [
+    {
+      "id": "actual-importing-process-death-COPYING",
+      "passed": true
+    }
+  ],
+  "original_sample_sha256": "e505779c0c4ec6361e3ec8051b76cccc2920095cbca34aedb29516f86d3edc8d",
+  "command": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "exec-out",
+      "run-as",
+      "org.packrag.product",
+      "cat",
+      "files/m4-local-asset-import-process-death-progress.json"
+    ],
+    "returncode": 0
+  },
+  "scope": "Current checkpoint label refers to deliberately killed import stage, not necessarily current copy activity. Whole actual JUnit/deep original checks still required."
+}

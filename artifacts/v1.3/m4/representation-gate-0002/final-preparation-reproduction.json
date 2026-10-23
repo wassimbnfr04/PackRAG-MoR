@@ -1,0 +1,6 @@
+{
+  "status": "PASS_GENERATED_SCRIPT_TEXT_EXACT_NOT_ACCEPTANCE_EXECUTION",
+  "preparation_script_sha256": "5c8f4fb13a9d9d6c5313e69ca5a37867ee87da3da099a7e747c443023d48d6da",
+  "actual_verifier_file_sha256": "80aaf38d33dc4a362296d578afee177a653ddc5a3bf80791e7b91bccec9ab8a1",
+  "description": "Execute adaptation prefix only; compare normalized file text exactly; all current helper syntax checks pass. No gate main function is called."
+}

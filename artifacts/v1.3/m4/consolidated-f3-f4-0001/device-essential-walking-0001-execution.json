@@ -1,0 +1,178 @@
+{
+  "status": "PASS_FRESH_CONSOLIDATED_PHASE_NOT_FULL_M4_ACCEPTANCE",
+  "started_utc": "2026-10-12T16:08:04.138468+00:00",
+  "phase": "debug-essential",
+  "build": "build-0097",
+  "variant": "debug",
+  "runner_sha256": "41df952c650a76f01cfd152cd5c3002a6e94ac51f5c2a820dc73216f261009d2",
+  "matrix_sha256": "a8be834ab7d5fa82677ee7af7940b7f65f435ea44545c4dba584a54ad5c7c0c7",
+  "pair_sha256": "987efe9b7cf4e6b8854f86aed50344b6b289a452702fe392a1f6fe11f12398a6",
+  "installation_sha256": "8bf56d88a3fc4f87f8cb21f1f6f3acc53123c5d0dec655c8699906b814a4478d",
+  "classes": [
+    "LocalAssetImportWalkingDeviceTest"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-essential-walking-0001-before-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "before-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0097",
+        "--output",
+        "device-essential-walking-0001-before-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "before-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-essential-walking-0001-before-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "before-source4-modes"
+    },
+    {
+      "label": "LocalAssetImportWalkingDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m4-local-asset-import-walking.json; test ! -L files/m4-local-asset-import-walking-grant-observation.json; rm -f files/m4-local-asset-import-walking.json files/m4-local-asset-import-walking-grant-observation.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m4-local-asset-import-walking.json": "a1e6c7c6b3abd1548a422df656001539c182dea1a7f60ddd9b3ca73c53fbe84e",
+        "m4-local-asset-import-walking-grant-observation.json": "451ac6e09647a3a9467df2941a62eb4ef6af7546591624c1fdbe00c8d8296204"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-essential-walking-0001-localassetimportwalkingdevicetest",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportWalkingDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-walking.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "LocalAssetImportWalkingDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-essential-walking-0001-localassetimportwalkingdevicetest",
+        "--files",
+        "m4-local-asset-import-walking.json"
+      ],
+      "returncode": 0,
+      "label": "LocalAssetImportWalkingDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-essential-walking-0001-localassetimportwalkingdevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "LocalAssetImportWalkingDeviceTest-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-essential-walking-0001-after-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "after-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0097",
+        "--output",
+        "device-essential-walking-0001-after-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "after-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-essential-walking-0001-after-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "after-source4-modes"
+    }
+  ],
+  "completed": [
+    {
+      "class": "LocalAssetImportWalkingDeviceTest",
+      "methods": 1,
+      "run": "device-essential-walking-0001-localassetimportwalkingdevicetest",
+      "original_sha256": {
+        "m4-local-asset-import-walking.json": "b36e06e30f1ce1a84f89cf9541832fdc48fc8fbc10d018361d9332cb1066766b"
+      },
+      "sidecar_png_sha256": {
+        "m4-local-asset-import-walking-grant-observation.json": "f8e43f12beb315e24bf172c28869386e747c09f2846f0ec62c53b16acae75edb"
+      },
+      "manifest_sha256": "32de28fa1cb6a418117a3caf1444072f2f56400f743b83ed1723f840e022e660"
+    }
+  ],
+  "active_class": "LocalAssetImportWalkingDeviceTest",
+  "active_expected_methods": 1,
+  "scope": "Fixed selected per-class JUnit/count/ID contracts, exact current source/APK hashes, originals collected before next class, fresh output names and explicit owner50/source4 no-follow/mode guards. Private custody never enumerated. Native execution only where selected tests require it; no-INTERNET with mobile data on is not radio isolation. Synthetic signed protocol tests are not genuine calibration/domain gold, controlled performance or whole release acceptance. UI original PNG review remains independent.",
+  "updated_utc": "2026-10-12T16:16:41.036453+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "AFFECTED_DECODER_CONTROLS_PASS_FULL_COMPARISON_RUNNING",
+  "candidate": "mobile-v1-guides-rc9",
+  "pilot": "artifacts/v1.3/m4/repair-guide-preservation-pilot-0004",
+  "findings": {
+    "FAN_CONNECTOR": "Actual requested removal: gently work edges loose/slide out; reconnection gentle/no force, source tools/prerequisites retained. Extra fan cleaning steps are unnecessary but supported. No success assurance.",
+    "G0-C02": "Both nominal48VDC[S1] and maximum6A[S2] now answered; changing policy alone rc6/rc7 did not fix omission; allowing continuing cited prose rc8 did."
+  },
+  "grammar_repairs": "Root retains closed-think token. Final line permits multiple text-bearing cited clauses; each adjacent citation group<=4 and padding<=2newlines. No four-clause cutoff, no unbounded bare-citation/newline loop. No claim of semantic proof.",
+  "remaining": "Complete unchanged12repair+25generator comparison and manual review, then explicit native/desktop API integration only if accepted.",
+  "production_changed": false
+}

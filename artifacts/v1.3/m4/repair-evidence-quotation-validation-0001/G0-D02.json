@@ -1,0 +1,67 @@
+{
+  "id": "G0-D02",
+  "category": "direct",
+  "question": "How often does the NexoFlow M4 require preventive service?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The NexoFlow M4 requires preventive service every 600 operating hours."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The NexoFlow M4 requires preventive service every 600 operating hours. [S1]",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "600 operating hours"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 377,
+    "prompt_ms": 4076.803,
+    "prompt_per_token_ms": 10.813801061007958,
+    "prompt_per_second": 92.47442174664805,
+    "predicted_n": 150,
+    "predicted_ms": 5551.63,
+    "predicted_per_token_ms": 37.259261744966444,
+    "predicted_per_second": 26.8389644122537,
+    "host_generation_wall_ms": 9673.041499998362,
+    "emitted_token_count": 150,
+    "reasoning_token_count": 128,
+    "final_and_terminal_token_count": 22,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 377,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The NexoFlow M4 requires preventive service every 600 operating hours. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "fa8ce85fde064d103c739102025c890034ebd3e547cc18a2d54b762f8562c53f",
+    "final_only": "1. The NexoFlow M4 requires preventive service every 600 operating hours. [S1]",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "5e91bc6680b364c6947aa5253776d51dc9dfb2cf6dc33c155aaa71b5ebf781f9"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

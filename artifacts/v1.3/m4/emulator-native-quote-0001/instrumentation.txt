@@ -1,0 +1,47 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.QuotedNativeRuntimeDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.QuotedNativeRuntimeDeviceTest:
+INSTRUMENTATION_STATUS: test=actualNativePolicyParityCapCancellationAndRepairWalkingPath
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.QuotedNativeRuntimeDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: expected:<...bottom screws. [S1]"[ | "Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification. [S2]"]
+pad ::= ("\n" | "\n...> but was:<...bottom screws. [S1]"[]
+pad ::= ("\n" | "\n...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.QuotedNativeRuntimeDeviceTest.actualNativePolicyParityCapCancellationAndRepairWalkingPath(QuotedNativeRuntimeDeviceTest.kt:44)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualNativePolicyParityCapCancellationAndRepairWalkingPath(org.packrag.product.QuotedNativeRuntimeDeviceTest):
+org.junit.ComparisonFailure: expected:<...bottom screws. [S1]"[ | "Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification. [S2]"]
+pad ::= ("\n" | "\n...> but was:<...bottom screws. [S1]"[]
+pad ::= ("\n" | "\n...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.QuotedNativeRuntimeDeviceTest.actualNativePolicyParityCapCancellationAndRepairWalkingPath(QuotedNativeRuntimeDeviceTest.kt:44)
+
+INSTRUMENTATION_STATUS: test=actualNativePolicyParityCapCancellationAndRepairWalkingPath
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 16.448
+There was 1 failure:
+1) actualNativePolicyParityCapCancellationAndRepairWalkingPath(org.packrag.product.QuotedNativeRuntimeDeviceTest)
+org.junit.ComparisonFailure: expected:<...bottom screws. [S1]"[ | "Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification. [S2]"]
+pad ::= ("\n" | "\n...> but was:<...bottom screws. [S1]"[]
+pad ::= ("\n" | "\n...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.QuotedNativeRuntimeDeviceTest.actualNativePolicyParityCapCancellationAndRepairWalkingPath(QuotedNativeRuntimeDeviceTest.kt:44)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

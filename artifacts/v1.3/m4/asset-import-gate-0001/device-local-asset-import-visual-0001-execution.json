@@ -1,0 +1,69 @@
+{
+  "status": "FAIL",
+  "started_utc": "2026-10-11T19:28:16.761686+00:00",
+  "runner_sha256": "4decd2b151c2db140d82ee5e74f8da2a7a2c749b20320f0d1e4f50696133fb95",
+  "build": "build-0075",
+  "run": "device-local-asset-import-visual-0001",
+  "foreground_authorized": true,
+  "unchanged_ui4_inputs": 598,
+  "unchanged_product_apk_sha256": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0075",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-visual-0001",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportVisualDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-visual.json",
+        "--timeout",
+        "600",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 1
+    }
+  ],
+  "failure_type": "AssertionError",
+  "failure_message": "Hold F2/F3; preserve and diagnose",
+  "failure_captures": {
+    "m4-local-asset-import-visual.json": {
+      "returncode": 0,
+      "sha256": "e4bf89b374e3634b1d14ca392f86b63d7b8b82aa7de816e5be7b08c85307beb2",
+      "bytes": 72,
+      "scope": "Unaccepted failure-time bytes, possibly command error or stale; never promote to PASS",
+      "valid_json": false
+    },
+    "m4-local-asset-import-visual-progress.json": {
+      "returncode": 0,
+      "sha256": "074b4c2f486984359282aa8430bfe83e31bd3fccb8be886725e70b0b5020f2e8",
+      "bytes": 81,
+      "scope": "Unaccepted failure-time bytes, possibly command error or stale; never promote to PASS",
+      "valid_json": false
+    },
+    "m4-local-asset-import-visual-progress.png": {
+      "returncode": 0,
+      "sha256": "10edea1a1ffbb87f3543698a86b834de3049e4ee92fc2c54712881a98e77bf2f",
+      "bytes": 80,
+      "scope": "Unaccepted failure-time bytes, possibly command error or stale; never promote to PASS",
+      "valid_png_signature": false
+    },
+    "m4-local-asset-import-visual-verified.png": {
+      "returncode": 0,
+      "sha256": "3471e3866e6e9ad8f616d1b6e70b5c469a7b6fac48cc5ef60633315ffb72a2d9",
+      "bytes": 80,
+      "scope": "Unaccepted failure-time bytes, possibly command error or stale; never promote to PASS",
+      "valid_png_signature": false
+    }
+  },
+  "finished_utc": "2026-10-11T19:31:18.013407+00:00"
+}

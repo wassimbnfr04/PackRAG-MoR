@@ -1,0 +1,21 @@
+{
+  "status": "CONVERSION_INSPECTED_NOT_PHONE_TESTED",
+  "model_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "model_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+  "llamacpp_candidate_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+  "phone_validated_llamacpp_commit": null,
+  "conversion_arguments": [
+    "vendor/llama.cpp/convert_hf_to_gguf.py",
+    "models/smollm2",
+    "--outfile",
+    "fallback\\smollm2\\conversion\\SmolLM2-360M-Instruct-F16.gguf",
+    "--outtype",
+    "f16"
+  ],
+  "quantization": "F16",
+  "gguf_bytes": 725553600,
+  "gguf_sha256": "4723b60dcc23b06f59c356e979c26e9f417195056eb60ecbbb6d95f78eb8cdd7",
+  "tokenizer_vocabulary_size": 49152,
+  "chat_template_matches_official_source": true,
+  "offline_phone_generation_proven": false
+}

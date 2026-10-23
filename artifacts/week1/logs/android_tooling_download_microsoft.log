@@ -1,0 +1,7 @@
+Downloading https://aka.ms/download-jdk/microsoft-jdk-17.0.20.1-windows-x64.zip
+microsoft-jdk-17.0.20.1-windows-x64.zip 186915383 3d9006956fc8af5601cd24ffc4f468bef48279c7ebd8171b9bdf90d0aabfbf1f
+Downloading https://services.gradle.org/distributions/gradle-9.6.0-bin.zip
+gradle-9.6.0-bin.zip 140681093 bbaeb2fef8710818cf0e261201dab964c572f92b942812df0c3620d62a529a01
+Downloading https://dl.google.com/android/repository/commandlinetools-win-16111833_latest.zip
+commandlinetools-win-16111833_latest.zip 154957218 e5885e2e59038c0778a85fc19f01de7ce7c567c105553f7617b936b1e0e87b2b
+{'jdk': 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\java\\jdk-17.0.20.1+1', 'gradle': 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\gradle-9.6.0\\bin\\gradle.bat', 'sdkmanager': 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-cli\\cmdline-tools\\bin\\sdkmanager.bat', 'sdk': 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk', 'cmdline_tools_package': 'cmdline-tools;23.0'}

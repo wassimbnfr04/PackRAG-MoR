@@ -1,0 +1,7 @@
+{
+  "status": "PREPARED_STOPPABLE_PARENT_NOT_EXECUTED",
+  "created_utc": "2026-10-11T21:00:09.293824+00:00",
+  "original_sha256": "4cab90ec294d020a63033935b170acd5393ca6dde5f7adf79c2db509d57b7ad1",
+  "prepared_sha256": "5367fdacdca448b7e70eb828cc5cd3391d93e593831fd70045ece174e0c7f41b",
+  "scope": "Between-class explicit stop check only; class matrix, actual JUnit/deep report checks and originals unchanged. Active original debug parent/session44375 is unchanged and uninterrupted. No actual pause requested or injected."
+}

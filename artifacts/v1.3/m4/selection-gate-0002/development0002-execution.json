@@ -1,0 +1,60 @@
+{
+  "status": "PASS_FULL_DEVELOPMENT_NOT_POLICY_RESTORATION_OR_D3_CLOSURE",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0028",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-selection-full-0002",
+        "--class-name",
+        "org.packrag.product.SelectionDeviceTest,org.packrag.product.SourceTextDeviceTest,org.packrag.product.RepresentationDeviceTest,org.packrag.product.RelevanceDeviceTest,org.packrag.product.ConflictDeviceTest,org.packrag.product.ConflictRuntimeDeviceTest,org.packrag.product.SourceMetadataDeviceTest,org.packrag.product.ValidityDeviceTest,org.packrag.product.QueryIdentifierDeviceTest,org.packrag.product.QueryIdentifierRuntimeDeviceTest,org.packrag.product.QueryUnicodeDeviceTest,org.packrag.product.GeneratorCancellationTest,org.packrag.product.ProductRuntimeSmokeTest,org.packrag.product.GeneratorPromptParityTest,org.packrag.product.PackRetrievalParityTest,org.packrag.product.DataTypeDeviceTest,org.packrag.product.ExtensionNameDeviceTest,org.packrag.product.ValidationOrderDeviceTest,org.packrag.product.ResidualSecurityDeviceTest,org.packrag.product.StrictManifestDeviceTest,org.packrag.product.StrictDatabaseDeviceTest,org.packrag.product.StrictArchiveDeviceTest,org.packrag.product.ExplicitLifecycleDeviceTest,org.packrag.product.AtomicRegistryDeviceTest,org.packrag.product.RegistryProcessDeathDeviceTest,org.packrag.product.PackImportConsentTest",
+        "--result-file",
+        "m4-selection-runtime.json",
+        "--timeout",
+        "4500"
+      ],
+      "started_utc": "2026-10-09T21:55:03.828936+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T22:30:48.034626+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-selection-full-0002",
+        "--files",
+        "m4-conflicts.json,m4-source-metadata.json,m4-validity.json,m4-query-identifiers.json,m4-query-unicode.json,m2-generator-prompt-parity.json,m2-pack-retrieval-parity.json,m3-data-types.json,m3-extension-names.json,m3-validation-order.json,m3-residual-security.json,m3-manifest-schema.json,m3-database-validation.json,m3-archive-validation.json,m4-relevance.json,m4-relevance-runtime.json,m4-conflict-runtime.json,m4-query-identifier-runtime.json,m2-generator-cancellation.json,product-runtime-smoke.json,m3-explicit-lifecycle.json,m3-atomic-registry.json,m3-process-death.json,m3-import-consent.json,m4-representations.json,m4-representation-runtime.json,m4-source-text.json,m4-selection-tokenizer.json,m4-selection-runtime.json,m4-selection-guards.json"
+      ],
+      "started_utc": "2026-10-09T22:30:48.034626+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T22:30:52.458974+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\selection-gate-0002\\verify_selection.py",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-selection-full-0002",
+        "--target",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\selection-gate-0002\\development-selection-parity-0002.json"
+      ],
+      "started_utc": "2026-10-09T22:30:52.458974+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T22:30:53.439956+00:00"
+    }
+  ]
+}

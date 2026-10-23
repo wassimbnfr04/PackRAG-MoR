@@ -1,0 +1,6 @@
+{
+  "status": "PASS_GENERATED_SCRIPT_TEXT_EXACT_NOT_ACCEPTANCE_EXECUTION",
+  "note": "Final helper additionally preserves read-only packaging audit and delivery-plan snapshot; all acceptance predicates remain unchanged",
+  "prepare_sha256": "cecf778b877ef8746fed6feef584f853acf49ca3c4f5e010c7971d264567a560",
+  "verifier_sha256": "4338f5e103362ccbe4de4978f6e7b8df5318d09e03e81bcfe8bb96bed7c7dc48"
+}

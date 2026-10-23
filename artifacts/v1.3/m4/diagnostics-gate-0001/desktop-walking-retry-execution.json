@@ -1,0 +1,18 @@
+{
+  "status": "PASS_NEW_ACTUAL_DESKTOP_WALKING_HOST_PERMISSION_RETRY_NOT_FULL_E3",
+  "command": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "scripts.v13_existing_walking_smoke",
+      "--run",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\existing-walking-smoke-0016"
+    ],
+    "started_utc": "2026-10-10T19:44:29.773705+00:00",
+    "returncode": 0,
+    "finished_utc": "2026-10-10T19:47:30.279917+00:00"
+  },
+  "scope": "Same module/argv apart from new run path; normal host permissions, no ACL/input/test/runtime changes; original0015 failure preserved."
+}

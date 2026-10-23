@@ -1,0 +1,24 @@
+{
+  "id": "boundary1201",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "admission": "INPUT_TOO_LONG",
+  "actual_tokenizer": {},
+  "max_embedding_abs_error": 0.0,
+  "selection": {
+    "keys": [],
+    "decisions": [
+      {
+        "key": "org.packrag.contract.boundary1201@1.0.0:02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3#ab09bd7b287237a1efdcc0df",
+        "reason": "TOKEN_CAP",
+        "trial": [
+          "org.packrag.contract.boundary1201@1.0.0:02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3#ab09bd7b287237a1efdcc0df"
+        ],
+        "representative": null,
+        "evidence_tokens": 1201,
+        "prefill_tokens": 1373
+      }
+    ],
+    "sources": [],
+    "admission": "INPUT_TOO_LONG"
+  }
+}

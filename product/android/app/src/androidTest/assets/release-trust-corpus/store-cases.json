@@ -1,0 +1,311 @@
+[
+  {
+    "id": "one-approved-format",
+    "accept": true,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "eight-distinct-format-not-runtime-approval",
+    "accept": true,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:07149b05d6d2ce0f8a68b323f9d8baa780258fa1482e5cb2b451898582bc8082",
+          "public_key_hex": "99854a422bff6e8c86de517b4a26d009faf2753403084fbea4b02604cbf31f70"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:d9d2c03783fd7249ec2189117645f38bd91d8d2cfd7ef17e6efb042fcd475885",
+          "public_key_hex": "d829fbd6e4f3ee68e7e1c4e94d8f5ee026e14471f5f013435c5f4154d09f6abd"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:0cca079f25de4a5b71db9182f91ad867b62c4f003bcfbc43a6a8723f7b7dd0fb",
+          "public_key_hex": "12b99f8b0b165a4ca7a655822a96745b7736bbd33dd98e7f931b3f75fa7081e1"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:4a3f08f5aae5cde46a9159f24a3ae44d58cf033cc030f3970b0059073ab8c085",
+          "public_key_hex": "5096f641cc923798225324395c318a10b075b359aad5cb2869b3a9cc6b6ee077"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:66540aaf90125f3430d609a29077aa786b4d2f70445d76dbf9572125118b4fa1",
+          "public_key_hex": "c40d355dae04ffa134853f49b42f9d0efebac1f520254474928a18d4d4479fac"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:e9d3adf209cf49d7c2f6dce04ae2d407dde490dbdf19d0fc7fd02fcbbf10f801",
+          "public_key_hex": "82d77be6a2b92271516227bbba83461366e9385ea1073246874ac9e23c49c723"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:8920a51dec0262241cacc8ac636aa86f08ab686eed1bb1d389a872aa33064ca2",
+          "public_key_hex": "fd349bf97e55fff2553d2cc331dd234f4397cb67db0c8a7c0f475b561d22938c"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:8f7e7cd4f09d8377406c2f5fa93a2962bad7e28c742622e9892b54a3f026516a",
+          "public_key_hex": "0164538e2e14efd72a5ce7bd5ce242071e291f961443b4222cd6c00a37aeefeb"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "empty",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "nine",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:07149b05d6d2ce0f8a68b323f9d8baa780258fa1482e5cb2b451898582bc8082",
+          "public_key_hex": "99854a422bff6e8c86de517b4a26d009faf2753403084fbea4b02604cbf31f70"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:d9d2c03783fd7249ec2189117645f38bd91d8d2cfd7ef17e6efb042fcd475885",
+          "public_key_hex": "d829fbd6e4f3ee68e7e1c4e94d8f5ee026e14471f5f013435c5f4154d09f6abd"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:0cca079f25de4a5b71db9182f91ad867b62c4f003bcfbc43a6a8723f7b7dd0fb",
+          "public_key_hex": "12b99f8b0b165a4ca7a655822a96745b7736bbd33dd98e7f931b3f75fa7081e1"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:4a3f08f5aae5cde46a9159f24a3ae44d58cf033cc030f3970b0059073ab8c085",
+          "public_key_hex": "5096f641cc923798225324395c318a10b075b359aad5cb2869b3a9cc6b6ee077"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:66540aaf90125f3430d609a29077aa786b4d2f70445d76dbf9572125118b4fa1",
+          "public_key_hex": "c40d355dae04ffa134853f49b42f9d0efebac1f520254474928a18d4d4479fac"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:e9d3adf209cf49d7c2f6dce04ae2d407dde490dbdf19d0fc7fd02fcbbf10f801",
+          "public_key_hex": "82d77be6a2b92271516227bbba83461366e9385ea1073246874ac9e23c49c723"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:8920a51dec0262241cacc8ac636aa86f08ab686eed1bb1d389a872aa33064ca2",
+          "public_key_hex": "fd349bf97e55fff2553d2cc331dd234f4397cb67db0c8a7c0f475b561d22938c"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:8f7e7cd4f09d8377406c2f5fa93a2962bad7e28c742622e9892b54a3f026516a",
+          "public_key_hex": "0164538e2e14efd72a5ce7bd5ce242071e291f961443b4222cd6c00a37aeefeb"
+        },
+        {
+          "name": "FORMAT FIXTURE ONLY",
+          "key_id": "ed25519:07149b05d6d2ce0f8a68b323f9d8baa780258fa1482e5cb2b451898582bc8082",
+          "public_key_hex": "99854a422bff6e8c86de517b4a26d009faf2753403084fbea4b02604cbf31f70"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "duplicate",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        },
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "wrong-id",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:0000000000000000000000000000000000000000000000000000000000000000",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "short-key",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "00000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "uppercase-key",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "E25758AD559D912350024006082B715A037687C7CA9250973EACF6997412B726"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "numeric-name",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": 42,
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "blank-name",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": " ",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "unapproved-scope",
+    "accept": false,
+    "value": {
+      "approval_scope": "arbitrary-third-party",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "extra-root",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        }
+      ],
+      "schema_version": "1.0",
+      "extra": true
+    }
+  },
+  {
+    "id": "extra-publisher",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726",
+          "private_seed": "NOT_A_SECRET_TEST_SENTINEL"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "missing-key",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher"
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "non-array",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": {},
+      "schema_version": "1.0"
+    }
+  },
+  {
+    "id": "wrong-schema",
+    "accept": false,
+    "value": {
+      "approval_scope": "packrag-project-demonstrators",
+      "publishers": [
+        {
+          "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "name": "PackRAG project demonstrator publisher",
+          "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+        }
+      ],
+      "schema_version": "2.0"
+    }
+  }
+]

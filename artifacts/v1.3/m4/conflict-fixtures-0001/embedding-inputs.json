@@ -1,0 +1,407 @@
+[
+  {
+    "pack": "authority",
+    "chunk_id": "4f7d82b9683ffdb02ab467ab",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "authority",
+    "chunk_id": "4e3ec8b76f322fb709ad6507",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "zero",
+    "chunk_id": "8a14dfdac270ac39ffabf9c5",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "zero",
+    "chunk_id": "549f99b70f95493c17828cde",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "unknown",
+    "chunk_id": "3b04982272456d62c8cfb0ae",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "unknown",
+    "chunk_id": "d0fe55d8071dda66699b185a",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "supersedes",
+    "chunk_id": "2ba76dfe0a809b02ff162035",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "supersedes",
+    "chunk_id": "f59d2d76c4efa9c6c541d347",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "amends",
+    "chunk_id": "c8a6b30f11ef254a9ff961f6",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "amends",
+    "chunk_id": "e44c2068ec790467416a6b34",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 controller must also be inspected before each use."
+  },
+  {
+    "pack": "exception",
+    "chunk_id": "31510a8f66c242b20db48aa4",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "exception",
+    "chunk_id": "daf91d8d98e942d608496b1e",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 emergency shutdown temperature is 80 \u00b0C; this exception does not change its continuous operating limit."
+  },
+  {
+    "pack": "weak",
+    "chunk_id": "b1bc6c3ad679cc5bf3e65675",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "weak",
+    "chunk_id": "360677dea3ca2dbb92d06e48",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "cycle",
+    "chunk_id": "1ca137c0bde6768c30309e2d",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "cycle",
+    "chunk_id": "0794b9b2d51d8f394b9e2f86",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "unrelated",
+    "chunk_id": "c125596a87a676df4f66bc10",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "unrelated",
+    "chunk_id": "6a6b676e48db34b5b0a317bd",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "articles",
+    "chunk_id": "53e3d9c8b0cba86d341427cd",
+    "input": "SYNTHETIC Aster-9 rule\nArticle 1\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "articles",
+    "chunk_id": "abb59b452c4d095a6c51018a",
+    "input": "SYNTHETIC Aster-9 rule\nArticle 2\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "jurisdictions",
+    "chunk_id": "909e0932ba2376bcb777e26b",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "jurisdictions",
+    "chunk_id": "2517ca626f9d400843d8c31c",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "unknown-jurisdiction",
+    "chunk_id": "fda1e8acaec3c565ec20ac93",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "unknown-jurisdiction",
+    "chunk_id": "fbcb605d6423761d636a8ef6",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "curator-a",
+    "chunk_id": "a3a47a8b2e383ef11b25603f",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "curator-b",
+    "chunk_id": "bae9d841f870c8bc6f110bfb",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "duplicate-a",
+    "chunk_id": "1760db75e4c2575aca1d0cef",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "duplicate-b",
+    "chunk_id": "5adef3d0d690f74954846ae0",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "five-companions",
+    "chunk_id": "ff3cb43f52951870d0331466",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 synthetic rule part 0 requires check 0 before continuous operation."
+  },
+  {
+    "pack": "five-companions",
+    "chunk_id": "1606132bfb9c4d6c539b3c84",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 synthetic rule part 1 requires check 1 before continuous operation."
+  },
+  {
+    "pack": "five-companions",
+    "chunk_id": "53349cf478b37619701431c7",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 synthetic rule part 2 requires check 2 before continuous operation."
+  },
+  {
+    "pack": "five-companions",
+    "chunk_id": "602a09b58756b9c5473429f6",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 synthetic rule part 3 requires check 3 before continuous operation."
+  },
+  {
+    "pack": "five-companions",
+    "chunk_id": "b72b7dcf3b36a21d13ec29f9",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 synthetic rule part 4 requires check 4 before continuous operation."
+  },
+  {
+    "pack": "paragraphs",
+    "chunk_id": "de2cae15e918cadc7029a275",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C."
+  },
+  {
+    "pack": "paragraphs",
+    "chunk_id": "8e9da7ce29f37f814b260770",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe old synthetic edition requires check A."
+  },
+  {
+    "pack": "paragraphs",
+    "chunk_id": "a215e38044759511f8c8a88e",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C."
+  },
+  {
+    "pack": "paragraphs",
+    "chunk_id": "ab6731e97251e62ca96ce7ec",
+    "input": "SYNTHETIC Aster-9 rule\nAster-9\n\nThe current synthetic edition requires check B."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "3d43dc0694fd917618571e11",
+    "input": "Unit-00\nUnit-00\n\nUnit-00 equipment requires an inspection every 10 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "bd333b19b318cb2e1e96cb97",
+    "input": "Unit-01\nUnit-01\n\nUnit-01 equipment requires an inspection every 11 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "28e0a37fe08d8696750ce399",
+    "input": "Unit-02\nUnit-02\n\nUnit-02 equipment requires an inspection every 12 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "50225f6f91784beae829e5e6",
+    "input": "Unit-03\nUnit-03\n\nUnit-03 equipment requires an inspection every 13 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "b9c25c26174de307671886fd",
+    "input": "Unit-04\nUnit-04\n\nUnit-04 equipment requires an inspection every 14 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "f61884c709d60cf345d914c3",
+    "input": "Unit-05\nUnit-05\n\nUnit-05 equipment requires an inspection every 15 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "7c0306d3750b56bbd1ce89e4",
+    "input": "Unit-06\nUnit-06\n\nUnit-06 equipment requires an inspection every 16 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "d5130a2fed39b2f0ebf1bcf3",
+    "input": "Unit-07\nUnit-07\n\nUnit-07 equipment requires an inspection every 17 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "1f024a45ac9f6b3d46451464",
+    "input": "Unit-08\nUnit-08\n\nUnit-08 equipment requires an inspection every 18 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "725cc4dbfcb99c955d7c0b7e",
+    "input": "Unit-09\nUnit-09\n\nUnit-09 equipment requires an inspection every 19 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "1b7cbd860adc2a2fdd600471",
+    "input": "Unit-10\nUnit-10\n\nUnit-10 equipment requires an inspection every 20 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "432e001b72ce6bb2006a5623",
+    "input": "Unit-11\nUnit-11\n\nUnit-11 equipment requires an inspection every 21 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "72c713e0449ae3cef4d937c3",
+    "input": "Unit-12\nUnit-12\n\nUnit-12 equipment requires an inspection every 22 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "eb3f1ed236b5d6370de30fb7",
+    "input": "Unit-13\nUnit-13\n\nUnit-13 equipment requires an inspection every 23 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "0d37a05d0a81aaedfa7666d0",
+    "input": "Unit-14\nUnit-14\n\nUnit-14 equipment requires an inspection every 24 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "2c6593bd3738897934967a39",
+    "input": "Unit-15\nUnit-15\n\nUnit-15 equipment requires an inspection every 25 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "93b80ff92aedc56453e24c37",
+    "input": "Unit-16\nUnit-16\n\nUnit-16 equipment requires an inspection every 26 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "1b4248a893c52b1fd6f47b8a",
+    "input": "Unit-17\nUnit-17\n\nUnit-17 equipment requires an inspection every 27 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "1f621275e0d15da2652e065f",
+    "input": "Unit-18\nUnit-18\n\nUnit-18 equipment requires an inspection every 28 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "c5d3ac5fe5d344c8dfa7f403",
+    "input": "Unit-19\nUnit-19\n\nUnit-19 equipment requires an inspection every 29 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "43c38d081078e056b50bd07f",
+    "input": "Unit-20\nUnit-20\n\nUnit-20 equipment requires an inspection every 30 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "8b9e32b846ebb884c7a8cd95",
+    "input": "Unit-21\nUnit-21\n\nUnit-21 equipment requires an inspection every 31 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "3bec56c14be79ac255156d65",
+    "input": "Unit-22\nUnit-22\n\nUnit-22 equipment requires an inspection every 32 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "e9b2c600c3e651dd11f2cd79",
+    "input": "Unit-23\nUnit-23\n\nUnit-23 equipment requires an inspection every 33 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "44548e3d1a52258fd966b6f5",
+    "input": "Unit-24\nUnit-24\n\nUnit-24 equipment requires an inspection every 34 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "e96bae707820735970eddad7",
+    "input": "Unit-25\nUnit-25\n\nUnit-25 equipment requires an inspection every 35 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "40f99ecd20f85267e8f0fa68",
+    "input": "Unit-26\nUnit-26\n\nUnit-26 equipment requires an inspection every 36 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "2ccf18ca7db0c84871acab71",
+    "input": "Unit-27\nUnit-27\n\nUnit-27 equipment requires an inspection every 37 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "3687878c1400135ff46035e7",
+    "input": "Unit-28\nUnit-28\n\nUnit-28 equipment requires an inspection every 38 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "37ea124dc586508b34e34439",
+    "input": "Unit-29\nUnit-29\n\nUnit-29 equipment requires an inspection every 39 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "94043e52a4dc1fcc32d5e1c3",
+    "input": "Unit-30\nUnit-30\n\nUnit-30 equipment requires an inspection every 40 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "08e64f24fcb1048dd8534838",
+    "input": "Unit-31\nUnit-31\n\nUnit-31 equipment requires an inspection every 41 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "34a3421237f271a7a5a041fe",
+    "input": "Unit-32\nUnit-32\n\nUnit-32 equipment requires an inspection every 42 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "0ca367e3b9ae589b3a70313d",
+    "input": "Unit-33\nUnit-33\n\nUnit-33 equipment requires an inspection every 43 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "62fc52a5711763e2612a01a4",
+    "input": "Unit-34\nUnit-34\n\nUnit-34 equipment requires an inspection every 44 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "6d1909f7af134dae51a4f487",
+    "input": "Unit-35\nUnit-35\n\nUnit-35 equipment requires an inspection every 45 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "27167e4528b7098a6ef99134",
+    "input": "Unit-36\nUnit-36\n\nUnit-36 equipment requires an inspection every 46 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "c811885ce48799e028a5984e",
+    "input": "Unit-37\nUnit-37\n\nUnit-37 equipment requires an inspection every 47 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "ca03b3bc4f44ce8adc2a96c8",
+    "input": "Unit-38\nUnit-38\n\nUnit-38 equipment requires an inspection every 48 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "36986861132cc05c5713a481",
+    "input": "Unit-39\nUnit-39\n\nUnit-39 equipment requires an inspection every 49 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "d4af34e9ea5ee67baf7d7241",
+    "input": "Unit-40\nUnit-40\n\nUnit-40 equipment requires an inspection every 50 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "1777a96c0b9d604e4fffde3e",
+    "input": "Unit-41\nUnit-41\n\nUnit-41 equipment requires an inspection every 51 hours."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "d49b61aea3e5eb2ce304fe71",
+    "input": "Garden\nLOST\n\nGarden flowers grow beside a pond."
+  },
+  {
+    "pack": "before-cap",
+    "chunk_id": "8d82e87be6b4ba6b32ac45c4",
+    "input": "Garden\nLOST\n\nA garden pond is surrounded by flowering plants."
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-10-11T16:58:59.822339+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.LocalAssetImportFaultDeviceTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0062\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0062\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.LocalAssetImportFaultDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "802c817870f3828498175c05f1862e6b5f6eb467d5517a164123aa75eed0dd75",
+    "app-debug-androidTest.apk": "e92dc304ef18ec2ca4647b70c5967cd88b9f0bf17325b076316fbc5f4175b5c3"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.LocalAssetImportFaultDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportFaultDeviceTest.kt",
+      "source_sha256": "27cd24c3a64b9b745750606407b9c6f54472a1d97de6163a3e928464b2835405"
+    }
+  },
+  "status": "FAIL"
+}

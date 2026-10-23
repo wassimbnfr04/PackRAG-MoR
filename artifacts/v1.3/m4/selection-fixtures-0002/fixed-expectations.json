@@ -1,0 +1,950 @@
+[
+  {
+    "id": "atomic-last",
+    "rows": [
+      {
+        "id": "row00",
+        "locator": "row00",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row01",
+        "locator": "row01",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must inspect the red cable for physical damage.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row02",
+        "locator": "row02",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "The protective enclosure must remain securely closed.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row03",
+        "locator": "row03",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must use dry insulated gloves while servicing the unit.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row04",
+        "locator": "row04",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must disconnect the unit from its power supply prior to service.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      }
+    ],
+    "preconflict_order": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "6df516db7affc2913b8d3a29",
+      "2e2153a45f4da98b6cf1ab76"
+    ],
+    "edges": [
+      [
+        "de4007485c3423ff37bcb693",
+        "2e2153a45f4da98b6cf1ab76",
+        "exception_to",
+        "explicit-reference",
+        1.0
+      ]
+    ],
+    "derived": [],
+    "expected_pool": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "6df516db7affc2913b8d3a29",
+      "2e2153a45f4da98b6cf1ab76"
+    ],
+    "expected_admission": "READY",
+    "expected_selected": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "2e2153a45f4da98b6cf1ab76"
+    ]
+  },
+  {
+    "id": "five-mandatory",
+    "rows": [
+      {
+        "id": "row00",
+        "locator": "row00",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row01",
+        "locator": "row01",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must inspect the red cable for physical damage.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row02",
+        "locator": "row02",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "The protective enclosure must remain securely closed.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row03",
+        "locator": "row03",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must use dry insulated gloves while servicing the unit.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row04",
+        "locator": "row04",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must disconnect the unit from its power supply prior to service.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      }
+    ],
+    "preconflict_order": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "6df516db7affc2913b8d3a29",
+      "2e2153a45f4da98b6cf1ab76"
+    ],
+    "edges": [
+      [
+        "de4007485c3423ff37bcb693",
+        "191a8da23f0fd6086da0f31f",
+        "amends",
+        "explicit-reference",
+        1.0
+      ],
+      [
+        "191a8da23f0fd6086da0f31f",
+        "4363e8b9e2be6e5e2dfe71a7",
+        "amends",
+        "explicit-reference",
+        1.0
+      ],
+      [
+        "4363e8b9e2be6e5e2dfe71a7",
+        "6df516db7affc2913b8d3a29",
+        "amends",
+        "explicit-reference",
+        1.0
+      ],
+      [
+        "6df516db7affc2913b8d3a29",
+        "2e2153a45f4da98b6cf1ab76",
+        "amends",
+        "explicit-reference",
+        1.0
+      ]
+    ],
+    "derived": [],
+    "expected_pool": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "6df516db7affc2913b8d3a29",
+      "2e2153a45f4da98b6cf1ab76"
+    ],
+    "expected_admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+    "expected_selected": []
+  },
+  {
+    "id": "missing-global",
+    "rows": [
+      {
+        "id": "row00",
+        "locator": "row00",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row01",
+        "locator": "row01",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must inspect the red cable for physical damage.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row02",
+        "locator": "row02",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "The protective enclosure must remain securely closed.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row03",
+        "locator": "row03",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must use dry insulated gloves while servicing the unit.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row04",
+        "locator": "row04",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must disconnect the unit from its power supply prior to service.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row05",
+        "locator": "row05",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 5 requires a visual inspection of component 5.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row06",
+        "locator": "row06",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 6 requires a visual inspection of component 6.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row07",
+        "locator": "row07",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 7 requires a visual inspection of component 7.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row08",
+        "locator": "row08",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 8 requires a visual inspection of component 8.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row09",
+        "locator": "row09",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 9 requires a visual inspection of component 9.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row10",
+        "locator": "row10",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 10 requires a visual inspection of component 10.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row11",
+        "locator": "row11",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 11 requires a visual inspection of component 11.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row12",
+        "locator": "row12",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 12 requires a visual inspection of component 12.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row13",
+        "locator": "row13",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 13 requires a visual inspection of component 13.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row14",
+        "locator": "row14",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 14 requires a visual inspection of component 14.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row15",
+        "locator": "row15",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 15 requires a visual inspection of component 15.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row16",
+        "locator": "row16",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 16 requires a visual inspection of component 16.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row17",
+        "locator": "row17",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 17 requires a visual inspection of component 17.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row18",
+        "locator": "row18",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 18 requires a visual inspection of component 18.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row19",
+        "locator": "row19",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 19 requires a visual inspection of component 19.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row20",
+        "locator": "row20",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 20 requires a visual inspection of component 20.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row21",
+        "locator": "row21",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 21 requires a visual inspection of component 21.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row22",
+        "locator": "row22",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 22 requires a visual inspection of component 22.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row23",
+        "locator": "row23",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 23 requires a visual inspection of component 23.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row24",
+        "locator": "row24",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 24 requires a visual inspection of component 24.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row25",
+        "locator": "row25",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 25 requires a visual inspection of component 25.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row26",
+        "locator": "row26",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 26 requires a visual inspection of component 26.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row27",
+        "locator": "row27",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 27 requires a visual inspection of component 27.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row28",
+        "locator": "row28",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 28 requires a visual inspection of component 28.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row29",
+        "locator": "row29",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 29 requires a visual inspection of component 29.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row30",
+        "locator": "row30",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 30 requires a visual inspection of component 30.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row31",
+        "locator": "row31",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 31 requires a visual inspection of component 31.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row32",
+        "locator": "row32",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "Synthetic maintenance item 32 requires a visual inspection of component 32.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.\nSynthetic maintenance item 5 requires a visual inspection of component 5.\nSynthetic maintenance item 6 requires a visual inspection of component 6.\nSynthetic maintenance item 7 requires a visual inspection of component 7.\nSynthetic maintenance item 8 requires a visual inspection of component 8.\nSynthetic maintenance item 9 requires a visual inspection of component 9.\nSynthetic maintenance item 10 requires a visual inspection of component 10.\nSynthetic maintenance item 11 requires a visual inspection of component 11.\nSynthetic maintenance item 12 requires a visual inspection of component 12.\nSynthetic maintenance item 13 requires a visual inspection of component 13.\nSynthetic maintenance item 14 requires a visual inspection of component 14.\nSynthetic maintenance item 15 requires a visual inspection of component 15.\nSynthetic maintenance item 16 requires a visual inspection of component 16.\nSynthetic maintenance item 17 requires a visual inspection of component 17.\nSynthetic maintenance item 18 requires a visual inspection of component 18.\nSynthetic maintenance item 19 requires a visual inspection of component 19.\nSynthetic maintenance item 20 requires a visual inspection of component 20.\nSynthetic maintenance item 21 requires a visual inspection of component 21.\nSynthetic maintenance item 22 requires a visual inspection of component 22.\nSynthetic maintenance item 23 requires a visual inspection of component 23.\nSynthetic maintenance item 24 requires a visual inspection of component 24.\nSynthetic maintenance item 25 requires a visual inspection of component 25.\nSynthetic maintenance item 26 requires a visual inspection of component 26.\nSynthetic maintenance item 27 requires a visual inspection of component 27.\nSynthetic maintenance item 28 requires a visual inspection of component 28.\nSynthetic maintenance item 29 requires a visual inspection of component 29.\nSynthetic maintenance item 30 requires a visual inspection of component 30.\nSynthetic maintenance item 31 requires a visual inspection of component 31.\nSynthetic maintenance item 32 requires a visual inspection of component 32.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      }
+    ],
+    "preconflict_order": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "6df516db7affc2913b8d3a29",
+      "51b59fd4cd0f931b36730aae",
+      "374c942e358b67e8e7bb4467",
+      "2e2153a45f4da98b6cf1ab76",
+      "204e821867cf369cfaa62cf9",
+      "bd21fa531ceb74435dde432a",
+      "8f8b8a0bdb1b991549670135",
+      "6933c46049d2b832185b0487",
+      "002cd5a968ff1d3d8483a417",
+      "a7f0cb785e004032115a5403",
+      "21f7283a7d77b8049089dc68",
+      "29dfc686c111098af478feaf",
+      "554739f4bb26cdbe6d8285c9",
+      "a8127588059135830617b79d",
+      "d7f383f6888351baaec259a8",
+      "b5ce2e8cea6b9e6ff73807e2",
+      "097deeeff90b7d9c05deb503",
+      "761b3e6b4a61b6dea2cfcff8",
+      "246f48670c7042e792f61d97",
+      "e4cf42e399e12e597ebc3551",
+      "c46ab7d5d296469148476cff",
+      "d81327f9d66b01315df06f36",
+      "185b6e570be8cc5d13975794",
+      "c18a696ca88a221cc0d16469",
+      "7fcfb216adfcffd48326b9d0",
+      "b8ed80d005613dd1839bfc47",
+      "e706f55add2981f64e4ee002",
+      "27577e0953b613f255282c72",
+      "f98de5d150002efcfdc2db12",
+      "46edd8c72196df9a67b0f600"
+    ],
+    "edges": [
+      [
+        "de4007485c3423ff37bcb693",
+        "46edd8c72196df9a67b0f600",
+        "exception_to",
+        "explicit-reference",
+        1.0
+      ]
+    ],
+    "derived": [],
+    "expected_pool": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "6df516db7affc2913b8d3a29",
+      "51b59fd4cd0f931b36730aae",
+      "374c942e358b67e8e7bb4467",
+      "2e2153a45f4da98b6cf1ab76",
+      "204e821867cf369cfaa62cf9",
+      "bd21fa531ceb74435dde432a",
+      "8f8b8a0bdb1b991549670135",
+      "6933c46049d2b832185b0487",
+      "002cd5a968ff1d3d8483a417",
+      "a7f0cb785e004032115a5403",
+      "21f7283a7d77b8049089dc68",
+      "29dfc686c111098af478feaf",
+      "554739f4bb26cdbe6d8285c9",
+      "a8127588059135830617b79d",
+      "d7f383f6888351baaec259a8",
+      "b5ce2e8cea6b9e6ff73807e2",
+      "097deeeff90b7d9c05deb503",
+      "761b3e6b4a61b6dea2cfcff8",
+      "246f48670c7042e792f61d97",
+      "e4cf42e399e12e597ebc3551",
+      "c46ab7d5d296469148476cff",
+      "d81327f9d66b01315df06f36",
+      "185b6e570be8cc5d13975794",
+      "c18a696ca88a221cc0d16469",
+      "7fcfb216adfcffd48326b9d0",
+      "b8ed80d005613dd1839bfc47",
+      "e706f55add2981f64e4ee002",
+      "27577e0953b613f255282c72",
+      "f98de5d150002efcfdc2db12"
+    ],
+    "expected_admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+    "expected_selected": []
+  },
+  {
+    "id": "mandatory-oversize",
+    "rows": [
+      {
+        "id": "row00",
+        "locator": "row00",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "The BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row01",
+        "locator": "row01",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must inspect the red cable for physical damage.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row02",
+        "locator": "row02",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "The protective enclosure must remain securely closed.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row03",
+        "locator": "row03",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must use dry insulated gloves while servicing the unit.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      },
+      {
+        "id": "row04",
+        "locator": "row04",
+        "title": "SYNTHETIC TEST MANUAL",
+        "text": "A technician must disconnect the unit from its power supply prior to service.",
+        "source": "manual",
+        "original": "SYNTHETIC TEST MANUAL ONLY\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C.\nA technician must inspect the red cable for physical damage.\nThe protective enclosure must remain securely closed.\nA technician must use dry insulated gloves while servicing the unit.\nA technician must disconnect the unit from its power supply prior to service.",
+        "aliases": [
+          "BUNDLE-X9"
+        ],
+        "target_type": "source"
+      }
+    ],
+    "preconflict_order": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "6df516db7affc2913b8d3a29",
+      "2e2153a45f4da98b6cf1ab76"
+    ],
+    "edges": [
+      [
+        "de4007485c3423ff37bcb693",
+        "2e2153a45f4da98b6cf1ab76",
+        "exception_to",
+        "explicit-reference",
+        1.0
+      ]
+    ],
+    "derived": [
+      {
+        "chunk_id": "2e2153a45f4da98b6cf1ab76",
+        "purpose": "generator",
+        "language": "en",
+        "text": "The synthetic controller has a continuous operating temperature limit of 74 °C. pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad",
+        "text_sha256": "c22b8a7075b037d1d79bd605f61fc3c6af234f7d1255746f4c3e3e8e6cc8f585",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    ],
+    "expected_pool": [
+      "de4007485c3423ff37bcb693",
+      "191a8da23f0fd6086da0f31f",
+      "4363e8b9e2be6e5e2dfe71a7",
+      "6df516db7affc2913b8d3a29",
+      "2e2153a45f4da98b6cf1ab76"
+    ],
+    "expected_admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+    "expected_selected": []
+  },
+  {
+    "id": "optional-oversize",
+    "rows": [
+      {
+        "id": "thermal",
+        "title": "SYNTHETIC BUDGET",
+        "locator": "thermal",
+        "text": "La limite continue du contrôleur synthétique est de 74 °C.",
+        "aliases": [
+          "BUNDLE-X9"
+        ]
+      },
+      {
+        "id": "garden",
+        "title": "SYNTHETIC GARDEN",
+        "locator": "garden",
+        "text": "Garden flowers grow beside a pond.",
+        "aliases": []
+      }
+    ],
+    "preconflict_order": [
+      "78e38b4f176be01967256951",
+      "3cd3e857ee701fd360163b22"
+    ],
+    "edges": [],
+    "derived": [
+      {
+        "chunk_id": "78e38b4f176be01967256951",
+        "purpose": "generator",
+        "language": "en",
+        "text": "The synthetic controller has a continuous operating temperature limit of 74 °C. pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad",
+        "text_sha256": "c22b8a7075b037d1d79bd605f61fc3c6af234f7d1255746f4c3e3e8e6cc8f585",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    ],
+    "expected_pool": [
+      "78e38b4f176be01967256951",
+      "3cd3e857ee701fd360163b22"
+    ],
+    "expected_admission": "NO_RELEVANT_EVIDENCE",
+    "expected_selected": []
+  },
+  {
+    "id": "all-oversize",
+    "rows": [
+      {
+        "id": "thermal",
+        "title": "SYNTHETIC BUDGET",
+        "locator": "thermal",
+        "text": "La limite continue du contrôleur synthétique est de 74 °C.",
+        "aliases": [
+          "BUNDLE-X9"
+        ]
+      }
+    ],
+    "preconflict_order": [
+      "36fde3100f8d83fa33999f50"
+    ],
+    "edges": [],
+    "derived": [
+      {
+        "chunk_id": "36fde3100f8d83fa33999f50",
+        "purpose": "generator",
+        "language": "en",
+        "text": "The synthetic controller has a continuous operating temperature limit of 74 °C. pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad",
+        "text_sha256": "c22b8a7075b037d1d79bd605f61fc3c6af234f7d1255746f4c3e3e8e6cc8f585",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    ],
+    "expected_pool": [
+      "36fde3100f8d83fa33999f50"
+    ],
+    "expected_admission": "INPUT_TOO_LONG",
+    "expected_selected": []
+  },
+  {
+    "id": "boundary1200",
+    "rows": [
+      {
+        "id": "thermal",
+        "title": "SYNTHETIC BUDGET",
+        "locator": "thermal",
+        "text": "La limite continue du contrôleur synthétique est de 74 °C.",
+        "aliases": [
+          "BUNDLE-X9"
+        ]
+      }
+    ],
+    "preconflict_order": [
+      "9cf28d3bce7f2319fe647e8e"
+    ],
+    "edges": [],
+    "derived": [
+      {
+        "chunk_id": "9cf28d3bce7f2319fe647e8e",
+        "purpose": "generator",
+        "language": "en",
+        "text": "The synthetic controller has a continuous operating temperature limit of 74 °C. pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad",
+        "text_sha256": "22e712528037f97e735c78816954a65a6b9895ed03c259d84b54d8260ef850eb",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    ],
+    "expected_pool": [
+      "9cf28d3bce7f2319fe647e8e"
+    ],
+    "expected_admission": "READY",
+    "expected_selected": [
+      "9cf28d3bce7f2319fe647e8e"
+    ]
+  },
+  {
+    "id": "boundary1201",
+    "rows": [
+      {
+        "id": "thermal",
+        "title": "SYNTHETIC BUDGET",
+        "locator": "thermal",
+        "text": "La limite continue du contrôleur synthétique est de 74 °C.",
+        "aliases": [
+          "BUNDLE-X9"
+        ]
+      }
+    ],
+    "preconflict_order": [
+      "ab09bd7b287237a1efdcc0df"
+    ],
+    "edges": [],
+    "derived": [
+      {
+        "chunk_id": "ab09bd7b287237a1efdcc0df",
+        "purpose": "generator",
+        "language": "en",
+        "text": "The synthetic controller has a continuous operating temperature limit of 74 °C. pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad",
+        "text_sha256": "e487c3ddd0409880633877ccb892823565e3df53fe0d860f50e2256eca724a9c",
+        "derivation_method": "official_translation",
+        "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    ],
+    "expected_pool": [
+      "ab09bd7b287237a1efdcc0df"
+    ],
+    "expected_admission": "INPUT_TOO_LONG",
+    "expected_selected": []
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "boundary1201",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "state": "INPUT_TOO_LONG",
+  "expected_state": "INPUT_TOO_LONG",
+  "answer": null,
+  "generate_calls": 0,
+  "selected": [],
+  "evidence": [],
+  "selection": {
+    "admission": "INPUT_TOO_LONG",
+    "keys": [],
+    "sources": [],
+    "decisions": [
+      {
+        "key": "org.packrag.contract.boundary1201@1.0.0:02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3#ab09bd7b287237a1efdcc0df",
+        "reason": "TOKEN_CAP",
+        "trial": [
+          "org.packrag.contract.boundary1201@1.0.0:02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3#ab09bd7b287237a1efdcc0df"
+        ],
+        "representative": null,
+        "evidence_tokens": 1201,
+        "prefill_tokens": 1373
+      }
+    ]
+  },
+  "sources": [],
+  "prefill_tokens": 0,
+  "evidence_tokens": 0,
+  "emitted_tokens_including_terminal": 0,
+  "total_ms_including_initialization_not_benchmark": 41.191093,
+  "scope": "PRE_GENERATION_PROTOCOL_CONTROL"
+}

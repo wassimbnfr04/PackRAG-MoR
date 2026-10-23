@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "test_id": "f2-import-ui-ebe888f7-8b0f-4643-a3f1-c4a35e8218cf",
+  "cases": [
+    {
+      "id": "actual-document-read-denied-before-system-picker-grant",
+      "passed": true
+    },
+    {
+      "id": "actual-system-picker-cancel-keeps-file-and-completed-result",
+      "passed": true
+    },
+    {
+      "id": "actual-picked-corrupt-file-rejected-without-replacing-file-or-completion",
+      "passed": true
+    },
+    {
+      "id": "actual-displayed-byte-progress-and-ui-cancel-wait-for-cleanup",
+      "passed": true
+    },
+    {
+      "id": "actual-picker-slot-survives-pending-activity-recreation-and-granted-verified-import",
+      "passed": true
+    },
+    {
+      "id": "asset-page-recreation-back-and-canonical-evidence-navigation-retain-completion",
+      "passed": true
+    },
+    {
+      "id": "actual-post-import-ui-query-cold-native-and-validated-cited-answer",
+      "passed": true
+    },
+    {
+      "id": "known-owner-fifty-public-files-unchanged",
+      "passed": true
+    }
+  ],
+  "current_point": "ACTUAL_POST_IMPORT_UI_QUERY_TAP_DISPATCHED",
+  "grant_full_for_background_setup_only": "Broadcasting: Intent { act=org.packrag.product.test.GRANT_FULL_ASSETS flg=0x400000 cmp=org.packrag.product.test/org.packrag.product.AssetFixtureGrantReceiver }\nBroadcast completed: result=1, data=\"NARROW_FULL_ASSET_READS_GRANTED\"\n",
+  "actual_viewmodel_store_key": "androidx.lifecycle.ViewModelProvider.DefaultKey:org.packrag.product.PackRagViewModel",
+  "target_picker_lookup": null,
+  "picker_package_lookup_source": "SHELL_EXPLICIT_OPEN_DOCUMENT_OCTET_STREAM",
+  "resolved_picker_package": "com.google.android.documentsui",
+  "ui_observed_partial_copy_bytes": 128,
+  "pending_picker_recreation": {
+    "requested_lifecycle_state": "STARTED",
+    "previous_activity_destroyed": true,
+    "distinct_activity_created": true,
+    "saved_state_bundle_present": true,
+    "same_viewmodel": true,
+    "picker_still_foreground": true
+  },
+  "actual_system_document_open": {
+    "opens": 3,
+    "last_document_id": "full-template",
+    "calling_uid": 10469,
+    "provider_uid": 10472,
+    "document_uri": "content://org.packrag.product.test.asset-documents/document/full-template"
+  },
+  "new_query_dispatch_observed": true,
+  "variant": "debug",
+  "visual_png": {
+    "m4-local-asset-import-ui-progress.png": {
+      "sha256": "a979c3360b99fa9bd79a76b8f32bc68831f9ad9fe5a5d7616fd4cd94212f2c8d",
+      "bytes": 272315
+    },
+    "m4-local-asset-import-ui-verified.png": {
+      "sha256": "a1165999e185c4094f9d10dcc0513d20869cb36747e76ab1ec5c7f5586071187",
+      "bytes": 276672
+    }
+  },
+  "actual_weight_inference": true,
+  "raw_reasoning_persisted": false,
+  "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+  "emitted_tokens": 153,
+  "initialization_ms": 14913.25707,
+  "completed_result_id_before": "9ab316a3-1f37-4d3d-a1bc-bbf9bc49e9be",
+  "completed_result_id_after": "2230d3b6-f49f-43ea-88b6-88f35a3bbebb",
+  "owner_registry_and_model_sha256": {
+    "models/LFM2.5-2.6B-QAD-Q4_0.gguf": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "models/chat_template.jinja": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models/chat_template.jinja.part-private-assets-0004": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models/granite/onnx/model.onnx": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "models/granite/onnx/model.onnx.part": "7e3331bc72f89056c6af5c2abad23193bf882a26765c50f4cb33cc769a5b583a",
+    "models/granite/tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+    "packs/packs/org.packrag.development.walking-skeleton/0.1.0/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs/packs/org.packrag.development.walking-skeleton/0.1.0/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs/packs/org.packrag.development.walking-skeleton/0.1.0/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs/packs/org.packrag.development.walking-skeleton/0.1.0/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs/packs/org.packrag.development.walking-skeleton/0.1.0/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs/registry.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packs/registry.sqlite": "cf140bbf898aea7eb194406fa440e916cd2d746bb77b222a7c447f3f0e28ed10",
+    "packs/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs/reopen-2af858af-b518-4154-bc6d-b1116115fcba/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs/reopen-2af858af-b518-4154-bc6d-b1116115fcba/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs/reopen-2af858af-b518-4154-bc6d-b1116115fcba/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs/reopen-2af858af-b518-4154-bc6d-b1116115fcba/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs/reopen-2af858af-b518-4154-bc6d-b1116115fcba/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "production-registry/registry.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "production-registry/registry.sqlite": "4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c"
+  },
+  "guards_unchanged": true,
+  "network_mode": "MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET",
+  "limits": "Actual system DocumentsProvider grants/foreground Activity/cancellation/recreation/native synthetic scope. Test-only application/storage and library-group actual store-key injection. PNGs need independent visual inspection. No whole phone restart, arbitrary IPC bound, domain/gold/performance, full F2/M4/product/release acceptance."
+}

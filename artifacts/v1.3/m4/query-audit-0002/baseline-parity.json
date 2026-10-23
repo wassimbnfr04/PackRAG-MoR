@@ -1,0 +1,79 @@
+{
+  "status": "BASELINE_AUDIT_NOT_ACCEPTANCE",
+  "python_unicode_version": "15.0.0",
+  "java_binary_sha256": "6db7759259dc79800c5c6014f0ec68961a1fe69c36bb9b2a15a42c3b0c413f6a",
+  "probe_source_sha256": "97160b066d2e357cc9736a189567a362e4d4508055275048bbe3bb1a1839997d",
+  "cases": [
+    {
+      "index": 0,
+      "raw": "  ＡＳＴＥＲ-９  ",
+      "python": "aster-9",
+      "jdk17": "aster-9",
+      "match": true
+    },
+    {
+      "index": 1,
+      "raw": "𞀰",
+      "python": "а",
+      "jdk17": "𞀰",
+      "match": false
+    },
+    {
+      "index": 2,
+      "raw": "ΟΣ",
+      "python": "ος",
+      "jdk17": "ος",
+      "match": true
+    },
+    {
+      "index": 3,
+      "raw": "ΟΣΑ",
+      "python": "οσα",
+      "jdk17": "οσα",
+      "match": true
+    },
+    {
+      "index": 4,
+      "raw": "İ",
+      "python": "i̇",
+      "jdk17": "i̇",
+      "match": true
+    },
+    {
+      "index": 5,
+      "raw": "𐐀",
+      "python": "𐐨",
+      "jdk17": "𐐨",
+      "match": true
+    },
+    {
+      "index": 6,
+      "raw": "سَـلام",
+      "python": "سلام",
+      "jdk17": "سلام",
+      "match": true
+    },
+    {
+      "index": 7,
+      "raw": "\u0000A\u0000",
+      "python": "\u0000a\u0000",
+      "jdk17": "\u0000a\u0000",
+      "match": true
+    },
+    {
+      "index": 8,
+      "raw": "À̕",
+      "python": "à̕",
+      "jdk17": "à̕",
+      "match": true
+    },
+    {
+      "index": 9,
+      "raw": "ﬀ",
+      "python": "ff",
+      "jdk17": "ff",
+      "match": true
+    }
+  ],
+  "limits": "Exact existing algorithm on pinned desktop/JDK17 only. Android requires separate execution; ten cases do not certify complete Unicode correctness."
+}

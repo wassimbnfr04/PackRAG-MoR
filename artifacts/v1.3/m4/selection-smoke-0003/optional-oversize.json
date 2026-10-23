@@ -1,0 +1,346 @@
+{
+  "id": "optional-oversize",
+  "status": "PASS",
+  "expected_state": "NO_RELEVANT_EVIDENCE",
+  "result": {
+    "state": "NO_RELEVANT_EVIDENCE",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What are the safety requirements for BUNDLE-X9?",
+      "as_of": "2026-10-09",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what are the safety requirements for bundle-x9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.optional-oversize",
+        "1.0.0",
+        "7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 8.617100000265054,
+      "retrieval_ms": 0.8488000003126217,
+      "end_to_end_ms": 181.1887999992905
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.optional-oversize",
+        "chunk_id": "78e38b4f176be01967256951",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 1,
+        "dense_cosine": 0.7621221542358398,
+        "rrf": 0.01639344262295082,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.optional-oversize",
+            "1.0.0",
+            "7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.optional-oversize",
+              "1.0.0",
+              "7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "La limite continue du contrôleur synthétique est de 74 °C.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "78e38b4f176be01967256951",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "fr",
+              "legal_status": "n/a",
+              "license": "CC0-1.0",
+              "locator": "thermal",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 1,
+              "search_text": "La limite continue du contrôleur synthétique est de 74 °C.",
+              "section": "thermal",
+              "sha256_original": "8da978a4ce0f4464a96c5c1123741d5c9fdd080c29c3d7a5ef949876bccf5ba3",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "optional-oversize-thermal",
+              "source_title": "SYNTHETIC BUDGET",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "8da978a4ce0f4464a96c5c1123741d5c9fdd080c29c3d7a5ef949876bccf5ba3",
+              "title": "SYNTHETIC BUDGET"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": null,
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "78e38b4f176be01967256951",
+                "derivation_method": "official_translation",
+                "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": null,
+                "reviewer_id": null,
+                "text": "The synthetic controller has a continuous operating temperature limit of 74 °C. pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad",
+                "text_sha256": "c22b8a7075b037d1d79bd605f61fc3c6af234f7d1255746f4c3e3e8e6cc8f585"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 1,
+            "cosine": 0.7621221542358398,
+            "rrf": 0.01639344262295082,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": null,
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.optional-oversize",
+        "chunk_id": "3cd3e857ee701fd360163b22",
+        "exact": false,
+        "sparse_rank": null,
+        "dense_rank": 2,
+        "dense_cosine": 0.6841292381286621,
+        "rrf": 0.016129032258064516,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.contract.optional-oversize",
+            "1.0.0",
+            "7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8"
+          ]
+        ],
+        "fused_rank": 2,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.optional-oversize",
+              "1.0.0",
+              "7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "Garden flowers grow beside a pond.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "3cd3e857ee701fd360163b22",
+              "dense_row": 1,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "license": "CC0-1.0",
+              "locator": "garden",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-06",
+              "rowid": 2,
+              "search_text": "Garden flowers grow beside a pond.",
+              "section": "garden",
+              "sha256_original": "8bf30faa6de3343050aa92c0b3ddc2e8a635a16596c7e06aea72b81d9b662605",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "optional-oversize-garden",
+              "source_title": "SYNTHETIC GARDEN",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "8bf30faa6de3343050aa92c0b3ddc2e8a635a16596c7e06aea72b81d9b662605",
+              "title": "SYNTHETIC GARDEN"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": null,
+              "retrieved_at": "2026-10-06",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": null,
+            "dense_rank": 2,
+            "cosine": 0.6841292381286621,
+            "rrf": 0.016129032258064516,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": null,
+          "retrieved_at": "2026-10-06",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": [],
+    "selection": {
+      "keys": [],
+      "decisions": [
+        {
+          "key": "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#78e38b4f176be01967256951",
+          "reason": "TOKEN_CAP",
+          "trial": [
+            "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#78e38b4f176be01967256951"
+          ],
+          "representative": null,
+          "evidence_tokens": 2061,
+          "prefill_tokens": 2233
+        },
+        {
+          "key": "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#3cd3e857ee701fd360163b22",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.contract.optional-oversize@1.0.0:7010c673add33cae71d5f74f79a6f21af06ec8153ef432319e5c0d999e8afea8#3cd3e857ee701fd360163b22"
+          ],
+          "representative": null,
+          "evidence_tokens": 56,
+          "prefill_tokens": 228
+        }
+      ],
+      "sources": [],
+      "admission": "NO_RELEVANT_EVIDENCE"
+    }
+  },
+  "generate_calls_for_case": 0,
+  "diagnostic_final_candidate_not_product_answer": null
+}

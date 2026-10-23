@@ -1,0 +1,24 @@
+{
+  "purpose": "NATIVE_BINARY_IDENTITY_COMPARISON_NOT_TEST_SUBSTITUTION",
+  "unchanged": true,
+  "records": [
+    {
+      "build": "build-0009",
+      "native_entry": "lib/arm64-v8a/libpackrag_jni.so",
+      "bytes": 5597496,
+      "sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef"
+    },
+    {
+      "build": "build-0010",
+      "native_entry": "lib/arm64-v8a/libpackrag_jni.so",
+      "bytes": 5597496,
+      "sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef"
+    },
+    {
+      "build": "build-0011",
+      "native_entry": "lib/arm64-v8a/libpackrag_jni.so",
+      "bytes": 5597496,
+      "sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "AUTHORIZED_CLASS_LAUNCH_NOT_TEST_ACCEPTANCE",
+  "selection": "assets",
+  "started_utc": "2026-10-11T21:11:29.477913+00:00",
+  "remaining_window_seconds_at_launch": 628.641834,
+  "window_proof_sha256": "c5c60bf7e6c17217140fa38d21bc5a28395d5b97e12c0cc08789cf9df8e9bbf0",
+  "scope": "Only new class launch is gated; a running class may finish after deadline. This is not test/visual PASS. Mobile data on, no reinstalls.",
+  "returncode": 0,
+  "finished_utc": "2026-10-11T21:13:28.663910+00:00"
+}

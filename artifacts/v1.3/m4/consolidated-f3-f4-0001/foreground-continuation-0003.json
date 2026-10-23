@@ -1,0 +1,21 @@
+{
+  "status": "OWNER_AUTHORIZED_ANNOUNCED_FOREGROUND_WINDOW_NOT_ACCEPTANCE",
+  "started_utc": "2026-10-12T14:33:24.817864+00:00",
+  "deadline_utc": "2026-10-12T15:48:00+00:00",
+  "started_monotonic": 3442.156,
+  "deadline_monotonic": 7917.365817,
+  "timezone": "Africa/Casablanca",
+  "human_reply": "Yes; announce the start, then I\u2019ll leave it untouched",
+  "duration_minutes": 45,
+  "build": "build-0097",
+  "matrix_sha256": "3f5fb7acf30c9a2f6b19c988b4a6fb0b70da3d4cc5cfd651bf4d47e6df84a1d5",
+  "preparation_sha256": "94b5b0987da0f3e90e0eab3648c674608e8d0a486d88938bc1d5e3fcb7efee40",
+  "background_sha256": "1cfbd84a5209de2f10854a8b59b4eb5107ec13d77de58bf80e9c48aa2986b5d4",
+  "scope": "Fresh full UI on new product label presentation, with measured scroll/required manual5PNG gate. Direct human-approved extension until16:48 retained without further extension; old original and all failures unchanged.",
+  "original_window": "foreground-window-0001.json",
+  "original_window_sha256": "494bc4f1197768cac7308c07a580c9fd4c2fd1ddd927de0786224b02829cd6b9",
+  "continuation_created_utc": "2026-10-12T15:47:15.559625+00:00",
+  "continuation_created_monotonic": 7872.906,
+  "deadline_extension_human_reply": "Yes, continue until 16:48",
+  "deadline_extension_timezone": "Africa/Casablanca"
+}

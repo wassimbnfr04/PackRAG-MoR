@@ -1,0 +1,7 @@
+{
+  "status": "PASS_EXACT_REPRODUCIBLE_FINAL_ADAPTER_NOT_ACCEPTANCE",
+  "initial_derivation_sha256": "2b8b2a0da15f2370b99b3f13d67b7282b9ac93478cb8248b5d6af159390d1c95",
+  "prepare_sha256": "ca97f86e3abfc1cfbed5637a2aa961aade155bba416a6eb06d4c7c7ee8f56634",
+  "final_verify_sha256": "bf9ecb32d988c7f19f129c8d23b8b13c23db9243d22554239d1be9d739fbb0d9",
+  "scope": "Execute only pure adapter prefix; no closure checks or outputs invoked while physical gate runs"
+}

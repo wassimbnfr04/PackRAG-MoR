@@ -1,0 +1,162 @@
+{
+  "status": "PASS_EXECUTION_ORIGINAL_FINAL_AND_PNG_REVIEW_REQUIRED",
+  "environment": "PHYSICAL_SAMSUNG",
+  "observations": [
+    {
+      "id": "same-repair-before-import",
+      "question": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "expected": "NO_ACTIVE_PACK",
+      "actual": "NO_ACTIVE_PACK",
+      "final_text": null,
+      "emitted_tokens": 0,
+      "result_id": "a27ce7b1-e28e-44ee-85cc-2bf4731a0cb3",
+      "sources": []
+    },
+    {
+      "id": "same-repair-after-verified-import",
+      "question": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "expected": "ANSWER_ACCEPTED",
+      "actual": "ANSWER_ACCEPTED",
+      "final_text": "After removing the bicycle inner tube, you must inspect both tire surfaces and remove any debris that caused the puncture [S1]. Then, insert the replacement tube and align the valve stem with the rim hole [S1]. Reinstall the tube by seating one tire bead, then seat the other using plastic tire levers [S1]. Finally, inflate slowly while checking that the bead is properly seated [S1]. Note that the procedure does not provide an exact inflation pressure specification [S1].",
+      "emitted_tokens": 352,
+      "result_id": "aa86f3ce-3f4b-49e2-94ae-46b54228eb66",
+      "sources": [
+        {
+          "evidence_id": "S1",
+          "canonical_sha256": "4eea33f8f4a1ce9e319d9298d8b4adc5b30eefc3142d25e36fe20152a1f381c2",
+          "manifest_sha256": "5cc28d05fe7a41ce0c258c8acbd5eecadd160bffd7f7ec257bfd443a817074da"
+        }
+      ]
+    },
+    {
+      "id": "long-guide-cap-fails-closed",
+      "question": "My Framework Laptop 12 fan is dirty and noisy. How do I remove, clean, and reinstall it? Give an ordered guide including preparation and reassembly.",
+      "expected": "GENERATION_UNUSABLE",
+      "actual": "GENERATION_UNUSABLE",
+      "final_text": null,
+      "emitted_tokens": 512,
+      "result_id": "92749227-6b97-481f-bd86-4a0dfa62cb20",
+      "sources": []
+    },
+    {
+      "id": "undocumented-inflation-abstention",
+      "question": "What exact PSI should I inflate this bicycle inner tube to?",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "actual": "INSUFFICIENT_EVIDENCE",
+      "final_text": null,
+      "emitted_tokens": 220,
+      "result_id": "07ea4671-653d-42ba-8784-04aa0b6a1f77",
+      "sources": []
+    },
+    {
+      "id": "same-repair-after-deactivation",
+      "question": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "expected": "NO_ACTIVE_PACK",
+      "actual": "NO_ACTIVE_PACK",
+      "final_text": null,
+      "emitted_tokens": 0,
+      "result_id": "a46690f5-ba45-4592-8487-2a6be079bbcd",
+      "sources": []
+    }
+  ],
+  "visual_png": {
+    "m4-emulator-repair-source.png": {
+      "sha256": "ea7cea61a81fa258715c81b946b16a435d14e1f86f2d1e8f7e851dbb6bf120ca",
+      "bytes": 326067,
+      "width": 1080,
+      "height": 2316,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "6d130fe577902079d24ce8c16d0a2962be587e530d2a1dc14f99e78ddcb799b3",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-emulator-repair-answer.png": {
+      "sha256": "13cbb5726464821ee3432b308e03a90758ed02d111f202d7a99446e741136b83",
+      "bytes": 217826,
+      "width": 1080,
+      "height": 2316,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "868faa6ff615e5fd7c97095621b9c53124729853ae23fef6f048d43838412cc9",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-emulator-repair-diagnostics.png": {
+      "sha256": "e08f64dbca111c340682323e65bade2f25361af7bfc7e9d5b10a4da5e6e39eb5",
+      "bytes": 220367,
+      "width": 1080,
+      "height": 2316,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "1048c9b8bdd72c895c87de7c681242952261b7573a53df383d415422779545c8",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    }
+  },
+  "owner_guard_scope": "EXPLICIT_50_PUBLIC_BASELINE_PLUS_ONE_FROZEN_FIXTURE_NO_ENUMERATION",
+  "sha256_before": {
+    "m4-repair-fixture-0001.kpack": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359",
+    "models\/LFM2.5-2.6B-QAD-Q4_0.gguf": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "models\/chat_template.jinja": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/chat_template.jinja.part-private-assets-0004": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/granite\/onnx\/model.onnx": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "models\/granite\/onnx\/model.onnx.part": "7e3331bc72f89056c6af5c2abad23193bf882a26765c50f4cb33cc769a5b583a",
+    "models\/granite\/tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/packs\/org.packrag.development.walking-skeleton\/0.1.0\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/registry.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packs\/registry.sqlite": "cf140bbf898aea7eb194406fa440e916cd2d746bb77b222a7c447f3f0e28ed10",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2627bfcf-c9dd-4325-b956-2a3ed9ff236c\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2af858af-b518-4154-bc6d-b1116115fcba\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-2e237f1c-a9c8-406d-8063-d23e58f03d4a\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-6cef578a-32b4-43d0-a8a6-d110b0f21d8c\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-afdb6f07-b7c1-4ae1-adb3-2fa454f32af6\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-cff2f9ce-8ec0-40cc-8daa-fcd43b473d46\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/dense.kdx": "00b80e0714ffdd3eea5649dfc0b58a4bd37b49094833c2cf8aaba257d73484ff",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/knowledge.sqlite": "9185d47f7069dadf835d5a5c8971e35d5cf780760e6beddcc3c4a6af38ea04a3",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/manifest.json": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/manifest.sig": "680df13406809e79a8c4970ea8006b8ee4659270ecb7a1ad1290d87e3a489853",
+    "packs\/reopen-eec7e4ff-b17c-4f0d-a6ae-42df957ee698\/transport.kpack": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "production-registry\/registry.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "production-registry\/registry.sqlite": "4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c"
+  },
+  "raw_reasoning_persisted": false,
+  "phone_performance": false
+}

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="39" failures="1" skipped="0" tests="49" time="3.487" timestamp="2026-10-05T15:15:52.427835+01:00" hostname="razer"><testcase classname="tests.test_g0_freeze" name="test_primary_inputs_and_complete_outputs_are_frozen" time="0.073" /><testcase classname="tests.test_kpack_security" name="test_valid_pack_and_immutable_query" time="0.035"><failure message="kpack_builder.core.PackError: [WinError 5] Access is denied: 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpf9h9lfj7'">path = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/packs/synthetic-week1/org.packrag.synthetic.week1-1.0.0.kpack')
+pinned = [b'\xbf\xa9\x8f\xbe{\xf9\xd2\xd3;\x92@\x03:\xf2\x9b\x11\xb9q\xad\xcbi\x000\xd0\\EG\xd2\xbfY\xf2\x0b']
+
+    def validate(path: Path, pinned: list[bytes], *, developer_mode=False) -&gt; dict:
+        try:
+            with zipfile.ZipFile(path) as z:
+                audit_archive(z)
+                m=verified_manifest(bounded_read(z,'manifest.json',MAX_MANIFEST),bounded_read(z,'manifest.sig',64),pinned)
+                require(developer_mode or m['calibration'].get('status')!='UNCALIBRATED','Uncalibrated pack requires developer mode')
+                require({i.filename for i in z.infolist()}==CONTROL|{f['path'] for f in m['files']}, 'Undeclared/missing payload')
+                with tempfile.TemporaryDirectory() as t:
+                    stage=Path(t)
+                    for f in m['files']:
+                        data=bounded_read(z,f['path'],f['bytes'])
+                        require(len(data)==f['bytes'] and sha(data)==f['sha256'],'Payload hash/length mismatch: '+f['path'])
+&gt;                       dest=stage/f['path']; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_bytes(data)
+                                                                                             ^^^^^^^^^^^^^^^^^^^^^^
+
+kpack_builder\core.py:183: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1036: in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/Users/Fkagf/AppData/Local/Temp/tmpf9h9lfj7/dense.kdx')
+mode = 'wb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+&gt;       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpf9h9lfj7\\dense.kdx'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1013: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+top = 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpf9h9lfj7', topdown = False
+onerror = &lt;function _rmtree_unsafe.&lt;locals&gt;.onerror at 0x000002570C2D2FC0&gt;
+followlinks = &lt;object object at 0x000002575A698200&gt;
+
+&gt;   ???
+E   PermissionError: [WinError 5] Access is denied: 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpf9h9lfj7'
+
+&lt;frozen os&gt;:366: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/packs/synthetic-week1/org.packrag.synthetic.week1-1.0.0.kpack')
+pinned = [b'\xbf\xa9\x8f\xbe{\xf9\xd2\xd3;\x92@\x03:\xf2\x9b\x11\xb9q\xad\xcbi\x000\xd0\\EG\xd2\xbfY\xf2\x0b']
+
+    def validate(path: Path, pinned: list[bytes], *, developer_mode=False) -&gt; dict:
+        try:
+            with zipfile.ZipFile(path) as z:
+                audit_archive(z)
+                m=verified_manifest(bounded_read(z,'manifest.json',MAX_MANIFEST),bounded_read(z,'manifest.sig',64),pinned)
+                require(developer_mode or m['calibration'].get('status')!='UNCALIBRATED','Uncalibrated pack requires developer mode')
+                require({i.filename for i in z.infolist()}==CONTROL|{f['path'] for f in m['files']}, 'Undeclared/missing payload')
+&gt;               with tempfile.TemporaryDirectory() as t:
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+kpack_builder\core.py:178: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py:950: in __exit__
+    self.cleanup()
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py:954: in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py:934: in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\shutil.py:781: in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\shutil.py:623: in _rmtree_unsafe
+    for dirpath, dirnames, filenames in results:
+                                        ^^^^^^^
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\shutil.py:621: in onerror
+    onexc(os.scandir, err.filename, err)
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py:906: in onexc
+    _resetperms(path)
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py:286: in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+func = &lt;built-in function chmod&gt;
+path = 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpf9h9lfj7', args = (448,)
+
+    def _dont_follow_symlinks(func, path, *args):
+        # Pass follow_symlinks=False, unless not supported on this platform.
+        if func in _os.supports_follow_symlinks:
+            func(path, *args, follow_symlinks=False)
+        elif _os.name == 'nt' or not _os.path.islink(path):
+&gt;           func(path, *args)
+E           PermissionError: [WinError 5] Access is denied: 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpf9h9lfj7'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\tempfile.py:277: PermissionError
+
+The above exception was the direct cause of the following exception:
+
+key = &lt;nacl.signing.SigningKey object at 0x000002570C2F7260&gt;
+
+    def test_valid_pack_and_immutable_query(key):
+        original=sha(PACK.read_bytes())
+&gt;       assert validate(PACK,[bytes(key.verify_key)],developer_mode=True)['status']=='PASS'
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_kpack_security.py:37: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/packs/synthetic-week1/org.packrag.synthetic.week1-1.0.0.kpack')
+pinned = [b'\xbf\xa9\x8f\xbe{\xf9\xd2\xd3;\x92@\x03:\xf2\x9b\x11\xb9q\xad\xcbi\x000\xd0\\EG\xd2\xbfY\xf2\x0b']
+
+    def validate(path: Path, pinned: list[bytes], *, developer_mode=False) -&gt; dict:
+        try:
+            with zipfile.ZipFile(path) as z:
+                audit_archive(z)
+                m=verified_manifest(bounded_read(z,'manifest.json',MAX_MANIFEST),bounded_read(z,'manifest.sig',64),pinned)
+                require(developer_mode or m['calibration'].get('status')!='UNCALIBRATED','Uncalibrated pack requires developer mode')
+                require({i.filename for i in z.infolist()}==CONTROL|{f['path'] for f in m['files']}, 'Undeclared/missing payload')
+                with tempfile.TemporaryDirectory() as t:
+                    stage=Path(t)
+                    for f in m['files']:
+                        data=bounded_read(z,f['path'],f['bytes'])
+                        require(len(data)==f['bytes'] and sha(data)==f['sha256'],'Payload hash/length mismatch: '+f['path'])
+                        dest=stage/f['path']; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_bytes(data)
+                    ids=validate_database(stage/'knowledge.sqlite',m)
+                    audit_kdx((stage/'dense.kdx').read_bytes(),m['embedding_profile'],ids)
+                return dict(status='PASS', manifest=m,manifest_sha256=sha(z.read('manifest.json')),archive_transport_sha256=sha(path.read_bytes()))
+        except (sqlite3.DatabaseError,zipfile.BadZipFile,KeyError,OSError,struct.error) as e:
+&gt;           raise PackError(str(e)) from e
+E           kpack_builder.core.PackError: [WinError 5] Access is denied: 'C:\\Users\\Fkagf\\AppData\\Local\\Temp\\tmpf9h9lfj7'
+
+kpack_builder\core.py:188: PackError</failure></testcase><testcase classname="tests.test_kpack_security" name="test_signature_vector[wrong_key]" time="0.003" /><testcase classname="tests.test_kpack_security" name="test_signature_vector[modified_manifest]" time="0.003" /><testcase classname="tests.test_kpack_security" name="test_signature_vector[modified_signature]" time="0.002" /><testcase classname="tests.test_kpack_security" name="test_signature_vector[truncated_signature]" time="0.002" /><testcase classname="tests.test_kpack_security" name="test_signature_vector[unknown_key]" time="0.002" /><testcase classname="tests.test_kpack_security" name="test_signature_vector[publisher_mismatch]" time="0.003" /><testcase classname="tests.test_kpack_security" name="test_payload_tamper[knowledge.sqlite]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_payload_tamper[dense.kdx]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[../evil]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[/absolute]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[C:/drive]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[C:drive]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[\\\\server\\share]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[sources/../escape]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[sources\\bad]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[sources/NUL.txt]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[sources/CON]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[sources/a:stream]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[sources/a.]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[sources/a ]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[sources/a.py]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_zip_paths[neural/cache.bin]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_duplicate_zip" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_archive_structure[undeclared]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_archive_structure[missing]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_archive_structure[symlink]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_archive_structure[oversized]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[magic]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[truncated]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[trailing]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[nan]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[inf]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[wrong_dimension]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[wrong_count]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[bad_norm]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[mapping]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[profile]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_kdx_invalid[flags]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_database_invalid[broken]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_database_invalid[foreign_key]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_database_invalid[fts]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_database_invalid[mapping]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_database_invalid[schema]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_authenticated_database_invalid[count]" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_kpack_security" name="test_jcs_rejects_reserialized_and_unknown_policy" time="0.001"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'&quot;">self = WindowsPath('C:/Users/Fkagf/Downloads/MOR CAPTSONE/artifacts/v1.3/m0/baseline-temp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m0\\baseline-temp'
+
+..\..\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_output_validation" name="test_buffered_display" time="0.001" /><testcase classname="tests.test_output_validation" name="test_identifier_is_not_answer_permission" time="0.001" /></testsuite></testsuites>

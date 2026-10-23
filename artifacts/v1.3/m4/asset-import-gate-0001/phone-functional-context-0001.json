@@ -1,0 +1,154 @@
+{
+  "status": "OBSERVATIONAL_FUNCTIONAL_RUN_RESOURCE_CONTEXT_NOT_M8_OR_BOTTLENECK_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T21:56:07.081962+00:00",
+  "active_parent": "device-local-asset-final-import-debug-0002-execution.json",
+  "active_class": "LocalAssetImportViewModelDeviceTest",
+  "pid": 12018,
+  "cpu_samples": [
+    {
+      "returncode": 0,
+      "sample_utc": "2026-10-11T21:56:00.918687+00:00",
+      "state": "S",
+      "utime_ticks": 151346,
+      "stime_ticks": 4943,
+      "threads": 32,
+      "starttime_ticks": 71235971,
+      "rss_pages": 449446
+    },
+    {
+      "returncode": 0,
+      "sample_utc": "2026-10-11T21:56:06.110239+00:00",
+      "state": "S",
+      "utime_ticks": 151597,
+      "stime_ticks": 5143,
+      "threads": 32,
+      "starttime_ticks": 71235971,
+      "rss_pages": 378670
+    }
+  ],
+  "elapsed_sampling_seconds": 5.203000000001339,
+  "clock_ticks_per_second": 100,
+  "battery_selected_lines": [
+    "AC powered: false",
+    "USB powered: true",
+    "Wireless powered: false",
+    "status: 2",
+    "health: 2",
+    "present: true",
+    "level: 96",
+    "scale: 100",
+    "temperature: 408"
+  ],
+  "thermal_selected_lines": [
+    "Thermal Status: 3",
+    "Temperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}",
+    "Temperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}",
+    "Temperature{mValue=46.9, mType=0, mName=AP, mStatus=0}",
+    "Temperature{mValue=44.1, mType=5, mName=PA, mStatus=0}",
+    "Temperature{mValue=40.7, mType=2, mName=BAT, mStatus=0}",
+    "Temperature{mValue=36.2, mType=4, mName=USB, mStatus=0}",
+    "Temperature{mValue=43.6, mType=3, mName=SKIN, mStatus=3}",
+    "Temperature{mValue=46.9, mType=0, mName=AP, mStatus=0}",
+    "Temperature{mValue=40.7, mType=2, mName=BAT, mStatus=0}",
+    "Temperature{mValue=44.1, mType=5, mName=PA, mStatus=0}",
+    "Temperature{mValue=43.6, mType=3, mName=SKIN, mStatus=3}",
+    "Temperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}",
+    "Temperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}",
+    "Temperature{mValue=36.2, mType=4, mName=USB, mStatus=0}"
+  ],
+  "app_meminfo_selected_lines": [
+    "Native Heap   162422   155212     7192   303628   163460    82164    18406    59487",
+    "Dalvik Heap     7781     7572      172    62594     8680    30296     5752    24544",
+    "TOTAL   573542   166360    18288   375994   263104   112460    24158    84031",
+    "Native Heap:   155212                         163460",
+    "TOTAL PSS:   573542            TOTAL RSS:   263104       TOTAL SWAP PSS:   375994"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/12018/stat"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/12018/stat"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "getconf",
+        "CLK_TCK"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "battery"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "thermalservice"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "12018"
+      ],
+      "returncode": 0
+    }
+  ],
+  "scope": "Read-only exact package/process/stat plus selected device resource fields;5second sample while functional test remains running. Mobile data/other apps uncontrolled, no settings/root/governor/affinity changes; no raw heap/model/private-custody data or full dumps persisted. Single-process CPU time/PSS/RSS and thermal-service snapshot are not peak memory, visible-answer latency, controlled throughput, hardware/software causal attribution or M8 acceptance.",
+  "process_cpu_time_delta_seconds": 4.51,
+  "process_cpu_core_equivalent_over_sample": 0.8668076109934344,
+  "active_android_source_sha256": "cbebb8d2adb244ef577c52ca39258d7cd24c43b76445bec0a90715ebdc395df9"
+}

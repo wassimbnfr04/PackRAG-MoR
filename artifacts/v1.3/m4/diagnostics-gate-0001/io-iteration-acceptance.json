@@ -1,0 +1,32 @@
+{
+  "status": "PASS_E3_EXECUTION_AND_DIAGNOSTICS_ITERATION_NOT_COMPLETE_E3",
+  "build": "build-0045",
+  "host_methods": 50,
+  "android_inputs": 569,
+  "device_methods": 1,
+  "controls": 8,
+  "junit_wall_seconds": 290.365,
+  "original_sha256": "420b216e166045e11df92b16c5f699960935a7f0467ccca3be10e54fe8b10734",
+  "source_snapshots": {
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt": "2cb3ee9ea4bef3714ed3b6f55336b104840d2c09e96ccf71001378ae9f5161f7",
+    "product/android/app/src/main/java/org/packrag/product/BlockingIo.kt": "46e325b5bbf7a3c89b0b56a98f804030f1b09968bcd9d5da8f8981bff90645e4",
+    "product/android/app/src/main/java/org/packrag/product/DiagnosticPresentation.kt": "dfc0c6dcbfd7eb76c677be532fd91dd885f73935f3b3600e10b93704495d0f6b",
+    "product/android/app/src/main/java/org/packrag/product/DiagnosticsPanel.kt": "b32b2080055bbb3e07c86d44be18383bce40b9a5095ee090d6b030129a645de3",
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": "8590761bf57f302e54b98b828412898a472a7c331f7fbe964c9b4b7ba1281e58",
+    "product/android/app/src/main/java/org/packrag/product/ProductSession.kt": "46d3b31286ebacb4fb4990f64bafcfbb3cae6dc038d8b97bffbabb7957ebe5b2",
+    "product/android/app/src/test/java/org/packrag/product/BlockingIoTest.kt": "fb0bb8b9da38ee681e28e20e69755f1cc09c02dd93e49b73edf2c9a9bc774f97",
+    "product/android/app/src/test/java/org/packrag/product/DiagnosticPresentationTest.kt": "15f719c71e82ee1b93c8a3225f744642c0be4da6690d04f520e1a34c210fee82",
+    "product/android/grounded-runtime/src/main/java/org/packrag/runtime/Diagnostics.kt": "107fe8fa8d55beb4c822f7f91c984ebf904d1b7510f2cabe142f7a14c560a35b",
+    "product/android/grounded-runtime/src/main/java/org/packrag/runtime/PackRag.kt": "d627bbbbad16053deb853fc2e9b364fc762edec231b99fa5172ac5a347312d6a",
+    "product/android/grounded-runtime/src/test/java/org/packrag/runtime/DiagnosticsOwnershipTest.kt": "92507a2f6e1ed481f4674f4828be5c852428692714d6a117e24acf4e3cc27344",
+    "product/android/retrieval/src/main/java/org/packrag/retrieval/Retrieval.kt": "8aeb625812dbf33c40b48e07c7236a6390ea54a5871f8d625e71be1f94e7bad0"
+  },
+  "failed0044_exact_repair": [
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt",
+    "product/android/app/src/test/java/org/packrag/product/BlockingIoTest.kt"
+  ],
+  "unchanged0044_other_inputs": 567,
+  "python": "run-0017",
+  "python_methods": 1034,
+  "scope": "Actual Default/IO wiring and two accepted cold/warm queries; exact owner guard within0003 at documented post-launch baseline. Original0002 default DB byte change remains FAIL; lifecycle/UI/fullpolicy/closure pending."
+}

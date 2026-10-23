@@ -1,0 +1,69 @@
+{
+  "status": "OLD_RESTORATION_PATH_COLLISION_IDENTIFIED_FRESH0015_RECOVERY_PREPARED_NOT_EXECUTED",
+  "recorded_utc": "2026-10-10T20:40:02.448605+00:00",
+  "active_driver_session": 65092,
+  "old_restoration_manifest_sha256": "f049ed49ac504f662949528924c555cd7a88188b503435549a3db42e4442050b",
+  "old_e2_public_outputs_guard": {
+    "artifacts/v1.3/m4/device-development-restore-0014/collected-results.json": "557f3dc57e7e4a6f164a0d60ba3d77954952186f304ce85cecc2e84f9f1fb3e4",
+    "artifacts/v1.3/m4/device-development-restore-0014/instrumentation-manifest.json": "f049ed49ac504f662949528924c555cd7a88188b503435549a3db42e4442050b",
+    "artifacts/v1.3/m4/device-development-restore-0014/instrumentation.txt": "1f106a2cea67acd94dc6f84ff0bc73eb31408d5be6e783c80f6c7c244447b42c",
+    "artifacts/v1.3/m4/device-development-restore-0014/m3-import-consent.json": "7ec2f86e11ba270e66d4846a9dd4b7b67d51e1bed40511bedf4d96f0f99fc2d5",
+    "artifacts/v1.3/m4/device-development-restore-0014/original-adb/m3-import-consent.json": "0ee774b6713fdc54911725c667ff3aa084c4ccfd8320c210628c951d12cc7d72"
+  },
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "derivations": [
+    {
+      "original": "verify_full_parity_dispatch_final.py",
+      "original_sha256": "1d5e69bbf261bfa5bacb70dd115b71fed477b695231bace92ff44792a9699465",
+      "derived": "verify_full_parity_restoration_final.py",
+      "derived_sha256": "ad43fd6e0ef30feff7d4c636d67ab91f162b2ab4a03a39de91eb0289f7806177",
+      "replacements": [
+        [
+          "full-background-execution.json",
+          "full-background-recovered-execution.json"
+        ],
+        [
+          "device-development-restore-0014",
+          "device-development-restore-0015"
+        ]
+      ]
+    },
+    {
+      "original": "verify_and_record.py",
+      "original_sha256": "6cbfa330d4f3b8e0141ddbbfcd2a68cf57d032d32c40e5a2e153094b2332d0ed",
+      "derived": "verify_and_record_final.py",
+      "derived_sha256": "98087e6e19e865dd5b88ce1d9de6a072c52c75676af3e1059c9529a0f39bb1e4",
+      "replacements": [
+        [
+          "full-background-execution.json",
+          "full-background-recovered-execution.json"
+        ],
+        [
+          "device-development-restore-0014",
+          "device-development-restore-0015"
+        ],
+        [
+          "verify_full_parity_dispatch_final.py",
+          "verify_full_parity_restoration_final.py"
+        ]
+      ]
+    },
+    {
+      "original": "update_acceptance_documents.py",
+      "original_sha256": "897b37ed0d7b1dea34b91a7387f56696938b501f6fa63ad051918a60fb8040b0",
+      "derived": "update_acceptance_documents_final.py",
+      "derived_sha256": "3b0158c5c447ab8863798c535582f4ced78e78f8a35644b4391289bde4dcfe43",
+      "replacements": [
+        [
+          "verify_and_record.py",
+          "verify_and_record_final.py"
+        ],
+        [
+          "device-development-restore-0014",
+          "device-development-restore-0015"
+        ]
+      ]
+    }
+  ],
+  "scope": "Current driver already loaded0014 restoration argv. Let both current full suites and original collectors finish; its eventual mkdir FileExists failure occurs before phone mutation. Preserve that failed orchestration record. Fresh0015 same0052 consent method/original must pass; only then recovered execution/parity/closure, with no old result promoted or overwritten."
+}

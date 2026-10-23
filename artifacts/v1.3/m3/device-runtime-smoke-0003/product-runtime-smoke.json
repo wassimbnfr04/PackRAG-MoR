@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "NO_PACK",
+      "passed": true,
+      "state": "NO_ACTIVE_PACK",
+      "answer": null,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 0.387031,
+      "initialization_ms": 0,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "sources": []
+    },
+    {
+      "id": "SUPPORTED_REAL_INFERENCE",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+      "selected": [
+        "29e38c9e841a0cd8d92a090c",
+        "3c0d779d818604ab90126609",
+        "d46745e3c80bd1ed8f10d062",
+        "8f9fd3aa276b3db6c9d1a2f8"
+      ],
+      "prefill_tokens": 389,
+      "evidence_tokens": 234,
+      "emitted_tokens_including_terminal": 152,
+      "total_ms_including_lazy_initialization": 199779.564297,
+      "initialization_ms": 18769.756523,
+      "prefill_ms": 120435.958945,
+      "decode_wall_ms": 60354.850821,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    },
+    {
+      "id": "UNRELATED",
+      "passed": true,
+      "state": "NO_RELEVANT_EVIDENCE",
+      "answer": null,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 143.796523,
+      "initialization_ms": 0,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "sources": []
+    }
+  ],
+  "actual_weight_inference": true,
+  "canonical_source_checked": true,
+  "purpose": "RETAINED_PRODUCT_PIPELINE_SMOKE_NOT_INTERACTIVE_OR_RELEASE_BENCHMARK",
+  "raw_reasoning_persisted": false,
+  "network_mode": "MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET"
+}

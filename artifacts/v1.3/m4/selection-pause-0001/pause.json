@@ -1,0 +1,27 @@
+{
+  "status": "PAUSED_AT_OWNER_REQUEST_AFTER_COMPLETED_D3_TESTS",
+  "recorded_utc": "2026-10-09T23:17:48.410423+00:00",
+  "verified_implementation_checkpoint": "19f760e89c9a5dae7a36edf8fe1b02ba248cf700",
+  "gate": "artifacts\\v1.3\\m4\\selection-gate-0002\\gate.json",
+  "gate_sha256": "d6b7fec7265015237e72b5ffc142ef1cb68a2a83077ece2798c2b61f3915e1c5",
+  "unchanged_runtime_inputs": 185,
+  "unchanged_android_inputs": 543,
+  "unchanged_gate_public_outputs": 902,
+  "operational_state_sha256": {
+    "PLAN.md": "c355bc4486174db921c5eac273a3b50259dffe9bd4c1478827edc8710dda7dfd",
+    "STATUS.md": "acf1ed077c0eb760c4b37c5ab65743a07f81854e9a9d2d04088c9da44629e066",
+    "DECISIONS.md": "ea191bcdc67d96e03b2475e437e47968c21e45eb185481047c6bb8d2e9eb3292"
+  },
+  "tests_running": false,
+  "tests_killed": false,
+  "development_restored_build": "build-0030",
+  "restoration_run": "device-development-restore-0010",
+  "owner_models_and_registries_preserved": true,
+  "mobile_data_preserved": true,
+  "phone_may_disconnect": true,
+  "next_milestone": "M4E1 query/date/jurisdiction controls and captured answer context",
+  "next_code_started": false,
+  "resume": "Only after explicit owner instruction; verify checkpoint/current source/saved original results/history, then E1 using M4E_UI_PREPARATION.md",
+  "scope": "RAG/mobile software and test packs; final knowledge-pack content belongs to owner",
+  "limits": "D3 correctness/ownership acceptance is not complete M4/product, semantic gold, final content review/calibration, benchmark, final signing or archive acceptance"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "FAIL",
+  "test_id": "f2-import-ui-7c23a2b4-8ed6-4612-b2f2-45c969c74cdb",
+  "cases": [
+    {
+      "id": "actual-document-read-denied-before-system-picker-grant",
+      "passed": true
+    },
+    {
+      "id": "actual-system-picker-cancel-keeps-file-and-completed-result",
+      "passed": true
+    }
+  ],
+  "current_point": "CORRUPT_DOCUMENT",
+  "grant_full_for_background_setup_only": "Broadcasting: Intent { act=org.packrag.product.test.GRANT_FULL_ASSETS flg=0x400000 cmp=org.packrag.product.test\/org.packrag.product.AssetFixtureGrantReceiver }\nBroadcast completed: result=1, data=\"NARROW_FULL_ASSET_READS_GRANTED\"\n",
+  "actual_viewmodel_store_key": "androidx.lifecycle.ViewModelProvider.DefaultKey:org.packrag.product.PackRagViewModel",
+  "target_picker_lookup": null,
+  "picker_package_lookup_source": "SHELL_EXPLICIT_OPEN_DOCUMENT_OCTET_STREAM",
+  "resolved_picker_package": "com.google.android.documentsui",
+  "failure_type": "AssertionError"
+}

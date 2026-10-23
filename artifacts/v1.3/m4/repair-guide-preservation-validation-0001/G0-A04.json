@@ -1,0 +1,56 @@
+{
+  "id": "G0-A04",
+  "category": "abstention",
+  "question": "On what date was NovaLink firmware version 3.4 released?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "Firmware version 3.4 of the NovaLink controller supports CSV export."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 430,
+    "prompt_ms": 4453.052,
+    "prompt_per_token_ms": 10.355934883720929,
+    "prompt_per_second": 96.56298646411496,
+    "predicted_n": 246,
+    "predicted_ms": 9422.296,
+    "predicted_per_token_ms": 38.458351020408166,
+    "predicted_per_second": 26.002154888787192,
+    "host_generation_wall_ms": 13915.918100003182,
+    "emitted_token_count": 246,
+    "reasoning_token_count": 237,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 430,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" citations continuation* \".\"?\ncontinuation ::= \".\"? \" \" text \" \" citations\ncitations ::= cite (\" \" cite)? (\" \" cite)? (\" \" cite)?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "75efa485cada464189b8d6a855a4522f50ba31116f039ece5fad73e61e9c553a",
+    "final_only": "INSUFFICIENT_EVIDENCE"
+  },
+  "manual_semantic_review_required": true
+}

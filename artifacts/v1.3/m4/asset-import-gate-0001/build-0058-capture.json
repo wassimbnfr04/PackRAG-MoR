@@ -1,0 +1,28 @@
+{
+  "status": "FAILED_ITERATION_PRESERVED_NOT_HOST_OR_DEVICE_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T16:30:59.385462+00:00",
+  "build": "build-0058",
+  "variant": "debug",
+  "android_inputs": 588,
+  "host_xml_totals": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "tested_source_sha256": {
+    "product/android/app/src/androidTest/AndroidManifest.xml": "bcb741d04fd7035037a69b57a99383e0aedd0400d0508069c775d71d2ba4a22e",
+    "product/android/app/src/androidTest/assets/asset-import-source/template-valid.jinja": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureGrantReceiver.java": "5913ab15d50c23045e30cdb4238e5f73e3043cebfb3fef13f1a2d62be62a1a53",
+    "product/android/app/src/androidTest/java/org/packrag/product/AssetFixtureProvider.java": "99229c5706c752eef03eac444cbf901047f6925fbe3bbdd6c6355ad163a48a49",
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportWalkingDeviceTest.kt": "9771dc5d4d1c89524352c0cc2dce427358f351520c45640902d5f0ca614d7c7f",
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetImporter.kt": "3c6329afc0f0b145eadde9828736348b386b04546cd5c4d2a53ed45252b84cb4",
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetLeases.kt": "00f2cac5dbc5b7a190782406e0f0e288adf57f6863a2df330cbc6adbe35700c3",
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetUriSource.kt": "bb05dd794f79198c39bbdee43abc4251ece1397d40ef8ae4e5febd1f56a17ec2",
+    "product/android/app/src/main/java/org/packrag/product/ProductSession.kt": "4477e7806261aa94ea293ae505df0f6a17615a722e5fdd3e5b7d4a14b2abce17",
+    "product/android/app/src/test/java/org/packrag/product/LocalAssetImporterTest.kt": "09201a96278756ca78d8ea227b07a50809dfd389118e314ea49d70d385d447ec"
+  },
+  "build_result_sha256": "103434b049edafad3cb75ba9b371af1a084428e72c3dcb82a86f9975769d2fb4",
+  "gradle_log_sha256": "e7a4855332abc902b77be3910c25a26412a7ca35cd22e8b7f7b3ceca2cb8605c",
+  "commands": []
+}

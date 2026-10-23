@@ -1,0 +1,47 @@
+{
+  "status": "PASS_E3_ACTUAL_COMPILED_POLICY_DIAGNOSTICS_ORIGINAL_NOT_COMPLETE_E3",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0049",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-diagnostic-policy-0001",
+        "--class-name",
+        "org.packrag.product.DiagnosticPolicyDeviceTest",
+        "--result-file",
+        "m4-diagnostic-policy.json",
+        "--timeout",
+        "900",
+        "--variant",
+        "demo"
+      ],
+      "started_utc": "2026-10-10T19:45:27.011425+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T19:51:42.759158+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-diagnostic-policy-0001",
+        "--files",
+        "m4-diagnostic-policy.json"
+      ],
+      "started_utc": "2026-10-10T19:51:42.760158+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T19:51:43.242527+00:00"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "FAIL",
+  "command": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "scripts.v13_existing_walking_smoke",
+      "--run",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\existing-walking-smoke-0015"
+    ],
+    "started_utc": "2026-10-10T19:42:43.193927+00:00",
+    "returncode": 1,
+    "finished_utc": "2026-10-10T19:43:19.781999+00:00"
+  }
+}

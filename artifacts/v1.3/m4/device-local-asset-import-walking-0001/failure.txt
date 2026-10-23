@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\asset-import-gate-0001\run_walking.py", line 46, in <module>
+    assert b'OK (1 test)' in out.stdout and b'FAILURES' not in out.stdout,'Actual instrumentation failed; later F2 progression held'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Actual instrumentation failed; later F2 progression held

@@ -1,0 +1,6 @@
+{
+  "status": "PREPARATION_FAILURE_BEFORE_SERVER_START_NO_TOKEN_ORACLE",
+  "reason": "ModuleNotFoundError: No module named scripts; direct artifact script launch lacked workspace import path",
+  "script_sha256": "4b1b9d8c325b8901ea8e422c1de8c0a8f5dfa14a8b3cc55b8d3f78f3eb106555",
+  "traceback_source": "Tool-reported startup traceback; no product execution, no original traceback file was created before this note"
+}

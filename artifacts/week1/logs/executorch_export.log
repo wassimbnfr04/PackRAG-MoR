@@ -1,0 +1,54 @@
+W0930 00:04:13.542000 30004 .venv-et15\Lib\site-packages\torch\utils\_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+E0 PASS
+-------------------------------Preprocess Config -------------------------------
+Automatically determining batch size based on `total_batch_size`
+total_batch_size              : 1024 (given)
+torch.cuda.device_count()     : 1
+per_device_train_batch_size   : 1 (given)
+gradient_accumulation_steps   : 1024 (computed)
+actual total batch size       : 1024
+Setting wandb_run_name: 250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001
+Setting output_dir  : 250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001
+No checkpoint directories found matching C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\results\pretrain\250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\checkpoint-*
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\util\config.py:95: UserWarning: stop_steps (14161) is not divisible by save_steps (1416)
+  warnings.warn(warning)
+Using deepspeed config = C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\ds_configs/stage2.config
+--------------------------------------------------------------------------------
+E2 PASS
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376] Error while creating guard:
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376] Name: ''
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     Source: shape_env
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     Create Function: SHAPE_ENV
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     Guard Types: None
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     Code List: None
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     Object Weakref: None
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     Guarded Class Weakref: None
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376] Traceback (most recent call last):
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\torch\_guards.py", line 374, in create
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     return self.create_fn(builder, self)
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\torch\_dynamo\guards.py", line 3484, in SHAPE_ENV
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     python_code_parts, verbose_code_parts = _get_code_parts(
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]                                             ^^^^^^^^^^^^^^^^
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\torch\_dynamo\guards.py", line 3457, in _get_code_parts
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     return output_graph.shape_env.produce_guards_verbose(
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\torch\fx\experimental\symbolic_shapes.py", line 6951, in produce_guards_verbose
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]     raise ConstraintViolationError(
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376] torch.fx.experimental.symbolic_shapes.ConstraintViolationError: Constraints violated (seq_len)! For more information, run with TORCH_LOGS="+dynamic".
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   - Not all values of seq_len = L['flat_args'][0].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(1.0*torch.sym_float(L['flat_args'][0].size()[1])) <= L['flat_args'][0].size()[1].
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   - Not all values of seq_len = L['flat_args'][0].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(1.0*torch.sym_float(L['flat_args'][0].size()[1])))) != 0.
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   - Not all values of seq_len = L['flat_args'][0].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['flat_args'][0].size()[1])) <= math.trunc(1.0*torch.sym_float(L['flat_args'][0].size()[1])).
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   - Not all values of seq_len = L['flat_args'][0].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['flat_args'][0].size()[1])) <= L['flat_args'][0].size()[1].
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   - Not all values of seq_len = L['flat_args'][0].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.6666666666666666*torch.sym_float(L['flat_args'][0].size()[1])))) != 0.
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:376]   - Not all values of seq_len = L['flat_args'][0].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.3333333333333333*torch.sym_float(L['flat_args'][0].size()[1])))) != 0.
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378] Created at:
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378]   File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\torch\_dynamo\convert_frame.py", line 925, in trace_frame
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378]     tracer = InstructionTranslator(
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378]   File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\torch\_dynamo\symbolic_convert.py", line 5589, in __init__
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378]     output=OutputGraph(
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378]   File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\torch\_dynamo\output_graph.py", line 802, in __init__
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378]     self.init_ambient_guards()
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378]   File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\torch\_dynamo\output_graph.py", line 1173, in init_ambient_guards
+E0930 00:05:10.896000 30004 .venv-et15\Lib\site-packages\torch\_guards.py:378]     self.guards.add(ShapeEnvSource().make_guard(GuardBuilder.SHAPE_ENV))
+Audit saved

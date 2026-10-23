@@ -1,0 +1,12 @@
+{
+  "product\\packrag\\generation_policy.py": "b7373900d73214aff9ae55b131f1ff3da9a891c5910099f83e661a9566e9a399",
+  "product\\packrag\\generator.py": "1956047c3617fc887e98de9827cc5e84f9c6f82ce7523591b13dda8d6af5f553",
+  "product\\packrag\\runtime.py": "6ec3c9cd3ea98e04fb426ad675d3e6643828aae5a4ba2cc6afa0a9f1e43ec4ee",
+  "product\\packrag\\prompt.py": "ee571f2e527c36caaf9e2529d6acdbec945a701efe271d7f3bf33a9b58172415",
+  "product\\packrag\\evidence.py": "d60ef68d74ff9340f1f34e5d41dfaa49226b710d89287f5814dc09622da6df0a",
+  "product\\packrag\\output.py": "e0fc93715cb8015c45eaf9973dbc4688478bd14c7e601b0dd92158e33b2a83ff",
+  "product\\config\\generation-profile-quotes-v1.json": "dae71e602caa7f10e9030f4a19e21b44d513067ebccbc9ccee600b996965225d",
+  "artifacts\\v1.3\\m4\\chat-and-repair-0001\\run_product_quote_smoke_0001.py": "f8228265ef9806a47f5d9f5407c4ed0885898d51290ee1b4b10991d8d0c91712",
+  "artifacts\\v1.3\\m4\\chat-and-repair-0001\\owned_product_quotes_server_0001.py": "d8ceef155cddae85c4ead737db15a35ccf7d047e079888b0e3bdf6f881778131",
+  "artifacts\\v1.3\\m4\\chat-and-repair-0001\\repair-cases-frozen-0001.json": "66f4181916ee58750627c6605a94483bff02cb01e5cf88c4915c6210a8f6e222"
+}

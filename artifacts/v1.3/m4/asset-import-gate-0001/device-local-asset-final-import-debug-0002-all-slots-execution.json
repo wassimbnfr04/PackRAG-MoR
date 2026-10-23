@@ -1,0 +1,226 @@
+{
+  "status": "PASS_F2_ACTUAL_ALL_FOUR_FULL_SIZE_URI_IMPORT_AND_COLD_WARM_NATIVE_NOT_UI_OR_FULL_F2",
+  "started_utc": "2026-10-11T21:38:47.229139+00:00",
+  "runner_sha256": "66c19946d9a76d507bba8fcd30da698bca8314f66e6f76e28b4b2446a8bbfc99",
+  "build": "build-0076",
+  "run": "device-local-asset-final-import-debug-0002-all-slots",
+  "source_preparation_sha256": "bce61b8f91b4cebbe8b8310689b528f464a4cb1cf7b8701e7c5df528821f12fc",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-final-import-debug-0002-all-slots",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportAllSlotsDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-all-slots.json",
+        "--timeout",
+        "3000",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-final-import-debug-0002-all-slots",
+        "--files",
+        "m4-local-asset-import-all-slots.json,m4-local-asset-import-all-slots-progress.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0076",
+        "--output",
+        "device-local-asset-final-import-debug-0002-all-slots-after-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-final-import-debug-0002-all-slots-after-known-guard.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "finished_utc": "2026-10-11T21:46:44.751611+00:00",
+  "original_sha256": {
+    "m4-local-asset-import-all-slots.json": "6f65385dbf724ec8259415575e0e030cc8c142c101dedc92d01cc22e382fb574",
+    "m4-local-asset-import-all-slots-progress.json": "6f65385dbf724ec8259415575e0e030cc8c142c101dedc92d01cc22e382fb574"
+  },
+  "cases": [
+    "initially-missing-private-model-root-and-separate-uid-four-narrow-grants",
+    "actual-full-size-GENERATOR-uri-readback-commit-close",
+    "actual-full-size-TEMPLATE-uri-readback-commit-close",
+    "actual-full-size-TOKENIZER-uri-readback-commit-close",
+    "actual-full-size-ENCODER-uri-readback-commit-close",
+    "all-four-independent-pinned-final-file-verification",
+    "actual-cold-native-retrieval-admission-selection-citation-answer",
+    "actual-warm-native-retrieval-admission-selection-citation-answer"
+  ],
+  "imports": [
+    {
+      "slot": "GENERATOR",
+      "bytes": 1593894944,
+      "sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "completed_at": "2026-10-11T21:39:12.652261Z",
+      "directory_synced": true,
+      "staging_cleaned": true,
+      "duration_ms": 16314.152344,
+      "progress_callbacks": 24326,
+      "observed_final_bytes": 1593894944,
+      "stages": [
+        "COPYING",
+        "SYNCING",
+        "VERIFYING",
+        "COMMITTING",
+        "COMMITTED"
+      ],
+      "provider_before": {
+        "opens": 0,
+        "closes": 0,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 0,
+        "typed_plain_opens": 0
+      },
+      "provider_after": {
+        "opens": 1,
+        "closes": 1,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 1,
+        "typed_plain_opens": 0
+      }
+    },
+    {
+      "slot": "TEMPLATE",
+      "bytes": 5443,
+      "sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "completed_at": "2026-10-11T21:39:18.089042Z",
+      "directory_synced": true,
+      "staging_cleaned": true,
+      "duration_ms": 144.865391,
+      "progress_callbacks": 6,
+      "observed_final_bytes": 5443,
+      "stages": [
+        "COPYING",
+        "SYNCING",
+        "VERIFYING",
+        "COMMITTING",
+        "COMMITTED"
+      ],
+      "provider_before": {
+        "opens": 1,
+        "closes": 1,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 1,
+        "typed_plain_opens": 0
+      },
+      "provider_after": {
+        "opens": 2,
+        "closes": 2,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 2,
+        "typed_plain_opens": 0
+      }
+    },
+    {
+      "slot": "TOKENIZER",
+      "bytes": 25301672,
+      "sha256": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+      "completed_at": "2026-10-11T21:39:18.677894Z",
+      "directory_synced": true,
+      "staging_cleaned": true,
+      "duration_ms": 581.006211,
+      "progress_callbacks": 392,
+      "observed_final_bytes": 25301672,
+      "stages": [
+        "COPYING",
+        "SYNCING",
+        "VERIFYING",
+        "COMMITTING",
+        "COMMITTED"
+      ],
+      "provider_before": {
+        "opens": 2,
+        "closes": 2,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 2,
+        "typed_plain_opens": 0
+      },
+      "provider_after": {
+        "opens": 3,
+        "closes": 3,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 3,
+        "typed_plain_opens": 0
+      }
+    },
+    {
+      "slot": "ENCODER",
+      "bytes": 390004608,
+      "sha256": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+      "completed_at": "2026-10-11T21:39:25.255506Z",
+      "directory_synced": true,
+      "staging_cleaned": true,
+      "duration_ms": 6456.742657,
+      "progress_callbacks": 5956,
+      "observed_final_bytes": 390004608,
+      "stages": [
+        "COPYING",
+        "SYNCING",
+        "VERIFYING",
+        "COMMITTING",
+        "COMMITTED"
+      ],
+      "provider_before": {
+        "opens": 3,
+        "closes": 3,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 3,
+        "typed_plain_opens": 0
+      },
+      "provider_after": {
+        "opens": 4,
+        "closes": 4,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 4,
+        "typed_plain_opens": 0
+      }
+    }
+  ],
+  "scope": "Actual2009206667 bytes/4 separate-UID descriptor imports into initially absent private model root; readback pins/atomic replacement/progress/close and cold/warm real answers; exact owner50 and source4 hashes unchanged. Explicit narrow test receiver grants, not Android system picker or ViewModel/UI. Source set retained deliberately. No full F2/M4/product/release/domain/gold/performance acceptance."
+}

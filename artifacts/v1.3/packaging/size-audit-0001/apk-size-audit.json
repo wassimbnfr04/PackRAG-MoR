@@ -1,0 +1,520 @@
+{
+  "status": "READ_ONLY_PUBLIC_APK_FEASIBILITY_NOT_FINAL_PACKAGE_OR_RUNTIME_ACCEPTANCE",
+  "recorded_utc": "2026-10-09T19:57:43.718843+00:00",
+  "script_sha256": "f687fda008f18f5074cb8c10366d4dfc32c7235172a5de5f1c9e79a7e7691d6c",
+  "public_apk_files": 100,
+  "total_original_apk_bytes": 3989385661,
+  "unique_64k_block_bytes": 208348046,
+  "unique_64k_blocks": 3218,
+  "unique_4k_block_bytes": 148145038,
+  "unique_4k_blocks": 36206,
+  "files": [
+    {
+      "path": "artifacts/v1.3/m2/build-0001/app-debug-androidTest.apk",
+      "bytes": 919007,
+      "sha256": "f5e80f8b9b27ffe900fe13fe4a3283a4444b900606c8e195e0bc190c5b832934"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0001/app-debug.apk",
+      "bytes": 62954647,
+      "sha256": "faca8f34ffefbcfe14410b87e2dcf238d15ffaed932af30def9e65872b1cf816"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0002/app-debug-androidTest.apk",
+      "bytes": 963276,
+      "sha256": "e4fe949e0b6555c6de2b3f031d7a28ca4305e8de8aca0f29e00a287db767b865"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0002/app-debug.apk",
+      "bytes": 62981593,
+      "sha256": "6d9cac5015570ee887b0ae5fd0cf7194a7abdd6082b24ee1d6bbaae58ebf163d"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0003/app-debug-androidTest.apk",
+      "bytes": 963276,
+      "sha256": "e4fe949e0b6555c6de2b3f031d7a28ca4305e8de8aca0f29e00a287db767b865"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0003/app-debug.apk",
+      "bytes": 62983378,
+      "sha256": "9ac62efe5ae12bf070249dc5858fe1267529f75afc969f8b6d665d1aecaa532b"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0004/app-debug-androidTest.apk",
+      "bytes": 963276,
+      "sha256": "66e38226788b3879759e47a9640abdaadfc8b50303496a969f1ab8fcef1c1852"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0004/app-debug.apk",
+      "bytes": 62983378,
+      "sha256": "9ac62efe5ae12bf070249dc5858fe1267529f75afc969f8b6d665d1aecaa532b"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0005/app-debug-androidTest.apk",
+      "bytes": 963711,
+      "sha256": "6f5829b99f9944d06a9a510eebd5413b404a891713e04b139193855be7bcd314"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0005/app-debug.apk",
+      "bytes": 63010365,
+      "sha256": "a058896fc301c39837db65dae8c5afe0a3a22fbf462c3bfd60baacc6920235b9"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0007/app-debug-androidTest.apk",
+      "bytes": 1014312,
+      "sha256": "ae682c7d348580832da377427fbc7e840f37c246c8614bd279714baee74a89be"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0007/app-debug.apk",
+      "bytes": 72595337,
+      "sha256": "0e3fb1548aedc9e7137ac8989e8feed90fc0f50bc67ea8227b37967aa05ada9f"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0008/app-debug-androidTest.apk",
+      "bytes": 1052287,
+      "sha256": "50819d129da293359e0750da401cbb5c6dcaac8b9443ee12d74c045af8f3731e"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0008/app-debug.apk",
+      "bytes": 73662160,
+      "sha256": "5ec8610c7a616e7b833e7cf8990c127097e9052749572591f079cf01407c773b"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0009/app-debug-androidTest.apk",
+      "bytes": 1062342,
+      "sha256": "1fd922b5f154e8df5d5ca8f7d7ada5133f641c1009e81871d4e41f1a04c852b3"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0009/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "961003af0b513f6171362442ba70119f02eb8974f34503af31c59ba8e8f989a9"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0010/app-debug-androidTest.apk",
+      "bytes": 3344433,
+      "sha256": "ab693d3bf6be16ab0caf7cf54c1ec0ce7c3d73074668890a8d2ffd4c093bdc70"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0010/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "ecd32dc9b3d4d1abf8201282c5be6635f572cf1a6fef2ccee1eb7a958f8aa9e3"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0011/app-debug-androidTest.apk",
+      "bytes": 3344433,
+      "sha256": "f69601ead5bf7ce872647e46e2188babc1eb786e2f7df0801e4fbf81d4c28dd8"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0011/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "ecd32dc9b3d4d1abf8201282c5be6635f572cf1a6fef2ccee1eb7a958f8aa9e3"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0012/app-debug-androidTest.apk",
+      "bytes": 3344433,
+      "sha256": "6467374bd9ade94438f44c38422c7504a916809d559a40f52f9a764e3d0fbee3"
+    },
+    {
+      "path": "artifacts/v1.3/m2/build-0012/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "ecd32dc9b3d4d1abf8201282c5be6635f572cf1a6fef2ccee1eb7a958f8aa9e3"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0001/app-debug-androidTest.apk",
+      "bytes": 3344433,
+      "sha256": "6467374bd9ade94438f44c38422c7504a916809d559a40f52f9a764e3d0fbee3"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0001/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "545608ada2afbbdb4265835e40ec3030a0bf1ae3db6536f1aa2740ff7d6d148d"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0002/app-debug-androidTest.apk",
+      "bytes": 3863430,
+      "sha256": "0500481c1ddf8c72db2bb201c56e1827e9b0f9cfd5b3603d2b8c55394210ebdb"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0002/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "545608ada2afbbdb4265835e40ec3030a0bf1ae3db6536f1aa2740ff7d6d148d"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0003/app-debug-androidTest.apk",
+      "bytes": 4899363,
+      "sha256": "17eac10dddc21e022c5799d957b9d33dd418e5d60deacfd2852a5c55fc9a7c8c"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0003/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "ae1d9435380eb5c28d64be72df629f9d2e05017e6353a4193c368f25406e185f"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0004/app-debug-androidTest.apk",
+      "bytes": 4981696,
+      "sha256": "f0e41e2bcf1e37b22c58a78a5a624a540647bffa5cb90f26f49a22818cccf32d"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0004/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "ae1d9435380eb5c28d64be72df629f9d2e05017e6353a4193c368f25406e185f"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0005/app-debug-androidTest.apk",
+      "bytes": 6330011,
+      "sha256": "341fc5edc83cc6e52a8b3a042a45a62468fd9e4907a041dafc98db851665c5b4"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0005/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "0934fe6e75723ea802a3af3eca07b8622f4ff521645215cf133bd480776917de"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0008/app-debug-androidTest.apk",
+      "bytes": 6508398,
+      "sha256": "9d7185eda82537771be54720a52164313557f26a0b418875f48aca74d9ed21a4"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0008/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "62b26d39af86cf415b4bd1126df099d7e9ea686a2ce84857d131bd9f580ec8f1"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0009/app-debug-androidTest.apk",
+      "bytes": 6653583,
+      "sha256": "744eab43931e42a1894ceeea962d9ff7cbcde441354a78e5e5acf1e967c6baab"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0009/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "1bb994706749e4c2e7624cf92a04e035634cfc30a711e2bf90947ef38b141f78"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0010/app-debug-androidTest.apk",
+      "bytes": 6680507,
+      "sha256": "e6589807736abb1b3e14df32ebca087c313d7f3c1cb0a17a116c96bc693396e5"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0010/app-debug.apk",
+      "bytes": 73662374,
+      "sha256": "0f7fec57fd32de4a3e79dc47568534693a6d4061aea960fe846e8b3b4dba8db2"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0011/app-debug-androidTest.apk",
+      "bytes": 6713383,
+      "sha256": "8f79b7dec1f0c8182bd5cd6f0a8d064f9f1814f271153742b5fc0e89c8492639"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0011/app-debug.apk",
+      "bytes": 73789267,
+      "sha256": "cbbb5897bf61bf24f4c7ea4caea3fb6a42b332b157a21165ce06d90ce0d07a05"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0012/app-debug-androidTest.apk",
+      "bytes": 7358299,
+      "sha256": "a9f1b626bced549e5375056dd5211ecb5be9e635b75506de5d394cb946759c6f"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0012/app-debug.apk",
+      "bytes": 73789267,
+      "sha256": "3abd873cd646cd95e19fe3c2405abe1513f518ae2cccbe1ea0033a8ee102c20f"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0013/app-debug-androidTest.apk",
+      "bytes": 7599876,
+      "sha256": "515461272b203c320f6a063811fdb6a495b114350f6b6c573a2d13fc4fd38785"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0013/app-debug.apk",
+      "bytes": 73792018,
+      "sha256": "7dcd70877e3db525bfd5440918da7e267de8595a3d5819770a9eb59a2e537d29"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0015/app-demo-androidTest.apk",
+      "bytes": 7460695,
+      "sha256": "40e8586139660c6d1a62a148c4bb8870a5721c7b5b2397866635d33898299891"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0015/app-demo.apk",
+      "bytes": 73541970,
+      "sha256": "b98e8a7214d3eafe823fefa16369a7b9068b64b819b683a9b99ea686d606adc5"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0016/app-debug-androidTest.apk",
+      "bytes": 7613520,
+      "sha256": "6a50e40ad480558710feac483a57197692cbce6392ee8b5d584dec6b7f34b2aa"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0016/app-debug.apk",
+      "bytes": 73792018,
+      "sha256": "7dcd70877e3db525bfd5440918da7e267de8595a3d5819770a9eb59a2e537d29"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0017/app-debug-androidTest.apk",
+      "bytes": 7708275,
+      "sha256": "3b288e7d066bd5f3be1489ad14c80c1d39f04aa12259cd7f076dc47e9cc61925"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0017/app-debug.apk",
+      "bytes": 73792018,
+      "sha256": "be74f8e0e68099a36a219922a78a735cd339f24664b199eac389daee2df5d11c"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0018/app-demo-androidTest.apk",
+      "bytes": 7728261,
+      "sha256": "2a78bce565e2b0ae0b299f517a4f5f52d7400f0e4050d6e55e10ec17cfa2ded0"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0018/app-demo.apk",
+      "bytes": 73701574,
+      "sha256": "f1c9c073088e66f1257333fe38f76fe56352b601976a5bea296bb07f50a4d736"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0019/app-debug-androidTest.apk",
+      "bytes": 8636893,
+      "sha256": "c822e3c1d876b78bf77fa98bc944462cbea4bf5dcf1627bf8e691ea7636961d5"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0019/app-debug.apk",
+      "bytes": 73792018,
+      "sha256": "f1d2c6a77cc3c0b27eaf1706171fcc2dede42f80dce0f074a46071c09d72bb74"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0020/app-demo-androidTest.apk",
+      "bytes": 8589875,
+      "sha256": "33b77ab358ffdbb6da03686f3d31716b6ae4f2d4df961f27f6948f0624b7f146"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0020/app-demo.apk",
+      "bytes": 73702806,
+      "sha256": "1be3b40a252ae4597a9da38d109d9fa98ff70cb002af22b9535e1c44456d3462"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0021/app-debug-androidTest.apk",
+      "bytes": 8925602,
+      "sha256": "006808a4998fb2c5f7d0be8d1732b7d4d5feec984fac937c5820a2413c8d652c"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0021/app-debug.apk",
+      "bytes": 73792018,
+      "sha256": "f1d2c6a77cc3c0b27eaf1706171fcc2dede42f80dce0f074a46071c09d72bb74"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0022/app-demo-androidTest.apk",
+      "bytes": 8878354,
+      "sha256": "d36bceec3de4c3a123bb9c024d1b39ab1feb3b2421192a57d887dc5d34ed6ba3"
+    },
+    {
+      "path": "artifacts/v1.3/m3/build-0022/app-demo.apk",
+      "bytes": 73702806,
+      "sha256": "1be3b40a252ae4597a9da38d109d9fa98ff70cb002af22b9535e1c44456d3462"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0001/app-debug-androidTest.apk",
+      "bytes": 8926182,
+      "sha256": "44803abf0c734924cec0d5556b21e14fa34c5ff65d21c95bf425927a300add07"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0001/app-debug.apk",
+      "bytes": 73792078,
+      "sha256": "51b08b485cfced47ea52fa14fe4003b32c98885048d2a220ea33f216de39b254"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0002/app-demo-androidTest.apk",
+      "bytes": 8878934,
+      "sha256": "843bf81c6d2c02a84c14d225bdf5c7c7d9278897787b0f504fec5622429f8d3a"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0002/app-demo.apk",
+      "bytes": 73702806,
+      "sha256": "dfaa79306cdfb33e5dd86091b8ab6909f217af4fc1fca0624b518d38d1c0934e"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0003/app-debug-androidTest.apk",
+      "bytes": 9442991,
+      "sha256": "587e37890c3ccca8ef359b1d4c3eea0a31e9d834ce200283cbb3ecfde80d3bdb"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0003/app-debug.apk",
+      "bytes": 74361186,
+      "sha256": "c44e9da557905e71dfb14f6ffc402a5d27bf9211c57fc404356317c73266edd4"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0004/app-demo-androidTest.apk",
+      "bytes": 9395743,
+      "sha256": "4ced66937dff317c8f32c83c604b8a634da6ec4dae78490b17e960df7861b130"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0004/app-demo.apk",
+      "bytes": 74271914,
+      "sha256": "a142650c8ec41db920d90d0ad46ea52660c2284b04c7c4cf87fa4a34449484f1"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0005/app-debug-androidTest.apk",
+      "bytes": 9761436,
+      "sha256": "4b3a6c93761046ef756c12d462f7f6fab0ec2ec65c3cb07e2156c9d7c2e91a09"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0005/app-debug.apk",
+      "bytes": 74364230,
+      "sha256": "3a22bc0fc4c4a9a825e503e77e7bab68267319c24433535827b0e9e1b6373f9f"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0006/app-demo-androidTest.apk",
+      "bytes": 9713960,
+      "sha256": "30aa6af19755806454935b067a2c88c05ab800dc01f95be263553f9382e482b0"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0006/app-demo.apk",
+      "bytes": 74275378,
+      "sha256": "c405f1fb5d081e755e8f57b70f922677993b2718797c60a1ecdc99c407d55b75"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0007/app-debug-androidTest.apk",
+      "bytes": 9777312,
+      "sha256": "e4af26264eb0ad252ea8af031a2089357cc73623e56472276944e962abbf7eb6"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0007/app-debug.apk",
+      "bytes": 74370062,
+      "sha256": "2e2651e0277014e16d96a622bf0a70b1d38921168c093c59ffe8e17857f7276e"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0008/app-demo-androidTest.apk",
+      "bytes": 9729836,
+      "sha256": "044495b3e541b180f70ab7076dedf6f9efe94523e39e23266c8e6b761c988441"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0008/app-demo.apk",
+      "bytes": 74853362,
+      "sha256": "58fd41fef5c7edeb963c4b5bb6d4371e6a630e931d790d114ea4341fecca1094"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0009/app-debug-androidTest.apk",
+      "bytes": 9790229,
+      "sha256": "3f2770fd7541d2a299ca99abb996ce8c1fbacddaf9cbd1a35e05571aa86d423e"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0009/app-debug.apk",
+      "bytes": 74379386,
+      "sha256": "9335db3e0699ba2f088f46408953c5d2aa777f13f18e0eb180736655c9e2b743"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0010/app-demo-androidTest.apk",
+      "bytes": 9742745,
+      "sha256": "751b677b566227d05036d469fb314350cd5e1b4c236fc0fee186971aa3e88a06"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0010/app-demo.apk",
+      "bytes": 74291558,
+      "sha256": "82ad625f6ce00f06e306295968760d26cc7ff3b39245dafef6d8d7493ca66420"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0011/app-debug-androidTest.apk",
+      "bytes": 9952250,
+      "sha256": "4ad569c14afc2c48b64a1b66b516dffc54b9bca794f90f965e719f58f5f6d8fe"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0011/app-debug.apk",
+      "bytes": 74411958,
+      "sha256": "40514b1f89998c2edb564d17d938b47f42a640c361934d28cb9340cb241a2917"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0012/app-debug-androidTest.apk",
+      "bytes": 10331900,
+      "sha256": "257b5a103a9951577f199e13ba07d9f745bb0faa2d6723063c3c8425ddd74cdb"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0012/app-debug.apk",
+      "bytes": 74411958,
+      "sha256": "52291dffd143552330576898a92a7e1d3c2607ca2c256a441897355295d7d9a5"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0013/app-demo-androidTest.apk",
+      "bytes": 9951777,
+      "sha256": "45e4017bce1029ad4e2b5178ceffea783673be87c4dc05baf7758e80edab9927"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0013/app-demo.apk",
+      "bytes": 74332038,
+      "sha256": "8faad4ad200de04fc76a9cd14fe2e2373880c4675345cd67f864b64ea250020a"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0014/app-debug-androidTest.apk",
+      "bytes": 10358738,
+      "sha256": "7b0a8c76031f2893b8f56c919d86ac206797092453110b3f1c2c69da1206b49f"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0014/app-debug.apk",
+      "bytes": 74416886,
+      "sha256": "9d35d39e041d56b3805a7c41ecdae1449c52f32e3f17dc2d17ae418e56cf2248"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0015/app-demo-androidTest.apk",
+      "bytes": 10357938,
+      "sha256": "1310671c90f369a5ff79147507f2eb204a796eea8ed08269ad5f31eda2e1f148"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0015/app-demo.apk",
+      "bytes": 74345534,
+      "sha256": "a789b7ac163978743f2f60e6bbbf9b6c5d4e936464988b4905105338e3743c96"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0016/app-debug-androidTest.apk",
+      "bytes": 10358790,
+      "sha256": "11b22d52b1ed6dc9911dd3c5e948f7031717d833503030a79e44821756070954"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0016/app-debug.apk",
+      "bytes": 74429966,
+      "sha256": "f2cada35609b67060e07b04547112bd8e6a9374d724d132406fd5576a3b35e6e"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0018/app-debug-androidTest.apk",
+      "bytes": 10393423,
+      "sha256": "a777e5f45c8fc2290af949da6af59d96cc1cec3c64710204c9e0661384e78a4e"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0018/app-debug.apk",
+      "bytes": 74429966,
+      "sha256": "f2cada35609b67060e07b04547112bd8e6a9374d724d132406fd5576a3b35e6e"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0019/app-demo-androidTest.apk",
+      "bytes": 10392623,
+      "sha256": "9f2d88b68f3b994f2eb0c2b230c2209151b7d0b959793cfcb2528e74524c4d28"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0019/app-demo.apk",
+      "bytes": 74360054,
+      "sha256": "563e7e898d9c00d71651528758f28bf0a80e7bf2f3e1bf89b854e564cd354476"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0020/app-debug-androidTest.apk",
+      "bytes": 10410410,
+      "sha256": "ea3b7fd390a62e6e0c61146a6ab3c227410aacce395c7fe08920c750e46cb1eb"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0020/app-debug.apk",
+      "bytes": 74431002,
+      "sha256": "f5fc7d82027085a710a2f50d406980703247a60bcdd2d1a088b4ffbcff93ceee"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0021/app-demo-androidTest.apk",
+      "bytes": 10409610,
+      "sha256": "2b48122bd49ce7d5164a31b5bda67ca11048f1be2267a4cc49121d8b5f4b2749"
+    },
+    {
+      "path": "artifacts/v1.3/m4/build-0021/app-demo.apk",
+      "bytes": 74361146,
+      "sha256": "58ffcb90498e2315b6dbd8a666f7d525f64ba2493215150133607eb5818498b9"
+    }
+  ],
+  "scope": "Only top-level APKs in versioned m0-m4 build directories; no temporary/cache/model/export/private custody traversal. Reads originals without mutation; saves hashes/counts, never block payloads.",
+  "limits": [
+    "No final ZIP or block reassembler is implemented by this size audit",
+    "Counts model potential identical SHA256-addressed block reuse, not actual archive compression/ZIP overhead or byte-reconstruction validation",
+    "Future final APKs/reports/packs/source are additional; actual three ZIP sizes and reconstruction must be measured and verified at final packaging",
+    "Private custody and model weights/diagnostic exports remain excluded by owner instruction"
+  ]
+}

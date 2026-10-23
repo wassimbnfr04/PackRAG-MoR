@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bad-source-nel",
+    "chunk_id": "f9a0e5cdd04fef15ca4ae673",
+    "input": "Aster-9\nthermal\n\nLa temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C."
+  },
+  {
+    "id": "bad-reviewer-nel",
+    "chunk_id": "8f81a8d8a6cfba87acc3b1a9",
+    "input": "Aster-9\nthermal\n\nLa temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C."
+  },
+  {
+    "id": "bad-render-nel",
+    "chunk_id": "69cdb0a7bf880b46d08835df",
+    "input": "Aster-9\nthermal\n\nLa temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C."
+  },
+  {
+    "id": "bad-canonical-nel",
+    "chunk_id": "276f0c190face3d89efcc9ac",
+    "input": "Aster-9\nthermal\n\n\u0085"
+  },
+  {
+    "id": "good-source-nel",
+    "chunk_id": "0bac6df2b2e565a9dd158111",
+    "input": "Aster-9\nthermal\n\nLa temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C."
+  },
+  {
+    "id": "good-reviewer-nel",
+    "chunk_id": "361e9b6033e1db9533c5808e",
+    "input": "Aster-9\nthermal\n\nLa temp\u00e9rature maximale de fonctionnement continu du contr\u00f4leur thermique Aster-9 est de 74 \u00b0C."
+  }
+]

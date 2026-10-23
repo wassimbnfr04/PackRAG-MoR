@@ -1,0 +1,85 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.SelectionDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.SelectionDeviceTest:
+INSTRUMENTATION_STATUS: test=mutableManifestOrBackendIdentityCannotReachGeneration
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.SelectionDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=mutableManifestOrBackendIdentityCannotReachGeneration
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.SelectionDeviceTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.SelectionDeviceTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: Version already installed; replacement of immutable version forbidden
+	at org.packrag.packs.PackRegistry.activate(PackRegistry.kt:100)
+	at org.packrag.packs.PackRegistry.activate$default(PackRegistry.kt:93)
+	at org.packrag.product.SelectionDeviceTest.actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection(SelectionDeviceTest.kt:129)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection(org.packrag.product.SelectionDeviceTest):
+java.lang.IllegalArgumentException: Version already installed; replacement of immutable version forbidden
+	at org.packrag.packs.PackRegistry.activate(PackRegistry.kt:100)
+	at org.packrag.packs.PackRegistry.activate$default(PackRegistry.kt:93)
+	at org.packrag.product.SelectionDeviceTest.actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection(SelectionDeviceTest.kt:129)
+
+INSTRUMENTATION_STATUS: test=actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.SelectionDeviceTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=fixedPlansSignedActualTokenizerAndOwnedEvidence
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.SelectionDeviceTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: Version already installed; replacement of immutable version forbidden
+	at org.packrag.packs.PackRegistry.activate(PackRegistry.kt:100)
+	at org.packrag.packs.PackRegistry.activate$default(PackRegistry.kt:93)
+	at org.packrag.product.SelectionDeviceTest.fixedPlansSignedActualTokenizerAndOwnedEvidence(SelectionDeviceTest.kt:69)
+
+INSTRUMENTATION_STATUS: stream=
+Error in fixedPlansSignedActualTokenizerAndOwnedEvidence(org.packrag.product.SelectionDeviceTest):
+java.lang.IllegalArgumentException: Version already installed; replacement of immutable version forbidden
+	at org.packrag.packs.PackRegistry.activate(PackRegistry.kt:100)
+	at org.packrag.packs.PackRegistry.activate$default(PackRegistry.kt:93)
+	at org.packrag.product.SelectionDeviceTest.fixedPlansSignedActualTokenizerAndOwnedEvidence(SelectionDeviceTest.kt:69)
+
+INSTRUMENTATION_STATUS: test=fixedPlansSignedActualTokenizerAndOwnedEvidence
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 198,61
+There were 2 failures:
+1) actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection(org.packrag.product.SelectionDeviceTest)
+java.lang.IllegalArgumentException: Version already installed; replacement of immutable version forbidden
+	at org.packrag.packs.PackRegistry.activate(PackRegistry.kt:100)
+	at org.packrag.packs.PackRegistry.activate$default(PackRegistry.kt:93)
+	at org.packrag.product.SelectionDeviceTest.actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection(SelectionDeviceTest.kt:129)
+2) fixedPlansSignedActualTokenizerAndOwnedEvidence(org.packrag.product.SelectionDeviceTest)
+java.lang.IllegalArgumentException: Version already installed; replacement of immutable version forbidden
+	at org.packrag.packs.PackRegistry.activate(PackRegistry.kt:100)
+	at org.packrag.packs.PackRegistry.activate$default(PackRegistry.kt:93)
+	at org.packrag.product.SelectionDeviceTest.fixedPlansSignedActualTokenizerAndOwnedEvidence(SelectionDeviceTest.kt:69)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1

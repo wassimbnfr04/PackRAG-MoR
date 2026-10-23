@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_ASSERTION_NOT_ACCEPTANCE",
+  "case": "EXCEPTION",
+  "limitation": "The first runner asserted before saving the failed final validated result. Only six prior accepted cases, nineteen tokenizer checks, failure traceback and server identity/cleanup are retained. The failed state/answer cannot be inferred from its boolean assertion.",
+  "correction": "Save every final validated observation before assertions; no source fixtures, model, prompt policy, decoding or output validation changed."
+}

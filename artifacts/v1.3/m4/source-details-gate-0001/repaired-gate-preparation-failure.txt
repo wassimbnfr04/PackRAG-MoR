@@ -1,0 +1,1 @@
+AssertionError: ('run_ui.py', 'build-0040'). UI driver contains only debug0039. Only preflight_repaired.py was created; no repaired UI/full/parity/closure execution occurred. Preserve that byte-identical partial derivation and original helper; correct per-driver replacement scope.

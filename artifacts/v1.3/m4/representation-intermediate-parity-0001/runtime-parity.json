@@ -1,0 +1,24 @@
+{
+  "status": "PASS_COMPLETED_RUNTIME_METHOD_PARITY_NOT_FULL_INSTRUMENTATION_OR_MILESTONE_ACCEPTANCE",
+  "recorded_utc": "2026-10-09T18:29:36.893643+00:00",
+  "original_adb_bytes_sha256": "e2dbee9c5b736711bc30383568e645852eff79586184372db9daa0bfaad54493",
+  "runtime_cases": 8,
+  "accepted_french_arabic": 2,
+  "zero_generation_guards": 6,
+  "source": "Exact state/selected supported token budget/canonical bytes and generator provenance; final natural language wording is not required to match desktop byte for byte",
+  "apk_sha256": {
+    "app-debug-androidTest.apk": "a777e5f45c8fc2290af949da6af59d96cc1cec3c64710204c9e0661384e78a4e",
+    "app-debug.apk": "f2cada35609b67060e07b04547112bd8e6a9374d724d132406fd5576a3b35e6e"
+  },
+  "remaining": "Retained full development/policy/restoration/closure",
+  "command": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "shell",
+    "run-as",
+    "org.packrag.product",
+    "cat",
+    "files/m4-representation-runtime.json"
+  ]
+}

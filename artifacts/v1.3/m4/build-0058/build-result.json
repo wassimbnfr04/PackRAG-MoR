@@ -1,0 +1,26 @@
+{
+  "final_release_acceptance": false,
+  "status": "FAIL",
+  "arguments": [
+    "-p",
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\product\\android",
+    "--no-daemon",
+    "--console=plain",
+    "--max-workers=4",
+    "testDebugUnitTest",
+    ":app:assembleDebug",
+    ":app:assembleDebugAndroidTest",
+    "-PpackragTestBuildType=debug",
+    "--offline"
+  ],
+  "variant": "debug",
+  "instrumentation_debuggable": true,
+  "exit_code": 1,
+  "tool_paths": {
+    "jdk": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\java\\jdk-17.0.20.1+1",
+    "gradle": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\gradle-9.6.0\\bin\\gradle.bat",
+    "sdkmanager": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-cli\\cmdline-tools\\bin\\sdkmanager.bat",
+    "sdk": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk",
+    "cmdline_tools_package": "cmdline-tools;23.0"
+  }
+}

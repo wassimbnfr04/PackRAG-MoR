@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "shell",
+    "run-as",
+    "org.packrag.product",
+    "cat",
+    "files/m4-ui-query-resubmission-observation.json"
+  ],
+  "returncode": 0,
+  "original_sha256": "8a23706e9191ae1c20598a8fb13f0ffca0c1315a625b58e2a153e1bd0cd03c58",
+  "scope": "Additional completed-query ownership observation, separate from four generic PASS method reports."
+}

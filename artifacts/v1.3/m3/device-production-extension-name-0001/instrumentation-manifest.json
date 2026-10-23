@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-10-06T21:52:14.726063+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.ExtensionNameDeviceTest",
+  "variant": "demo",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m3\\build-0022\\app-demo.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m3\\build-0022\\app-demo-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.ExtensionNameDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-demo.apk": "1be3b40a252ae4597a9da38d109d9fa98ff70cb002af22b9535e1c44456d3462",
+    "app-demo-androidTest.apk": "d36bceec3de4c3a123bb9c024d1b39ab1feb3b2421192a57d887dc5d34ed6ba3"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.ExtensionNameDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ExtensionNameDeviceTest.kt",
+      "source_sha256": "a7116ba57ed1078a6f5d28de0828a8e7fd26c31aadbf7be32150d84d062fd62a"
+    }
+  },
+  "status": "PASS"
+}

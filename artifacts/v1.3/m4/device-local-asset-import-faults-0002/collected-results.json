@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-11T17:10:32.016507+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug.apk": "802c817870f3828498175c05f1862e6b5f6eb467d5517a164123aa75eed0dd75",
+    "app-debug-androidTest.apk": "14aa6b8c0f775c24d56d623e045232833dfafdbb3ebcda817c4b5594b56e495c"
+  },
+  "saved_sha256": {
+    "m4-local-asset-import-uri-faults.json": "d1ffb1ebab6c9e715ae2f4303e3f6d10032352e8532e12c1ed0c4d757d5f3f46",
+    "m4-local-asset-import-provider-cancel.json": "e103ecd966eb2c69606fd8cf89612fc25c391f7427ed9f5e88b0bc4a72e2f30b",
+    "m4-local-asset-import-path-recovery.json": "48cdc543e536a80f51e3fea411fa73b436e5abb417c0611b107cb1c741e568e3"
+  },
+  "formatted_primary_parsed_equal": [
+    "m4-local-asset-import-uri-faults.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-asset-import-uri-faults.json"
+      ],
+      "started_at": "2026-10-11T17:10:31.657454+00:00",
+      "ended_at": "2026-10-11T17:10:31.786855+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-asset-import-provider-cancel.json"
+      ],
+      "started_at": "2026-10-11T17:10:31.786855+00:00",
+      "ended_at": "2026-10-11T17:10:31.895794+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-asset-import-path-recovery.json"
+      ],
+      "started_at": "2026-10-11T17:10:31.895794+00:00",
+      "ended_at": "2026-10-11T17:10:32.006042+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

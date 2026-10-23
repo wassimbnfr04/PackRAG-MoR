@@ -1,0 +1,29 @@
+{
+  "status": "PASS_F2_ASSET_VISIBLE_SCOPE_NOT_FULL_F2",
+  "reviewed_utc": "2026-10-11T21:14:51.588540+00:00",
+  "execution_sha256": "dcf8cbb6a547e504707e930ba7ff26350e4ed0c2799405feefe0bed02aa2bee5",
+  "images": {
+    "m4-local-assets-generator.png": {
+      "sha256": "a5442a1da0235a6799fdc13d9420b1eb4f9c4f27cb5b6e39d64fc6fac64187b3",
+      "bytes": 249471,
+      "dimensions": [
+        1080,
+        2316
+      ],
+      "review": "PASS_VISIBLE_SCOPE",
+      "observation": "PASS visible generator scope: full-width header/system bars; local processing/no-network permission statement, Back to answer, Local assets/read-only checking explanation, truthful last-completed-check wording, Check local files control readable. Generator filename, verified status, expected/observed1593894944 bytes, complete expected pinned SHA256 wrapping across two lines and completed-check timestamp visible. File chooser button begins below viewport and not fully visible; lower three slots are offscreen. No claim of all-slots/full-page/import-control visual acceptance from this raster."
+    },
+    "m4-local-assets-encoder.png": {
+      "sha256": "05fdf8a5e1537a22c0a2ae957c553ebfb611a2f46deafe2b612d002dbe81eaa2",
+      "bytes": 271222,
+      "dimensions": [
+        1080,
+        2316
+      ],
+      "review": "PASS_VISIBLE_SCOPE",
+      "observation": "PASS visible partial encoder scope only: normal full-width header/system bars, scrolled template expected/observed5443bytes and full expected SHA/check timestamp/chooser control; tokenizer expected/observed25301672bytes, full expected SHA/check timestamp/chooser control readable. Encoder heading, granite/onnx/model.onnx filename and Exact size and SHA256 matched at last completed check status are visible at bottom. Encoder size/hash/time/chooser fields are below viewport and NOT visually verified by this raster, despite its filename. Current source asserts the status semantics after performScrollTo and actual ViewModel verifies all four pins; it does not assert full expected encoder hash text in UI. No capture transition or horizontal cropping observed."
+    }
+  },
+  "method": "Independent view_image inspection of exact unmodified1080x2316 originals; display tool resized955x2048, original bytes unchanged.",
+  "scope": "Fresh actual five functional controls/native cited answer and all-four-file state validation pass separately. Visible raster scope only; encoder full pin fields offscreen, not claimed. No new controlled performance/fullF2 acceptance."
+}

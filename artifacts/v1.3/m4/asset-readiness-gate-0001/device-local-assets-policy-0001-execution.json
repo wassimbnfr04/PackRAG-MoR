@@ -1,0 +1,65 @@
+{
+  "status": "PASS_F1_CORE_ACTUAL_ORIGINALS_NOT_FULL_F1",
+  "phase": "core",
+  "variant": "demo",
+  "build": "build-0057",
+  "run": "device-local-assets-policy-0001",
+  "android_inputs": 579,
+  "host_totals": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0057",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-policy-0001",
+        "--class-name",
+        "org.packrag.product.LocalAssetReadinessDeviceTest",
+        "--result-file",
+        "m4-local-assets-negative.json",
+        "--timeout",
+        "3600",
+        "--variant",
+        "demo"
+      ],
+      "started_utc": "2026-10-11T15:29:31.895302+00:00",
+      "finished_utc": "2026-10-11T15:40:26.564870+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-policy-0001",
+        "--files",
+        "m4-local-assets-negative.json,m4-local-assets-runtime.json,m4-local-assets-viewmodel.json"
+      ],
+      "started_utc": "2026-10-11T15:40:26.566077+00:00",
+      "finished_utc": "2026-10-11T15:40:27.087827+00:00",
+      "returncode": 0
+    }
+  ],
+  "original_sha256": {
+    "m4-local-assets-negative.json": "71180b16b5c6288326a828f50b1bad69b8c08880b5613dd66f612fb1009101aa",
+    "m4-local-assets-runtime.json": "20af5a5591567b492d06c495881521ede095bf1e3074a958e7d23bbc6d61635d",
+    "m4-local-assets-viewmodel.json": "6153068e8cd789ac52923a0c3bd01d119c69807b1372108d78734a39657b0d14"
+  },
+  "instrumentation_sha256": "71b5b7d71e321fce33b9ad255561083cd8e71ecb1e5d8c6f227a12a611ec43e2",
+  "collection_sha256": "fe29cd4563f162f194e5bd7b1aa6cd5407252980117c8f203c504130f534360b"
+}

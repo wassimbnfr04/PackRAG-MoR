@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SOURCE_ARTIFACT_AUDIT_NOT_COMPLETE_PHYSICAL_ACCEPTANCE",
+  "runtime_inputs": 143,
+  "android_inputs_per_variant": 458,
+  "both_variants_equal": true,
+  "packaged_conflict_and_xml_assets_match": true,
+  "native_unchanged": true,
+  "prior_saved_output_identities_unchanged": {
+    "query-gate-0001": 147,
+    "validity-gate-0001": 144,
+    "source-metadata-gate-0001": 149
+  }
+}

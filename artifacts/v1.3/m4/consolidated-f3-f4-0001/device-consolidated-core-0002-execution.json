@@ -1,0 +1,1015 @@
+{
+  "status": "PASS_FRESH_CONSOLIDATED_PHASE_NOT_FULL_M4_ACCEPTANCE",
+  "started_utc": "2026-10-12T15:52:10.821351+00:00",
+  "phase": "debug-core",
+  "build": "build-0097",
+  "variant": "debug",
+  "runner_sha256": "2da3c20a6c60e7cdd7c7fa84a20d130a67c5f64830f2899f7038b201be622eec",
+  "matrix_sha256": "3f5fb7acf30c9a2f6b19c988b4a6fb0b70da3d4cc5cfd651bf4d47e6df84a1d5",
+  "pair_sha256": "987efe9b7cf4e6b8854f86aed50344b6b289a452702fe392a1f6fe11f12398a6",
+  "installation_sha256": "8bf56d88a3fc4f87f8cb21f1f6f3acc53123c5d0dec655c8699906b814a4478d",
+  "classes": [
+    "PackImportEventsDeviceTest",
+    "StrictArchiveDeviceTest",
+    "StrictManifestDeviceTest",
+    "StrictDatabaseDeviceTest",
+    "DataTypeDeviceTest",
+    "ExtensionNameDeviceTest",
+    "ValidationOrderDeviceTest",
+    "ResidualSecurityDeviceTest",
+    "AtomicRegistryDeviceTest",
+    "PackImportConsentTest",
+    "ReleaseTrustCoreDeviceTest",
+    "ProductRuntimeSmokeTest"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-before-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "before-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0097",
+        "--output",
+        "device-consolidated-core-0002-before-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "before-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-consolidated-core-0002-before-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "before-source4-modes"
+    },
+    {
+      "label": "PackImportEventsDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m4-f3-import-stages.json; test ! -L files/m4-f3-import-recovery.json; test ! -L files/m4-f3-import-viewmodel.json; rm -f files/m4-f3-import-stages.json files/m4-f3-import-recovery.json files/m4-f3-import-viewmodel.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m4-f3-import-stages.json": "b55d1fe379a4a82e01c3fffd5bf16d9a62032461b0aa5a127106f5369ac9f636",
+        "m4-f3-import-recovery.json": "d77e4a7113d5735bd32faf69c77f8fc804036702e94626cff603555fea073776",
+        "m4-f3-import-viewmodel.json": "f3ac1b70498fef64962f20b00e86bc283f163102dadf58243a1b20c70a308010"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-packimporteventsdevicetest",
+        "--class-name",
+        "org.packrag.product.PackImportEventsDeviceTest",
+        "--result-file",
+        "m4-f3-import-stages.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "PackImportEventsDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-packimporteventsdevicetest",
+        "--files",
+        "m4-f3-import-stages.json,m4-f3-import-recovery.json,m4-f3-import-viewmodel.json"
+      ],
+      "returncode": 0,
+      "label": "PackImportEventsDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-packimporteventsdevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "PackImportEventsDeviceTest-owner50"
+    },
+    {
+      "label": "StrictArchiveDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-archive-validation.json; rm -f files/m3-archive-validation.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-archive-validation.json": "a624f0d1b9492c1038fe681e4b70699a8d6cd752cf1fafaf69aa0086bae8d0c7"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-strictarchivedevicetest",
+        "--class-name",
+        "org.packrag.product.StrictArchiveDeviceTest",
+        "--result-file",
+        "m3-archive-validation.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "StrictArchiveDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-strictarchivedevicetest",
+        "--files",
+        "m3-archive-validation.json"
+      ],
+      "returncode": 0,
+      "label": "StrictArchiveDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-strictarchivedevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "StrictArchiveDeviceTest-owner50"
+    },
+    {
+      "label": "StrictManifestDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-manifest-schema.json; rm -f files/m3-manifest-schema.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-manifest-schema.json": "67035b42b4f3de3469d1db3a4c899ba2df591bc831322f2de8402a82b9ecd5d0"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-strictmanifestdevicetest",
+        "--class-name",
+        "org.packrag.product.StrictManifestDeviceTest",
+        "--result-file",
+        "m3-manifest-schema.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "StrictManifestDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-strictmanifestdevicetest",
+        "--files",
+        "m3-manifest-schema.json"
+      ],
+      "returncode": 0,
+      "label": "StrictManifestDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-strictmanifestdevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "StrictManifestDeviceTest-owner50"
+    },
+    {
+      "label": "StrictDatabaseDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-database-validation.json; rm -f files/m3-database-validation.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-database-validation.json": "c955aa1f5bb8f15b191b4eba358ce350e50ee7d03612c54bc50c096ce3a15950"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-strictdatabasedevicetest",
+        "--class-name",
+        "org.packrag.product.StrictDatabaseDeviceTest",
+        "--result-file",
+        "m3-database-validation.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "StrictDatabaseDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-strictdatabasedevicetest",
+        "--files",
+        "m3-database-validation.json"
+      ],
+      "returncode": 0,
+      "label": "StrictDatabaseDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-strictdatabasedevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "StrictDatabaseDeviceTest-owner50"
+    },
+    {
+      "label": "DataTypeDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-data-types.json; rm -f files/m3-data-types.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-data-types.json": "2b246f6b8e2e333bc13a6d36ea5edaff1db85399304b4a1d96e888b13280f68f"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-datatypedevicetest",
+        "--class-name",
+        "org.packrag.product.DataTypeDeviceTest",
+        "--result-file",
+        "m3-data-types.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "DataTypeDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-datatypedevicetest",
+        "--files",
+        "m3-data-types.json"
+      ],
+      "returncode": 0,
+      "label": "DataTypeDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-datatypedevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "DataTypeDeviceTest-owner50"
+    },
+    {
+      "label": "ExtensionNameDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-extension-names.json; rm -f files/m3-extension-names.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-extension-names.json": "857ad1d4ee44c1103892adfbc026c7b8d959dfd352f9d235e1b761ec063f4938"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-extensionnamedevicetest",
+        "--class-name",
+        "org.packrag.product.ExtensionNameDeviceTest",
+        "--result-file",
+        "m3-extension-names.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "ExtensionNameDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-extensionnamedevicetest",
+        "--files",
+        "m3-extension-names.json"
+      ],
+      "returncode": 0,
+      "label": "ExtensionNameDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-extensionnamedevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "ExtensionNameDeviceTest-owner50"
+    },
+    {
+      "label": "ValidationOrderDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-validation-order.json; rm -f files/m3-validation-order.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-validation-order.json": "f1c3cef46438b2fecb83be3230b6b46903361318665ec9fb469ecba6830e7f34"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-validationorderdevicetest",
+        "--class-name",
+        "org.packrag.product.ValidationOrderDeviceTest",
+        "--result-file",
+        "m3-validation-order.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "ValidationOrderDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-validationorderdevicetest",
+        "--files",
+        "m3-validation-order.json"
+      ],
+      "returncode": 0,
+      "label": "ValidationOrderDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-validationorderdevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "ValidationOrderDeviceTest-owner50"
+    },
+    {
+      "label": "ResidualSecurityDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-residual-security.json; rm -f files/m3-residual-security.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-residual-security.json": "44a69f15ae2e39a1b41e96500023162425f259951a2544c7bc973db7e6f3573c"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-residualsecuritydevicetest",
+        "--class-name",
+        "org.packrag.product.ResidualSecurityDeviceTest",
+        "--result-file",
+        "m3-residual-security.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "ResidualSecurityDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-residualsecuritydevicetest",
+        "--files",
+        "m3-residual-security.json"
+      ],
+      "returncode": 0,
+      "label": "ResidualSecurityDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-residualsecuritydevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "ResidualSecurityDeviceTest-owner50"
+    },
+    {
+      "label": "AtomicRegistryDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-atomic-registry.json; rm -f files/m3-atomic-registry.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-atomic-registry.json": "e73ebab10d995183a5bea2e9b817ed06a6db8497aa902a6ba048bc14b01c0d4a"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-atomicregistrydevicetest",
+        "--class-name",
+        "org.packrag.product.AtomicRegistryDeviceTest",
+        "--result-file",
+        "m3-atomic-registry.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "AtomicRegistryDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-atomicregistrydevicetest",
+        "--files",
+        "m3-atomic-registry.json"
+      ],
+      "returncode": 0,
+      "label": "AtomicRegistryDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-atomicregistrydevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "AtomicRegistryDeviceTest-owner50"
+    },
+    {
+      "label": "PackImportConsentTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-import-consent.json; rm -f files/m3-import-consent.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-import-consent.json": "df22c462d489f8bab053e245d3b41080d47f38446e342fb7c04916a314537e48"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-packimportconsenttest",
+        "--class-name",
+        "org.packrag.product.PackImportConsentTest",
+        "--result-file",
+        "m3-import-consent.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "PackImportConsentTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-packimportconsenttest",
+        "--files",
+        "m3-import-consent.json"
+      ],
+      "returncode": 0,
+      "label": "PackImportConsentTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-packimportconsenttest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "PackImportConsentTest-owner50"
+    },
+    {
+      "label": "ReleaseTrustCoreDeviceTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-release-trust-core.json; rm -f files/m3-release-trust-core.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-release-trust-core.json": "7d4e1a18f99c30e7190be56e30c1ca920d027f8aa11ddebc2677425e14fee554"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-releasetrustcoredevicetest",
+        "--class-name",
+        "org.packrag.product.ReleaseTrustCoreDeviceTest",
+        "--result-file",
+        "m3-release-trust-core.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "ReleaseTrustCoreDeviceTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-releasetrustcoredevicetest",
+        "--files",
+        "m3-release-trust-core.json"
+      ],
+      "returncode": 0,
+      "label": "ReleaseTrustCoreDeviceTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-releasetrustcoredevicetest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "ReleaseTrustCoreDeviceTest-owner50"
+    },
+    {
+      "label": "ProductRuntimeSmokeTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/product-runtime-smoke.json; rm -f files/product-runtime-smoke.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "product-runtime-smoke.json": "529cabccf9471ceb5c87f72aff7485638a4821c0ccd9c4469ddf6c88af75d7b5"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0097",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-productruntimesmoketest",
+        "--class-name",
+        "org.packrag.product.ProductRuntimeSmokeTest",
+        "--result-file",
+        "product-runtime-smoke.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "ProductRuntimeSmokeTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-core-0002-productruntimesmoketest",
+        "--files",
+        "product-runtime-smoke.json"
+      ],
+      "returncode": 0,
+      "label": "ProductRuntimeSmokeTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-productruntimesmoketest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "ProductRuntimeSmokeTest-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-core-0002-after-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "after-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0097",
+        "--output",
+        "device-consolidated-core-0002-after-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "after-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-consolidated-core-0002-after-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "after-source4-modes"
+    }
+  ],
+  "completed": [
+    {
+      "class": "PackImportEventsDeviceTest",
+      "methods": 3,
+      "run": "device-consolidated-core-0002-packimporteventsdevicetest",
+      "original_sha256": {
+        "m4-f3-import-stages.json": "0437af09c536716443d9a727550c365eb13a183f9a7f050cb7c716d4f9d92b45",
+        "m4-f3-import-recovery.json": "2513cddab5ace89f6ce7f55ca618d7fc4274dd9915b8dad7651876c933e22bd4",
+        "m4-f3-import-viewmodel.json": "925006dd8174746fdd6590951123b474315d4249c07155fbeeae688e78d673b5"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "0348855448c832def4b22bce067777a2f4ca4e637fcd6d3cbb29707012b53c76"
+    },
+    {
+      "class": "StrictArchiveDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-strictarchivedevicetest",
+      "original_sha256": {
+        "m3-archive-validation.json": "3dcc49914fbc46999653ee95776fec1ac691a52cdc58523bb331cc8abe1837e0"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "190a480b509ba6b4d24ea8e7b450748a6f06e5f6733845a5bd5556a514cca43a"
+    },
+    {
+      "class": "StrictManifestDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-strictmanifestdevicetest",
+      "original_sha256": {
+        "m3-manifest-schema.json": "63859c695ba7f505645b00afb2c97dd07951e441ae9074fd26fbf1f0ebfc83ee"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "8e390945e1ca983893078a2f9ccf9b29d0058061fb7a369805c51587987ea4c6"
+    },
+    {
+      "class": "StrictDatabaseDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-strictdatabasedevicetest",
+      "original_sha256": {
+        "m3-database-validation.json": "c897cba2016c5d59830641066717423f93033afd03bc407c83ae06d7e084db59"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "3df365d850a237cea51ecf3239d6de1d72e1312313608ecde9bf61ec082da921"
+    },
+    {
+      "class": "DataTypeDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-datatypedevicetest",
+      "original_sha256": {
+        "m3-data-types.json": "5d4a3f7fdf3e9f7f65018f2e533b2860296906cb7c2755aa2efca4316dcf6434"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "78b984c5bbb3d9681ae2dd82e2887e160e84322e748a1864f3f3f92a62fb948c"
+    },
+    {
+      "class": "ExtensionNameDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-extensionnamedevicetest",
+      "original_sha256": {
+        "m3-extension-names.json": "15ceb77ba6dc13352aa15fc379c2edb8c78c92a2fccb2c81792ead518b4b9881"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "9f0e305a82e4172acb6792c9e45797ae5773b81cc763c695b9ee7e9cd662ac9c"
+    },
+    {
+      "class": "ValidationOrderDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-validationorderdevicetest",
+      "original_sha256": {
+        "m3-validation-order.json": "1edd6c679ae70dba535fa5838692451ca334712a69f1f4ad45afe58c66042a8b"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "57fbeff8785e3a8bbe5c918010b0b3be23731d43699f5a81f26828a3a429f1b4"
+    },
+    {
+      "class": "ResidualSecurityDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-residualsecuritydevicetest",
+      "original_sha256": {
+        "m3-residual-security.json": "1e3e0dc55745be0509f3b509902b054bdf42789eca9406eae306998d1890fc5b"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "6b0319195c33557c2424258e4e24f1d8f0c084ad6b0e55d65da4a3a604f82084"
+    },
+    {
+      "class": "AtomicRegistryDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-atomicregistrydevicetest",
+      "original_sha256": {
+        "m3-atomic-registry.json": "9bda846168f13923bf70b3e2efd780a3da3202f8ff928bac491027dbc784658f"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "cfcdaea850b0016f0b4aacd3e819eb7ba4950867240051ca4f7e3b2bd7fa5550"
+    },
+    {
+      "class": "PackImportConsentTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-packimportconsenttest",
+      "original_sha256": {
+        "m3-import-consent.json": "0ee774b6713fdc54911725c667ff3aa084c4ccfd8320c210628c951d12cc7d72"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "439a58f48cc67859280f29dca8a634de623a9733319e07efea918f0e0e084a37"
+    },
+    {
+      "class": "ReleaseTrustCoreDeviceTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-releasetrustcoredevicetest",
+      "original_sha256": {
+        "m3-release-trust-core.json": "7d64910f4c95e865f8fdea704b03d9cdb1f3493c84e11a3020ccd399069e06dd"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "5497805e087ebb41f06d21c693df75d60f2180d897d0244c6222914d59d34d44"
+    },
+    {
+      "class": "ProductRuntimeSmokeTest",
+      "methods": 1,
+      "run": "device-consolidated-core-0002-productruntimesmoketest",
+      "original_sha256": {
+        "product-runtime-smoke.json": "c5fb95036b3cf05e5bed5d1a5d65b15321cef4e772225741ed3edceca1187e59"
+      },
+      "sidecar_png_sha256": {},
+      "manifest_sha256": "531c96318dd4c6270060925e62e73777aa4e8238cfb9e35f0e40d4925dae211e"
+    }
+  ],
+  "active_class": "ProductRuntimeSmokeTest",
+  "active_expected_methods": 1,
+  "scope": "Fixed selected per-class JUnit/count/ID contracts, exact current source/APK hashes, originals collected before next class, fresh output names and explicit owner50/source4 no-follow/mode guards. Private custody never enumerated. Native execution only where selected tests require it; no-INTERNET with mobile data on is not radio isolation. Synthetic signed protocol tests are not genuine calibration/domain gold, controlled performance or whole release acceptance. UI original PNG review remains independent.",
+  "updated_utc": "2026-10-12T16:01:43.475446+00:00"
+}

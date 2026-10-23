@@ -1,0 +1,113 @@
+{
+  "status": "PASS_F2_ADJACENT_UI_VISIBLE_SCOPE_NOT_FULL_F2",
+  "finished_utc": "2026-10-11T21:14:51.636127+00:00",
+  "build": "build-0076",
+  "methods": 6,
+  "controls": 31,
+  "class_proofs": {
+    "management": {
+      "execution_sha256": "1ffb96afd65036ada6be602880a7da35b65e2c7e55b3c2a168637f6b4393ce09",
+      "methods": 1,
+      "controls": 7,
+      "original_sha256": {
+        "m3-pack-management-ui.json": "002fb8850b06b882948de35cc3d13b4a4bb11cb2ec084963336f005c658a69b8"
+      },
+      "pngs": {}
+    },
+    "query": {
+      "execution_sha256": "67672da318db93b978d91073b334b3237646d0398bce4ffb81559fea2de4ca2c",
+      "methods": 1,
+      "controls": 5,
+      "original_sha256": {
+        "m4-ui-query-controls.json": "32c460c6b02d0791d41289b61c96b6e63d88c612b2509eb8b3aab982cc4db1b3"
+      },
+      "pngs": {}
+    },
+    "sources": {
+      "execution_sha256": "8e43746ff4a0d28c3b90fce4838cdf9efaeadcadba2c56e53edcc410afdb02dc",
+      "methods": 2,
+      "controls": 7,
+      "original_sha256": {
+        "m4-source-details-ui.json": "754b9188cea65ab70e6bbd0b7903e62dfcd42432850c001b2785ae73aede70d4",
+        "m4-source-details-languages-ui.json": "26671d883e68e5f2ef1a8821d0a47c6407409bd3dfb40e09048e0f896becd03a"
+      },
+      "pngs": {
+        "m4-source-details-ar.png": {
+          "sha256": "e68eb0a50be9b3c0fe55f2f5a1bafcf1f868e4268939c2dde245c7c7c301392f",
+          "bytes": 264149,
+          "dimensions": [
+            1080,
+            2316
+          ]
+        },
+        "m4-source-details-fr.png": {
+          "sha256": "ecb2b5ee3d6f467678b65a2221a8a4e5a25991a99d4c021cf996cde0a21b9961",
+          "bytes": 260815,
+          "dimensions": [
+            1080,
+            2316
+          ]
+        }
+      }
+    },
+    "diagnostics": {
+      "execution_sha256": "ccd2764af17ac3d35d8599d164f0183f598b3710d6068bbc2880ce38ee3d6582",
+      "methods": 1,
+      "controls": 7,
+      "original_sha256": {
+        "m4-diagnostic-navigation.json": "1cba86bd0adb963ef18bdfcaab767ca43acf6f1dfa6b23640b4f71548eb7f264"
+      },
+      "pngs": {
+        "m4-diagnostic-home.png": {
+          "sha256": "3967a7a3a750b86eb66a5c8b83830ffe6801083e474c4562a31d3cde154f7301",
+          "bytes": 285610,
+          "dimensions": [
+            1080,
+            2316
+          ]
+        },
+        "m4-diagnostic-source.png": {
+          "sha256": "b7f02b1d6632c70db5a3f82eaa5f10ab931226f5cc1324a12509d8777149c478",
+          "bytes": 258264,
+          "dimensions": [
+            1080,
+            2316
+          ]
+        }
+      }
+    },
+    "assets": {
+      "execution_sha256": "dcf8cbb6a547e504707e930ba7ff26350e4ed0c2799405feefe0bed02aa2bee5",
+      "methods": 1,
+      "controls": 5,
+      "original_sha256": {
+        "m4-local-assets-ui.json": "1d3ca821404d9ceec0f9961218c711af9fbcc061135022627b5d6617e7bd03fd"
+      },
+      "pngs": {
+        "m4-local-assets-generator.png": {
+          "sha256": "a5442a1da0235a6799fdc13d9420b1eb4f9c4f27cb5b6e39d64fc6fac64187b3",
+          "bytes": 249471,
+          "dimensions": [
+            1080,
+            2316
+          ]
+        },
+        "m4-local-assets-encoder.png": {
+          "sha256": "05fdf8a5e1537a22c0a2ae957c553ebfb611a2f46deafe2b612d002dbe81eaa2",
+          "bytes": 271222,
+          "dimensions": [
+            1080,
+            2316
+          ]
+        }
+      }
+    }
+  },
+  "visible_review_sha256": {
+    "sources": "e8eaa0f7010d8ff5e71f20eaf9f8cda7fc25f4d4560a30cd4c469f10897a7b1c",
+    "diagnostics": "8c7daf6346a1f7469434b853f26a82f32f79a3da971d7166098f09db2c592ea1",
+    "assets": "f819c129b4225bbbe0781a25a0d04508fdc350bc8f64187a53aeaaad19a41a18"
+  },
+  "window_ended_utc": "2026-10-11T21:14:51.636127+00:00",
+  "scope": "Five classes/six methods31 controls and six exact original PNGs reviewed within announced20-minute window. No-PNG management/query establish actual visible assertions only; ARFR separately disclosed viewer component. Encoder screenshot proves status only, not offscreen encoder size/hash. Functional four-pin checks separate from raster claims. F2 final imports/policy/restoration/custody/closure pending; F3/F4 held."
+}

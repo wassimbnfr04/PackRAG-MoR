@@ -1,0 +1,11 @@
+{
+  "status": "PASS_INTEGRATED_F2_HARDENING_ITERATION_NOT_FULL_F2",
+  "recorded_utc": "2026-10-11T17:20:06.173101+00:00",
+  "sequence_sha256": "d278692c7ad9990c1718f792738375c76c0fff7f658095c59074b0a6e6ca652e",
+  "native_execution_sha256": "1fbdc19fd6a439b913841af7528db5418a915c34ad662ee9bd8177f4bc722861",
+  "native_original_sha256": "0bd34f4eee4e8d4bda4bfee7996ac86d4222483c9db7d6f2dce15337155cf826",
+  "native_whole_instrumentation_s": 356.39,
+  "native_answer_before": "The maximum continuous operating temperature of the Aster-9 is 74 \u00b0C [S1].",
+  "native_answer_after": "The maximum continuous operating temperature of the Aster-9 is 74 \u00b0C [S1].",
+  "note": "Current M4F2 integrated hardening iteration PASS at 2026-10-11T17:20:06.173101+00:00:0063 host73/frozen589 inputs, actual fault0002 three methods/28 controls49.491s and fresh native walking0003 seven controls356.39s whole-instrumentation. Actual template stream5443/pin/atomic replacement, actual separate-UID one-open/one-close/errors0, foreign warm-model reader exclusion, caller native close and cold answers before/after both74\u00b0C[S1] remain working after startup/cleanup/cancel changes. All originals saved before any new build/switch; explicit known50 owner hashes match. These functional observations do not establish M8 performance or arbitrary-provider cancellation. Failed0058 compilation/walking0001/fault0001, unexecuted0061 cleanup review and all partial/scope corrections remain immutable. Next implement actual debug importing-subprocess loss/recovery and full4 real-artifact content-URI imports under prewritten M4F2_RESTART_AND_ALL_SLOT_PREPARATION.md. This is not F2 completion; ViewModel/system-picker/progress/cancel UI, approved-only/retained F1-adjacent regressions/restoration/custody/closure/exact checkpoint still required before F3. F3/F4/later software/release/delivery remain; final packs owner supplied, radio/mobile data unchanged, background PackRAG closed."
+}

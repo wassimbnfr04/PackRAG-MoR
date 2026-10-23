@@ -1,0 +1,17 @@
+{
+  "status": "PASS28_ACTUAL_F2_FAULT_CONTROLS_NATIVE_REGRESSION_PENDING_NOT_FULL_F2",
+  "recorded_utc": "2026-10-11T17:11:38.857567+00:00",
+  "fault_execution_sha256": "461101fd40c9b647751c1d7753ef11a7226a35d21fde788fc52c0b6918dbb5f9",
+  "original_sha256": {
+    "m4-local-asset-import-uri-faults.json": "d1ffb1ebab6c9e715ae2f4303e3f6d10032352e8532e12c1ed0c4d757d5f3f46",
+    "m4-local-asset-import-provider-cancel.json": "e103ecd966eb2c69606fd8cf89612fc25c391f7427ed9f5e88b0bc4a72e2f30b",
+    "m4-local-asset-import-path-recovery.json": "48cdc543e536a80f51e3fea411fa73b436e5abb417c0611b107cb1c741e568e3"
+  },
+  "cancellation_observations": {
+    "actual_copied_bytes_before_pipe_cancel": 128,
+    "pipe_main_cancel_dispatch_ms": 6.022383,
+    "opening_main_cancel_dispatch_ms": 2.678555
+  },
+  "scope": "Includes explicitly labelled byte count in the observation dictionary; only *_ms fields are timings. No actual process death, all-slot/full native or system picker acceptance in the fault suite.",
+  "note": "Current M4F2 at 2026-10-11T17:11:38.857567+00:00: corrected0063 actual fault suite0002 PASS three methods/28 controls49.491 whole-instrumentation seconds. Actual grants/revocation/rejected sizes/hash/wrong slot/error/metadata lies, controlled short pipe, precommit and late-commit cancellation, Android leaf/parent/root/marker/stage/namespace symlinks, validated same-process startup reconciliation/legacy preservation and explicit controlled sync fault all pass. Actual typed-cancellable branch/pipe counters are asserted; blocked-pipe copy observes128bytes before cancel. Main cancellation dispatch observations are6.022383ms read/2.678555ms opening, with15s completion watchdog; these are specific cooperative-provider functional bounds, not M8 speed or arbitrary-provider IPC guarantees. All three original JSON files are saved/hash bound and known50 public owner-file hashes match. First0001 FAIL and its two partial originals/25 assertions remain unchanged; its old short-pipe label is not accepted as physical pipe evidence. Real native walking0003 on identical0063 is now RUNNING in the serial gate; do not progress restart/all-slot/UI until it passes. Still not complete F2: actual process-death, all4 artifact imports, ViewModel/system-picker/progress/cancel UI, approved-policy/adjacent/F1 regressions, restoration/custody/closure/exact checkpoint remain before F3; F3/F4/later software/release/delivery remain. Owner final packs excluded; mobile data stays on, PackRAG stays closed for background tests."
+}

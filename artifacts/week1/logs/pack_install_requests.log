@@ -1,0 +1,16 @@
+Collecting requests==2.32.5
+  Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting charset_normalizer<4,>=2 (from requests==2.32.5)
+  Using cached charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl.metadata (46 kB)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\fkagf\downloads\mor captsone\.venv-pack\lib\site-packages (from requests==2.32.5) (3.20)
+Collecting urllib3<3,>=1.21.1 (from requests==2.32.5)
+  Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\fkagf\downloads\mor captsone\.venv-pack\lib\site-packages (from requests==2.32.5) (2026.7.22)
+Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+Using cached charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl (200 kB)
+Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+Installing collected packages: urllib3, charset_normalizer, requests
+Successfully installed charset_normalizer-3.5.1 requests-2.32.5 urllib3-2.8.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-pack\Scripts\python.exe -m pip install --upgrade pip

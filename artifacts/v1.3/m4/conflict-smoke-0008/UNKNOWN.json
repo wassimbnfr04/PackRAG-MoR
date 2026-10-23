@@ -1,0 +1,367 @@
+{
+  "id": "UNKNOWN",
+  "status": "PASS",
+  "actual_weight_inference": false,
+  "model_load_not_excluded": true,
+  "generate_calls_for_case": 0,
+  "result": {
+    "state": "IDENTIFIER_AMBIGUOUS",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+      "as_of": "2026-10-07",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.conflict.unknown",
+        "1.0.0",
+        "7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 14.352600001075189,
+      "retrieval_ms": 1.120999999329797,
+      "end_to_end_ms": 16.16920000014943
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.conflict.unknown",
+        "chunk_id": "d0fe55d8071dda66699b185a",
+        "exact": true,
+        "sparse_rank": 2,
+        "dense_rank": 1,
+        "dense_cosine": 0.9597538709640503,
+        "rrf": 0.03252247488101534,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.unknown",
+            "1.0.0",
+            "7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.unknown",
+              "1.0.0",
+              "7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7"
+            ],
+            "chunk": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "d0fe55d8071dda66699b185a",
+              "dense_row": 1,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "new",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 2,
+              "search_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+              "section": "new",
+              "sha256_original": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "new",
+              "source_title": "SYNTHETIC Aster-9 rule",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+              "title": "SYNTHETIC Aster-9 rule"
+            },
+            "source_metadata": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 1,
+            "cosine": 0.9597538709640503,
+            "rrf": 0.03252247488101534,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+                ],
+                "state": "UNRESOLVED",
+                "reason": "UNKNOWN_AUTHORITY",
+                "preferred": null,
+                "retained": [
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+                ],
+                "required": []
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+              "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+            ],
+            "state": "UNRESOLVED",
+            "reason": "UNKNOWN_AUTHORITY",
+            "preferred": null,
+            "retained": [
+              "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+              "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+            ],
+            "required": []
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-law",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.unknown",
+        "chunk_id": "3b04982272456d62c8cfb0ae",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 2,
+        "dense_cosine": 0.9591396450996399,
+        "rrf": 0.03252247488101534,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.unknown",
+            "1.0.0",
+            "7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7"
+          ]
+        ],
+        "fused_rank": 2,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.unknown",
+              "1.0.0",
+              "7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7"
+            ],
+            "chunk": {
+              "article": "Aster-9",
+              "authority_rank": null,
+              "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 °C.",
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "3b04982272456d62c8cfb0ae",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "old",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 1,
+              "search_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 °C.",
+              "section": "old",
+              "sha256_original": "704518f18a4ad51bf00d218e814af75d7c706d869ba6125cc4842cb87447e91c",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "old",
+              "source_title": "SYNTHETIC Aster-9 rule",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "704518f18a4ad51bf00d218e814af75d7c706d869ba6125cc4842cb87447e91c",
+              "title": "SYNTHETIC Aster-9 rule"
+            },
+            "source_metadata": {
+              "article": "Aster-9",
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 2,
+            "cosine": 0.9591396450996399,
+            "rrf": 0.03252247488101534,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+                ],
+                "state": "UNRESOLVED",
+                "reason": "UNKNOWN_AUTHORITY",
+                "preferred": null,
+                "retained": [
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+                  "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+                ],
+                "required": []
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+              "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+            ],
+            "state": "UNRESOLVED",
+            "reason": "UNKNOWN_AUTHORITY",
+            "preferred": null,
+            "retained": [
+              "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#d0fe55d8071dda66699b185a",
+              "org.packrag.contract.conflict.unknown@1.0.0:7395d6cb2583c4fa8b2eaa656f0fcacd59b7126b39c1c48662691015041405c7#3b04982272456d62c8cfb0ae"
+            ],
+            "required": []
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-law",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS_F2_FRESH_FOREGROUND_ADJACENT_CONTRACTS_VISUAL_REVIEW_PENDING_NOT_FULL_F2",
+  "started_utc": "2026-10-11T21:01:59.542308+00:00",
+  "runner_sha256": "e60e698cc64a25a784a54a037580b72cf4c98b6243e3a05e369feea714c0450f",
+  "build": "build-0076",
+  "run": "device-local-asset-adjacent-ui-0001-management",
+  "selection": "management",
+  "foreground_authorized": true,
+  "background_sha256": "fc56067a25c92e1f3d86326fae6fb7fa1c630057d278bc9d6febcd1dbc6a0aa7",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0076",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-ui-0001-management",
+        "--class-name",
+        "org.packrag.product.PackManagementUiTest",
+        "--result-file",
+        "m3-pack-management-ui.json",
+        "--timeout",
+        "1800",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-adjacent-ui-0001-management",
+        "--files",
+        "m3-pack-management-ui.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-adjacent-ui-0001-management-after-known.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "methods": 1,
+  "controls": 7,
+  "original_sha256": {
+    "m3-pack-management-ui.json": "002fb8850b06b882948de35cc3d13b4a4bb11cb2ec084963336f005c658a69b8"
+  },
+  "pngs": {},
+  "scope": "Actual frozen class and exact original reports/PNG bytes; all functional assertions retained after guard-only repair. Independent visible-scope image review mandatory for classes with PNGs; classes without PNGs establish actual UI assertions, not new visual exports. AR/FR are separately disclosed verified viewer-component controls with setContent, not production pack admission/new inference. No reinstalls, owner data/radio writes, performance/gold/full F2/M4/product/release claim.",
+  "finished_utc": "2026-10-11T21:02:28.911801+00:00"
+}

@@ -1,0 +1,85 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetImportFaultDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.LocalAssetImportFaultDeviceTest:
+INSTRUMENTATION_STATUS: test=actualUriRejectionsMetadataShortStreamsAndCommitCancellationPreservePinnedFinal
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetImportFaultDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualUriRejectionsMetadataShortStreamsAndCommitCancellationPreservePinnedFinal
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetImportFaultDeviceTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetImportFaultDeviceTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry$lambda$0(LocalAssetImportFaultDeviceTest.kt:133)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest$$ExternalSyntheticLambda12.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.owned(LocalAssetImportFaultDeviceTest.kt:61)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry(LocalAssetImportFaultDeviceTest.kt:127)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry(org.packrag.product.LocalAssetImportFaultDeviceTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry$lambda$0(LocalAssetImportFaultDeviceTest.kt:133)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest$$ExternalSyntheticLambda12.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.owned(LocalAssetImportFaultDeviceTest.kt:61)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry(LocalAssetImportFaultDeviceTest.kt:127)
+
+INSTRUMENTATION_STATUS: test=actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetImportFaultDeviceTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualAndroidSymlinksOwnedStartupRecoveryAndSyncFaultNeverPromoteUnsafeStages
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetImportFaultDeviceTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualAndroidSymlinksOwnedStartupRecoveryAndSyncFaultNeverPromoteUnsafeStages
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 40,364
+There was 1 failure:
+1) actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry(org.packrag.product.LocalAssetImportFaultDeviceTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry$lambda$0(LocalAssetImportFaultDeviceTest.kt:133)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest$$ExternalSyntheticLambda12.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.owned(LocalAssetImportFaultDeviceTest.kt:61)
+	at org.packrag.product.LocalAssetImportFaultDeviceTest.actualCancellableProviderOpeningAndBlockedPipeReadCloseBeforeRetry(LocalAssetImportFaultDeviceTest.kt:127)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
+

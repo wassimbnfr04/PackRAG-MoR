@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_conflict_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\conflict-smoke-0007"
+      ],
+      "started_utc": "2026-10-09T21:40:30.314119+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T21:41:55.122599+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_relevance_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\relevance-smoke-0004"
+      ],
+      "started_utc": "2026-10-09T21:41:55.124608+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T21:42:58.998437+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_representation_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\representation-smoke-0004"
+      ],
+      "started_utc": "2026-10-09T21:42:59.001510+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T21:44:01.051031+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_source_text_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\source-text-smoke-0002"
+      ],
+      "started_utc": "2026-10-09T21:44:01.051031+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T21:44:43.990748+00:00"
+    }
+  ]
+}

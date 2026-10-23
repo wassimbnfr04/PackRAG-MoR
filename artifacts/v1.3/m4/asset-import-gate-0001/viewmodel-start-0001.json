@@ -1,0 +1,28 @@
+{
+  "status": "F2_VIEWMODEL_PICKER_IMPLEMENTED_HOST_PASS_DEVICE_PENDING_NOT_ACCEPTED",
+  "recorded_utc": "2026-10-11T18:07:31.646294+00:00",
+  "source_delta": {
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportTestSupport.kt": {
+      "before": null,
+      "after": "1707f2ed08069d10d5e6ec0cc8451b88404561c8ce06b3af63270655cd1cb4b8"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportViewModelDeviceTest.kt": {
+      "before": null,
+      "after": "cbebb8d2adb244ef577c52ca39258d7cd24c43b76445bec0a90715ebdc395df9"
+    },
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetsScreen.kt": {
+      "before": "9fb926dd083de17b3d0d88f4fb87683c04267165077b6f156c2a48ea9d818075",
+      "after": "0048fe246d4c9b32a29a8d91509ec833af0800e261ec3f6825bf18524985b550"
+    },
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": {
+      "before": "115f567ffcdf04275bfcaa6ffdc7aee8aaca2684cc6708929436f1f88622e3e0",
+      "after": "62407de37025215e2dc03003b991c16d3db02e3de1d1a7be5c88a4eb06f38063"
+    },
+    "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": {
+      "before": "e70670df71a11f6b7cf1e8580f36b94a8f77cd233704e4cad121b83bfec6d66b",
+      "after": "ca84048e23742aacd11bceaf0bff79e3bd77d3fb3f949eb7be073f8131bfc4b0"
+    }
+  },
+  "host_capture_sha256": "381ea98f63c6ddb6f4504a3bfc393734983ec7270aeee8cbe17c9c572ea3e08e",
+  "note": "Current M4F2 ViewModel/picker iteration START at 2026-10-11T18:07:31.646294+00:00: actual four-slot0066 passed8 controls/cold+warm/native/originals/owner50/source4 guards, following earlier fault28/API7/process3 gates. Build0067 passes73 host/595 frozen Android inputs/APK/native/trust/no INTERNET contracts, actual app unit task executed; only3 product UI sources and2 new test sources change. Fixed-slot OpenDocument picker uses saveable primitive slot name; only a granted URI+valid slot dispatches to the production session API; picker cancellation dispatches no mutation, no URI reopening/persisted URI/arbitrary model destination/broad product storage privilege. Local-assets screen shows observed stage/bytes/progress, selected pinned-file chooser and cooperative cancel. Production ViewModel retains existing previous-job cancel/join+mutex serialization, epoch-filters cross-thread progress; cancellation marks request and cancels source/session without cancelling the action/pretending immediate rollback, waits for actual cleanup/commit, and observes the pre-session-ticket race at initial progress. Late commit may truthfully return installation. Existing preserveResult generic failure recovery now also preserves original answer/trace/submission/inputError/resultID (success already did), without carrying those results into ordinary pack mutation/new queries. Import typed rejection/cancel reports safe codes and pending-cleanup warnings; success reports verification and any postcommit sync/cleanup warning. Native-reader lease/security/correct pins unchanged. New background real ViewModel device test uses test-only Application filesDir/cacheDir isolation and known50 guards, sets up all4 real URI files and signed synthetic pack, makes actual accepted answer, verifies identical completion references across wrong-hash/generic-URI failure/128-byte blocked-read cancel/transported-open cancel/success/recheck, then actual new cold answer/new resultID. Device0001 is starting; physical ViewModel and actual picker/UI not yet PASS. Original evidence must be collected/known source+owner guards checked before source/APK switch; failure stops later UI. Actual system-picker selection/cancel/recreation/viewport/back/canonical-source regressions still need prepared test and fresh announced untouched window. Approved-policy/retained regressions/restoration/custody/closure/checkpoint still remain before F3, full M4/product/release not complete. Mobile data on; background PackRAG closed; owner final packs excluded."
+}

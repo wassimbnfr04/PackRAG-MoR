@@ -1,0 +1,1558 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "valid-method-0",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-descriptor-0-1",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-descriptor-0-2",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-local64-0",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-local64-descriptor-0",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-method-8",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-descriptor-8-1",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-descriptor-8-2",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-local64-8",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-local64-descriptor-8",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-comment",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "unicode-extra-valid",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "timestamp-extra",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "valid-unicode",
+      "expected_accept": true,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": null,
+      "rejection_message": null
+    },
+    {
+      "id": "local-name",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "invalid-utf8",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "local-flags",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "local-method",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "local-version",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "local-crc",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "local-compressed",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "local-size",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "central-size",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "central-compressed",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "central-local-offset",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "disk-entry",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "symlink",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "directory-bit",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "encryption",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "unknown-flag",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "unknown-method",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "unknown-version",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "short-extra",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "duplicate-extra",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "aes-extra",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "zip64-central",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "unicode-extra-mismatch",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "hidden-gap",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "missing-utf8",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "descriptor-crc",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "descriptor-size",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "crc-payload",
+      "expected_accept": false,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "PAYLOAD_REJECTED"
+    },
+    {
+      "id": "central-crc-payload",
+      "expected_accept": false,
+      "audit_accept": true,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "PAYLOAD_REJECTED"
+    },
+    {
+      "id": "truncated",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "appended-bytes",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "prefixed-bytes",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "split-disk",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "case-duplicate",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "full-fold-duplicate",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "sigma-duplicate",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "ligature-duplicate",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "traversal",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "absolute",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "backslash",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "drive",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "dos",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "decomposed",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "trailing-dot",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "trailing-space",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "control",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "empty-segment",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "long-segment",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "script",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "model",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    },
+    {
+      "id": "outside-sources",
+      "expected_accept": false,
+      "audit_accept": false,
+      "passed": true,
+      "rejection_class": "org.packrag.packs.PackImportRejected",
+      "rejection_message": "ARCHIVE_REJECTED"
+    }
+  ],
+  "corpus": {
+    "cases": [
+      {
+        "id": "valid-method-0",
+        "filename": "valid-method-0.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "2aff0b9c36c558169aaedaff186fa84ffb8dceb2ae2be70b64d8c14ff4a2bddf",
+        "construction": {
+          "names": [],
+          "method": 0,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-descriptor-0-1",
+        "filename": "valid-descriptor-0-1.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "244fd23583436787202b0ac94c5e130b832ce6960c080c5748b6a91bdd4ae0cd",
+        "construction": {
+          "names": [],
+          "method": 0,
+          "descriptor": 1,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-descriptor-0-2",
+        "filename": "valid-descriptor-0-2.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "3216c00a5f2bec5be7af7ac8dc490184ef7129dadd13e7ed69c5baea954dd12e",
+        "construction": {
+          "names": [],
+          "method": 0,
+          "descriptor": 2,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-local64-0",
+        "filename": "valid-local64-0.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "5993b18198fdb5d303eac3b9b285882ba03cbbb50101e1284d15193a3bd4c45e",
+        "construction": {
+          "names": [],
+          "method": 0,
+          "descriptor": 0,
+          "local_zip64": true,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-local64-descriptor-0",
+        "filename": "valid-local64-descriptor-0.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "8259fc56dd0122cb71be97063e44fe8f0bf142b1a82533fc50850a35ae011ff6",
+        "construction": {
+          "names": [],
+          "method": 0,
+          "descriptor": 1,
+          "local_zip64": true,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-method-8",
+        "filename": "valid-method-8.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "279a200b291e88c669f0409f6d873eeb933d7d3e97c7107febfe406715c7ac19",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-descriptor-8-1",
+        "filename": "valid-descriptor-8-1.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "fd08770d430c0646779c6ebca468a5c5cf4e5cfb1656e727125b2b458d626cff",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 1,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-descriptor-8-2",
+        "filename": "valid-descriptor-8-2.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "c26790b97ce90cdbadbab218f72a923899786a3c63b0f38566d81f9f39cd6b1c",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 2,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-local64-8",
+        "filename": "valid-local64-8.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "ca3756f8a9e8368a83d9343c617aafa433f8344dd391d34b558e5c64ebf87e47",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": true,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-local64-descriptor-8",
+        "filename": "valid-local64-descriptor-8.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "d94470b49ca768e8746f64ce6ddda4f9388d6e42cd8e1b8b069f9dd087a52df7",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 1,
+          "local_zip64": true,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-comment",
+        "filename": "valid-comment.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "3245896031df61a6310efa993ab46710f983a73610b588c32346715f4fd14b17",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "unicode-extra-valid",
+        "filename": "unicode-extra-valid.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "163e48bac457fe80ee755bb193843316e4b8356f4de5b1b7b4e5760899fdb466",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "unicode-extra-valid",
+          "edited": false
+        }
+      },
+      {
+        "id": "timestamp-extra",
+        "filename": "timestamp-extra.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "94545538eb6acceec0f64a7b0ce52a674af30f3d9d84e3ef4cf5efbc5688fef9",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "timestamp-extra",
+          "edited": false
+        }
+      },
+      {
+        "id": "valid-unicode",
+        "filename": "valid-unicode.kpack",
+        "accept": true,
+        "audit_accept": true,
+        "sha256": "0a648ce0a31e25476d5b67f3d82aeb535b4d6d7cbc85fefcba4949e282302425",
+        "construction": {
+          "names": [
+            "sources\/é.txt",
+            "sources\/文.txt",
+            "sources\/😀.txt",
+            "sources\/.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "local-name",
+        "filename": "local-name.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "7bd19bc5938edbfacb01e5f7b88025579b15eae31a5b64485dc4e2acc8fb5663",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "local-name",
+          "edited": false
+        }
+      },
+      {
+        "id": "invalid-utf8",
+        "filename": "invalid-utf8.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "6ac6f0ee3364563d1689747d58c59996ed22e8d4d00a787d67661dd6f743a1fe",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "invalid-utf8",
+          "edited": false
+        }
+      },
+      {
+        "id": "local-flags",
+        "filename": "local-flags.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "4642dcb6b83b59ad45c7c4222c9e7d0178a9fd693b4ec3e032441bbac8b588af",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "local-flags",
+          "edited": false
+        }
+      },
+      {
+        "id": "local-method",
+        "filename": "local-method.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "7976bf99cde1362421b1a9657ce1fc96cb94b59622acc4b03b3756faa8461366",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "local-method",
+          "edited": false
+        }
+      },
+      {
+        "id": "local-version",
+        "filename": "local-version.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "aa251d21c31195adda597ad032fd52d9af0977b496605410f977f3464b1dbd16",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "local-version",
+          "edited": false
+        }
+      },
+      {
+        "id": "local-crc",
+        "filename": "local-crc.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "6018ad871b3e8416d3104e576dd0113cceae9dff25e830020563b4a09e132f31",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "local-crc",
+          "edited": false
+        }
+      },
+      {
+        "id": "local-compressed",
+        "filename": "local-compressed.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "094abae71c9a5c0d26a0f41fe47281c4034db7bb42195454b695a7c56d2ad444",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "local-compressed",
+          "edited": false
+        }
+      },
+      {
+        "id": "local-size",
+        "filename": "local-size.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "d97d0576d5d63969450d066245eb1e53f8a5e2569752a3e301b4b562528ec637",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "local-size",
+          "edited": false
+        }
+      },
+      {
+        "id": "central-size",
+        "filename": "central-size.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "2ad6d6256ced28778c0cdc27998a2636cdb16e3ea01523d911c811b9296ae895",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "central-size",
+          "edited": false
+        }
+      },
+      {
+        "id": "central-compressed",
+        "filename": "central-compressed.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "8f62ff0b7fa7d2612fdefa1fd40eac8ffddb27608a774c73835bd3185ef51dae",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "central-compressed",
+          "edited": false
+        }
+      },
+      {
+        "id": "central-local-offset",
+        "filename": "central-local-offset.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "c5976faf176d6798e5989d2f023cefb67de675b4390dc0f73d9d9be3544b45cc",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "central-local-offset",
+          "edited": false
+        }
+      },
+      {
+        "id": "disk-entry",
+        "filename": "disk-entry.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "16a4b6d26cb63127538b34ff80ce4b890990fffdbe93c2c77844e44b3fb76f18",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "disk-entry",
+          "edited": false
+        }
+      },
+      {
+        "id": "symlink",
+        "filename": "symlink.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "cc49c98bf5b8f8eb66e0efd1ac3acc362cf2de06c082044b90cafea33682bb97",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "symlink",
+          "edited": false
+        }
+      },
+      {
+        "id": "directory-bit",
+        "filename": "directory-bit.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "f08ac975e6004679745e498a7c621795b748d8369b75d4894aea5afe4d180be6",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "directory-bit",
+          "edited": false
+        }
+      },
+      {
+        "id": "encryption",
+        "filename": "encryption.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "6d98d9220671ec02e96c406f08753fcfebeaf1e952e63ed0f6d88a0b02e94d41",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "encryption",
+          "edited": false
+        }
+      },
+      {
+        "id": "unknown-flag",
+        "filename": "unknown-flag.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "3f6e4a83d07ff6a475c75c2295558cbf98e24fc3f9115dd187b052970617cd94",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "unknown-flag",
+          "edited": false
+        }
+      },
+      {
+        "id": "unknown-method",
+        "filename": "unknown-method.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "dce7ba77c413e2e56771991ae48087204b53f9b727a4cc398764fee137ebadd1",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "unknown-method",
+          "edited": false
+        }
+      },
+      {
+        "id": "unknown-version",
+        "filename": "unknown-version.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "d5b6d310c39477d411f01cc3276acef12adaff9728dc787113725b4b42842fb4",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "unknown-version",
+          "edited": false
+        }
+      },
+      {
+        "id": "short-extra",
+        "filename": "short-extra.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "e2edeb15b00846d5b4acc202462a0bfed9a32694b04816033d5cb1939193de87",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "short-extra",
+          "edited": false
+        }
+      },
+      {
+        "id": "duplicate-extra",
+        "filename": "duplicate-extra.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "1ae00da67a3de95dc44e12e19ceac7d19b1684db18c41f688c73b4d635e25a0a",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "duplicate-extra",
+          "edited": false
+        }
+      },
+      {
+        "id": "aes-extra",
+        "filename": "aes-extra.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "e4719fbbdd26595eb60523f180336a15a17441187782918c19cdcf1e8b5bd6a2",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "aes-extra",
+          "edited": false
+        }
+      },
+      {
+        "id": "zip64-central",
+        "filename": "zip64-central.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "468f86937eaf74b0f12248b63a35902db0d0627a1a6a6cc1c867c606d47b1991",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "zip64-central",
+          "edited": false
+        }
+      },
+      {
+        "id": "unicode-extra-mismatch",
+        "filename": "unicode-extra-mismatch.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "ef4b8f51b848d1761990d3400ac5eb82eedc6e872636418aa878767a47d6170c",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "unicode-extra-mismatch",
+          "edited": false
+        }
+      },
+      {
+        "id": "hidden-gap",
+        "filename": "hidden-gap.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "518c4e99855500fbf5b58e3486662534def6c33a49873aaf507aceb725572a26",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "hidden-gap",
+          "edited": false
+        }
+      },
+      {
+        "id": "missing-utf8",
+        "filename": "missing-utf8.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "539cc6e01cb3275dcb3693d3e3327144a77e94841572468a9bb0023d5b711c01",
+        "construction": {
+          "names": [
+            "sources\/é.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "missing-utf8",
+          "edited": false
+        }
+      },
+      {
+        "id": "descriptor-crc",
+        "filename": "descriptor-crc.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "0506b2ee886339476a9a977461841434acfaa52dca505b50a9080e564ac9c199",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 1,
+          "local_zip64": false,
+          "mutation": "descriptor-crc",
+          "edited": false
+        }
+      },
+      {
+        "id": "descriptor-size",
+        "filename": "descriptor-size.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "1b88fca5d8c4f832be754505756acde9a4ea0bc8ca0838fee35eaa0cd514c4fd",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 1,
+          "local_zip64": false,
+          "mutation": "descriptor-size",
+          "edited": false
+        }
+      },
+      {
+        "id": "crc-payload",
+        "filename": "crc-payload.kpack",
+        "accept": false,
+        "audit_accept": true,
+        "sha256": "abeecd54d57558646f82bc9628f7a6aed3ca3347bf0581dff2ac96b80c4c4d7d",
+        "construction": {
+          "names": [],
+          "method": 0,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "crc-payload",
+          "edited": false
+        }
+      },
+      {
+        "id": "central-crc-payload",
+        "filename": "central-crc-payload.kpack",
+        "accept": false,
+        "audit_accept": true,
+        "sha256": "05300b7f60e5a0415ab25e7615526fe971a39f673a961f94c83b446158baa43d",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": "central-crc-payload",
+          "edited": false
+        }
+      },
+      {
+        "id": "truncated",
+        "filename": "truncated.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "7f84938a0f420032fb2f1c2a31a35044f95f5ece18c27dcbd5917d7646bf8cac",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": true
+        }
+      },
+      {
+        "id": "appended-bytes",
+        "filename": "appended-bytes.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "96211389f6ea5fbc0ed41a10181ffd05be2841a7018b6de7d2400f615c125f24",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": true
+        }
+      },
+      {
+        "id": "prefixed-bytes",
+        "filename": "prefixed-bytes.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "a4836468c50541727cc2e58d853638c6b1ffdc98e4d2d1b6d395dc1925d5c272",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": true
+        }
+      },
+      {
+        "id": "split-disk",
+        "filename": "split-disk.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "a5373cd80172daf15705ff1a82bf9eeb1a9f2d705026880c096b12fa9bd5c8d1",
+        "construction": {
+          "names": [],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": true
+        }
+      },
+      {
+        "id": "case-duplicate",
+        "filename": "case-duplicate.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "0649915a5f384637f9a7096d47608ac393b5aa377d3e807139789c0a77a743be",
+        "construction": {
+          "names": [
+            "sources\/A.txt",
+            "sources\/a.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "full-fold-duplicate",
+        "filename": "full-fold-duplicate.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "c291d7f1e0b9e6a3305374cf77a2f37fb020b1e88223cfaa60f9268cadba8cd0",
+        "construction": {
+          "names": [
+            "sources\/ß.txt",
+            "sources\/ss.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "sigma-duplicate",
+        "filename": "sigma-duplicate.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "ee7df684d964f0b535d33f1298c647b301f15c92c86d3cfb70d1864cde92a9e2",
+        "construction": {
+          "names": [
+            "sources\/ς.txt",
+            "sources\/σ.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "ligature-duplicate",
+        "filename": "ligature-duplicate.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "e9a06d10c10a693dc38be19948c804aed8ac2a50b897d0dee942befc9abfd119",
+        "construction": {
+          "names": [
+            "sources\/ﬀ.txt",
+            "sources\/ff.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "traversal",
+        "filename": "traversal.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "2e71304c6bc41b4f0f9d2fc8a2c8dce8cf2d56efb9b0521ee4be7ddc0625db10",
+        "construction": {
+          "names": [
+            "sources\/..\/escape.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "absolute",
+        "filename": "absolute.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "0ecf6a842dc62f750569b9758913d300de9773c08570b626f7065ce85ec24676",
+        "construction": {
+          "names": [
+            "\/sources\/a.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "backslash",
+        "filename": "backslash.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "caa3adbdf705108153f2f89d2953ac57e42ed4b5333a3c9caa15d9b00a3d6e5f",
+        "construction": {
+          "names": [
+            "sources\/a\\b.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "drive",
+        "filename": "drive.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "d5ad25ba918639f282609832fd81223764c98f1f69068450212971410825c342",
+        "construction": {
+          "names": [
+            "sources\/C:a.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "dos",
+        "filename": "dos.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "9aa45e9a20103a47f2dea0f96892e2374cf0b0cdc6651f5570a3f84590d6b284",
+        "construction": {
+          "names": [
+            "sources\/CON.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "decomposed",
+        "filename": "decomposed.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "a073738c7344d91d80f0807c257420b2a4f018e56b798eda517fbbef090c004f",
+        "construction": {
+          "names": [
+            "sources\/é.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "trailing-dot",
+        "filename": "trailing-dot.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "717f29e9900853cd8b91feda41e7a44a19315aba83097e80246356a5e82e4c5a",
+        "construction": {
+          "names": [
+            "sources\/a."
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "trailing-space",
+        "filename": "trailing-space.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "0fe96c5038628b3eafb74dd0651663b9880e867236080a8f555c4507078d2721",
+        "construction": {
+          "names": [
+            "sources\/a "
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "control",
+        "filename": "control.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "5d598c098cc175f91e4027fdabe511c09f2bd88d375abd3e984ae5f928a4b00c",
+        "construction": {
+          "names": [
+            "sources\/a.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "empty-segment",
+        "filename": "empty-segment.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "34d9bcb7bb349b714faec1977aec1cfc963018f9e07e350ded4db71ee1dbb093",
+        "construction": {
+          "names": [
+            "sources\/\/a.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "long-segment",
+        "filename": "long-segment.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "823ed03dce70f9be76a6a5fba584659e7226395e31e669df0952bba1212fccb2",
+        "construction": {
+          "names": [
+            "sources\/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "script",
+        "filename": "script.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "1099b2d9654e05a78a392770a066e051968c79a78115d7878426ecb1be686836",
+        "construction": {
+          "names": [
+            "sources\/a.vbs"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "model",
+        "filename": "model.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "36e3b21bd1c1477fb7ab2a9cb44a8508d91a90972aa53e4ebe5e24d273d5997a",
+        "construction": {
+          "names": [
+            "sources\/a.gguf"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      },
+      {
+        "id": "outside-sources",
+        "filename": "outside-sources.kpack",
+        "accept": false,
+        "audit_accept": false,
+        "sha256": "20f8fc7bedb0d3252f8356f071ca28244b58b18c7c7a9ddff1895c81f6ed5082",
+        "construction": {
+          "names": [
+            "a.txt"
+          ],
+          "method": 8,
+          "descriptor": 0,
+          "local_zip64": false,
+          "mutation": null,
+          "edited": false
+        }
+      }
+    ],
+    "public_key_sha256": "c4662fc6fa669502e6063b27b8b33ca5495fbe79adf0f5ca54ba186aacbfae5b",
+    "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "purpose": "SYNTHETIC_SIGNED_ZIP_TRANSPORT_AND_IMPORT_GATE",
+    "private_seed": "EPHEMERAL_NOT_SAVED",
+    "script_sha256": "162cef3705db5937cf139f41013c1d8bc4d44321f02f0f2367fcd7913d8daa01"
+  },
+  "purpose": "ACTUAL_ANDROID_LOCAL_CENTRAL_ZIP_AND_AUTHENTICATED_IMPORT_GATE",
+  "limits": "Bounded synthetic fixtures; no exhaustive fuzzing or large-pack peak-memory claim"
+}

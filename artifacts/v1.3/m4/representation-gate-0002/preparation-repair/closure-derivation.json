@@ -1,0 +1,6 @@
+{
+  "status": "PREPARED_NOT_ACCEPTANCE",
+  "base_script_sha256": "bf9ecb32d988c7f19f129c8d23b8b13c23db9243d22554239d1be9d739fbb0d9",
+  "new_script_sha256": "f28f465840f989d55347e3cd540b77b22d236f3187592bc5dfa3bc0f34b4dc2a",
+  "purpose": "Retain all initial D2/D1/security checks and add source-text fullscalar/signed/tokenizer repair gates"
+}

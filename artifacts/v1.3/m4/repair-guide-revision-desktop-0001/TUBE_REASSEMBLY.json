@@ -1,0 +1,313 @@
+{
+  "id": "TUBE_REASSEMBLY",
+  "expected_state": "ANSWER_ACCEPTED",
+  "state_matches": false,
+  "result": {
+    "state": "RUNTIME_PROFILE_CHANGED",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "as_of": "2026-10-12",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "after taking the bicycle inner tube out, what must i inspect and how should i reinstall and inflate the replacement?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.test.repair-skills",
+        "1.0.0",
+        "5cc28d05fe7a41ce0c258c8acbd5eecadd160bffd7f7ec257bfd443a817074da"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 30.17539999927976,
+      "retrieval_ms": 2.88169999839738,
+      "end_to_end_ms": 257.1631000027992
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.test.repair-skills",
+        "chunk_id": "af6f9168a767ce54add5cb90",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9227473735809326,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.test.repair-skills",
+            "1.0.0",
+            "5cc28d05fe7a41ce0c258c8acbd5eecadd160bffd7f7ec257bfd443a817074da"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.test.repair-skills",
+              "1.0.0",
+              "5cc28d05fe7a41ce0c258c8acbd5eecadd160bffd7f7ec257bfd443a817074da"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification.",
+              "canonical_uri": "urn:packrag:m4:test-digest:bicycle-inner-tube",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "af6f9168a767ce54add5cb90",
+              "dense_row": 1,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "license": "LicenseRef-PackRAG-Factual-Test-Digest",
+              "locator": "iFixit9863 steps1–6 and conclusion",
+              "notes": "{\"kind\": \"AGENT_AUTHORED_FACTUAL_TEST_DIGEST_NOT_ORIGINAL_MANUAL\", \"upstream_url\": \"https://www.ifixit.com/Guide/Bicycle+Tire+Inner+Tube+Replacement/9863\", \"upstream_html_sha256\": \"f376b518e62a6742f6f6a82002a0fa27d502f54824e4652dba59af27fc89595f\", \"original_redistribution_attested\": false, \"scope\": \"Digest wording is original test material; upstream facts referenced. Not a complete manufacturer guide or release licensing/review claim.\"}",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG factual test digest; referenced guide by Brett Hartt and iFixit contributors",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-12",
+              "rowid": 2,
+              "search_text": "Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification.",
+              "section": "iFixit9863 steps1–6 and conclusion",
+              "sha256_original": "4eea33f8f4a1ce9e319d9298d8b4adc5b30eefc3142d25e36fe20152a1f381c2",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "bicycle-tube-digest",
+              "source_title": "Bicycle inner tube procedure — factual test digest",
+              "source_type": "manual",
+              "source_until": null,
+              "text_sha256": "4eea33f8f4a1ce9e319d9298d8b4adc5b30eefc3142d25e36fe20152a1f381c2",
+              "title": "Bicycle inner tube procedure — factual test digest"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "urn:packrag:m4:test-digest:bicycle-inner-tube",
+              "retrieved_at": "2026-10-12",
+              "license": "LicenseRef-PackRAG-Factual-Test-Digest",
+              "redistribution_allowed": true,
+              "source_type": "manual",
+              "snapshot_path": null,
+              "notes": "{\"kind\": \"AGENT_AUTHORED_FACTUAL_TEST_DIGEST_NOT_ORIGINAL_MANUAL\", \"upstream_url\": \"https://www.ifixit.com/Guide/Bicycle+Tire+Inner+Tube+Replacement/9863\", \"upstream_html_sha256\": \"f376b518e62a6742f6f6a82002a0fa27d502f54824e4652dba59af27fc89595f\", \"original_redistribution_attested\": false, \"scope\": \"Digest wording is original test material; upstream facts referenced. Not a complete manufacturer guide or release licensing/review claim.\"}"
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.9227473735809326,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "urn:packrag:m4:test-digest:bicycle-inner-tube",
+          "retrieved_at": "2026-10-12",
+          "license": "LicenseRef-PackRAG-Factual-Test-Digest",
+          "redistribution_allowed": true,
+          "source_type": "manual",
+          "snapshot_path": null,
+          "notes": "{\"kind\": \"AGENT_AUTHORED_FACTUAL_TEST_DIGEST_NOT_ORIGINAL_MANUAL\", \"upstream_url\": \"https://www.ifixit.com/Guide/Bicycle+Tire+Inner+Tube+Replacement/9863\", \"upstream_html_sha256\": \"f376b518e62a6742f6f6a82002a0fa27d502f54824e4652dba59af27fc89595f\", \"original_redistribution_attested\": false, \"scope\": \"Digest wording is original test material; upstream facts referenced. Not a complete manufacturer guide or release licensing/review claim.\"}"
+        }
+      },
+      {
+        "pack_id": "org.packrag.test.repair-skills",
+        "chunk_id": "79bf5b23b89f9bc7ed6605c3",
+        "exact": false,
+        "sparse_rank": 2,
+        "dense_rank": 2,
+        "dense_cosine": 0.793038010597229,
+        "rrf": 0.03225806451612903,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.test.repair-skills",
+            "1.0.0",
+            "5cc28d05fe7a41ce0c258c8acbd5eecadd160bffd7f7ec257bfd443a817074da"
+          ]
+        ],
+        "fused_rank": 2,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.test.repair-skills",
+              "1.0.0",
+              "5cc28d05fe7a41ce0c258c8acbd5eecadd160bffd7f7ec257bfd443a817074da"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "Framework Laptop 12 fan cleaning or replacement procedure. Unplug the laptop and shut it down through the operating system; do not leave it suspended. Confirm the edge LEDs are off and the laptop is silent. Use a T5 Torx bit. Place the laptop face-down and loosen all eight captive bottom screws. Turn it face-up and open the lid flat. Lift the Input Cover at the hinge cutouts; magnets resist slightly. If excessive force is needed, check every bottom screw. Gently work the fan connector edges loose with the flat screwdriver end, then slide the connector out. Loosen the two captive T5 screws securing the fan and lift the fan out. Clean blades and exhaust fins with a soft-bristled brush or clean toothbrush, then remove dust with a dust blower. Seat the cleaned or replacement fan, secure its two screws, and gently reconnect its plug; do not force the socket. Insert the Input Cover bottom edge into the base tabs, lower the top until its magnets engage, and check every corner sits flush. Close the lid, turn the laptop face-down and tighten the eight bottom screws.",
+              "canonical_uri": "urn:packrag:m4:test-digest:framework-laptop12-fan",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "79bf5b23b89f9bc7ed6605c3",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "license": "LicenseRef-PackRAG-Factual-Test-Digest",
+              "locator": "Guide677 steps1–18",
+              "notes": "{\"kind\": \"AGENT_AUTHORED_FACTUAL_TEST_DIGEST_NOT_ORIGINAL_MANUAL\", \"upstream_url\": \"https://guides.frame.work/Guide/Fan/677?lang=en\", \"upstream_html_sha256\": \"ccefc26380b55324c411d910e735905ba450545ac6d0c3c2632d87c70c3cecd4\", \"original_redistribution_attested\": false, \"scope\": \"Digest wording is original test material; upstream facts referenced. Not a complete manufacturer guide or release licensing/review claim.\"}",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG factual test digest; referenced guide by Framework",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-12",
+              "rowid": 1,
+              "search_text": "Framework Laptop 12 fan cleaning or replacement procedure. Unplug the laptop and shut it down through the operating system; do not leave it suspended. Confirm the edge LEDs are off and the laptop is silent. Use a T5 Torx bit. Place the laptop face-down and loosen all eight captive bottom screws. Turn it face-up and open the lid flat. Lift the Input Cover at the hinge cutouts; magnets resist slightly. If excessive force is needed, check every bottom screw. Gently work the fan connector edges loose with the flat screwdriver end, then slide the connector out. Loosen the two captive T5 screws securing the fan and lift the fan out. Clean blades and exhaust fins with a soft-bristled brush or clean toothbrush, then remove dust with a dust blower. Seat the cleaned or replacement fan, secure its two screws, and gently reconnect its plug; do not force the socket. Insert the Input Cover bottom edge into the base tabs, lower the top until its magnets engage, and check every corner sits flush. Close the lid, turn the laptop face-down and tighten the eight bottom screws.",
+              "section": "Guide677 steps1–18",
+              "sha256_original": "3abc2d222603fb86041f2973a62564150f691ccedcb122920e6f15476d9cff94",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "framework-fan-digest",
+              "source_title": "Framework Laptop 12 fan procedure — factual test digest",
+              "source_type": "manual",
+              "source_until": null,
+              "text_sha256": "3abc2d222603fb86041f2973a62564150f691ccedcb122920e6f15476d9cff94",
+              "title": "Framework Laptop 12 fan procedure — factual test digest"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+              "relations": []
+            },
+            "source_attribution": {
+              "canonical_uri": "urn:packrag:m4:test-digest:framework-laptop12-fan",
+              "retrieved_at": "2026-10-12",
+              "license": "LicenseRef-PackRAG-Factual-Test-Digest",
+              "redistribution_allowed": true,
+              "source_type": "manual",
+              "snapshot_path": null,
+              "notes": "{\"kind\": \"AGENT_AUTHORED_FACTUAL_TEST_DIGEST_NOT_ORIGINAL_MANUAL\", \"upstream_url\": \"https://guides.frame.work/Guide/Fan/677?lang=en\", \"upstream_html_sha256\": \"ccefc26380b55324c411d910e735905ba450545ac6d0c3c2632d87c70c3cecd4\", \"original_redistribution_attested\": false, \"scope\": \"Digest wording is original test material; upstream facts referenced. Not a complete manufacturer guide or release licensing/review claim.\"}"
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 2,
+            "dense_rank": 2,
+            "cosine": 0.793038010597229,
+            "rrf": 0.03225806451612903,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+          "relations": []
+        },
+        "source_attribution": {
+          "canonical_uri": "urn:packrag:m4:test-digest:framework-laptop12-fan",
+          "retrieved_at": "2026-10-12",
+          "license": "LicenseRef-PackRAG-Factual-Test-Digest",
+          "redistribution_allowed": true,
+          "source_type": "manual",
+          "snapshot_path": null,
+          "notes": "{\"kind\": \"AGENT_AUTHORED_FACTUAL_TEST_DIGEST_NOT_ORIGINAL_MANUAL\", \"upstream_url\": \"https://guides.frame.work/Guide/Fan/677?lang=en\", \"upstream_html_sha256\": \"ccefc26380b55324c411d910e735905ba450545ac6d0c3c2632d87c70c3cecd4\", \"original_redistribution_attested\": false, \"scope\": \"Digest wording is original test material; upstream facts referenced. Not a complete manufacturer guide or release licensing/review claim.\"}"
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  },
+  "missing_lexical_concepts": [
+    "debris",
+    "valve",
+    "bead",
+    "slow"
+  ],
+  "possible_unsupported_phrases": [],
+  "scope": "GUIDES_RC1_NOT_PRODUCT_PROMOTION_MANUAL_ENTAILMENT_AND_ORDER_REVIEW_REQUIRED"
+}

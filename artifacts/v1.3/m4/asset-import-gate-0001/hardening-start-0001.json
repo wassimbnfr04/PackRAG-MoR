@@ -1,0 +1,18 @@
+{
+  "status": "F2_HARDENING_TESTS_STARTING_NOT_ACCEPTED",
+  "recorded_utc": "2026-10-11T16:58:57.927927+00:00",
+  "walking_iteration_sha256": "f9dfab93f9f268797f3eabec51629948e612cd84410f0a902b9a6c0aacf9a6b9",
+  "predevice_cleanup_review": "Static review of0061, no device corruption or completed physical failure claimed. RootSafe gate and fresh ancestor/namespace no-follow validation added to finally before child inspection; regression preserves existing known stage through a rejected symlink alias.",
+  "source_delta_0061_to_0062": {
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportFaultDeviceTest.kt": {
+      "before": "fbbe96857f54ee4b1cbf015fe77c97e9a980e8a40738c90d854c1b272f12f3d8",
+      "after": "27cd24c3a64b9b745750606407b9c6f54472a1d97de6163a3e928464b2835405"
+    },
+    "product/android/app/src/main/java/org/packrag/product/LocalAssetImporter.kt": {
+      "before": "5a82ae7d35fef453f44647d763240b8a0dd39b19c502a1194d6e73da1211c3dd",
+      "after": "8e3743936be2efbb402654417b8445792a8d32e6df265982b77357469e015906"
+    }
+  },
+  "host_capture_sha256": "9997a6496d245caacc040957c4b9b5c0f88fd6b5d10d50a4c3d26da0abd52416",
+  "note": "Current M4F2 hardening at 2026-10-11T16:58:57.927927+00:00: API walking0002 on0060 PASS seven actual controls/354.105 whole-instrumentation seconds. Actual separate-UID provider opens1/closes1/errors0,5443 bytes/pin/directory sync, foreign warm reader rejection before input, caller native close and real cold answers before/after both74\u00b0C[S1],153 emitted tokens,15.150470508/14.037141054s initialization (functional observations, not M8 benchmark). Original JSON bytes saved and known50 owner hashes match; F1 outputs406/history587/Python188 remain unchanged. Hardening adds validated owned startup reconciliation, bounded/no-follow marker read, new-parent directory sync, explicit staging-cleanup confirmation/failure pending flag, independent idempotent per-operation close/cancellation workers and sanitized final source cleanup. New real-URI grant/revoke/empty/short/oversized/corrupt/wrong-slot/metadata-lie/cooperative-pipe/opening cancellation and Android symlink/recovery/fault tests are prepared, not yet passed. Build0061 host73 passes but review finds finally could inspect through a rejected symlinked root; it is not executed on the phone and not promoted to transport/security acceptance. Exact source/APKs are preserved. Corrected0062 revalidates root/ancestors/owned namespace before any cleanup inspection and tests an existing valid stage behind the rejected root alias; only importer and one test source change vs0061. Build0062 passes73 host methods (62 retained +11 importer contracts),589 inputs/APK/public trust/native/no-INTERNET contracts. Actual three-method/28-control fault suite then fresh seven-control native walking0003 start serially; stop sequence on any failure and save originals before subsequent work. This is not F2 completion. All-four-artifact import, actual process-death, ViewModel/system-picker/progress/cancel UI, matched approved-only/adjacent/F1 regressions, restoration/custody/closure/exact checkpoint remain before F3. F3/F4/later software/release/delivery remain; owner supplies final packs, mobile data stays on and PackRAG remains closed during background checks."
+}

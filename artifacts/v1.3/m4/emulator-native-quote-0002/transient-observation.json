@@ -1,0 +1,26 @@
+{
+  "scope": "Transient actual emulator observations, not controlled peak, phone throughput or bottleneck conclusion",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "org.packrag.product"
+      ],
+      "returncode": 0
+    },
+    {
+      "args": [
+        "shell",
+        "top",
+        "-b",
+        "-n",
+        "1",
+        "-m",
+        "8"
+      ],
+      "returncode": 0
+    }
+  ]
+}

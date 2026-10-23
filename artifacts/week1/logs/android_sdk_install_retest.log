@@ -1,0 +1,21 @@
+WARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Android CLI will be used instead.
+The 'android' binary can also be found in the cmdline-tools directory, and 'android sdk' is the replacement for 'sdkmanager'.
+To learn more about the Android CLI and how to use it, see the documentation (https://d.android.com/tools/agents/android-cli)
+
+Warning: The --licenses option is no longer needed.
+Downloading platforms;android-37.0 platform-37.0_r02.zip
+Installed platforms;android-37.0 checksum ed8ebf7f8822a4de5686d427f237d2fa30ff7410
+Downloading build-tools;37.0.0 build-tools_r37_windows.zip
+Installed build-tools;37.0.0 checksum e9c97e26b5b5678002e9d3fed632c841ae62d99f
+Downloading ndk;30.0.16248370 android-ndk-r30-windows.zip
+Installed ndk;30.0.16248370 checksum 9bf167a1985fa7d4a036186b78f702eab9179408
+Downloading cmake;3.31.1 cmake-3.31.1-windows.zip
+Installed cmake;3.31.1 checksum 3a8f1f1b33e0ed2a639b6e709ab15806648979c9
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\install_android_sdk.py", line 52, in <module>
+    assert digest==checksum.text,'SDK archive checksum mismatch'
+                    ^^^^^^
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\install_android_sdk.py", line 49, in main
+    urllib.request.urlretrieve('https://dl.google.com/android/repository/'+url,local)
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SDK installation incomplete

@@ -1,0 +1,13 @@
+{
+  "status": "HARNESS_ASSERTION_FAILURE_NO_COMMIT",
+  "reason": "Whitelist includes five already committed byte-identical dependencies. git add correctly does not stage unchanged files; equality against all whitelist paths was too strict.",
+  "unchanged_dependencies": [
+    "product/android/app/src/androidTest/assets/unicode15/NormalizationTest.txt",
+    "product/licenses/Unicode15-NOTICE.md",
+    "docs/architecture-compliance-matrix.md",
+    "product/licenses/Unicode15-LICENSE.txt",
+    "product/tests/unicode15/NormalizationTest.txt"
+  ],
+  "correction": "Check every whitelisted byte against both working tree and staged/index object; require staged paths are exactly whitelist paths whose index differs from HEAD, with no unrelated entries.",
+  "product_validation_affected": false
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS_SINGLE_TEST_REPAIR_PRODUCT_APK_IDENTICAL_NOT_UI_ACCEPTANCE",
+  "changed": [
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportUiDeviceTest.kt"
+  ],
+  "unchanged_inputs": 597,
+  "product_apk_sha256": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124"
+}

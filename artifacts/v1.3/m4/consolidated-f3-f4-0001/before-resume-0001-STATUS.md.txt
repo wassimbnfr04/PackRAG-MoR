@@ -1,0 +1,22 @@
+# PackRAG-MoR v1.3 status
+
+Current state: USER REQUESTED PAUSE. No new development, build, test, install or phone action until the owner resumes. All known running host tests/builds finished normally; none was killed. No phone test was running in the consolidated development cycle.
+
+Pipeline: M0–M3, M4A–E and M4F1/F2 are verified. Remaining M4F3/F4 code has been integrated and locally validated, but physical acceptance and the final M4 checkpoint are incomplete. M4 is NOT complete.
+
+Latest local evidence: debug build0087 passed with 623 frozen Android/build-audit inputs and 91 host XML methods, zero failures/errors/skips. Exact source/APK/native/trust/no-INTERNET contracts were captured in artifacts/v1.3/m4/consolidated-f3-f4-0001/build-0087-capture.json. XML task reuse is disclosed in the original Gradle log. A fresh Python run over tests plus product/tests passed 1,035 tests, zero failures/errors/skips, in python-full-0002; source hashes are recorded before and after. Earlier python-full-0001 covered only product/tests (986), and is not labeled the complete regression suite. The sandbox-only temporary-directory ACL failure is retained; normal Windows-user retries passed without weakening tests or traversing private temporary directories.
+
+Implemented this cycle: observed import stages with real copy/payload byte counts and truthful commit/recovery states; safe typed error messages with internal causes retained; accessibility headings/status announcements, minimum 48dp buttons, insets and a bounded isolated 320dp/2x layout test scope; observed encoder size/hash rendering; prepared real picker, import-stage/recovery/ViewModel and accessibility device tests; pre-assertion asset-grant callback capture; public-evidence traversal pruning before private/build directories. New physical tests are compiled, not executed. Checkpoint fault injections are not actual power-loss tests. Isolated layout does not change the phone's global settings.
+
+Last verified installed phone pair remains debug0081, restored after demo0082 with owner/source guards. This cycle did not install build0087 or run any phone test. Mobile data stays on. Earlier F3a and F2 device evidence remains separately dated and immutable; it cannot substitute for final changed-product acceptance. The original asset-grant failure's cause/permanent repair remains unproved, and old visual failures/scope limits remain recorded in the historical handoff and working full documentation.
+
+Resume dependency order:
+1. Complete a matching final-source demo/policy build; build0088 has not started.
+2. Prepare the consolidated device controller and fixed acceptance matrix. Repair the legacy ProductUiE2eTest default-owner-root setup to use isolated owned storage before it can run; retain real GUI/native/citation/source assertions.
+3. Run final-source background security, import, policy, retrieval/tokenizer/embedding/selection/parity, native generation/cancellation/lifecycle and asset-restart regressions on the actual phone; preserve raw failures, enforce exact source/APK/report and owner/source guards.
+4. Obtain a fresh unlocked/untouched foreground window, execute pending pack/navigation/picker/large-font/accessibility UI coverage and review original screenshots. Prior deferred/expired windows are not permission for a new UI launch.
+5. Run a new versioned desktop real walking smoke, complete fresh custody/traceability and F3/F4/M4 closure/checkpoint. Do not rerun audit tools that overwrite historical M0 evidence.
+
+After verified M4: M5/M6 builder/provenance/licensing/language/calibration software interfaces using synthetic/sample test content; M7 PackBench tools; M8 signed nondebug release, controlled physical performance/resource/thermal measurements, reproduction/full documentation and three public ZIPs each at most 500,000,000 bytes excluding weights, exports and private signing custody. Final knowledge-pack content, permissions, human review and real gold evaluation remain owner-supplied.
+
+Durable pause handoff: artifacts/v1.3/m4/consolidated-f3-f4-0001/pause-handoff-0001.json. Detailed chronology: docs/v1.3/FULL_DOCUMENTATION_WORKING.md and M4_IMPLEMENTATION_LOG.md. Preserve historical outputs, unrelated repository changes, owner data and private custody. No acceptance commit was created for the unfinished F3/F4 work.

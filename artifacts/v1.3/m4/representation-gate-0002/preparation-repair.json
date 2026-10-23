@@ -1,0 +1,14 @@
+{
+  "status": "UNEXECUTED_HELPER_REPAIRED_NOT_PRODUCT_FAILURE_OR_ACCEPTANCE",
+  "before_sha256": {
+    "prepare_closure.py": "12e266ef5edb15fdc905592f1c4d08b1af3abd879fac5a0eacb4b866064b51b4",
+    "verify_and_record.py": "f28f465840f989d55347e3cd540b77b22d236f3187592bc5dfa3bc0f34b4dc2a",
+    "closure-derivation.json": "273a65aa74c8081d7df86e973b43986a68a9b83b90e30651a61760fa9f62d0cd"
+  },
+  "after_sha256": {
+    "prepare_closure.py": "bcaddc2b56c68df2977c330155376d6758961febf1bcde5c5fdded2cea40132b",
+    "verify_and_record.py": "449b97e132be8164bce1a03a6d1d734a13bc8543481bcf2e77d6a8438e351289",
+    "prephone_audit.py": "177cade4e328fa1af3372b42f8135ab67f6c86f2f89e5ee342bae471fb192b3a"
+  },
+  "reason": "Code review found host-count replacement also changed unchanged query-contract28 to29; scope replacement to host summary. No acceptance helper was executed before repair."
+}

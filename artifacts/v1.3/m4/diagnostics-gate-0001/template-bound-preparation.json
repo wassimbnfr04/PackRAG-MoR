@@ -1,0 +1,43 @@
+{
+  "status": "READ_ONLY_PINNED_TEMPLATE_SIZE_PREPARATION_NOT_F_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T21:10:00.045008+00:00",
+  "expected_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+  "observed_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+  "observed_bytes": 5443,
+  "public_lock_sha256": "f0c567c52aa550ed2ca92c104bf1e89c838ab6879d50c3f041476a86a096117c",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%s",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "5443\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "sha256sum",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef  files/models/chat_template.jinja\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Existing public runtime model-template artifact only. No private signing custody read, no model/registry/radio/APK/source mutation. Matching SHA256 binds this observed size to the existing pinned artifact; stat alone does not verify the other assets or establish F acceptance."
+}

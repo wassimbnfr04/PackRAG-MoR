@@ -1,0 +1,11 @@
+{
+  "status": "PASS_PACKAGED_POLICY_NOT_FINAL_RELEASE",
+  "apk_sha256": "dfaa79306cdfb33e5dd86091b8ab6909f217af4fc1fca0624b518d38d1c0934e",
+  "native_jni_sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef",
+  "no_internet_permission": true,
+  "development_keys_absent": true,
+  "approved_store_matches": true,
+  "private_key_entries": 0,
+  "debuggable_instrumentation_demo": true,
+  "final_release": false
+}

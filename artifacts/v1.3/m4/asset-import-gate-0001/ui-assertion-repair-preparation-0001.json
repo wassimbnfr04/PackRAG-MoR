@@ -1,0 +1,38 @@
+{
+  "status": "PREPARED_SINGLE_TEST_SUBSTRING_REPAIR_NOT_RETRY_OR_F2_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T18:52:27.964012+00:00",
+  "execution_sha256": "6cc7ca5928506b0029a457114a991ce8bbcd59720abf901e4ad0bc716965a5fb",
+  "instrumentation_sha256": "b132227cbfe18aa9d1a9e16ec7fe81436ecb180fb69de6e6dc2c4f611cc618b8",
+  "changed_test_source": {
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportUiDeviceTest.kt": "9f0e77b92af3be20144f06a1428d65e34bda29a650d5b708d321ef658d9070e7"
+  },
+  "unchanged_inputs": 597,
+  "failure_captures": {
+    "m4-local-asset-import-ui.json": {
+      "sha256": "82d61eff26a0445f0d46e761643ebb1b2019eb920472d8cb94be7de870f1e8e3",
+      "bytes": 68,
+      "format": "NOT_JSON_COMMAND_OUTPUT_NO_RESULT_ACCEPTANCE",
+      "command_output_utf8": "cat: files/m4-local-asset-import-ui.json: No such file or directory\n"
+    },
+    "m4-local-asset-import-ui-progress.json": {
+      "sha256": "1d81f4c74513d585893a42e816bcde039e81a91d9b884880e923f839e4903a4b",
+      "bytes": 968,
+      "format": "JSON",
+      "status": "FAIL",
+      "test_id": "f2-import-ui-7c23a2b4-8ed6-4612-b2f2-45c969c74cdb",
+      "current_point": "CORRUPT_DOCUMENT"
+    },
+    "m4-local-asset-import-ui-progress.png": {
+      "sha256": "91a00f2c88f433faeac4ac26b5ea23881797476be7f9db9b66e42ffa1570fd5c",
+      "bytes": 76,
+      "format": "NOT_PNG_COMMAND_OUTPUT_NO_SCREENSHOT_ACCEPTANCE"
+    },
+    "m4-local-asset-import-ui-verified.png": {
+      "sha256": "9e8aa15d6dc6b0095b674201d4e30dcdb45afa0f7c8a404374f850bf592eb324",
+      "bytes": 76,
+      "format": "NOT_PNG_COMMAND_OUTPUT_NO_SCREENSHOT_ACCEPTANCE"
+    }
+  },
+  "retry_driver_sha256": "4f83f12e5eb4164c71f74997378150d55d27ee4f881b5b0c5ea80b4036283744",
+  "note": "First actual UI0001 terminal FAIL149.932s at corrupt-document displayed-message assertion. Frozen source and JUnit independently show correct LOCAL_ASSET_IMPORT_HASH_MISMATCH rejection and preserved file/completion assertions preceding failed exact-text comparison. Only two cases marked passed in actual progress; no later case/native/UI acceptance. Compose assertTextContains default did not accept substring; three intended fragment assertions now explicitly substring=true. Only one test source changed, all597 other inputs unchanged; product sources unchanged. Failed original captures include non-JSON/non-PNG cat error output for nonexistent files; those bytes remain preserved and never represent main results/screenshots. Current FAIL progress is valid JSON. Known50 after failure unchanged. Build0071 pending, exact product APK equality must be proven before retry. Fresh owner foreground authorization remains for the current announced window; extend only if needed. No F3 progression."
+}

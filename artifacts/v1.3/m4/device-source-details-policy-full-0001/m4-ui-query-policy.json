@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "production-no-pack-captures-controls-no-initialization",
+      "passed": true
+    },
+    {
+      "id": "production-invalid-date-clears-old-context",
+      "passed": true
+    },
+    {
+      "id": "production-viewmodel-rejects-developer-signer",
+      "passed": true
+    }
+  ],
+  "compiled_developer_mode": false,
+  "limits": "No-pack controls and developer-pack rejection under actual compiled policy; approved-signer real generation is the retained release-trust core gate.",
+  "network_mode": "MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET"
+}

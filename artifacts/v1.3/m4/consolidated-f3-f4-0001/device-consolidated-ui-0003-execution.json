@@ -1,0 +1,471 @@
+{
+  "status": "FAIL_HOLD_ALL_LATER_PHASES_NOT_ACCEPTANCE",
+  "started_utc": "2026-10-12T14:51:57.166524+00:00",
+  "phase": "debug-ui",
+  "build": "build-0093",
+  "variant": "debug",
+  "runner_sha256": "3ae472208679ee3c11a5319f1809346d3cf8b48a377c766418e995d7f0db0d87",
+  "matrix_sha256": "71a08317269ebd854be1732c921e39250bce9f62fd13d2887a6108f5351345ab",
+  "pair_sha256": "65da89e823b0823de59544be8a3a2ca61dd850b773efa1d1777304b7a006620a",
+  "installation_sha256": "711260dc451196da3d0e1d43bb9977f2f1d0d9be80e43398f094ce661ff02841",
+  "classes": [
+    "ProductAccessibilityUiTest",
+    "PackImportUiTest",
+    "PackOverviewUiTest",
+    "PackOverviewLongUiTest",
+    "PackManagementUiTest",
+    "QueryControlsUiTest",
+    "SourceDetailsUiTest",
+    "DiagnosticNavigationUiTest",
+    "LocalAssetsUiTest",
+    "ProductUiE2eTest",
+    "LocalAssetImportUiDeviceTest",
+    "LocalAssetImportVisualDeviceTest"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-ui-0003-before-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "before-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0093",
+        "--output",
+        "device-consolidated-ui-0003-before-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "before-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-consolidated-ui-0003-before-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "before-source4-modes"
+    },
+    {
+      "label": "ProductAccessibilityUiTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m4-f3-accessibility-form.json; test ! -L files/m4-f3-accessibility-assets.json; test ! -L files/m4-f3-large-font-abstention.png; test ! -L files/m4-f3-large-font-encoder-expected-hash.png; test ! -L files/m4-f3-large-font-encoder-observed-hash.png; test ! -L files/m4-f3-large-font-encoder-size.png; test ! -L files/m4-f3-large-font-form.png; rm -f files/m4-f3-accessibility-form.json files/m4-f3-accessibility-assets.json files/m4-f3-large-font-abstention.png files/m4-f3-large-font-encoder-expected-hash.png files/m4-f3-large-font-encoder-observed-hash.png files/m4-f3-large-font-encoder-size.png files/m4-f3-large-font-form.png'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m4-f3-accessibility-form.json": "fc185f702f4dc8175cc346d1f62f81b963692296025c362e91ae977d242c5ab9",
+        "m4-f3-accessibility-assets.json": "a9169000a06d800ab36b84fa623ac8e358781244e6823552a9fd67ae4010d057",
+        "m4-f3-large-font-abstention.png": "a2f03fbdfdc8881e0fd4f7e2da5dbe647807301f563ff756dfb09888c0f2653b",
+        "m4-f3-large-font-encoder-expected-hash.png": "a6cd8d590a3f946c0f17cd79e200b7ff54eaeeef26c785b271c896b591707b3d",
+        "m4-f3-large-font-encoder-observed-hash.png": "b50981ad85b1d0f1c653dcad285a207e137c668821c69ebe0264489b9db2df0d",
+        "m4-f3-large-font-encoder-size.png": "d1f34c2d8c96890f013221bf8adccf23b14d384a5832acd514eb3767cdbf0db5",
+        "m4-f3-large-font-form.png": "edc4e79ccd9e39a302554147894f6d51b14871c6c7f2b6ded9cd83389c276026"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0093",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-productaccessibilityuitest",
+        "--class-name",
+        "org.packrag.product.ProductAccessibilityUiTest",
+        "--result-file",
+        "m4-f3-accessibility-form.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "ProductAccessibilityUiTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-productaccessibilityuitest",
+        "--files",
+        "m4-f3-accessibility-form.json,m4-f3-accessibility-assets.json"
+      ],
+      "returncode": 0,
+      "label": "ProductAccessibilityUiTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-ui-0003-productaccessibilityuitest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "ProductAccessibilityUiTest-owner50"
+    },
+    {
+      "label": "PackImportUiTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m4-f3-kpack-picker-ui.json; test ! -L files/m4-f3-kpack-activation.png; test ! -L files/m4-f3-kpack-rejection.png; test ! -L files/m4-f3-kpack-stages.png; rm -f files/m4-f3-kpack-picker-ui.json files/m4-f3-kpack-activation.png files/m4-f3-kpack-rejection.png files/m4-f3-kpack-stages.png'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m4-f3-kpack-picker-ui.json": "5bc98e1135eb82c63c2b22d9619115b28be35868f16ab04c828a407b77d15704",
+        "m4-f3-kpack-activation.png": "4d349c2c4eec544bc3c8a1f0786341ac73ccc55b9ec1ef66ab8ca27fccc37411",
+        "m4-f3-kpack-rejection.png": "bffd6406d8276d4a5bfe8fb7793c29b7573adbd867119a1f6b9b8472aad42d34",
+        "m4-f3-kpack-stages.png": "3a66393f98db414b5d7bec26014b5e78897a5ee4386eaca1ed50439eed551a93"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0093",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packimportuitest",
+        "--class-name",
+        "org.packrag.product.PackImportUiTest",
+        "--result-file",
+        "m4-f3-kpack-picker-ui.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "PackImportUiTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packimportuitest",
+        "--files",
+        "m4-f3-kpack-picker-ui.json"
+      ],
+      "returncode": 0,
+      "label": "PackImportUiTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-ui-0003-packimportuitest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "PackImportUiTest-owner50"
+    },
+    {
+      "label": "PackOverviewUiTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m4-pack-overview-ui.json; test ! -L files/m4-pack-overview-active.png; test ! -L files/m4-pack-overview-installed.png; rm -f files/m4-pack-overview-ui.json files/m4-pack-overview-active.png files/m4-pack-overview-installed.png'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m4-pack-overview-ui.json": "560a58ba799ad6034c76845c1da702bb98d56cf966228d6f9ebecfc5a3776d53",
+        "m4-pack-overview-active.png": "9ea7983d604bbeca0ce249e11ad9c29a69ae0ca09e93ce07dd8b81fc0cbee575",
+        "m4-pack-overview-installed.png": "3a9018f50bf2af39848dc54864518dcd9fbb33d8074331ba4d86430ee394570f"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0093",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packoverviewuitest",
+        "--class-name",
+        "org.packrag.product.PackOverviewUiTest",
+        "--result-file",
+        "m4-pack-overview-ui.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "PackOverviewUiTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packoverviewuitest",
+        "--files",
+        "m4-pack-overview-ui.json"
+      ],
+      "returncode": 0,
+      "label": "PackOverviewUiTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-ui-0003-packoverviewuitest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "PackOverviewUiTest-owner50"
+    },
+    {
+      "label": "PackOverviewLongUiTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m4-pack-overview-long-row-ui.json; test ! -L files/m4-pack-overview-long-chip-ui.json; test ! -L files/m4-pack-overview-long-chip.png; test ! -L files/m4-pack-overview-long-fields.png; test ! -L files/m4-pack-overview-long-name.png; test ! -L files/m4-pack-overview-long-publisher.png; rm -f files/m4-pack-overview-long-row-ui.json files/m4-pack-overview-long-chip-ui.json files/m4-pack-overview-long-chip.png files/m4-pack-overview-long-fields.png files/m4-pack-overview-long-name.png files/m4-pack-overview-long-publisher.png'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m4-pack-overview-long-row-ui.json": "fb71a82cb24a26b95305a035b4a63397efe5a20420270e8d87d07a17364b4519",
+        "m4-pack-overview-long-chip-ui.json": "a6fefbafa58044ec24ba8da546f96a1bcd844cad0ed1f90d00a65d35c51b0a51",
+        "m4-pack-overview-long-chip.png": "95b276c9955257b95c2e53862f9260d33c1c27f4b239189d76db3586c0602b90",
+        "m4-pack-overview-long-fields.png": "a4fe6fc91a7950f7f4e78d3a37825aadc5e8cf08e5689ce3c8fdbabd744ffa85",
+        "m4-pack-overview-long-name.png": "72763b37b7d54f876bd2e2317b4112759f141c3d7c374e76bad84063b07af8c9",
+        "m4-pack-overview-long-publisher.png": "ef8965083a54b2b8a5d6df102046f3369ddefc50060331e3f8044d94614473fb"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0093",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packoverviewlonguitest",
+        "--class-name",
+        "org.packrag.product.PackOverviewLongUiTest",
+        "--result-file",
+        "m4-pack-overview-long-row-ui.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "PackOverviewLongUiTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packoverviewlonguitest",
+        "--files",
+        "m4-pack-overview-long-row-ui.json,m4-pack-overview-long-chip-ui.json"
+      ],
+      "returncode": 0,
+      "label": "PackOverviewLongUiTest-collect"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-ui-0003-packoverviewlonguitest-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "PackOverviewLongUiTest-owner50"
+    },
+    {
+      "label": "PackManagementUiTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m3-pack-management-ui.json; rm -f files/m3-pack-management-ui.json'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m3-pack-management-ui.json": "12e774c60f68a6639dd0157068b11578edcb3969e6674f944243c5589b515987"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0093",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packmanagementuitest",
+        "--class-name",
+        "org.packrag.product.PackManagementUiTest",
+        "--result-file",
+        "m3-pack-management-ui.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0,
+      "label": "PackManagementUiTest-instrumentation"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packmanagementuitest",
+        "--files",
+        "m3-pack-management-ui.json"
+      ],
+      "returncode": 0,
+      "label": "PackManagementUiTest-collect"
+    }
+  ],
+  "completed": [
+    {
+      "class": "ProductAccessibilityUiTest",
+      "methods": 2,
+      "run": "device-consolidated-ui-0003-productaccessibilityuitest",
+      "original_sha256": {
+        "m4-f3-accessibility-form.json": "9c4eacd13a9755b2afc7adb1a3815fea5ce624b2ec76edc743766b759d9d12ea",
+        "m4-f3-accessibility-assets.json": "aa1ccf3aef1c89f7d9ef15286a1e280eace4d9bd7bb9da9a952f39c9b7d72a42"
+      },
+      "sidecar_png_sha256": {
+        "m4-f3-large-font-abstention.png": "cb9b992dfd2854ffaf94384e1dc5204a69d786e384633f792b8e1af2b6424c5c",
+        "m4-f3-large-font-encoder-expected-hash.png": "40339420a769da8dd1420cba05d4783ccf42ac167e23649293e6b2a2c8ecdf13",
+        "m4-f3-large-font-encoder-observed-hash.png": "e6defddc0a5bb42e84c64d7d23914a7059a524c50a32d86f51feb42bfe56082f",
+        "m4-f3-large-font-encoder-size.png": "4889253336cefc3655832f352ce164068f81e1c2c8fb0878fd7efc1f4ae61369",
+        "m4-f3-large-font-form.png": "45515d71877473a4c5b7f8bd9bdac00587cb344d30671ae93a535c2f735d09c4"
+      },
+      "manifest_sha256": "ce4bd2b145e1a6eb9535daf13189811b546a3a1bb3e4fc0237c64f4b15454b84"
+    },
+    {
+      "class": "PackImportUiTest",
+      "methods": 1,
+      "run": "device-consolidated-ui-0003-packimportuitest",
+      "original_sha256": {
+        "m4-f3-kpack-picker-ui.json": "347c0afc77f01d1b9aed742013d7ab150b4d3d0472fb95dffbcf488ae89cf7e3"
+      },
+      "sidecar_png_sha256": {
+        "m4-f3-kpack-activation.png": "f6cc0b68790018bd68ed1ddebab469015ed1db4ead7d975341ff12806df69b4b",
+        "m4-f3-kpack-rejection.png": "7a335db38c97a035055857870e5b846f5913ab443de215279d864f3ca3e7f098",
+        "m4-f3-kpack-stages.png": "f6cc0b68790018bd68ed1ddebab469015ed1db4ead7d975341ff12806df69b4b"
+      },
+      "manifest_sha256": "d84f615d12d643ff3d2aa70b016d158fdfa2a6ce31ec674906c08c6f4c52ac2f"
+    },
+    {
+      "class": "PackOverviewUiTest",
+      "methods": 1,
+      "run": "device-consolidated-ui-0003-packoverviewuitest",
+      "original_sha256": {
+        "m4-pack-overview-ui.json": "ef2b2125ffb2367637594770eb056a60e5ada13526b9618558314af1e566edba"
+      },
+      "sidecar_png_sha256": {
+        "m4-pack-overview-active.png": "e6c9b56db7a5c7c1539c3e79958a66758581a41bd917597bc9c0ad6824c0a9e6",
+        "m4-pack-overview-installed.png": "70842cb5fa828ebb1f4a12b93fe36c195eaf797ca94100e269e52ef795e9e07d"
+      },
+      "manifest_sha256": "0a29f52fca5e146aed36d918669ee9534ca8f07bc535888e519067a6ff9edb4e"
+    },
+    {
+      "class": "PackOverviewLongUiTest",
+      "methods": 2,
+      "run": "device-consolidated-ui-0003-packoverviewlonguitest",
+      "original_sha256": {
+        "m4-pack-overview-long-row-ui.json": "10bd1ee66d49dae0723e7cc44b5c7e2c3647e5eee017825eadc4f9b195f93f1d",
+        "m4-pack-overview-long-chip-ui.json": "2380858738a89735aeef7156f155089bc45d8e71de50fcf39378a12c208647ea"
+      },
+      "sidecar_png_sha256": {
+        "m4-pack-overview-long-chip.png": "a4abcede4ebe79369d7ec13ee28ed633a38d24f3aeb85703b8370e4f37186f47",
+        "m4-pack-overview-long-fields.png": "319df65727df5ed7afc00686e1e543c03f49053724d5946214d9ffda1c0d4f6c",
+        "m4-pack-overview-long-name.png": "986249f22edf4c02b74f42cf4e4a508885237b50ef843e1567f416797f2cf0a5",
+        "m4-pack-overview-long-publisher.png": "986249f22edf4c02b74f42cf4e4a508885237b50ef843e1567f416797f2cf0a5"
+      },
+      "manifest_sha256": "d05b37ea5e32255f9df68de18612947ec34a1d9b3ac040ad87e13b5b56fc092c"
+    }
+  ],
+  "foreground_window_sha256": "efb5518f2a5c2f22a8de4808bb69dfa7f540b2cad3934d42adec11956526dad8",
+  "active_class": "PackManagementUiTest",
+  "active_expected_methods": 1,
+  "failure_type": "AssertionError",
+  "failure_message": "('m3-pack-management-ui.json', 'cases', 'ID sequence')",
+  "failure_observations": {
+    "m3-pack-management-ui.json": {
+      "sha256": "12e774c60f68a6639dd0157068b11578edcb3969e6674f944243c5589b515987",
+      "returncode": 0,
+      "bytes": 7849,
+      "scope": "Failure-time observation, not accepted current test result"
+    }
+  },
+  "updated_utc": "2026-10-12T14:55:24.214181+00:00"
+}

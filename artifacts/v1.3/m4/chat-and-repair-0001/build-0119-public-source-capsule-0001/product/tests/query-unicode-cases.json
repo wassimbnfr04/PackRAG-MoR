@@ -1,0 +1,7271 @@
+{
+  "unicode_version": "15.0.0",
+  "table_sha256": "3fa30da03423d95c0d9943c401d61a105969a55ec62a2c8432e2659a5f31e557",
+  "cases": [
+    {
+      "id": "U0000",
+      "raw": "\uff21\uff22\uff23 \uff11\uff12\uff13",
+      "normalized": "abc 123"
+    },
+    {
+      "id": "U0001",
+      "raw": "\ud838\udc30",
+      "normalized": "\u0430"
+    },
+    {
+      "id": "U0002",
+      "raw": "\u039f\u03a3",
+      "normalized": "\u03bf\u03c2"
+    },
+    {
+      "id": "U0003",
+      "raw": "\u039f\u03a3\u0391",
+      "normalized": "\u03bf\u03c3\u03b1"
+    },
+    {
+      "id": "U0004",
+      "raw": "A\u03a3\u0301",
+      "normalized": "a\u03c2\u0301"
+    },
+    {
+      "id": "U0005",
+      "raw": "A\u03a3\u0301B",
+      "normalized": "a\u03c3\u0301b"
+    },
+    {
+      "id": "U0006",
+      "raw": "\u03a3",
+      "normalized": "\u03c3"
+    },
+    {
+      "id": "U0007",
+      "raw": "\u0130 I \u0131",
+      "normalized": "i\u0307 i \u0131"
+    },
+    {
+      "id": "U0008",
+      "raw": "\ud801\udc00",
+      "normalized": "\ud801\udc28"
+    },
+    {
+      "id": "U0009",
+      "raw": "\u0633\u064e\u0640\u0644\u064e\u0627\u0645",
+      "normalized": "\u0633\u0644\u0627\u0645"
+    },
+    {
+      "id": "U0010",
+      "raw": "A\u0000B",
+      "normalized": "a\u0000b"
+    },
+    {
+      "id": "U0011",
+      "raw": "a\u0315\u0300",
+      "normalized": "\u00e0\u0315"
+    },
+    {
+      "id": "U0012",
+      "raw": "\ufb03",
+      "normalized": "ffi"
+    },
+    {
+      "id": "U0013",
+      "raw": "\u1100\u1161\u11a8",
+      "normalized": "\uac01"
+    },
+    {
+      "id": "U0014",
+      "raw": "\u0344",
+      "normalized": "\u0308\u0301"
+    },
+    {
+      "id": "U0015",
+      "raw": "\u09c7\u09be",
+      "normalized": "\u09cb"
+    },
+    {
+      "id": "U0016",
+      "raw": "  a\u001cb\u0085c\u202fd  ",
+      "normalized": "a b c d"
+    },
+    {
+      "id": "U0017",
+      "raw": "\u0301\u0327A",
+      "normalized": "\u0327\u0301a"
+    },
+    {
+      "id": "U0018",
+      "raw": "A\u03a3\u0345",
+      "normalized": "a\u03c2\u0345"
+    },
+    {
+      "id": "U0019",
+      "raw": "A\u0345\u03a3B",
+      "normalized": "a\u0345\u03c3b"
+    },
+    {
+      "id": "U0020",
+      "raw": "A",
+      "normalized": "a"
+    },
+    {
+      "id": "U0021",
+      "raw": "B",
+      "normalized": "b"
+    },
+    {
+      "id": "U0022",
+      "raw": "C",
+      "normalized": "c"
+    },
+    {
+      "id": "U0023",
+      "raw": "D",
+      "normalized": "d"
+    },
+    {
+      "id": "U0024",
+      "raw": "E",
+      "normalized": "e"
+    },
+    {
+      "id": "U0025",
+      "raw": "F",
+      "normalized": "f"
+    },
+    {
+      "id": "U0026",
+      "raw": "G",
+      "normalized": "g"
+    },
+    {
+      "id": "U0027",
+      "raw": "H",
+      "normalized": "h"
+    },
+    {
+      "id": "U0028",
+      "raw": "I",
+      "normalized": "i"
+    },
+    {
+      "id": "U0029",
+      "raw": "J",
+      "normalized": "j"
+    },
+    {
+      "id": "U0030",
+      "raw": "K",
+      "normalized": "k"
+    },
+    {
+      "id": "U0031",
+      "raw": "L",
+      "normalized": "l"
+    },
+    {
+      "id": "U0032",
+      "raw": "M",
+      "normalized": "m"
+    },
+    {
+      "id": "U0033",
+      "raw": "N",
+      "normalized": "n"
+    },
+    {
+      "id": "U0034",
+      "raw": "O",
+      "normalized": "o"
+    },
+    {
+      "id": "U0035",
+      "raw": "P",
+      "normalized": "p"
+    },
+    {
+      "id": "U0036",
+      "raw": "Q",
+      "normalized": "q"
+    },
+    {
+      "id": "U0037",
+      "raw": "R",
+      "normalized": "r"
+    },
+    {
+      "id": "U0038",
+      "raw": "S",
+      "normalized": "s"
+    },
+    {
+      "id": "U0039",
+      "raw": "T",
+      "normalized": "t"
+    },
+    {
+      "id": "U0040",
+      "raw": "U",
+      "normalized": "u"
+    },
+    {
+      "id": "U0041",
+      "raw": "V",
+      "normalized": "v"
+    },
+    {
+      "id": "U0042",
+      "raw": "W",
+      "normalized": "w"
+    },
+    {
+      "id": "U0043",
+      "raw": "X",
+      "normalized": "x"
+    },
+    {
+      "id": "U0044",
+      "raw": "Y",
+      "normalized": "y"
+    },
+    {
+      "id": "U0045",
+      "raw": "Z",
+      "normalized": "z"
+    },
+    {
+      "id": "U0046",
+      "raw": "\u00c0",
+      "normalized": "\u00e0"
+    },
+    {
+      "id": "U0047",
+      "raw": "\u00c1",
+      "normalized": "\u00e1"
+    },
+    {
+      "id": "U0048",
+      "raw": "\u00c2",
+      "normalized": "\u00e2"
+    },
+    {
+      "id": "U0049",
+      "raw": "\u00c3",
+      "normalized": "\u00e3"
+    },
+    {
+      "id": "U0050",
+      "raw": "\u00c4",
+      "normalized": "\u00e4"
+    },
+    {
+      "id": "U0051",
+      "raw": "\u00c5",
+      "normalized": "\u00e5"
+    },
+    {
+      "id": "U0052",
+      "raw": "\u00c6",
+      "normalized": "\u00e6"
+    },
+    {
+      "id": "U0053",
+      "raw": "\u00c7",
+      "normalized": "\u00e7"
+    },
+    {
+      "id": "U0054",
+      "raw": "\u00c8",
+      "normalized": "\u00e8"
+    },
+    {
+      "id": "U0055",
+      "raw": "\u00c9",
+      "normalized": "\u00e9"
+    },
+    {
+      "id": "U0056",
+      "raw": "\u00ca",
+      "normalized": "\u00ea"
+    },
+    {
+      "id": "U0057",
+      "raw": "\u00cb",
+      "normalized": "\u00eb"
+    },
+    {
+      "id": "U0058",
+      "raw": "\u00cc",
+      "normalized": "\u00ec"
+    },
+    {
+      "id": "U0059",
+      "raw": "\u00cd",
+      "normalized": "\u00ed"
+    },
+    {
+      "id": "U0060",
+      "raw": "\u00ce",
+      "normalized": "\u00ee"
+    },
+    {
+      "id": "U0061",
+      "raw": "\u00cf",
+      "normalized": "\u00ef"
+    },
+    {
+      "id": "U0062",
+      "raw": "\u00d0",
+      "normalized": "\u00f0"
+    },
+    {
+      "id": "U0063",
+      "raw": "\u00d1",
+      "normalized": "\u00f1"
+    },
+    {
+      "id": "U0064",
+      "raw": "\u00d2",
+      "normalized": "\u00f2"
+    },
+    {
+      "id": "U0065",
+      "raw": "\u00d3",
+      "normalized": "\u00f3"
+    },
+    {
+      "id": "U0066",
+      "raw": "\u00d4",
+      "normalized": "\u00f4"
+    },
+    {
+      "id": "U0067",
+      "raw": "\u00d5",
+      "normalized": "\u00f5"
+    },
+    {
+      "id": "U0068",
+      "raw": "\u00d6",
+      "normalized": "\u00f6"
+    },
+    {
+      "id": "U0069",
+      "raw": "\u00d8",
+      "normalized": "\u00f8"
+    },
+    {
+      "id": "U0070",
+      "raw": "\u00d9",
+      "normalized": "\u00f9"
+    },
+    {
+      "id": "U0071",
+      "raw": "\u00da",
+      "normalized": "\u00fa"
+    },
+    {
+      "id": "U0072",
+      "raw": "\u00db",
+      "normalized": "\u00fb"
+    },
+    {
+      "id": "U0073",
+      "raw": "\u00dc",
+      "normalized": "\u00fc"
+    },
+    {
+      "id": "U0074",
+      "raw": "\u00dd",
+      "normalized": "\u00fd"
+    },
+    {
+      "id": "U0075",
+      "raw": "\u00de",
+      "normalized": "\u00fe"
+    },
+    {
+      "id": "U0076",
+      "raw": "\u0100",
+      "normalized": "\u0101"
+    },
+    {
+      "id": "U0077",
+      "raw": "\u0102",
+      "normalized": "\u0103"
+    },
+    {
+      "id": "U0078",
+      "raw": "\u0104",
+      "normalized": "\u0105"
+    },
+    {
+      "id": "U0079",
+      "raw": "\u0106",
+      "normalized": "\u0107"
+    },
+    {
+      "id": "U0080",
+      "raw": "\u0108",
+      "normalized": "\u0109"
+    },
+    {
+      "id": "U0081",
+      "raw": "\u010a",
+      "normalized": "\u010b"
+    },
+    {
+      "id": "U0082",
+      "raw": "\u010c",
+      "normalized": "\u010d"
+    },
+    {
+      "id": "U0083",
+      "raw": "\u010e",
+      "normalized": "\u010f"
+    },
+    {
+      "id": "U0084",
+      "raw": "\u0110",
+      "normalized": "\u0111"
+    },
+    {
+      "id": "U0085",
+      "raw": "\u0112",
+      "normalized": "\u0113"
+    },
+    {
+      "id": "U0086",
+      "raw": "\u0114",
+      "normalized": "\u0115"
+    },
+    {
+      "id": "U0087",
+      "raw": "\u0116",
+      "normalized": "\u0117"
+    },
+    {
+      "id": "U0088",
+      "raw": "\u0118",
+      "normalized": "\u0119"
+    },
+    {
+      "id": "U0089",
+      "raw": "\u011a",
+      "normalized": "\u011b"
+    },
+    {
+      "id": "U0090",
+      "raw": "\u011c",
+      "normalized": "\u011d"
+    },
+    {
+      "id": "U0091",
+      "raw": "\u011e",
+      "normalized": "\u011f"
+    },
+    {
+      "id": "U0092",
+      "raw": "\u0120",
+      "normalized": "\u0121"
+    },
+    {
+      "id": "U0093",
+      "raw": "\u0122",
+      "normalized": "\u0123"
+    },
+    {
+      "id": "U0094",
+      "raw": "\u0124",
+      "normalized": "\u0125"
+    },
+    {
+      "id": "U0095",
+      "raw": "\u0126",
+      "normalized": "\u0127"
+    },
+    {
+      "id": "U0096",
+      "raw": "\u0128",
+      "normalized": "\u0129"
+    },
+    {
+      "id": "U0097",
+      "raw": "\u012a",
+      "normalized": "\u012b"
+    },
+    {
+      "id": "U0098",
+      "raw": "\u012c",
+      "normalized": "\u012d"
+    },
+    {
+      "id": "U0099",
+      "raw": "\u012e",
+      "normalized": "\u012f"
+    },
+    {
+      "id": "U0100",
+      "raw": "\u0130",
+      "normalized": "i\u0307"
+    },
+    {
+      "id": "U0101",
+      "raw": "\u0132",
+      "normalized": "ij"
+    },
+    {
+      "id": "U0102",
+      "raw": "\u0134",
+      "normalized": "\u0135"
+    },
+    {
+      "id": "U0103",
+      "raw": "\u0136",
+      "normalized": "\u0137"
+    },
+    {
+      "id": "U0104",
+      "raw": "\u0139",
+      "normalized": "\u013a"
+    },
+    {
+      "id": "U0105",
+      "raw": "\u013b",
+      "normalized": "\u013c"
+    },
+    {
+      "id": "U0106",
+      "raw": "\u013d",
+      "normalized": "\u013e"
+    },
+    {
+      "id": "U0107",
+      "raw": "\u013f",
+      "normalized": "l\u00b7"
+    },
+    {
+      "id": "U0108",
+      "raw": "\u0141",
+      "normalized": "\u0142"
+    },
+    {
+      "id": "U0109",
+      "raw": "\u0143",
+      "normalized": "\u0144"
+    },
+    {
+      "id": "U0110",
+      "raw": "\u0145",
+      "normalized": "\u0146"
+    },
+    {
+      "id": "U0111",
+      "raw": "\u0147",
+      "normalized": "\u0148"
+    },
+    {
+      "id": "U0112",
+      "raw": "\u014a",
+      "normalized": "\u014b"
+    },
+    {
+      "id": "U0113",
+      "raw": "\u014c",
+      "normalized": "\u014d"
+    },
+    {
+      "id": "U0114",
+      "raw": "\u014e",
+      "normalized": "\u014f"
+    },
+    {
+      "id": "U0115",
+      "raw": "\u0150",
+      "normalized": "\u0151"
+    },
+    {
+      "id": "U0116",
+      "raw": "\u0152",
+      "normalized": "\u0153"
+    },
+    {
+      "id": "U0117",
+      "raw": "\u0154",
+      "normalized": "\u0155"
+    },
+    {
+      "id": "U0118",
+      "raw": "\u0156",
+      "normalized": "\u0157"
+    },
+    {
+      "id": "U0119",
+      "raw": "\u0158",
+      "normalized": "\u0159"
+    },
+    {
+      "id": "U0120",
+      "raw": "\u015a",
+      "normalized": "\u015b"
+    },
+    {
+      "id": "U0121",
+      "raw": "\u015c",
+      "normalized": "\u015d"
+    },
+    {
+      "id": "U0122",
+      "raw": "\u015e",
+      "normalized": "\u015f"
+    },
+    {
+      "id": "U0123",
+      "raw": "\u0160",
+      "normalized": "\u0161"
+    },
+    {
+      "id": "U0124",
+      "raw": "\u0162",
+      "normalized": "\u0163"
+    },
+    {
+      "id": "U0125",
+      "raw": "\u0164",
+      "normalized": "\u0165"
+    },
+    {
+      "id": "U0126",
+      "raw": "\u0166",
+      "normalized": "\u0167"
+    },
+    {
+      "id": "U0127",
+      "raw": "\u0168",
+      "normalized": "\u0169"
+    },
+    {
+      "id": "U0128",
+      "raw": "\u016a",
+      "normalized": "\u016b"
+    },
+    {
+      "id": "U0129",
+      "raw": "\u016c",
+      "normalized": "\u016d"
+    },
+    {
+      "id": "U0130",
+      "raw": "\u016e",
+      "normalized": "\u016f"
+    },
+    {
+      "id": "U0131",
+      "raw": "\u0170",
+      "normalized": "\u0171"
+    },
+    {
+      "id": "U0132",
+      "raw": "\u0172",
+      "normalized": "\u0173"
+    },
+    {
+      "id": "U0133",
+      "raw": "\u0174",
+      "normalized": "\u0175"
+    },
+    {
+      "id": "U0134",
+      "raw": "\u0176",
+      "normalized": "\u0177"
+    },
+    {
+      "id": "U0135",
+      "raw": "\u0178",
+      "normalized": "\u00ff"
+    },
+    {
+      "id": "U0136",
+      "raw": "\u0179",
+      "normalized": "\u017a"
+    },
+    {
+      "id": "U0137",
+      "raw": "\u017b",
+      "normalized": "\u017c"
+    },
+    {
+      "id": "U0138",
+      "raw": "\u017d",
+      "normalized": "\u017e"
+    },
+    {
+      "id": "U0139",
+      "raw": "\u0181",
+      "normalized": "\u0253"
+    },
+    {
+      "id": "U0140",
+      "raw": "\u0182",
+      "normalized": "\u0183"
+    },
+    {
+      "id": "U0141",
+      "raw": "\u0184",
+      "normalized": "\u0185"
+    },
+    {
+      "id": "U0142",
+      "raw": "\u0186",
+      "normalized": "\u0254"
+    },
+    {
+      "id": "U0143",
+      "raw": "\u0187",
+      "normalized": "\u0188"
+    },
+    {
+      "id": "U0144",
+      "raw": "\u0189",
+      "normalized": "\u0256"
+    },
+    {
+      "id": "U0145",
+      "raw": "\u018a",
+      "normalized": "\u0257"
+    },
+    {
+      "id": "U0146",
+      "raw": "\u018b",
+      "normalized": "\u018c"
+    },
+    {
+      "id": "U0147",
+      "raw": "\u018e",
+      "normalized": "\u01dd"
+    },
+    {
+      "id": "U0148",
+      "raw": "\u018f",
+      "normalized": "\u0259"
+    },
+    {
+      "id": "U0149",
+      "raw": "\u0190",
+      "normalized": "\u025b"
+    },
+    {
+      "id": "U0150",
+      "raw": "\u0191",
+      "normalized": "\u0192"
+    },
+    {
+      "id": "U0151",
+      "raw": "\u0193",
+      "normalized": "\u0260"
+    },
+    {
+      "id": "U0152",
+      "raw": "\u0194",
+      "normalized": "\u0263"
+    },
+    {
+      "id": "U0153",
+      "raw": "\u0196",
+      "normalized": "\u0269"
+    },
+    {
+      "id": "U0154",
+      "raw": "\u0197",
+      "normalized": "\u0268"
+    },
+    {
+      "id": "U0155",
+      "raw": "\u0198",
+      "normalized": "\u0199"
+    },
+    {
+      "id": "U0156",
+      "raw": "\u019c",
+      "normalized": "\u026f"
+    },
+    {
+      "id": "U0157",
+      "raw": "\u019d",
+      "normalized": "\u0272"
+    },
+    {
+      "id": "U0158",
+      "raw": "\u019f",
+      "normalized": "\u0275"
+    },
+    {
+      "id": "U0159",
+      "raw": "\u01a0",
+      "normalized": "\u01a1"
+    },
+    {
+      "id": "U0160",
+      "raw": "\u01a2",
+      "normalized": "\u01a3"
+    },
+    {
+      "id": "U0161",
+      "raw": "\u01a4",
+      "normalized": "\u01a5"
+    },
+    {
+      "id": "U0162",
+      "raw": "\u01a6",
+      "normalized": "\u0280"
+    },
+    {
+      "id": "U0163",
+      "raw": "\u01a7",
+      "normalized": "\u01a8"
+    },
+    {
+      "id": "U0164",
+      "raw": "\u01a9",
+      "normalized": "\u0283"
+    },
+    {
+      "id": "U0165",
+      "raw": "\u01ac",
+      "normalized": "\u01ad"
+    },
+    {
+      "id": "U0166",
+      "raw": "\u01ae",
+      "normalized": "\u0288"
+    },
+    {
+      "id": "U0167",
+      "raw": "\u01af",
+      "normalized": "\u01b0"
+    },
+    {
+      "id": "U0168",
+      "raw": "\u01b1",
+      "normalized": "\u028a"
+    },
+    {
+      "id": "U0169",
+      "raw": "\u01b2",
+      "normalized": "\u028b"
+    },
+    {
+      "id": "U0170",
+      "raw": "\u01b3",
+      "normalized": "\u01b4"
+    },
+    {
+      "id": "U0171",
+      "raw": "\u01b5",
+      "normalized": "\u01b6"
+    },
+    {
+      "id": "U0172",
+      "raw": "\u01b7",
+      "normalized": "\u0292"
+    },
+    {
+      "id": "U0173",
+      "raw": "\u01b8",
+      "normalized": "\u01b9"
+    },
+    {
+      "id": "U0174",
+      "raw": "\u01bc",
+      "normalized": "\u01bd"
+    },
+    {
+      "id": "U0175",
+      "raw": "\u01c4",
+      "normalized": "d\u017e"
+    },
+    {
+      "id": "U0176",
+      "raw": "\u01c5",
+      "normalized": "d\u017e"
+    },
+    {
+      "id": "U0177",
+      "raw": "\u01c7",
+      "normalized": "lj"
+    },
+    {
+      "id": "U0178",
+      "raw": "\u01c8",
+      "normalized": "lj"
+    },
+    {
+      "id": "U0179",
+      "raw": "\u01ca",
+      "normalized": "nj"
+    },
+    {
+      "id": "U0180",
+      "raw": "\u01cb",
+      "normalized": "nj"
+    },
+    {
+      "id": "U0181",
+      "raw": "\u01cd",
+      "normalized": "\u01ce"
+    },
+    {
+      "id": "U0182",
+      "raw": "\u01cf",
+      "normalized": "\u01d0"
+    },
+    {
+      "id": "U0183",
+      "raw": "\u01d1",
+      "normalized": "\u01d2"
+    },
+    {
+      "id": "U0184",
+      "raw": "\u01d3",
+      "normalized": "\u01d4"
+    },
+    {
+      "id": "U0185",
+      "raw": "\u01d5",
+      "normalized": "\u01d6"
+    },
+    {
+      "id": "U0186",
+      "raw": "\u01d7",
+      "normalized": "\u01d8"
+    },
+    {
+      "id": "U0187",
+      "raw": "\u01d9",
+      "normalized": "\u01da"
+    },
+    {
+      "id": "U0188",
+      "raw": "\u01db",
+      "normalized": "\u01dc"
+    },
+    {
+      "id": "U0189",
+      "raw": "\u01de",
+      "normalized": "\u01df"
+    },
+    {
+      "id": "U0190",
+      "raw": "\u01e0",
+      "normalized": "\u01e1"
+    },
+    {
+      "id": "U0191",
+      "raw": "\u01e2",
+      "normalized": "\u01e3"
+    },
+    {
+      "id": "U0192",
+      "raw": "\u01e4",
+      "normalized": "\u01e5"
+    },
+    {
+      "id": "U0193",
+      "raw": "\u01e6",
+      "normalized": "\u01e7"
+    },
+    {
+      "id": "U0194",
+      "raw": "\u01e8",
+      "normalized": "\u01e9"
+    },
+    {
+      "id": "U0195",
+      "raw": "\u01ea",
+      "normalized": "\u01eb"
+    },
+    {
+      "id": "U0196",
+      "raw": "\u01ec",
+      "normalized": "\u01ed"
+    },
+    {
+      "id": "U0197",
+      "raw": "\u01ee",
+      "normalized": "\u01ef"
+    },
+    {
+      "id": "U0198",
+      "raw": "\u01f1",
+      "normalized": "dz"
+    },
+    {
+      "id": "U0199",
+      "raw": "\u01f2",
+      "normalized": "dz"
+    },
+    {
+      "id": "U0200",
+      "raw": "\u01f4",
+      "normalized": "\u01f5"
+    },
+    {
+      "id": "U0201",
+      "raw": "\u01f6",
+      "normalized": "\u0195"
+    },
+    {
+      "id": "U0202",
+      "raw": "\u01f7",
+      "normalized": "\u01bf"
+    },
+    {
+      "id": "U0203",
+      "raw": "\u01f8",
+      "normalized": "\u01f9"
+    },
+    {
+      "id": "U0204",
+      "raw": "\u01fa",
+      "normalized": "\u01fb"
+    },
+    {
+      "id": "U0205",
+      "raw": "\u01fc",
+      "normalized": "\u01fd"
+    },
+    {
+      "id": "U0206",
+      "raw": "\u01fe",
+      "normalized": "\u01ff"
+    },
+    {
+      "id": "U0207",
+      "raw": "\u0200",
+      "normalized": "\u0201"
+    },
+    {
+      "id": "U0208",
+      "raw": "\u0202",
+      "normalized": "\u0203"
+    },
+    {
+      "id": "U0209",
+      "raw": "\u0204",
+      "normalized": "\u0205"
+    },
+    {
+      "id": "U0210",
+      "raw": "\u0206",
+      "normalized": "\u0207"
+    },
+    {
+      "id": "U0211",
+      "raw": "\u0208",
+      "normalized": "\u0209"
+    },
+    {
+      "id": "U0212",
+      "raw": "\u020a",
+      "normalized": "\u020b"
+    },
+    {
+      "id": "U0213",
+      "raw": "\u020c",
+      "normalized": "\u020d"
+    },
+    {
+      "id": "U0214",
+      "raw": "\u020e",
+      "normalized": "\u020f"
+    },
+    {
+      "id": "U0215",
+      "raw": "\u0210",
+      "normalized": "\u0211"
+    },
+    {
+      "id": "U0216",
+      "raw": "\u0212",
+      "normalized": "\u0213"
+    },
+    {
+      "id": "U0217",
+      "raw": "\u0214",
+      "normalized": "\u0215"
+    },
+    {
+      "id": "U0218",
+      "raw": "\u0216",
+      "normalized": "\u0217"
+    },
+    {
+      "id": "U0219",
+      "raw": "\u0218",
+      "normalized": "\u0219"
+    },
+    {
+      "id": "U0220",
+      "raw": "\u021a",
+      "normalized": "\u021b"
+    },
+    {
+      "id": "U0221",
+      "raw": "\u021c",
+      "normalized": "\u021d"
+    },
+    {
+      "id": "U0222",
+      "raw": "\u021e",
+      "normalized": "\u021f"
+    },
+    {
+      "id": "U0223",
+      "raw": "\u0220",
+      "normalized": "\u019e"
+    },
+    {
+      "id": "U0224",
+      "raw": "\u0222",
+      "normalized": "\u0223"
+    },
+    {
+      "id": "U0225",
+      "raw": "\u0224",
+      "normalized": "\u0225"
+    },
+    {
+      "id": "U0226",
+      "raw": "\u0226",
+      "normalized": "\u0227"
+    },
+    {
+      "id": "U0227",
+      "raw": "\u0228",
+      "normalized": "\u0229"
+    },
+    {
+      "id": "U0228",
+      "raw": "\u022a",
+      "normalized": "\u022b"
+    },
+    {
+      "id": "U0229",
+      "raw": "\u022c",
+      "normalized": "\u022d"
+    },
+    {
+      "id": "U0230",
+      "raw": "\u022e",
+      "normalized": "\u022f"
+    },
+    {
+      "id": "U0231",
+      "raw": "\u0230",
+      "normalized": "\u0231"
+    },
+    {
+      "id": "U0232",
+      "raw": "\u0232",
+      "normalized": "\u0233"
+    },
+    {
+      "id": "U0233",
+      "raw": "\u023a",
+      "normalized": "\u2c65"
+    },
+    {
+      "id": "U0234",
+      "raw": "\u023b",
+      "normalized": "\u023c"
+    },
+    {
+      "id": "U0235",
+      "raw": "\u023d",
+      "normalized": "\u019a"
+    },
+    {
+      "id": "U0236",
+      "raw": "\u023e",
+      "normalized": "\u2c66"
+    },
+    {
+      "id": "U0237",
+      "raw": "\u0241",
+      "normalized": "\u0242"
+    },
+    {
+      "id": "U0238",
+      "raw": "\u0243",
+      "normalized": "\u0180"
+    },
+    {
+      "id": "U0239",
+      "raw": "\u0244",
+      "normalized": "\u0289"
+    },
+    {
+      "id": "U0240",
+      "raw": "\u0245",
+      "normalized": "\u028c"
+    },
+    {
+      "id": "U0241",
+      "raw": "\u0246",
+      "normalized": "\u0247"
+    },
+    {
+      "id": "U0242",
+      "raw": "\u0248",
+      "normalized": "\u0249"
+    },
+    {
+      "id": "U0243",
+      "raw": "\u024a",
+      "normalized": "\u024b"
+    },
+    {
+      "id": "U0244",
+      "raw": "\u024c",
+      "normalized": "\u024d"
+    },
+    {
+      "id": "U0245",
+      "raw": "\u024e",
+      "normalized": "\u024f"
+    },
+    {
+      "id": "U0246",
+      "raw": "\u0370",
+      "normalized": "\u0371"
+    },
+    {
+      "id": "U0247",
+      "raw": "\u0372",
+      "normalized": "\u0373"
+    },
+    {
+      "id": "U0248",
+      "raw": "\u0376",
+      "normalized": "\u0377"
+    },
+    {
+      "id": "U0249",
+      "raw": "\u037f",
+      "normalized": "\u03f3"
+    },
+    {
+      "id": "U0250",
+      "raw": "\u0386",
+      "normalized": "\u03ac"
+    },
+    {
+      "id": "U0251",
+      "raw": "\u0388",
+      "normalized": "\u03ad"
+    },
+    {
+      "id": "U0252",
+      "raw": "\u0389",
+      "normalized": "\u03ae"
+    },
+    {
+      "id": "U0253",
+      "raw": "\u038a",
+      "normalized": "\u03af"
+    },
+    {
+      "id": "U0254",
+      "raw": "\u038c",
+      "normalized": "\u03cc"
+    },
+    {
+      "id": "U0255",
+      "raw": "\u038e",
+      "normalized": "\u03cd"
+    },
+    {
+      "id": "U0256",
+      "raw": "\u038f",
+      "normalized": "\u03ce"
+    },
+    {
+      "id": "U0257",
+      "raw": "\u0391",
+      "normalized": "\u03b1"
+    },
+    {
+      "id": "U0258",
+      "raw": "\u0392",
+      "normalized": "\u03b2"
+    },
+    {
+      "id": "U0259",
+      "raw": "\u0393",
+      "normalized": "\u03b3"
+    },
+    {
+      "id": "U0260",
+      "raw": "\u0394",
+      "normalized": "\u03b4"
+    },
+    {
+      "id": "U0261",
+      "raw": "\u0395",
+      "normalized": "\u03b5"
+    },
+    {
+      "id": "U0262",
+      "raw": "\u0396",
+      "normalized": "\u03b6"
+    },
+    {
+      "id": "U0263",
+      "raw": "\u0397",
+      "normalized": "\u03b7"
+    },
+    {
+      "id": "U0264",
+      "raw": "\u0398",
+      "normalized": "\u03b8"
+    },
+    {
+      "id": "U0265",
+      "raw": "\u0399",
+      "normalized": "\u03b9"
+    },
+    {
+      "id": "U0266",
+      "raw": "\u039a",
+      "normalized": "\u03ba"
+    },
+    {
+      "id": "U0267",
+      "raw": "\u039b",
+      "normalized": "\u03bb"
+    },
+    {
+      "id": "U0268",
+      "raw": "\u039c",
+      "normalized": "\u03bc"
+    },
+    {
+      "id": "U0269",
+      "raw": "\u039d",
+      "normalized": "\u03bd"
+    },
+    {
+      "id": "U0270",
+      "raw": "\u039e",
+      "normalized": "\u03be"
+    },
+    {
+      "id": "U0271",
+      "raw": "\u039f",
+      "normalized": "\u03bf"
+    },
+    {
+      "id": "U0272",
+      "raw": "\u03a0",
+      "normalized": "\u03c0"
+    },
+    {
+      "id": "U0273",
+      "raw": "\u03a1",
+      "normalized": "\u03c1"
+    },
+    {
+      "id": "U0274",
+      "raw": "\u03a3",
+      "normalized": "\u03c3"
+    },
+    {
+      "id": "U0275",
+      "raw": "\u03a4",
+      "normalized": "\u03c4"
+    },
+    {
+      "id": "U0276",
+      "raw": "\u03a5",
+      "normalized": "\u03c5"
+    },
+    {
+      "id": "U0277",
+      "raw": "\u03a6",
+      "normalized": "\u03c6"
+    },
+    {
+      "id": "U0278",
+      "raw": "\u03a7",
+      "normalized": "\u03c7"
+    },
+    {
+      "id": "U0279",
+      "raw": "\u03a8",
+      "normalized": "\u03c8"
+    },
+    {
+      "id": "U0280",
+      "raw": "\u03a9",
+      "normalized": "\u03c9"
+    },
+    {
+      "id": "U0281",
+      "raw": "\u03aa",
+      "normalized": "\u03ca"
+    },
+    {
+      "id": "U0282",
+      "raw": "\u03ab",
+      "normalized": "\u03cb"
+    },
+    {
+      "id": "U0283",
+      "raw": "\u03cf",
+      "normalized": "\u03d7"
+    },
+    {
+      "id": "U0284",
+      "raw": "\u03d8",
+      "normalized": "\u03d9"
+    },
+    {
+      "id": "U0285",
+      "raw": "\u03da",
+      "normalized": "\u03db"
+    },
+    {
+      "id": "U0286",
+      "raw": "\u03dc",
+      "normalized": "\u03dd"
+    },
+    {
+      "id": "U0287",
+      "raw": "\u03de",
+      "normalized": "\u03df"
+    },
+    {
+      "id": "U0288",
+      "raw": "\u03e0",
+      "normalized": "\u03e1"
+    },
+    {
+      "id": "U0289",
+      "raw": "\u03e2",
+      "normalized": "\u03e3"
+    },
+    {
+      "id": "U0290",
+      "raw": "\u03e4",
+      "normalized": "\u03e5"
+    },
+    {
+      "id": "U0291",
+      "raw": "\u03e6",
+      "normalized": "\u03e7"
+    },
+    {
+      "id": "U0292",
+      "raw": "\u03e8",
+      "normalized": "\u03e9"
+    },
+    {
+      "id": "U0293",
+      "raw": "\u03ea",
+      "normalized": "\u03eb"
+    },
+    {
+      "id": "U0294",
+      "raw": "\u03ec",
+      "normalized": "\u03ed"
+    },
+    {
+      "id": "U0295",
+      "raw": "\u03ee",
+      "normalized": "\u03ef"
+    },
+    {
+      "id": "U0296",
+      "raw": "\u03f4",
+      "normalized": "\u03b8"
+    },
+    {
+      "id": "U0297",
+      "raw": "\u03f7",
+      "normalized": "\u03f8"
+    },
+    {
+      "id": "U0298",
+      "raw": "\u03f9",
+      "normalized": "\u03c3"
+    },
+    {
+      "id": "U0299",
+      "raw": "\u03fa",
+      "normalized": "\u03fb"
+    },
+    {
+      "id": "U0300",
+      "raw": "\u03fd",
+      "normalized": "\u037b"
+    },
+    {
+      "id": "U0301",
+      "raw": "\u03fe",
+      "normalized": "\u037c"
+    },
+    {
+      "id": "U0302",
+      "raw": "\u03ff",
+      "normalized": "\u037d"
+    },
+    {
+      "id": "U0303",
+      "raw": "\u0400",
+      "normalized": "\u0450"
+    },
+    {
+      "id": "U0304",
+      "raw": "\u0401",
+      "normalized": "\u0451"
+    },
+    {
+      "id": "U0305",
+      "raw": "\u0402",
+      "normalized": "\u0452"
+    },
+    {
+      "id": "U0306",
+      "raw": "\u0403",
+      "normalized": "\u0453"
+    },
+    {
+      "id": "U0307",
+      "raw": "\u0404",
+      "normalized": "\u0454"
+    },
+    {
+      "id": "U0308",
+      "raw": "\u0405",
+      "normalized": "\u0455"
+    },
+    {
+      "id": "U0309",
+      "raw": "\u0406",
+      "normalized": "\u0456"
+    },
+    {
+      "id": "U0310",
+      "raw": "\u0407",
+      "normalized": "\u0457"
+    },
+    {
+      "id": "U0311",
+      "raw": "\u0408",
+      "normalized": "\u0458"
+    },
+    {
+      "id": "U0312",
+      "raw": "\u0409",
+      "normalized": "\u0459"
+    },
+    {
+      "id": "U0313",
+      "raw": "\u040a",
+      "normalized": "\u045a"
+    },
+    {
+      "id": "U0314",
+      "raw": "\u040b",
+      "normalized": "\u045b"
+    },
+    {
+      "id": "U0315",
+      "raw": "\u040c",
+      "normalized": "\u045c"
+    },
+    {
+      "id": "U0316",
+      "raw": "\u040d",
+      "normalized": "\u045d"
+    },
+    {
+      "id": "U0317",
+      "raw": "\u040e",
+      "normalized": "\u045e"
+    },
+    {
+      "id": "U0318",
+      "raw": "\u040f",
+      "normalized": "\u045f"
+    },
+    {
+      "id": "U0319",
+      "raw": "\u0410",
+      "normalized": "\u0430"
+    },
+    {
+      "id": "U0320",
+      "raw": "\u0411",
+      "normalized": "\u0431"
+    },
+    {
+      "id": "U0321",
+      "raw": "\u0412",
+      "normalized": "\u0432"
+    },
+    {
+      "id": "U0322",
+      "raw": "\u0413",
+      "normalized": "\u0433"
+    },
+    {
+      "id": "U0323",
+      "raw": "\u0414",
+      "normalized": "\u0434"
+    },
+    {
+      "id": "U0324",
+      "raw": "\u0415",
+      "normalized": "\u0435"
+    },
+    {
+      "id": "U0325",
+      "raw": "\u0416",
+      "normalized": "\u0436"
+    },
+    {
+      "id": "U0326",
+      "raw": "\u0417",
+      "normalized": "\u0437"
+    },
+    {
+      "id": "U0327",
+      "raw": "\u0418",
+      "normalized": "\u0438"
+    },
+    {
+      "id": "U0328",
+      "raw": "\u0419",
+      "normalized": "\u0439"
+    },
+    {
+      "id": "U0329",
+      "raw": "\u041a",
+      "normalized": "\u043a"
+    },
+    {
+      "id": "U0330",
+      "raw": "\u041b",
+      "normalized": "\u043b"
+    },
+    {
+      "id": "U0331",
+      "raw": "\u041c",
+      "normalized": "\u043c"
+    },
+    {
+      "id": "U0332",
+      "raw": "\u041d",
+      "normalized": "\u043d"
+    },
+    {
+      "id": "U0333",
+      "raw": "\u041e",
+      "normalized": "\u043e"
+    },
+    {
+      "id": "U0334",
+      "raw": "\u041f",
+      "normalized": "\u043f"
+    },
+    {
+      "id": "U0335",
+      "raw": "\u0420",
+      "normalized": "\u0440"
+    },
+    {
+      "id": "U0336",
+      "raw": "\u0421",
+      "normalized": "\u0441"
+    },
+    {
+      "id": "U0337",
+      "raw": "\u0422",
+      "normalized": "\u0442"
+    },
+    {
+      "id": "U0338",
+      "raw": "\u0423",
+      "normalized": "\u0443"
+    },
+    {
+      "id": "U0339",
+      "raw": "\u0424",
+      "normalized": "\u0444"
+    },
+    {
+      "id": "U0340",
+      "raw": "\u0425",
+      "normalized": "\u0445"
+    },
+    {
+      "id": "U0341",
+      "raw": "\u0426",
+      "normalized": "\u0446"
+    },
+    {
+      "id": "U0342",
+      "raw": "\u0427",
+      "normalized": "\u0447"
+    },
+    {
+      "id": "U0343",
+      "raw": "\u0428",
+      "normalized": "\u0448"
+    },
+    {
+      "id": "U0344",
+      "raw": "\u0429",
+      "normalized": "\u0449"
+    },
+    {
+      "id": "U0345",
+      "raw": "\u042a",
+      "normalized": "\u044a"
+    },
+    {
+      "id": "U0346",
+      "raw": "\u042b",
+      "normalized": "\u044b"
+    },
+    {
+      "id": "U0347",
+      "raw": "\u042c",
+      "normalized": "\u044c"
+    },
+    {
+      "id": "U0348",
+      "raw": "\u042d",
+      "normalized": "\u044d"
+    },
+    {
+      "id": "U0349",
+      "raw": "\u042e",
+      "normalized": "\u044e"
+    },
+    {
+      "id": "U0350",
+      "raw": "\u042f",
+      "normalized": "\u044f"
+    },
+    {
+      "id": "U0351",
+      "raw": "\u0460",
+      "normalized": "\u0461"
+    },
+    {
+      "id": "U0352",
+      "raw": "\u0462",
+      "normalized": "\u0463"
+    },
+    {
+      "id": "U0353",
+      "raw": "\u0464",
+      "normalized": "\u0465"
+    },
+    {
+      "id": "U0354",
+      "raw": "\u0466",
+      "normalized": "\u0467"
+    },
+    {
+      "id": "U0355",
+      "raw": "\u0468",
+      "normalized": "\u0469"
+    },
+    {
+      "id": "U0356",
+      "raw": "\u046a",
+      "normalized": "\u046b"
+    },
+    {
+      "id": "U0357",
+      "raw": "\u046c",
+      "normalized": "\u046d"
+    },
+    {
+      "id": "U0358",
+      "raw": "\u046e",
+      "normalized": "\u046f"
+    },
+    {
+      "id": "U0359",
+      "raw": "\u0470",
+      "normalized": "\u0471"
+    },
+    {
+      "id": "U0360",
+      "raw": "\u0472",
+      "normalized": "\u0473"
+    },
+    {
+      "id": "U0361",
+      "raw": "\u0474",
+      "normalized": "\u0475"
+    },
+    {
+      "id": "U0362",
+      "raw": "\u0476",
+      "normalized": "\u0477"
+    },
+    {
+      "id": "U0363",
+      "raw": "\u0478",
+      "normalized": "\u0479"
+    },
+    {
+      "id": "U0364",
+      "raw": "\u047a",
+      "normalized": "\u047b"
+    },
+    {
+      "id": "U0365",
+      "raw": "\u047c",
+      "normalized": "\u047d"
+    },
+    {
+      "id": "U0366",
+      "raw": "\u047e",
+      "normalized": "\u047f"
+    },
+    {
+      "id": "U0367",
+      "raw": "\u0480",
+      "normalized": "\u0481"
+    },
+    {
+      "id": "U0368",
+      "raw": "\u048a",
+      "normalized": "\u048b"
+    },
+    {
+      "id": "U0369",
+      "raw": "\u048c",
+      "normalized": "\u048d"
+    },
+    {
+      "id": "U0370",
+      "raw": "\u048e",
+      "normalized": "\u048f"
+    },
+    {
+      "id": "U0371",
+      "raw": "\u0490",
+      "normalized": "\u0491"
+    },
+    {
+      "id": "U0372",
+      "raw": "\u0492",
+      "normalized": "\u0493"
+    },
+    {
+      "id": "U0373",
+      "raw": "\u0494",
+      "normalized": "\u0495"
+    },
+    {
+      "id": "U0374",
+      "raw": "\u0496",
+      "normalized": "\u0497"
+    },
+    {
+      "id": "U0375",
+      "raw": "\u0498",
+      "normalized": "\u0499"
+    },
+    {
+      "id": "U0376",
+      "raw": "\u049a",
+      "normalized": "\u049b"
+    },
+    {
+      "id": "U0377",
+      "raw": "\u049c",
+      "normalized": "\u049d"
+    },
+    {
+      "id": "U0378",
+      "raw": "\u049e",
+      "normalized": "\u049f"
+    },
+    {
+      "id": "U0379",
+      "raw": "\u04a0",
+      "normalized": "\u04a1"
+    },
+    {
+      "id": "U0380",
+      "raw": "\u04a2",
+      "normalized": "\u04a3"
+    },
+    {
+      "id": "U0381",
+      "raw": "\u04a4",
+      "normalized": "\u04a5"
+    },
+    {
+      "id": "U0382",
+      "raw": "\u04a6",
+      "normalized": "\u04a7"
+    },
+    {
+      "id": "U0383",
+      "raw": "\u04a8",
+      "normalized": "\u04a9"
+    },
+    {
+      "id": "U0384",
+      "raw": "\u04aa",
+      "normalized": "\u04ab"
+    },
+    {
+      "id": "U0385",
+      "raw": "\u04ac",
+      "normalized": "\u04ad"
+    },
+    {
+      "id": "U0386",
+      "raw": "\u04ae",
+      "normalized": "\u04af"
+    },
+    {
+      "id": "U0387",
+      "raw": "\u04b0",
+      "normalized": "\u04b1"
+    },
+    {
+      "id": "U0388",
+      "raw": "\u04b2",
+      "normalized": "\u04b3"
+    },
+    {
+      "id": "U0389",
+      "raw": "\u04b4",
+      "normalized": "\u04b5"
+    },
+    {
+      "id": "U0390",
+      "raw": "\u04b6",
+      "normalized": "\u04b7"
+    },
+    {
+      "id": "U0391",
+      "raw": "\u04b8",
+      "normalized": "\u04b9"
+    },
+    {
+      "id": "U0392",
+      "raw": "\u04ba",
+      "normalized": "\u04bb"
+    },
+    {
+      "id": "U0393",
+      "raw": "\u04bc",
+      "normalized": "\u04bd"
+    },
+    {
+      "id": "U0394",
+      "raw": "\u04be",
+      "normalized": "\u04bf"
+    },
+    {
+      "id": "U0395",
+      "raw": "\u04c0",
+      "normalized": "\u04cf"
+    },
+    {
+      "id": "U0396",
+      "raw": "\u04c1",
+      "normalized": "\u04c2"
+    },
+    {
+      "id": "U0397",
+      "raw": "\u04c3",
+      "normalized": "\u04c4"
+    },
+    {
+      "id": "U0398",
+      "raw": "\u04c5",
+      "normalized": "\u04c6"
+    },
+    {
+      "id": "U0399",
+      "raw": "\u04c7",
+      "normalized": "\u04c8"
+    },
+    {
+      "id": "U0400",
+      "raw": "\u04c9",
+      "normalized": "\u04ca"
+    },
+    {
+      "id": "U0401",
+      "raw": "\u04cb",
+      "normalized": "\u04cc"
+    },
+    {
+      "id": "U0402",
+      "raw": "\u04cd",
+      "normalized": "\u04ce"
+    },
+    {
+      "id": "U0403",
+      "raw": "\u04d0",
+      "normalized": "\u04d1"
+    },
+    {
+      "id": "U0404",
+      "raw": "\u04d2",
+      "normalized": "\u04d3"
+    },
+    {
+      "id": "U0405",
+      "raw": "\u04d4",
+      "normalized": "\u04d5"
+    },
+    {
+      "id": "U0406",
+      "raw": "\u04d6",
+      "normalized": "\u04d7"
+    },
+    {
+      "id": "U0407",
+      "raw": "\u04d8",
+      "normalized": "\u04d9"
+    },
+    {
+      "id": "U0408",
+      "raw": "\u04da",
+      "normalized": "\u04db"
+    },
+    {
+      "id": "U0409",
+      "raw": "\u04dc",
+      "normalized": "\u04dd"
+    },
+    {
+      "id": "U0410",
+      "raw": "\u04de",
+      "normalized": "\u04df"
+    },
+    {
+      "id": "U0411",
+      "raw": "\u04e0",
+      "normalized": "\u04e1"
+    },
+    {
+      "id": "U0412",
+      "raw": "\u04e2",
+      "normalized": "\u04e3"
+    },
+    {
+      "id": "U0413",
+      "raw": "\u04e4",
+      "normalized": "\u04e5"
+    },
+    {
+      "id": "U0414",
+      "raw": "\u04e6",
+      "normalized": "\u04e7"
+    },
+    {
+      "id": "U0415",
+      "raw": "\u04e8",
+      "normalized": "\u04e9"
+    },
+    {
+      "id": "U0416",
+      "raw": "\u04ea",
+      "normalized": "\u04eb"
+    },
+    {
+      "id": "U0417",
+      "raw": "\u04ec",
+      "normalized": "\u04ed"
+    },
+    {
+      "id": "U0418",
+      "raw": "\u04ee",
+      "normalized": "\u04ef"
+    },
+    {
+      "id": "U0419",
+      "raw": "\u04f0",
+      "normalized": "\u04f1"
+    },
+    {
+      "id": "U0420",
+      "raw": "\u04f2",
+      "normalized": "\u04f3"
+    },
+    {
+      "id": "U0421",
+      "raw": "\u04f4",
+      "normalized": "\u04f5"
+    },
+    {
+      "id": "U0422",
+      "raw": "\u04f6",
+      "normalized": "\u04f7"
+    },
+    {
+      "id": "U0423",
+      "raw": "\u04f8",
+      "normalized": "\u04f9"
+    },
+    {
+      "id": "U0424",
+      "raw": "\u04fa",
+      "normalized": "\u04fb"
+    },
+    {
+      "id": "U0425",
+      "raw": "\u04fc",
+      "normalized": "\u04fd"
+    },
+    {
+      "id": "U0426",
+      "raw": "\u04fe",
+      "normalized": "\u04ff"
+    },
+    {
+      "id": "U0427",
+      "raw": "\u0500",
+      "normalized": "\u0501"
+    },
+    {
+      "id": "U0428",
+      "raw": "\u0502",
+      "normalized": "\u0503"
+    },
+    {
+      "id": "U0429",
+      "raw": "\u0504",
+      "normalized": "\u0505"
+    },
+    {
+      "id": "U0430",
+      "raw": "\u0506",
+      "normalized": "\u0507"
+    },
+    {
+      "id": "U0431",
+      "raw": "\u0508",
+      "normalized": "\u0509"
+    },
+    {
+      "id": "U0432",
+      "raw": "\u050a",
+      "normalized": "\u050b"
+    },
+    {
+      "id": "U0433",
+      "raw": "\u050c",
+      "normalized": "\u050d"
+    },
+    {
+      "id": "U0434",
+      "raw": "\u050e",
+      "normalized": "\u050f"
+    },
+    {
+      "id": "U0435",
+      "raw": "\u0510",
+      "normalized": "\u0511"
+    },
+    {
+      "id": "U0436",
+      "raw": "\u0512",
+      "normalized": "\u0513"
+    },
+    {
+      "id": "U0437",
+      "raw": "\u0514",
+      "normalized": "\u0515"
+    },
+    {
+      "id": "U0438",
+      "raw": "\u0516",
+      "normalized": "\u0517"
+    },
+    {
+      "id": "U0439",
+      "raw": "\u0518",
+      "normalized": "\u0519"
+    },
+    {
+      "id": "U0440",
+      "raw": "\u051a",
+      "normalized": "\u051b"
+    },
+    {
+      "id": "U0441",
+      "raw": "\u051c",
+      "normalized": "\u051d"
+    },
+    {
+      "id": "U0442",
+      "raw": "\u051e",
+      "normalized": "\u051f"
+    },
+    {
+      "id": "U0443",
+      "raw": "\u0520",
+      "normalized": "\u0521"
+    },
+    {
+      "id": "U0444",
+      "raw": "\u0522",
+      "normalized": "\u0523"
+    },
+    {
+      "id": "U0445",
+      "raw": "\u0524",
+      "normalized": "\u0525"
+    },
+    {
+      "id": "U0446",
+      "raw": "\u0526",
+      "normalized": "\u0527"
+    },
+    {
+      "id": "U0447",
+      "raw": "\u0528",
+      "normalized": "\u0529"
+    },
+    {
+      "id": "U0448",
+      "raw": "\u052a",
+      "normalized": "\u052b"
+    },
+    {
+      "id": "U0449",
+      "raw": "\u052c",
+      "normalized": "\u052d"
+    },
+    {
+      "id": "U0450",
+      "raw": "\u052e",
+      "normalized": "\u052f"
+    },
+    {
+      "id": "U0451",
+      "raw": "\u0531",
+      "normalized": "\u0561"
+    },
+    {
+      "id": "U0452",
+      "raw": "\u0532",
+      "normalized": "\u0562"
+    },
+    {
+      "id": "U0453",
+      "raw": "\u0533",
+      "normalized": "\u0563"
+    },
+    {
+      "id": "U0454",
+      "raw": "\u0534",
+      "normalized": "\u0564"
+    },
+    {
+      "id": "U0455",
+      "raw": "\u0535",
+      "normalized": "\u0565"
+    },
+    {
+      "id": "U0456",
+      "raw": "\u0536",
+      "normalized": "\u0566"
+    },
+    {
+      "id": "U0457",
+      "raw": "\u0537",
+      "normalized": "\u0567"
+    },
+    {
+      "id": "U0458",
+      "raw": "\u0538",
+      "normalized": "\u0568"
+    },
+    {
+      "id": "U0459",
+      "raw": "\u0539",
+      "normalized": "\u0569"
+    },
+    {
+      "id": "U0460",
+      "raw": "\u053a",
+      "normalized": "\u056a"
+    },
+    {
+      "id": "U0461",
+      "raw": "\u053b",
+      "normalized": "\u056b"
+    },
+    {
+      "id": "U0462",
+      "raw": "\u053c",
+      "normalized": "\u056c"
+    },
+    {
+      "id": "U0463",
+      "raw": "\u053d",
+      "normalized": "\u056d"
+    },
+    {
+      "id": "U0464",
+      "raw": "\u053e",
+      "normalized": "\u056e"
+    },
+    {
+      "id": "U0465",
+      "raw": "\u053f",
+      "normalized": "\u056f"
+    },
+    {
+      "id": "U0466",
+      "raw": "\u0540",
+      "normalized": "\u0570"
+    },
+    {
+      "id": "U0467",
+      "raw": "\u0541",
+      "normalized": "\u0571"
+    },
+    {
+      "id": "U0468",
+      "raw": "\u0542",
+      "normalized": "\u0572"
+    },
+    {
+      "id": "U0469",
+      "raw": "\u0543",
+      "normalized": "\u0573"
+    },
+    {
+      "id": "U0470",
+      "raw": "\u0544",
+      "normalized": "\u0574"
+    },
+    {
+      "id": "U0471",
+      "raw": "\u0545",
+      "normalized": "\u0575"
+    },
+    {
+      "id": "U0472",
+      "raw": "\u0546",
+      "normalized": "\u0576"
+    },
+    {
+      "id": "U0473",
+      "raw": "\u0547",
+      "normalized": "\u0577"
+    },
+    {
+      "id": "U0474",
+      "raw": "\u0548",
+      "normalized": "\u0578"
+    },
+    {
+      "id": "U0475",
+      "raw": "\u0549",
+      "normalized": "\u0579"
+    },
+    {
+      "id": "U0476",
+      "raw": "\u054a",
+      "normalized": "\u057a"
+    },
+    {
+      "id": "U0477",
+      "raw": "\u054b",
+      "normalized": "\u057b"
+    },
+    {
+      "id": "U0478",
+      "raw": "\u054c",
+      "normalized": "\u057c"
+    },
+    {
+      "id": "U0479",
+      "raw": "\u054d",
+      "normalized": "\u057d"
+    },
+    {
+      "id": "U0480",
+      "raw": "\u054e",
+      "normalized": "\u057e"
+    },
+    {
+      "id": "U0481",
+      "raw": "\u054f",
+      "normalized": "\u057f"
+    },
+    {
+      "id": "U0482",
+      "raw": "\u0550",
+      "normalized": "\u0580"
+    },
+    {
+      "id": "U0483",
+      "raw": "\u0551",
+      "normalized": "\u0581"
+    },
+    {
+      "id": "U0484",
+      "raw": "\u0552",
+      "normalized": "\u0582"
+    },
+    {
+      "id": "U0485",
+      "raw": "\u0553",
+      "normalized": "\u0583"
+    },
+    {
+      "id": "U0486",
+      "raw": "\u0554",
+      "normalized": "\u0584"
+    },
+    {
+      "id": "U0487",
+      "raw": "\u0555",
+      "normalized": "\u0585"
+    },
+    {
+      "id": "U0488",
+      "raw": "\u0556",
+      "normalized": "\u0586"
+    },
+    {
+      "id": "U0489",
+      "raw": "\u10a0",
+      "normalized": "\u2d00"
+    },
+    {
+      "id": "U0490",
+      "raw": "\u10a1",
+      "normalized": "\u2d01"
+    },
+    {
+      "id": "U0491",
+      "raw": "\u10a2",
+      "normalized": "\u2d02"
+    },
+    {
+      "id": "U0492",
+      "raw": "\u10a3",
+      "normalized": "\u2d03"
+    },
+    {
+      "id": "U0493",
+      "raw": "\u10a4",
+      "normalized": "\u2d04"
+    },
+    {
+      "id": "U0494",
+      "raw": "\u10a5",
+      "normalized": "\u2d05"
+    },
+    {
+      "id": "U0495",
+      "raw": "\u10a6",
+      "normalized": "\u2d06"
+    },
+    {
+      "id": "U0496",
+      "raw": "\u10a7",
+      "normalized": "\u2d07"
+    },
+    {
+      "id": "U0497",
+      "raw": "\u10a8",
+      "normalized": "\u2d08"
+    },
+    {
+      "id": "U0498",
+      "raw": "\u10a9",
+      "normalized": "\u2d09"
+    },
+    {
+      "id": "U0499",
+      "raw": "\u10aa",
+      "normalized": "\u2d0a"
+    },
+    {
+      "id": "U0500",
+      "raw": "\u10ab",
+      "normalized": "\u2d0b"
+    },
+    {
+      "id": "U0501",
+      "raw": "\u10ac",
+      "normalized": "\u2d0c"
+    },
+    {
+      "id": "U0502",
+      "raw": "\u10ad",
+      "normalized": "\u2d0d"
+    },
+    {
+      "id": "U0503",
+      "raw": "\u10ae",
+      "normalized": "\u2d0e"
+    },
+    {
+      "id": "U0504",
+      "raw": "\u10af",
+      "normalized": "\u2d0f"
+    },
+    {
+      "id": "U0505",
+      "raw": "\u10b0",
+      "normalized": "\u2d10"
+    },
+    {
+      "id": "U0506",
+      "raw": "\u10b1",
+      "normalized": "\u2d11"
+    },
+    {
+      "id": "U0507",
+      "raw": "\u10b2",
+      "normalized": "\u2d12"
+    },
+    {
+      "id": "U0508",
+      "raw": "\u10b3",
+      "normalized": "\u2d13"
+    },
+    {
+      "id": "U0509",
+      "raw": "\u10b4",
+      "normalized": "\u2d14"
+    },
+    {
+      "id": "U0510",
+      "raw": "\u10b5",
+      "normalized": "\u2d15"
+    },
+    {
+      "id": "U0511",
+      "raw": "\u10b6",
+      "normalized": "\u2d16"
+    },
+    {
+      "id": "U0512",
+      "raw": "\u10b7",
+      "normalized": "\u2d17"
+    },
+    {
+      "id": "U0513",
+      "raw": "\u10b8",
+      "normalized": "\u2d18"
+    },
+    {
+      "id": "U0514",
+      "raw": "\u10b9",
+      "normalized": "\u2d19"
+    },
+    {
+      "id": "U0515",
+      "raw": "\u10ba",
+      "normalized": "\u2d1a"
+    },
+    {
+      "id": "U0516",
+      "raw": "\u10bb",
+      "normalized": "\u2d1b"
+    },
+    {
+      "id": "U0517",
+      "raw": "\u10bc",
+      "normalized": "\u2d1c"
+    },
+    {
+      "id": "U0518",
+      "raw": "\u10bd",
+      "normalized": "\u2d1d"
+    },
+    {
+      "id": "U0519",
+      "raw": "\u10be",
+      "normalized": "\u2d1e"
+    },
+    {
+      "id": "U0520",
+      "raw": "\u10bf",
+      "normalized": "\u2d1f"
+    },
+    {
+      "id": "U0521",
+      "raw": "\u10c0",
+      "normalized": "\u2d20"
+    },
+    {
+      "id": "U0522",
+      "raw": "\u10c1",
+      "normalized": "\u2d21"
+    },
+    {
+      "id": "U0523",
+      "raw": "\u10c2",
+      "normalized": "\u2d22"
+    },
+    {
+      "id": "U0524",
+      "raw": "\u10c3",
+      "normalized": "\u2d23"
+    },
+    {
+      "id": "U0525",
+      "raw": "\u10c4",
+      "normalized": "\u2d24"
+    },
+    {
+      "id": "U0526",
+      "raw": "\u10c5",
+      "normalized": "\u2d25"
+    },
+    {
+      "id": "U0527",
+      "raw": "\u10c7",
+      "normalized": "\u2d27"
+    },
+    {
+      "id": "U0528",
+      "raw": "\u10cd",
+      "normalized": "\u2d2d"
+    },
+    {
+      "id": "U0529",
+      "raw": "\u13a0",
+      "normalized": "\uab70"
+    },
+    {
+      "id": "U0530",
+      "raw": "\u13a1",
+      "normalized": "\uab71"
+    },
+    {
+      "id": "U0531",
+      "raw": "\u13a2",
+      "normalized": "\uab72"
+    },
+    {
+      "id": "U0532",
+      "raw": "\u13a3",
+      "normalized": "\uab73"
+    },
+    {
+      "id": "U0533",
+      "raw": "\u13a4",
+      "normalized": "\uab74"
+    },
+    {
+      "id": "U0534",
+      "raw": "\u13a5",
+      "normalized": "\uab75"
+    },
+    {
+      "id": "U0535",
+      "raw": "\u13a6",
+      "normalized": "\uab76"
+    },
+    {
+      "id": "U0536",
+      "raw": "\u13a7",
+      "normalized": "\uab77"
+    },
+    {
+      "id": "U0537",
+      "raw": "\u13a8",
+      "normalized": "\uab78"
+    },
+    {
+      "id": "U0538",
+      "raw": "\u13a9",
+      "normalized": "\uab79"
+    },
+    {
+      "id": "U0539",
+      "raw": "\u13aa",
+      "normalized": "\uab7a"
+    },
+    {
+      "id": "U0540",
+      "raw": "\u13ab",
+      "normalized": "\uab7b"
+    },
+    {
+      "id": "U0541",
+      "raw": "\u13ac",
+      "normalized": "\uab7c"
+    },
+    {
+      "id": "U0542",
+      "raw": "\u13ad",
+      "normalized": "\uab7d"
+    },
+    {
+      "id": "U0543",
+      "raw": "\u13ae",
+      "normalized": "\uab7e"
+    },
+    {
+      "id": "U0544",
+      "raw": "\u13af",
+      "normalized": "\uab7f"
+    },
+    {
+      "id": "U0545",
+      "raw": "\u13b0",
+      "normalized": "\uab80"
+    },
+    {
+      "id": "U0546",
+      "raw": "\u13b1",
+      "normalized": "\uab81"
+    },
+    {
+      "id": "U0547",
+      "raw": "\u13b2",
+      "normalized": "\uab82"
+    },
+    {
+      "id": "U0548",
+      "raw": "\u13b3",
+      "normalized": "\uab83"
+    },
+    {
+      "id": "U0549",
+      "raw": "\u13b4",
+      "normalized": "\uab84"
+    },
+    {
+      "id": "U0550",
+      "raw": "\u13b5",
+      "normalized": "\uab85"
+    },
+    {
+      "id": "U0551",
+      "raw": "\u13b6",
+      "normalized": "\uab86"
+    },
+    {
+      "id": "U0552",
+      "raw": "\u13b7",
+      "normalized": "\uab87"
+    },
+    {
+      "id": "U0553",
+      "raw": "\u13b8",
+      "normalized": "\uab88"
+    },
+    {
+      "id": "U0554",
+      "raw": "\u13b9",
+      "normalized": "\uab89"
+    },
+    {
+      "id": "U0555",
+      "raw": "\u13ba",
+      "normalized": "\uab8a"
+    },
+    {
+      "id": "U0556",
+      "raw": "\u13bb",
+      "normalized": "\uab8b"
+    },
+    {
+      "id": "U0557",
+      "raw": "\u13bc",
+      "normalized": "\uab8c"
+    },
+    {
+      "id": "U0558",
+      "raw": "\u13bd",
+      "normalized": "\uab8d"
+    },
+    {
+      "id": "U0559",
+      "raw": "\u13be",
+      "normalized": "\uab8e"
+    },
+    {
+      "id": "U0560",
+      "raw": "\u13bf",
+      "normalized": "\uab8f"
+    },
+    {
+      "id": "U0561",
+      "raw": "\u13c0",
+      "normalized": "\uab90"
+    },
+    {
+      "id": "U0562",
+      "raw": "\u13c1",
+      "normalized": "\uab91"
+    },
+    {
+      "id": "U0563",
+      "raw": "\u13c2",
+      "normalized": "\uab92"
+    },
+    {
+      "id": "U0564",
+      "raw": "\u13c3",
+      "normalized": "\uab93"
+    },
+    {
+      "id": "U0565",
+      "raw": "\u13c4",
+      "normalized": "\uab94"
+    },
+    {
+      "id": "U0566",
+      "raw": "\u13c5",
+      "normalized": "\uab95"
+    },
+    {
+      "id": "U0567",
+      "raw": "\u13c6",
+      "normalized": "\uab96"
+    },
+    {
+      "id": "U0568",
+      "raw": "\u13c7",
+      "normalized": "\uab97"
+    },
+    {
+      "id": "U0569",
+      "raw": "\u13c8",
+      "normalized": "\uab98"
+    },
+    {
+      "id": "U0570",
+      "raw": "\u13c9",
+      "normalized": "\uab99"
+    },
+    {
+      "id": "U0571",
+      "raw": "\u13ca",
+      "normalized": "\uab9a"
+    },
+    {
+      "id": "U0572",
+      "raw": "\u13cb",
+      "normalized": "\uab9b"
+    },
+    {
+      "id": "U0573",
+      "raw": "\u13cc",
+      "normalized": "\uab9c"
+    },
+    {
+      "id": "U0574",
+      "raw": "\u13cd",
+      "normalized": "\uab9d"
+    },
+    {
+      "id": "U0575",
+      "raw": "\u13ce",
+      "normalized": "\uab9e"
+    },
+    {
+      "id": "U0576",
+      "raw": "\u13cf",
+      "normalized": "\uab9f"
+    },
+    {
+      "id": "U0577",
+      "raw": "\u13d0",
+      "normalized": "\uaba0"
+    },
+    {
+      "id": "U0578",
+      "raw": "\u13d1",
+      "normalized": "\uaba1"
+    },
+    {
+      "id": "U0579",
+      "raw": "\u13d2",
+      "normalized": "\uaba2"
+    },
+    {
+      "id": "U0580",
+      "raw": "\u13d3",
+      "normalized": "\uaba3"
+    },
+    {
+      "id": "U0581",
+      "raw": "\u13d4",
+      "normalized": "\uaba4"
+    },
+    {
+      "id": "U0582",
+      "raw": "\u13d5",
+      "normalized": "\uaba5"
+    },
+    {
+      "id": "U0583",
+      "raw": "\u13d6",
+      "normalized": "\uaba6"
+    },
+    {
+      "id": "U0584",
+      "raw": "\u13d7",
+      "normalized": "\uaba7"
+    },
+    {
+      "id": "U0585",
+      "raw": "\u13d8",
+      "normalized": "\uaba8"
+    },
+    {
+      "id": "U0586",
+      "raw": "\u13d9",
+      "normalized": "\uaba9"
+    },
+    {
+      "id": "U0587",
+      "raw": "\u13da",
+      "normalized": "\uabaa"
+    },
+    {
+      "id": "U0588",
+      "raw": "\u13db",
+      "normalized": "\uabab"
+    },
+    {
+      "id": "U0589",
+      "raw": "\u13dc",
+      "normalized": "\uabac"
+    },
+    {
+      "id": "U0590",
+      "raw": "\u13dd",
+      "normalized": "\uabad"
+    },
+    {
+      "id": "U0591",
+      "raw": "\u13de",
+      "normalized": "\uabae"
+    },
+    {
+      "id": "U0592",
+      "raw": "\u13df",
+      "normalized": "\uabaf"
+    },
+    {
+      "id": "U0593",
+      "raw": "\u13e0",
+      "normalized": "\uabb0"
+    },
+    {
+      "id": "U0594",
+      "raw": "\u13e1",
+      "normalized": "\uabb1"
+    },
+    {
+      "id": "U0595",
+      "raw": "\u13e2",
+      "normalized": "\uabb2"
+    },
+    {
+      "id": "U0596",
+      "raw": "\u13e3",
+      "normalized": "\uabb3"
+    },
+    {
+      "id": "U0597",
+      "raw": "\u13e4",
+      "normalized": "\uabb4"
+    },
+    {
+      "id": "U0598",
+      "raw": "\u13e5",
+      "normalized": "\uabb5"
+    },
+    {
+      "id": "U0599",
+      "raw": "\u13e6",
+      "normalized": "\uabb6"
+    },
+    {
+      "id": "U0600",
+      "raw": "\u13e7",
+      "normalized": "\uabb7"
+    },
+    {
+      "id": "U0601",
+      "raw": "\u13e8",
+      "normalized": "\uabb8"
+    },
+    {
+      "id": "U0602",
+      "raw": "\u13e9",
+      "normalized": "\uabb9"
+    },
+    {
+      "id": "U0603",
+      "raw": "\u13ea",
+      "normalized": "\uabba"
+    },
+    {
+      "id": "U0604",
+      "raw": "\u13eb",
+      "normalized": "\uabbb"
+    },
+    {
+      "id": "U0605",
+      "raw": "\u13ec",
+      "normalized": "\uabbc"
+    },
+    {
+      "id": "U0606",
+      "raw": "\u13ed",
+      "normalized": "\uabbd"
+    },
+    {
+      "id": "U0607",
+      "raw": "\u13ee",
+      "normalized": "\uabbe"
+    },
+    {
+      "id": "U0608",
+      "raw": "\u13ef",
+      "normalized": "\uabbf"
+    },
+    {
+      "id": "U0609",
+      "raw": "\u13f0",
+      "normalized": "\u13f8"
+    },
+    {
+      "id": "U0610",
+      "raw": "\u13f1",
+      "normalized": "\u13f9"
+    },
+    {
+      "id": "U0611",
+      "raw": "\u13f2",
+      "normalized": "\u13fa"
+    },
+    {
+      "id": "U0612",
+      "raw": "\u13f3",
+      "normalized": "\u13fb"
+    },
+    {
+      "id": "U0613",
+      "raw": "\u13f4",
+      "normalized": "\u13fc"
+    },
+    {
+      "id": "U0614",
+      "raw": "\u13f5",
+      "normalized": "\u13fd"
+    },
+    {
+      "id": "U0615",
+      "raw": "\u1c90",
+      "normalized": "\u10d0"
+    },
+    {
+      "id": "U0616",
+      "raw": "\u1c91",
+      "normalized": "\u10d1"
+    },
+    {
+      "id": "U0617",
+      "raw": "\u1c92",
+      "normalized": "\u10d2"
+    },
+    {
+      "id": "U0618",
+      "raw": "\u1c93",
+      "normalized": "\u10d3"
+    },
+    {
+      "id": "U0619",
+      "raw": "\u1c94",
+      "normalized": "\u10d4"
+    },
+    {
+      "id": "U0620",
+      "raw": "\u1c95",
+      "normalized": "\u10d5"
+    },
+    {
+      "id": "U0621",
+      "raw": "\u1c96",
+      "normalized": "\u10d6"
+    },
+    {
+      "id": "U0622",
+      "raw": "\u1c97",
+      "normalized": "\u10d7"
+    },
+    {
+      "id": "U0623",
+      "raw": "\u1c98",
+      "normalized": "\u10d8"
+    },
+    {
+      "id": "U0624",
+      "raw": "\u1c99",
+      "normalized": "\u10d9"
+    },
+    {
+      "id": "U0625",
+      "raw": "\u1c9a",
+      "normalized": "\u10da"
+    },
+    {
+      "id": "U0626",
+      "raw": "\u1c9b",
+      "normalized": "\u10db"
+    },
+    {
+      "id": "U0627",
+      "raw": "\u1c9c",
+      "normalized": "\u10dc"
+    },
+    {
+      "id": "U0628",
+      "raw": "\u1c9d",
+      "normalized": "\u10dd"
+    },
+    {
+      "id": "U0629",
+      "raw": "\u1c9e",
+      "normalized": "\u10de"
+    },
+    {
+      "id": "U0630",
+      "raw": "\u1c9f",
+      "normalized": "\u10df"
+    },
+    {
+      "id": "U0631",
+      "raw": "\u1ca0",
+      "normalized": "\u10e0"
+    },
+    {
+      "id": "U0632",
+      "raw": "\u1ca1",
+      "normalized": "\u10e1"
+    },
+    {
+      "id": "U0633",
+      "raw": "\u1ca2",
+      "normalized": "\u10e2"
+    },
+    {
+      "id": "U0634",
+      "raw": "\u1ca3",
+      "normalized": "\u10e3"
+    },
+    {
+      "id": "U0635",
+      "raw": "\u1ca4",
+      "normalized": "\u10e4"
+    },
+    {
+      "id": "U0636",
+      "raw": "\u1ca5",
+      "normalized": "\u10e5"
+    },
+    {
+      "id": "U0637",
+      "raw": "\u1ca6",
+      "normalized": "\u10e6"
+    },
+    {
+      "id": "U0638",
+      "raw": "\u1ca7",
+      "normalized": "\u10e7"
+    },
+    {
+      "id": "U0639",
+      "raw": "\u1ca8",
+      "normalized": "\u10e8"
+    },
+    {
+      "id": "U0640",
+      "raw": "\u1ca9",
+      "normalized": "\u10e9"
+    },
+    {
+      "id": "U0641",
+      "raw": "\u1caa",
+      "normalized": "\u10ea"
+    },
+    {
+      "id": "U0642",
+      "raw": "\u1cab",
+      "normalized": "\u10eb"
+    },
+    {
+      "id": "U0643",
+      "raw": "\u1cac",
+      "normalized": "\u10ec"
+    },
+    {
+      "id": "U0644",
+      "raw": "\u1cad",
+      "normalized": "\u10ed"
+    },
+    {
+      "id": "U0645",
+      "raw": "\u1cae",
+      "normalized": "\u10ee"
+    },
+    {
+      "id": "U0646",
+      "raw": "\u1caf",
+      "normalized": "\u10ef"
+    },
+    {
+      "id": "U0647",
+      "raw": "\u1cb0",
+      "normalized": "\u10f0"
+    },
+    {
+      "id": "U0648",
+      "raw": "\u1cb1",
+      "normalized": "\u10f1"
+    },
+    {
+      "id": "U0649",
+      "raw": "\u1cb2",
+      "normalized": "\u10f2"
+    },
+    {
+      "id": "U0650",
+      "raw": "\u1cb3",
+      "normalized": "\u10f3"
+    },
+    {
+      "id": "U0651",
+      "raw": "\u1cb4",
+      "normalized": "\u10f4"
+    },
+    {
+      "id": "U0652",
+      "raw": "\u1cb5",
+      "normalized": "\u10f5"
+    },
+    {
+      "id": "U0653",
+      "raw": "\u1cb6",
+      "normalized": "\u10f6"
+    },
+    {
+      "id": "U0654",
+      "raw": "\u1cb7",
+      "normalized": "\u10f7"
+    },
+    {
+      "id": "U0655",
+      "raw": "\u1cb8",
+      "normalized": "\u10f8"
+    },
+    {
+      "id": "U0656",
+      "raw": "\u1cb9",
+      "normalized": "\u10f9"
+    },
+    {
+      "id": "U0657",
+      "raw": "\u1cba",
+      "normalized": "\u10fa"
+    },
+    {
+      "id": "U0658",
+      "raw": "\u1cbd",
+      "normalized": "\u10fd"
+    },
+    {
+      "id": "U0659",
+      "raw": "\u1cbe",
+      "normalized": "\u10fe"
+    },
+    {
+      "id": "U0660",
+      "raw": "\u1cbf",
+      "normalized": "\u10ff"
+    },
+    {
+      "id": "U0661",
+      "raw": "\u1e00",
+      "normalized": "\u1e01"
+    },
+    {
+      "id": "U0662",
+      "raw": "\u1e02",
+      "normalized": "\u1e03"
+    },
+    {
+      "id": "U0663",
+      "raw": "\u1e04",
+      "normalized": "\u1e05"
+    },
+    {
+      "id": "U0664",
+      "raw": "\u1e06",
+      "normalized": "\u1e07"
+    },
+    {
+      "id": "U0665",
+      "raw": "\u1e08",
+      "normalized": "\u1e09"
+    },
+    {
+      "id": "U0666",
+      "raw": "\u1e0a",
+      "normalized": "\u1e0b"
+    },
+    {
+      "id": "U0667",
+      "raw": "\u1e0c",
+      "normalized": "\u1e0d"
+    },
+    {
+      "id": "U0668",
+      "raw": "\u1e0e",
+      "normalized": "\u1e0f"
+    },
+    {
+      "id": "U0669",
+      "raw": "\u1e10",
+      "normalized": "\u1e11"
+    },
+    {
+      "id": "U0670",
+      "raw": "\u1e12",
+      "normalized": "\u1e13"
+    },
+    {
+      "id": "U0671",
+      "raw": "\u1e14",
+      "normalized": "\u1e15"
+    },
+    {
+      "id": "U0672",
+      "raw": "\u1e16",
+      "normalized": "\u1e17"
+    },
+    {
+      "id": "U0673",
+      "raw": "\u1e18",
+      "normalized": "\u1e19"
+    },
+    {
+      "id": "U0674",
+      "raw": "\u1e1a",
+      "normalized": "\u1e1b"
+    },
+    {
+      "id": "U0675",
+      "raw": "\u1e1c",
+      "normalized": "\u1e1d"
+    },
+    {
+      "id": "U0676",
+      "raw": "\u1e1e",
+      "normalized": "\u1e1f"
+    },
+    {
+      "id": "U0677",
+      "raw": "\u1e20",
+      "normalized": "\u1e21"
+    },
+    {
+      "id": "U0678",
+      "raw": "\u1e22",
+      "normalized": "\u1e23"
+    },
+    {
+      "id": "U0679",
+      "raw": "\u1e24",
+      "normalized": "\u1e25"
+    },
+    {
+      "id": "U0680",
+      "raw": "\u1e26",
+      "normalized": "\u1e27"
+    },
+    {
+      "id": "U0681",
+      "raw": "\u1e28",
+      "normalized": "\u1e29"
+    },
+    {
+      "id": "U0682",
+      "raw": "\u1e2a",
+      "normalized": "\u1e2b"
+    },
+    {
+      "id": "U0683",
+      "raw": "\u1e2c",
+      "normalized": "\u1e2d"
+    },
+    {
+      "id": "U0684",
+      "raw": "\u1e2e",
+      "normalized": "\u1e2f"
+    },
+    {
+      "id": "U0685",
+      "raw": "\u1e30",
+      "normalized": "\u1e31"
+    },
+    {
+      "id": "U0686",
+      "raw": "\u1e32",
+      "normalized": "\u1e33"
+    },
+    {
+      "id": "U0687",
+      "raw": "\u1e34",
+      "normalized": "\u1e35"
+    },
+    {
+      "id": "U0688",
+      "raw": "\u1e36",
+      "normalized": "\u1e37"
+    },
+    {
+      "id": "U0689",
+      "raw": "\u1e38",
+      "normalized": "\u1e39"
+    },
+    {
+      "id": "U0690",
+      "raw": "\u1e3a",
+      "normalized": "\u1e3b"
+    },
+    {
+      "id": "U0691",
+      "raw": "\u1e3c",
+      "normalized": "\u1e3d"
+    },
+    {
+      "id": "U0692",
+      "raw": "\u1e3e",
+      "normalized": "\u1e3f"
+    },
+    {
+      "id": "U0693",
+      "raw": "\u1e40",
+      "normalized": "\u1e41"
+    },
+    {
+      "id": "U0694",
+      "raw": "\u1e42",
+      "normalized": "\u1e43"
+    },
+    {
+      "id": "U0695",
+      "raw": "\u1e44",
+      "normalized": "\u1e45"
+    },
+    {
+      "id": "U0696",
+      "raw": "\u1e46",
+      "normalized": "\u1e47"
+    },
+    {
+      "id": "U0697",
+      "raw": "\u1e48",
+      "normalized": "\u1e49"
+    },
+    {
+      "id": "U0698",
+      "raw": "\u1e4a",
+      "normalized": "\u1e4b"
+    },
+    {
+      "id": "U0699",
+      "raw": "\u1e4c",
+      "normalized": "\u1e4d"
+    },
+    {
+      "id": "U0700",
+      "raw": "\u1e4e",
+      "normalized": "\u1e4f"
+    },
+    {
+      "id": "U0701",
+      "raw": "\u1e50",
+      "normalized": "\u1e51"
+    },
+    {
+      "id": "U0702",
+      "raw": "\u1e52",
+      "normalized": "\u1e53"
+    },
+    {
+      "id": "U0703",
+      "raw": "\u1e54",
+      "normalized": "\u1e55"
+    },
+    {
+      "id": "U0704",
+      "raw": "\u1e56",
+      "normalized": "\u1e57"
+    },
+    {
+      "id": "U0705",
+      "raw": "\u1e58",
+      "normalized": "\u1e59"
+    },
+    {
+      "id": "U0706",
+      "raw": "\u1e5a",
+      "normalized": "\u1e5b"
+    },
+    {
+      "id": "U0707",
+      "raw": "\u1e5c",
+      "normalized": "\u1e5d"
+    },
+    {
+      "id": "U0708",
+      "raw": "\u1e5e",
+      "normalized": "\u1e5f"
+    },
+    {
+      "id": "U0709",
+      "raw": "\u1e60",
+      "normalized": "\u1e61"
+    },
+    {
+      "id": "U0710",
+      "raw": "\u1e62",
+      "normalized": "\u1e63"
+    },
+    {
+      "id": "U0711",
+      "raw": "\u1e64",
+      "normalized": "\u1e65"
+    },
+    {
+      "id": "U0712",
+      "raw": "\u1e66",
+      "normalized": "\u1e67"
+    },
+    {
+      "id": "U0713",
+      "raw": "\u1e68",
+      "normalized": "\u1e69"
+    },
+    {
+      "id": "U0714",
+      "raw": "\u1e6a",
+      "normalized": "\u1e6b"
+    },
+    {
+      "id": "U0715",
+      "raw": "\u1e6c",
+      "normalized": "\u1e6d"
+    },
+    {
+      "id": "U0716",
+      "raw": "\u1e6e",
+      "normalized": "\u1e6f"
+    },
+    {
+      "id": "U0717",
+      "raw": "\u1e70",
+      "normalized": "\u1e71"
+    },
+    {
+      "id": "U0718",
+      "raw": "\u1e72",
+      "normalized": "\u1e73"
+    },
+    {
+      "id": "U0719",
+      "raw": "\u1e74",
+      "normalized": "\u1e75"
+    },
+    {
+      "id": "U0720",
+      "raw": "\u1e76",
+      "normalized": "\u1e77"
+    },
+    {
+      "id": "U0721",
+      "raw": "\u1e78",
+      "normalized": "\u1e79"
+    },
+    {
+      "id": "U0722",
+      "raw": "\u1e7a",
+      "normalized": "\u1e7b"
+    },
+    {
+      "id": "U0723",
+      "raw": "\u1e7c",
+      "normalized": "\u1e7d"
+    },
+    {
+      "id": "U0724",
+      "raw": "\u1e7e",
+      "normalized": "\u1e7f"
+    },
+    {
+      "id": "U0725",
+      "raw": "\u1e80",
+      "normalized": "\u1e81"
+    },
+    {
+      "id": "U0726",
+      "raw": "\u1e82",
+      "normalized": "\u1e83"
+    },
+    {
+      "id": "U0727",
+      "raw": "\u1e84",
+      "normalized": "\u1e85"
+    },
+    {
+      "id": "U0728",
+      "raw": "\u1e86",
+      "normalized": "\u1e87"
+    },
+    {
+      "id": "U0729",
+      "raw": "\u1e88",
+      "normalized": "\u1e89"
+    },
+    {
+      "id": "U0730",
+      "raw": "\u1e8a",
+      "normalized": "\u1e8b"
+    },
+    {
+      "id": "U0731",
+      "raw": "\u1e8c",
+      "normalized": "\u1e8d"
+    },
+    {
+      "id": "U0732",
+      "raw": "\u1e8e",
+      "normalized": "\u1e8f"
+    },
+    {
+      "id": "U0733",
+      "raw": "\u1e90",
+      "normalized": "\u1e91"
+    },
+    {
+      "id": "U0734",
+      "raw": "\u1e92",
+      "normalized": "\u1e93"
+    },
+    {
+      "id": "U0735",
+      "raw": "\u1e94",
+      "normalized": "\u1e95"
+    },
+    {
+      "id": "U0736",
+      "raw": "\u1e9e",
+      "normalized": "\u00df"
+    },
+    {
+      "id": "U0737",
+      "raw": "\u1ea0",
+      "normalized": "\u1ea1"
+    },
+    {
+      "id": "U0738",
+      "raw": "\u1ea2",
+      "normalized": "\u1ea3"
+    },
+    {
+      "id": "U0739",
+      "raw": "\u1ea4",
+      "normalized": "\u1ea5"
+    },
+    {
+      "id": "U0740",
+      "raw": "\u1ea6",
+      "normalized": "\u1ea7"
+    },
+    {
+      "id": "U0741",
+      "raw": "\u1ea8",
+      "normalized": "\u1ea9"
+    },
+    {
+      "id": "U0742",
+      "raw": "\u1eaa",
+      "normalized": "\u1eab"
+    },
+    {
+      "id": "U0743",
+      "raw": "\u1eac",
+      "normalized": "\u1ead"
+    },
+    {
+      "id": "U0744",
+      "raw": "\u1eae",
+      "normalized": "\u1eaf"
+    },
+    {
+      "id": "U0745",
+      "raw": "\u1eb0",
+      "normalized": "\u1eb1"
+    },
+    {
+      "id": "U0746",
+      "raw": "\u1eb2",
+      "normalized": "\u1eb3"
+    },
+    {
+      "id": "U0747",
+      "raw": "\u1eb4",
+      "normalized": "\u1eb5"
+    },
+    {
+      "id": "U0748",
+      "raw": "\u1eb6",
+      "normalized": "\u1eb7"
+    },
+    {
+      "id": "U0749",
+      "raw": "\u1eb8",
+      "normalized": "\u1eb9"
+    },
+    {
+      "id": "U0750",
+      "raw": "\u1eba",
+      "normalized": "\u1ebb"
+    },
+    {
+      "id": "U0751",
+      "raw": "\u1ebc",
+      "normalized": "\u1ebd"
+    },
+    {
+      "id": "U0752",
+      "raw": "\u1ebe",
+      "normalized": "\u1ebf"
+    },
+    {
+      "id": "U0753",
+      "raw": "\u1ec0",
+      "normalized": "\u1ec1"
+    },
+    {
+      "id": "U0754",
+      "raw": "\u1ec2",
+      "normalized": "\u1ec3"
+    },
+    {
+      "id": "U0755",
+      "raw": "\u1ec4",
+      "normalized": "\u1ec5"
+    },
+    {
+      "id": "U0756",
+      "raw": "\u1ec6",
+      "normalized": "\u1ec7"
+    },
+    {
+      "id": "U0757",
+      "raw": "\u1ec8",
+      "normalized": "\u1ec9"
+    },
+    {
+      "id": "U0758",
+      "raw": "\u1eca",
+      "normalized": "\u1ecb"
+    },
+    {
+      "id": "U0759",
+      "raw": "\u1ecc",
+      "normalized": "\u1ecd"
+    },
+    {
+      "id": "U0760",
+      "raw": "\u1ece",
+      "normalized": "\u1ecf"
+    },
+    {
+      "id": "U0761",
+      "raw": "\u1ed0",
+      "normalized": "\u1ed1"
+    },
+    {
+      "id": "U0762",
+      "raw": "\u1ed2",
+      "normalized": "\u1ed3"
+    },
+    {
+      "id": "U0763",
+      "raw": "\u1ed4",
+      "normalized": "\u1ed5"
+    },
+    {
+      "id": "U0764",
+      "raw": "\u1ed6",
+      "normalized": "\u1ed7"
+    },
+    {
+      "id": "U0765",
+      "raw": "\u1ed8",
+      "normalized": "\u1ed9"
+    },
+    {
+      "id": "U0766",
+      "raw": "\u1eda",
+      "normalized": "\u1edb"
+    },
+    {
+      "id": "U0767",
+      "raw": "\u1edc",
+      "normalized": "\u1edd"
+    },
+    {
+      "id": "U0768",
+      "raw": "\u1ede",
+      "normalized": "\u1edf"
+    },
+    {
+      "id": "U0769",
+      "raw": "\u1ee0",
+      "normalized": "\u1ee1"
+    },
+    {
+      "id": "U0770",
+      "raw": "\u1ee2",
+      "normalized": "\u1ee3"
+    },
+    {
+      "id": "U0771",
+      "raw": "\u1ee4",
+      "normalized": "\u1ee5"
+    },
+    {
+      "id": "U0772",
+      "raw": "\u1ee6",
+      "normalized": "\u1ee7"
+    },
+    {
+      "id": "U0773",
+      "raw": "\u1ee8",
+      "normalized": "\u1ee9"
+    },
+    {
+      "id": "U0774",
+      "raw": "\u1eea",
+      "normalized": "\u1eeb"
+    },
+    {
+      "id": "U0775",
+      "raw": "\u1eec",
+      "normalized": "\u1eed"
+    },
+    {
+      "id": "U0776",
+      "raw": "\u1eee",
+      "normalized": "\u1eef"
+    },
+    {
+      "id": "U0777",
+      "raw": "\u1ef0",
+      "normalized": "\u1ef1"
+    },
+    {
+      "id": "U0778",
+      "raw": "\u1ef2",
+      "normalized": "\u1ef3"
+    },
+    {
+      "id": "U0779",
+      "raw": "\u1ef4",
+      "normalized": "\u1ef5"
+    },
+    {
+      "id": "U0780",
+      "raw": "\u1ef6",
+      "normalized": "\u1ef7"
+    },
+    {
+      "id": "U0781",
+      "raw": "\u1ef8",
+      "normalized": "\u1ef9"
+    },
+    {
+      "id": "U0782",
+      "raw": "\u1efa",
+      "normalized": "\u1efb"
+    },
+    {
+      "id": "U0783",
+      "raw": "\u1efc",
+      "normalized": "\u1efd"
+    },
+    {
+      "id": "U0784",
+      "raw": "\u1efe",
+      "normalized": "\u1eff"
+    },
+    {
+      "id": "U0785",
+      "raw": "\u1f08",
+      "normalized": "\u1f00"
+    },
+    {
+      "id": "U0786",
+      "raw": "\u1f09",
+      "normalized": "\u1f01"
+    },
+    {
+      "id": "U0787",
+      "raw": "\u1f0a",
+      "normalized": "\u1f02"
+    },
+    {
+      "id": "U0788",
+      "raw": "\u1f0b",
+      "normalized": "\u1f03"
+    },
+    {
+      "id": "U0789",
+      "raw": "\u1f0c",
+      "normalized": "\u1f04"
+    },
+    {
+      "id": "U0790",
+      "raw": "\u1f0d",
+      "normalized": "\u1f05"
+    },
+    {
+      "id": "U0791",
+      "raw": "\u1f0e",
+      "normalized": "\u1f06"
+    },
+    {
+      "id": "U0792",
+      "raw": "\u1f0f",
+      "normalized": "\u1f07"
+    },
+    {
+      "id": "U0793",
+      "raw": "\u1f18",
+      "normalized": "\u1f10"
+    },
+    {
+      "id": "U0794",
+      "raw": "\u1f19",
+      "normalized": "\u1f11"
+    },
+    {
+      "id": "U0795",
+      "raw": "\u1f1a",
+      "normalized": "\u1f12"
+    },
+    {
+      "id": "U0796",
+      "raw": "\u1f1b",
+      "normalized": "\u1f13"
+    },
+    {
+      "id": "U0797",
+      "raw": "\u1f1c",
+      "normalized": "\u1f14"
+    },
+    {
+      "id": "U0798",
+      "raw": "\u1f1d",
+      "normalized": "\u1f15"
+    },
+    {
+      "id": "U0799",
+      "raw": "\u1f28",
+      "normalized": "\u1f20"
+    },
+    {
+      "id": "U0800",
+      "raw": "\u1f29",
+      "normalized": "\u1f21"
+    },
+    {
+      "id": "U0801",
+      "raw": "\u1f2a",
+      "normalized": "\u1f22"
+    },
+    {
+      "id": "U0802",
+      "raw": "\u1f2b",
+      "normalized": "\u1f23"
+    },
+    {
+      "id": "U0803",
+      "raw": "\u1f2c",
+      "normalized": "\u1f24"
+    },
+    {
+      "id": "U0804",
+      "raw": "\u1f2d",
+      "normalized": "\u1f25"
+    },
+    {
+      "id": "U0805",
+      "raw": "\u1f2e",
+      "normalized": "\u1f26"
+    },
+    {
+      "id": "U0806",
+      "raw": "\u1f2f",
+      "normalized": "\u1f27"
+    },
+    {
+      "id": "U0807",
+      "raw": "\u1f38",
+      "normalized": "\u1f30"
+    },
+    {
+      "id": "U0808",
+      "raw": "\u1f39",
+      "normalized": "\u1f31"
+    },
+    {
+      "id": "U0809",
+      "raw": "\u1f3a",
+      "normalized": "\u1f32"
+    },
+    {
+      "id": "U0810",
+      "raw": "\u1f3b",
+      "normalized": "\u1f33"
+    },
+    {
+      "id": "U0811",
+      "raw": "\u1f3c",
+      "normalized": "\u1f34"
+    },
+    {
+      "id": "U0812",
+      "raw": "\u1f3d",
+      "normalized": "\u1f35"
+    },
+    {
+      "id": "U0813",
+      "raw": "\u1f3e",
+      "normalized": "\u1f36"
+    },
+    {
+      "id": "U0814",
+      "raw": "\u1f3f",
+      "normalized": "\u1f37"
+    },
+    {
+      "id": "U0815",
+      "raw": "\u1f48",
+      "normalized": "\u1f40"
+    },
+    {
+      "id": "U0816",
+      "raw": "\u1f49",
+      "normalized": "\u1f41"
+    },
+    {
+      "id": "U0817",
+      "raw": "\u1f4a",
+      "normalized": "\u1f42"
+    },
+    {
+      "id": "U0818",
+      "raw": "\u1f4b",
+      "normalized": "\u1f43"
+    },
+    {
+      "id": "U0819",
+      "raw": "\u1f4c",
+      "normalized": "\u1f44"
+    },
+    {
+      "id": "U0820",
+      "raw": "\u1f4d",
+      "normalized": "\u1f45"
+    },
+    {
+      "id": "U0821",
+      "raw": "\u1f59",
+      "normalized": "\u1f51"
+    },
+    {
+      "id": "U0822",
+      "raw": "\u1f5b",
+      "normalized": "\u1f53"
+    },
+    {
+      "id": "U0823",
+      "raw": "\u1f5d",
+      "normalized": "\u1f55"
+    },
+    {
+      "id": "U0824",
+      "raw": "\u1f5f",
+      "normalized": "\u1f57"
+    },
+    {
+      "id": "U0825",
+      "raw": "\u1f68",
+      "normalized": "\u1f60"
+    },
+    {
+      "id": "U0826",
+      "raw": "\u1f69",
+      "normalized": "\u1f61"
+    },
+    {
+      "id": "U0827",
+      "raw": "\u1f6a",
+      "normalized": "\u1f62"
+    },
+    {
+      "id": "U0828",
+      "raw": "\u1f6b",
+      "normalized": "\u1f63"
+    },
+    {
+      "id": "U0829",
+      "raw": "\u1f6c",
+      "normalized": "\u1f64"
+    },
+    {
+      "id": "U0830",
+      "raw": "\u1f6d",
+      "normalized": "\u1f65"
+    },
+    {
+      "id": "U0831",
+      "raw": "\u1f6e",
+      "normalized": "\u1f66"
+    },
+    {
+      "id": "U0832",
+      "raw": "\u1f6f",
+      "normalized": "\u1f67"
+    },
+    {
+      "id": "U0833",
+      "raw": "\u1f88",
+      "normalized": "\u1f80"
+    },
+    {
+      "id": "U0834",
+      "raw": "\u1f89",
+      "normalized": "\u1f81"
+    },
+    {
+      "id": "U0835",
+      "raw": "\u1f8a",
+      "normalized": "\u1f82"
+    },
+    {
+      "id": "U0836",
+      "raw": "\u1f8b",
+      "normalized": "\u1f83"
+    },
+    {
+      "id": "U0837",
+      "raw": "\u1f8c",
+      "normalized": "\u1f84"
+    },
+    {
+      "id": "U0838",
+      "raw": "\u1f8d",
+      "normalized": "\u1f85"
+    },
+    {
+      "id": "U0839",
+      "raw": "\u1f8e",
+      "normalized": "\u1f86"
+    },
+    {
+      "id": "U0840",
+      "raw": "\u1f8f",
+      "normalized": "\u1f87"
+    },
+    {
+      "id": "U0841",
+      "raw": "\u1f98",
+      "normalized": "\u1f90"
+    },
+    {
+      "id": "U0842",
+      "raw": "\u1f99",
+      "normalized": "\u1f91"
+    },
+    {
+      "id": "U0843",
+      "raw": "\u1f9a",
+      "normalized": "\u1f92"
+    },
+    {
+      "id": "U0844",
+      "raw": "\u1f9b",
+      "normalized": "\u1f93"
+    },
+    {
+      "id": "U0845",
+      "raw": "\u1f9c",
+      "normalized": "\u1f94"
+    },
+    {
+      "id": "U0846",
+      "raw": "\u1f9d",
+      "normalized": "\u1f95"
+    },
+    {
+      "id": "U0847",
+      "raw": "\u1f9e",
+      "normalized": "\u1f96"
+    },
+    {
+      "id": "U0848",
+      "raw": "\u1f9f",
+      "normalized": "\u1f97"
+    },
+    {
+      "id": "U0849",
+      "raw": "\u1fa8",
+      "normalized": "\u1fa0"
+    },
+    {
+      "id": "U0850",
+      "raw": "\u1fa9",
+      "normalized": "\u1fa1"
+    },
+    {
+      "id": "U0851",
+      "raw": "\u1faa",
+      "normalized": "\u1fa2"
+    },
+    {
+      "id": "U0852",
+      "raw": "\u1fab",
+      "normalized": "\u1fa3"
+    },
+    {
+      "id": "U0853",
+      "raw": "\u1fac",
+      "normalized": "\u1fa4"
+    },
+    {
+      "id": "U0854",
+      "raw": "\u1fad",
+      "normalized": "\u1fa5"
+    },
+    {
+      "id": "U0855",
+      "raw": "\u1fae",
+      "normalized": "\u1fa6"
+    },
+    {
+      "id": "U0856",
+      "raw": "\u1faf",
+      "normalized": "\u1fa7"
+    },
+    {
+      "id": "U0857",
+      "raw": "\u1fb8",
+      "normalized": "\u1fb0"
+    },
+    {
+      "id": "U0858",
+      "raw": "\u1fb9",
+      "normalized": "\u1fb1"
+    },
+    {
+      "id": "U0859",
+      "raw": "\u1fba",
+      "normalized": "\u1f70"
+    },
+    {
+      "id": "U0860",
+      "raw": "\u1fbb",
+      "normalized": "\u03ac"
+    },
+    {
+      "id": "U0861",
+      "raw": "\u1fbc",
+      "normalized": "\u1fb3"
+    },
+    {
+      "id": "U0862",
+      "raw": "\u1fc8",
+      "normalized": "\u1f72"
+    },
+    {
+      "id": "U0863",
+      "raw": "\u1fc9",
+      "normalized": "\u03ad"
+    },
+    {
+      "id": "U0864",
+      "raw": "\u1fca",
+      "normalized": "\u1f74"
+    },
+    {
+      "id": "U0865",
+      "raw": "\u1fcb",
+      "normalized": "\u03ae"
+    },
+    {
+      "id": "U0866",
+      "raw": "\u1fcc",
+      "normalized": "\u1fc3"
+    },
+    {
+      "id": "U0867",
+      "raw": "\u1fd8",
+      "normalized": "\u1fd0"
+    },
+    {
+      "id": "U0868",
+      "raw": "\u1fd9",
+      "normalized": "\u1fd1"
+    },
+    {
+      "id": "U0869",
+      "raw": "\u1fda",
+      "normalized": "\u1f76"
+    },
+    {
+      "id": "U0870",
+      "raw": "\u1fdb",
+      "normalized": "\u03af"
+    },
+    {
+      "id": "U0871",
+      "raw": "\u1fe8",
+      "normalized": "\u1fe0"
+    },
+    {
+      "id": "U0872",
+      "raw": "\u1fe9",
+      "normalized": "\u1fe1"
+    },
+    {
+      "id": "U0873",
+      "raw": "\u1fea",
+      "normalized": "\u1f7a"
+    },
+    {
+      "id": "U0874",
+      "raw": "\u1feb",
+      "normalized": "\u03cd"
+    },
+    {
+      "id": "U0875",
+      "raw": "\u1fec",
+      "normalized": "\u1fe5"
+    },
+    {
+      "id": "U0876",
+      "raw": "\u1ff8",
+      "normalized": "\u1f78"
+    },
+    {
+      "id": "U0877",
+      "raw": "\u1ff9",
+      "normalized": "\u03cc"
+    },
+    {
+      "id": "U0878",
+      "raw": "\u1ffa",
+      "normalized": "\u1f7c"
+    },
+    {
+      "id": "U0879",
+      "raw": "\u1ffb",
+      "normalized": "\u03ce"
+    },
+    {
+      "id": "U0880",
+      "raw": "\u1ffc",
+      "normalized": "\u1ff3"
+    },
+    {
+      "id": "U0881",
+      "raw": "\u2126",
+      "normalized": "\u03c9"
+    },
+    {
+      "id": "U0882",
+      "raw": "\u212a",
+      "normalized": "k"
+    },
+    {
+      "id": "U0883",
+      "raw": "\u212b",
+      "normalized": "\u00e5"
+    },
+    {
+      "id": "U0884",
+      "raw": "\u2132",
+      "normalized": "\u214e"
+    },
+    {
+      "id": "U0885",
+      "raw": "\u2160",
+      "normalized": "i"
+    },
+    {
+      "id": "U0886",
+      "raw": "\u2161",
+      "normalized": "ii"
+    },
+    {
+      "id": "U0887",
+      "raw": "\u2162",
+      "normalized": "iii"
+    },
+    {
+      "id": "U0888",
+      "raw": "\u2163",
+      "normalized": "iv"
+    },
+    {
+      "id": "U0889",
+      "raw": "\u2164",
+      "normalized": "v"
+    },
+    {
+      "id": "U0890",
+      "raw": "\u2165",
+      "normalized": "vi"
+    },
+    {
+      "id": "U0891",
+      "raw": "\u2166",
+      "normalized": "vii"
+    },
+    {
+      "id": "U0892",
+      "raw": "\u2167",
+      "normalized": "viii"
+    },
+    {
+      "id": "U0893",
+      "raw": "\u2168",
+      "normalized": "ix"
+    },
+    {
+      "id": "U0894",
+      "raw": "\u2169",
+      "normalized": "x"
+    },
+    {
+      "id": "U0895",
+      "raw": "\u216a",
+      "normalized": "xi"
+    },
+    {
+      "id": "U0896",
+      "raw": "\u216b",
+      "normalized": "xii"
+    },
+    {
+      "id": "U0897",
+      "raw": "\u216c",
+      "normalized": "l"
+    },
+    {
+      "id": "U0898",
+      "raw": "\u216d",
+      "normalized": "c"
+    },
+    {
+      "id": "U0899",
+      "raw": "\u216e",
+      "normalized": "d"
+    },
+    {
+      "id": "U0900",
+      "raw": "\u216f",
+      "normalized": "m"
+    },
+    {
+      "id": "U0901",
+      "raw": "\u2183",
+      "normalized": "\u2184"
+    },
+    {
+      "id": "U0902",
+      "raw": "\u24b6",
+      "normalized": "a"
+    },
+    {
+      "id": "U0903",
+      "raw": "\u24b7",
+      "normalized": "b"
+    },
+    {
+      "id": "U0904",
+      "raw": "\u24b8",
+      "normalized": "c"
+    },
+    {
+      "id": "U0905",
+      "raw": "\u24b9",
+      "normalized": "d"
+    },
+    {
+      "id": "U0906",
+      "raw": "\u24ba",
+      "normalized": "e"
+    },
+    {
+      "id": "U0907",
+      "raw": "\u24bb",
+      "normalized": "f"
+    },
+    {
+      "id": "U0908",
+      "raw": "\u24bc",
+      "normalized": "g"
+    },
+    {
+      "id": "U0909",
+      "raw": "\u24bd",
+      "normalized": "h"
+    },
+    {
+      "id": "U0910",
+      "raw": "\u24be",
+      "normalized": "i"
+    },
+    {
+      "id": "U0911",
+      "raw": "\u24bf",
+      "normalized": "j"
+    },
+    {
+      "id": "U0912",
+      "raw": "\u24c0",
+      "normalized": "k"
+    },
+    {
+      "id": "U0913",
+      "raw": "\u24c1",
+      "normalized": "l"
+    },
+    {
+      "id": "U0914",
+      "raw": "\u24c2",
+      "normalized": "m"
+    },
+    {
+      "id": "U0915",
+      "raw": "\u24c3",
+      "normalized": "n"
+    },
+    {
+      "id": "U0916",
+      "raw": "\u24c4",
+      "normalized": "o"
+    },
+    {
+      "id": "U0917",
+      "raw": "\u24c5",
+      "normalized": "p"
+    },
+    {
+      "id": "U0918",
+      "raw": "\u24c6",
+      "normalized": "q"
+    },
+    {
+      "id": "U0919",
+      "raw": "\u24c7",
+      "normalized": "r"
+    },
+    {
+      "id": "U0920",
+      "raw": "\u24c8",
+      "normalized": "s"
+    },
+    {
+      "id": "U0921",
+      "raw": "\u24c9",
+      "normalized": "t"
+    },
+    {
+      "id": "U0922",
+      "raw": "\u24ca",
+      "normalized": "u"
+    },
+    {
+      "id": "U0923",
+      "raw": "\u24cb",
+      "normalized": "v"
+    },
+    {
+      "id": "U0924",
+      "raw": "\u24cc",
+      "normalized": "w"
+    },
+    {
+      "id": "U0925",
+      "raw": "\u24cd",
+      "normalized": "x"
+    },
+    {
+      "id": "U0926",
+      "raw": "\u24ce",
+      "normalized": "y"
+    },
+    {
+      "id": "U0927",
+      "raw": "\u24cf",
+      "normalized": "z"
+    },
+    {
+      "id": "U0928",
+      "raw": "\u2c00",
+      "normalized": "\u2c30"
+    },
+    {
+      "id": "U0929",
+      "raw": "\u2c01",
+      "normalized": "\u2c31"
+    },
+    {
+      "id": "U0930",
+      "raw": "\u2c02",
+      "normalized": "\u2c32"
+    },
+    {
+      "id": "U0931",
+      "raw": "\u2c03",
+      "normalized": "\u2c33"
+    },
+    {
+      "id": "U0932",
+      "raw": "\u2c04",
+      "normalized": "\u2c34"
+    },
+    {
+      "id": "U0933",
+      "raw": "\u2c05",
+      "normalized": "\u2c35"
+    },
+    {
+      "id": "U0934",
+      "raw": "\u2c06",
+      "normalized": "\u2c36"
+    },
+    {
+      "id": "U0935",
+      "raw": "\u2c07",
+      "normalized": "\u2c37"
+    },
+    {
+      "id": "U0936",
+      "raw": "\u2c08",
+      "normalized": "\u2c38"
+    },
+    {
+      "id": "U0937",
+      "raw": "\u2c09",
+      "normalized": "\u2c39"
+    },
+    {
+      "id": "U0938",
+      "raw": "\u2c0a",
+      "normalized": "\u2c3a"
+    },
+    {
+      "id": "U0939",
+      "raw": "\u2c0b",
+      "normalized": "\u2c3b"
+    },
+    {
+      "id": "U0940",
+      "raw": "\u2c0c",
+      "normalized": "\u2c3c"
+    },
+    {
+      "id": "U0941",
+      "raw": "\u2c0d",
+      "normalized": "\u2c3d"
+    },
+    {
+      "id": "U0942",
+      "raw": "\u2c0e",
+      "normalized": "\u2c3e"
+    },
+    {
+      "id": "U0943",
+      "raw": "\u2c0f",
+      "normalized": "\u2c3f"
+    },
+    {
+      "id": "U0944",
+      "raw": "\u2c10",
+      "normalized": "\u2c40"
+    },
+    {
+      "id": "U0945",
+      "raw": "\u2c11",
+      "normalized": "\u2c41"
+    },
+    {
+      "id": "U0946",
+      "raw": "\u2c12",
+      "normalized": "\u2c42"
+    },
+    {
+      "id": "U0947",
+      "raw": "\u2c13",
+      "normalized": "\u2c43"
+    },
+    {
+      "id": "U0948",
+      "raw": "\u2c14",
+      "normalized": "\u2c44"
+    },
+    {
+      "id": "U0949",
+      "raw": "\u2c15",
+      "normalized": "\u2c45"
+    },
+    {
+      "id": "U0950",
+      "raw": "\u2c16",
+      "normalized": "\u2c46"
+    },
+    {
+      "id": "U0951",
+      "raw": "\u2c17",
+      "normalized": "\u2c47"
+    },
+    {
+      "id": "U0952",
+      "raw": "\u2c18",
+      "normalized": "\u2c48"
+    },
+    {
+      "id": "U0953",
+      "raw": "\u2c19",
+      "normalized": "\u2c49"
+    },
+    {
+      "id": "U0954",
+      "raw": "\u2c1a",
+      "normalized": "\u2c4a"
+    },
+    {
+      "id": "U0955",
+      "raw": "\u2c1b",
+      "normalized": "\u2c4b"
+    },
+    {
+      "id": "U0956",
+      "raw": "\u2c1c",
+      "normalized": "\u2c4c"
+    },
+    {
+      "id": "U0957",
+      "raw": "\u2c1d",
+      "normalized": "\u2c4d"
+    },
+    {
+      "id": "U0958",
+      "raw": "\u2c1e",
+      "normalized": "\u2c4e"
+    },
+    {
+      "id": "U0959",
+      "raw": "\u2c1f",
+      "normalized": "\u2c4f"
+    },
+    {
+      "id": "U0960",
+      "raw": "\u2c20",
+      "normalized": "\u2c50"
+    },
+    {
+      "id": "U0961",
+      "raw": "\u2c21",
+      "normalized": "\u2c51"
+    },
+    {
+      "id": "U0962",
+      "raw": "\u2c22",
+      "normalized": "\u2c52"
+    },
+    {
+      "id": "U0963",
+      "raw": "\u2c23",
+      "normalized": "\u2c53"
+    },
+    {
+      "id": "U0964",
+      "raw": "\u2c24",
+      "normalized": "\u2c54"
+    },
+    {
+      "id": "U0965",
+      "raw": "\u2c25",
+      "normalized": "\u2c55"
+    },
+    {
+      "id": "U0966",
+      "raw": "\u2c26",
+      "normalized": "\u2c56"
+    },
+    {
+      "id": "U0967",
+      "raw": "\u2c27",
+      "normalized": "\u2c57"
+    },
+    {
+      "id": "U0968",
+      "raw": "\u2c28",
+      "normalized": "\u2c58"
+    },
+    {
+      "id": "U0969",
+      "raw": "\u2c29",
+      "normalized": "\u2c59"
+    },
+    {
+      "id": "U0970",
+      "raw": "\u2c2a",
+      "normalized": "\u2c5a"
+    },
+    {
+      "id": "U0971",
+      "raw": "\u2c2b",
+      "normalized": "\u2c5b"
+    },
+    {
+      "id": "U0972",
+      "raw": "\u2c2c",
+      "normalized": "\u2c5c"
+    },
+    {
+      "id": "U0973",
+      "raw": "\u2c2d",
+      "normalized": "\u2c5d"
+    },
+    {
+      "id": "U0974",
+      "raw": "\u2c2e",
+      "normalized": "\u2c5e"
+    },
+    {
+      "id": "U0975",
+      "raw": "\u2c2f",
+      "normalized": "\u2c5f"
+    },
+    {
+      "id": "U0976",
+      "raw": "\u2c60",
+      "normalized": "\u2c61"
+    },
+    {
+      "id": "U0977",
+      "raw": "\u2c62",
+      "normalized": "\u026b"
+    },
+    {
+      "id": "U0978",
+      "raw": "\u2c63",
+      "normalized": "\u1d7d"
+    },
+    {
+      "id": "U0979",
+      "raw": "\u2c64",
+      "normalized": "\u027d"
+    },
+    {
+      "id": "U0980",
+      "raw": "\u2c67",
+      "normalized": "\u2c68"
+    },
+    {
+      "id": "U0981",
+      "raw": "\u2c69",
+      "normalized": "\u2c6a"
+    },
+    {
+      "id": "U0982",
+      "raw": "\u2c6b",
+      "normalized": "\u2c6c"
+    },
+    {
+      "id": "U0983",
+      "raw": "\u2c6d",
+      "normalized": "\u0251"
+    },
+    {
+      "id": "U0984",
+      "raw": "\u2c6e",
+      "normalized": "\u0271"
+    },
+    {
+      "id": "U0985",
+      "raw": "\u2c6f",
+      "normalized": "\u0250"
+    },
+    {
+      "id": "U0986",
+      "raw": "\u2c70",
+      "normalized": "\u0252"
+    },
+    {
+      "id": "U0987",
+      "raw": "\u2c72",
+      "normalized": "\u2c73"
+    },
+    {
+      "id": "U0988",
+      "raw": "\u2c75",
+      "normalized": "\u2c76"
+    },
+    {
+      "id": "U0989",
+      "raw": "\u2c7e",
+      "normalized": "\u023f"
+    },
+    {
+      "id": "U0990",
+      "raw": "\u2c7f",
+      "normalized": "\u0240"
+    },
+    {
+      "id": "U0991",
+      "raw": "\u2c80",
+      "normalized": "\u2c81"
+    },
+    {
+      "id": "U0992",
+      "raw": "\u2c82",
+      "normalized": "\u2c83"
+    },
+    {
+      "id": "U0993",
+      "raw": "\u2c84",
+      "normalized": "\u2c85"
+    },
+    {
+      "id": "U0994",
+      "raw": "\u2c86",
+      "normalized": "\u2c87"
+    },
+    {
+      "id": "U0995",
+      "raw": "\u2c88",
+      "normalized": "\u2c89"
+    },
+    {
+      "id": "U0996",
+      "raw": "\u2c8a",
+      "normalized": "\u2c8b"
+    },
+    {
+      "id": "U0997",
+      "raw": "\u2c8c",
+      "normalized": "\u2c8d"
+    },
+    {
+      "id": "U0998",
+      "raw": "\u2c8e",
+      "normalized": "\u2c8f"
+    },
+    {
+      "id": "U0999",
+      "raw": "\u2c90",
+      "normalized": "\u2c91"
+    },
+    {
+      "id": "U1000",
+      "raw": "\u2c92",
+      "normalized": "\u2c93"
+    },
+    {
+      "id": "U1001",
+      "raw": "\u2c94",
+      "normalized": "\u2c95"
+    },
+    {
+      "id": "U1002",
+      "raw": "\u2c96",
+      "normalized": "\u2c97"
+    },
+    {
+      "id": "U1003",
+      "raw": "\u2c98",
+      "normalized": "\u2c99"
+    },
+    {
+      "id": "U1004",
+      "raw": "\u2c9a",
+      "normalized": "\u2c9b"
+    },
+    {
+      "id": "U1005",
+      "raw": "\u2c9c",
+      "normalized": "\u2c9d"
+    },
+    {
+      "id": "U1006",
+      "raw": "\u2c9e",
+      "normalized": "\u2c9f"
+    },
+    {
+      "id": "U1007",
+      "raw": "\u2ca0",
+      "normalized": "\u2ca1"
+    },
+    {
+      "id": "U1008",
+      "raw": "\u2ca2",
+      "normalized": "\u2ca3"
+    },
+    {
+      "id": "U1009",
+      "raw": "\u2ca4",
+      "normalized": "\u2ca5"
+    },
+    {
+      "id": "U1010",
+      "raw": "\u2ca6",
+      "normalized": "\u2ca7"
+    },
+    {
+      "id": "U1011",
+      "raw": "\u2ca8",
+      "normalized": "\u2ca9"
+    },
+    {
+      "id": "U1012",
+      "raw": "\u2caa",
+      "normalized": "\u2cab"
+    },
+    {
+      "id": "U1013",
+      "raw": "\u2cac",
+      "normalized": "\u2cad"
+    },
+    {
+      "id": "U1014",
+      "raw": "\u2cae",
+      "normalized": "\u2caf"
+    },
+    {
+      "id": "U1015",
+      "raw": "\u2cb0",
+      "normalized": "\u2cb1"
+    },
+    {
+      "id": "U1016",
+      "raw": "\u2cb2",
+      "normalized": "\u2cb3"
+    },
+    {
+      "id": "U1017",
+      "raw": "\u2cb4",
+      "normalized": "\u2cb5"
+    },
+    {
+      "id": "U1018",
+      "raw": "\u2cb6",
+      "normalized": "\u2cb7"
+    },
+    {
+      "id": "U1019",
+      "raw": "\u2cb8",
+      "normalized": "\u2cb9"
+    },
+    {
+      "id": "U1020",
+      "raw": "\u2cba",
+      "normalized": "\u2cbb"
+    },
+    {
+      "id": "U1021",
+      "raw": "\u2cbc",
+      "normalized": "\u2cbd"
+    },
+    {
+      "id": "U1022",
+      "raw": "\u2cbe",
+      "normalized": "\u2cbf"
+    },
+    {
+      "id": "U1023",
+      "raw": "\u2cc0",
+      "normalized": "\u2cc1"
+    },
+    {
+      "id": "U1024",
+      "raw": "\u2cc2",
+      "normalized": "\u2cc3"
+    },
+    {
+      "id": "U1025",
+      "raw": "\u2cc4",
+      "normalized": "\u2cc5"
+    },
+    {
+      "id": "U1026",
+      "raw": "\u2cc6",
+      "normalized": "\u2cc7"
+    },
+    {
+      "id": "U1027",
+      "raw": "\u2cc8",
+      "normalized": "\u2cc9"
+    },
+    {
+      "id": "U1028",
+      "raw": "\u2cca",
+      "normalized": "\u2ccb"
+    },
+    {
+      "id": "U1029",
+      "raw": "\u2ccc",
+      "normalized": "\u2ccd"
+    },
+    {
+      "id": "U1030",
+      "raw": "\u2cce",
+      "normalized": "\u2ccf"
+    },
+    {
+      "id": "U1031",
+      "raw": "\u2cd0",
+      "normalized": "\u2cd1"
+    },
+    {
+      "id": "U1032",
+      "raw": "\u2cd2",
+      "normalized": "\u2cd3"
+    },
+    {
+      "id": "U1033",
+      "raw": "\u2cd4",
+      "normalized": "\u2cd5"
+    },
+    {
+      "id": "U1034",
+      "raw": "\u2cd6",
+      "normalized": "\u2cd7"
+    },
+    {
+      "id": "U1035",
+      "raw": "\u2cd8",
+      "normalized": "\u2cd9"
+    },
+    {
+      "id": "U1036",
+      "raw": "\u2cda",
+      "normalized": "\u2cdb"
+    },
+    {
+      "id": "U1037",
+      "raw": "\u2cdc",
+      "normalized": "\u2cdd"
+    },
+    {
+      "id": "U1038",
+      "raw": "\u2cde",
+      "normalized": "\u2cdf"
+    },
+    {
+      "id": "U1039",
+      "raw": "\u2ce0",
+      "normalized": "\u2ce1"
+    },
+    {
+      "id": "U1040",
+      "raw": "\u2ce2",
+      "normalized": "\u2ce3"
+    },
+    {
+      "id": "U1041",
+      "raw": "\u2ceb",
+      "normalized": "\u2cec"
+    },
+    {
+      "id": "U1042",
+      "raw": "\u2ced",
+      "normalized": "\u2cee"
+    },
+    {
+      "id": "U1043",
+      "raw": "\u2cf2",
+      "normalized": "\u2cf3"
+    },
+    {
+      "id": "U1044",
+      "raw": "\ua640",
+      "normalized": "\ua641"
+    },
+    {
+      "id": "U1045",
+      "raw": "\ua642",
+      "normalized": "\ua643"
+    },
+    {
+      "id": "U1046",
+      "raw": "\ua644",
+      "normalized": "\ua645"
+    },
+    {
+      "id": "U1047",
+      "raw": "\ua646",
+      "normalized": "\ua647"
+    },
+    {
+      "id": "U1048",
+      "raw": "\ua648",
+      "normalized": "\ua649"
+    },
+    {
+      "id": "U1049",
+      "raw": "\ua64a",
+      "normalized": "\ua64b"
+    },
+    {
+      "id": "U1050",
+      "raw": "\ua64c",
+      "normalized": "\ua64d"
+    },
+    {
+      "id": "U1051",
+      "raw": "\ua64e",
+      "normalized": "\ua64f"
+    },
+    {
+      "id": "U1052",
+      "raw": "\ua650",
+      "normalized": "\ua651"
+    },
+    {
+      "id": "U1053",
+      "raw": "\ua652",
+      "normalized": "\ua653"
+    },
+    {
+      "id": "U1054",
+      "raw": "\ua654",
+      "normalized": "\ua655"
+    },
+    {
+      "id": "U1055",
+      "raw": "\ua656",
+      "normalized": "\ua657"
+    },
+    {
+      "id": "U1056",
+      "raw": "\ua658",
+      "normalized": "\ua659"
+    },
+    {
+      "id": "U1057",
+      "raw": "\ua65a",
+      "normalized": "\ua65b"
+    },
+    {
+      "id": "U1058",
+      "raw": "\ua65c",
+      "normalized": "\ua65d"
+    },
+    {
+      "id": "U1059",
+      "raw": "\ua65e",
+      "normalized": "\ua65f"
+    },
+    {
+      "id": "U1060",
+      "raw": "\ua660",
+      "normalized": "\ua661"
+    },
+    {
+      "id": "U1061",
+      "raw": "\ua662",
+      "normalized": "\ua663"
+    },
+    {
+      "id": "U1062",
+      "raw": "\ua664",
+      "normalized": "\ua665"
+    },
+    {
+      "id": "U1063",
+      "raw": "\ua666",
+      "normalized": "\ua667"
+    },
+    {
+      "id": "U1064",
+      "raw": "\ua668",
+      "normalized": "\ua669"
+    },
+    {
+      "id": "U1065",
+      "raw": "\ua66a",
+      "normalized": "\ua66b"
+    },
+    {
+      "id": "U1066",
+      "raw": "\ua66c",
+      "normalized": "\ua66d"
+    },
+    {
+      "id": "U1067",
+      "raw": "\ua680",
+      "normalized": "\ua681"
+    },
+    {
+      "id": "U1068",
+      "raw": "\ua682",
+      "normalized": "\ua683"
+    },
+    {
+      "id": "U1069",
+      "raw": "\ua684",
+      "normalized": "\ua685"
+    },
+    {
+      "id": "U1070",
+      "raw": "\ua686",
+      "normalized": "\ua687"
+    },
+    {
+      "id": "U1071",
+      "raw": "\ua688",
+      "normalized": "\ua689"
+    },
+    {
+      "id": "U1072",
+      "raw": "\ua68a",
+      "normalized": "\ua68b"
+    },
+    {
+      "id": "U1073",
+      "raw": "\ua68c",
+      "normalized": "\ua68d"
+    },
+    {
+      "id": "U1074",
+      "raw": "\ua68e",
+      "normalized": "\ua68f"
+    },
+    {
+      "id": "U1075",
+      "raw": "\ua690",
+      "normalized": "\ua691"
+    },
+    {
+      "id": "U1076",
+      "raw": "\ua692",
+      "normalized": "\ua693"
+    },
+    {
+      "id": "U1077",
+      "raw": "\ua694",
+      "normalized": "\ua695"
+    },
+    {
+      "id": "U1078",
+      "raw": "\ua696",
+      "normalized": "\ua697"
+    },
+    {
+      "id": "U1079",
+      "raw": "\ua698",
+      "normalized": "\ua699"
+    },
+    {
+      "id": "U1080",
+      "raw": "\ua69a",
+      "normalized": "\ua69b"
+    },
+    {
+      "id": "U1081",
+      "raw": "\ua722",
+      "normalized": "\ua723"
+    },
+    {
+      "id": "U1082",
+      "raw": "\ua724",
+      "normalized": "\ua725"
+    },
+    {
+      "id": "U1083",
+      "raw": "\ua726",
+      "normalized": "\ua727"
+    },
+    {
+      "id": "U1084",
+      "raw": "\ua728",
+      "normalized": "\ua729"
+    },
+    {
+      "id": "U1085",
+      "raw": "\ua72a",
+      "normalized": "\ua72b"
+    },
+    {
+      "id": "U1086",
+      "raw": "\ua72c",
+      "normalized": "\ua72d"
+    },
+    {
+      "id": "U1087",
+      "raw": "\ua72e",
+      "normalized": "\ua72f"
+    },
+    {
+      "id": "U1088",
+      "raw": "\ua732",
+      "normalized": "\ua733"
+    },
+    {
+      "id": "U1089",
+      "raw": "\ua734",
+      "normalized": "\ua735"
+    },
+    {
+      "id": "U1090",
+      "raw": "\ua736",
+      "normalized": "\ua737"
+    },
+    {
+      "id": "U1091",
+      "raw": "\ua738",
+      "normalized": "\ua739"
+    },
+    {
+      "id": "U1092",
+      "raw": "\ua73a",
+      "normalized": "\ua73b"
+    },
+    {
+      "id": "U1093",
+      "raw": "\ua73c",
+      "normalized": "\ua73d"
+    },
+    {
+      "id": "U1094",
+      "raw": "\ua73e",
+      "normalized": "\ua73f"
+    },
+    {
+      "id": "U1095",
+      "raw": "\ua740",
+      "normalized": "\ua741"
+    },
+    {
+      "id": "U1096",
+      "raw": "\ua742",
+      "normalized": "\ua743"
+    },
+    {
+      "id": "U1097",
+      "raw": "\ua744",
+      "normalized": "\ua745"
+    },
+    {
+      "id": "U1098",
+      "raw": "\ua746",
+      "normalized": "\ua747"
+    },
+    {
+      "id": "U1099",
+      "raw": "\ua748",
+      "normalized": "\ua749"
+    },
+    {
+      "id": "U1100",
+      "raw": "\ua74a",
+      "normalized": "\ua74b"
+    },
+    {
+      "id": "U1101",
+      "raw": "\ua74c",
+      "normalized": "\ua74d"
+    },
+    {
+      "id": "U1102",
+      "raw": "\ua74e",
+      "normalized": "\ua74f"
+    },
+    {
+      "id": "U1103",
+      "raw": "\ua750",
+      "normalized": "\ua751"
+    },
+    {
+      "id": "U1104",
+      "raw": "\ua752",
+      "normalized": "\ua753"
+    },
+    {
+      "id": "U1105",
+      "raw": "\ua754",
+      "normalized": "\ua755"
+    },
+    {
+      "id": "U1106",
+      "raw": "\ua756",
+      "normalized": "\ua757"
+    },
+    {
+      "id": "U1107",
+      "raw": "\ua758",
+      "normalized": "\ua759"
+    },
+    {
+      "id": "U1108",
+      "raw": "\ua75a",
+      "normalized": "\ua75b"
+    },
+    {
+      "id": "U1109",
+      "raw": "\ua75c",
+      "normalized": "\ua75d"
+    },
+    {
+      "id": "U1110",
+      "raw": "\ua75e",
+      "normalized": "\ua75f"
+    },
+    {
+      "id": "U1111",
+      "raw": "\ua760",
+      "normalized": "\ua761"
+    },
+    {
+      "id": "U1112",
+      "raw": "\ua762",
+      "normalized": "\ua763"
+    },
+    {
+      "id": "U1113",
+      "raw": "\ua764",
+      "normalized": "\ua765"
+    },
+    {
+      "id": "U1114",
+      "raw": "\ua766",
+      "normalized": "\ua767"
+    },
+    {
+      "id": "U1115",
+      "raw": "\ua768",
+      "normalized": "\ua769"
+    },
+    {
+      "id": "U1116",
+      "raw": "\ua76a",
+      "normalized": "\ua76b"
+    },
+    {
+      "id": "U1117",
+      "raw": "\ua76c",
+      "normalized": "\ua76d"
+    },
+    {
+      "id": "U1118",
+      "raw": "\ua76e",
+      "normalized": "\ua76f"
+    },
+    {
+      "id": "U1119",
+      "raw": "\ua779",
+      "normalized": "\ua77a"
+    },
+    {
+      "id": "U1120",
+      "raw": "\ua77b",
+      "normalized": "\ua77c"
+    },
+    {
+      "id": "U1121",
+      "raw": "\ua77d",
+      "normalized": "\u1d79"
+    },
+    {
+      "id": "U1122",
+      "raw": "\ua77e",
+      "normalized": "\ua77f"
+    },
+    {
+      "id": "U1123",
+      "raw": "\ua780",
+      "normalized": "\ua781"
+    },
+    {
+      "id": "U1124",
+      "raw": "\ua782",
+      "normalized": "\ua783"
+    },
+    {
+      "id": "U1125",
+      "raw": "\ua784",
+      "normalized": "\ua785"
+    },
+    {
+      "id": "U1126",
+      "raw": "\ua786",
+      "normalized": "\ua787"
+    },
+    {
+      "id": "U1127",
+      "raw": "\ua78b",
+      "normalized": "\ua78c"
+    },
+    {
+      "id": "U1128",
+      "raw": "\ua78d",
+      "normalized": "\u0265"
+    },
+    {
+      "id": "U1129",
+      "raw": "\ua790",
+      "normalized": "\ua791"
+    },
+    {
+      "id": "U1130",
+      "raw": "\ua792",
+      "normalized": "\ua793"
+    },
+    {
+      "id": "U1131",
+      "raw": "\ua796",
+      "normalized": "\ua797"
+    },
+    {
+      "id": "U1132",
+      "raw": "\ua798",
+      "normalized": "\ua799"
+    },
+    {
+      "id": "U1133",
+      "raw": "\ua79a",
+      "normalized": "\ua79b"
+    },
+    {
+      "id": "U1134",
+      "raw": "\ua79c",
+      "normalized": "\ua79d"
+    },
+    {
+      "id": "U1135",
+      "raw": "\ua79e",
+      "normalized": "\ua79f"
+    },
+    {
+      "id": "U1136",
+      "raw": "\ua7a0",
+      "normalized": "\ua7a1"
+    },
+    {
+      "id": "U1137",
+      "raw": "\ua7a2",
+      "normalized": "\ua7a3"
+    },
+    {
+      "id": "U1138",
+      "raw": "\ua7a4",
+      "normalized": "\ua7a5"
+    },
+    {
+      "id": "U1139",
+      "raw": "\ua7a6",
+      "normalized": "\ua7a7"
+    },
+    {
+      "id": "U1140",
+      "raw": "\ua7a8",
+      "normalized": "\ua7a9"
+    },
+    {
+      "id": "U1141",
+      "raw": "\ua7aa",
+      "normalized": "\u0266"
+    },
+    {
+      "id": "U1142",
+      "raw": "\ua7ab",
+      "normalized": "\u025c"
+    },
+    {
+      "id": "U1143",
+      "raw": "\ua7ac",
+      "normalized": "\u0261"
+    },
+    {
+      "id": "U1144",
+      "raw": "\ua7ad",
+      "normalized": "\u026c"
+    },
+    {
+      "id": "U1145",
+      "raw": "\ua7ae",
+      "normalized": "\u026a"
+    },
+    {
+      "id": "U1146",
+      "raw": "\ua7b0",
+      "normalized": "\u029e"
+    },
+    {
+      "id": "U1147",
+      "raw": "\ua7b1",
+      "normalized": "\u0287"
+    },
+    {
+      "id": "U1148",
+      "raw": "\ua7b2",
+      "normalized": "\u029d"
+    },
+    {
+      "id": "U1149",
+      "raw": "\ua7b3",
+      "normalized": "\uab53"
+    },
+    {
+      "id": "U1150",
+      "raw": "\ua7b4",
+      "normalized": "\ua7b5"
+    },
+    {
+      "id": "U1151",
+      "raw": "\ua7b6",
+      "normalized": "\ua7b7"
+    },
+    {
+      "id": "U1152",
+      "raw": "\ua7b8",
+      "normalized": "\ua7b9"
+    },
+    {
+      "id": "U1153",
+      "raw": "\ua7ba",
+      "normalized": "\ua7bb"
+    },
+    {
+      "id": "U1154",
+      "raw": "\ua7bc",
+      "normalized": "\ua7bd"
+    },
+    {
+      "id": "U1155",
+      "raw": "\ua7be",
+      "normalized": "\ua7bf"
+    },
+    {
+      "id": "U1156",
+      "raw": "\ua7c0",
+      "normalized": "\ua7c1"
+    },
+    {
+      "id": "U1157",
+      "raw": "\ua7c2",
+      "normalized": "\ua7c3"
+    },
+    {
+      "id": "U1158",
+      "raw": "\ua7c4",
+      "normalized": "\ua794"
+    },
+    {
+      "id": "U1159",
+      "raw": "\ua7c5",
+      "normalized": "\u0282"
+    },
+    {
+      "id": "U1160",
+      "raw": "\ua7c6",
+      "normalized": "\u1d8e"
+    },
+    {
+      "id": "U1161",
+      "raw": "\ua7c7",
+      "normalized": "\ua7c8"
+    },
+    {
+      "id": "U1162",
+      "raw": "\ua7c9",
+      "normalized": "\ua7ca"
+    },
+    {
+      "id": "U1163",
+      "raw": "\ua7d0",
+      "normalized": "\ua7d1"
+    },
+    {
+      "id": "U1164",
+      "raw": "\ua7d6",
+      "normalized": "\ua7d7"
+    },
+    {
+      "id": "U1165",
+      "raw": "\ua7d8",
+      "normalized": "\ua7d9"
+    },
+    {
+      "id": "U1166",
+      "raw": "\ua7f5",
+      "normalized": "\ua7f6"
+    },
+    {
+      "id": "U1167",
+      "raw": "\uff21",
+      "normalized": "a"
+    },
+    {
+      "id": "U1168",
+      "raw": "\uff22",
+      "normalized": "b"
+    },
+    {
+      "id": "U1169",
+      "raw": "\uff23",
+      "normalized": "c"
+    },
+    {
+      "id": "U1170",
+      "raw": "\uff24",
+      "normalized": "d"
+    },
+    {
+      "id": "U1171",
+      "raw": "\uff25",
+      "normalized": "e"
+    },
+    {
+      "id": "U1172",
+      "raw": "\uff26",
+      "normalized": "f"
+    },
+    {
+      "id": "U1173",
+      "raw": "\uff27",
+      "normalized": "g"
+    },
+    {
+      "id": "U1174",
+      "raw": "\uff28",
+      "normalized": "h"
+    },
+    {
+      "id": "U1175",
+      "raw": "\uff29",
+      "normalized": "i"
+    },
+    {
+      "id": "U1176",
+      "raw": "\uff2a",
+      "normalized": "j"
+    },
+    {
+      "id": "U1177",
+      "raw": "\uff2b",
+      "normalized": "k"
+    },
+    {
+      "id": "U1178",
+      "raw": "\uff2c",
+      "normalized": "l"
+    },
+    {
+      "id": "U1179",
+      "raw": "\uff2d",
+      "normalized": "m"
+    },
+    {
+      "id": "U1180",
+      "raw": "\uff2e",
+      "normalized": "n"
+    },
+    {
+      "id": "U1181",
+      "raw": "\uff2f",
+      "normalized": "o"
+    },
+    {
+      "id": "U1182",
+      "raw": "\uff30",
+      "normalized": "p"
+    },
+    {
+      "id": "U1183",
+      "raw": "\uff31",
+      "normalized": "q"
+    },
+    {
+      "id": "U1184",
+      "raw": "\uff32",
+      "normalized": "r"
+    },
+    {
+      "id": "U1185",
+      "raw": "\uff33",
+      "normalized": "s"
+    },
+    {
+      "id": "U1186",
+      "raw": "\uff34",
+      "normalized": "t"
+    },
+    {
+      "id": "U1187",
+      "raw": "\uff35",
+      "normalized": "u"
+    },
+    {
+      "id": "U1188",
+      "raw": "\uff36",
+      "normalized": "v"
+    },
+    {
+      "id": "U1189",
+      "raw": "\uff37",
+      "normalized": "w"
+    },
+    {
+      "id": "U1190",
+      "raw": "\uff38",
+      "normalized": "x"
+    },
+    {
+      "id": "U1191",
+      "raw": "\uff39",
+      "normalized": "y"
+    },
+    {
+      "id": "U1192",
+      "raw": "\uff3a",
+      "normalized": "z"
+    },
+    {
+      "id": "U1193",
+      "raw": "\ud801\udc00",
+      "normalized": "\ud801\udc28"
+    },
+    {
+      "id": "U1194",
+      "raw": "\ud801\udc01",
+      "normalized": "\ud801\udc29"
+    },
+    {
+      "id": "U1195",
+      "raw": "\ud801\udc02",
+      "normalized": "\ud801\udc2a"
+    },
+    {
+      "id": "U1196",
+      "raw": "\ud801\udc03",
+      "normalized": "\ud801\udc2b"
+    },
+    {
+      "id": "U1197",
+      "raw": "\ud801\udc04",
+      "normalized": "\ud801\udc2c"
+    },
+    {
+      "id": "U1198",
+      "raw": "\ud801\udc05",
+      "normalized": "\ud801\udc2d"
+    },
+    {
+      "id": "U1199",
+      "raw": "\ud801\udc06",
+      "normalized": "\ud801\udc2e"
+    },
+    {
+      "id": "U1200",
+      "raw": "\ud801\udc07",
+      "normalized": "\ud801\udc2f"
+    },
+    {
+      "id": "U1201",
+      "raw": "\ud801\udc08",
+      "normalized": "\ud801\udc30"
+    },
+    {
+      "id": "U1202",
+      "raw": "\ud801\udc09",
+      "normalized": "\ud801\udc31"
+    },
+    {
+      "id": "U1203",
+      "raw": "\ud801\udc0a",
+      "normalized": "\ud801\udc32"
+    },
+    {
+      "id": "U1204",
+      "raw": "\ud801\udc0b",
+      "normalized": "\ud801\udc33"
+    },
+    {
+      "id": "U1205",
+      "raw": "\ud801\udc0c",
+      "normalized": "\ud801\udc34"
+    },
+    {
+      "id": "U1206",
+      "raw": "\ud801\udc0d",
+      "normalized": "\ud801\udc35"
+    },
+    {
+      "id": "U1207",
+      "raw": "\ud801\udc0e",
+      "normalized": "\ud801\udc36"
+    },
+    {
+      "id": "U1208",
+      "raw": "\ud801\udc0f",
+      "normalized": "\ud801\udc37"
+    },
+    {
+      "id": "U1209",
+      "raw": "\ud801\udc10",
+      "normalized": "\ud801\udc38"
+    },
+    {
+      "id": "U1210",
+      "raw": "\ud801\udc11",
+      "normalized": "\ud801\udc39"
+    },
+    {
+      "id": "U1211",
+      "raw": "\ud801\udc12",
+      "normalized": "\ud801\udc3a"
+    },
+    {
+      "id": "U1212",
+      "raw": "\ud801\udc13",
+      "normalized": "\ud801\udc3b"
+    },
+    {
+      "id": "U1213",
+      "raw": "\ud801\udc14",
+      "normalized": "\ud801\udc3c"
+    },
+    {
+      "id": "U1214",
+      "raw": "\ud801\udc15",
+      "normalized": "\ud801\udc3d"
+    },
+    {
+      "id": "U1215",
+      "raw": "\ud801\udc16",
+      "normalized": "\ud801\udc3e"
+    },
+    {
+      "id": "U1216",
+      "raw": "\ud801\udc17",
+      "normalized": "\ud801\udc3f"
+    },
+    {
+      "id": "U1217",
+      "raw": "\ud801\udc18",
+      "normalized": "\ud801\udc40"
+    },
+    {
+      "id": "U1218",
+      "raw": "\ud801\udc19",
+      "normalized": "\ud801\udc41"
+    },
+    {
+      "id": "U1219",
+      "raw": "\ud801\udc1a",
+      "normalized": "\ud801\udc42"
+    },
+    {
+      "id": "U1220",
+      "raw": "\ud801\udc1b",
+      "normalized": "\ud801\udc43"
+    },
+    {
+      "id": "U1221",
+      "raw": "\ud801\udc1c",
+      "normalized": "\ud801\udc44"
+    },
+    {
+      "id": "U1222",
+      "raw": "\ud801\udc1d",
+      "normalized": "\ud801\udc45"
+    },
+    {
+      "id": "U1223",
+      "raw": "\ud801\udc1e",
+      "normalized": "\ud801\udc46"
+    },
+    {
+      "id": "U1224",
+      "raw": "\ud801\udc1f",
+      "normalized": "\ud801\udc47"
+    },
+    {
+      "id": "U1225",
+      "raw": "\ud801\udc20",
+      "normalized": "\ud801\udc48"
+    },
+    {
+      "id": "U1226",
+      "raw": "\ud801\udc21",
+      "normalized": "\ud801\udc49"
+    },
+    {
+      "id": "U1227",
+      "raw": "\ud801\udc22",
+      "normalized": "\ud801\udc4a"
+    },
+    {
+      "id": "U1228",
+      "raw": "\ud801\udc23",
+      "normalized": "\ud801\udc4b"
+    },
+    {
+      "id": "U1229",
+      "raw": "\ud801\udc24",
+      "normalized": "\ud801\udc4c"
+    },
+    {
+      "id": "U1230",
+      "raw": "\ud801\udc25",
+      "normalized": "\ud801\udc4d"
+    },
+    {
+      "id": "U1231",
+      "raw": "\ud801\udc26",
+      "normalized": "\ud801\udc4e"
+    },
+    {
+      "id": "U1232",
+      "raw": "\ud801\udc27",
+      "normalized": "\ud801\udc4f"
+    },
+    {
+      "id": "U1233",
+      "raw": "\ud801\udcb0",
+      "normalized": "\ud801\udcd8"
+    },
+    {
+      "id": "U1234",
+      "raw": "\ud801\udcb1",
+      "normalized": "\ud801\udcd9"
+    },
+    {
+      "id": "U1235",
+      "raw": "\ud801\udcb2",
+      "normalized": "\ud801\udcda"
+    },
+    {
+      "id": "U1236",
+      "raw": "\ud801\udcb3",
+      "normalized": "\ud801\udcdb"
+    },
+    {
+      "id": "U1237",
+      "raw": "\ud801\udcb4",
+      "normalized": "\ud801\udcdc"
+    },
+    {
+      "id": "U1238",
+      "raw": "\ud801\udcb5",
+      "normalized": "\ud801\udcdd"
+    },
+    {
+      "id": "U1239",
+      "raw": "\ud801\udcb6",
+      "normalized": "\ud801\udcde"
+    },
+    {
+      "id": "U1240",
+      "raw": "\ud801\udcb7",
+      "normalized": "\ud801\udcdf"
+    },
+    {
+      "id": "U1241",
+      "raw": "\ud801\udcb8",
+      "normalized": "\ud801\udce0"
+    },
+    {
+      "id": "U1242",
+      "raw": "\ud801\udcb9",
+      "normalized": "\ud801\udce1"
+    },
+    {
+      "id": "U1243",
+      "raw": "\ud801\udcba",
+      "normalized": "\ud801\udce2"
+    },
+    {
+      "id": "U1244",
+      "raw": "\ud801\udcbb",
+      "normalized": "\ud801\udce3"
+    },
+    {
+      "id": "U1245",
+      "raw": "\ud801\udcbc",
+      "normalized": "\ud801\udce4"
+    },
+    {
+      "id": "U1246",
+      "raw": "\ud801\udcbd",
+      "normalized": "\ud801\udce5"
+    },
+    {
+      "id": "U1247",
+      "raw": "\ud801\udcbe",
+      "normalized": "\ud801\udce6"
+    },
+    {
+      "id": "U1248",
+      "raw": "\ud801\udcbf",
+      "normalized": "\ud801\udce7"
+    },
+    {
+      "id": "U1249",
+      "raw": "\ud801\udcc0",
+      "normalized": "\ud801\udce8"
+    },
+    {
+      "id": "U1250",
+      "raw": "\ud801\udcc1",
+      "normalized": "\ud801\udce9"
+    },
+    {
+      "id": "U1251",
+      "raw": "\ud801\udcc2",
+      "normalized": "\ud801\udcea"
+    },
+    {
+      "id": "U1252",
+      "raw": "\ud801\udcc3",
+      "normalized": "\ud801\udceb"
+    },
+    {
+      "id": "U1253",
+      "raw": "\ud801\udcc4",
+      "normalized": "\ud801\udcec"
+    },
+    {
+      "id": "U1254",
+      "raw": "\ud801\udcc5",
+      "normalized": "\ud801\udced"
+    },
+    {
+      "id": "U1255",
+      "raw": "\ud801\udcc6",
+      "normalized": "\ud801\udcee"
+    },
+    {
+      "id": "U1256",
+      "raw": "\ud801\udcc7",
+      "normalized": "\ud801\udcef"
+    },
+    {
+      "id": "U1257",
+      "raw": "\ud801\udcc8",
+      "normalized": "\ud801\udcf0"
+    },
+    {
+      "id": "U1258",
+      "raw": "\ud801\udcc9",
+      "normalized": "\ud801\udcf1"
+    },
+    {
+      "id": "U1259",
+      "raw": "\ud801\udcca",
+      "normalized": "\ud801\udcf2"
+    },
+    {
+      "id": "U1260",
+      "raw": "\ud801\udccb",
+      "normalized": "\ud801\udcf3"
+    },
+    {
+      "id": "U1261",
+      "raw": "\ud801\udccc",
+      "normalized": "\ud801\udcf4"
+    },
+    {
+      "id": "U1262",
+      "raw": "\ud801\udccd",
+      "normalized": "\ud801\udcf5"
+    },
+    {
+      "id": "U1263",
+      "raw": "\ud801\udcce",
+      "normalized": "\ud801\udcf6"
+    },
+    {
+      "id": "U1264",
+      "raw": "\ud801\udccf",
+      "normalized": "\ud801\udcf7"
+    },
+    {
+      "id": "U1265",
+      "raw": "\ud801\udcd0",
+      "normalized": "\ud801\udcf8"
+    },
+    {
+      "id": "U1266",
+      "raw": "\ud801\udcd1",
+      "normalized": "\ud801\udcf9"
+    },
+    {
+      "id": "U1267",
+      "raw": "\ud801\udcd2",
+      "normalized": "\ud801\udcfa"
+    },
+    {
+      "id": "U1268",
+      "raw": "\ud801\udcd3",
+      "normalized": "\ud801\udcfb"
+    },
+    {
+      "id": "U1269",
+      "raw": "\ud801\udd70",
+      "normalized": "\ud801\udd97"
+    },
+    {
+      "id": "U1270",
+      "raw": "\ud801\udd71",
+      "normalized": "\ud801\udd98"
+    },
+    {
+      "id": "U1271",
+      "raw": "\ud801\udd72",
+      "normalized": "\ud801\udd99"
+    },
+    {
+      "id": "U1272",
+      "raw": "\ud801\udd73",
+      "normalized": "\ud801\udd9a"
+    },
+    {
+      "id": "U1273",
+      "raw": "\ud801\udd74",
+      "normalized": "\ud801\udd9b"
+    },
+    {
+      "id": "U1274",
+      "raw": "\ud801\udd75",
+      "normalized": "\ud801\udd9c"
+    },
+    {
+      "id": "U1275",
+      "raw": "\ud801\udd76",
+      "normalized": "\ud801\udd9d"
+    },
+    {
+      "id": "U1276",
+      "raw": "\ud801\udd77",
+      "normalized": "\ud801\udd9e"
+    },
+    {
+      "id": "U1277",
+      "raw": "\ud801\udd78",
+      "normalized": "\ud801\udd9f"
+    },
+    {
+      "id": "U1278",
+      "raw": "\ud801\udd79",
+      "normalized": "\ud801\udda0"
+    },
+    {
+      "id": "U1279",
+      "raw": "\ud801\udd7a",
+      "normalized": "\ud801\udda1"
+    },
+    {
+      "id": "U1280",
+      "raw": "\ud801\udd7c",
+      "normalized": "\ud801\udda3"
+    },
+    {
+      "id": "U1281",
+      "raw": "\ud801\udd7d",
+      "normalized": "\ud801\udda4"
+    },
+    {
+      "id": "U1282",
+      "raw": "\ud801\udd7e",
+      "normalized": "\ud801\udda5"
+    },
+    {
+      "id": "U1283",
+      "raw": "\ud801\udd7f",
+      "normalized": "\ud801\udda6"
+    },
+    {
+      "id": "U1284",
+      "raw": "\ud801\udd80",
+      "normalized": "\ud801\udda7"
+    },
+    {
+      "id": "U1285",
+      "raw": "\ud801\udd81",
+      "normalized": "\ud801\udda8"
+    },
+    {
+      "id": "U1286",
+      "raw": "\ud801\udd82",
+      "normalized": "\ud801\udda9"
+    },
+    {
+      "id": "U1287",
+      "raw": "\ud801\udd83",
+      "normalized": "\ud801\uddaa"
+    },
+    {
+      "id": "U1288",
+      "raw": "\ud801\udd84",
+      "normalized": "\ud801\uddab"
+    },
+    {
+      "id": "U1289",
+      "raw": "\ud801\udd85",
+      "normalized": "\ud801\uddac"
+    },
+    {
+      "id": "U1290",
+      "raw": "\ud801\udd86",
+      "normalized": "\ud801\uddad"
+    },
+    {
+      "id": "U1291",
+      "raw": "\ud801\udd87",
+      "normalized": "\ud801\uddae"
+    },
+    {
+      "id": "U1292",
+      "raw": "\ud801\udd88",
+      "normalized": "\ud801\uddaf"
+    },
+    {
+      "id": "U1293",
+      "raw": "\ud801\udd89",
+      "normalized": "\ud801\uddb0"
+    },
+    {
+      "id": "U1294",
+      "raw": "\ud801\udd8a",
+      "normalized": "\ud801\uddb1"
+    },
+    {
+      "id": "U1295",
+      "raw": "\ud801\udd8c",
+      "normalized": "\ud801\uddb3"
+    },
+    {
+      "id": "U1296",
+      "raw": "\ud801\udd8d",
+      "normalized": "\ud801\uddb4"
+    },
+    {
+      "id": "U1297",
+      "raw": "\ud801\udd8e",
+      "normalized": "\ud801\uddb5"
+    },
+    {
+      "id": "U1298",
+      "raw": "\ud801\udd8f",
+      "normalized": "\ud801\uddb6"
+    },
+    {
+      "id": "U1299",
+      "raw": "\ud801\udd90",
+      "normalized": "\ud801\uddb7"
+    },
+    {
+      "id": "U1300",
+      "raw": "\ud801\udd91",
+      "normalized": "\ud801\uddb8"
+    },
+    {
+      "id": "U1301",
+      "raw": "\ud801\udd92",
+      "normalized": "\ud801\uddb9"
+    },
+    {
+      "id": "U1302",
+      "raw": "\ud801\udd94",
+      "normalized": "\ud801\uddbb"
+    },
+    {
+      "id": "U1303",
+      "raw": "\ud801\udd95",
+      "normalized": "\ud801\uddbc"
+    },
+    {
+      "id": "U1304",
+      "raw": "\ud803\udc80",
+      "normalized": "\ud803\udcc0"
+    },
+    {
+      "id": "U1305",
+      "raw": "\ud803\udc81",
+      "normalized": "\ud803\udcc1"
+    },
+    {
+      "id": "U1306",
+      "raw": "\ud803\udc82",
+      "normalized": "\ud803\udcc2"
+    },
+    {
+      "id": "U1307",
+      "raw": "\ud803\udc83",
+      "normalized": "\ud803\udcc3"
+    },
+    {
+      "id": "U1308",
+      "raw": "\ud803\udc84",
+      "normalized": "\ud803\udcc4"
+    },
+    {
+      "id": "U1309",
+      "raw": "\ud803\udc85",
+      "normalized": "\ud803\udcc5"
+    },
+    {
+      "id": "U1310",
+      "raw": "\ud803\udc86",
+      "normalized": "\ud803\udcc6"
+    },
+    {
+      "id": "U1311",
+      "raw": "\ud803\udc87",
+      "normalized": "\ud803\udcc7"
+    },
+    {
+      "id": "U1312",
+      "raw": "\ud803\udc88",
+      "normalized": "\ud803\udcc8"
+    },
+    {
+      "id": "U1313",
+      "raw": "\ud803\udc89",
+      "normalized": "\ud803\udcc9"
+    },
+    {
+      "id": "U1314",
+      "raw": "\ud803\udc8a",
+      "normalized": "\ud803\udcca"
+    },
+    {
+      "id": "U1315",
+      "raw": "\ud803\udc8b",
+      "normalized": "\ud803\udccb"
+    },
+    {
+      "id": "U1316",
+      "raw": "\ud803\udc8c",
+      "normalized": "\ud803\udccc"
+    },
+    {
+      "id": "U1317",
+      "raw": "\ud803\udc8d",
+      "normalized": "\ud803\udccd"
+    },
+    {
+      "id": "U1318",
+      "raw": "\ud803\udc8e",
+      "normalized": "\ud803\udcce"
+    },
+    {
+      "id": "U1319",
+      "raw": "\ud803\udc8f",
+      "normalized": "\ud803\udccf"
+    },
+    {
+      "id": "U1320",
+      "raw": "\ud803\udc90",
+      "normalized": "\ud803\udcd0"
+    },
+    {
+      "id": "U1321",
+      "raw": "\ud803\udc91",
+      "normalized": "\ud803\udcd1"
+    },
+    {
+      "id": "U1322",
+      "raw": "\ud803\udc92",
+      "normalized": "\ud803\udcd2"
+    },
+    {
+      "id": "U1323",
+      "raw": "\ud803\udc93",
+      "normalized": "\ud803\udcd3"
+    },
+    {
+      "id": "U1324",
+      "raw": "\ud803\udc94",
+      "normalized": "\ud803\udcd4"
+    },
+    {
+      "id": "U1325",
+      "raw": "\ud803\udc95",
+      "normalized": "\ud803\udcd5"
+    },
+    {
+      "id": "U1326",
+      "raw": "\ud803\udc96",
+      "normalized": "\ud803\udcd6"
+    },
+    {
+      "id": "U1327",
+      "raw": "\ud803\udc97",
+      "normalized": "\ud803\udcd7"
+    },
+    {
+      "id": "U1328",
+      "raw": "\ud803\udc98",
+      "normalized": "\ud803\udcd8"
+    },
+    {
+      "id": "U1329",
+      "raw": "\ud803\udc99",
+      "normalized": "\ud803\udcd9"
+    },
+    {
+      "id": "U1330",
+      "raw": "\ud803\udc9a",
+      "normalized": "\ud803\udcda"
+    },
+    {
+      "id": "U1331",
+      "raw": "\ud803\udc9b",
+      "normalized": "\ud803\udcdb"
+    },
+    {
+      "id": "U1332",
+      "raw": "\ud803\udc9c",
+      "normalized": "\ud803\udcdc"
+    },
+    {
+      "id": "U1333",
+      "raw": "\ud803\udc9d",
+      "normalized": "\ud803\udcdd"
+    },
+    {
+      "id": "U1334",
+      "raw": "\ud803\udc9e",
+      "normalized": "\ud803\udcde"
+    },
+    {
+      "id": "U1335",
+      "raw": "\ud803\udc9f",
+      "normalized": "\ud803\udcdf"
+    },
+    {
+      "id": "U1336",
+      "raw": "\ud803\udca0",
+      "normalized": "\ud803\udce0"
+    },
+    {
+      "id": "U1337",
+      "raw": "\ud803\udca1",
+      "normalized": "\ud803\udce1"
+    },
+    {
+      "id": "U1338",
+      "raw": "\ud803\udca2",
+      "normalized": "\ud803\udce2"
+    },
+    {
+      "id": "U1339",
+      "raw": "\ud803\udca3",
+      "normalized": "\ud803\udce3"
+    },
+    {
+      "id": "U1340",
+      "raw": "\ud803\udca4",
+      "normalized": "\ud803\udce4"
+    },
+    {
+      "id": "U1341",
+      "raw": "\ud803\udca5",
+      "normalized": "\ud803\udce5"
+    },
+    {
+      "id": "U1342",
+      "raw": "\ud803\udca6",
+      "normalized": "\ud803\udce6"
+    },
+    {
+      "id": "U1343",
+      "raw": "\ud803\udca7",
+      "normalized": "\ud803\udce7"
+    },
+    {
+      "id": "U1344",
+      "raw": "\ud803\udca8",
+      "normalized": "\ud803\udce8"
+    },
+    {
+      "id": "U1345",
+      "raw": "\ud803\udca9",
+      "normalized": "\ud803\udce9"
+    },
+    {
+      "id": "U1346",
+      "raw": "\ud803\udcaa",
+      "normalized": "\ud803\udcea"
+    },
+    {
+      "id": "U1347",
+      "raw": "\ud803\udcab",
+      "normalized": "\ud803\udceb"
+    },
+    {
+      "id": "U1348",
+      "raw": "\ud803\udcac",
+      "normalized": "\ud803\udcec"
+    },
+    {
+      "id": "U1349",
+      "raw": "\ud803\udcad",
+      "normalized": "\ud803\udced"
+    },
+    {
+      "id": "U1350",
+      "raw": "\ud803\udcae",
+      "normalized": "\ud803\udcee"
+    },
+    {
+      "id": "U1351",
+      "raw": "\ud803\udcaf",
+      "normalized": "\ud803\udcef"
+    },
+    {
+      "id": "U1352",
+      "raw": "\ud803\udcb0",
+      "normalized": "\ud803\udcf0"
+    },
+    {
+      "id": "U1353",
+      "raw": "\ud803\udcb1",
+      "normalized": "\ud803\udcf1"
+    },
+    {
+      "id": "U1354",
+      "raw": "\ud803\udcb2",
+      "normalized": "\ud803\udcf2"
+    },
+    {
+      "id": "U1355",
+      "raw": "\ud806\udca0",
+      "normalized": "\ud806\udcc0"
+    },
+    {
+      "id": "U1356",
+      "raw": "\ud806\udca1",
+      "normalized": "\ud806\udcc1"
+    },
+    {
+      "id": "U1357",
+      "raw": "\ud806\udca2",
+      "normalized": "\ud806\udcc2"
+    },
+    {
+      "id": "U1358",
+      "raw": "\ud806\udca3",
+      "normalized": "\ud806\udcc3"
+    },
+    {
+      "id": "U1359",
+      "raw": "\ud806\udca4",
+      "normalized": "\ud806\udcc4"
+    },
+    {
+      "id": "U1360",
+      "raw": "\ud806\udca5",
+      "normalized": "\ud806\udcc5"
+    },
+    {
+      "id": "U1361",
+      "raw": "\ud806\udca6",
+      "normalized": "\ud806\udcc6"
+    },
+    {
+      "id": "U1362",
+      "raw": "\ud806\udca7",
+      "normalized": "\ud806\udcc7"
+    },
+    {
+      "id": "U1363",
+      "raw": "\ud806\udca8",
+      "normalized": "\ud806\udcc8"
+    },
+    {
+      "id": "U1364",
+      "raw": "\ud806\udca9",
+      "normalized": "\ud806\udcc9"
+    },
+    {
+      "id": "U1365",
+      "raw": "\ud806\udcaa",
+      "normalized": "\ud806\udcca"
+    },
+    {
+      "id": "U1366",
+      "raw": "\ud806\udcab",
+      "normalized": "\ud806\udccb"
+    },
+    {
+      "id": "U1367",
+      "raw": "\ud806\udcac",
+      "normalized": "\ud806\udccc"
+    },
+    {
+      "id": "U1368",
+      "raw": "\ud806\udcad",
+      "normalized": "\ud806\udccd"
+    },
+    {
+      "id": "U1369",
+      "raw": "\ud806\udcae",
+      "normalized": "\ud806\udcce"
+    },
+    {
+      "id": "U1370",
+      "raw": "\ud806\udcaf",
+      "normalized": "\ud806\udccf"
+    },
+    {
+      "id": "U1371",
+      "raw": "\ud806\udcb0",
+      "normalized": "\ud806\udcd0"
+    },
+    {
+      "id": "U1372",
+      "raw": "\ud806\udcb1",
+      "normalized": "\ud806\udcd1"
+    },
+    {
+      "id": "U1373",
+      "raw": "\ud806\udcb2",
+      "normalized": "\ud806\udcd2"
+    },
+    {
+      "id": "U1374",
+      "raw": "\ud806\udcb3",
+      "normalized": "\ud806\udcd3"
+    },
+    {
+      "id": "U1375",
+      "raw": "\ud806\udcb4",
+      "normalized": "\ud806\udcd4"
+    },
+    {
+      "id": "U1376",
+      "raw": "\ud806\udcb5",
+      "normalized": "\ud806\udcd5"
+    },
+    {
+      "id": "U1377",
+      "raw": "\ud806\udcb6",
+      "normalized": "\ud806\udcd6"
+    },
+    {
+      "id": "U1378",
+      "raw": "\ud806\udcb7",
+      "normalized": "\ud806\udcd7"
+    },
+    {
+      "id": "U1379",
+      "raw": "\ud806\udcb8",
+      "normalized": "\ud806\udcd8"
+    },
+    {
+      "id": "U1380",
+      "raw": "\ud806\udcb9",
+      "normalized": "\ud806\udcd9"
+    },
+    {
+      "id": "U1381",
+      "raw": "\ud806\udcba",
+      "normalized": "\ud806\udcda"
+    },
+    {
+      "id": "U1382",
+      "raw": "\ud806\udcbb",
+      "normalized": "\ud806\udcdb"
+    },
+    {
+      "id": "U1383",
+      "raw": "\ud806\udcbc",
+      "normalized": "\ud806\udcdc"
+    },
+    {
+      "id": "U1384",
+      "raw": "\ud806\udcbd",
+      "normalized": "\ud806\udcdd"
+    },
+    {
+      "id": "U1385",
+      "raw": "\ud806\udcbe",
+      "normalized": "\ud806\udcde"
+    },
+    {
+      "id": "U1386",
+      "raw": "\ud806\udcbf",
+      "normalized": "\ud806\udcdf"
+    },
+    {
+      "id": "U1387",
+      "raw": "\ud81b\ude40",
+      "normalized": "\ud81b\ude60"
+    },
+    {
+      "id": "U1388",
+      "raw": "\ud81b\ude41",
+      "normalized": "\ud81b\ude61"
+    },
+    {
+      "id": "U1389",
+      "raw": "\ud81b\ude42",
+      "normalized": "\ud81b\ude62"
+    },
+    {
+      "id": "U1390",
+      "raw": "\ud81b\ude43",
+      "normalized": "\ud81b\ude63"
+    },
+    {
+      "id": "U1391",
+      "raw": "\ud81b\ude44",
+      "normalized": "\ud81b\ude64"
+    },
+    {
+      "id": "U1392",
+      "raw": "\ud81b\ude45",
+      "normalized": "\ud81b\ude65"
+    },
+    {
+      "id": "U1393",
+      "raw": "\ud81b\ude46",
+      "normalized": "\ud81b\ude66"
+    },
+    {
+      "id": "U1394",
+      "raw": "\ud81b\ude47",
+      "normalized": "\ud81b\ude67"
+    },
+    {
+      "id": "U1395",
+      "raw": "\ud81b\ude48",
+      "normalized": "\ud81b\ude68"
+    },
+    {
+      "id": "U1396",
+      "raw": "\ud81b\ude49",
+      "normalized": "\ud81b\ude69"
+    },
+    {
+      "id": "U1397",
+      "raw": "\ud81b\ude4a",
+      "normalized": "\ud81b\ude6a"
+    },
+    {
+      "id": "U1398",
+      "raw": "\ud81b\ude4b",
+      "normalized": "\ud81b\ude6b"
+    },
+    {
+      "id": "U1399",
+      "raw": "\ud81b\ude4c",
+      "normalized": "\ud81b\ude6c"
+    },
+    {
+      "id": "U1400",
+      "raw": "\ud81b\ude4d",
+      "normalized": "\ud81b\ude6d"
+    },
+    {
+      "id": "U1401",
+      "raw": "\ud81b\ude4e",
+      "normalized": "\ud81b\ude6e"
+    },
+    {
+      "id": "U1402",
+      "raw": "\ud81b\ude4f",
+      "normalized": "\ud81b\ude6f"
+    },
+    {
+      "id": "U1403",
+      "raw": "\ud81b\ude50",
+      "normalized": "\ud81b\ude70"
+    },
+    {
+      "id": "U1404",
+      "raw": "\ud81b\ude51",
+      "normalized": "\ud81b\ude71"
+    },
+    {
+      "id": "U1405",
+      "raw": "\ud81b\ude52",
+      "normalized": "\ud81b\ude72"
+    },
+    {
+      "id": "U1406",
+      "raw": "\ud81b\ude53",
+      "normalized": "\ud81b\ude73"
+    },
+    {
+      "id": "U1407",
+      "raw": "\ud81b\ude54",
+      "normalized": "\ud81b\ude74"
+    },
+    {
+      "id": "U1408",
+      "raw": "\ud81b\ude55",
+      "normalized": "\ud81b\ude75"
+    },
+    {
+      "id": "U1409",
+      "raw": "\ud81b\ude56",
+      "normalized": "\ud81b\ude76"
+    },
+    {
+      "id": "U1410",
+      "raw": "\ud81b\ude57",
+      "normalized": "\ud81b\ude77"
+    },
+    {
+      "id": "U1411",
+      "raw": "\ud81b\ude58",
+      "normalized": "\ud81b\ude78"
+    },
+    {
+      "id": "U1412",
+      "raw": "\ud81b\ude59",
+      "normalized": "\ud81b\ude79"
+    },
+    {
+      "id": "U1413",
+      "raw": "\ud81b\ude5a",
+      "normalized": "\ud81b\ude7a"
+    },
+    {
+      "id": "U1414",
+      "raw": "\ud81b\ude5b",
+      "normalized": "\ud81b\ude7b"
+    },
+    {
+      "id": "U1415",
+      "raw": "\ud81b\ude5c",
+      "normalized": "\ud81b\ude7c"
+    },
+    {
+      "id": "U1416",
+      "raw": "\ud81b\ude5d",
+      "normalized": "\ud81b\ude7d"
+    },
+    {
+      "id": "U1417",
+      "raw": "\ud81b\ude5e",
+      "normalized": "\ud81b\ude7e"
+    },
+    {
+      "id": "U1418",
+      "raw": "\ud81b\ude5f",
+      "normalized": "\ud81b\ude7f"
+    },
+    {
+      "id": "U1419",
+      "raw": "\ud83a\udd00",
+      "normalized": "\ud83a\udd22"
+    },
+    {
+      "id": "U1420",
+      "raw": "\ud83a\udd01",
+      "normalized": "\ud83a\udd23"
+    },
+    {
+      "id": "U1421",
+      "raw": "\ud83a\udd02",
+      "normalized": "\ud83a\udd24"
+    },
+    {
+      "id": "U1422",
+      "raw": "\ud83a\udd03",
+      "normalized": "\ud83a\udd25"
+    },
+    {
+      "id": "U1423",
+      "raw": "\ud83a\udd04",
+      "normalized": "\ud83a\udd26"
+    },
+    {
+      "id": "U1424",
+      "raw": "\ud83a\udd05",
+      "normalized": "\ud83a\udd27"
+    },
+    {
+      "id": "U1425",
+      "raw": "\ud83a\udd06",
+      "normalized": "\ud83a\udd28"
+    },
+    {
+      "id": "U1426",
+      "raw": "\ud83a\udd07",
+      "normalized": "\ud83a\udd29"
+    },
+    {
+      "id": "U1427",
+      "raw": "\ud83a\udd08",
+      "normalized": "\ud83a\udd2a"
+    },
+    {
+      "id": "U1428",
+      "raw": "\ud83a\udd09",
+      "normalized": "\ud83a\udd2b"
+    },
+    {
+      "id": "U1429",
+      "raw": "\ud83a\udd0a",
+      "normalized": "\ud83a\udd2c"
+    },
+    {
+      "id": "U1430",
+      "raw": "\ud83a\udd0b",
+      "normalized": "\ud83a\udd2d"
+    },
+    {
+      "id": "U1431",
+      "raw": "\ud83a\udd0c",
+      "normalized": "\ud83a\udd2e"
+    },
+    {
+      "id": "U1432",
+      "raw": "\ud83a\udd0d",
+      "normalized": "\ud83a\udd2f"
+    },
+    {
+      "id": "U1433",
+      "raw": "\ud83a\udd0e",
+      "normalized": "\ud83a\udd30"
+    },
+    {
+      "id": "U1434",
+      "raw": "\ud83a\udd0f",
+      "normalized": "\ud83a\udd31"
+    },
+    {
+      "id": "U1435",
+      "raw": "\ud83a\udd10",
+      "normalized": "\ud83a\udd32"
+    },
+    {
+      "id": "U1436",
+      "raw": "\ud83a\udd11",
+      "normalized": "\ud83a\udd33"
+    },
+    {
+      "id": "U1437",
+      "raw": "\ud83a\udd12",
+      "normalized": "\ud83a\udd34"
+    },
+    {
+      "id": "U1438",
+      "raw": "\ud83a\udd13",
+      "normalized": "\ud83a\udd35"
+    },
+    {
+      "id": "U1439",
+      "raw": "\ud83a\udd14",
+      "normalized": "\ud83a\udd36"
+    },
+    {
+      "id": "U1440",
+      "raw": "\ud83a\udd15",
+      "normalized": "\ud83a\udd37"
+    },
+    {
+      "id": "U1441",
+      "raw": "\ud83a\udd16",
+      "normalized": "\ud83a\udd38"
+    },
+    {
+      "id": "U1442",
+      "raw": "\ud83a\udd17",
+      "normalized": "\ud83a\udd39"
+    },
+    {
+      "id": "U1443",
+      "raw": "\ud83a\udd18",
+      "normalized": "\ud83a\udd3a"
+    },
+    {
+      "id": "U1444",
+      "raw": "\ud83a\udd19",
+      "normalized": "\ud83a\udd3b"
+    },
+    {
+      "id": "U1445",
+      "raw": "\ud83a\udd1a",
+      "normalized": "\ud83a\udd3c"
+    },
+    {
+      "id": "U1446",
+      "raw": "\ud83a\udd1b",
+      "normalized": "\ud83a\udd3d"
+    },
+    {
+      "id": "U1447",
+      "raw": "\ud83a\udd1c",
+      "normalized": "\ud83a\udd3e"
+    },
+    {
+      "id": "U1448",
+      "raw": "\ud83a\udd1d",
+      "normalized": "\ud83a\udd3f"
+    },
+    {
+      "id": "U1449",
+      "raw": "\ud83a\udd1e",
+      "normalized": "\ud83a\udd40"
+    },
+    {
+      "id": "U1450",
+      "raw": "\ud83a\udd1f",
+      "normalized": "\ud83a\udd41"
+    },
+    {
+      "id": "U1451",
+      "raw": "\ud83a\udd20",
+      "normalized": "\ud83a\udd42"
+    },
+    {
+      "id": "U1452",
+      "raw": "\ud83a\udd21",
+      "normalized": "\ud83a\udd43"
+    }
+  ]
+}

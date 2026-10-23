@@ -1,0 +1,10 @@
+{
+  "status": "AUTHORIZED_CLASS_LAUNCH_NOT_TEST_ACCEPTANCE",
+  "selection": "diagnostics",
+  "started_utc": "2026-10-11T21:08:57.753285+00:00",
+  "remaining_window_seconds_at_launch": 780.366462,
+  "window_proof_sha256": "c5c60bf7e6c17217140fa38d21bc5a28395d5b97e12c0cc08789cf9df8e9bbf0",
+  "scope": "Only new class launch is gated; a running class may finish after deadline. This is not test/visual PASS. Mobile data on, no reinstalls.",
+  "returncode": 0,
+  "finished_utc": "2026-10-11T21:10:53.871282+00:00"
+}

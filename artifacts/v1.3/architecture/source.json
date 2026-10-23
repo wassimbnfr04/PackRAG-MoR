@@ -1,0 +1,9 @@
+{
+  "source": "C:\\Users\\Fkagf\\Downloads\\PackRAG-MoR_Final_Architecture_Specification_v1.3.docx",
+  "sha256": "9b02f83b186a5b7f0101add861c6ecb40f5eb0b13016f50fa0c76efc6de07536",
+  "bytes": 89521,
+  "paragraphs": 1071,
+  "extraction": "All body paragraphs including tables, breaks and tabs, in document order",
+  "reference_only": true,
+  "user_authorization": "v1.3 implementation mission and later incremental integration instructions"
+}

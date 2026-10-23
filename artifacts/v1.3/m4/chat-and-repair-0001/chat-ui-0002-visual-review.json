@@ -1,0 +1,19 @@
+{
+  "status": "HOLD_PRODUCT_SYSTEM_BAR_CONTRAST_AND_SCOPED_WIDTH_REPAIR",
+  "reviewed_utc": "2026-10-12T18:15:13.157744+00:00",
+  "execution_sha256": "83f1c73e90e09727f170fb5099ca8b5d9a1935ad99390a8ef66c367b42179f63",
+  "original_sha256": {
+    "m4-chat-walking.json": "aca2299107cf5f73887fc194a2430a457858a58ac0c641d174ca902a343d2dfa",
+    "m4-chat-large-font-composer.png": "3827fe0619f43d6f310e9defbbfffdc8e54195b4d47c8e3ee87b403cf649639b",
+    "m4-chat-large-font-controls.png": "65a8b8911c336792d0e73a625a9a6665a48b926e6394a00c4e2ec295d75203af",
+    "m4-chat-normal-empty.png": "578a7a2fe34cb44a7bb4abeea59901ac2993b682353e269a0033ff59e5e26a1a",
+    "m4-chat-two-turns.png": "4720bda812a6fa771cabd5e4da2460e955e91dcb6bdc8f214fbd5e98a6086b58"
+  },
+  "findings": [
+    "Normal chat/composer and two owned no-pack turns readable; semantic flow passed.",
+    "Dark window background with dark status icons has inadequate contrast; paint full window using theme background.",
+    "Root fillMaxSize before widthIn defeats320dp test bound; move width constraint before fill. Current large-font originals are2x full-width, not valid320dp evidence.",
+    "Large-font controls image contains date field, not complete jurisdiction/bottom action; independent scrolled captures remain required."
+  ],
+  "scope": "Original images preserved, no U1/M4 visual acceptance; no phone changed."
+}

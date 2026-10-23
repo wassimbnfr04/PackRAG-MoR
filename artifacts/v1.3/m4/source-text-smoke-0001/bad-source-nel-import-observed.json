@@ -1,0 +1,5 @@
+{
+  "id": "bad-source-nel",
+  "accepted": false,
+  "error": "PackError: Empty required DB text"
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_test_android.py", line 83, in <module>
+    main()
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_test_android.py", line 48, in main
+    args.run.mkdir(parents=True, exist_ok=False)
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-development-restore-0014'

@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-06T22:06:49.475346+00:00",
+  "limits": "Read-only runner-progress observation, not performance or causal-bottleneck acceptance.",
+  "product_pid": {
+    "returncode": 0,
+    "stdout": "2102\n",
+    "stderr": ""
+  },
+  "instrumentation": {
+    "returncode": 0,
+    "stdout": "Unknown command: instrumentation\nBad activity command, or no activities match: instrumentation\nUse -h for help.\n",
+    "stderr": ""
+  }
+}

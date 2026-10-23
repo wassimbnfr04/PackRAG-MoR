@@ -1,0 +1,15 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :week1-spike:preBuild UP-TO-DATE
+> Task :week1-spike:preDebugBuild UP-TO-DATE
+> Task :week1-spike:generateDebugResources
+> Task :week1-spike:packageDebugResources
+> Task :week1-spike:processDebugNavigationResources
+> Task :week1-spike:javaPreCompileDebug
+> Task :week1-spike:checkDebugAarMetadata
+> Task :week1-spike:mapDebugSourceSetPaths
+> Task :week1-spike:parseDebugLocalResources
+> Task :week1-spike:compileDebugNavigationResources
+> Task :week1-spike:generateDebugRFile
+> Task :week1-spike:mergeDebugResources
+> Task :week1-spike:compileDebugKotlin

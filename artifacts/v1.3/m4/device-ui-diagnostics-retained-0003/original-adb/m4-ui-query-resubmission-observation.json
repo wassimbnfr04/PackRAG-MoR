@@ -1,0 +1,11 @@
+{
+  "previous_completion_id": "040f298e-21f6-4e50-bd04-552df28c9bfe",
+  "immediate_busy": true,
+  "immediate_completion_id": null,
+  "immediate_answer_state": null,
+  "immediate_submitted_date": "2028-02-29",
+  "immediate_submitted_jurisdiction": "MA-01",
+  "status": "PASS_NEW_COMPLETION_EDITED_CONTEXT_ABSTENTION",
+  "new_completion_id": "3602ad56-0e4a-4137-8da0-163029c87f6c",
+  "new_answer_state": "NO_RELEVANT_EVIDENCE"
+}

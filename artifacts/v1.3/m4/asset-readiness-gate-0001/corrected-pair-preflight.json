@@ -1,0 +1,52 @@
+{
+  "status": "PASS_CORRECTED_F1_MATCHED_HOST_PAIR_NOT_DEVICE_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T14:27:36.778326+00:00",
+  "android_inputs": 579,
+  "host_methods_per_variant": 62,
+  "two_test_only_changes_from_failed_0055": {
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetReadinessDeviceTest.kt": {
+      "before": "de1fbbf7186069316fdbe9ed59982e2140bf4c152ca3d0e112a98d4c5eccc308",
+      "after": "0e317fd5d28a28bcf83886dbff01f480446e7d8200c8bc3a272d4eb97b08e6f6"
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetsUiTest.kt": {
+      "before": "5893505ab40982d7eb8f18cb37d0f62b8a36c8e604a8e719f141a3d1ac3e9362",
+      "after": "7d1d14c06621a93f7858955b90acc3f723bc0d88624dd3db184704aa507f7377"
+    }
+  },
+  "unchanged_debug_product_from_0055_sha256": "fe79e4eed5ca3c8e2c4efa862bb24573e7c459afa1cd6c5d3a5c5a7e649dbdc0",
+  "apk_sha256": {
+    "build-0056": {
+      "app-debug-androidTest.apk": "543f19e50a2ce3d5c4d234866f2b92a25a00968f3c392831af77269c9f675a95",
+      "app-debug.apk": "fe79e4eed5ca3c8e2c4efa862bb24573e7c459afa1cd6c5d3a5c5a7e649dbdc0"
+    },
+    "build-0057": {
+      "app-demo-androidTest.apk": "1078f7c0b588aea248bb5361795efc8acb6283a779add42adc0172d4cc848bc4",
+      "app-demo.apk": "d5bc90615c6824f85c58dbe9b72ec8f6ca8d2dbf7b2516ab399450a749f20d76"
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk\\build-tools\\37.0.0\\aapt2.exe",
+        "dump",
+        "permissions",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0056\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "package: org.packrag.product\npermission: org.packrag.product.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\nuses-permission: name='org.packrag.product.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'\nuses-permission: name='android.permission.ACCESS_NETWORK_STATE'\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk\\build-tools\\37.0.0\\aapt2.exe",
+        "dump",
+        "permissions",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0057\\app-demo.apk"
+      ],
+      "returncode": 0,
+      "stdout": "package: org.packrag.product\npermission: org.packrag.product.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\nuses-permission: name='org.packrag.product.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'\nuses-permission: name='android.permission.ACCESS_NETWORK_STATE'\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "APK CRC/public trust pin/no INTERNET and matched source/host contracts. Original failed0055 device run remains FAIL; fresh physical tests required. Instrumentable demo is not final nondebuggable release acceptance."
+}

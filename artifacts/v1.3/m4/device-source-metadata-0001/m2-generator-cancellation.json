@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "native_cancel_stop": 2,
+  "cancel_return_ms": 102.950703,
+  "post_cancel_recovery_state": "ANSWER_ACCEPTED",
+  "post_cancel_final_answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+  "closed_handle_rejected": true,
+  "idempotent_close_cancel": true,
+  "consumer_contract": "GeneratorBackend\/GenerationResult",
+  "backend": "lfm25-llama-cpu-android",
+  "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+  "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+  "runtime_revision": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+  "purpose": "NATIVE_CANCEL_LIFECYCLE_NOT_LATENCY_ACCEPTANCE"
+}

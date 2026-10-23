@@ -1,0 +1,55 @@
+{
+  "status": "PASS_FULL_DEVELOPMENT_PARITY_NOT_POLICY_RESTORATION_OR_MILESTONE_ACCEPTANCE",
+  "recorded_utc": "2026-10-09T19:55:40.577139+00:00",
+  "verifier_sha256": "742f6be48e6e8ebfd834fdf0b9cdf587021dfec8f9ea9d2b6a6b455b909a1da6",
+  "phone": {
+    "methods": 27,
+    "whole_instrumentation_seconds": 1529.614,
+    "saved_results": [
+      "m4-conflicts.json",
+      "m4-source-metadata.json",
+      "m4-validity.json",
+      "m4-query-identifiers.json",
+      "m4-query-unicode.json",
+      "m2-generator-prompt-parity.json",
+      "m2-pack-retrieval-parity.json",
+      "m3-data-types.json",
+      "m3-extension-names.json",
+      "m3-validation-order.json",
+      "m3-residual-security.json",
+      "m3-manifest-schema.json",
+      "m3-database-validation.json",
+      "m3-archive-validation.json",
+      "m4-relevance.json",
+      "m4-relevance-runtime.json",
+      "m4-representations.json",
+      "m4-representation-runtime.json",
+      "m4-source-text.json",
+      "m4-conflict-runtime.json",
+      "m4-query-identifier-runtime.json",
+      "m2-generator-cancellation.json",
+      "product-runtime-smoke.json",
+      "m3-explicit-lifecycle.json",
+      "m3-atomic-registry.json",
+      "m3-process-death.json",
+      "m3-import-consent.json"
+    ],
+    "apk_sha256": {
+      "app-debug.apk": "f5fc7d82027085a710a2f50d406980703247a60bcdd2d1a088b4ffbcff93ceee",
+      "app-debug-androidTest.apk": "ea3b7fd390a62e6e0c61146a6ab3c227410aacce395c7fe08920c750e46cb1eb"
+    }
+  },
+  "exact_tokenizer_admission_cases": 43,
+  "retained_runtime_state_cases": 19,
+  "presence_scope": {
+    "fixed": 38,
+    "valid_scalars": 1112064,
+    "resolver_checks": 116,
+    "signed_imports": 6,
+    "rejected": 4
+  },
+  "native_cancel_return_ms": 158.462071,
+  "unchanged_runtime_inputs": 169,
+  "unchanged_android_inputs": 524,
+  "limits": "All27 original final JSON and exact supported token/provenance comparisons; no policy/restore claim; natural-language wording need not match byte for byte."
+}

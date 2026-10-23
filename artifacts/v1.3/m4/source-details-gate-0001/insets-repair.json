@@ -1,0 +1,17 @@
+{
+  "status": "EXACT_TWO_SOURCE_SAFE_WINDOW_REPAIR_REQUIRES_NEW_BUILDS_UI_FULL_GATES",
+  "changes": {
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": {
+      "old_sha256": "a6d3d8ae2b4d1314ee622dbed7bd632b13fcfe4aee556c3e91be0a43b3b52660",
+      "new_sha256": "1eb96d671e8878ca8836ab9aef75a0a9cac840e188531ab2be3bfd9bb8ae8acb",
+      "change": "Import safeDrawingPadding; apply it outside the vertical scroll viewport in actual app and isolated viewer-component host."
+    },
+    "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt": {
+      "old_sha256": "b07d8537ae5fca8ba9e33fac3438e9a80728a72502a8ca43d38bbe79b80daae4",
+      "new_sha256": "8dd97134bf1d013bdb01694b2697cf007a81f10144a932d6c9f4a4a9a790b182",
+      "change": "Import safeDrawingPadding; apply it outside the vertical scroll viewport in actual app and isolated viewer-component host."
+    }
+  },
+  "visual_failure_sha256": "11d6d01ceec22ef8c1cce5c81d5ecb7aac812fddddde1e616eee3b268aa99e0d",
+  "limits": "This changes product layout; original product APK is not byte-identical and old Android tests are not promoted to repaired-build acceptance."
+}

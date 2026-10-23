@@ -1,0 +1,45 @@
+{
+  "status": "OBSERVED_COMPLETED_SOURCE_METHOD_REPORTS_NOT_FULL_JUNIT_OR_E2_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T17:15:52.472044+00:00",
+  "pending_run": "device-source-details-full-0001",
+  "build": "build-0041",
+  "apk_sha256": {
+    "app-debug-androidTest.apk": "8ea12dc7b4c8b8bdbdc385d3df5fd3d79e3c8c6519cf4a9b6402b3f6e1623221",
+    "app-debug.apk": "629557315f7e1dab1d0b1613372bb7f428b4d801c653f814f8ff710f7f60ed0d"
+  },
+  "saved_sha256": {
+    "m4-source-details-rows.json": "9d800e31499db2e62b19394b3a57bd7d693768f61070e74f58e5588ae489c8a3",
+    "m4-source-details-rejections.json": "7c7764d99d923b43335399d6ada437318eb2bbfe1431ac28f01e94241c2d85f1"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-rows.json"
+      ],
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-rejections.json"
+      ],
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "Early original reports after current TestRunner source-method completion; real ViewModel/full35 methods are still running. Final acceptance requires full manifest, original collector and parity."
+}

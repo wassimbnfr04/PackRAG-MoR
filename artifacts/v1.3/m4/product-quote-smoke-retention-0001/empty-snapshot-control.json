@@ -1,0 +1,22 @@
+{
+  "state": "NO_ACTIVE_PACK",
+  "answer": null,
+  "citations": [],
+  "sources": [],
+  "query": {
+    "raw": "How do I clean the Framework Laptop 12 fan?",
+    "as_of": "2026-10-12",
+    "jurisdiction": null,
+    "current_law": false,
+    "normalized": "how do i clean the framework laptop 12 fan?"
+  },
+  "active_packs": [],
+  "generator": {
+    "scope": "MOCK_NO_ACTIVE_SNAPSHOT_CONTROL_NO_WEIGHT_INFERENCE"
+  },
+  "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+  "timings": {},
+  "candidates": [],
+  "selected": [],
+  "warnings": []
+}

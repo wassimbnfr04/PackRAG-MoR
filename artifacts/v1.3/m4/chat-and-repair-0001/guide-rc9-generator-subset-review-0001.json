@@ -1,0 +1,18 @@
+{
+  "status": "REVIEWED_GENERATOR_SUBSETS_NOT_FULL_CANDIDATE_PROMOTION",
+  "execution": "artifacts/v1.3/m4/repair-guide-preservation-validation-0001",
+  "candidate": "mobile-v1-guides-rc9",
+  "direct": {
+    "passed": 10,
+    "total": 10,
+    "review": "All supplied numeric values, units and qualifiers preserved; recovery RESET8seconds while powered, LiFePO4 and80micrometre are faithful synonyms. No literal-missing screen treated as automatic semantic fail."
+  },
+  "citation": {
+    "passed": 5,
+    "total": 5,
+    "review": "C01weightS2, C02voltageS1/currentS2, C03serviceUSBCS2, C04powerlossclosedS1, C05logging30secondsS1; unrelated source not used except C02 requiredboth. All supported."
+  },
+  "abstention": "Pending remaining cases; no completion yet",
+  "adversarial": "Pending",
+  "overall": "BLOCKED by fan paraphrase output-cap and full-guide omitted reassembly checks. No independent-held-out or release accuracy claim."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PREPARATION_REPAIR_NOT_ACCEPTANCE",
+  "reason": "full0001 ADB daemon connection failure installing test APK; instrumentation never started; same source-bound build0028 retry",
+  "retained_before_sha256": "c7cc4f065a0e21c5bead028e007ec3d9903e01d28eb160bff22a325386eaa495",
+  "retained_after_sha256": "ed5bd7b1d2df816e9e914506d499f06a1d0c9595950aa19f4a2be39666d10eb2",
+  "driver_before_sha256": "45854a52cf177aede30848f77148ba24de59a6a6f87364557b1fc2279bdaf1d5",
+  "driver_after_sha256": "3741c3b4911cd98968fd71125b4cb0bb9538c6f49d9552a4e6b3508036a42123",
+  "no_product_test_or_expectation_changed": true
+}

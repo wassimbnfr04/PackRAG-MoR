@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-09T23:10:54.502704+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug.apk": "8391cb68e98f941761688b2489774bdae346c924f2879c4acca4044bef19a08b",
+    "app-debug-androidTest.apk": "f345b679e9792a534ab1f1bcc647c01d523a4ab7162f4e30d4879567c61efd7a"
+  },
+  "saved_sha256": {
+    "m3-import-consent.json": "0ee774b6713fdc54911725c667ff3aa084c4ccfd8320c210628c951d12cc7d72"
+  },
+  "formatted_primary_parsed_equal": [
+    "m3-import-consent.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-import-consent.json"
+      ],
+      "started_at": "2026-10-09T23:10:54.373563+00:00",
+      "ended_at": "2026-10-09T23:10:54.499309+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

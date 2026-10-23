@@ -1,0 +1,212 @@
+{
+  "case_id": "M1-UNRELATED",
+  "passed": true,
+  "expected_state": "NO_RELEVANT_EVIDENCE",
+  "result": {
+    "state": "NO_RELEVANT_EVIDENCE",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "Who won the most recent football championship?",
+      "as_of": "2026-10-05",
+      "jurisdiction": null,
+      "current_law": false
+    },
+    "active_packs": [
+      [
+        "org.packrag.development.walking-skeleton",
+        "0.1.0",
+        "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 10.01170000017737,
+      "retrieval_ms": 0.50320000082138,
+      "end_to_end_ms": 10.555300001215073
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "exact": false,
+        "sparse_rank": 1,
+        "dense_rank": 4,
+        "dense_cosine": 0.7160317897796631,
+        "rrf": 0.032018442622950824,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "a7b2ed8ce984da406426ebf4",
+        "exact": false,
+        "sparse_rank": 9,
+        "dense_rank": 1,
+        "dense_cosine": 0.7355740666389465,
+        "rrf": 0.030886196246139225,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "29e38c9e841a0cd8d92a090c",
+        "exact": false,
+        "sparse_rank": 8,
+        "dense_rank": 2,
+        "dense_cosine": 0.7248432040214539,
+        "rrf": 0.030834914611005692,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "exact": false,
+        "sparse_rank": 2,
+        "dense_rank": 9,
+        "dense_cosine": 0.6880769729614258,
+        "rrf": 0.030621785881252923,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "exact": false,
+        "sparse_rank": 3,
+        "dense_rank": 8,
+        "dense_cosine": 0.693248987197876,
+        "rrf": 0.03057889822595705,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "exact": false,
+        "sparse_rank": 6,
+        "dense_rank": 5,
+        "dense_cosine": 0.7105398774147034,
+        "rrf": 0.030536130536130537,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "exact": false,
+        "sparse_rank": 5,
+        "dense_rank": 6,
+        "dense_cosine": 0.7013275623321533,
+        "rrf": 0.030536130536130537,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "3c0d779d818604ab90126609",
+        "exact": false,
+        "sparse_rank": 10,
+        "dense_rank": 3,
+        "dense_cosine": 0.7225890159606934,
+        "rrf": 0.030158730158730156,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "exact": false,
+        "sparse_rank": 4,
+        "dense_rank": 10,
+        "dense_cosine": 0.662597119808197,
+        "rrf": 0.029910714285714284,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "d46745e3c80bd1ed8f10d062",
+        "exact": false,
+        "sparse_rank": 7,
+        "dense_rank": 7,
+        "dense_cosine": 0.699133574962616,
+        "rrf": 0.029850746268656716,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "3e4592d30a9dd66ff03211c92bee800dc4bc318900fb11bed8b95dde4e649154"
+          ]
+        ]
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  }
+}

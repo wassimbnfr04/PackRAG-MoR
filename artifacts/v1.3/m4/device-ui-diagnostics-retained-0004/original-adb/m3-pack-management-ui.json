@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "older-activation-visible-warning-cancel-preserves-active",
+      "passed": true
+    },
+    {
+      "id": "deliberate-rollback-confirmation-keeps-newest-history",
+      "passed": true
+    },
+    {
+      "id": "explicit-deactivate-and-reactivate-newest",
+      "passed": true
+    },
+    {
+      "id": "removal-cancel-and-confirm-no-automatic-fallback",
+      "passed": true
+    },
+    {
+      "id": "all-inactive-no-pack-through-ui",
+      "passed": true
+    },
+    {
+      "id": "activity-recreation-retains-explicit-state",
+      "passed": true
+    },
+    {
+      "id": "owner-default-registry-all-file-hashes-unchanged",
+      "passed": true
+    }
+  ],
+  "isolated_registry": true,
+  "mobile_data_preserved": true,
+  "limits": "Synthetic lifecycle UI only; real LFM generation\/source navigation and import-copy consent are separate tests. Recreation retains ViewModel, not process-death recovery."
+}

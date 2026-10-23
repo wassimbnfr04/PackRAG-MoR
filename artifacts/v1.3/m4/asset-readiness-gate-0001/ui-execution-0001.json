@@ -1,0 +1,119 @@
+{
+  "status": "PASS_F1_ACTUAL_UI_ORIGINALS_NOT_VISUAL_OR_CLOSURE",
+  "recorded_utc": "2026-10-11T15:25:02.945011+00:00",
+  "readiness": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "window",
+        "policy"
+      ],
+      "returncode": 0,
+      "observed": [
+        "showing=false",
+        "mIsShowing=false"
+      ]
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "power"
+      ],
+      "returncode": 0,
+      "observed": [
+        "mWakefulness=Awake"
+      ]
+    }
+  ],
+  "owner_quote": "Yes, announce when it starts",
+  "owner_reply": "Actual human reply to call_3c9c03f32a7f47c7bcfc1be8655f3769, announced five-minute window immediately before this prepared test; no radio or unlock modification.",
+  "ordering_scope": "Development core and adjacent background contracts precede this development-only UI. Approved-policy core/adjacent remain independently mandatory before F1 closure, and may follow this foreground window to limit owner waiting. No gate is waived.",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0056",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-ui-0001",
+        "--class-name",
+        "org.packrag.product.LocalAssetsUiTest",
+        "--result-file",
+        "m4-local-assets-ui.json",
+        "--timeout",
+        "1200"
+      ],
+      "started_utc": "2026-10-11T15:25:02.949248+00:00",
+      "finished_utc": "2026-10-11T15:27:33.844300+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-ui-0001",
+        "--files",
+        "m4-local-assets-ui.json"
+      ],
+      "started_utc": "2026-10-11T15:27:33.844300+00:00",
+      "finished_utc": "2026-10-11T15:27:34.182549+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-assets-generator.png"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-assets-encoder.png"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "original_png": {
+    "m4-local-assets-generator.png": {
+      "sha256": "ff953502ae52a6a5591539e263e9fa2fb515ab9886059f1df65e1c9236136fe5",
+      "bytes": 248462
+    },
+    "m4-local-assets-encoder.png": {
+      "sha256": "bc0ebb284bd2c57dfd7ba9c3ee110455ac132b486924f9f64b804909f8a6ddb2",
+      "bytes": 283016
+    }
+  }
+}

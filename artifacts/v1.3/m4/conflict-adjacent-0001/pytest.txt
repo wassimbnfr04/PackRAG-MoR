@@ -1,0 +1,5 @@
+........................................................................ [ 45%]
+........................................................................ [ 91%]
+.............                                                            [100%]
+- generated xml file: C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\conflict-adjacent-0001\combined-junit.xml -
+157 passed in 2.28s

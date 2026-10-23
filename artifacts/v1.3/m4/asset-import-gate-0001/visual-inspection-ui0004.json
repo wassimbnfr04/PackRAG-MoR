@@ -1,0 +1,19 @@
+{
+  "status": "FAIL_VISUAL_ANDROID_PICKER_EXIT_TRANSITION_NOT_FULL_F2_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T19:18:49.348743+00:00",
+  "execution_sha256": "287cc291d5cae4409fa6423a971b1e96e713b04a0b249046726afeddf99c988f",
+  "images": {
+    "m4-local-asset-import-ui-progress.png": {
+      "sha256": "a979c3360b99fa9bd79a76b8f32bc68831f9ad9fe5a5d7616fd4cd94212f2c8d",
+      "bytes": 272315,
+      "review": "FAIL: Android picker closing surface remains visible on the right and product text is cropped horizontally; not a settled readable full product viewport."
+    },
+    "m4-local-asset-import-ui-verified.png": {
+      "sha256": "a1165999e185c4094f9d10dcc0513d20869cb36747e76ab1ec5c7f5586071187",
+      "bytes": 276672,
+      "review": "FAIL: Android picker closing surface remains visible on the right and product text is cropped horizontally; not a settled readable full product viewport."
+    }
+  },
+  "automated_scope": "Actual eight controls/cold native PASS retained; two original screenshots fail independent visual acceptance.",
+  "note": "Actual UI0004 JUnit1/eight controls PASSED309.99s with original main/progress/two PNGs saved before switch, exact source4/owner50 unchanged, new query dispatch/new completion153tokens/cold init14913.25707ms/validated74\u00b0C[S1] answer. Actual requested recreation state STARTED and destruction/distinct instance/saved state/same ViewModel/picker foreground pass. Independent view_image inspection of both exact1080x2316 PNGs FAILS because snapshots catch Android picker exit surfaces/crop product text; automated PASS remains bounded and is not F2 visual acceptance. Preserve visual-inspection-ui0004.json FAIL and images unchanged. Next test-only stable-frame screenshot capture and short separate actual picker/progress/cancel/verified-template visual run; retain complete native/UI0004 only with exact selected-source and whole-product-APK proof, not relabeled new instrumentation. No source/APK change until current test is terminal/originals saved (now fulfilled). Full F2/adjacent guard repairs/matched final regressions/restoration/custody/closure still pending, F3/F4 held. Phone untouched window ended; keep PackRAG closed for background work, mobile data on, final packs owner supplied."
+}

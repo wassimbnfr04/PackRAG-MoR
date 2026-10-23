@@ -1,0 +1,4 @@
+package: org.packrag.product
+permission: org.packrag.product.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission: name='org.packrag.product.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'

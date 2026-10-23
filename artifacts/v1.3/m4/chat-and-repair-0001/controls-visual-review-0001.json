@@ -1,0 +1,14 @@
+{
+  "status": "PASS_SCOPED_CONTROLS_VISUAL_NOT_FULL_M4",
+  "original_execution": "artifacts/v1.3/m4/emulator-chat-workflow-0004",
+  "layout": "Only debug test activity2x/320dp; global emulator font1.0 and phone unchanged",
+  "images": {
+    "m4-chat-older-warning.png": "Whole older-content dialog and both explicit controls fit; surrounding scrolled pack details are partial.",
+    "m4-chat-large-jurisdiction.png": "Submitted2028-02-29 and MA-01 visibly readable. Composer is deliberately scrolled; other controls are outside viewport.",
+    "m4-chat-large-law-toggle.png": "Jurisdiction MA-01 and checked Current law only/exclude repealed/superseded label readable; lower composer controls outside viewport.",
+    "m4-chat-visible-diagnostic-counts.png": "NO_ACTIVE_PACK, generation Not reached, prefill/evidence/emitted0 fully visible. This proves zero-count presentation, not nonzero native timing or phone performance.",
+    "m4-chat-local-template.png": "Expected/observed5443 bytes and both complete matching template SHA256 strings visible with wrapping; all four file conditions separately asserted, not all visually shown."
+  },
+  "controls": "Actual lifecycle consent/rollback/removal, captured query filters/recreation, four asset checks, real SAF cancel and New chat preserve five public files.",
+  "product_changed": false
+}

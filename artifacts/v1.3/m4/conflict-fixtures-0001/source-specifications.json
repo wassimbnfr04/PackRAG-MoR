@@ -1,0 +1,1139 @@
+{
+  "authority": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 3,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ]
+  },
+  "zero": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ]
+  },
+  "unknown": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": null,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ]
+  },
+  "supersedes": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA",
+        "from": "2026-01-01"
+      }
+    ],
+    "edges": [
+      [
+        "new",
+        "old",
+        "supersedes",
+        "explicit-reference",
+        1.0
+      ]
+    ]
+  },
+  "amends": {
+    "rows": [
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "amend",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 controller must also be inspected before each use.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ],
+    "edges": [
+      [
+        "amend",
+        "new",
+        "amends",
+        "curated",
+        1.0
+      ]
+    ]
+  },
+  "exception": {
+    "rows": [
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "exception",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 emergency shutdown temperature is 80 \u00b0C; this exception does not change its continuous operating limit.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ],
+    "edges": [
+      [
+        "exception",
+        "new",
+        "exception_to",
+        "explicit-reference",
+        1.0
+      ]
+    ]
+  },
+  "weak": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ],
+    "edges": [
+      [
+        "new",
+        "old",
+        "supersedes",
+        "curated",
+        0.75
+      ]
+    ]
+  },
+  "cycle": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ],
+    "edges": [
+      [
+        "new",
+        "old",
+        "supersedes",
+        "explicit-reference",
+        1.0
+      ],
+      [
+        "old",
+        "new",
+        "supersedes",
+        "explicit-reference",
+        1.0
+      ]
+    ]
+  },
+  "unrelated": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unrelated-law",
+        "jurisdiction": "MA"
+      }
+    ]
+  },
+  "articles": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Article 1",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Article 2",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ]
+  },
+  "jurisdictions": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "FR"
+      }
+    ]
+  },
+  "unknown-jurisdiction": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": null
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": null
+      }
+    ]
+  },
+  "curator-a": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ]
+  },
+  "curator-b": {
+    "rows": [
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ],
+    "signer": 1
+  },
+  "duplicate-a": {
+    "rows": [
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ]
+  },
+  "duplicate-b": {
+    "rows": [
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ],
+    "signer": 1
+  },
+  "five-companions": {
+    "rows": [
+      {
+        "locator": "part0",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 synthetic rule part 0 requires check 0 before continuous operation.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "part1",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 synthetic rule part 1 requires check 1 before continuous operation.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "part2",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 synthetic rule part 2 requires check 2 before continuous operation.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "part3",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 synthetic rule part 3 requires check 3 before continuous operation.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "part4",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 synthetic rule part 4 requires check 4 before continuous operation.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ],
+    "edges": [
+      [
+        "part1",
+        "part0",
+        "amends",
+        "explicit-reference",
+        1.0
+      ],
+      [
+        "part2",
+        "part1",
+        "amends",
+        "explicit-reference",
+        1.0
+      ],
+      [
+        "part3",
+        "part2",
+        "amends",
+        "explicit-reference",
+        1.0
+      ],
+      [
+        "part4",
+        "part3",
+        "amends",
+        "explicit-reference",
+        1.0
+      ]
+    ]
+  },
+  "paragraphs": {
+    "rows": [
+      {
+        "locator": "old",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 68 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 3,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA",
+        "source": "edition-old"
+      },
+      {
+        "locator": "old-part",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The old synthetic edition requires check A.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 3,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA",
+        "source": "edition-old"
+      },
+      {
+        "locator": "new",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 \u00b0C.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA",
+        "source": "edition-new"
+      },
+      {
+        "locator": "new-part",
+        "title": "SYNTHETIC Aster-9 rule",
+        "article": "Aster-9",
+        "text": "The current synthetic edition requires check B.",
+        "aliases": [
+          "Aster-9"
+        ],
+        "rank": 1,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA",
+        "source": "edition-new"
+      }
+    ]
+  },
+  "before-cap": {
+    "rows": [
+      {
+        "locator": "unit00",
+        "title": "Unit-00",
+        "article": "Unit-00",
+        "text": "Unit-00 equipment requires an inspection every 10 hours.",
+        "aliases": [
+          "Unit-00"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-00",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit01",
+        "title": "Unit-01",
+        "article": "Unit-01",
+        "text": "Unit-01 equipment requires an inspection every 11 hours.",
+        "aliases": [
+          "Unit-01"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-01",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit02",
+        "title": "Unit-02",
+        "article": "Unit-02",
+        "text": "Unit-02 equipment requires an inspection every 12 hours.",
+        "aliases": [
+          "Unit-02"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-02",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit03",
+        "title": "Unit-03",
+        "article": "Unit-03",
+        "text": "Unit-03 equipment requires an inspection every 13 hours.",
+        "aliases": [
+          "Unit-03"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-03",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit04",
+        "title": "Unit-04",
+        "article": "Unit-04",
+        "text": "Unit-04 equipment requires an inspection every 14 hours.",
+        "aliases": [
+          "Unit-04"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-04",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit05",
+        "title": "Unit-05",
+        "article": "Unit-05",
+        "text": "Unit-05 equipment requires an inspection every 15 hours.",
+        "aliases": [
+          "Unit-05"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-05",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit06",
+        "title": "Unit-06",
+        "article": "Unit-06",
+        "text": "Unit-06 equipment requires an inspection every 16 hours.",
+        "aliases": [
+          "Unit-06"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-06",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit07",
+        "title": "Unit-07",
+        "article": "Unit-07",
+        "text": "Unit-07 equipment requires an inspection every 17 hours.",
+        "aliases": [
+          "Unit-07"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-07",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit08",
+        "title": "Unit-08",
+        "article": "Unit-08",
+        "text": "Unit-08 equipment requires an inspection every 18 hours.",
+        "aliases": [
+          "Unit-08"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-08",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit09",
+        "title": "Unit-09",
+        "article": "Unit-09",
+        "text": "Unit-09 equipment requires an inspection every 19 hours.",
+        "aliases": [
+          "Unit-09"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-09",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit10",
+        "title": "Unit-10",
+        "article": "Unit-10",
+        "text": "Unit-10 equipment requires an inspection every 20 hours.",
+        "aliases": [
+          "Unit-10"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-10",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit11",
+        "title": "Unit-11",
+        "article": "Unit-11",
+        "text": "Unit-11 equipment requires an inspection every 21 hours.",
+        "aliases": [
+          "Unit-11"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-11",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit12",
+        "title": "Unit-12",
+        "article": "Unit-12",
+        "text": "Unit-12 equipment requires an inspection every 22 hours.",
+        "aliases": [
+          "Unit-12"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-12",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit13",
+        "title": "Unit-13",
+        "article": "Unit-13",
+        "text": "Unit-13 equipment requires an inspection every 23 hours.",
+        "aliases": [
+          "Unit-13"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-13",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit14",
+        "title": "Unit-14",
+        "article": "Unit-14",
+        "text": "Unit-14 equipment requires an inspection every 24 hours.",
+        "aliases": [
+          "Unit-14"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-14",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit15",
+        "title": "Unit-15",
+        "article": "Unit-15",
+        "text": "Unit-15 equipment requires an inspection every 25 hours.",
+        "aliases": [
+          "Unit-15"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-15",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit16",
+        "title": "Unit-16",
+        "article": "Unit-16",
+        "text": "Unit-16 equipment requires an inspection every 26 hours.",
+        "aliases": [
+          "Unit-16"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-16",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit17",
+        "title": "Unit-17",
+        "article": "Unit-17",
+        "text": "Unit-17 equipment requires an inspection every 27 hours.",
+        "aliases": [
+          "Unit-17"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-17",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit18",
+        "title": "Unit-18",
+        "article": "Unit-18",
+        "text": "Unit-18 equipment requires an inspection every 28 hours.",
+        "aliases": [
+          "Unit-18"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-18",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit19",
+        "title": "Unit-19",
+        "article": "Unit-19",
+        "text": "Unit-19 equipment requires an inspection every 29 hours.",
+        "aliases": [
+          "Unit-19"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-19",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit20",
+        "title": "Unit-20",
+        "article": "Unit-20",
+        "text": "Unit-20 equipment requires an inspection every 30 hours.",
+        "aliases": [
+          "Unit-20"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-20",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit21",
+        "title": "Unit-21",
+        "article": "Unit-21",
+        "text": "Unit-21 equipment requires an inspection every 31 hours.",
+        "aliases": [
+          "Unit-21"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-21",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit22",
+        "title": "Unit-22",
+        "article": "Unit-22",
+        "text": "Unit-22 equipment requires an inspection every 32 hours.",
+        "aliases": [
+          "Unit-22"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-22",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit23",
+        "title": "Unit-23",
+        "article": "Unit-23",
+        "text": "Unit-23 equipment requires an inspection every 33 hours.",
+        "aliases": [
+          "Unit-23"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-23",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit24",
+        "title": "Unit-24",
+        "article": "Unit-24",
+        "text": "Unit-24 equipment requires an inspection every 34 hours.",
+        "aliases": [
+          "Unit-24"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-24",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit25",
+        "title": "Unit-25",
+        "article": "Unit-25",
+        "text": "Unit-25 equipment requires an inspection every 35 hours.",
+        "aliases": [
+          "Unit-25"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-25",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit26",
+        "title": "Unit-26",
+        "article": "Unit-26",
+        "text": "Unit-26 equipment requires an inspection every 36 hours.",
+        "aliases": [
+          "Unit-26"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-26",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit27",
+        "title": "Unit-27",
+        "article": "Unit-27",
+        "text": "Unit-27 equipment requires an inspection every 37 hours.",
+        "aliases": [
+          "Unit-27"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-27",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit28",
+        "title": "Unit-28",
+        "article": "Unit-28",
+        "text": "Unit-28 equipment requires an inspection every 38 hours.",
+        "aliases": [
+          "Unit-28"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-28",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit29",
+        "title": "Unit-29",
+        "article": "Unit-29",
+        "text": "Unit-29 equipment requires an inspection every 39 hours.",
+        "aliases": [
+          "Unit-29"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-29",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit30",
+        "title": "Unit-30",
+        "article": "Unit-30",
+        "text": "Unit-30 equipment requires an inspection every 40 hours.",
+        "aliases": [
+          "Unit-30"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-30",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit31",
+        "title": "Unit-31",
+        "article": "Unit-31",
+        "text": "Unit-31 equipment requires an inspection every 41 hours.",
+        "aliases": [
+          "Unit-31"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-31",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit32",
+        "title": "Unit-32",
+        "article": "Unit-32",
+        "text": "Unit-32 equipment requires an inspection every 42 hours.",
+        "aliases": [
+          "Unit-32"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-32",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit33",
+        "title": "Unit-33",
+        "article": "Unit-33",
+        "text": "Unit-33 equipment requires an inspection every 43 hours.",
+        "aliases": [
+          "Unit-33"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-33",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit34",
+        "title": "Unit-34",
+        "article": "Unit-34",
+        "text": "Unit-34 equipment requires an inspection every 44 hours.",
+        "aliases": [
+          "Unit-34"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-34",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit35",
+        "title": "Unit-35",
+        "article": "Unit-35",
+        "text": "Unit-35 equipment requires an inspection every 45 hours.",
+        "aliases": [
+          "Unit-35"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-35",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit36",
+        "title": "Unit-36",
+        "article": "Unit-36",
+        "text": "Unit-36 equipment requires an inspection every 46 hours.",
+        "aliases": [
+          "Unit-36"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-36",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit37",
+        "title": "Unit-37",
+        "article": "Unit-37",
+        "text": "Unit-37 equipment requires an inspection every 47 hours.",
+        "aliases": [
+          "Unit-37"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-37",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit38",
+        "title": "Unit-38",
+        "article": "Unit-38",
+        "text": "Unit-38 equipment requires an inspection every 48 hours.",
+        "aliases": [
+          "Unit-38"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-38",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit39",
+        "title": "Unit-39",
+        "article": "Unit-39",
+        "text": "Unit-39 equipment requires an inspection every 49 hours.",
+        "aliases": [
+          "Unit-39"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-39",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit40",
+        "title": "Unit-40",
+        "article": "Unit-40",
+        "text": "Unit-40 equipment requires an inspection every 50 hours.",
+        "aliases": [
+          "Unit-40"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-40",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "unit41",
+        "title": "Unit-41",
+        "article": "Unit-41",
+        "text": "Unit-41 equipment requires an inspection every 51 hours.",
+        "aliases": [
+          "Unit-41"
+        ],
+        "rank": 0,
+        "uri": "https://example.invalid/unit-41",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "lost-old",
+        "title": "Garden",
+        "article": "LOST",
+        "text": "Garden flowers grow beside a pond.",
+        "aliases": [
+          "LOST"
+        ],
+        "rank": null,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      },
+      {
+        "locator": "lost-new",
+        "title": "Garden",
+        "article": "LOST",
+        "text": "A garden pond is surrounded by flowering plants.",
+        "aliases": [
+          "LOST"
+        ],
+        "rank": null,
+        "uri": "https://example.invalid/synthetic-law",
+        "jurisdiction": "MA"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_MANUAL_FIVE_ORIGINAL_ACCESSIBILITY_PNGS_NOT_FULL_UI_ACCEPTANCE",
+  "recorded_utc": "2026-10-12T15:52:04.545959+00:00",
+  "run": "device-consolidated-ui-0005-productaccessibilityuitest",
+  "original_png_sha256": {
+    "m4-f3-large-font-abstention.png": "c6aa96c9f60b815bed118f850b9e96e79939ca6f392d4708815ea984553d19c1",
+    "m4-f3-large-font-encoder-expected-hash.png": "7f7eb68196c6fa0f83b46d5f21a50074ba859f111b4a52c5e5d61ce2803bc3f0",
+    "m4-f3-large-font-encoder-observed-hash.png": "e9751bb94e72cd3d0ba667573805aadb1a5ead6b31a0afc8f7aa9f1f642b05ea",
+    "m4-f3-large-font-encoder-size.png": "480d907b70d31b5cb51a078ab91cb79360f1dc4c138017f616f2e89e3f9b1ea1",
+    "m4-f3-large-font-form.png": "f37df60819b5294e1153a12ca5e3728b376eb069a480b88e593e12ac6a472ab5"
+  },
+  "review": {
+    "form": "Jurisdiction label short, one-line and separated from surrounding text; valueMA/guidance/current-law row/Ask readable. Date field is above viewport; this image alone does not visually accept its floating label.",
+    "abstention": "Full captured Aster-9 question, as-of2027-01-01, jurisdictionMA, current-lawfalse and no-pack guidance visible. No native generation.",
+    "encoder-size": "Expected and observed390004608bytes both visible with encoder name/path and completed verification state.",
+    "encoder-expected-hash": "Full64digit expected68e592...c9d70 visible across wrapped lines.",
+    "encoder-observed-hash": "Measured actual additional productScrollBy action passed; full observed64digit68e592...c9d70 now visible beneath label, matching full expected hash."
+  },
+  "limits": "Current class2methods10controls and five scoped original PNGs reviewed; Date field floating-label viewport still needs its own capture before whole-form visual acceptance. No full UI/M4 acceptance, screen-reader spoken-output, normal device global2x font, real domain gold or resource benchmark. Full1080x2316 originals unedited; tool display resize955x2048 disclosed. Old observed-hash/manual failures unchanged. Parent stopped at window deadline before later classes, not a failure of new images."
+}

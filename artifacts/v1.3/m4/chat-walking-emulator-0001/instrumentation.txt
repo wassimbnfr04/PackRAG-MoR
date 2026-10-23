@@ -1,0 +1,107 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWalkingUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.ChatWalkingUiTest:
+INSTRUMENTATION_STATUS: test=realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWalkingUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Failed to assert the following: (Text + EditableText = [])
+Semantics of the node:
+Node #20 at (l=58.0, t=2022.0, r=1022.0, b=2169.0)px, Tag: 'query-question'
+ContentDataType = 'AndroidContentDataType(androidAutofillType=1)'
+EditableText = ''
+FillableData = 'androidx.compose.ui.autofill.AndroidFillableData@a48d432'
+Focused = 'false'
+ImeAction = 'Default'
+InputText = ''
+IsEditable = 'true'
+Text = '[Message PackRAG]'
+TextSelectionRange = 'TextRange(0, 0)'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, InsertTextAtCursor, OnClick, OnFillData, OnLongClick, PasteText, PerformImeAction, RequestFocus, SetSelection, SetText, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 3 siblings
+Selector used: (TestTag = 'query-question')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextEquals(Assertions.kt:207)
+	at androidx.compose.ui.test.AssertionsKt.assertTextEquals$default(Assertions.kt:203)
+	at org.packrag.product.ChatWalkingUiTest.realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation$lambda$2(ChatWalkingUiTest.kt:44)
+	at org.packrag.product.ChatWalkingUiTest$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:71)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)
+	at org.packrag.product.ChatWalkingUiTest.realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation(ChatWalkingUiTest.kt:25)
+
+INSTRUMENTATION_STATUS: stream=
+Error in realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation(org.packrag.product.ChatWalkingUiTest):
+java.lang.AssertionError: Failed to assert the following: (Text + EditableText = [])
+Semantics of the node:
+Node #20 at (l=58.0, t=2022.0, r=1022.0, b=2169.0)px, Tag: 'query-question'
+ContentDataType = 'AndroidContentDataType(androidAutofillType=1)'
+EditableText = ''
+FillableData = 'androidx.compose.ui.autofill.AndroidFillableData@a48d432'
+Focused = 'false'
+ImeAction = 'Default'
+InputText = ''
+IsEditable = 'true'
+Text = '[Message PackRAG]'
+TextSelectionRange = 'TextRange(0, 0)'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, InsertTextAtCursor, OnClick, OnFillData, OnLongClick, PasteText, PerformImeAction, RequestFocus, SetSelection, SetText, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 3 siblings
+Selector used: (TestTag = 'query-question')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextEquals(Assertions.kt:207)
+	at androidx.compose.ui.test.AssertionsKt.assertTextEquals$default(Assertions.kt:203)
+	at org.packrag.product.ChatWalkingUiTest.realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation$lambda$2(ChatWalkingUiTest.kt:44)
+	at org.packrag.product.ChatWalkingUiTest$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:71)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)
+	at org.packrag.product.ChatWalkingUiTest.realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation(ChatWalkingUiTest.kt:25)
+
+INSTRUMENTATION_STATUS: test=realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 8.904
+There was 1 failure:
+1) realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation(org.packrag.product.ChatWalkingUiTest)
+java.lang.AssertionError: Failed to assert the following: (Text + EditableText = [])
+Semantics of the node:
+Node #20 at (l=58.0, t=2022.0, r=1022.0, b=2169.0)px, Tag: 'query-question'
+ContentDataType = 'AndroidContentDataType(androidAutofillType=1)'
+EditableText = ''
+FillableData = 'androidx.compose.ui.autofill.AndroidFillableData@a48d432'
+Focused = 'false'
+ImeAction = 'Default'
+InputText = ''
+IsEditable = 'true'
+Text = '[Message PackRAG]'
+TextSelectionRange = 'TextRange(0, 0)'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, InsertTextAtCursor, OnClick, OnFillData, OnLongClick, PasteText, PerformImeAction, RequestFocus, SetSelection, SetText, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 3 siblings
+Selector used: (TestTag = 'query-question')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextEquals(Assertions.kt:207)
+	at androidx.compose.ui.test.AssertionsKt.assertTextEquals$default(Assertions.kt:203)
+	at org.packrag.product.ChatWalkingUiTest.realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation$lambda$2(ChatWalkingUiTest.kt:44)
+	at org.packrag.product.ChatWalkingUiTest$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:71)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)
+	at org.packrag.product.ChatWalkingUiTest.realChatComposerTwoOwnedTurnsMenuNewChatAndRecreation(ChatWalkingUiTest.kt:25)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

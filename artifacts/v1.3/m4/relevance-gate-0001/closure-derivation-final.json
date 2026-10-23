@@ -1,0 +1,10 @@
+{
+  "status": "PREPARED_NOT_ACCEPTANCE",
+  "initial_derivation": "closure-derivation.json",
+  "new_script_sha256": "0cede056c145ded834b1ad67cf2265c60551acd940d7d68fac1291d7e3356abc",
+  "changes": [
+    "Clarify D1 scope in header",
+    "Include procedural failure/derivation JSON in acceptance output hashes"
+  ],
+  "product_source_changed": false
+}

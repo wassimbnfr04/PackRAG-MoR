@@ -1,0 +1,104 @@
+{
+  "started_at": "2026-10-05T14:48:22.903979+00:00",
+  "runtime_lock": {
+    "architecture_version": "1.3",
+    "status": "ASSET_IDENTITIES_VERIFIED_NOT_RELEASE_ACCEPTANCE",
+    "generator": {
+      "model_id": "LiquidAI/LFM2.5-2.6B-GGUF",
+      "artifact": "LFM2.5-2.6B-QAD-Q4_0.gguf",
+      "bytes": 1593894944,
+      "sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "chat_template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "license": "lfm1.0",
+      "license_sha256": "30adf9d6478191fb87f2424f63ba0728598335aaf99cd2848ef17e8e545fe94b",
+      "public_weight_redistribution": false,
+      "desktop_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "desktop_backend": "CPU_WSL"
+    },
+    "embedder": {
+      "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+      "revision": "c61e626a6255c490879d0af885078b61929d51f6",
+      "profile_id": "granite97m-multi-r2-384-v1",
+      "dimension": 384,
+      "dtype": "float32",
+      "normalized": true,
+      "runtime": "onnxruntime-mobile-cpu",
+      "onnx_path": "onnx/model.onnx",
+      "asset_hash_status": "VERIFIED",
+      "asset_sha256": {
+        "config.json": "8591162ffb34ce71fdb1233ee511787e7cdbbc83f65822b2752c5153ee13e6a7",
+        "config_sentence_transformers.json": "93a59cbc7d82a47a7148719d9b21c0f2f111121e495b3918143184f4cd0ea25e",
+        "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+        "sentence_bert_config.json": "967ef958285e4a7a37d8ff1832473d967edd913b4e48572f31c3d3ea361d5327",
+        "special_tokens_map.json": "013787ee251ff611722479197c00853b62113ad303cb0a36524231783c676c69",
+        "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+        "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5",
+        "1_Pooling/config.json": "8bc5c9a40814fcf48d2fbe7cfeff4bee6736c3c2a823ba0ce098985c59d12ab7",
+        "onnx/model.onnx": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70"
+      },
+      "pack_profile": {
+        "profile_id": "granite97m-multi-r2-384-v1",
+        "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+        "model_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+        "model_sha256": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+        "onnx_sha256": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+        "tokenizer_hashes": {
+          "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+          "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5"
+        },
+        "dimension": 384,
+        "dtype": "float32",
+        "normalized": true,
+        "metric": "cosine",
+        "runtime": "onnxruntime-mobile-cpu",
+        "pooling": {
+          "word_embedding_dimension": 384,
+          "pooling_mode_cls_token": true,
+          "pooling_mode_mean_tokens": false,
+          "pooling_mode_max_tokens": false,
+          "pooling_mode_mean_sqrt_len_tokens": false,
+          "pooling_mode_weightedmean_tokens": false,
+          "pooling_mode_lasttoken": false,
+          "include_prompt": false
+        },
+        "max_input_length": 512,
+        "input_construction": "title + newline + section_or_article + newline + search_safe_context_prefix + newline + canonical_or_verified_english_text"
+      }
+    },
+    "android": {
+      "jdk": "17",
+      "gradle": "9.6.0",
+      "agp": "9.4.0",
+      "kotlin": "2.4.20",
+      "ndk": "30.0.16248370",
+      "min_sdk": 28,
+      "compile_sdk": 37,
+      "target_sdk": 37,
+      "abi": "arm64-v8a",
+      "onnxruntime": "1.30.0",
+      "sqlite_bundled": "2.7.1",
+      "tink": "1.23.0",
+      "internet_permission": false
+    },
+    "python": "3.12"
+  },
+  "source_sha256": {
+    "product/__init__.py": "8f0da69d8cd318903b68be02935b3127c57ccdce8b5c8dbb2f7d5c8c64e92701",
+    "product/config/runtime-profile.json": "2e8fdf29ae3dcca7b6e85aa9bcc0196d182d98c341949d1a46bd779d9e39dc2d",
+    "product/config/toolchain.lock.json": "f0c567c52aa550ed2ca92c104bf1e89c838ab6879d50c3f041476a86a096117c",
+    "product/packrag/config.py": "4cb83f9cf0ea8b3933db5ccac5da47e086da46fc2c6df8b970d501878a687c86",
+    "product/packrag/developer_pack.py": "870cda197a9bd835eaa0750e34412e6d6211004cfc7d0fb10765603a7748f257",
+    "product/packrag/embedding.py": "008abd7797d25c716fad53ac1ae66b7a918d94f2d4b9c3d08709cb9155082c6a",
+    "product/packrag/generator.py": "f0fc14fc2fe2d6f8811cf68dffb21fb32e58a4e462facb47853ea70c2d32525d",
+    "product/packrag/output.py": "e0fc93715cb8015c45eaf9973dbc4688478bd14c7e601b0dd92158e33b2a83ff",
+    "product/packrag/packs.py": "9cfda8ff6b13ff51f29875f253ecd1d889987eb418a3f5ab19e64354713f39cb",
+    "product/packrag/prompt.py": "e69429a9549dde6c5d51017f7638ca3ecf054cae2d3df6a8e3df3c60a11bf0f9",
+    "product/packrag/retrieval.py": "2a8c5632681f76123a3df65c7a92580c74134fdff6a632c9453bf79a7ce413f3",
+    "product/packrag/runtime.py": "8441635c0bf43c7a8e2c2625eb61d3c1cc1b7f0a503f6d755d21a6f08e9b2226",
+    "product/packrag/__init__.py": "4b39d1e6734b62175e3741414efb5faa4130086f89ab8eb034fb9e03cb85c0be",
+    "product/tests/test_foundation.py": "defda649e09419cc1c8cd40e0f75d01e0b660d384b69803ca2b8c5f5fc5168d8",
+    "product/tests/test_runtime_contracts.py": "8347c686c957cf4e35beda1a0b2c0df68f038583070bd1c2d554e6b773c73eb3"
+  },
+  "historical_input_sha256": "b5a3cff4d3b05274b3fed2409c03b69bab0ffbd1e2bdb144b8f8560b248896d1"
+}

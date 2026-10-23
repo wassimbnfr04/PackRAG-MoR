@@ -1,0 +1,6 @@
+{
+  "status": "OWNER_AUTHORIZED_CONSOLIDATED_F3_F4_NOT_IMPLEMENTED_OR_ACCEPTED",
+  "recorded_utc": "2026-10-12T01:00:26.981858+00:00",
+  "human_request": "WHY YOU DONT IMPLEMENT ALL THE F3 AND F4 AND TEST IT AT ONCE BECAUSE YOU TOOK 3 DAYS IN THIS WHY YOU TAKING THIS LONG",
+  "scope": "The owner requested implementing all remaining F3/F4 together and testing in one consolidated acceptance cycle, superseding the earlier physical gate between F3a/F3b/F3c. Maintain local contract/regression checks and the integrated path during development; repair local failures before adding dependent changes. Pending physical assertions remain unaccepted and carry forward to the final combined suite. The owner has not renewed the foreground window; implement/build/host-test now and prepare one device acceptance batch, requesting a fresh window only when it is ready. Final knowledge packs remain owner-supplied."
+}

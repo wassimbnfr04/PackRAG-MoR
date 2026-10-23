@@ -1,0 +1,70 @@
+{
+  "status": "PRE_REVISION_PUBLIC_BASELINE_SOURCE_CAPSULE_NOT_FRESH_TEST",
+  "scope": "Literal mobile-v1 profile/system/native cap; desktop includes the already-verified output-stop correctness repair. Only16 explicitly named public runtime files, no custody/weights traversal.",
+  "files": {
+    "product/config/runtime-profile.json": {
+      "sha256": "2e8fdf29ae3dcca7b6e85aa9bcc0196d182d98c341949d1a46bd779d9e39dc2d",
+      "bytes": 631
+    },
+    "product/config/toolchain.lock.json": {
+      "sha256": "f0c567c52aa550ed2ca92c104bf1e89c838ab6879d50c3f041476a86a096117c",
+      "bytes": 3822
+    },
+    "product/packrag/config.py": {
+      "sha256": "4cb83f9cf0ea8b3933db5ccac5da47e086da46fc2c6df8b970d501878a687c86",
+      "bytes": 975
+    },
+    "product/packrag/evidence.py": {
+      "sha256": "34ed8dd7d013f7c3bd3bd93327d5228ea14eee6dcecc9350d1a8779105352009",
+      "bytes": 5137
+    },
+    "product/packrag/prompt.py": {
+      "sha256": "2a6b5eeb9c4704754c03b0d5e528f20d35359f003d562ee12403bdb74fbb99f4",
+      "bytes": 7369
+    },
+    "product/packrag/runtime.py": {
+      "sha256": "3d9d7a54bf08ce6057ea4f3b56eda70b621d3af4c85c0787592e6ee506a5a2b3",
+      "bytes": 9460
+    },
+    "product/packrag/generator.py": {
+      "sha256": "535045abe5cc3e50637296b6b9024558046c97c7ef18dc7b0e68a83d83ceeb25",
+      "bytes": 5630
+    },
+    "product/packrag/generator_api.py": {
+      "sha256": "b46b0f22b702a16dee908ce8d14e0b2749caa68eb1dd1f88e553a84d4850b797",
+      "bytes": 718
+    },
+    "product/packrag/output.py": {
+      "sha256": "e0fc93715cb8015c45eaf9973dbc4688478bd14c7e601b0dd92158e33b2a83ff",
+      "bytes": 1750
+    },
+    "product/android/core-model/src/main/java/org/packrag/model/Contracts.kt": {
+      "sha256": "653b91a8c4a7cd4f7c21c0b24832f220037b7ad82dece50d5ff301ceabdca0e2",
+      "bytes": 2136
+    },
+    "product/android/grounded-runtime/src/main/java/org/packrag/runtime/Prompt.kt": {
+      "sha256": "aa49c98011540f34e99f3a0dabbd8dd3ca80ab556e25532a69302802721b4cee",
+      "bytes": 8734
+    },
+    "product/android/grounded-runtime/src/main/java/org/packrag/runtime/PackRag.kt": {
+      "sha256": "d627bbbbad16053deb853fc2e9b364fc762edec231b99fa5172ac5a347312d6a",
+      "bytes": 6865
+    },
+    "product/android/generator-api/src/main/java/org/packrag/generator/GeneratorBackend.kt": {
+      "sha256": "bbafa108e01b848cb63e776abd189f126cd22fa3cf4f33200f7f53b2e1b3117d",
+      "bytes": 1721
+    },
+    "product/android/generator-llama/src/main/java/org/packrag/generator/LlamaGenerator.kt": {
+      "sha256": "27185d7fea3d7e7c986ba3260f7893aa16238225c2ca12be4850662317b38866",
+      "bytes": 3726
+    },
+    "product/android/generator-llama/src/main/cpp/generator_jni.cpp": {
+      "sha256": "c6fae20346522febd0cdc2e34e4900b2419b644d9e3f7205a951c95f8b284f6d",
+      "bytes": 10521
+    },
+    "product/android/app/src/main/java/org/packrag/product/ProductSession.kt": {
+      "sha256": "d6190e8327b3b414dba5588a9a0c4089be1f032fa363e782d1dc4a4f4407383d",
+      "bytes": 7773
+    }
+  }
+}

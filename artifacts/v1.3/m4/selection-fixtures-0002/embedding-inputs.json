@@ -1,0 +1,267 @@
+[
+  {
+    "pack": "atomic-last",
+    "chunk_id": "de4007485c3423ff37bcb693",
+    "input": "SYNTHETIC TEST MANUAL\nrow00\n\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C."
+  },
+  {
+    "pack": "atomic-last",
+    "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+    "input": "SYNTHETIC TEST MANUAL\nrow01\n\nA technician must inspect the red cable for physical damage."
+  },
+  {
+    "pack": "atomic-last",
+    "chunk_id": "191a8da23f0fd6086da0f31f",
+    "input": "SYNTHETIC TEST MANUAL\nrow02\n\nThe protective enclosure must remain securely closed."
+  },
+  {
+    "pack": "atomic-last",
+    "chunk_id": "6df516db7affc2913b8d3a29",
+    "input": "SYNTHETIC TEST MANUAL\nrow03\n\nA technician must use dry insulated gloves while servicing the unit."
+  },
+  {
+    "pack": "atomic-last",
+    "chunk_id": "2e2153a45f4da98b6cf1ab76",
+    "input": "SYNTHETIC TEST MANUAL\nrow04\n\nA technician must disconnect the unit from its power supply prior to service."
+  },
+  {
+    "pack": "five-mandatory",
+    "chunk_id": "de4007485c3423ff37bcb693",
+    "input": "SYNTHETIC TEST MANUAL\nrow00\n\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C."
+  },
+  {
+    "pack": "five-mandatory",
+    "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+    "input": "SYNTHETIC TEST MANUAL\nrow01\n\nA technician must inspect the red cable for physical damage."
+  },
+  {
+    "pack": "five-mandatory",
+    "chunk_id": "191a8da23f0fd6086da0f31f",
+    "input": "SYNTHETIC TEST MANUAL\nrow02\n\nThe protective enclosure must remain securely closed."
+  },
+  {
+    "pack": "five-mandatory",
+    "chunk_id": "6df516db7affc2913b8d3a29",
+    "input": "SYNTHETIC TEST MANUAL\nrow03\n\nA technician must use dry insulated gloves while servicing the unit."
+  },
+  {
+    "pack": "five-mandatory",
+    "chunk_id": "2e2153a45f4da98b6cf1ab76",
+    "input": "SYNTHETIC TEST MANUAL\nrow04\n\nA technician must disconnect the unit from its power supply prior to service."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "de4007485c3423ff37bcb693",
+    "input": "SYNTHETIC TEST MANUAL\nrow00\n\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+    "input": "SYNTHETIC TEST MANUAL\nrow01\n\nA technician must inspect the red cable for physical damage."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "191a8da23f0fd6086da0f31f",
+    "input": "SYNTHETIC TEST MANUAL\nrow02\n\nThe protective enclosure must remain securely closed."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "6df516db7affc2913b8d3a29",
+    "input": "SYNTHETIC TEST MANUAL\nrow03\n\nA technician must use dry insulated gloves while servicing the unit."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "2e2153a45f4da98b6cf1ab76",
+    "input": "SYNTHETIC TEST MANUAL\nrow04\n\nA technician must disconnect the unit from its power supply prior to service."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "d81327f9d66b01315df06f36",
+    "input": "SYNTHETIC TEST MANUAL\nrow05\n\nSynthetic maintenance item 5 requires a visual inspection of component 5."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "46edd8c72196df9a67b0f600",
+    "input": "SYNTHETIC TEST MANUAL\nrow06\n\nSynthetic maintenance item 6 requires a visual inspection of component 6."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "8f8b8a0bdb1b991549670135",
+    "input": "SYNTHETIC TEST MANUAL\nrow07\n\nSynthetic maintenance item 7 requires a visual inspection of component 7."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "204e821867cf369cfaa62cf9",
+    "input": "SYNTHETIC TEST MANUAL\nrow08\n\nSynthetic maintenance item 8 requires a visual inspection of component 8."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "51b59fd4cd0f931b36730aae",
+    "input": "SYNTHETIC TEST MANUAL\nrow09\n\nSynthetic maintenance item 9 requires a visual inspection of component 9."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "bd21fa531ceb74435dde432a",
+    "input": "SYNTHETIC TEST MANUAL\nrow10\n\nSynthetic maintenance item 10 requires a visual inspection of component 10."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "761b3e6b4a61b6dea2cfcff8",
+    "input": "SYNTHETIC TEST MANUAL\nrow11\n\nSynthetic maintenance item 11 requires a visual inspection of component 11."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "7fcfb216adfcffd48326b9d0",
+    "input": "SYNTHETIC TEST MANUAL\nrow12\n\nSynthetic maintenance item 12 requires a visual inspection of component 12."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "374c942e358b67e8e7bb4467",
+    "input": "SYNTHETIC TEST MANUAL\nrow13\n\nSynthetic maintenance item 13 requires a visual inspection of component 13."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "185b6e570be8cc5d13975794",
+    "input": "SYNTHETIC TEST MANUAL\nrow14\n\nSynthetic maintenance item 14 requires a visual inspection of component 14."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "a7f0cb785e004032115a5403",
+    "input": "SYNTHETIC TEST MANUAL\nrow15\n\nSynthetic maintenance item 15 requires a visual inspection of component 15."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "f98de5d150002efcfdc2db12",
+    "input": "SYNTHETIC TEST MANUAL\nrow16\n\nSynthetic maintenance item 16 requires a visual inspection of component 16."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "6933c46049d2b832185b0487",
+    "input": "SYNTHETIC TEST MANUAL\nrow17\n\nSynthetic maintenance item 17 requires a visual inspection of component 17."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "002cd5a968ff1d3d8483a417",
+    "input": "SYNTHETIC TEST MANUAL\nrow18\n\nSynthetic maintenance item 18 requires a visual inspection of component 18."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "29dfc686c111098af478feaf",
+    "input": "SYNTHETIC TEST MANUAL\nrow19\n\nSynthetic maintenance item 19 requires a visual inspection of component 19."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "b8ed80d005613dd1839bfc47",
+    "input": "SYNTHETIC TEST MANUAL\nrow20\n\nSynthetic maintenance item 20 requires a visual inspection of component 20."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "c46ab7d5d296469148476cff",
+    "input": "SYNTHETIC TEST MANUAL\nrow21\n\nSynthetic maintenance item 21 requires a visual inspection of component 21."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "097deeeff90b7d9c05deb503",
+    "input": "SYNTHETIC TEST MANUAL\nrow22\n\nSynthetic maintenance item 22 requires a visual inspection of component 22."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "a8127588059135830617b79d",
+    "input": "SYNTHETIC TEST MANUAL\nrow23\n\nSynthetic maintenance item 23 requires a visual inspection of component 23."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "e706f55add2981f64e4ee002",
+    "input": "SYNTHETIC TEST MANUAL\nrow24\n\nSynthetic maintenance item 24 requires a visual inspection of component 24."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "e4cf42e399e12e597ebc3551",
+    "input": "SYNTHETIC TEST MANUAL\nrow25\n\nSynthetic maintenance item 25 requires a visual inspection of component 25."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "27577e0953b613f255282c72",
+    "input": "SYNTHETIC TEST MANUAL\nrow26\n\nSynthetic maintenance item 26 requires a visual inspection of component 26."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "21f7283a7d77b8049089dc68",
+    "input": "SYNTHETIC TEST MANUAL\nrow27\n\nSynthetic maintenance item 27 requires a visual inspection of component 27."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "b5ce2e8cea6b9e6ff73807e2",
+    "input": "SYNTHETIC TEST MANUAL\nrow28\n\nSynthetic maintenance item 28 requires a visual inspection of component 28."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "554739f4bb26cdbe6d8285c9",
+    "input": "SYNTHETIC TEST MANUAL\nrow29\n\nSynthetic maintenance item 29 requires a visual inspection of component 29."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "246f48670c7042e792f61d97",
+    "input": "SYNTHETIC TEST MANUAL\nrow30\n\nSynthetic maintenance item 30 requires a visual inspection of component 30."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "d7f383f6888351baaec259a8",
+    "input": "SYNTHETIC TEST MANUAL\nrow31\n\nSynthetic maintenance item 31 requires a visual inspection of component 31."
+  },
+  {
+    "pack": "missing-global",
+    "chunk_id": "c18a696ca88a221cc0d16469",
+    "input": "SYNTHETIC TEST MANUAL\nrow32\n\nSynthetic maintenance item 32 requires a visual inspection of component 32."
+  },
+  {
+    "pack": "mandatory-oversize",
+    "chunk_id": "de4007485c3423ff37bcb693",
+    "input": "SYNTHETIC TEST MANUAL\nrow00\n\nThe BUNDLE-X9 synthetic controller has a continuous operating temperature limit of 74 °C."
+  },
+  {
+    "pack": "mandatory-oversize",
+    "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+    "input": "SYNTHETIC TEST MANUAL\nrow01\n\nA technician must inspect the red cable for physical damage."
+  },
+  {
+    "pack": "mandatory-oversize",
+    "chunk_id": "191a8da23f0fd6086da0f31f",
+    "input": "SYNTHETIC TEST MANUAL\nrow02\n\nThe protective enclosure must remain securely closed."
+  },
+  {
+    "pack": "mandatory-oversize",
+    "chunk_id": "6df516db7affc2913b8d3a29",
+    "input": "SYNTHETIC TEST MANUAL\nrow03\n\nA technician must use dry insulated gloves while servicing the unit."
+  },
+  {
+    "pack": "mandatory-oversize",
+    "chunk_id": "2e2153a45f4da98b6cf1ab76",
+    "input": "SYNTHETIC TEST MANUAL\nrow04\n\nA technician must disconnect the unit from its power supply prior to service."
+  },
+  {
+    "pack": "optional-oversize",
+    "chunk_id": "78e38b4f176be01967256951",
+    "input": "SYNTHETIC BUDGET\nthermal\n\nLa limite continue du contrôleur synthétique est de 74 °C."
+  },
+  {
+    "pack": "optional-oversize",
+    "chunk_id": "3cd3e857ee701fd360163b22",
+    "input": "SYNTHETIC GARDEN\ngarden\n\nGarden flowers grow beside a pond."
+  },
+  {
+    "pack": "all-oversize",
+    "chunk_id": "36fde3100f8d83fa33999f50",
+    "input": "SYNTHETIC BUDGET\nthermal\n\nLa limite continue du contrôleur synthétique est de 74 °C."
+  },
+  {
+    "pack": "boundary1200",
+    "chunk_id": "9cf28d3bce7f2319fe647e8e",
+    "input": "SYNTHETIC BUDGET\nthermal\n\nLa limite continue du contrôleur synthétique est de 74 °C."
+  },
+  {
+    "pack": "boundary1201",
+    "chunk_id": "ab09bd7b287237a1efdcc0df",
+    "input": "SYNTHETIC BUDGET\nthermal\n\nLa limite continue du contrôleur synthétique est de 74 °C."
+  }
+]

@@ -1,0 +1,704 @@
+{
+  "case_id": "M1-G0-D05",
+  "passed": true,
+  "expected_fact": "18",
+  "result": {
+    "state": "ANSWER_ACCEPTED",
+    "answer": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m [S1].",
+    "citations": [
+      "S1"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "canonical_text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+        "title": "Meridia V3",
+        "locator": "G0-D05",
+        "publisher": "PackRAG synthetic development fixture",
+        "canonical_uri": null,
+        "canonical_language": "en",
+        "canonical_text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+        "generator_representation": {
+          "text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+          "language": "en",
+          "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a"
+        },
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      }
+    ],
+    "query": {
+      "raw": "What closing torque is specified for the Meridia V3 isolation-valve stem nut?",
+      "as_of": "2026-10-05",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what closing torque is specified for the meridia v3 isolation-valve stem nut?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.development.walking-skeleton",
+        "0.1.0",
+        "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 13.161300000319898,
+      "retrieval_ms": 1.641100000597362,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 438,
+        "prompt_ms": 4360.44,
+        "prompt_per_token_ms": 9.955342465753423,
+        "prompt_per_second": 100.44857858381265,
+        "predicted_n": 122,
+        "predicted_ms": 4830.381,
+        "predicted_per_token_ms": 39.92050413223141,
+        "predicted_per_second": 25.04978385762945,
+        "host_generation_wall_ms": 9210.681000000477,
+        "emitted_token_count": 122,
+        "reasoning_token_count": 96,
+        "final_and_terminal_token_count": 26,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 9514.557299999979
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.979308009147644,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "exact": false,
+        "sparse_rank": 3,
+        "dense_rank": 2,
+        "dense_cosine": 0.7935380339622498,
+        "rrf": 0.03200204813108039,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "exact": false,
+        "sparse_rank": 6,
+        "dense_rank": 3,
+        "dense_cosine": 0.7874700427055359,
+        "rrf": 0.031024531024531024,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "exact": false,
+        "sparse_rank": 5,
+        "dense_rank": 4,
+        "dense_cosine": 0.7788838744163513,
+        "rrf": 0.031009615384615385,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "exact": false,
+        "sparse_rank": 4,
+        "dense_rank": 6,
+        "dense_cosine": 0.7591303586959839,
+        "rrf": 0.030776515151515152,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "3c0d779d818604ab90126609",
+        "exact": false,
+        "sparse_rank": 2,
+        "dense_rank": 9,
+        "dense_cosine": 0.742549479007721,
+        "rrf": 0.030621785881252923,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "a7b2ed8ce984da406426ebf4",
+        "exact": false,
+        "sparse_rank": 10,
+        "dense_rank": 5,
+        "dense_cosine": 0.763281524181366,
+        "rrf": 0.02967032967032967,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "29e38c9e841a0cd8d92a090c",
+        "exact": false,
+        "sparse_rank": 9,
+        "dense_rank": 7,
+        "dense_cosine": 0.7544450759887695,
+        "rrf": 0.029418126757516764,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "d46745e3c80bd1ed8f10d062",
+        "exact": false,
+        "sparse_rank": 8,
+        "dense_rank": 8,
+        "dense_cosine": 0.748263955116272,
+        "rrf": 0.029411764705882353,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "exact": false,
+        "sparse_rank": 7,
+        "dense_rank": 10,
+        "dense_cosine": 0.7408651113510132,
+        "rrf": 0.029211087420042643,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+        "relevant": true,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+          "language": "en",
+          "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "id": "S2",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+          "language": "en",
+          "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "id": "S3",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "text_sha256": "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The Helix-R battery module uses lithium iron phosphate (LiFePO4) cells.",
+          "language": "en",
+          "text_sha256": "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      },
+      {
+        "id": "S4",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "a0629110febcff54441aee62e59d14044d3ee3c068d590d88a17393185477b87",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "text_sha256": "61b1e97e75a1bc6a18d10721397171290d908e299ea97a8e229dc70f78afb2e9",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The Vanta-P8 intake filter uses an 80-micrometre mesh.",
+          "language": "en",
+          "text_sha256": "61b1e97e75a1bc6a18d10721397171290d908e299ea97a8e229dc70f78afb2e9",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "61b1e97e75a1bc6a18d10721397171290d908e299ea97a8e229dc70f78afb2e9"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:456bd964e8373aab94ce8392af4bd7566b2246a69d38d146d52cd443b61f51f4",
+          "relations": []
+        }
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 438,
+      "evidence": 262,
+      "max_new": 512
+    },
+    "rejection_reason": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "languages": [
+    ["en",true],["ar",true],["fr",true],["en-US",true],["zh-Hant-CN",true],["de-CH-1901",true],
+    ["sl-rozaj-biske",true],["en-a-foo-b-bar-x-private",true],["x-demo",true],["I-KLINGON",true],
+    ["en-GB-oed",true],["abcd",true],["zh-cmn-Hans-CN",true],
+    ["en_US",false],["english words",false],["en-",false],["en-a",false],["x",false],
+    ["en-a-foo-a-bar",false],["de-1901-1901",false],["en-abcdefghi",false],["en-x-",false]
+  ],
+  "dates": [["2026-10-05",true],["2024-02-29",true],["2026-02-29",false],["0000-01-01",false],["2026-1-1",false]],
+  "timestamps": [["2026-10-05T00:00:00Z",true],["2026-10-05T00:00:00.123Z",true],["2016-12-31T23:59:60Z",true],
+    ["2026-02-30T00:00:00Z",false],["2026-10-05T24:00:00Z",false],["2026-10-05T00:60:00Z",false],
+    ["2026-10-05T00:00:60Z",false],["2026-10-05T00:00:00+00:00",false]],
+  "normalization": [["\u0085 ＡＳＴＥＲ-９ \u0085","aster-9"],["A\u001cB","a b"],["سَـلام","سلام"],["  A\u2009B  ","a b"]]
+}

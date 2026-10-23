@@ -1,0 +1,667 @@
+{
+  "purpose": "INDEPENDENT_FIXED_ORDERED_POOL_RELEVANCE_EXPECTATIONS_NOT_MEASURED_CALIBRATION",
+  "cases": [
+    {
+      "id": "EMPTY",
+      "signals": [],
+      "expected": []
+    },
+    {
+      "id": "AGREED_BOUNDARY",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "AGREED_BELOW",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.699,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "id": "AGREED_ABOVE",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.701,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "DENSE_ONLY_BOUNDARY",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": null,
+          "dense_rank": 1,
+          "dense_score": 0.8,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "DENSE_ONLY_BELOW",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": null,
+          "dense_rank": 1,
+          "dense_score": 0.799,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "id": "DENSE_ONLY_ABOVE",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": null,
+          "dense_rank": 1,
+          "dense_score": 0.801,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "DENSE_SECOND_NOT_AGREED",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": null,
+          "dense_rank": 2,
+          "dense_score": 1.0,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "id": "SPARSE_ONLY",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": null,
+          "dense_score": 1.0,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "id": "NO_RANKS",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": null,
+          "dense_rank": null,
+          "dense_score": 1.0,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "id": "UNCALIBRATED",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 1.0,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        }
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "id": "AGREED_INCLUDES_DENSE_SECOND",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 24,
+          "dense_rank": 24,
+          "dense_score": 0.7,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "DENSE_FIRST_ALTERNATIVE",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 2,
+          "dense_rank": 1,
+          "dense_score": 0.6,
+          "calibrated": true,
+          "agreed_threshold": 0.9,
+          "dense_only_threshold": 0.5
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "DENSE_SECOND_NO_ALTERNATIVE",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 2,
+          "dense_rank": 2,
+          "dense_score": 0.6,
+          "calibrated": true,
+          "agreed_threshold": 0.9,
+          "dense_only_threshold": 0.5
+        }
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "id": "NEGATIVE_BOUNDARY",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": -0.5,
+          "calibrated": true,
+          "agreed_threshold": -0.5,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "NEGATIVE_BELOW",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": -0.501,
+          "calibrated": true,
+          "agreed_threshold": -0.5,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "id": "ZERO_BOUNDARY",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.0,
+          "calibrated": true,
+          "agreed_threshold": 0.0,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "UNIT_BOUNDARY",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 1.0,
+          "calibrated": true,
+          "agreed_threshold": 1.0,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "EXACT_UNCALIBRATED",
+      "signals": [
+        {
+          "exact": true,
+          "sparse_rank": null,
+          "dense_rank": null,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "EXACT_CALIBRATED_LOW",
+      "signals": [
+        {
+          "exact": true,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": -1.0,
+          "calibrated": true,
+          "agreed_threshold": 1.0,
+          "dense_only_threshold": 1.0
+        }
+      ],
+      "expected": [
+        true
+      ]
+    },
+    {
+      "id": "GLOBAL_TOP_FAIL_LOWER_PASS",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.69,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        },
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.95,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false,
+        false
+      ]
+    },
+    {
+      "id": "GLOBAL_TOP_PASS_LOWER_PASS",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.9,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        },
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.95,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true,
+        false
+      ]
+    },
+    {
+      "id": "GLOBAL_TOP_UNCAL_LOWER_PASS",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        },
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.95,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false,
+        false
+      ]
+    },
+    {
+      "id": "EXACT_THEN_NONIDENTIFIER_PASS",
+      "signals": [
+        {
+          "exact": true,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        },
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.95,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true,
+        true
+      ]
+    },
+    {
+      "id": "EXACT_THEN_NONIDENTIFIER_FAIL",
+      "signals": [
+        {
+          "exact": true,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        },
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.69,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        },
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.95,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "ALL_EXACT",
+      "signals": [
+        {
+          "exact": true,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        },
+        {
+          "exact": true,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        }
+      ],
+      "expected": [
+        true,
+        true
+      ]
+    },
+    {
+      "id": "PASS_THEN_EXACT",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.9,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        },
+        {
+          "exact": true,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        }
+      ],
+      "expected": [
+        true,
+        true
+      ]
+    },
+    {
+      "id": "FAIL_THEN_EXACT",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.69,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        },
+        {
+          "exact": true,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        }
+      ],
+      "expected": [
+        false,
+        true
+      ]
+    },
+    {
+      "id": "UNCAL_THEN_EXACT",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        },
+        {
+          "exact": true,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.7,
+          "calibrated": false,
+          "agreed_threshold": null,
+          "dense_only_threshold": null
+        }
+      ],
+      "expected": [
+        false,
+        true
+      ]
+    },
+    {
+      "id": "TOP_DENSE_RANK2_LOWER_RANK1",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": null,
+          "dense_rank": 2,
+          "dense_score": 1.0,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        },
+        {
+          "exact": false,
+          "sparse_rank": null,
+          "dense_rank": 1,
+          "dense_score": 1.0,
+          "calibrated": true,
+          "agreed_threshold": 0.7,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false,
+        false
+      ]
+    },
+    {
+      "id": "TOP_OWN_STRICT_THRESHOLD",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.9,
+          "calibrated": true,
+          "agreed_threshold": 0.95,
+          "dense_only_threshold": 0.8
+        },
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.85,
+          "calibrated": true,
+          "agreed_threshold": 0.1,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        false,
+        false
+      ]
+    },
+    {
+      "id": "TOP_OWN_LENIENT_THRESHOLD",
+      "signals": [
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.9,
+          "calibrated": true,
+          "agreed_threshold": 0.1,
+          "dense_only_threshold": 0.8
+        },
+        {
+          "exact": false,
+          "sparse_rank": 1,
+          "dense_rank": 2,
+          "dense_score": 0.85,
+          "calibrated": true,
+          "agreed_threshold": 0.95,
+          "dense_only_threshold": 0.8
+        }
+      ],
+      "expected": [
+        true,
+        false
+      ]
+    }
+  ]
+}

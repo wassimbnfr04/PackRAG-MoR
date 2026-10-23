@@ -1,0 +1,97 @@
+{
+  "system_picker_executed": true,
+  "layout_font_scale": 2,
+  "layout_width_dp": 320,
+  "status": "PASS",
+  "cases": [
+    "older-version-cancel-and-explicit-rollback-preserve-newest-history",
+    "removal-cancel-confirm-no-automatic-fallback",
+    "large-font-controls-captured-by-real-query-not-model-generation",
+    "captured-zero-emission-diagnostics-visibly-readable-no-performance-inference",
+    "exact-four-file-check-real-local-asset-picker-cancel-and-owned-answer-return",
+    "recreation-and-new-chat-keep-explicit-registry-state"
+  ],
+  "visual_png": {
+    "m4-chat-older-warning.png": {
+      "sha256": "25d274524cf3542ad860166e2e378974f6a953d4d4f2ab962a97b96cefa41ff6",
+      "bytes": 196698,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "56e10b8d257daa365cf11ce6e7cb916497344b8f350d5a16d0b74a0c9b80e361",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-chat-large-jurisdiction.png": {
+      "sha256": "e566412b48f6c59e38354bd23cd29c0659c57a2a8d0e6d118a440be80f6db49c",
+      "bytes": 143985,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "675c3d6d09991e351570bd9d5b2f14bfdd48d9165defeebefb8a7fe70413e64e",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-chat-large-law-toggle.png": {
+      "sha256": "7a1731540f9243967ad4688ad048a6e799dbe9c51021a52489d1a65609724c45",
+      "bytes": 152527,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "02cd26b724db09c6205484742313c854700c5b3f965ea4a3f3201302f2c73e53",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-chat-visible-diagnostic-counts.png": {
+      "sha256": "5e5be15caed765bc0ee2c8a3761ddbc3729f988a896fd575455160d6bbf32207",
+      "bytes": 147232,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "0d31bded3e642bb98e087fe7c0c2a7a3c75e0c4fddd91db0eda63dfd8b40e541",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-chat-local-template.png": {
+      "sha256": "27c457a5ecafda79ce17b5518da08bacd3f6184314fbd20d7dbf361b6a14ad9d",
+      "bytes": 239022,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "1bba4dbdaa883332a0bd2cf64160370ab37620950bbd52c695c49c806afdbc0a",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    }
+  },
+  "owner_sha256": {
+    "m4-repair-fixture-0001.kpack": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359",
+    "models\/LFM2.5-2.6B-QAD-Q4_0.gguf": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "models\/chat_template.jinja": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/granite\/onnx\/model.onnx": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "models\/granite\/tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f"
+  },
+  "controlled_file_count": 5,
+  "owner_guard_scope": "FRESH_EMULATOR_FOUR_MODELS_ONE_FIXTURE_DEFAULT_REGISTRIES_ABSENT",
+  "actual_weight_inference": false,
+  "scope": "Current real MainActivity picker\/registry UI; separate-provider grant and observed import stages. Original PNG review required; not human calibration or full M4."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "FROZEN_NOT_DEVICE_ACCEPTANCE",
+  "history_sha256": {
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/cases.json": "486b08e6456a84f78d73b3c555302c701332d2b5305990fd233ac1fe37621ccc",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/public-key.raw": "c41d6811844b1dd36f9eb147e8ffa40ba3ca69c3b7c656316959d666e59e7a5b",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/primary.kpack": "827a786bf6a48b480fd4bd0353434a35778552a39e5d4c67a884296592fcab01",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/twin.kpack": "180f7f3a51ff8502ba71924335bcb2a9d95ce10b3dc77e19eb0287c7f8a47804",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/distinct.kpack": "c6beb434e2ae487a6fd7a86b0fcb869ba8d9d1fb19318fcea202c581c0677974",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/source-alias.kpack": "1792b447ca6249f9924488191ba7d127ed1cf49db0cbd196b40654936aec6e5f",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/within-duplicate.kpack": "d4cefe4af9f82d9f7bdfb276605e770a451eb6aa666252088ba9871b270fa4ce",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/collision.kpack": "450002361bc2eedd6f85026bbe89b8cda30e50fc01dc5b34dd1072914f29cf03",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/expired.kpack": "aed4990c526412333e6c8f2bdd13ec81b0d7e2aacacc66dc4b671b1b4670a0a3",
+    "artifacts/v1.3/m4/query-identifier-fixtures-0001/lost-collision.kpack": "1c53263600df015e6c8a0a8fa981997843c9d1ccfba937318a5966711bab2e2b",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/cases.json": "054a86e751491de28d1ecdf92597e54a7fd585a8795144fb2b79096850ce8b2d",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/publisher-0.raw": "5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/publisher-1.raw": "466a8424cc0cb1d1128440cfb2fec8f228dd4760884bc0559bd717217b6abf92",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/authority.kpack": "73b6b80d59372a27f8416e7d345b2ded4737ac074c04be973c57ed9cad76e6a7",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/zero.kpack": "ac92f7ec16b29dd0ae1dded393370bf67fb791372f38a4f11b8f82056cbaf1fa",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/unknown.kpack": "2b98c9020de144d78a9e7293ce7e89220cbdc879bfc8baae471b34c1ec540b2c",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/supersedes.kpack": "48a727ba343a0f3059bda1f946d377c80c01ab0ce4188e48488dd4e89c52c478",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/amends.kpack": "e0f09157b832aeafc7e65399457bd4c9863c99f6063ad3361e3ac0f1ad2a6048",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/exception.kpack": "278fa9b026f382030338e165eb3dc7e1a2fab2b5628bc60cfbdd19159cfbc4e6",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/weak.kpack": "f9e66d65a7ccc7984e3b5aa36b6eb10510eb071152ff33780ce9303e5ba4cd56",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/cycle.kpack": "56093f43d1d2f7d838bd6382e254ec87f01cf9c2f908f79650729f2eab65e7e5",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/unrelated.kpack": "42cc3bae6df011a98480ccff9678a5488ce7e4bcf15bc9d3b66526996c4920c4",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/articles.kpack": "c106494f2e7bea6cb3db3fb65aab5ce2e3a0fff8225a486c5103c8b37e4566e9",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/jurisdictions.kpack": "c8985eab2e3062075edecc2f2f91fdc0ddc8bd384f7371c0f4cab5c6e88fc530",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/unknown-jurisdiction.kpack": "5118dd5e3176117f73451e12393710d6171314296fcbb792833313aa84a435a2",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/curator-a.kpack": "c900d595559eff7c1096c580f61dd9c472f481878f8fc2069c456c7401396177",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/curator-b.kpack": "37ed1d3baf02d45d2675ef56d4b7ab3bc9b8910b90e8b412db147a0fea1d56cb",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/duplicate-a.kpack": "413d9ad491a896cce1bac50eb41b2824d04c44e5ff0967112636f89c8e985930",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/duplicate-b.kpack": "9573730069e85b1e336d6cac6fee54e3d86091b21b438c0d2752411781be91ef",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/five-companions.kpack": "db23569d40dc75740d5929099cd74b7a2fc4c804ecf5485964599f29297fc154",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/paragraphs.kpack": "35e8c202f3c5bfce5ccfa6bf80b373070e4eec71ed3b61b9a71e7149bd387814",
+    "artifacts/v1.3/m4/conflict-fixtures-0001/before-cap.kpack": "1057976cca3cdd59cc404c2277eba6dcf56ad7e6d19abd4d1cef67866f4c4981"
+  },
+  "changes": [
+    {
+      "kind": "query",
+      "id": "AMBIGUITY_BEFORE_LOCAL_CAP",
+      "old_count": 17,
+      "new_count": 32,
+      "rationale": "All exact hits survive local fused16; global32 still discards lost interpretation, but full eligible alias ambiguity remains true."
+    },
+    {
+      "kind": "conflict",
+      "id": "BEFORE_CAP",
+      "old_count": 16,
+      "new_count": 32,
+      "rationale": "All exact hits survive local fused16; global32 still discards lost interpretation, but full eligible alias ambiguity remains true."
+    }
+  ],
+  "script_sha256": "9d7665910acdd9e9cdf5bed7388667a97d367df3f1a6670c84775b8eae68c7d6",
+  "gate_sha256": "6e83fc504b2375322849ce87d53c0f33b073fa14bc4b36c8ac4d45acd3730513"
+}

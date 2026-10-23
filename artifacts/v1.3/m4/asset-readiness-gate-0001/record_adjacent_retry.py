@@ -1,0 +1,33 @@
+"""Record actual retry start and prepared evidence-check changes, not acceptance."""
+import hashlib,json
+from datetime import datetime,timezone
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[4];HERE=Path(__file__).parent;M4=ROOT/'artifacts/v1.3/m4'
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def sha(p):
+    with p.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
+target=HERE/'adjacent-retry-start.json';assert not target.exists()
+observations=sorted((HERE/'progress/device-local-assets-adjacent-0002').glob('*.json'));assert observations
+observation=read(observations[-1]);assert observation['status']=='OBSERVATION_ONLY_NOT_TERMINAL_ACCEPTANCE'
+assert observation['run_context']=='device-local-assets-adjacent-0002'
+assert any('run started: 5 tests' in row['stdout'] for row in observation['commands'])
+assert not (HERE/'device-local-assets-adjacent-0002-execution.json').exists(),'This start note is only for the still-running first stage'
+inputs=read(M4/'build-0056/source-at-build-start.json')['files'];assert len(inputs)==579
+assert inputs==read(M4/'build-0057/source-at-build-start.json')['files']
+for name,value in inputs.items():assert sha(ROOT/name)==value,name
+preparation=read(HERE/'guarded-retry-preparation.json');assert preparation['current_default_registry_read_only_integrity']=='ok'
+record=dict(status='RUNNING_UNCHANGED_ADJACENT_RETRY_NOT_ACCEPTANCE',recorded_utc=datetime.now(timezone.utc).isoformat(),
+    run='device-local-assets-adjacent-0002',build='build-0056',runtime_inputs=579,owner_quote=preparation['owner_quote'],
+    retry_preparation_sha256=sha(HERE/'guarded-retry-preparation.json'),launch_caller_package=preparation['observed_uid_package'],
+    progress_observation_file=observations[-1].relative_to(ROOT).as_posix(),progress_observation_sha256=sha(observations[-1]),
+    preparation_helper_first_attempt=dict(status='FAIL_LOCAL_RECORD_HELPER_NOT_PHONE_TEST',error='FileNotFoundError reading not-yet-written device-local-assets-adjacent-0002-execution.json',
+        prior_source_sha256=sha(HERE/'record-adjacent-retry-first-attempt.py.txt'),explanation='Driver writes execution manifest only when stage0 returns. First record attempt stopped before writes. Corrected record binds actual saved TestRunner start observation instead; no test assertion or phone code changed.'),
+    prepared_evidence_helpers={name:sha(HERE/name) for name in ['run_ui.py','check_acceptance.py','capture_owner_at_closure.py']},
+    scope='Runtime and instrumentation source unchanged; no product repair for the registry exception. Prepared but unexecuted UI helper now requires successful adjacent0002 and explicitly tests awake membership (prior unexecuted power branch asserted a nonempty string). Closure helper retains four failed-suite passing originals, stale failed-method file and exactly one owner DB change; accepts separate pre-/post-launch baselines and requires actual final known50-file ADB check. Syntax checks only, no UI or closure success claimed. Whole-session default-registry bytes not preserved. Owner mobile data stays on; PackRAG closed until announced UI window.')
+target.write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
+note=f'F1 unchanged adjacent retry0002 RUNNING at {record["recorded_utc"]}, debug0056/579 identical inputs and all original assertions. Owner agrees to keep PackRAG closed; other apps/chat/mobile data remain available. UID10155 resolves to com.sec.android.app.launcher, not proof of a human actor or DB-change cause. Failed0001 stays FAIL; four completed passing originals/stale failed-method file/current post-change integrity are preserved. Prepared evidence helpers now distinguish development-core pre-launch e967 baseline from later post-launch cf140 baseline; final known50-file guard required, whole-session preservation explicitly false. Unexecuted UI readiness power assertion corrected to actual observed Awake membership. Only syntax checks performed on these helpers; no UI/F1/M4 acceptance. Await five-method retry terminal result and originals before the announced authorized foreground window. Compiled-policy core/adjacent, restoration and closure/checkpoint remain mandatory; F2 implementation held.'
+for name in ['STATUS.md','PLAN.md']:
+    p=ROOT/name;head,rest=p.read_text(encoding='utf-8').split('\n',1);p.write_text(head+'\n\n'+note+'\n\n'+rest,encoding='utf-8')
+for name in ['DECISIONS.md','docs/v1.3/FULL_DOCUMENTATION_WORKING.md','docs/v1.3/M4_IMPLEMENTATION_LOG.md']:
+    with (ROOT/name).open('a',encoding='utf-8') as stream:stream.write('\n\n'+note+'\n')
+print(record['status'])

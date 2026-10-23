@@ -1,0 +1,81 @@
+{
+  "status": "PASS_F2_ACTUAL_IMPORTING_SUBPROCESS_LOSS_AND_NATIVE_RECOVERY_NOT_ALL_SLOT_UI_OR_FULL_F2",
+  "started_utc": "2026-10-11T17:33:08.891619+00:00",
+  "build": "build-0065",
+  "run": "device-local-asset-import-process-death-0001",
+  "variant": "debug",
+  "runner_sha256": "b9c2f869959348db1fae19a887910abf32a3825ef163b631205bb255448647c1",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0065",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-process-death-0001",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportProcessDeathDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-process-death.json",
+        "--timeout",
+        "2400",
+        "--variant",
+        "debug"
+      ],
+      "started_utc": "2026-10-11T17:33:08.891619+00:00",
+      "finished_utc": "2026-10-11T17:44:35.154929+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-process-death-0001",
+        "--files",
+        "m4-local-asset-import-process-death.json,m4-local-asset-import-process-death-progress.json"
+      ],
+      "started_utc": "2026-10-11T17:44:35.154929+00:00",
+      "finished_utc": "2026-10-11T17:44:35.627518+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-import-process-death-0001-after-known-guard.json"
+      ],
+      "started_utc": "2026-10-11T17:44:35.627518+00:00",
+      "finished_utc": "2026-10-11T17:44:41.266471+00:00",
+      "returncode": 0
+    }
+  ],
+  "finished_utc": "2026-10-11T17:44:41.423152+00:00",
+  "original_sha256": {
+    "m4-local-asset-import-process-death.json": "9f9aec8a7028a1c8bd87ab8c9d7ecccb4b4ccfdc6279f320ae3f5718d5d15e88",
+    "m4-local-asset-import-process-death-progress.json": "9f9aec8a7028a1c8bd87ab8c9d7ecccb4b4ccfdc6279f320ae3f5718d5d15e88"
+  },
+  "probe_pids": [
+    7165,
+    25780,
+    30697
+  ],
+  "checkpoint_ids": [
+    "actual-importing-process-death-COPYING",
+    "actual-importing-process-death-COMMITTING",
+    "actual-importing-process-death-COMMITTED"
+  ],
+  "scope": "Actual debug unexported importing subprocess dies at3 checkpoints; fresh main ProductSession cleanup/native cold answers. Whole phone/main instrumentation stay alive. Child PID/distinctness recorded; main/probe PID inequality is asserted by frozen device source, main PID is not a persisted result field. Precommit fully valid stage is deleted, never promoted; postcommit no stage makes that field null/not applicable. No physical power-loss/cache-failure/cross-process warm-model lease, system picker, all-slot or full F2/M4/product/performance acceptance."
+}

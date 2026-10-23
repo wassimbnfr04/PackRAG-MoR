@@ -1,0 +1,5 @@
+{
+  "status": "HOST_TEST_METHODS_PASSED",
+  "test_methods": 1,
+  "note": "Inspect each XML for fixture/case counts; build-only success is not milestone completion"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "IMPLEMENTED_NOT_DEVICE_ACCEPTED",
+  "unchanged_underlying_assertions": {
+    "DataTypeDeviceTest.kt": 1,
+    "ExtensionNameDeviceTest.kt": 1,
+    "ReleaseTrustCoreDeviceTest.kt": 2,
+    "ResidualSecurityDeviceTest.kt": 2,
+    "ValidationOrderDeviceTest.kt": 2
+  },
+  "safe_policy_expected_categories": {
+    "known-publisher-uncalibrated": "POLICY_REJECTED",
+    "unknown-publisher": "SIGNATURE_OR_MANIFEST_REJECTED",
+    "pack-cannot-add-key": "MANIFEST_PROFILE_REJECTED",
+    "claimed-key-mismatch": "SIGNATURE_OR_MANIFEST_REJECTED"
+  },
+  "category_asset_sha256": "b5660a6eb1dcecc98d6e783c771e3945bcad15dc4d3de3b8a6cd3ae26ac0d19d",
+  "scope": "No fixture bytes, case IDs, trust requirements or rejection/preservation assertions removed. Only test-side typed-wrapper unwrapping for existing internal cause assertions; product ViewModel now asserts independently fixed UI code prefixes and no raw paths/markup. Original test sources preserved. Fresh final-source executions required."
+}

@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "purpose": "SIGNED_SYNTHETIC_SOURCE_METADATA_AND_ACTUAL_GRANITE_PARITY_NOT_AUTHORITY_RESOLUTION",
+  "metadata_cases": [
+    {
+      "locator": "baseline",
+      "status": "PASS"
+    },
+    {
+      "locator": "historical",
+      "status": "PASS"
+    },
+    {
+      "locator": "future",
+      "status": "PASS"
+    },
+    {
+      "locator": "narrow",
+      "status": "PASS"
+    },
+    {
+      "locator": "disjoint",
+      "status": "PASS"
+    },
+    {
+      "locator": "unknown",
+      "status": "PASS"
+    },
+    {
+      "locator": "wrong",
+      "status": "PASS"
+    },
+    {
+      "locator": "unscoped",
+      "status": "PASS"
+    }
+  ],
+  "directed_relations": 5,
+  "retrieval_cases": [
+    {
+      "id": "HISTORICAL_ONLY",
+      "status": "PASS",
+      "candidate_count": 1,
+      "ambiguous": false,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 1.0737811506622563E-7
+    },
+    {
+      "id": "CURRENT_REJECTS_SUPERSEDED",
+      "status": "PASS",
+      "candidate_count": 0,
+      "ambiguous": false,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 0
+    },
+    {
+      "id": "START_INCLUSIVE_END_EXCLUSIVE",
+      "status": "PASS",
+      "candidate_count": 1,
+      "ambiguous": false,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 6.242024197522511E-8
+    },
+    {
+      "id": "SOLE_BASELINE",
+      "status": "PASS",
+      "candidate_count": 1,
+      "ambiguous": false,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 6.242024197522511E-8
+    },
+    {
+      "id": "CHUNK_START_INCLUSIVE",
+      "status": "PASS",
+      "candidate_count": 3,
+      "ambiguous": true,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 9.714088733403514E-8
+    },
+    {
+      "id": "CURRENT_HISTORICAL_STATUS_NOT_REPEALED",
+      "status": "PASS",
+      "candidate_count": 3,
+      "ambiguous": true,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 9.714088733403514E-8
+    },
+    {
+      "id": "CHUNK_END_EXCLUSIVE_FUTURE_START",
+      "status": "PASS",
+      "candidate_count": 2,
+      "ambiguous": true,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 6.242024197522511E-8
+    },
+    {
+      "id": "ALL_KNOWN_EXPIRED",
+      "status": "PASS",
+      "candidate_count": 0,
+      "ambiguous": false,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 0
+    },
+    {
+      "id": "WRONG_JURISDICTION_SOURCE_ONLY",
+      "status": "PASS",
+      "candidate_count": 1,
+      "ambiguous": false,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 1.2100272628323694E-7
+    },
+    {
+      "id": "UNREQUESTED_JURISDICTION",
+      "status": "PASS",
+      "candidate_count": 5,
+      "ambiguous": true,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 1.2100272628323694E-7
+    },
+    {
+      "id": "UNKNOWN_EARLY",
+      "status": "PASS",
+      "candidate_count": 2,
+      "ambiguous": true,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 1.2100272628323694E-7
+    },
+    {
+      "id": "UNKNOWN_LATE",
+      "status": "PASS",
+      "candidate_count": 2,
+      "ambiguous": true,
+      "max_embedding_abs_error": 9.313225746154785E-8,
+      "max_dense_cosine_error": 1.2100272628323694E-7
+    }
+  ],
+  "authority_sort": false,
+  "graph_expansion": false,
+  "document_heading_policy": "NONEMPTY_ARTICLE_ELSE_SECTION_EMPTY_CONTEXT_PREFIX"
+}

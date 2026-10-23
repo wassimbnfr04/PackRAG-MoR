@@ -1,0 +1,8 @@
+{
+  "status": "PREPARED_NOT_PHONE_ACCEPTED",
+  "installed_state_sha256": "5ce95014926936ec46e72ded58274404c38cc0548eced1a1aa0c92ff401919bb",
+  "old_runner_sha256": "48f14592864e11c27b54d9876bca9dfbc27491ae7890101ae1a752afc642c561",
+  "new_test_runner_sha256": "bf8c46acaaddcfaef8e2f27d05bc5917117a46741e4d749867568bc60a17f6b8",
+  "new_visual_runner_sha256": "7fd555367d705b7613f35bf7812ed38275b7371aec7969d97031daa9274721d1",
+  "scope": "New versioned attempt verifies actual installed product/test APKs byte-for-byte against selected build before instrumentation, without install/uninstall/clear. Same class/APK/assertions/frozen599 sources. Earlier visual0001 install timeout and visual0002 PACKAGE UPDATED process interruption retained. Unknown actor/installer session identity and upload decision are not inferred from dismissed dialog."
+}

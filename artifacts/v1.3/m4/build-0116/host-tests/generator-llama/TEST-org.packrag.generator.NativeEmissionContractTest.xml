@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.generator.NativeEmissionContractTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-12T21:25:17.259Z" hostname="RAZER" time="0.049">
+  <properties/>
+  <testcase name="nativeAbiResultImplementsGenericOwnershipWithoutReasoningInDiagnostics" classname="org.packrag.generator.NativeEmissionContractTest" time="0.043"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

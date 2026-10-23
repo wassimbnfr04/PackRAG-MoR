@@ -1,0 +1,7 @@
+{
+  "status": "PREEXISTING_TEST_OUTPUTS_NOT_CURRENT_ACCEPTANCE",
+  "sha256": {
+    "m4-local-asset-import-walking.json": "a1e6c7c6b3abd1548a422df656001539c182dea1a7f60ddd9b3ca73c53fbe84e",
+    "m4-local-asset-import-walking-grant-observation.json": "451ac6e09647a3a9467df2941a62eb4ef6af7546591624c1fdbe00c8d8296204"
+  }
+}

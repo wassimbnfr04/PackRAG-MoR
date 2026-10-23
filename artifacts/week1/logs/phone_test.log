@@ -1,0 +1,22 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "status": "BLOCKED_PENDING_PHONE",
+  "physical_phone": false,
+  "offline_generation": false,
+  "adb_devices": "List of devices attached",
+  "gguf_sha256": "4723b60dcc23b06f59c356e979c26e9f417195056eb60ecbbb6d95f78eb8cdd7",
+  "quantization": "F16",
+  "llamacpp_commit": null,
+  "model_load_time_ms": null,
+  "ttft_ms": null,
+  "tokens_per_second": null,
+  "peak_memory_bytes": null,
+  "evidence_smoke_passed": null,
+  "evidence_smoke_total": 5,
+  "raw_cases": [],
+  "gguf_bytes": 725553600,
+  "model_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+  "llamacpp_candidate_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+  "acceptance_classification": "WEEK1_PRODUCT_GATE_FAIL",
+  "acceptance_note": "Required physical-phone acceptance is unmet; unavailable hardware is not a measured model failure."
+}

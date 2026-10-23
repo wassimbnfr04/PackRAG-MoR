@@ -1,0 +1,24 @@
+{
+  "status": "RUNNING_UNCHANGED_ADJACENT_RETRY_NOT_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T15:10:48.474207+00:00",
+  "run": "device-local-assets-adjacent-0002",
+  "build": "build-0056",
+  "runtime_inputs": 579,
+  "owner_quote": "Yes, I\u2019ll keep PackRAG closed",
+  "retry_preparation_sha256": "82ffb8103499812bf5753a0a1a91b91e669661b04410a92ffec71d5aa2632bc3",
+  "launch_caller_package": "package:com.sec.android.app.launcher uid:10155",
+  "progress_observation_file": "artifacts/v1.3/m4/asset-readiness-gate-0001/progress/device-local-assets-adjacent-0002/20261011T150921887446Z.json",
+  "progress_observation_sha256": "f4900ef5d1c6f22ab2e28a93118835a06fe5210f759be42749103cdf61e7752a",
+  "preparation_helper_first_attempt": {
+    "status": "FAIL_LOCAL_RECORD_HELPER_NOT_PHONE_TEST",
+    "error": "FileNotFoundError reading not-yet-written device-local-assets-adjacent-0002-execution.json",
+    "prior_source_sha256": "961059671600c2efa4e790b3b5f4e0659d244cf4adc61eee2a2024c4a5df5dbc",
+    "explanation": "Driver writes execution manifest only when stage0 returns. First record attempt stopped before writes. Corrected record binds actual saved TestRunner start observation instead; no test assertion or phone code changed."
+  },
+  "prepared_evidence_helpers": {
+    "run_ui.py": "da2a46322a39300fa7f154e2b8c6b3fc09a2f51ad9dbce578b42c312e63751c4",
+    "check_acceptance.py": "0c431ccf0142d21b8aa47b2c93eb7eb1997d738cf4c522c84958fc8267d4f511",
+    "capture_owner_at_closure.py": "7a9fc03e2e62a47ca381c9bebf4c65d22da815800f51b47445e1b3967dbfc2a1"
+  },
+  "scope": "Runtime and instrumentation source unchanged; no product repair for the registry exception. Prepared but unexecuted UI helper now requires successful adjacent0002 and explicitly tests awake membership (prior unexecuted power branch asserted a nonempty string). Closure helper retains four failed-suite passing originals, stale failed-method file and exactly one owner DB change; accepts separate pre-/post-launch baselines and requires actual final known50-file ADB check. Syntax checks only, no UI or closure success claimed. Whole-session default-registry bytes not preserved. Owner mobile data stays on; PackRAG closed until announced UI window."
+}

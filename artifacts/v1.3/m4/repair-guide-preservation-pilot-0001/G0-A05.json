@@ -1,0 +1,60 @@
+{
+  "id": "G0-A05",
+  "category": "abstention",
+  "question": "What type of temperature sensor does the Atlas P2 use?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "For the Atlas P2, document A states that the temperature sensor is a thermistor."
+    },
+    {
+      "id": "S2",
+      "text": "For the same Atlas P2 hardware revision, document B states that the temperature sensor is an RTD.\n\nNeither source is marked newer or more authoritative."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 447,
+    "prompt_ms": 4761.964,
+    "prompt_per_token_ms": 10.653163310961968,
+    "prompt_per_second": 93.86883227172655,
+    "predicted_n": 345,
+    "predicted_ms": 12724.596,
+    "predicted_per_token_ms": 36.99010465116279,
+    "predicted_per_second": 27.034257119047236,
+    "host_generation_wall_ms": 17516.277799997624,
+    "emitted_token_count": 345,
+    "reasoning_token_count": 336,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 447,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" cite (\" \" cite)? (\" \" cite)? (\" \" cite)? (\"**\" | \"*\")? \".\"?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\" | \"[S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "806982f931728229b1981f74e72e8273ee0159d47f88ee5fc0ce8b81b7a97323",
+    "final_only": "INSUFFICIENT_EVIDENCE"
+  },
+  "manual_semantic_review_required": true
+}

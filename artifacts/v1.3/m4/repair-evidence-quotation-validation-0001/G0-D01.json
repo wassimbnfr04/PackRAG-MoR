@@ -1,0 +1,67 @@
+{
+  "id": "G0-D01",
+  "category": "direct",
+  "question": "What is the maximum continuous operating temperature of the Aster-9?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C. [S1]",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "74 °C"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 380,
+    "prompt_ms": 4055.166,
+    "prompt_per_token_ms": 10.671489473684211,
+    "prompt_per_second": 93.70763120424662,
+    "predicted_n": 162,
+    "predicted_ms": 5945.227,
+    "predicted_per_token_ms": 36.926875776397516,
+    "predicted_per_second": 27.080547134701504,
+    "host_generation_wall_ms": 10068.588900001487,
+    "emitted_token_count": 162,
+    "reasoning_token_count": 137,
+    "final_and_terminal_token_count": 25,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 380,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "c442658ac7555ea15289d2b66858759f834d9c9719fc829111559e8b11de3a2e",
+    "final_only": "1. The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C. [S1]",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "3d753e39a4134fc65fd2be35a6c94d3ed20292137276b07d0a3cc6a1b3a849d2"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

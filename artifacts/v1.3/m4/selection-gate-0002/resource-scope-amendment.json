@@ -1,0 +1,7 @@
+{
+  "status": "PREPARED_SCOPE_EXTENSION_NOT_ACCEPTANCE",
+  "before_sha256": "cad6f845922171b0000b239040f662aa5589ea14aab372d1b324a327efd6d4d9",
+  "after_sha256": "295b264c1b4bf7ef1a0ddf7968c3dadf4961d30a3d2083dddfdc0c751e4c651d",
+  "before_copy": "verify_and_record_reporting-before-resource-scope.txt",
+  "change": "Add read-only single resource observation root to immutable public output capture; no tests/requirements/expectations removed"
+}

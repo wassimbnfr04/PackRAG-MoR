@@ -1,0 +1,18 @@
+{
+  "status": "PASS_COMPLETED_METHOD_PARITY_NOT_FULL_INSTRUMENTATION_OR_MILESTONE_ACCEPTANCE",
+  "recorded_utc": "2026-10-09T19:34:19.970205+00:00",
+  "intended_build": "build-0020",
+  "original_adb_bytes_sha256": {
+    "m4-source-text.json": "d95b504a0625b8c4c0b0fdb704806dd9229618238fef390b326726020de3c699",
+    "m4-representations.json": "102621e3a35b051242f22a3f04e84de8ca6442261bf16d4e568492d836179546",
+    "m4-representation-runtime.json": "eb4ea23a1c8c3fba65e2d51c422f2a3dc0f5030e87fa6e627855f6c48ef44b57"
+  },
+  "presence_cases": 38,
+  "valid_scalars": 1112064,
+  "blank_resolver_checks": 116,
+  "signed_presence_imports": 6,
+  "representation_actual_tokenizer_cases": 14,
+  "presence_actual_tokenizer_cases": 2,
+  "representation_runtime_cases": 8,
+  "purpose": "Early completed methods; full runner manifest/APK matching, retained regression, policy, restoration and closure still required"
+}

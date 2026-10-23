@@ -1,0 +1,647 @@
+{
+  "case_id": "M1-G0-D09",
+  "passed": true,
+  "expected_fact": "80",
+  "result": {
+    "state": "ANSWER_ACCEPTED",
+    "answer": "The Vanta-P8 intake filter uses an 80-micrometre mesh [S1].",
+    "citations": [
+      "S1"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "canonical_text": "The Vanta-P8 intake filter uses an 80-micrometre mesh.",
+        "title": "Vanta-P8",
+        "locator": "G0-D09",
+        "publisher": "PackRAG synthetic development fixture",
+        "canonical_uri": null,
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      }
+    ],
+    "query": {
+      "raw": "What mesh size is used by the Vanta-P8 intake filter?",
+      "as_of": "2026-10-05",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what mesh size is used by the vanta-p8 intake filter?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.development.walking-skeleton",
+        "0.1.0",
+        "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 12.158900000940775,
+      "retrieval_ms": 1.4500999968731776,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 433,
+        "prompt_ms": 4504.349,
+        "prompt_per_token_ms": 10.402653579676675,
+        "prompt_per_second": 96.12931857633589,
+        "predicted_n": 128,
+        "predicted_ms": 5073.992,
+        "predicted_per_token_ms": 39.95269291338583,
+        "predicted_per_second": 25.029601938670773,
+        "host_generation_wall_ms": 9606.684700000187,
+        "emitted_token_count": 128,
+        "reasoning_token_count": 106,
+        "final_and_terminal_token_count": 22,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 9824.459299998125
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9740304350852966,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "exact": false,
+        "sparse_rank": 3,
+        "dense_rank": 2,
+        "dense_cosine": 0.8018847703933716,
+        "rrf": 0.03200204813108039,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "exact": false,
+        "sparse_rank": 2,
+        "dense_rank": 4,
+        "dense_cosine": 0.7799712419509888,
+        "rrf": 0.031754032258064516,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "d46745e3c80bd1ed8f10d062",
+        "exact": false,
+        "sparse_rank": 8,
+        "dense_rank": 3,
+        "dense_cosine": 0.7844165563583374,
+        "rrf": 0.03057889822595705,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "3c0d779d818604ab90126609",
+        "exact": false,
+        "sparse_rank": 4,
+        "dense_rank": 8,
+        "dense_cosine": 0.7533881068229675,
+        "rrf": 0.030330882352941176,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "exact": false,
+        "sparse_rank": 6,
+        "dense_rank": 7,
+        "dense_cosine": 0.7584310173988342,
+        "rrf": 0.03007688828584351,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "exact": false,
+        "sparse_rank": 5,
+        "dense_rank": 9,
+        "dense_cosine": 0.7438039779663086,
+        "rrf": 0.029877369007803793,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "a7b2ed8ce984da406426ebf4",
+        "exact": false,
+        "sparse_rank": 10,
+        "dense_rank": 5,
+        "dense_cosine": 0.7704818248748779,
+        "rrf": 0.02967032967032967,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "29e38c9e841a0cd8d92a090c",
+        "exact": false,
+        "sparse_rank": 9,
+        "dense_rank": 6,
+        "dense_cosine": 0.766247570514679,
+        "rrf": 0.02964426877470356,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "exact": false,
+        "sparse_rank": 7,
+        "dense_rank": 10,
+        "dense_cosine": 0.7433512210845947,
+        "rrf": 0.029211087420042643,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "text_sha256": "61b1e97e75a1bc6a18d10721397171290d908e299ea97a8e229dc70f78afb2e9",
+        "relevant": true,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "id": "S2",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "id": "S3",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      },
+      {
+        "id": "S4",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "32449e837bfca2515cb93f30442629ef55724e6f5c0c982a4257b58cc879cfd9",
+        "chunk_id": "d46745e3c80bd1ed8f10d062",
+        "text_sha256": "0a1d8f1ac1618a40d12d85b411434be8b3b0011394b6d061faf51961302abb5e",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d7f10cf671a9cfbccf8773ff521e27c5c82680119cdc10dfa72a05bd3511fee5",
+          "relations": []
+        }
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 433,
+      "evidence": 260,
+      "max_new": 512
+    },
+    "rejection_reason": null
+  }
+}

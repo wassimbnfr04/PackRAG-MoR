@@ -1,0 +1,139 @@
+{
+  "started_at": "2026-10-09T19:54:38.826028+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.SourceTextDeviceTest,org.packrag.product.RepresentationDeviceTest,org.packrag.product.RelevanceDeviceTest,org.packrag.product.ConflictDeviceTest,org.packrag.product.ConflictRuntimeDeviceTest,org.packrag.product.SourceMetadataDeviceTest,org.packrag.product.ValidityDeviceTest,org.packrag.product.QueryIdentifierDeviceTest,org.packrag.product.QueryUnicodeDeviceTest,org.packrag.product.ProductionPolicyDeviceTest,org.packrag.product.ReleaseTrustCoreDeviceTest,org.packrag.product.DataTypeDeviceTest,org.packrag.product.ExtensionNameDeviceTest,org.packrag.product.ValidationOrderDeviceTest,org.packrag.product.ResidualSecurityDeviceTest,org.packrag.product.StrictManifestDeviceTest,org.packrag.product.StrictDatabaseDeviceTest,org.packrag.product.StrictArchiveDeviceTest,org.packrag.product.PackRetrievalParityTest,org.packrag.product.GeneratorPromptParityTest",
+  "variant": "demo",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m4\\build-0021\\app-demo.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m4\\build-0021\\app-demo-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.SourceTextDeviceTest,org.packrag.product.RepresentationDeviceTest,org.packrag.product.RelevanceDeviceTest,org.packrag.product.ConflictDeviceTest,org.packrag.product.ConflictRuntimeDeviceTest,org.packrag.product.SourceMetadataDeviceTest,org.packrag.product.ValidityDeviceTest,org.packrag.product.QueryIdentifierDeviceTest,org.packrag.product.QueryUnicodeDeviceTest,org.packrag.product.ProductionPolicyDeviceTest,org.packrag.product.ReleaseTrustCoreDeviceTest,org.packrag.product.DataTypeDeviceTest,org.packrag.product.ExtensionNameDeviceTest,org.packrag.product.ValidationOrderDeviceTest,org.packrag.product.ResidualSecurityDeviceTest,org.packrag.product.StrictManifestDeviceTest,org.packrag.product.StrictDatabaseDeviceTest,org.packrag.product.StrictArchiveDeviceTest,org.packrag.product.PackRetrievalParityTest,org.packrag.product.GeneratorPromptParityTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-demo.apk": "58ffcb90498e2315b6dbd8a666f7d525f64ba2493215150133607eb5818498b9",
+    "app-demo-androidTest.apk": "2b48122bd49ce7d5164a31b5bda67ca11048f1be2267a4cc49121d8b5f4b2749"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.SourceTextDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceTextDeviceTest.kt",
+      "source_sha256": "65fbbaa4cc7ac672c5aa1a3fb663bd1092420f53851933ef6f742ae09d8478d6"
+    },
+    "org.packrag.product.RepresentationDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/RepresentationDeviceTest.kt",
+      "source_sha256": "defd275362fa12acbacce3b91aebe1bc2d8b6c16dbb04b820394dcea6adec24a"
+    },
+    "org.packrag.product.RelevanceDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/RelevanceDeviceTest.kt",
+      "source_sha256": "cb93bec8cd6e37ff265e99ed5991ba192d692d53c7ba2740398b03474dd95f57"
+    },
+    "org.packrag.product.ConflictDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ConflictDeviceTest.kt",
+      "source_sha256": "82052119af784c8ab5f77826e19f74246164cf790db9be0ab816a026b1eee81f"
+    },
+    "org.packrag.product.ConflictRuntimeDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ConflictRuntimeDeviceTest.kt",
+      "source_sha256": "435efb8d2f3179f51324f3053e5c83f9982d48f7abc5f7c36c7498d08c97aeae"
+    },
+    "org.packrag.product.SourceMetadataDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceMetadataDeviceTest.kt",
+      "source_sha256": "485e5a04427dd10c93e7ae758ec7b1365ce34dafb408c013311af4f8156617f6"
+    },
+    "org.packrag.product.ValidityDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ValidityDeviceTest.kt",
+      "source_sha256": "a6ae718782808ed224065dc447366e6117fcb1a8332166e03e42951984ed0d82"
+    },
+    "org.packrag.product.QueryIdentifierDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryIdentifierDeviceTest.kt",
+      "source_sha256": "4e9c9420c341110cecab91919b862703e699496e5042d6605a7bee9bbe61a2f3"
+    },
+    "org.packrag.product.QueryUnicodeDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryUnicodeDeviceTest.kt",
+      "source_sha256": "57e9252b7ce4577346375b23fe7383b8920622c342007e7109c761546f9de0c1"
+    },
+    "org.packrag.product.ProductionPolicyDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ProductionPolicyDeviceTest.kt",
+      "source_sha256": "230f31a76c6c66c37322c3545f19971c9d23952744bcba908200e4e073537c10"
+    },
+    "org.packrag.product.ReleaseTrustCoreDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ReleaseTrustCoreDeviceTest.kt",
+      "source_sha256": "1cad1e2a0c29b7fcd76d01738b69e884987333479262793b6d59a5429a8fe3a1"
+    },
+    "org.packrag.product.DataTypeDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/DataTypeDeviceTest.kt",
+      "source_sha256": "f9a1161cb5e0daaeb41a03696d5b30b632556f99dae8c3faa79f62e98299fef0"
+    },
+    "org.packrag.product.ExtensionNameDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ExtensionNameDeviceTest.kt",
+      "source_sha256": "a7116ba57ed1078a6f5d28de0828a8e7fd26c31aadbf7be32150d84d062fd62a"
+    },
+    "org.packrag.product.ValidationOrderDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ValidationOrderDeviceTest.kt",
+      "source_sha256": "e3961c80cd63065940b793617901db7f6aeb1871a1c20e32d9dbd22df4c840e4"
+    },
+    "org.packrag.product.ResidualSecurityDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ResidualSecurityDeviceTest.kt",
+      "source_sha256": "a97d8a3fc9917f85f259f7940d3cc473de870e957a923c79cf95921dbf4e517c"
+    },
+    "org.packrag.product.StrictManifestDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/StrictManifestDeviceTest.kt",
+      "source_sha256": "12ae9bedb7acdb6bdb9faea4adb18076e50a42fb3086a8e59711ea12c23ac6d9"
+    },
+    "org.packrag.product.StrictDatabaseDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/StrictDatabaseDeviceTest.kt",
+      "source_sha256": "3d5074dd0db42e13fbc787c744b6cbfffbf3c79b911d4c65aad334a53742370a"
+    },
+    "org.packrag.product.StrictArchiveDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/StrictArchiveDeviceTest.kt",
+      "source_sha256": "0224596096d81205dde7b710e8411e3cc04fb2f3c5b585342a8c4ac275e88670"
+    },
+    "org.packrag.product.PackRetrievalParityTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackRetrievalParityTest.kt",
+      "source_sha256": "659c38992957671e36efd6265d0e53e193ef3718a4f8a817e04ab280d5673aad"
+    },
+    "org.packrag.product.GeneratorPromptParityTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/GeneratorPromptParityTest.kt",
+      "source_sha256": "87ea9d7b29507fffaa9bfb842f6bf97da4b2b38921e14112144f61f1db6f78f8"
+    }
+  },
+  "status": "PASS"
+}

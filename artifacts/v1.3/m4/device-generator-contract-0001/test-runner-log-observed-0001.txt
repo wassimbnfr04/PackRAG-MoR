@@ -1,0 +1,5 @@
+--------- beginning of main
+10-06 22:03:55.114  2102  2146 I TestRunner: run started: 15 tests
+10-06 22:03:55.120  2102  2146 I TestRunner: started: actualNativeAbortRecoveryAndClosedHandleRejection(org.packrag.product.GeneratorCancellationTest)
+10-06 22:06:53.498  2102  2146 I TestRunner: finished: actualNativeAbortRecoveryAndClosedHandleRejection(org.packrag.product.GeneratorCancellationTest)
+10-06 22:06:53.521  2102  2146 I TestRunner: started: retainedVerifiedRetrievalToActualGeneratorAndCanonicalSource(org.packrag.product.ProductRuntimeSmokeTest)

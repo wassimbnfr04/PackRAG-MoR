@@ -1,0 +1,1295 @@
+{
+  "id": "FIVE_COMPANIONS",
+  "status": "PASS",
+  "actual_weight_inference": false,
+  "model_load_not_excluded": true,
+  "generate_calls_for_case": 0,
+  "result": {
+    "state": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+      "as_of": "2026-10-07",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.conflict.five-companions",
+        "1.0.0",
+        "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 10.086199999932433,
+      "retrieval_ms": 1.736700000037672,
+      "end_to_end_ms": 50.4387000000861
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.conflict.five-companions",
+        "chunk_id": "b72b7dcf3b36a21d13ec29f9",
+        "exact": true,
+        "sparse_rank": 4,
+        "dense_rank": 1,
+        "dense_cosine": 0.8745331764221191,
+        "rrf": 0.032018442622950824,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.five-companions",
+            "1.0.0",
+            "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.five-companions",
+              "1.0.0",
+              "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+            ],
+            "chunk": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "canonical_text": "The Aster-9 synthetic rule part 4 requires check 4 before continuous operation.",
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "b72b7dcf3b36a21d13ec29f9",
+              "dense_row": 4,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "part4",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 5,
+              "search_text": "The Aster-9 synthetic rule part 4 requires check 4 before continuous operation.",
+              "section": "part4",
+              "sha256_original": "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "part4",
+              "source_title": "SYNTHETIC Aster-9 rule",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+              "title": "SYNTHETIC Aster-9 rule"
+            },
+            "source_metadata": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "b72b7dcf3b36a21d13ec29f9",
+                  "provenance": "explicit-reference",
+                  "relation_type": "amends",
+                  "to_chunk_id": "602a09b58756b9c5473429f6"
+                }
+              ]
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 4,
+            "dense_rank": 1,
+            "cosine": 0.8745331764221191,
+            "rrf": 0.032018442622950824,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "state": "RESOLVED_RELATION",
+            "reason": "RETAIN_BASE_AND_COMPANIONS",
+            "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+            "retained": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "required": [
+              [
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+              ],
+              [
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+              ],
+              [
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+              ],
+              [
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+              ],
+              [
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+              ]
+            ]
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": [
+            {
+              "from_chunk_id": "b72b7dcf3b36a21d13ec29f9",
+              "to_chunk_id": "602a09b58756b9c5473429f6",
+              "relation_type": "amends",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-law",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.five-companions",
+        "chunk_id": "602a09b58756b9c5473429f6",
+        "exact": true,
+        "sparse_rank": 3,
+        "dense_rank": 2,
+        "dense_cosine": 0.8729296922683716,
+        "rrf": 0.03200204813108039,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.five-companions",
+            "1.0.0",
+            "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+          ]
+        ],
+        "fused_rank": 2,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.five-companions",
+              "1.0.0",
+              "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+            ],
+            "chunk": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "canonical_text": "The Aster-9 synthetic rule part 3 requires check 3 before continuous operation.",
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "602a09b58756b9c5473429f6",
+              "dense_row": 3,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "part3",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 4,
+              "search_text": "The Aster-9 synthetic rule part 3 requires check 3 before continuous operation.",
+              "section": "part3",
+              "sha256_original": "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "part3",
+              "source_title": "SYNTHETIC Aster-9 rule",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+              "title": "SYNTHETIC Aster-9 rule"
+            },
+            "source_metadata": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "602a09b58756b9c5473429f6",
+                  "provenance": "explicit-reference",
+                  "relation_type": "amends",
+                  "to_chunk_id": "53349cf478b37619701431c7"
+                },
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "b72b7dcf3b36a21d13ec29f9",
+                  "provenance": "explicit-reference",
+                  "relation_type": "amends",
+                  "to_chunk_id": "602a09b58756b9c5473429f6"
+                }
+              ]
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 3,
+            "dense_rank": 2,
+            "cosine": 0.8729296922683716,
+            "rrf": 0.03200204813108039,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "state": "RESOLVED_RELATION",
+            "reason": "RETAIN_BASE_AND_COMPANIONS",
+            "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+            "retained": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "required": [
+              [
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+              ],
+              [
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+              ],
+              [
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+              ],
+              [
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+              ],
+              [
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+              ]
+            ]
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": [
+            {
+              "from_chunk_id": "602a09b58756b9c5473429f6",
+              "to_chunk_id": "53349cf478b37619701431c7",
+              "relation_type": "amends",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            },
+            {
+              "from_chunk_id": "b72b7dcf3b36a21d13ec29f9",
+              "to_chunk_id": "602a09b58756b9c5473429f6",
+              "relation_type": "amends",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-law",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.five-companions",
+        "chunk_id": "53349cf478b37619701431c7",
+        "exact": true,
+        "sparse_rank": 2,
+        "dense_rank": 4,
+        "dense_cosine": 0.8681949377059937,
+        "rrf": 0.031754032258064516,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.five-companions",
+            "1.0.0",
+            "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+          ]
+        ],
+        "fused_rank": 3,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.five-companions",
+              "1.0.0",
+              "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+            ],
+            "chunk": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "canonical_text": "The Aster-9 synthetic rule part 2 requires check 2 before continuous operation.",
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "53349cf478b37619701431c7",
+              "dense_row": 2,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "part2",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 3,
+              "search_text": "The Aster-9 synthetic rule part 2 requires check 2 before continuous operation.",
+              "section": "part2",
+              "sha256_original": "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "part2",
+              "source_title": "SYNTHETIC Aster-9 rule",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+              "title": "SYNTHETIC Aster-9 rule"
+            },
+            "source_metadata": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "53349cf478b37619701431c7",
+                  "provenance": "explicit-reference",
+                  "relation_type": "amends",
+                  "to_chunk_id": "1606132bfb9c4d6c539b3c84"
+                },
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "602a09b58756b9c5473429f6",
+                  "provenance": "explicit-reference",
+                  "relation_type": "amends",
+                  "to_chunk_id": "53349cf478b37619701431c7"
+                }
+              ]
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 2,
+            "dense_rank": 4,
+            "cosine": 0.8681949377059937,
+            "rrf": 0.031754032258064516,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "state": "RESOLVED_RELATION",
+            "reason": "RETAIN_BASE_AND_COMPANIONS",
+            "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+            "retained": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "required": [
+              [
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+              ],
+              [
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+              ],
+              [
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+              ],
+              [
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+              ],
+              [
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+              ]
+            ]
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": [
+            {
+              "from_chunk_id": "53349cf478b37619701431c7",
+              "to_chunk_id": "1606132bfb9c4d6c539b3c84",
+              "relation_type": "amends",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            },
+            {
+              "from_chunk_id": "602a09b58756b9c5473429f6",
+              "to_chunk_id": "53349cf478b37619701431c7",
+              "relation_type": "amends",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-law",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.five-companions",
+        "chunk_id": "1606132bfb9c4d6c539b3c84",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 5,
+        "dense_cosine": 0.8672785758972168,
+        "rrf": 0.03177805800756621,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.five-companions",
+            "1.0.0",
+            "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+          ]
+        ],
+        "fused_rank": 4,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.five-companions",
+              "1.0.0",
+              "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+            ],
+            "chunk": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "canonical_text": "The Aster-9 synthetic rule part 1 requires check 1 before continuous operation.",
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "1606132bfb9c4d6c539b3c84",
+              "dense_row": 1,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "part1",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 2,
+              "search_text": "The Aster-9 synthetic rule part 1 requires check 1 before continuous operation.",
+              "section": "part1",
+              "sha256_original": "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "part1",
+              "source_title": "SYNTHETIC Aster-9 rule",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+              "title": "SYNTHETIC Aster-9 rule"
+            },
+            "source_metadata": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "1606132bfb9c4d6c539b3c84",
+                  "provenance": "explicit-reference",
+                  "relation_type": "amends",
+                  "to_chunk_id": "ff3cb43f52951870d0331466"
+                },
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "53349cf478b37619701431c7",
+                  "provenance": "explicit-reference",
+                  "relation_type": "amends",
+                  "to_chunk_id": "1606132bfb9c4d6c539b3c84"
+                }
+              ]
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 5,
+            "cosine": 0.8672785758972168,
+            "rrf": 0.03177805800756621,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "state": "RESOLVED_RELATION",
+            "reason": "RETAIN_BASE_AND_COMPANIONS",
+            "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+            "retained": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "required": [
+              [
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+              ],
+              [
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+              ],
+              [
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+              ],
+              [
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+              ],
+              [
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+              ]
+            ]
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": [
+            {
+              "from_chunk_id": "1606132bfb9c4d6c539b3c84",
+              "to_chunk_id": "ff3cb43f52951870d0331466",
+              "relation_type": "amends",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            },
+            {
+              "from_chunk_id": "53349cf478b37619701431c7",
+              "to_chunk_id": "1606132bfb9c4d6c539b3c84",
+              "relation_type": "amends",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-law",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.five-companions",
+        "chunk_id": "ff3cb43f52951870d0331466",
+        "exact": true,
+        "sparse_rank": 5,
+        "dense_rank": 3,
+        "dense_cosine": 0.8720558285713196,
+        "rrf": 0.03125763125763126,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.five-companions",
+            "1.0.0",
+            "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+          ]
+        ],
+        "fused_rank": 5,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.conflict.five-companions",
+              "1.0.0",
+              "6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14"
+            ],
+            "chunk": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "canonical_text": "The Aster-9 synthetic rule part 0 requires check 0 before continuous operation.",
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "ff3cb43f52951870d0331466",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": "MA",
+              "language": "en",
+              "legal_status": "active",
+              "license": "CC0-1.0",
+              "locator": "part0",
+              "notes": null,
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC FIXTURE ONLY",
+              "redistribution_allowed": 1,
+              "retrieved_at": "2026-10-07",
+              "rowid": 1,
+              "search_text": "The Aster-9 synthetic rule part 0 requires check 0 before continuous operation.",
+              "section": "part0",
+              "sha256_original": "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+              "snapshot_path": null,
+              "source_from": null,
+              "source_id": "part0",
+              "source_title": "SYNTHETIC Aster-9 rule",
+              "source_type": "synthetic",
+              "source_until": null,
+              "text_sha256": "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+              "title": "SYNTHETIC Aster-9 rule"
+            },
+            "source_metadata": {
+              "article": "Aster-9",
+              "authority_rank": 1,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+              "relations": [
+                {
+                  "confidence": 1.0,
+                  "from_chunk_id": "1606132bfb9c4d6c539b3c84",
+                  "provenance": "explicit-reference",
+                  "relation_type": "amends",
+                  "to_chunk_id": "ff3cb43f52951870d0331466"
+                }
+              ]
+            },
+            "source_attribution": {
+              "canonical_uri": "https://example.invalid/synthetic-law",
+              "retrieved_at": "2026-10-07",
+              "license": "CC0-1.0",
+              "redistribution_allowed": true,
+              "source_type": "synthetic",
+              "snapshot_path": null,
+              "notes": null
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 5,
+            "dense_rank": 3,
+            "cosine": 0.8720558285713196,
+            "rrf": 0.03125763125763126,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": [
+              {
+                "members": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "state": "RESOLVED_RELATION",
+                "reason": "RETAIN_BASE_AND_COMPANIONS",
+                "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                "retained": [
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+                  "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+                ],
+                "required": [
+                  [
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                    "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+                  ],
+                  [
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                    "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+                  ],
+                  [
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                    "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+                  ],
+                  [
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                    "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+                  ],
+                  [
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                    "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "state": "RESOLVED_RELATION",
+            "reason": "RETAIN_BASE_AND_COMPANIONS",
+            "preferred": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+            "retained": [
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+              "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+            ],
+            "required": [
+              [
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf",
+                "10dc53f3b2b2a52da1a988589e52635d813f7523f04d559a782a8ca60ba87dcf"
+              ],
+              [
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3",
+                "48147e4eb0f8704eb9bb25063a8a418f69c85e6d2e28141ceaa699dfb51fc9d3"
+              ],
+              [
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4",
+                "73aba14a5e9508e7d0124d609cc05bdd970e263d83f6ba9370fa167016cd8bd4"
+              ],
+              [
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c",
+                "8df26576b9c861635032522f60e55b53f631bcdfc65aefd66e720b2d968d548c"
+              ],
+              [
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728",
+                "d5b8dd04c3ce9634f0daba424cc3e4f8088028f99f2ba2cab9343d823409b728"
+              ]
+            ]
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": [
+            {
+              "from_chunk_id": "1606132bfb9c4d6c539b3c84",
+              "to_chunk_id": "ff3cb43f52951870d0331466",
+              "relation_type": "amends",
+              "provenance": "explicit-reference",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "source_attribution": {
+          "canonical_uri": "https://example.invalid/synthetic-law",
+          "retrieved_at": "2026-10-07",
+          "license": "CC0-1.0",
+          "redistribution_allowed": true,
+          "source_type": "synthetic",
+          "snapshot_path": null,
+          "notes": null
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": [],
+    "selection": {
+      "keys": [],
+      "decisions": [
+        {
+          "key": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+          "reason": "MANDATORY_CHUNK_CAP",
+          "trial": [
+            "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#b72b7dcf3b36a21d13ec29f9",
+            "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+            "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+            "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+            "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466"
+          ],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#602a09b58756b9c5473429f6",
+          "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+          "trial": [],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#53349cf478b37619701431c7",
+          "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+          "trial": [],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#1606132bfb9c4d6c539b3c84",
+          "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+          "trial": [],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.contract.conflict.five-companions@1.0.0:6b9446c77642bae3060348d5d9591dc3591bd31aa4d0244246c6b8b86450af14#ff3cb43f52951870d0331466",
+          "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+          "trial": [],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        }
+      ],
+      "sources": [],
+      "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE"
+    }
+  }
+}

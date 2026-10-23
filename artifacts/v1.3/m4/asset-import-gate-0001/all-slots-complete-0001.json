@@ -1,0 +1,148 @@
+{
+  "status": "PASS_F2_ALL_SLOT_API_NATIVE_ITERATION_NOT_FULL_F2",
+  "recorded_utc": "2026-10-11T18:00:11.900726+00:00",
+  "execution_sha256": "3e66d7ac4a1c06f80eaab5874e3fbf999ce8afb148563719f37d26f4930104db",
+  "original_sha256": {
+    "m4-local-asset-import-all-slots.json": "3340b86bb5ed4ed73a5c6449d59bd4b6ac84da9d5664545b1e5986041f751923",
+    "m4-local-asset-import-all-slots-progress.json": "3340b86bb5ed4ed73a5c6449d59bd4b6ac84da9d5664545b1e5986041f751923"
+  },
+  "imports": [
+    {
+      "slot": "GENERATOR",
+      "bytes": 1593894944,
+      "sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "completed_at": "2026-10-11T17:52:26.709818Z",
+      "directory_synced": true,
+      "staging_cleaned": true,
+      "duration_ms": 10574.321484,
+      "progress_callbacks": 24326,
+      "observed_final_bytes": 1593894944,
+      "stages": [
+        "COPYING",
+        "SYNCING",
+        "VERIFYING",
+        "COMMITTING",
+        "COMMITTED"
+      ],
+      "provider_before": {
+        "opens": 0,
+        "closes": 0,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 0,
+        "typed_plain_opens": 0
+      },
+      "provider_after": {
+        "opens": 1,
+        "closes": 1,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 1,
+        "typed_plain_opens": 0
+      }
+    },
+    {
+      "slot": "TEMPLATE",
+      "bytes": 5443,
+      "sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "completed_at": "2026-10-11T17:52:33.897984Z",
+      "directory_synced": true,
+      "staging_cleaned": true,
+      "duration_ms": 155.145664,
+      "progress_callbacks": 6,
+      "observed_final_bytes": 5443,
+      "stages": [
+        "COPYING",
+        "SYNCING",
+        "VERIFYING",
+        "COMMITTING",
+        "COMMITTED"
+      ],
+      "provider_before": {
+        "opens": 1,
+        "closes": 1,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 1,
+        "typed_plain_opens": 0
+      },
+      "provider_after": {
+        "opens": 2,
+        "closes": 2,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 2,
+        "typed_plain_opens": 0
+      }
+    },
+    {
+      "slot": "TOKENIZER",
+      "bytes": 25301672,
+      "sha256": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+      "completed_at": "2026-10-11T17:52:34.713490Z",
+      "directory_synced": true,
+      "staging_cleaned": true,
+      "duration_ms": 767.139062,
+      "progress_callbacks": 392,
+      "observed_final_bytes": 25301672,
+      "stages": [
+        "COPYING",
+        "SYNCING",
+        "VERIFYING",
+        "COMMITTING",
+        "COMMITTED"
+      ],
+      "provider_before": {
+        "opens": 2,
+        "closes": 2,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 2,
+        "typed_plain_opens": 0
+      },
+      "provider_after": {
+        "opens": 3,
+        "closes": 3,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 3,
+        "typed_plain_opens": 0
+      }
+    },
+    {
+      "slot": "ENCODER",
+      "bytes": 390004608,
+      "sha256": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+      "completed_at": "2026-10-11T17:52:39.841866Z",
+      "directory_synced": true,
+      "staging_cleaned": true,
+      "duration_ms": 4938.672422,
+      "progress_callbacks": 5956,
+      "observed_final_bytes": 390004608,
+      "stages": [
+        "COPYING",
+        "SYNCING",
+        "VERIFYING",
+        "COMMITTING",
+        "COMMITTED"
+      ],
+      "provider_before": {
+        "opens": 3,
+        "closes": 3,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 3,
+        "typed_plain_opens": 0
+      },
+      "provider_after": {
+        "opens": 4,
+        "closes": 4,
+        "close_errors": 0,
+        "provider_uid": 10472,
+        "typed_cancellable_opens": 4,
+        "typed_plain_opens": 0
+      }
+    }
+  ],
+  "note": "Current M4F2 full-size four-slot API/native iteration PASSED at 2026-10-11T18:00:11.900726+00:00: build0066 passes73 host/593 frozen inputs/contracts, actual all-slots0001 passes8 ordered controls. Total2009206667 bytes imported via actual separate-UID read descriptors into initially absent isolated private model destination; generator/template/tokenizer/encoder exact pins verified by importer readback and independent final verification. All4 actual descriptor opens/closes/typed-cancellable calls counted once each, no close errors/plain typed calls. Monotonic actual byte counts/stage order/callback counts/import duration persisted; durations are functional observations, not controlled performance acceptance. Cold and warm real synthetic74°C[S1] answers pass retrieval/admission/selection/LFM2.5/reasoning removal/citation checks with actual tokens/native context. Original main/progress JSON saved/hash-bound before any switch; explicit owner50 and four test-UID source full hashes match before/after. Newly owned source copies stayed on phone (no host weight export) and deliberately remain readonly for identified later policy/UI reuse; owned destination cleaned after native close. Accepted F1 outputs406/history587/Python188 identities unchanged in independent restart-and-all-slot-retained-custody0001 (retained evidence, not a fresh whole regression run). Product APK unchanged0065/66; only test harness sources/public baseline asset changed. Next F2 iteration: wire real fixed-slot OpenDocument picker, ViewModel serialized import/progress/cooperative cancellation, preserve completed answer/trace/submission/resultID on success/failure/picker cancel; actual ViewModel/native tests then system-picker/foreground UI with fresh announced untouched window. Approved-policy matched-source tests, retained regressions/restoration/custody/closure/exact checkpoint remain. F3/F4/later software/release/delivery remain; no full F2/M4/product/release/power-loss/domain/gold/performance claim. Mobile data on; background PackRAG closed; final knowledge packs owner supplied."
+}

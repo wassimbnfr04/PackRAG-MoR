@@ -1,0 +1,324 @@
+{
+  "_id": "69e6432ba6416bc661bc3d99",
+  "id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+  "private": false,
+  "pipeline_tag": "feature-extraction",
+  "library_name": "sentence-transformers",
+  "tags": [
+    "sentence-transformers",
+    "onnx",
+    "safetensors",
+    "openvino",
+    "modernbert",
+    "feature-extraction",
+    "granite",
+    "embeddings",
+    "transformers",
+    "multilingual",
+    "mteb",
+    "sentence-similarity",
+    "ar",
+    "az",
+    "bg",
+    "bn",
+    "ca",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "fa",
+    "fi",
+    "fr",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "is",
+    "it",
+    "ja",
+    "ka",
+    "kk",
+    "km",
+    "ko",
+    "lt",
+    "lv",
+    "mr",
+    "ms",
+    "nl",
+    "no",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "sk",
+    "sl",
+    "sq",
+    "sr",
+    "sv",
+    "sw",
+    "te",
+    "th",
+    "tl",
+    "tr",
+    "uk",
+    "ur",
+    "uz",
+    "vi",
+    "zh",
+    "license:apache-2.0",
+    "text-embeddings-inference",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 97409,
+  "likes": 145,
+  "modelId": "ibm-granite/granite-embedding-97m-multilingual-r2",
+  "author": "ibm-granite",
+  "sha": "c61e626a6255c490879d0af885078b61929d51f6",
+  "lastModified": "2026-04-29T01:27:50.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "[MASK]",
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "ModernBertModel"
+    ],
+    "model_type": "modernbert",
+    "tokenizer_config": {
+      "bos_token": "<|startoftext|>",
+      "cls_token": "<|startoftext|>",
+      "eos_token": "<|return|>",
+      "mask_token": "[MASK]",
+      "pad_token": "<|endoftext|>",
+      "sep_token": "<|return|>"
+    }
+  },
+  "cardData": {
+    "language": [
+      "ar",
+      "az",
+      "bg",
+      "bn",
+      "ca",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fa",
+      "fi",
+      "fr",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "id",
+      "is",
+      "it",
+      "ja",
+      "ka",
+      "kk",
+      "km",
+      "ko",
+      "lt",
+      "lv",
+      "mr",
+      "ms",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sq",
+      "sr",
+      "sv",
+      "sw",
+      "te",
+      "th",
+      "tl",
+      "tr",
+      "uk",
+      "ur",
+      "uz",
+      "vi",
+      "zh"
+    ],
+    "library_name": "sentence-transformers",
+    "license": "apache-2.0",
+    "pipeline_tag": "feature-extraction",
+    "tags": [
+      "granite",
+      "embeddings",
+      "transformers",
+      "multilingual",
+      "mteb",
+      "feature-extraction",
+      "sentence-similarity",
+      "onnx",
+      "openvino"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel",
+    "pipeline_tag": "feature-extraction",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+      "size": 1570
+    },
+    {
+      "rfilename": "1_Pooling/config.json",
+      "blobId": "95356aec72a5451eb362f23b30543efa547221e2",
+      "size": 313
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "83c6c0cbec87ff566a98f50d3f0f98c28f80d57c",
+      "size": 20349
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "6db97c0414739bc51859dbdf7b8b134797337724",
+      "size": 1216
+    },
+    {
+      "rfilename": "config_sentence_transformers.json",
+      "blobId": "3ab1bc63caa3ea50028214685fad2b278d49ca2b",
+      "size": 283
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "53f433ad114d9a0ce7cb4cd9679418895cb93ae8",
+      "size": 194889568,
+      "lfs": {
+        "sha256": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+        "size": 194889568,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "model.sig",
+      "blobId": "9f7776d3175cfcd111f8880e5d4cf5e8166ca1f6",
+      "size": 11555
+    },
+    {
+      "rfilename": "modules.json",
+      "blobId": "952a9b81c0bfd99800fabf352f69c7ccd46c5e43",
+      "size": 349
+    },
+    {
+      "rfilename": "onnx/model.onnx",
+      "blobId": "cad83efbbb1036a39c1fc7ede7acdb7e3d2b917e",
+      "size": 390004608,
+      "lfs": {
+        "sha256": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+        "size": 390004608,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "onnx/model_quint8_avx2.onnx",
+      "blobId": "a4e7e8009d78d1e760545a685799c62fe4715df8",
+      "size": 98247878,
+      "lfs": {
+        "sha256": "a6022dd8220ea6f6595562a1328ee216f4a94faa55362f2f4747c80f1e78772e",
+        "size": 98247878,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "openvino/openvino_model_qint8_quantized.bin",
+      "blobId": "b6de47c54ac8f5453a38eccf6dc03ffc025441ef",
+      "size": 97950112,
+      "lfs": {
+        "sha256": "6a2d84b6c1b09d24af2a10c4cc5dd374d305f5e98bed3ca3db016797753f6d37",
+        "size": 97950112,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "openvino/openvino_model_qint8_quantized.xml",
+      "blobId": "a62fbb8b641ec3f713bbd5f91ede783a4705fa1a",
+      "size": 537315
+    },
+    {
+      "rfilename": "openvino_model.bin",
+      "blobId": "d2cb671467d85850b7d4e95fa1aa682ec5a7fad6",
+      "size": 389764960,
+      "lfs": {
+        "sha256": "29091e79be57c55d6448eff9bc0ec1b387eb29f05a3b61a39e97cc689c1c49bf",
+        "size": 389764960,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "openvino_model.xml",
+      "blobId": "fbf1a6341ccf21b887cbc9c180ad51a5b84b924e",
+      "size": 452762
+    },
+    {
+      "rfilename": "sentence_bert_config.json",
+      "blobId": "4cf43a4f6f3e8493efb2bba6fbea420216221110",
+      "size": 60
+    },
+    {
+      "rfilename": "special_tokens_map.json",
+      "blobId": "d1a49f7ece7a2cf8ba21f77d97b2413e142ab73b",
+      "size": 871
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "2d1698e93712945e0bcfd54967776a94d4995653",
+      "size": 25301672,
+      "lfs": {
+        "sha256": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+        "size": 25301672,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "6a228fd8b96ac3833a7878c92653c9dc4f85ac5d",
+      "size": 12860
+    }
+  ],
+  "spaces": [
+    "tardellirs/model-pulse",
+    "embedl/hfviewer",
+    "mteb/leaderboard",
+    "MTEB-BR/leaderboard",
+    "hakari-bench/leaderboard",
+    "destinyebuka/AIDA",
+    "ibm-granite/granite-embedding",
+    "kiedistv/leaderboard",
+    "qiaosong88/leaderboard",
+    "ArtemBolgov/leaderboard",
+    "ducqwang/company-rag-api",
+    "malyvena/leaderboard",
+    "HuggingLLM/leaderboard",
+    "wangsh0111/leaderboard",
+    "kaotd/leaderboard",
+    "kazutab/mindmap-studio"
+  ],
+  "createdAt": "2026-04-20T15:15:55.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 97441152
+    },
+    "total": 97441152
+  },
+  "usedStorage": 1196158798
+}

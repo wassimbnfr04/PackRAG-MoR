@@ -1,0 +1,16 @@
+{
+  "AUTHORITY.json": "9b063e518187546b4d1eab33e828eab1b921c07a65d7cf39bf5c03b1d4666f89",
+  "BEFORE_CAP.json": "2a3fd1123ab05662ddba49dceb3b3bbfc34f5878df6335b88055cb4f67122ade",
+  "conflict-smoke-results.json": "d3105baa2b443d197316125f7592502dba9ccb8e0cea1708f5f158fc4ef142f8",
+  "DIFFERENT_CURATORS.json": "8117d5f4feef625cd628d70f521039593efedc0cc2210fadfad19385920db1cb",
+  "failure.txt": "b877f14359a3ca76ab7be5f33739cedba4ccf35c4aad70c8442a1b17483ad9e1",
+  "FIVE_COMPANIONS.json": "ff9a2c2638abadfc352def61227306cd822e88c350472178b7e06ff4ba35cb05",
+  "inputs.json": "8c419d703ab07d59cf42bf240ac5864391c00a81e2a64ee7f676b5afac4044a6",
+  "owned-server.pid": "1fd757864954402ea3255395dc50ac28b24b7c00ed1c032b420d3e70945c2e20",
+  "server-identity.json": "5b99c84e5b4cef3d09985d3fd6e30a38184a5421cd26c2139d868f94b0c13143",
+  "server-stop.json": "04aee878d4e9805a850160bd0d75d39b3fb8f9f681dbf5b832b5e9d3d446e8cd",
+  "server.log": "69133e765c87a57b2605effb8c902feb18bdb266cea8f0f3bcf51a173311832a",
+  "SUPERSEDES_CURRENT.json": "b3e1472c7815ed1d65239fd78db30f9467b9885def6a918717f643f3dca48a4b",
+  "tokenizer-cases.json": "9e09119532017d5b7fa9ac70c8ab18a773325cfd16328771661219e301fb8063",
+  "UNKNOWN.json": "2ea3ee7da4a17e475410164472c85272db2b4775d41f13afa9e9d89155222469"
+}

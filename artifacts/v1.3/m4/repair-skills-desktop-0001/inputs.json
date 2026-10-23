@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN_INPUTS_BEFORE_INFERENCE",
+  "started_utc": "2026-10-12T18:19:54.040107+00:00",
+  "sha256": {
+    "artifacts\\v1.3\\m4\\chat-and-repair-0001\\repair-documents-frozen-0001.json": "9af185e58fd2ce1cdc8418ef0790bca31cb3d08432ee1f5673a0933eddd23508",
+    "artifacts\\v1.3\\m4\\chat-and-repair-0001\\repair-cases-frozen-0001.json": "66f4181916ee58750627c6605a94483bff02cb01e5cf88c4915c6210a8f6e222",
+    "scripts\\v13_repair_skills.py": "3ef991b5ba5d5e6a1089f9eb3147f71199179337fc4607ab5880c250342132e9"
+  },
+  "purpose": "Document-derived factual test digests and frozen procedural/missing-specification/device-mismatch questions. No thermal74 question, no model/threshold/template/weight tuning.",
+  "limits": "Two compact agent-authored digests of published real guides; not complete raw PDF ingestion, manufacturer attestation, genuine human review/calibration or PackBench held-out accuracy."
+}

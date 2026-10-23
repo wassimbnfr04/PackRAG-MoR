@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-10-06T22:08:16.851136+00:00",
+  "pid": 2102,
+  "limits": "Instantaneous read-only diagnostics. VmHWM, if present, is this process lifetime high-water so far, not final per-query peak. No causal bottleneck or thermal/resource acceptance.",
+  "process_status": {
+    "returncode": 0,
+    "stdout": "Name:\tpackrag.product\nUmask:\t0077\nState:\tS (sleeping)\nTgid:\t2102\nNgid:\t0\nPid:\t2102\nPPid:\t1378\nTracerPid:\t0\nUid:\t10469\t10469\t10469\t10469\nGid:\t10469\t10469\t10469\t10469\nFDSize:\t128\nGroups:\t9997 20469 50469 \nVmPeak:\t21192844 kB\nVmSize:\t21192844 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t 2243804 kB\nVmRSS:\t 1844212 kB\nRssAnon:\t  227040 kB\nRssFile:\t 1607352 kB\nRssShmem:\t    9820 kB\nVmData:\t 3716888 kB\nVmStk:\t    8192 kB\nVmExe:\t       4 kB\nVmLib:\t  224904 kB\nVmPTE:\t    5852 kB\nVmSwap:\t  402568 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nThreads:\t26\nSigQ:\t0/35455\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000080001204\nSigIgn:\t0000000000000001\nSigCgt:\t0000006e400084f8\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t0000000000000000\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t2\nSeccomp_filters:\t1\nSpeculation_Store_Bypass:\tthread vulnerable\nCpus_allowed:\t7f\nCpus_allowed_list:\t0-6\nMems_allowed:\t1\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t86\nnonvoluntary_ctxt_switches:\t354\n",
+    "stderr": ""
+  },
+  "thermal": {
+    "returncode": 0,
+    "stdout": "IsStatusOverride: false\nThermalEventListeners:\n\tcallbacks: 3\n\tkilled: false\n\tbroadcasts count: -1\nThermalStatusListeners:\n\tcallbacks: 8\n\tkilled: false\n\tbroadcasts count: -1\nThermal Status: 3\nCached temperatures:\n\tTemperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}\n\tTemperature{mValue=47.2, mType=0, mName=AP, mStatus=0}\n\tTemperature{mValue=48.4, mType=5, mName=PA, mStatus=0}\n\tTemperature{mValue=38.9, mType=2, mName=BAT, mStatus=0}\n\tTemperature{mValue=34.1, mType=4, mName=USB, mStatus=0}\n\tTemperature{mValue=44.0, mType=3, mName=SKIN, mStatus=3}\nHAL Ready: true\nHAL connection:\n\tThermalHAL 2.0 connected: yes\nCurrent temperatures from HAL:\n\tTemperature{mValue=47.2, mType=0, mName=AP, mStatus=0}\n\tTemperature{mValue=38.9, mType=2, mName=BAT, mStatus=0}\n\tTemperature{mValue=48.4, mType=5, mName=PA, mStatus=0}\n\tTemperature{mValue=44.0, mType=3, mName=SKIN, mStatus=3}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}\n\tTemperature{mValue=34.1, mType=4, mName=USB, mStatus=0}\nCurrent cooling devices from HAL:\nTemperature static thresholds from HAL:\nTemperature headroom thresholds:\n[NaN, 0.8666667, 0.93333334, 1.0, 1.1333333, 1.4333333, 2.4333334]\n",
+    "stderr": ""
+  }
+}

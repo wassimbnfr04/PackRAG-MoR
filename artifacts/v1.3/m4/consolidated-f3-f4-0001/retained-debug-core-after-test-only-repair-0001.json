@@ -1,0 +1,16 @@
+{
+  "status": "PASS_DATED_UNAFFECTED_DEBUG_CORE_RETENTION_NOT_NEW_0091_EXECUTION",
+  "recorded_utc": "2026-10-12T14:38:58.103011+00:00",
+  "dated_build": "build-0089",
+  "current_build": "build-0091",
+  "dated_execution_sha256": "1cfbd84a5209de2f10854a8b59b4eb5107ec13d77de58bf80e9c48aa2986b5d4",
+  "changed_android_inputs": [
+    "product/android/app/src/androidTest/java/org/packrag/product/ProductUiTestSupport.kt"
+  ],
+  "unchanged_shared_inputs": 622,
+  "all_selected_core_test_sources_unchanged": true,
+  "selected_core_sources_reference_changed_ui_support": false,
+  "full_product_apk_byte_identical": true,
+  "product_apk_sha256": "0176e7141025a4f60dd920534cb7a53ee20c82903d7ab0f65bebb425bcca3d56",
+  "scope": "Retains actual dated core12/14/297 under unchanged entire product APK and all622 shared inputs, including all selected test classes/fixtures/runtime/helper code. Only unused UI support test source changed. Test APK differs and these results are never relabeled as0091 executions. Actual repaired UI and all remaining phases require new selected testAPK/pair identities."
+}

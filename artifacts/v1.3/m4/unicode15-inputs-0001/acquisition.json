@@ -1,0 +1,36 @@
+{
+  "acquired_utc": "2026-10-06T22:24:18.440488+00:00",
+  "purpose": "Pinned Unicode15 normalization/property correctness and conformance inputs, no model download",
+  "files": {
+    "UnicodeData.txt": {
+      "url": "https://www.unicode.org/Public/15.0.0/ucd/UnicodeData.txt",
+      "bytes": 1913704,
+      "sha256": "806e9aed65037197f1ec85e12be6e8cd870fc5608b4de0fffd990f689f376a73"
+    },
+    "DerivedCoreProperties.txt": {
+      "url": "https://www.unicode.org/Public/15.0.0/ucd/DerivedCoreProperties.txt",
+      "bytes": 1053943,
+      "sha256": "d367290bc0867e6b484c68370530bdd1a08b6b32404601b8c7accaf83e05628d"
+    },
+    "SpecialCasing.txt": {
+      "url": "https://www.unicode.org/Public/15.0.0/ucd/SpecialCasing.txt",
+      "bytes": 16832,
+      "sha256": "78b29c64b5840d25c11a9f31b665ee551b8a499eca6c70d770fcad7dd710f494"
+    },
+    "NormalizationTest.txt": {
+      "url": "https://www.unicode.org/Public/15.0.0/ucd/NormalizationTest.txt",
+      "bytes": 2625136,
+      "sha256": "fb9ac8cc154a80cad6caac9897af55a4e75176af6f4e2bb6edc2bf8b1d57f326"
+    },
+    "ReadMe.txt": {
+      "url": "https://www.unicode.org/Public/15.0.0/ucd/ReadMe.txt",
+      "bytes": 635,
+      "sha256": "53672c0d0b5185e3cf04c8e970d544c3af81ae7c8eeba0b9cf6d355aa954ae1f"
+    },
+    "LICENSE.txt": {
+      "url": "https://www.unicode.org/license.txt",
+      "bytes": 1995,
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    }
+  }
+}

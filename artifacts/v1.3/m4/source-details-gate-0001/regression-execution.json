@@ -1,0 +1,125 @@
+{
+  "status": "PASS_FULL_PYTHON_AND_ALL_RETAINED_DESKTOP_GATES_NOT_E2_CLOSURE",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "pytest",
+        "tests",
+        "product/tests",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0015-temp",
+        "--junitxml",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0015\\combined-junit.xml",
+        "-q"
+      ],
+      "started_utc": "2026-10-10T16:25:36.655481+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:26:19.129546+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_result_manifest",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0015",
+        "--command",
+        "Full E2 pytest tests product/tests; exact argv in source-details-gate-0001/run_regression.py"
+      ],
+      "started_utc": "2026-10-10T16:26:19.130634+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:26:26.896714+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_existing_walking_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\existing-walking-smoke-0014"
+      ],
+      "started_utc": "2026-10-10T16:26:26.898225+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:29:28.690867+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_conflict_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\conflict-smoke-0008"
+      ],
+      "started_utc": "2026-10-10T16:29:28.690867+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:30:44.526158+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_relevance_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\relevance-smoke-0005"
+      ],
+      "started_utc": "2026-10-10T16:30:44.526158+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:31:48.050116+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_representation_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\representation-smoke-0005"
+      ],
+      "started_utc": "2026-10-10T16:31:48.050116+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:32:57.826909+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_source_text_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\source-text-smoke-0003"
+      ],
+      "started_utc": "2026-10-10T16:32:57.826909+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:33:43.241915+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_selection_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\selection-smoke-0003"
+      ],
+      "started_utc": "2026-10-10T16:33:43.241915+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:35:04.643944+00:00"
+    }
+  ]
+}

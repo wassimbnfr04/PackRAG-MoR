@@ -1,0 +1,57 @@
+{
+  "status": "RUNNING",
+  "cases": [
+    {
+      "id": "M2-NO-PACK",
+      "passed": true,
+      "state": "NO_ACTIVE_PACK",
+      "answer": null,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "actual_emitted_tokens_including_terminal": 0,
+      "reasoning_tokens": null,
+      "final_and_terminal_tokens": null,
+      "prefill_ms": null,
+      "decode_wall_ms": null,
+      "first_model_token_ms_including_hidden_reasoning": null,
+      "question_wall_ms_including_lazy_initialization": 2.93625,
+      "lazy_initialization_ms": 0,
+      "sources": []
+    },
+    {
+      "id": "M2-G0-D01",
+      "passed": true,
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+      "selected": [
+        "29e38c9e841a0cd8d92a090c",
+        "3c0d779d818604ab90126609",
+        "d46745e3c80bd1ed8f10d062",
+        "8f9fd3aa276b3db6c9d1a2f8"
+      ],
+      "prefill_tokens": 389,
+      "evidence_tokens": 234,
+      "actual_emitted_tokens_including_terminal": 152,
+      "reasoning_tokens": 132,
+      "final_and_terminal_tokens": 20,
+      "prefill_ms": 82486.08375,
+      "decode_wall_ms": 80436.495235,
+      "first_model_token_ms_including_hidden_reasoning": 82490.081016,
+      "question_wall_ms_including_lazy_initialization": 176993.723437,
+      "lazy_initialization_ms": 13887.898281,
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "title": "Aster-9",
+          "locator": "G0-D01",
+          "publisher": "PackRAG synthetic development fixture",
+          "pack_id": "org.packrag.development.walking-skeleton",
+          "version": "0.1.0",
+          "manifest_sha256": "63d9e7686e03dc0bea9d3dbf190c193432fe9f3b126fc5e54eb505d90c5a4215"
+        }
+      ]
+    }
+  ]
+}

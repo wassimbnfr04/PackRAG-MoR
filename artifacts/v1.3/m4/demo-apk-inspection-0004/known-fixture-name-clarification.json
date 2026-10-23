@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "apk_sha256": "c405f1fb5d081e755e8f57b70f922677993b2718797c60a1ecdc99c407d55b75",
+  "known_fixture_entries_checked_absent": [
+    "assets/development-public-key.raw",
+    "assets/lifecycle-public-key.raw",
+    "assets/developer-public-key.raw"
+  ],
+  "private_key_name_extensions_checked": [
+    ".seed",
+    ".pem",
+    ".key",
+    ".keystore",
+    ".jks"
+  ],
+  "matching_entries": [],
+  "interpretation": "Original inspection used narrower developer-key naming. These extra known development/lifecycle checks bind the actual observed entry list. This remains entry-name checking, not exhaustive byte-level secret detection; actual production-policy tests separately check packaged keys and flags."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "G0-A01",
+  "category": "abstention",
+  "question": "What is the minimum supply voltage of the Aster-9?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Aster-9 maximum continuous operating temperature is 74 °C."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 276,
+    "prompt_ms": 2856.856,
+    "prompt_per_token_ms": 10.350927536231884,
+    "prompt_per_second": 96.60969961384122,
+    "predicted_n": 250,
+    "predicted_ms": 9220.02,
+    "predicted_per_token_ms": 37.02819277108434,
+    "predicted_per_second": 27.006449009871993,
+    "host_generation_wall_ms": 12118.14349999986,
+    "emitted_token_count": 250,
+    "reasoning_token_count": 241,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 276,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" cite (\" \" cite)? (\" \" cite)? (\" \" cite)? (\"**\" | \"*\")? \".\"?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "971b40d27bd8bce6cc122810211f2d4be7df60528513e4ef0be18aeb2acd975b",
+    "final_only": "INSUFFICIENT_EVIDENCE"
+  },
+  "manual_semantic_review_required": true
+}

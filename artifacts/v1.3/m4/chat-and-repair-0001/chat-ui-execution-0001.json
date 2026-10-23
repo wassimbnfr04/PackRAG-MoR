@@ -1,0 +1,118 @@
+{
+  "status": "FAIL_NO_UI_ACCEPTANCE",
+  "started_utc": "2026-10-12T17:59:44.231551+00:00",
+  "serial": "emulator-5580",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "getprop",
+        "sys.boot_completed"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "getprop",
+        "ro.product.cpu.abilist"
+      ],
+      "returncode": 0,
+      "stdout": "x86_64,arm64-v8a\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "settings",
+        "get",
+        "system",
+        "font_scale"
+      ],
+      "returncode": 0,
+      "stdout": "1.0\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0103\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0103\\app-debug.apk: 1 file pushed, 0 skipped. 127.7 MB/s (74839118 bytes in 0.559s)\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0103\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0103\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 135.1 MB/s (11722327 bytes in 0.083s)\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "emulator-5580",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0103",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\chat-walking-emulator-0001",
+        "--class-name",
+        "org.packrag.product.ChatWalkingUiTest",
+        "--result-file",
+        "m4-chat-walking.json",
+        "--timeout",
+        "900"
+      ],
+      "returncode": 1
+    }
+  ],
+  "supported_abis": "x86_64,arm64-v8a",
+  "product_unchanged_from_phone_build0097": false,
+  "apk_sha256": {
+    "app-debug.apk": "529b87c46cff0448410f295869e69e46a231f111e4a7ef6b3cb0ee15e8c409da",
+    "app-debug-androidTest.apk": "0d7e6efb3e8f98ec796a8828162d715d6e51dfae6a01013a85014075923a0197"
+  },
+  "error": "",
+  "updated_utc": "2026-10-12T17:59:58.624168+00:00"
+}

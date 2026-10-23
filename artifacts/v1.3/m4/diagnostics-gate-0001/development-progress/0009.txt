@@ -1,0 +1,8 @@
+10-10 20:33:20.368 12346 12392 I TestRunner: finished: actualColdWarmAndNoPackDiagnosticsKeepOwnedContextAfterReaderClose(org.packrag.product.DiagnosticRuntimeDeviceTest)
+10-10 20:33:20.388 12346 12392 I TestRunner: started: nativeReplacementCancelRecoveryInspectionAndMutationKeepResultOwnership(org.packrag.product.DiagnosticLifecycleDeviceTest)
+10-10 20:36:23.906 12346 12392 I TestRunner: finished: nativeReplacementCancelRecoveryInspectionAndMutationKeepResultOwnership(org.packrag.product.DiagnosticLifecycleDeviceTest)
+10-10 20:36:23.928 12346 12392 I TestRunner: started: installedTamperIdentityMissingAndRemovedDetailsFailWithoutMutation(org.packrag.product.SourceDetailsDeviceTest)
+10-10 20:36:26.984 12346 12392 I TestRunner: finished: installedTamperIdentityMissingAndRemovedDetailsFailWithoutMutation(org.packrag.product.SourceDetailsDeviceTest)
+10-10 20:36:27.000 12346 12392 I TestRunner: started: originalSignedRowsActiveInactiveInspectionAndOwnedCopies(org.packrag.product.SourceDetailsDeviceTest)
+10-10 20:36:38.609 12346 12392 I TestRunner: finished: originalSignedRowsActiveInactiveInspectionAndOwnedCopies(org.packrag.product.SourceDetailsDeviceTest)
+10-10 20:36:38.614 12346 12392 I TestRunner: started: actualAnswerContextSurvivesInspectionAndMutationClearsDetails(org.packrag.product.SourceDetailsViewModelTest)

@@ -1,0 +1,55 @@
+{
+  "status": "PASS_DATED_FIVE_UI_METHODS27_CONTROLS_RETAINED_NOT_NEW_EXECUTION",
+  "recorded_utc": "2026-10-12T15:25:19.760193+00:00",
+  "dated_build": "build-0093",
+  "current_build": "build-0095",
+  "current_product_apk_sha256": "0176e7141025a4f60dd920534cb7a53ee20c82903d7ab0f65bebb425bcca3d56",
+  "only_changed_input_from_dated_build": "ProductAccessibilityUiTest.kt",
+  "shared_inputs_unchanged": 622,
+  "retained": [
+    {
+      "class": "PackImportUiTest",
+      "methods": 1,
+      "controls": 6,
+      "run": "artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packimportuitest",
+      "source_sha256": "567ef0405c0c21af2588944345ef5d15e43d0f7ccc4753a523aaf9831853c809",
+      "original_sha256": {
+        "m4-f3-kpack-picker-ui.json": "347c0afc77f01d1b9aed742013d7ab150b4d3d0472fb95dffbcf488ae89cf7e3"
+      }
+    },
+    {
+      "class": "PackOverviewUiTest",
+      "methods": 1,
+      "controls": 8,
+      "run": "artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packoverviewuitest",
+      "source_sha256": "062e03c159c2b85b03dfd547195a15070761172987c28adce87ca45a1a237850",
+      "original_sha256": {
+        "m4-pack-overview-ui.json": "ef2b2125ffb2367637594770eb056a60e5ada13526b9618558314af1e566edba"
+      }
+    },
+    {
+      "class": "PackOverviewLongUiTest",
+      "methods": 2,
+      "controls": 6,
+      "run": "artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packoverviewlonguitest",
+      "source_sha256": "8fbbb0c060f98020c8f493f4a3b9abb9c279185d8e29565bc4b9c770e4256b88",
+      "original_sha256": {
+        "m4-pack-overview-long-row-ui.json": "10bd1ee66d49dae0723e7cc44b5c7e2c3647e5eee017825eadc4f9b195f93f1d",
+        "m4-pack-overview-long-chip-ui.json": "2380858738a89735aeef7156f155089bc45d8e71de50fcf39378a12c208647ea"
+      }
+    },
+    {
+      "class": "PackManagementUiTest",
+      "methods": 1,
+      "controls": 7,
+      "run": "artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packmanagementuitest",
+      "source_sha256": "15399013db726c7ef64b14d660bdcc7820e48a194a4cf66c1b62d5ac21210722",
+      "original_sha256": {
+        "m3-pack-management-ui.json": "002fb8850b06b882948de35cc3d13b4a4bb11cb2ec084963336f005c658a69b8"
+      }
+    }
+  ],
+  "management_original_schema_review_sha256": "88058f77652d5b96ef6064804d5af995c71a1b07fc91af9b862d0ea9bf675d36",
+  "fresh_owner_guard_sha256": "cf0ecaae4e0a3e8a37dcfcd1b014f1d6dfe3c028452fd7f63ea4a4e7fee2dfab",
+  "scope": "Actual dated5methods27controls retained under complete product APK equality, all622 shared inputs, current exact selected class/helper/fixture hashes. Parent collector failure remains untouched; last management scope label validated independently against pre-run frozen source plus new50 guard. Accessibility class/observed-hash visual failure excluded and must rerun fully. All retained original PNGs require manual review; no whole UI/M4 acceptance or relabeling as0095 execution."
+}

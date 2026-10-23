@@ -1,0 +1,40 @@
+{
+  "status": "FAIL",
+  "started_utc": "2026-10-11T16:58:59.640719+00:00",
+  "build": "build-0062",
+  "run": "device-local-asset-import-faults-0001",
+  "variant": "debug",
+  "runner_sha256": "9b407fd2cae7a6f496f8eae89a9178ff33b852097e9b7e3535caa57d7b033475",
+  "host_capture_sha256": "9997a6496d245caacc040957c4b9b5c0f88fd6b5d10d50a4c3d26da0abd52416",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0062",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-faults-0001",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportFaultDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-uri-faults.json",
+        "--timeout",
+        "1200",
+        "--variant",
+        "debug"
+      ],
+      "started_utc": "2026-10-11T16:58:59.640719+00:00",
+      "finished_utc": "2026-10-11T17:00:39.197747+00:00",
+      "returncode": 1
+    }
+  ],
+  "finished_utc": "2026-10-11T17:00:39.197747+00:00",
+  "failure_type": "AssertionError",
+  "failure_message": "Hold F2/later increments; preserve original failure and any completed passing originals"
+}

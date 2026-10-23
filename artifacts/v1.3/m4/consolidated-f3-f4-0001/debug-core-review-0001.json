@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FRESH_CONSOLIDATED_DEBUG_CORE_NOT_UI_POLICY_PARITY_OR_FULL_M4_ACCEPTANCE",
+  "recorded_utc": "2026-10-12T14:34:37.564594+00:00",
+  "classes": 12,
+  "methods": 14,
+  "controls": 297,
+  "execution_sha256": "1cfbd84a5209de2f10854a8b59b4eb5107ec13d77de58bf80e9c48aa2986b5d4",
+  "all_original_report_hashes_exact": true,
+  "scope": "Actual import stages3/13; archive65; manifest50; database48; types42; extensions5; validation order9; residual35; atomic recovery18; consent4; approved trust/runtime5; retained actual native smoke3. Per-class and final exact owner50 no-follow guards plus full source4 hash/type/size/marker/mode guards passed. Synthetic protocol tests and checkpoint fault simulations, not final packs, physical power-loss or controlled performance. Original reports retain generation timing/token counts; no raw reasoning persisted."
+}

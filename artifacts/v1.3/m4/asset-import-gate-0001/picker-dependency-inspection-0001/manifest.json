@@ -1,0 +1,13 @@
+{
+  "status": "PASS_PINNED_PUBLIC_VIEWMODEL_STORE_API_INSPECTED_NOT_UI_ACCEPTANCE",
+  "dependency": "androidx.lifecycle:lifecycle-viewmodel-android:2.11.0",
+  "classes_jar_sha256": "13467966db82d4e02438be611ca80343c9381dcee5d8b259c14cc706d03ecb7f",
+  "argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\java\\jdk-17.0.20.1+1\\bin\\javap.exe",
+    "-classpath",
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\picker-dependency-inspection-0001\\lifecycle-2.11.0-classes.jar",
+    "androidx.lifecycle.ViewModelStore"
+  ],
+  "returncode": 0,
+  "scope": "Pinned public dependency bytecode confirms keys/get/put for test-only actual-key lookup/replacement; library-group API harness only, no production use or guessed default key. Web androidx-main is background context, not claimed exact pinned binary."
+}

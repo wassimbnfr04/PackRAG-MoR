@@ -1,0 +1,6 @@
+{
+  "status": "FAIL_HOST_PREPARATION_ONLY_NO_DEVICE_EXECUTION",
+  "created_utc": "2026-10-11T20:51:11.851466+00:00",
+  "runner_sha256": "0e3f4f97fe9c5eea49ca9c99403a27cbc95f676a43b5668f4c5d51d3124cd5ff",
+  "failure": "KeyError: historical build0063 lacks later-added LocalAssetImportTestSupport.kt; compare absent dependencies explicitly rather than indexing. No prepared copies or target acceptance record were written."
+}

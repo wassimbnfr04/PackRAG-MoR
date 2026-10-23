@@ -1,0 +1,57 @@
+{
+  "status": "READ_ONLY_PROCESS_CONTEXT_SAMPLE_NOT_PERFORMANCE_OR_CAUSAL_BOTTLENECK_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T17:31:11.922272+00:00",
+  "pid": 31156,
+  "pending_run": "device-source-details-full-0001",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/31156/cgroup"
+      ],
+      "started_utc": "2026-10-10T17:31:11.632839+00:00",
+      "finished_utc": "2026-10-10T17:31:11.782068+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "/proc/31156/status"
+      ],
+      "started_utc": "2026-10-10T17:31:11.782068+00:00",
+      "finished_utc": "2026-10-10T17:31:11.916547+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "observed_status": {
+    "State": "S (sleeping)",
+    "VmRSS": "2226984 kB",
+    "VmSwap": "45744 kB",
+    "Threads": "28",
+    "Cpus_allowed_list": "0-6"
+  },
+  "raw_sha256": {
+    "cgroup.txt": "ffdf7fcc1fd7843fa4bc2e612ee6a2d03a760782cc0181f3f542ea4dfd67a841",
+    "status.txt": "e02206998c10f093662c792a81c00944fe0dd113c83c12d010104262aea49198"
+  },
+  "limits": [
+    "Two sequential reads, not simultaneous process/thermal/latency sampling.",
+    "Main-process allowed CPU list is not per-worker placement, frequency, utilization or proof that every permitted core was used.",
+    "One RSS/swap snapshot is not peak/PSS memory and may be between model/test transitions.",
+    "No radio, affinity, scheduler, governor, privileges, heap or RAM setting changed; functional tests continue."
+  ]
+}

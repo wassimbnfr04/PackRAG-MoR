@@ -1,0 +1,18 @@
+{
+  "status": "PASS_COMPLETED_METHOD_PARITY_NOT_FULL_INSTRUMENTATION_OR_MILESTONE_ACCEPTANCE",
+  "recorded_utc": "2026-10-09T17:17:02.968990+00:00",
+  "current_phone_gate": "device-relevance-0001 still running",
+  "new_tokenizer_scenarios": 8,
+  "retained_conflict_tokenizer_scenarios": 19,
+  "new_runtime_cases": 4,
+  "retained_conflict_runtime_cases": 7,
+  "both_changed_overflow_counts": 32,
+  "observed_adb_bytes_sha256": {
+    "m4-relevance.json": "08b0a167896a143cf0b11824ee68a4d86c4d44b7a9dd7e8ca0dd22a35bf5da0e",
+    "m4-relevance-runtime.json": "6ab91103f74952f64893ccd7a6f834630c48dd5d43203a9e2f626b9dfdc11b11",
+    "m4-conflicts.json": "49a1bcdac444b82944f51c754f212cbcd9b6b7ecb4fd67a11e35a9c736d94f16",
+    "m4-conflict-runtime.json": "6c5ffd180e4f3b34f67de08ab3b7b9b7e4099e8899e09c77546a340efaf69fb8",
+    "m4-query-identifiers.json": "2d998cbb874a600a3b3cf591715b0be95bc3863126d94cf2297e00790722ecb4"
+  },
+  "script_sha256": "1662397af54544b45e65ae4749a3ca8c3ae1c6be1704b5d8520404f28249d1b9"
+}

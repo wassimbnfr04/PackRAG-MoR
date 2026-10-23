@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-09T22:48:10.412091+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug.apk": "8391cb68e98f941761688b2489774bdae346c924f2879c4acca4044bef19a08b",
+    "app-debug-androidTest.apk": "f345b679e9792a534ab1f1bcc647c01d523a4ab7162f4e30d4879567c61efd7a"
+  },
+  "saved_sha256": {
+    "m4-selection-tokenizer.json": "e58e76f9fdf2aa10d54d8e324330189fa9017fec49cb21e529db1d4f44220bde",
+    "m4-selection-runtime.json": "3a54ab6ec6f7c79893a5ad5e289cb168502b2dea8429243a84ce0d3c1f87b319",
+    "m4-selection-guards.json": "32a835359927590a7a16cc3d88064a4840d749c7150c2dee68ecd7219e3e629a"
+  },
+  "formatted_primary_parsed_equal": [
+    "m4-selection-runtime.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-selection-tokenizer.json"
+      ],
+      "started_at": "2026-10-09T22:48:09.961711+00:00",
+      "ended_at": "2026-10-09T22:48:10.100181+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-selection-runtime.json"
+      ],
+      "started_at": "2026-10-09T22:48:10.100181+00:00",
+      "ended_at": "2026-10-09T22:48:10.266545+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-selection-guards.json"
+      ],
+      "started_at": "2026-10-09T22:48:10.266545+00:00",
+      "ended_at": "2026-10-09T22:48:10.403354+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

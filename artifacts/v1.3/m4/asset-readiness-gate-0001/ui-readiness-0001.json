@@ -1,0 +1,40 @@
+{
+  "status": "PASS_ACTUAL_AWAKE_UNLOCKED_PRECONDITION_NOT_UI_TEST_OR_ANNOUNCEMENT",
+  "recorded_utc": "2026-10-11T15:24:56.183643+00:00",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "window",
+        "policy"
+      ],
+      "returncode": 0,
+      "observed": [
+        "showing=false",
+        "mIsShowing=false"
+      ],
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "power"
+      ],
+      "returncode": 0,
+      "observed": [
+        "mWakefulness=Awake"
+      ],
+      "stderr": ""
+    }
+  ],
+  "owner_quote": "Yes, announce when it starts",
+  "scope": "Read-only unlocked/awake observations. No activity launch, unlocking or radio modification. Announce the owner-authorized untouched window only after this PASS; run_ui independently rechecks before actual execution."
+}

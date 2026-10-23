@@ -1,0 +1,156 @@
+{
+  "status": "PASS_EXECUTION_ORIGINAL_PNG_REVIEW_PENDING_NOT_M4",
+  "started_utc": "2026-10-12T20:27:57.855112+00:00",
+  "serial": "emulator-5580",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "settings",
+        "get",
+        "system",
+        "font_scale"
+      ],
+      "returncode": 0,
+      "stdout": "1.0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0114\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0114\\app-debug.apk: 1 file pushed, 0 skipped. 123.7 MB/s (74844706 bytes in 0.577s)\r\n"
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0114\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0114\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 106.5 MB/s (11755371 bytes in 0.105s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.ChatWorkflowUiTest#largeFontLifecycleFiltersAndLocalAssetPicker",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0,
+      "stdout": "INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=\r\norg.packrag.product.ChatWorkflowUiTest:\r\nINSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker\r\nINSTRUMENTATION_STATUS_CODE: 1\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=.\r\nINSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker\r\nINSTRUMENTATION_STATUS_CODE: 0\r\nINSTRUMENTATION_RESULT: stream=\r\n\r\nTime: 50.58\r\n\r\nOK (1 test)\r\n\r\n\r\nINSTRUMENTATION_CODE: -1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-workflow-controls.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-older-warning.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-large-jurisdiction.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-large-law-toggle.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-visible-diagnostic-counts.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-local-template.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a",
+    "app-debug-androidTest.apk": "ab972faccacf3a62e25b88ff64ed2b764b73b8b6453fb5b28c799a22fdc956e6"
+  },
+  "observed_status": {
+    "m4-chat-workflow-controls.json": "PASS"
+  },
+  "original_sha256": {
+    "m4-chat-large-jurisdiction.png": "e566412b48f6c59e38354bd23cd29c0659c57a2a8d0e6d118a440be80f6db49c",
+    "m4-chat-large-law-toggle.png": "7a1731540f9243967ad4688ad048a6e799dbe9c51021a52489d1a65609724c45",
+    "m4-chat-local-template.png": "27c457a5ecafda79ce17b5518da08bacd3f6184314fbd20d7dbf361b6a14ad9d",
+    "m4-chat-older-warning.png": "25d274524cf3542ad860166e2e378974f6a953d4d4f2ab962a97b96cefa41ff6",
+    "m4-chat-visible-diagnostic-counts.png": "5e5be15caed765bc0ee2c8a3761ddbc3729f988a896fd575455160d6bbf32207",
+    "m4-chat-workflow-controls.json": "9ed7b5d4c64559b00beb47fbdc857122c0770230c3553c601b77fc2d40e4824b"
+  },
+  "phone_touched": false,
+  "updated_utc": "2026-10-12T20:28:54.379041+00:00"
+}

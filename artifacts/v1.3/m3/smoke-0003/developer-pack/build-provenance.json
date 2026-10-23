@@ -1,0 +1,143 @@
+{
+  "purpose": "SYNTHETIC_DEVELOPMENT_NOT_RELEASE_CALIBRATION",
+  "cases": [
+    {
+      "id": "G0-D01",
+      "title": "Aster-9",
+      "aliases": [
+        "Aster-9"
+      ],
+      "locator": "G0-D01",
+      "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C."
+    },
+    {
+      "id": "G0-D02",
+      "title": "NexoFlow M4",
+      "aliases": [
+        "NexoFlow M4"
+      ],
+      "locator": "G0-D02",
+      "text": "The NexoFlow M4 requires preventive service every 600 operating hours."
+    },
+    {
+      "id": "G0-D03",
+      "title": "Helix-R",
+      "aliases": [
+        "Helix-R"
+      ],
+      "locator": "G0-D03",
+      "text": "The Helix-R battery module uses lithium iron phosphate (LiFePO4) cells."
+    },
+    {
+      "id": "G0-D04",
+      "title": "QuantaGate Q7",
+      "aliases": [
+        "QuantaGate Q7"
+      ],
+      "locator": "G0-D04",
+      "text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times."
+    },
+    {
+      "id": "G0-D05",
+      "title": "Meridia V3",
+      "aliases": [
+        "Meridia V3"
+      ],
+      "locator": "G0-D05",
+      "text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m."
+    },
+    {
+      "id": "G0-D06",
+      "title": "DeltaCell D2",
+      "aliases": [
+        "DeltaCell D2"
+      ],
+      "locator": "G0-D06",
+      "text": "The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing."
+    },
+    {
+      "id": "G0-D07",
+      "title": "Solace V2",
+      "aliases": [
+        "Solace V2"
+      ],
+      "locator": "G0-D07",
+      "text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied."
+    },
+    {
+      "id": "G0-D08",
+      "title": "Orion-R12",
+      "aliases": [
+        "Orion-R12"
+      ],
+      "locator": "G0-D08",
+      "text": "The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC."
+    },
+    {
+      "id": "G0-D09",
+      "title": "Vanta-P8",
+      "aliases": [
+        "Vanta-P8"
+      ],
+      "locator": "G0-D09",
+      "text": "The Vanta-P8 intake filter uses an 80-micrometre mesh."
+    },
+    {
+      "id": "G0-D10",
+      "title": "Kestrel-K1",
+      "aliases": [
+        "Kestrel-K1"
+      ],
+      "locator": "G0-D10",
+      "text": "Zero calibration of the Kestrel-K1 uses certified nitrogen at 99.999% purity."
+    }
+  ],
+  "input_recipe": "title + newline + section_or_article + newline + search_safe_context_prefix + newline + canonical_or_verified_english_text",
+  "embedding_inputs": [
+    "Aster-9\nG0-D01\n\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+    "NexoFlow M4\nG0-D02\n\nThe NexoFlow M4 requires preventive service every 600 operating hours.",
+    "Helix-R\nG0-D03\n\nThe Helix-R battery module uses lithium iron phosphate (LiFePO4) cells.",
+    "QuantaGate Q7\nG0-D04\n\nThe QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+    "Meridia V3\nG0-D05\n\nThe specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+    "DeltaCell D2\nG0-D06\n\nThe DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing.",
+    "Solace V2\nG0-D07\n\nTo enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+    "Orion-R12\nG0-D08\n\nThe Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC.",
+    "Vanta-P8\nG0-D09\n\nThe Vanta-P8 intake filter uses an 80-micrometre mesh.",
+    "Kestrel-K1\nG0-D10\n\nZero calibration of the Kestrel-K1 uses certified nitrogen at 99.999% purity."
+  ],
+  "profile": {
+    "profile_id": "granite97m-multi-r2-384-v1",
+    "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+    "model_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "model_sha256": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+    "onnx_sha256": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "tokenizer_hashes": {
+      "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+      "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5"
+    },
+    "dimension": 384,
+    "dtype": "float32",
+    "normalized": true,
+    "metric": "cosine",
+    "runtime": "onnxruntime-mobile-cpu",
+    "pooling": {
+      "word_embedding_dimension": 384,
+      "pooling_mode_cls_token": true,
+      "pooling_mode_mean_tokens": false,
+      "pooling_mode_max_tokens": false,
+      "pooling_mode_mean_sqrt_len_tokens": false,
+      "pooling_mode_weightedmean_tokens": false,
+      "pooling_mode_lasttoken": false,
+      "include_prompt": false
+    },
+    "max_input_length": 512,
+    "input_construction": "title + newline + section_or_article + newline + search_safe_context_prefix + newline + canonical_or_verified_english_text"
+  },
+  "source_identities": {
+    "original_texts_sha256": "7b693626dff8670be3aab1d93e824139c4b60f540274bec95af1b1e30b25944c"
+  },
+  "signer_private_seed": "EPHEMERAL_NOT_SAVED",
+  "status": "PASS",
+  "manifest_sha256": "07bf2cd1b9982134690db5deb39eeab80a0621368919b4081be5330ab243d73d",
+  "archive_transport_sha256": "c0bf1baa7118c2947e914b5b3555a64aa9181dc165aef4a5c2e9c10b15dbe4c5"
+}

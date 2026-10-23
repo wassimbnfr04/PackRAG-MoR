@@ -1,0 +1,3 @@
+  Native Heap   518094   515820     2264    10658   519212   635144   605325    24852
+         Native Heap:   515820                         519212
+           TOTAL PSS:  2181574            TOTAL RSS:  2223864       TOTAL SWAP PSS:    18997

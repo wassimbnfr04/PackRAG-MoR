@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-06T20:44:32.674635+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.ReleaseTrustCoreDeviceTest,org.packrag.product.ResidualSecurityDeviceTest,org.packrag.product.StrictManifestDeviceTest,org.packrag.product.StrictDatabaseDeviceTest,org.packrag.product.StrictArchiveDeviceTest,org.packrag.product.PackRetrievalParityTest,org.packrag.product.GeneratorPromptParityTest,org.packrag.product.ExplicitLifecycleDeviceTest,org.packrag.product.AtomicRegistryDeviceTest,org.packrag.product.RegistryProcessDeathTest,org.packrag.product.PackImportConsentTest,org.packrag.product.ProductRuntimeSmokeTest",
+  "runner_sha256": "bd2241ffd12226f0e37070bf6c6b8a4386872a1df933171a330ce62cf5abd460",
+  "apk_sha256": {
+    "app-debug.apk": "7dcd70877e3db525bfd5440918da7e267de8595a3d5819770a9eb59a2e537d29",
+    "app-debug-androidTest.apk": "515461272b203c320f6a063811fdb6a495b114350f6b6c573a2d13fc4fd38785"
+  },
+  "commands": [],
+  "status": "FAIL"
+}

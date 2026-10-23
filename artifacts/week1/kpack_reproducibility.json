@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "input_mode": "frozen source/spec/test key and cached real Granite vectors",
+  "archives": [
+    {
+      "path": "packs\\synthetic-week1\\org.packrag.synthetic.week1-1.0.0.kpack",
+      "sha256": "2aa3a6283acecfd7927d7c28f229d8766e799e071e418f430ef3bbe8068bc5fc"
+    },
+    {
+      "path": "packs\\synthetic-week1\\reproducibility-check.kpack",
+      "sha256": "2aa3a6283acecfd7927d7c28f229d8766e799e071e418f430ef3bbe8068bc5fc"
+    }
+  ],
+  "byte_identical": true,
+  "cross_platform_claim": false
+}

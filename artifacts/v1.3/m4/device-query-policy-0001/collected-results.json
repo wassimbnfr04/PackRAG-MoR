@@ -1,0 +1,460 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-10T15:56:11.896250+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-demo.apk": "764815028b14266b45c64c89583477b438a005a56d4132d898b61eb0e057355f",
+    "app-demo-androidTest.apk": "3578ed56d16ebe3756353f8de4d982ae8e360a0725c73abb8fb9ebca0d441a2a"
+  },
+  "saved_sha256": {
+    "m4-ui-query-policy.json": "2ac4222083af82b4c05a1e953126a39a336622a1dc5dafcfa734dfeff4822657",
+    "m4-conflicts.json": "49a1bcdac444b82944f51c754f212cbcd9b6b7ecb4fd67a11e35a9c736d94f16",
+    "m4-source-metadata.json": "b7314fee07394158fd442458445be229d238b8cb0a49b3c9c7524a7be66ef82a",
+    "m4-validity.json": "e84af8bfe9cf9e4c3148dce5d36a5c86715c3b5c41e4b887f5c2198edd653254",
+    "m4-query-identifiers.json": "2d998cbb874a600a3b3cf591715b0be95bc3863126d94cf2297e00790722ecb4",
+    "m4-query-unicode.json": "6971c8af3407c006002f142a1e5f2c9fe4c370e9f0d11cdf3f8d7e902fb515d6",
+    "m2-generator-prompt-parity.json": "98bae0cc0e941977a8d25c3806a3ab633b690135f2b7476349d85db109e4ee51",
+    "m2-pack-retrieval-parity.json": "2439cd7b866f9301f418639b49e062d70c41809d7be0a04bedddd3fd99e03e61",
+    "m3-data-types.json": "41442dfabdf9e042334b726c3dbacb226042984926e000c3195129f9451ab224",
+    "m3-extension-names.json": "4b4eaf2cae593b7d620912cf2a10e43fb771165ce1a6d204242624fa1dc665f0",
+    "m3-validation-order.json": "051594a58b1ee4aa90627759b572f62e16ec74258b2d81e4fb03837ca084fa8b",
+    "m3-residual-security.json": "1e3e0dc55745be0509f3b509902b054bdf42789eca9406eae306998d1890fc5b",
+    "m3-manifest-schema.json": "3c6fbe2869ebc818c24db8bb90548b5bc7fdd138f8ed1267f12b076e0986650d",
+    "m3-database-validation.json": "eaffa8217833e34c55b3d9b00ef832c09ebeaf53a2236c08dffe65c2fcf4b67b",
+    "m3-archive-validation.json": "a6bdfdea8c6c246d1433594e4d1da852b2761e0219a376dd48de113c0595cad3",
+    "m4-relevance.json": "da9149c4d18dc38db362c09346efcde7b6dcd22e37362216cf7ba0788d070f21",
+    "m4-relevance-runtime.json": "dac3755b37e9da38a83360623cd6f5b9171fe837395f23d7005aafbca54de656",
+    "m4-conflict-runtime.json": "a252f3e5bc6d2bdfa85e051c3d67b3978db4c86b9516eff55f7e0cd59dc5eb38",
+    "m3-production-policy.json": "05d97d8bce82f8b303fb9b03e8d47e5ab4e2e4edb9e6851a7e3d7c7d42c7cfe5",
+    "m3-release-trust-core.json": "224229134c99ca066c1ab4fb916eae4224a97cc43a2ab6035e303a3c7942cf1b",
+    "m4-representations.json": "102621e3a35b051242f22a3f04e84de8ca6442261bf16d4e568492d836179546",
+    "m4-representation-runtime.json": "271c9c6b5f2b641d01e38452c784e28423d0e3df793476b77ed369d779567968",
+    "m4-source-text.json": "d95b504a0625b8c4c0b0fdb704806dd9229618238fef390b326726020de3c699",
+    "m4-selection-tokenizer.json": "e58e76f9fdf2aa10d54d8e324330189fa9017fec49cb21e529db1d4f44220bde",
+    "m4-selection-runtime.json": "ee5095cb774b7be553b956fbafaf6314879df32e6d370136168a56dd9ffa6a25",
+    "m4-selection-guards.json": "32a835359927590a7a16cc3d88064a4840d749c7150c2dee68ecd7219e3e629a"
+  },
+  "formatted_primary_parsed_equal": [
+    "m4-ui-query-policy.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-ui-query-policy.json"
+      ],
+      "started_at": "2026-10-10T15:56:08.121136+00:00",
+      "ended_at": "2026-10-10T15:56:08.266805+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-conflicts.json"
+      ],
+      "started_at": "2026-10-10T15:56:08.266805+00:00",
+      "ended_at": "2026-10-10T15:56:08.397417+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-metadata.json"
+      ],
+      "started_at": "2026-10-10T15:56:08.397417+00:00",
+      "ended_at": "2026-10-10T15:56:08.556335+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-validity.json"
+      ],
+      "started_at": "2026-10-10T15:56:08.557472+00:00",
+      "ended_at": "2026-10-10T15:56:08.705156+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-query-identifiers.json"
+      ],
+      "started_at": "2026-10-10T15:56:08.705156+00:00",
+      "ended_at": "2026-10-10T15:56:08.853061+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-query-unicode.json"
+      ],
+      "started_at": "2026-10-10T15:56:08.853061+00:00",
+      "ended_at": "2026-10-10T15:56:09.001204+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m2-generator-prompt-parity.json"
+      ],
+      "started_at": "2026-10-10T15:56:09.001204+00:00",
+      "ended_at": "2026-10-10T15:56:09.138731+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m2-pack-retrieval-parity.json"
+      ],
+      "started_at": "2026-10-10T15:56:09.138731+00:00",
+      "ended_at": "2026-10-10T15:56:09.288712+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-data-types.json"
+      ],
+      "started_at": "2026-10-10T15:56:09.288712+00:00",
+      "ended_at": "2026-10-10T15:56:09.443409+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-extension-names.json"
+      ],
+      "started_at": "2026-10-10T15:56:09.443409+00:00",
+      "ended_at": "2026-10-10T15:56:09.633566+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-validation-order.json"
+      ],
+      "started_at": "2026-10-10T15:56:09.633566+00:00",
+      "ended_at": "2026-10-10T15:56:09.803481+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-residual-security.json"
+      ],
+      "started_at": "2026-10-10T15:56:09.803481+00:00",
+      "ended_at": "2026-10-10T15:56:09.963147+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-manifest-schema.json"
+      ],
+      "started_at": "2026-10-10T15:56:09.963147+00:00",
+      "ended_at": "2026-10-10T15:56:10.083329+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-database-validation.json"
+      ],
+      "started_at": "2026-10-10T15:56:10.083329+00:00",
+      "ended_at": "2026-10-10T15:56:10.204780+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-archive-validation.json"
+      ],
+      "started_at": "2026-10-10T15:56:10.204780+00:00",
+      "ended_at": "2026-10-10T15:56:10.342835+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-relevance.json"
+      ],
+      "started_at": "2026-10-10T15:56:10.342835+00:00",
+      "ended_at": "2026-10-10T15:56:10.494408+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-relevance-runtime.json"
+      ],
+      "started_at": "2026-10-10T15:56:10.494408+00:00",
+      "ended_at": "2026-10-10T15:56:10.633588+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-conflict-runtime.json"
+      ],
+      "started_at": "2026-10-10T15:56:10.633588+00:00",
+      "ended_at": "2026-10-10T15:56:10.782533+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-production-policy.json"
+      ],
+      "started_at": "2026-10-10T15:56:10.782533+00:00",
+      "ended_at": "2026-10-10T15:56:10.923686+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-release-trust-core.json"
+      ],
+      "started_at": "2026-10-10T15:56:10.923686+00:00",
+      "ended_at": "2026-10-10T15:56:11.060427+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-representations.json"
+      ],
+      "started_at": "2026-10-10T15:56:11.060427+00:00",
+      "ended_at": "2026-10-10T15:56:11.191689+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-representation-runtime.json"
+      ],
+      "started_at": "2026-10-10T15:56:11.191689+00:00",
+      "ended_at": "2026-10-10T15:56:11.321245+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-text.json"
+      ],
+      "started_at": "2026-10-10T15:56:11.321245+00:00",
+      "ended_at": "2026-10-10T15:56:11.450645+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-selection-tokenizer.json"
+      ],
+      "started_at": "2026-10-10T15:56:11.450645+00:00",
+      "ended_at": "2026-10-10T15:56:11.597941+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-selection-runtime.json"
+      ],
+      "started_at": "2026-10-10T15:56:11.597941+00:00",
+      "ended_at": "2026-10-10T15:56:11.724478+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-selection-guards.json"
+      ],
+      "started_at": "2026-10-10T15:56:11.724478+00:00",
+      "ended_at": "2026-10-10T15:56:11.846552+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

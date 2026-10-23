@@ -1,0 +1,69 @@
+{
+  "spec": {
+    "pack_id": "org.packrag.synthetic.week1",
+    "name": "Week 1 synthetic equipment facts â€” developer smoke pack",
+    "version": "1.0.0",
+    "release_timestamp": "2026-09-29T00:00:00Z",
+    "equipment": [
+      "Aster-9",
+      "NexoFlow M4",
+      "Helix-R",
+      "QuantaGate Q7",
+      "Meridia V3",
+      "DeltaCell D2",
+      "Solace V2",
+      "Orion-R12",
+      "Vanta-P8",
+      "Kestrel-K1"
+    ]
+  },
+  "embedding_profile": {
+    "profile_id": "granite97m-multi-r2-384-v1",
+    "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+    "model_revision": "835ad14087e140460703cf0fae09f97d469d65c2",
+    "model_sha256": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+    "tokenizer_hashes": {
+      "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+      "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5"
+    },
+    "dimension": 384,
+    "dtype": "float32",
+    "normalized": true,
+    "metric": "cosine",
+    "runtime": "onnxruntime-mobile-cpu",
+    "pooling": {
+      "word_embedding_dimension": 384,
+      "pooling_mode_cls_token": true,
+      "pooling_mode_mean_tokens": false,
+      "pooling_mode_max_tokens": false,
+      "pooling_mode_mean_sqrt_len_tokens": false,
+      "pooling_mode_weightedmean_tokens": false,
+      "pooling_mode_lasttoken": false,
+      "include_prompt": false
+    },
+    "max_input_length": 512,
+    "input_construction": "title + newline + locator + newline + canonical_text"
+  },
+  "input_hashes": {
+    "model.safetensors": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+    "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+    "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5",
+    "config.json": "de948b0bdc6f356afad7a84b276d8dd7e7fe10fb9add1bb5e610621c28e41ebc",
+    "1_Pooling/config.json": "8bc5c9a40814fcf48d2fbe7cfeff4bee6736c3c2a823ba0ce098985c59d12ab7"
+  },
+  "embedding_inputs": [
+    "Aster-9\nG0-D01\nThe Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+    "NexoFlow M4\nG0-D02\nThe NexoFlow M4 requires preventive service every 600 operating hours.",
+    "Helix-R\nG0-D03\nThe Helix-R battery module uses lithium iron phosphate (LiFePO4) cells.",
+    "QuantaGate Q7\nG0-D04\nThe QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+    "Meridia V3\nG0-D05\nThe specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+    "DeltaCell D2\nG0-D06\nThe DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing.",
+    "Solace V2\nG0-D07\nTo enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+    "Orion-R12\nG0-D08\nThe Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC.",
+    "Vanta-P8\nG0-D09\nThe Vanta-P8 intake filter uses an 80-micrometre mesh.",
+    "Kestrel-K1\nG0-D10\nZero calibration of the Kestrel-K1 uses certified nitrogen at 99.999% purity."
+  ],
+  "status": "PASS",
+  "manifest_sha256": "4a5c81b87449e007674c88fa5b9e0fe6b5a6fbed1c23e03158b12c2fc4251216",
+  "archive_transport_sha256": "2aa3a6283acecfd7927d7c28f229d8766e799e071e418f430ef3bbe8068bc5fc"
+}

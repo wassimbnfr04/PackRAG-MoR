@@ -1,0 +1,72 @@
+{
+  "status": "LATER_READ_ONLY_SHELL_CLOCK_CONTEXT_NOT_RETROACTIVE_SYNC_OR_APP_ZONE_PROOF",
+  "commands": [
+    {
+      "name": "shell-date",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "date",
+        "+%Y-%m-%dT%H:%M:%S%z_%Z"
+      ],
+      "started_host_utc": "2026-10-09T20:09:00.736467+00:00",
+      "finished_host_utc": "2026-10-09T20:09:00.858226+00:00",
+      "returncode": 0,
+      "display": "2026-10-09T20:09:01+0000_+00"
+    },
+    {
+      "name": "shell-utc",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "date",
+        "-u",
+        "+%Y-%m-%dT%H:%M:%S%z_%Z"
+      ],
+      "started_host_utc": "2026-10-09T20:09:00.858226+00:00",
+      "finished_host_utc": "2026-10-09T20:09:00.968273+00:00",
+      "returncode": 0,
+      "display": "2026-10-09T20:09:02+0000_UTC"
+    },
+    {
+      "name": "epoch",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "date",
+        "+%s"
+      ],
+      "started_host_utc": "2026-10-09T20:09:00.968273+00:00",
+      "finished_host_utc": "2026-10-09T20:09:01.061507+00:00",
+      "returncode": 0,
+      "display": "1791576542"
+    },
+    {
+      "name": "zone-property",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "getprop",
+        "persist.sys.timezone"
+      ],
+      "started_host_utc": "2026-10-09T20:09:01.061507+00:00",
+      "finished_host_utc": "2026-10-09T20:09:01.190326+00:00",
+      "returncode": 0,
+      "display": "Africa/Casablanca"
+    }
+  ],
+  "limits": [
+    "Shell date/epoch are observed later than initial process snapshot; no clocks changed",
+    "persist.sys.timezone string and observed shell UTC offset are distinct values; no Java app ZoneId assumption",
+    "Method intervals subtract same-device log timestamps; runner whole duration is recorded independently",
+    "First manual parenthesis-containing format failed remote shell parsing; corrected plain format succeeds; failed stderr remains only in tool transcript"
+  ]
+}

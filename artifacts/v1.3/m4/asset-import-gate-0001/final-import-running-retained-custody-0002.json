@@ -1,0 +1,9 @@
+{
+  "status": "PASS_ACCEPTED_F1_406_HISTORICAL587_AND_PYTHON188_PUBLIC_IDENTITIES_UNCHANGED",
+  "recorded_utc": "2026-10-11T21:51:35.585114+00:00",
+  "f1_outputs": 406,
+  "historical_files": 587,
+  "python_runtime_inputs": 188,
+  "f1_gate_sha256": "8d2aa7f2e124db62c11330f43005b2b2f2cbfca818a2e0939b94dc3936c9cca7",
+  "scope": "Read only exact accepted public mappings, no private-key custody or temporary traversal. Unchanged earlier test evidence is not a newly executed regression suite; fresh comprehensive validation is still required at F4. F2 Android inputs intentionally differ and bind to each new build."
+}

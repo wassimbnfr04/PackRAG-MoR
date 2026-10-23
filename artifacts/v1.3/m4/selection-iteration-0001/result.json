@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "scope": "INTERMEDIATE_D3_NOT_MILESTONE_ACCEPTANCE",
+  "regression": "artifacts\\v1.3\\m4\\run-0011",
+  "real_walking": "artifacts\\v1.3\\m4\\selection-walking-0001",
+  "sources_unchanged": 173,
+  "executions": [
+    {
+      "name": "regression",
+      "command": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "pytest",
+        "tests",
+        "product/tests",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0011-temp",
+        "--junitxml",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0011\\combined-junit.xml",
+        "-q"
+      ],
+      "started_at": "2026-10-09T20:45:43.326354+00:00",
+      "ended_at": "2026-10-09T20:46:29.157243+00:00",
+      "exit_code": 0
+    },
+    {
+      "name": "regression-manifest",
+      "command": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_result_manifest",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0011",
+        "--command",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe -X utf8 -m pytest tests product/tests -p no:cacheprovider --basetemp C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0011-temp --junitxml C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0011\\combined-junit.xml -q"
+      ],
+      "started_at": "2026-10-09T20:46:29.157243+00:00",
+      "ended_at": "2026-10-09T20:46:38.384648+00:00",
+      "exit_code": 0
+    },
+    {
+      "name": "real-walking",
+      "command": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\selection-walking-0001"
+      ],
+      "started_at": "2026-10-09T20:46:38.384648+00:00",
+      "ended_at": "2026-10-09T20:49:24.789153+00:00",
+      "exit_code": 0
+    }
+  ]
+}

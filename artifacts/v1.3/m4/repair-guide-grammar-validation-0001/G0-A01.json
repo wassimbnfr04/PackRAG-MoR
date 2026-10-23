@@ -1,0 +1,56 @@
+{
+  "id": "G0-A01",
+  "category": "abstention",
+  "question": "What is the minimum supply voltage of the Aster-9?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Aster-9 maximum continuous operating temperature is 74 °C."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 276,
+    "prompt_ms": 2896.277,
+    "prompt_per_token_ms": 10.493757246376811,
+    "prompt_per_second": 95.29475253920809,
+    "predicted_n": 250,
+    "predicted_ms": 9261.516,
+    "predicted_per_token_ms": 37.194843373493974,
+    "predicted_per_second": 26.885447263709313,
+    "host_generation_wall_ms": 12193.515599999955,
+    "emitted_token_count": 250,
+    "reasoning_token_count": 241,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 276,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" ws (\"INSUFFICIENT_EVIDENCE\" | line (\"\\n\" ws line)*) ws\nline ::= text \" \" cite (\" \" cite)* \".\"?\ntext ::= [^\\x5B\\x3C\\x00-\\x1F]+\ncite ::= \"[S1]\"\nws ::= [ \\t\\r\\n]*\n",
+    "grammar_sha256": "956fc5802522661a86c28ef02b94e59190c1dc70187e18244ca7fa2779948319",
+    "final_only": "INSUFFICIENT_EVIDENCE"
+  },
+  "manual_semantic_review_required": true
+}

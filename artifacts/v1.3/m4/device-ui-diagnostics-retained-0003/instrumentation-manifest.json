@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-10-10T20:12:18.354726+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.SourceDetailsUiTest,org.packrag.product.QueryControlsUiTest,org.packrag.product.PackManagementUiTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0050\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0050\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.SourceDetailsUiTest,org.packrag.product.QueryControlsUiTest,org.packrag.product.PackManagementUiTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "18612cdf48517ef5b00524882bc03383082df00ade8ff4b6a9a7e037bcee8abb",
+    "app-debug-androidTest.apk": "cb9515cfec3c19c8f56868ee0c532a8829d9e68e1a606ff3e5600e6f57348369"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.SourceDetailsUiTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt",
+      "source_sha256": "8dd97134bf1d013bdb01694b2697cf007a81f10144a932d6c9f4a4a9a790b182"
+    },
+    "org.packrag.product.QueryControlsUiTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt",
+      "source_sha256": "590a2e3d1028f9fa775ac82916a46158915083d1878ff3baa43752db3bdfa090"
+    },
+    "org.packrag.product.PackManagementUiTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt",
+      "source_sha256": "b03b3e3d4ede5a1de4e0e6942a80f40358f9618b835898eace823b3c4ebb4236"
+    }
+  },
+  "status": "FAIL"
+}

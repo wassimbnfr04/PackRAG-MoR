@@ -1,0 +1,343 @@
+{
+  "id": "TOP_PASS_LOWER_PASS",
+  "status": "PASS",
+  "result": {
+    "state": "ANSWER_ACCEPTED",
+    "answer": "The maximum continuous operating temperature is 74 °C [S1][S2].",
+    "citations": [
+      "S1",
+      "S2"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+        "title": "Aster-9",
+        "locator": "thermal",
+        "publisher": "SYNTHETIC PackRAG contract fixture",
+        "canonical_uri": null,
+        "canonical_language": "en",
+        "canonical_text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "generator_representation": {
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "language": "en",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+        },
+        "pack_id": "org.packrag.contract.b-lenient",
+        "version": "1.0.0",
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:504d35b0e52440f19bfde5ea0ff1e607658dfa487818d50adbae4b36bf5cc7c6",
+          "relations": []
+        }
+      },
+      {
+        "id": "S2",
+        "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+        "title": "Aster-9",
+        "locator": "thermal",
+        "publisher": "SYNTHETIC PackRAG contract fixture",
+        "canonical_uri": null,
+        "canonical_language": "en",
+        "canonical_text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "generator_representation": {
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "language": "en",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+        },
+        "pack_id": "org.packrag.contract.d-lenient",
+        "version": "1.0.0",
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:504d35b0e52440f19bfde5ea0ff1e607658dfa487818d50adbae4b36bf5cc7c6",
+          "relations": []
+        }
+      }
+    ],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature?",
+      "as_of": "2026-10-09",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.b-lenient",
+        "1.0.0",
+        "12d152622949174d41f5d060dcdd7fbeec9a3d9e35b647ea732c40c23fc9df69"
+      ],
+      [
+        "org.packrag.contract.d-lenient",
+        "1.0.0",
+        "ffcf6c4e13ac75df004d3e7758f96fbc5d6a3cbbd1007dd320d5b1af711c93fa"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 7.601299999805633,
+      "retrieval_ms": 1.1105000012321398,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 299,
+        "prompt_ms": 3131.591,
+        "prompt_per_token_ms": 10.473548494983277,
+        "prompt_per_second": 95.478624124287,
+        "predicted_n": 111,
+        "predicted_ms": 4060.436,
+        "predicted_per_token_ms": 36.91305454545455,
+        "predicted_per_second": 27.09068681294324,
+        "host_generation_wall_ms": 7226.181500000166,
+        "emitted_token_count": 111,
+        "reasoning_token_count": 93,
+        "final_and_terminal_token_count": 18,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 7383.944999999585
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.b-lenient",
+        "chunk_id": "6b812a3e9d67fb395ac9cfff",
+        "exact": false,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.912001371383667,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.b-lenient",
+            "1.0.0",
+            "12d152622949174d41f5d060dcdd7fbeec9a3d9e35b647ea732c40c23fc9df69"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:504d35b0e52440f19bfde5ea0ff1e607658dfa487818d50adbae4b36bf5cc7c6",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.d-lenient",
+        "chunk_id": "1244a619d991a49215a917e4",
+        "exact": false,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.912001371383667,
+        "rrf": 0.03278688524590164,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.contract.d-lenient",
+            "1.0.0",
+            "ffcf6c4e13ac75df004d3e7758f96fbc5d6a3cbbd1007dd320d5b1af711c93fa"
+          ]
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:504d35b0e52440f19bfde5ea0ff1e607658dfa487818d50adbae4b36bf5cc7c6",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.contract.b-lenient",
+        "version": "1.0.0",
+        "manifest_sha256": "12d152622949174d41f5d060dcdd7fbeec9a3d9e35b647ea732c40c23fc9df69",
+        "chunk_id": "6b812a3e9d67fb395ac9cfff",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "relevant": true,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "language": "en",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:504d35b0e52440f19bfde5ea0ff1e607658dfa487818d50adbae4b36bf5cc7c6",
+          "relations": []
+        }
+      },
+      {
+        "id": "S2",
+        "pack_id": "org.packrag.contract.d-lenient",
+        "version": "1.0.0",
+        "manifest_sha256": "ffcf6c4e13ac75df004d3e7758f96fbc5d6a3cbbd1007dd320d5b1af711c93fa",
+        "chunk_id": "1244a619d991a49215a917e4",
+        "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+          "language": "en",
+          "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:504d35b0e52440f19bfde5ea0ff1e607658dfa487818d50adbae4b36bf5cc7c6",
+          "relations": []
+        }
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 299,
+      "evidence": 118,
+      "max_new": 512
+    },
+    "rejection_reason": null
+  },
+  "generate_calls_for_case": 1,
+  "actual_weight_inference": true,
+  "model_load_not_excluded": true
+}

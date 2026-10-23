@@ -1,0 +1,31 @@
+{
+  "status": "PREPARED_NOT_IMPLEMENTED_OR_ACCEPTED",
+  "dependency": "phone-native-quote-0001 actual PASS and639 source guard; old emulator stays undisturbed",
+  "changes": [
+    {
+      "file": "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt",
+      "action": "Pass the hash-pinned quote policy to the primary ProductSession factory; default typed ProductSession remains literal baseline for original API reproduction."
+    },
+    {
+      "file": "product/android/app/src/main/java/org/packrag/product/DiagnosticsPanel.kt",
+      "action": "Expose captured generation policy SHA and limits, using captured result context rather than a current global setting."
+    },
+    {
+      "file": "product/android/app/src/androidTest/java/org/packrag/product/ChatRepairUiTest.kt",
+      "action": "Retain original baseline source in immutable0119/public capsule; update current changed-product UI expectations to one complete canonical fan guide and visible metrics/profile. Preserve shared51/5-file owner guard; original dated baseline APK/results remain unchanged. Actual cap rejection is now tested separately by actual native2-token test, rather than expecting the improved full guide to fail."
+    }
+  ],
+  "validation": [
+    "Exact current debug host/unit/API/format/source/APK/native/config capture",
+    "One actual primary-app UI complete guide/source/visible captured diagnostics/older source/recreation/New chat/real deactivation smoke",
+    "Matched nondevelopment compiled policy admission and no-INTERNET APK audit",
+    "F4 source/custody/history/reproduction/documentation checkpoint"
+  ],
+  "source_preservation": "Complete639 public inputs captured byte-exact before any development; actual APK bytes and device inputs fixed. A late old emulator result must use the frozen old capsule, never current mutated working sources.",
+  "limits": [
+    "KnownG0-C02 missing6A remains countedfailure",
+    "Repair comparisons repeatedly inspected development cases, not heldout",
+    "Literal quoted-unit mode does not guarantee whole multi-unit document completeness",
+    "No physical controlled performance/peak-memory conclusion from functional samples"
+  ]
+}

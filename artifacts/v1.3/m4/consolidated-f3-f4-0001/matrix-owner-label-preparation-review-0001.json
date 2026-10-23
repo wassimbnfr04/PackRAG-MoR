@@ -1,0 +1,48 @@
+{
+  "status": "PRE_EXECUTION_SCOPE_LABEL_REVIEW_NOT_TEST_ACCEPTANCE",
+  "recorded_utc": "2026-10-12T15:14:30.575610+00:00",
+  "initial_preparation_failure": "Expected four UI-only label changes, discovered fifth preexisting background ViewModel owner-scope label. Preparation stopped before matrix/controller creation or tests; source pair4 was already valid and remains unchanged.",
+  "verified_five_labels": [
+    {
+      "class": "DiagnosticNavigationUiTest",
+      "report": "m4-diagnostic-navigation.json",
+      "historical_id": "owner-default-registries-models-and-payloads-byte-identical-within-run",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "97ecf024072bfbcf57b8237712041c8a66204e276ecec35417e188f15e2abd10",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    },
+    {
+      "class": "PackManagementUiTest",
+      "report": "m3-pack-management-ui.json",
+      "historical_id": "owner-default-registry-all-file-hashes-unchanged",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "15399013db726c7ef64b14d660bdcc7820e48a194a4cf66c1b62d5ac21210722",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    },
+    {
+      "class": "QueryControlsUiTest",
+      "report": "m4-ui-query-controls.json",
+      "historical_id": "owner-default-registries-and-model-hashes-unchanged",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "b5695e5eb67dae6de0f16a674a3f5221fb8461b5651cbb834b249d43583f5ed3",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    },
+    {
+      "class": "SourceDetailsUiTest",
+      "report": "m4-source-details-ui.json",
+      "historical_id": "owner-model-and-default-registry-hashes-unchanged",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "3f942e401fdb6e04d729b33c26b5cc81bc425fde171e9c0841ce760528c1c2cc",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    },
+    {
+      "class": "SourceDetailsViewModelTest",
+      "report": "m4-source-details-viewmodel.json",
+      "historical_id": "owner-models-and-default-registries-unchanged",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "78450df8282c74993ae6f9a83c154ee8f9679eb8c1ccf23085545b1e31dad7f9",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    }
+  ],
+  "scope": "Every mapped label is absent historical owner wording, replaced only by the pre-run frozen source literal explicit-fifty-owner-public-files-unchanged. No product/test/assertion/count edits, no arbitrary acceptance-criteria changes from observed behaviour."
+}

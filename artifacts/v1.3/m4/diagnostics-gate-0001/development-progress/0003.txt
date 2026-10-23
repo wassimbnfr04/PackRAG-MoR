@@ -1,0 +1,2 @@
+10-10 20:26:23.302 12346 12392 I TestRunner: run started: 37 tests
+10-10 20:26:23.307 12346 12392 I TestRunner: started: actualColdWarmAndNoPackDiagnosticsKeepOwnedContextAfterReaderClose(org.packrag.product.DiagnosticRuntimeDeviceTest)

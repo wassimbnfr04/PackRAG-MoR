@@ -1,0 +1,50 @@
+{
+  "status": "PASS_FOUR_UI_METHODS_ORIGINALS_AND_SCREENSHOTS_SAVED_NOT_VISUAL_OR_E2_CLOSURE",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0041",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-ui-source-details-0002",
+        "--class-name",
+        "org.packrag.product.SourceDetailsUiTest,org.packrag.product.QueryControlsUiTest,org.packrag.product.PackManagementUiTest",
+        "--result-file",
+        "m4-source-details-ui.json",
+        "--timeout",
+        "1800"
+      ],
+      "started_utc": "2026-10-10T17:06:02.838000+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T17:09:59.290065+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-ui-source-details-0002",
+        "--files",
+        "m4-source-details-ui.json,m4-source-details-languages-ui.json,m4-ui-query-controls.json,m3-pack-management-ui.json"
+      ],
+      "started_utc": "2026-10-10T17:09:59.290065+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T17:10:00.131336+00:00"
+    }
+  ],
+  "original_png_sha256": {
+    "m4-source-details-ar.png": "90ad27a9083a62f4d77a9740ef33f53904fee9cdae8184d739d495db9045b0f8",
+    "m4-source-details-fr.png": "367caef9e1b2e25ba9cdecb5585b86890f7b4d973f0441f892f97ef416fa21a9"
+  },
+  "foreground_authorization": "Owner text reply required before invoking this prepared driver"
+}

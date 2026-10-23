@@ -1,0 +1,12 @@
+{
+  "status": "PASS_SOURCE_ARTIFACT_AUDIT_NOT_PHYSICAL_ACCEPTANCE",
+  "public_runtime_inputs": 132,
+  "android_inputs_per_variant": 429,
+  "both_build_input_sets_equal": true,
+  "packaged_source_metadata_assets_byte_equal": true,
+  "native_unchanged": true,
+  "prior_saved_output_identities_unchanged": {
+    "query-gate-0001": 147,
+    "validity-gate-0001": 144
+  }
+}

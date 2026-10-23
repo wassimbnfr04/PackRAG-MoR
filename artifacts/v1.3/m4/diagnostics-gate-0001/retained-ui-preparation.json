@@ -1,0 +1,46 @@
+{
+  "status": "PREPARED_CURRENT_RETAINED_UI_NOT_EXECUTION",
+  "original_driver_sha256": "c25483515b4b77e912fd4987e82ece30bbadd1fb8e7f32af2a238437eedf8190",
+  "replacements": [
+    [
+      "assert read(HERE/'repaired-pair-preflight.json')['matched_variants']",
+      "assert read(HERE/'policy-diagnostics-preflight.json')['status']=='PASS_E3_MATCHED_POLICY_PAIR_NOT_ACTUAL_POLICY_OR_FULL_E3'"
+    ],
+    [
+      "assert read(HERE/'focused-device-execution.json')['status']=='PASS_NEW_E2_BACKGROUND_METHODS_ORIGINALS_SAVED_NOT_E2_CLOSURE'",
+      "assert read(HERE/'policy-diagnostics-execution.json')['status']=='PASS_E3_ACTUAL_COMPILED_POLICY_DIAGNOSTICS_ORIGINAL_NOT_COMPLETE_E3'\nassert read(HERE/'foreground-retained-readiness.json')['owner_quote']=='GO AHEAD ILL LEAVE THE PHONE UNTOUCHED'"
+    ],
+    [
+      "device-ui-source-details-0002",
+      "device-ui-diagnostics-retained-0001"
+    ],
+    [
+      "build-0041",
+      "build-0048"
+    ],
+    [
+      "ui-execution-repaired.json",
+      "retained-ui-execution.json"
+    ],
+    [
+      "ui-repaired-stage-",
+      "retained-ui-stage-"
+    ],
+    [
+      "PASS_FOUR_UI_METHODS_ORIGINALS_AND_SCREENSHOTS_SAVED_NOT_VISUAL_OR_E2_CLOSURE",
+      "PASS_E3_FOUR_RETAINED_UI_ORIGINALS_NOT_COMPLETE_E3"
+    ],
+    [
+      "E2 UI",
+      "E3 retained UI"
+    ],
+    [
+      "E2_UI_ORIGINALS_AND_PNGS_SAVED_VISUAL_QA_PENDING",
+      "E3_RETAINED_UI_ORIGINALS_AND_PNGS_SAVED_VISUAL_QA_PENDING"
+    ]
+  ],
+  "derived_driver_sha256": "fe8a37812d9f34e9e84346ac6e6e4f6daf5123cb0d428e4da432e014b41e48be",
+  "original_readiness_sha256": "1a1b644e1e7bb32c4e5901d5e081206d50a334c65da97eaf63e4938e49384494",
+  "derived_readiness_sha256": "b175ac716c74f750f8baefb6ffd697ba8f7656b6399c800f664ab3d5e5879ce9",
+  "scope": "Same four retained foreground methods and expectations, fresh0048 output paths; real readiness/owner window/original collection/new visual inspection still required."
+}

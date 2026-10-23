@@ -1,0 +1,78 @@
+{
+  "status": "OBSERVED_COMPOSE_HIERARCHY_LOSS_WHILE_SUITE_STILL_RUNNING_NOT_CAUSAL_DIAGNOSIS",
+  "recorded_utc": "2026-10-10T19:56:32.539840+00:00",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "-s",
+        "ActivityTaskManager:I",
+        "ActivityManager:I",
+        "WindowManager:I"
+      ],
+      "returncode": 0,
+      "saved": "retained-ui-observed-app-lifecycle.txt",
+      "sha256": "66a1a626b00eb336bc6f3a715f63dcacf9a11ad834d60ba83930871c87700c96"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "window",
+        "policy"
+      ],
+      "returncode": 0,
+      "saved": "retained-ui-observed-readiness-window.txt",
+      "sha256": "ca98140854adfdf350e1236162430b2f2a6b2b69a42192df634fc0c71628d466"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "power"
+      ],
+      "returncode": 0,
+      "saved": "retained-ui-observed-readiness-power.txt",
+      "sha256": "1e2026cfd7dc68ecee8d00125bf5947023345d2428e456771921b7a18afc219e"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "window",
+        "windows"
+      ],
+      "returncode": 0,
+      "saved": "retained-ui-observed-focus.txt",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "-s",
+        "TestRunner:I"
+      ],
+      "returncode": 0,
+      "saved": "retained-ui-observed-test-runner.txt",
+      "sha256": "d33056402156202a2c054462d19642b55d5afa8a49dece1d6cf6aee32a4c596f"
+    }
+  ],
+  "scope": "Read-only app-related lifecycle, current focus/readiness and original test logs. No screenshot edit, app restart, APK switch, wake/unlock/PIN/radio/global-timeout action. Let current suite finish and collect only truly completed fresh originals."
+}

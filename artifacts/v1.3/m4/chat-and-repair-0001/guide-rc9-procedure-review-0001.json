@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED_PROMOTION",
+  "scope": "Manual frozen-source comparison, development not held-out",
+  "candidate": "mobile-v1-guides-rc9",
+  "cases": {
+    "FAN_FULL_GUIDE": "Correct supported repair sequence, but complete request omits documented flush-corner reassembly check and no-force caution. Completeness hold, not inverse-step error.",
+    "FAN_PARAPHRASE": "Fail-closed1024 limit:940 reasoning+84final/terminal; partial final withheld. Not a grammar repeat loop.",
+    "FAN_SAFE_START": "Supported rejection of charger/suspend premise and unplug/shutdown start; no invented battery procedure.",
+    "FAN_CONNECTOR": "Requested gentle connector removal and gentle/no-force reconnect supplied with source tools/prerequisites. Extra supported fan cleaning is irrelevant but not invented.",
+    "FAN_CLEANING_TOOLS": "Brush/clean-toothbrush/blower present. Wording lists both brush alternatives as tools; no chemical/tool invented.",
+    "TUBE_FULL_GUIDE": "Complete documented quick-release/caliper sequence, lever removal, debris inspection, valve/beads/slow-inflate in source order. No invented PSI.",
+    "TUBE_PARAPHRASE": "Source order preserved and requested repair sequence covers removal/inspection/installation. Optional spoke-held lever detail omitted; no inverse action.",
+    "TUBE_REASSEMBLY": "Requested post-removal inspection/debris/valve/both beads/slow inflation check present; no PSI invented."
+  },
+  "negative_controls": "Absent torque/PSI exact abstention; wrong laptop/unrelated question no-relevant without generation.",
+  "next": "ADR-006 context3072/output1536 and generic complete-check/caution preservation pilot; no production integration while failed gate remains."
+}

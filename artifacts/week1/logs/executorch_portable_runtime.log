@@ -1,0 +1,59 @@
+W0930 00:25:05.669000 16444 .venv-et15\Lib\site-packages\torch\utils\_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+[operator_registry.cpp:277] kernel 'aten::sort.values' not found.
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[method.cpp:826] Missing operator: [29] aten::sort.values
+[operator_registry.cpp:277] kernel 'aten::sort.values' not found.
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[method.cpp:826] Missing operator: [29] aten::sort.values
+[operator_registry.cpp:277] kernel 'aten::sort.values' not found.
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[operator_registry.cpp:278] dtype: 4 | dim order: [
+[operator_registry.cpp:278] 0,
+[operator_registry.cpp:278] 1,
+[operator_registry.cpp:278] 2,
+[operator_registry.cpp:278] ]
+[method.cpp:826] Missing operator: [29] aten::sort.values
+[method.cpp:1133] There are 3 instructions don't have corresponding operator registered. See logs for details
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Lib\site-packages\executorch\runtime\__init__.py", line 216, in load_method
+    method = Method(self._program.load_method(name))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Failed to load method forward, error: 0x:14

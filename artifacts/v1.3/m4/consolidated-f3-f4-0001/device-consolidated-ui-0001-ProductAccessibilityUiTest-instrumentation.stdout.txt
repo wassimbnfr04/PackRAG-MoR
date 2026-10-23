@@ -1,0 +1,80 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.ProductAccessibilityUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.ProductAccessibilityUiTest:
+INSTRUMENTATION_STATUS: test=largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ProductAccessibilityUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: expected:<org.packrag.product> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ProductUiTestSupport.foreground(ProductUiTestSupport.kt:25)
+	at org.packrag.product.ProductUiTestSupport.ready(ProductUiTestSupport.kt:27)
+	at org.packrag.product.ProductAccessibilityUiTest.largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes$lambda$0(ProductAccessibilityUiTest.kt:59)
+	at org.packrag.product.ProductAccessibilityUiTest$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:44)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:33)
+	at org.packrag.product.ProductAccessibilityUiTest.largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes(ProductAccessibilityUiTest.kt:58)
+
+INSTRUMENTATION_STATUS: stream=
+Error in largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes(org.packrag.product.ProductAccessibilityUiTest):
+java.lang.AssertionError: expected:<org.packrag.product> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ProductUiTestSupport.foreground(ProductUiTestSupport.kt:25)
+	at org.packrag.product.ProductUiTestSupport.ready(ProductUiTestSupport.kt:27)
+	at org.packrag.product.ProductAccessibilityUiTest.largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes$lambda$0(ProductAccessibilityUiTest.kt:59)
+	at org.packrag.product.ProductAccessibilityUiTest$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:44)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:33)
+	at org.packrag.product.ProductAccessibilityUiTest.largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes(ProductAccessibilityUiTest.kt:58)
+
+INSTRUMENTATION_STATUS: test=largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.ProductAccessibilityUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ProductAccessibilityUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=realNarrowLargeFontFormTouchTargetsStatusAndRecreationPreserveOwnedResult
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 25,257
+There was 1 failure:
+1) largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes(org.packrag.product.ProductAccessibilityUiTest)
+java.lang.AssertionError: expected:<org.packrag.product> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.ProductUiTestSupport.foreground(ProductUiTestSupport.kt:25)
+	at org.packrag.product.ProductUiTestSupport.ready(ProductUiTestSupport.kt:27)
+	at org.packrag.product.ProductAccessibilityUiTest.largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes$lambda$0(ProductAccessibilityUiTest.kt:59)
+	at org.packrag.product.ProductAccessibilityUiTest$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:44)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:33)
+	at org.packrag.product.ProductAccessibilityUiTest.largeFontAssetScreensExposeExpectedAndObservedEncoderBytesAndHashes(ProductAccessibilityUiTest.kt:58)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
+

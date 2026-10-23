@@ -1,0 +1,143 @@
+{
+  "architecture": "PackRAG-MoR v1.2",
+  "week": 1,
+  "overall_status": "INCOMPLETE_BLOCKED",
+  "mor_reference": {
+    "status": "PASS",
+    "deterministic_generation": "PASS",
+    "host_environment": "WINDOWS_NATIVE",
+    "checkpoint_sha256": "471986c279ea75dbdd0034d4b10f1ee75652a94fe202327c5b437b362c02fc4c",
+    "repo_commit": "82c97f29cd140efa01f5cc4fe0de73a4c3b6ffd6",
+    "attention_backend": "eager",
+    "generation_implementation": "full_prefix_reference"
+  },
+  "g0": {
+    "direct": {
+      "passed": 5,
+      "total": 10
+    },
+    "citation": {
+      "passed": 0,
+      "total": 5
+    },
+    "abstention": {
+      "passed": 0,
+      "total": 5
+    },
+    "adversarial": {
+      "passed": 0,
+      "total": 5
+    },
+    "classification": "G0_FAIL",
+    "sft_action": "DO NOT ESCALATE",
+    "primary_results_sha256": "98f7d75bd05ac4a470ef396cb8c8e98e4510ba44604339a79b97ced96db189e7",
+    "cases_executed": 25,
+    "primary_runs": 1,
+    "canonical_author_stack_equivalence": "UNPROVEN",
+    "attention_backend_sensitivity_detected": true,
+    "validity_review": "gates/g0/diagnostics/inference_validity_review.md",
+    "inference_consistency": {
+      "sample_cases": 3,
+      "tokens_per_case": 16,
+      "manual_matches_saved": 3,
+      "manual_matches_hf_generate": 3,
+      "eager_matches_sdpa": 2,
+      "divergent_case": "G0-A01"
+    }
+  },
+  "executorch": {
+    "version": "1.5.0",
+    "exact_target_status": "BLOCKED",
+    "experiment_label": "NON_PINNED_PYTORCH_DIAGNOSTIC",
+    "torch_export": "PARTIAL_STATIC_PASS_DYNAMIC_FAIL",
+    "edge_lowering": "PASS_DIAGNOSTIC_ONLY",
+    "xnnpack": "PARTITIONING_PASS_RUNTIME_METHOD_LOAD_FAIL_DIAGNOSTIC_ONLY",
+    "custom_ops_required": null,
+    "custom_or_decomposition_candidates": [
+      "aten::sort.values"
+    ],
+    "blocking_ops": [
+      "aten::sort.values"
+    ],
+    "decode": "NOT_EXPORTED",
+    "preliminary_classification": "BLOCKED"
+  },
+  "smollm2_fallback": {
+    "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "status": "BLOCKED_PENDING_PHONE",
+    "physical_phone": false,
+    "offline_generation": false,
+    "adb_devices": "List of devices attached",
+    "gguf_sha256": "4723b60dcc23b06f59c356e979c26e9f417195056eb60ecbbb6d95f78eb8cdd7",
+    "quantization": "F16",
+    "llamacpp_commit": null,
+    "model_load_time_ms": null,
+    "ttft_ms": null,
+    "tokens_per_second": null,
+    "peak_memory_bytes": null,
+    "evidence_smoke_passed": null,
+    "evidence_smoke_total": 5,
+    "raw_cases": [],
+    "gguf_bytes": 725553600,
+    "model_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+    "llamacpp_candidate_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "acceptance_classification": "WEEK1_PRODUCT_GATE_FAIL",
+    "acceptance_note": "Required physical-phone acceptance is unmet; unavailable hardware is not a measured model failure.",
+    "cross_build": "PASS",
+    "generation_works": null,
+    "model_loaded_offline": null
+  },
+  "kpack": {
+    "build": true,
+    "sign": true,
+    "validate": true,
+    "inspect": true,
+    "desktop_identifier_query": true,
+    "android_signature_verify": null,
+    "android_query": null,
+    "corruption_tests": true,
+    "python_tests_passed": 49,
+    "jvm_tink_signature_verify": true,
+    "android_instrumentation_status": "BLOCKED_PENDING_PHONE",
+    "calibration": "UNCALIBRATED_DEVELOPER_ONLY",
+    "archive_sha256": "2aa3a6283acecfd7927d7c28f229d8766e799e071e418f430ef3bbe8068bc5fc",
+    "manifest_sha256": "4a5c81b87449e007674c88fa5b9e0fe6b5a6fbed1c23e03158b12c2fc4251216",
+    "cached_input_rebuild_archive_identical": true
+  },
+  "android": {
+    "status": "BUILD_AND_JVM_PASS_PHYSICAL_TEST_BLOCKED",
+    "physical_phone": false,
+    "apk_build": "PASS",
+    "jvm_tests": {
+      "passed": 2,
+      "total": 2,
+      "signature_negative_cases": 5,
+      "report": "artifacts/week1/android/jvm_test_results.xml"
+    },
+    "android_signature_verify": null,
+    "android_query": null,
+    "instrumentation_status": "BLOCKED_PENDING_PHONE",
+    "apks": {
+      "app": {
+        "path": "artifacts/week1/android/week1-spike-debug.apk",
+        "sha256": "2e907b8ee636dcb7a576eba64f4a1d83c927fcdc84e9cc22e67ddb7256235c68",
+        "bytes": 7809480
+      },
+      "instrumentation": {
+        "path": "artifacts/week1/android/week1-spike-debug-androidTest.apk",
+        "sha256": "fcb565aba17b2f41073996781542975983bece642fb9c360a79617a7757257d3",
+        "bytes": 2264995
+      }
+    },
+    "private_fixture_key_in_apk": false,
+    "note": "JVM Tink verification and successful APK compilation do not prove Android-device interoperability."
+  },
+  "week2_ready": false,
+  "blockers": [
+    "Target physical phone unavailable: offline SmolLM2 generation, five-case evidence smoke, performance/memory and Android KPack instrumentation are unrun.",
+    "Exact ExecuTorch PyTorch source pin is unmet; current export/runtime artifacts are NON_PINNED_PYTORCH_DIAGNOSTIC only.",
+    "Diagnostic MoR runtime cannot load aten::sort.values; dynamic routing shape guards fail; explicit cache/decode export and Android numerical parity remain unproven.",
+    "Follow-up diagnostic shows eager/SDPA continuation divergence on G0-A01; canonical attention-stack validation is required before generalizing the eager-run G0 result."
+  ],
+  "week2_recommendation": "Hold Week 2 until physical-phone product and KPack gates pass and the user reviews this evidence. G0_FAIL keeps MoR as a research/control model; DO NOT ESCALATE SFT. Prefer validated SmolLM2 for product continuity once phone evidence exists."
+}

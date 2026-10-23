@@ -1,0 +1,72 @@
+{
+  "id": "G0-C01",
+  "category": "citation",
+  "question": "How much does the LumaDrive L2 weigh?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The LumaDrive L2 enclosure carries an IP54 rating."
+    },
+    {
+      "id": "S2",
+      "text": "The LumaDrive L2 weighs 4.2 kg."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The LumaDrive L2 weighs 4.2 kg. [S2]",
+  "citations": [
+    "S2"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "4.2 kg"
+  ],
+  "required_citations": [
+    "S2"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 398,
+    "prompt_ms": 4203.192,
+    "prompt_per_token_ms": 10.56078391959799,
+    "prompt_per_second": 94.6899404071953,
+    "predicted_n": 168,
+    "predicted_ms": 6273.273,
+    "predicted_per_token_ms": 37.56450898203593,
+    "predicted_per_second": 26.62087238989918,
+    "host_generation_wall_ms": 10526.871500002017,
+    "emitted_token_count": 168,
+    "reasoning_token_count": 148,
+    "final_and_terminal_token_count": 20,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 398,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The LumaDrive L2 enclosure carries an IP54 rating. [S1]\" | \"The LumaDrive L2 weighs 4.2 kg. [S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "9c92e744541faa2f72f65ad663981d051849c34d903fdb884728445faef57da0",
+    "final_only": "1. The LumaDrive L2 weighs 4.2 kg. [S2]",
+    "quotation_match": true,
+    "quote_unit_count": 2,
+    "quote_units_sha256": [
+      "4de9acb2aea728bc24e32b4210425bf76f22ac9176e281dc50cb5ab7026eb192",
+      "05aed720d3ef570a86d2b9edb8301287e10cd07d3bce76303269e47eae6bbb80"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "id": "valid",
+      "filename": "valid.kpack",
+      "accept": true,
+      "error_contains": null,
+      "before_db": false,
+      "sha256": "d9286f258af0074985ccfab1d7e47d1786124c4bf63631e91e286d4a8dcd2a2c",
+      "manifest_sha256": "f3644e7be19a6c20d6ca3b96194cc3d5b1783dee1a59acb4eaadbe1d09becc83"
+    },
+    {
+      "id": "broken-db-and-bad-kdx-magic",
+      "filename": "broken-db-and-bad-kdx-magic.kpack",
+      "accept": false,
+      "error_contains": "Invalid KDX header",
+      "before_db": true,
+      "sha256": "80327966ab14e57f505ce712f548c4ee4d1d9353df54ad7754ff354691505a14",
+      "manifest_sha256": "91c4d4bff63c38db770a2d17129e378c133ef1c2b00e55fe6e5dc08399103d79"
+    },
+    {
+      "id": "broken-db-and-nonfinite-kdx",
+      "filename": "broken-db-and-nonfinite-kdx.kpack",
+      "accept": false,
+      "error_contains": "Nonfinite KDX vector",
+      "before_db": true,
+      "sha256": "e0b3c9e84a6c81edc2158b44ab175d9f82323cc8d2103457fba06b03e9da487f",
+      "manifest_sha256": "71a08ad8e649113be033eea70ffdf1d1c5ab5ca866e95523ff98f41c39b4c6f0"
+    },
+    {
+      "id": "mapping-binding-after-validated-db",
+      "filename": "mapping-binding-after-validated-db.kpack",
+      "accept": false,
+      "error_contains": "KDX profile/mapping hash mismatch",
+      "before_db": false,
+      "sha256": "bbc355e57904fe4b76617887e9ace85d7f89e9bc719eab256893d59402773634",
+      "manifest_sha256": "f72bdd4206b2a7c5fb8e09abd894f83bcf7ca652bcb88bcb7a8a5073dc2836c5"
+    },
+    {
+      "id": "broken-db-after-valid-kdx",
+      "filename": "broken-db-after-valid-kdx.kpack",
+      "accept": false,
+      "error_contains": null,
+      "before_db": false,
+      "sha256": "a7d51de6e7f3e4c5a6f2052cca7767a2200c28203f026744d0000473a2cd7498",
+      "manifest_sha256": "e78a0e917a884399cd18e11dcda6b553b6805f662fda85e0223b0759f930e6d0"
+    },
+    {
+      "id": "norm-upper-inside",
+      "filename": "norm-upper-inside.kpack",
+      "accept": true,
+      "error_contains": null,
+      "before_db": false,
+      "sha256": "23de2b544babd100499cf64135cce9507b643e3f840319513416590c53ffd587",
+      "manifest_sha256": "dc3bc78807298d3c9daa46a562ccf2ff62f6d4029bcc603c860e72db9db239b5"
+    },
+    {
+      "id": "norm-upper-outside",
+      "filename": "norm-upper-outside.kpack",
+      "accept": false,
+      "error_contains": "KDX vector norm mismatch",
+      "before_db": true,
+      "sha256": "138da3a2911a19cec08e0c19a400aa381c97a6cbf3e8d77a9f4d1a7665e473cd",
+      "manifest_sha256": "f4eaa06db4913a47afb6314e98179e74f17db52703de77d49e1a8bb47043fd60"
+    },
+    {
+      "id": "norm-lower-inside",
+      "filename": "norm-lower-inside.kpack",
+      "accept": true,
+      "error_contains": null,
+      "before_db": false,
+      "sha256": "a802403b90bafcea2812b597bf329f52d6097861bea3c819512ae36a84947746",
+      "manifest_sha256": "a2f294b0af71106fa925aae8b09111f2bb05b8abfd496f65243c8f66373f9eaa"
+    },
+    {
+      "id": "norm-lower-outside",
+      "filename": "norm-lower-outside.kpack",
+      "accept": false,
+      "error_contains": "KDX vector norm mismatch",
+      "before_db": true,
+      "sha256": "2f9e60fcd0767bfe780649ac6d8b279c17088ade2d94b5cfd5ae73927aad568a",
+      "manifest_sha256": "fac14a0f6277f456d2052451e3acf4de3ec3b1846cd50223298da4e7206d1c95"
+    }
+  ],
+  "public_key_sha256": "7c04a660a482c382d9c136819b9a412f2dd99579874e1668258a3f2c0a73c8a4",
+  "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+  "script_sha256": "c91c04682371792254fda4e30af48b2f86ec082fac7a61cd5d13333561dbbb0a",
+  "private_seed": "EPHEMERAL_NOT_SAVED",
+  "purpose": "SYNTHETIC_VALIDATION_PHASE_ORDER_AND_NORM_BOUNDARIES_NOT_RELEASE_CALIBRATION"
+}

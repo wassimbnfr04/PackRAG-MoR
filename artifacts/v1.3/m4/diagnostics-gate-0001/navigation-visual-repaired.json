@@ -1,0 +1,18 @@
+{
+  "status": "PASS_REPAIRED_DIAGNOSTIC_AND_CANONICAL_TESTED_VIEWPORT",
+  "recorded_utc": "2026-10-10T19:40:25.975737+00:00",
+  "images": {
+    "m4-diagnostic-home.png": {
+      "sha256": "2254eec6e153ee322a5713d0ffdc56222adf1bee071e10f9dc91f57faf8f9727",
+      "bytes": 285424
+    },
+    "m4-diagnostic-source.png": {
+      "sha256": "cac8087b83fe5585149c19960783f379d8eef56d099c23332ca684bd9c6bfe21",
+      "bytes": 261584
+    }
+  },
+  "review_method": "Both exact original PNGs inspected with view_image; not inferred from JUnit or tags.",
+  "home": "No IME. Prefill428, evidence256, emitted153 including terminal, reasoning133, remaining20, first emitted43812.023ms and backend decode21890.422ms are visibly labelled and readable above navigation. Captured functional timing only, not visible answer latency or performance acceptance.",
+  "source": "Complete canonical Aster-9 sentence including74\u00b0C and signed assertion/unknown attribution labels readable above navigation. Tested viewport only.",
+  "initial": "Original0001 automated PASS and independent visual FAIL remain immutable; no old screenshot was edited or relabelled."
+}

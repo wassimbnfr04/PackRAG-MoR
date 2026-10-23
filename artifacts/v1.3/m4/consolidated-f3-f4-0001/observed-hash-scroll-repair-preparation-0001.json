@@ -1,0 +1,9 @@
+{
+  "status": "REPAIR_REQUIRED_VISIBLE_OBSERVED_HASH_CAPTURE_TEST_ONLY",
+  "recorded_utc": "2026-10-12T14:59:08.820537+00:00",
+  "observed": "Original observed-hash screenshot displays label but64-digit value remains below viewport; semantic text assertion alone is insufficient. UI0003 automated accessibility class PASS remains separate from failed required manual visual review.",
+  "repair": "After existing observed-hash performScrollTo/text equality, perform one real upward swipe on product scroll container, wait idle, assert target displayed, then capture new unmodified settled original. Expected size/hash assertions, methods10controls and product source unchanged.",
+  "before_source_sha256": "597e96b2ea7be2cd01880e6659d20ce54d6d5e1ec6805521f91bf5a7545156aa",
+  "other_UI0003_outcome": "Picker1/6, overview1/8, long component2/6 actually passed before hold request. Management JUnit1/7 passed but collector failed on stale historical final control-ID label; strict schema review required, originals preserved. Controller already terminal; no running test killed.",
+  "window": "Original45minute deadline unchanged"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS_EXACT_TWO_SOURCE_UI_INSETS_REPAIR_UNCHANGED_PYTHON_DESKTOP_NOT_REPAIRED_UI_OR_E2_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T17:05:58.485927+00:00",
+  "bindings": {
+    "debug": {
+      "earlier_build": "build-0039",
+      "final_build": "build-0041",
+      "unchanged_other_android_inputs": 559,
+      "earlier_product_apk_sha256": "1836970079e0687fa55c56aecfd191a23cc9890d1e32b807307f0e78c6bb1a34",
+      "final_product_apk_sha256": "629557315f7e1dab1d0b1613372bb7f428b4d801c653f814f8ff710f7f60ed0d",
+      "reuse": "No old Android run promoted; repaired host/UI/full-device/policy/restoration required"
+    },
+    "demo": {
+      "earlier_build": "build-0040",
+      "final_build": "build-0042",
+      "unchanged_other_android_inputs": 559,
+      "earlier_product_apk_sha256": "04cf0bf27ec0cb4ae60b1074931369a2ea3968ae741fd4bfefa3efd017befe27",
+      "final_product_apk_sha256": "28f16599b5123b159cc9a024d5fa3174e65a9cd5c0639ddc248351c474f61a97",
+      "reuse": "No old Android run promoted; repaired host/UI/full-device/policy/restoration required"
+    }
+  },
+  "desktop": {
+    "python_tests": 1034,
+    "runtime_inputs": 188,
+    "all_six_desktop_gates": [
+      {
+        "run": "existing-walking-smoke-0014",
+        "result": "smoke-results.json",
+        "record_sha256": "dddf3042dc64a7b7518ebb7b2761002d53092d63e893e98bce09fe13e2bd254d"
+      },
+      {
+        "run": "conflict-smoke-0008",
+        "result": "conflict-smoke-results.json",
+        "record_sha256": "d30d3b8b07629f169bea3b3b149645352114ac80fc8c69a2542d53768cad9352"
+      },
+      {
+        "run": "relevance-smoke-0005",
+        "result": "relevance-smoke-results.json",
+        "record_sha256": "9f3d2b4f042fd377a11e059fa3a8e3ee4c444effeade6879c1bf69c5c92c1cf7"
+      },
+      {
+        "run": "representation-smoke-0005",
+        "result": "representation-smoke-results.json",
+        "record_sha256": "ff844b9a2c2ff5572e91b9fdbdaef634f2853458e41d0074cb512aefc6577512"
+      },
+      {
+        "run": "source-text-smoke-0003",
+        "result": "source-text-smoke-results.json",
+        "record_sha256": "fb0399b1c4ebff481996e4df3272571065248292ee3f43bf3bb8ce5e494c33ab"
+      },
+      {
+        "run": "selection-smoke-0003",
+        "result": "selection-smoke-results.json",
+        "record_sha256": "1135c48c19ef581e5eb9c7c4a66702d2f3d0768439e89196d502be4bc1661f45"
+      }
+    ]
+  },
+  "original_visual_failure_preserved": true,
+  "limits": "Python1034 and six desktop gates retained under their actual unchanged188 source identities, not claimed reruns. Product layout/APKs changed."
+}

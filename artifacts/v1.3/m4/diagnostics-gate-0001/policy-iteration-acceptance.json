@@ -1,0 +1,15 @@
+{
+  "status": "PASS_E3_APPROVED_NATIVE_COMPILED_POLICY_ITERATION_NOT_COMPLETE_E3",
+  "recorded_utc": "2026-10-10T19:52:34.937160+00:00",
+  "build": "build-0049",
+  "host_methods": 53,
+  "android_inputs": 574,
+  "device_methods": 1,
+  "controls": 8,
+  "junit_wall_seconds": 311.814,
+  "original_sha256": "33b3b260ea1abb03af5f613bf3e1f7462c175fae0b619fa0423e6084d695fde9",
+  "source_snapshots": {
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticPolicyDeviceTest.kt": "0d6ffe9c6d0a20aa8ae8d6a5d23777492da94a346406dc6e30af9b78fffac8a8"
+  },
+  "scope": "Actual ViewModel build-owned trust/native generation/diagnostic ownership/rejection and owner-file guard. Instrumentable debug-signed demo, schema-only synthetic fixture; not final release, measured calibration, final content or performance. Full regressions/parity/restoration/closure pending."
+}

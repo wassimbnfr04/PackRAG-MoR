@@ -1,0 +1,92 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.SourceDetailsUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.SourceDetailsUiTest:
+INSTRUMENTATION_STATUS: test=realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.SourceDetailsUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: expected:<ANSWER_ACCEPTED> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.SourceDetailsUiTest.realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls(SourceDetailsUiTest.kt:76)
+
+INSTRUMENTATION_STATUS: stream=
+Error in realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls(org.packrag.product.SourceDetailsUiTest):
+java.lang.AssertionError: expected:<ANSWER_ACCEPTED> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.SourceDetailsUiTest.realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls(SourceDetailsUiTest.kt:76)
+
+INSTRUMENTATION_STATUS: test=realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.SourceDetailsUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=verifiedArabicFrenchCanonicalAndEnglishRenderingComponentScreenshots
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.SourceDetailsUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=verifiedArabicFrenchCanonicalAndEnglishRenderingComponentScreenshots
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.QueryControlsUiTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.QueryControlsUiTest:
+INSTRUMENTATION_STATUS: test=capturedControlsSurviveRealGenerationEditsRecreationAndSourceNavigation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.QueryControlsUiTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=capturedControlsSurviveRealGenerationEditsRecreationAndSourceNavigation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.PackManagementUiTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.PackManagementUiTest:
+INSTRUMENTATION_STATUS: test=isolatedPackControlsWarningsRemovalAndRestart
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.PackManagementUiTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=isolatedPackControlsWarningsRemovalAndRestart
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 124,251
+There was 1 failure:
+1) realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls(org.packrag.product.SourceDetailsUiTest)
+java.lang.AssertionError: expected:<ANSWER_ACCEPTED> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.packrag.product.SourceDetailsUiTest.realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls(SourceDetailsUiTest.kt:76)
+
+FAILURES!!!
+Tests run: 4,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
+

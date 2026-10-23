@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_test_android.py", line 83, in <module>
+    main()
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_test_android.py", line 58, in main
+    result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=180)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Fkagf\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\subprocess.py", line 1630, in _communicate
+    raise TimeoutExpired(self.args, orig_timeout)
+subprocess.TimeoutExpired: Command '['C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe', '-s', 'R3CT908DHHR', 'install', '-r', 'C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0075\\app-debug.apk']' timed out after 180 seconds

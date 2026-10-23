@@ -1,0 +1,8 @@
+{
+  "status": "DOCUMENT_NOTE_PATH_CORRECTED_NO_RUNTIME_CHANGE",
+  "canonical_path": "docs/v1.3/FULL_DOCUMENTATION_WORKING.md",
+  "before_sha256": "29278806e63594a13b25cdb391010e82292c5f1a210bd16048dd4ffa692586f7",
+  "after_sha256": "37b14d91e6f0a0b1a84c05b4dede4640a31fc72ddc2852754358519f891d7f0c",
+  "preserved_misplaced_note_sha256": "5ccf0721698c7eaf5210ee9360752e85a67f1205a3dd15257ca54494d8ff0c9a",
+  "reason": "Helper appended to root rather than docs/v1.3 working document; preserve exact note, append to canonical document and remove ambiguity by relocating original inside diagnostic evidence."
+}

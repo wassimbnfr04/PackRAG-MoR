@@ -1,0 +1,9 @@
+{
+  "status": "PASS_ACTUAL_F2_CLOSURE_CHECK_NOT_YET_GIT_CHECKPOINT",
+  "recorded_utc": "2026-10-11T22:24:49.862824+00:00",
+  "command": ".venv-pack/Scripts/python.exe -X utf8 artifacts/v1.3/m4/asset-import-gate-0001/check_f2_acceptance_0001.py",
+  "exit_code": 0,
+  "stdout": "M4F2_PINNED_PRIVATE_ASSET_IMPORT_ATOMICITY_CANCEL_RESTART_PICKER_AND_REGRESSIONS_VERIFIED_NOT_FULL_M4_OR_PRODUCT 1925\n",
+  "gate_sha256": "8e2adc729cb5dd298be99ade298c96da32425e0b4a324411c366293f5ff6dff5",
+  "scope": "Actual terminal gate execution exit0; no phone tests running. Exact checkpoint still required before F3."
+}

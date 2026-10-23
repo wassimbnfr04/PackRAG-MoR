@@ -1,0 +1,5 @@
+
+
+E3 current10 October20:09 UTC: retained UI0002 FINISHED four methods/one failure/200.195s. Three passing originals/two PNGs saved separately; overall FAIL unchanged. Final query assertion observes ANSWER_ACCEPTED instead of NO_RELEVANT_EVIDENCE. Old test busy-false wait can observe old completion after a posted tap; test-only strengthening now requires distinct completedResultId AND exact edited question/date/jurisdiction, keeps all answer assertions and adds immediate/new state observations. Hypothesis pending actual evidence, not declared app fix. Exact one test source changed/573 other Android inputs unchanged. Fresh debug0050/demo0051, actual four-method UI/visual and full37/30/restoration/parity/closure required before F. No phone test running; no radio/owner-file changes.
+
+Detailed exact source repair and pre-repair bytes: diagnostics-gate-0001/retained-resubmission-repair.json and retained-resubmission-before/QueryControlsUiTest.kt. The three partial originals are solely completed-method evidence; failed query JSON is not promoted. No full-background driver started.

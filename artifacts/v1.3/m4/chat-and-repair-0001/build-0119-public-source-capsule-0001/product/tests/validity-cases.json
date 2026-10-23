@@ -1,0 +1,565 @@
+{
+  "purpose": "INDEPENDENT_FIXED_SYNTHETIC_INTERVAL_EXPECTATIONS_NOT_LEGAL_GOLD",
+  "cases": [
+    {
+      "id": "SOURCE_START_BEFORE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2019-12-31",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "SOURCE_START_INCLUSIVE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2020-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "SOURCE_END_BEFORE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2029-12-31",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "SOURCE_END_EXCLUSIVE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2030-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "CHUNK_LATER_START_BEFORE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": "2026-01-01",
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2025-12-31",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "CHUNK_LATER_START_INCLUSIVE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": "2026-01-01",
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "SOURCE_LATER_START",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": "2010-01-01",
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2019-12-31",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "CHUNK_EARLIER_END_BEFORE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": "2027-01-01",
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2026-12-31",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "CHUNK_EARLIER_END_EXCLUSIVE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": "2027-01-01",
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2027-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "SOURCE_EARLIER_END",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": "2040-01-01",
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2030-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "EMPTY_DISJOINT",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": "2031-01-01",
+        "effective_until_excl": "2032-01-01",
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2025-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "EMPTY_TOUCHING",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": "2030-01-01",
+        "effective_until_excl": "2031-01-01",
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2030-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "UNKNOWN_BOTH",
+      "row": {
+        "source_from": null,
+        "source_until": null,
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "0001-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "UNKNOWN_BOTH_FAR_FUTURE",
+      "row": {
+        "source_from": null,
+        "source_until": null,
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "9999-12-31",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "UNKNOWN_START",
+      "row": {
+        "source_from": null,
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "0001-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "UNKNOWN_END",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": null,
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "9999-12-31",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "UNKNOWN_SOURCE_CHUNK_BOUND",
+      "row": {
+        "source_from": null,
+        "source_until": null,
+        "effective_from": "2026-01-01",
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2025-12-31",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "UNKNOWN_SOURCE_CHUNK_BOUND_EDGE",
+      "row": {
+        "source_from": null,
+        "source_until": null,
+        "effective_from": "2026-01-01",
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "JURISDICTION_WRONG",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "FR",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "JURISDICTION_UNREQUESTED",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": null,
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "JURISDICTION_UNKNOWN_REQUESTED",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": null,
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "JURISDICTION_UNKNOWN_UNREQUESTED",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": null,
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": null,
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "JURISDICTION_SUBDIVISION_EXACT",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA-01",
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA-01",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "JURISDICTION_SUBDIVISION_NOT_COUNTRY",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA-01",
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": false
+    },
+    {
+      "id": "REPEALED_CURRENT",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "repealed"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": true,
+      "eligible": false
+    },
+    {
+      "id": "REPEALED_HISTORICAL",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "repealed"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "SUPERSEDED_CURRENT",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "superseded"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": true,
+      "eligible": false
+    },
+    {
+      "id": "SUPERSEDED_HISTORICAL",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "superseded"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "eligible": true
+    },
+    {
+      "id": "CURRENT_active",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": true,
+      "eligible": true
+    },
+    {
+      "id": "CURRENT_historical",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "historical"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": true,
+      "eligible": true
+    },
+    {
+      "id": "CURRENT_n/a",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "n/a"
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": true,
+      "eligible": true
+    },
+    {
+      "id": "CURRENT_None",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": null
+      },
+      "as_of": "2026-01-01",
+      "jurisdiction": "MA",
+      "current_law": true,
+      "eligible": true
+    }
+  ],
+  "provenance_cases": [
+    {
+      "id": "UNKNOWN_SOURCE_FINITE_CHUNK",
+      "row": {
+        "source_from": null,
+        "source_until": null,
+        "effective_from": "2026-01-01",
+        "effective_until_excl": "2027-01-01",
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "expected": {
+        "source_from": null,
+        "source_until_excl": null,
+        "chunk_from": "2026-01-01",
+        "chunk_until_excl": "2027-01-01",
+        "effective_from": "2026-01-01",
+        "effective_until_excl": "2027-01-01",
+        "source_start_unknown": true,
+        "source_end_unknown": true,
+        "chunk_start_inherits": false,
+        "chunk_end_inherits": false,
+        "empty_intersection": false,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      }
+    },
+    {
+      "id": "FULL_SOURCE_INHERITANCE",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": null,
+        "effective_until_excl": null,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "expected": {
+        "source_from": "2020-01-01",
+        "source_until_excl": "2030-01-01",
+        "chunk_from": null,
+        "chunk_until_excl": null,
+        "effective_from": "2020-01-01",
+        "effective_until_excl": "2030-01-01",
+        "source_start_unknown": false,
+        "source_end_unknown": false,
+        "chunk_start_inherits": true,
+        "chunk_end_inherits": true,
+        "empty_intersection": false,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      }
+    },
+    {
+      "id": "EMPTY_INTERSECTION",
+      "row": {
+        "source_from": "2020-01-01",
+        "source_until": "2030-01-01",
+        "effective_from": "2030-01-01",
+        "effective_until_excl": "2031-01-01",
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      },
+      "expected": {
+        "source_from": "2020-01-01",
+        "source_until_excl": "2030-01-01",
+        "chunk_from": "2030-01-01",
+        "chunk_until_excl": "2031-01-01",
+        "effective_from": "2030-01-01",
+        "effective_until_excl": "2030-01-01",
+        "source_start_unknown": false,
+        "source_end_unknown": false,
+        "chunk_start_inherits": false,
+        "chunk_end_inherits": false,
+        "empty_intersection": true,
+        "jurisdiction": "MA",
+        "legal_status": "active"
+      }
+    }
+  ]
+}

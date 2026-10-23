@@ -1,0 +1,11 @@
+{
+  "status": "PREPARED_NOT_STAGED_OR_COMMITTED",
+  "base": "stage_checkpoint.py",
+  "base_sha256": "5ced2c047dbdf0d9ebdd46861fce1402fa22899faad6753cdd5a4b6a51ae554c",
+  "target_sha256": "992b9d6e5e0333f5296b4721ee77f23452c5f7ea52716fff533b3f4f614364f1",
+  "literal_change": {
+    "before": "D2",
+    "after": "D3",
+    "count": 2
+  }
+}

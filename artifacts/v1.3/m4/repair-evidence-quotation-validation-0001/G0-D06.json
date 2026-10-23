@@ -1,0 +1,67 @@
+{
+  "id": "G0-D06",
+  "category": "direct",
+  "question": "What relative-humidity range is allowed when storing the DeltaCell D2?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing. [S1]",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "20% to 60%"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 389,
+    "prompt_ms": 4110.099,
+    "prompt_per_token_ms": 10.565807197943446,
+    "prompt_per_second": 94.64492217827356,
+    "predicted_n": 171,
+    "predicted_ms": 6396.15,
+    "predicted_per_token_ms": 37.62441176470588,
+    "predicted_per_second": 26.57848862206171,
+    "host_generation_wall_ms": 10562.132500002917,
+    "emitted_token_count": 171,
+    "reasoning_token_count": 140,
+    "final_and_terminal_token_count": 31,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 389,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "8ab1f09e3cf5617ba8d5ce7701ec14c326b86aba8e28ef860ab44c04bb1ce620",
+    "final_only": "1. The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing. [S1]",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "68b6f80de194cec178bbd00e917ee93b4d4fa6aa6b2306ce5f1223fe4b01cb8f"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

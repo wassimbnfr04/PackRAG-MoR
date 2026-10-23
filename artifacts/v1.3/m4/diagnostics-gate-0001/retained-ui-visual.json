@@ -1,0 +1,11 @@
+{
+  "status": "PASS_E3_RETAINED_AR_FR_CANONICAL_TESTED_VIEWPORT",
+  "recorded_utc": "2026-10-10T20:25:08.238317+00:00",
+  "original_png_sha256": {
+    "m4-source-details-ar.png": "a64ae0f99da373f2a42c57ca2f863c02c1ee65388967e5cb9fd3f3dd7d52dee2",
+    "m4-source-details-fr.png": "ed99a781bd5a5f1187e6ce8d16f80804f2f35cc739b51c86472456ba2cb23a77"
+  },
+  "review_method": "Both exact newly saved original PNGs actually inspected with view_image.",
+  "scope": "Complete canonical AR/FR text readable above safe navigation region in tested phone viewport. This is a fresh retained presentation regression, not genuine translation/reviewer approval or all-device accessibility acceptance.",
+  "provenance": "Previously rejected E2 visual captures and earlier repaired acceptance remain immutable. No cropped/edited/generated replacement image used."
+}

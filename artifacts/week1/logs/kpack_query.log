@@ -1,0 +1,11 @@
+{
+  "status": "FOUND_REQUIRES_EVIDENCE_ADMISSION",
+  "chunks": [
+    [
+      "69438bc99216b82f99d2df70",
+      "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 �C.",
+      "G0-D01"
+    ]
+  ],
+  "algorithm": "week1_identifier_smoke_only"
+}

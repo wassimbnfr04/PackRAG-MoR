@@ -1,0 +1,612 @@
+{
+  "executorch_version": "1.5.0",
+  "mor_repository_commit": "82c97f29cd140efa01f5cc4fe0de73a4c3b6ffd6",
+  "host_environment": "WINDOWS_NATIVE",
+  "pinned_pytorch_commit": "41ffbc4a994e058af9fe00ed5caba73fc1033359",
+  "actual_pytorch_commit": "08187d9e0fba026dc8217405802ab5381dc88d90",
+  "actual_pytorch_version": "2.14.0+cpu",
+  "pin_matches": false,
+  "experiment_label": "NON_PINNED_PYTORCH_DIAGNOSTIC",
+  "environment_smoke": {
+    "passed": false,
+    "diagnostic_passed": true,
+    "details": {
+      "status": "PASS",
+      "value": {
+        "torch_export": true,
+        "edge_lowering": true,
+        "serialized_bytes": 1056
+      }
+    }
+  },
+  "torch_export": {
+    "status": "PASS",
+    "first_failure": null,
+    "static_shape": {
+      "status": "PASS",
+      "value": {
+        "batch": 1,
+        "sequence": 64,
+        "strict": true,
+        "operators": [
+          "<built-in function getitem>",
+          "aten._assert_tensor_metadata.default",
+          "aten.add.Tensor",
+          "aten.alias.default",
+          "aten.arange.default",
+          "aten.arange.start",
+          "aten.cat.default",
+          "aten.contiguous.default",
+          "aten.div.Tensor",
+          "aten.dropout.default",
+          "aten.embedding.default",
+          "aten.expand.default",
+          "aten.full.default",
+          "aten.gather.default",
+          "aten.gt.Tensor",
+          "aten.linear.default",
+          "aten.matmul.default",
+          "aten.mean.dim",
+          "aten.mul.Tensor",
+          "aten.mul_.Tensor",
+          "aten.neg.default",
+          "aten.pow.Tensor_Scalar",
+          "aten.reshape.default",
+          "aten.rsqrt.default",
+          "aten.scatter_add.default",
+          "aten.sigmoid.default",
+          "aten.silu.default",
+          "aten.slice.Tensor",
+          "aten.softmax.int",
+          "aten.sort.default",
+          "aten.squeeze.dim",
+          "aten.to.dtype",
+          "aten.topk.default",
+          "aten.transpose.int",
+          "aten.triu.default",
+          "aten.unsqueeze.default",
+          "aten.view.default",
+          "wrap_with_set_grad_enabled"
+        ]
+      }
+    },
+    "dynamic_shape": {
+      "status": "FAIL",
+      "error_type": "UserError",
+      "first_failure": "Constraints violated (seq_len)! For more information, run with TORCH_LOGS=\"+dynamic\".\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])).\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.3333333333333333*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n\nThe error above occurred when calling torch.export.export. If you would like to view some more information about this error, and get a list of all other errors that may occur in your export call, you can replace your `export()` call with `draft_export()`.",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1073, in _export_to_torch_ir\n    gm_torch_level = dynamo_graph_capture(*args, **kwargs)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\functional_export.py\", line 1031, in inner\n    _suggest_or_raise_constraint_violation(\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\functional_export.py\", line 511, in _suggest_or_raise_constraint_violation\n    raise constraint_violation_error\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\functional_export.py\", line 459, in _suggest_or_raise_constraint_violation\n    graph_capture_output.graph_capture_output.build_guards(fn.__code__)\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\convert_frame.py\", line 1204, in build_guards\n    return CheckFunctionManager(\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\guards.py\", line 4671, in __init__\n    builder, guard_manager = self.build_guards(\n                             ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\guards.py\", line 5001, in build_guards\n    guard.create(builder)\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_guards.py\", line 374, in create\n    return self.create_fn(builder, self)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\guards.py\", line 3484, in SHAPE_ENV\n    python_code_parts, verbose_code_parts = _get_code_parts(\n                                            ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\guards.py\", line 3457, in _get_code_parts\n    return output_graph.shape_env.produce_guards_verbose(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\fx\\experimental\\symbolic_shapes.py\", line 6951, in produce_guards_verbose\n    raise ConstraintViolationError(\ntorch.fx.experimental.symbolic_shapes.ConstraintViolationError: Constraints violated (seq_len)! For more information, run with TORCH_LOGS=\"+dynamic\".\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])).\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.3333333333333333*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\export\\audit_mor.py\", line 9, in attempt\n    try: return {'status':'PASS','value':fn()}\n                                         ^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\export\\audit_mor.py\", line 54, in dynamic_capture\n    exp=torch.export.export(wrapper,(ids,),dynamic_shapes=({1:torch.export.Dim('seq_len',min=48,max=96)},),strict=True)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\__init__.py\", line 260, in export\n    raise e\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\__init__.py\", line 226, in export\n    return _export(\n           ^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1519, in wrapper\n    raise e\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1485, in wrapper\n    ep = fn(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\exported_program.py\", line 124, in wrapper\n    return fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_utils_internal.py\", line 114, in wrapper_function\n    return function(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 2699, in _export\n    ep = _export_for_training(\n         ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1519, in wrapper\n    raise e\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1485, in wrapper\n    ep = fn(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\exported_program.py\", line 124, in wrapper\n    return fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 2482, in _export_for_training\n    export_artifact = export_func(\n                      ^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1766, in _strict_export\n    gm_torch_level = _export_to_torch_ir(\n                     ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1104, in _export_to_torch_ir\n    raise UserError(UserErrorType.CONSTRAINT_VIOLATION, str(e))  # noqa: B904\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ntorch._dynamo.exc.UserError: Constraints violated (seq_len)! For more information, run with TORCH_LOGS=\"+dynamic\".\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])).\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.3333333333333333*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n\nThe error above occurred when calling torch.export.export. If you would like to view some more information about this error, and get a list of all other errors that may occur in your export call, you can replace your `export()` call with `draft_export()`.\n"
+    }
+  },
+  "operators": {
+    "xnnpack": [
+      "<EdgeOpOverload: aten._softmax.default>: schema = aten::_softmax(Tensor self, int dim, bool half_to_float) -> Tensor",
+      "<EdgeOpOverload: aten.add.Tensor>: schema = aten::add.Tensor(Tensor self, Tensor other, *, Scalar alpha=1) -> Tensor",
+      "<EdgeOpOverload: aten.bmm.default>: schema = aten::bmm(Tensor self, Tensor mat2) -> Tensor",
+      "<EdgeOpOverload: aten.cat.default>: schema = aten::cat(Tensor[] tensors, int dim=0) -> Tensor",
+      "<EdgeOpOverload: aten.cos.default>: schema = aten::cos(Tensor self) -> Tensor",
+      "<EdgeOpOverload: aten.div.Tensor>: schema = aten::div.Tensor(Tensor self, Tensor other) -> Tensor",
+      "<EdgeOpOverload: aten.linear.default>: schema = aten::linear(Tensor input, Tensor weight, Tensor? bias=None) -> Tensor",
+      "<EdgeOpOverload: aten.mul.Tensor>: schema = aten::mul.Tensor(Tensor self, Tensor other) -> Tensor",
+      "<EdgeOpOverload: aten.neg.default>: schema = aten::neg(Tensor self) -> Tensor",
+      "<EdgeOpOverload: aten.permute_copy.default>: schema = aten::permute_copy(Tensor self, int[] dims) -> Tensor",
+      "<EdgeOpOverload: aten.pow.Tensor_Scalar>: schema = aten::pow.Tensor_Scalar(Tensor self, Scalar exponent) -> Tensor",
+      "<EdgeOpOverload: aten.rsqrt.default>: schema = aten::rsqrt(Tensor self) -> Tensor",
+      "<EdgeOpOverload: aten.sigmoid.default>: schema = aten::sigmoid(Tensor self) -> Tensor",
+      "<EdgeOpOverload: aten.sin.default>: schema = aten::sin(Tensor self) -> Tensor",
+      "<EdgeOpOverload: aten.slice_copy.Tensor>: schema = aten::slice_copy.Tensor(Tensor self, int dim=0, SymInt? start=None, SymInt? end=None, SymInt step=1) -> Tensor",
+      "<EdgeOpOverload: aten.unsqueeze_copy.default>: schema = aten::unsqueeze_copy(Tensor self, int dim) -> Tensor",
+      "<EdgeOpOverload: aten.view_copy.default>: schema = aten::view_copy(Tensor self, SymInt[] size) -> Tensor",
+      "<EdgeOpOverload: dim_order_ops._clone_dim_order.default>: schema = dim_order_ops::_clone_dim_order(Tensor self, *, bool non_blocking=False, int[]? dim_order=None) -> Tensor"
+    ],
+    "portable": [
+      "<built-in function getitem>",
+      "<function alloc at 0x000001EA29D8CC20>",
+      "<function view at 0x000001EA2C16A7A0>",
+      "aten.alias_copy.out",
+      "aten.arange.start_out",
+      "aten.cat.out",
+      "aten.embedding.out",
+      "aten.expand_copy.out",
+      "aten.full.out",
+      "aten.gather.out",
+      "aten.ge.Scalar_out",
+      "aten.gt.Tensor_out",
+      "aten.mean.out",
+      "aten.permute_copy.out",
+      "aten.scalar_tensor.out",
+      "aten.scatter_add.out",
+      "aten.sub.out",
+      "aten.topk.values",
+      "aten.unsqueeze_copy.out",
+      "aten.where.self_out",
+      "dim_order_ops._to_dim_order_copy.out"
+    ],
+    "decomposed": [],
+    "custom_required": [],
+    "unsupported": [],
+    "unknown": [],
+    "portable_serialized": [
+      "<built-in function getitem>",
+      "<function alloc at 0x000001EA29D8CC20>",
+      "<function view at 0x000001EA2C16A7A0>",
+      "aten.alias_copy.out",
+      "aten.arange.start_out",
+      "aten.cat.out",
+      "aten.embedding.out",
+      "aten.expand_copy.out",
+      "aten.full.out",
+      "aten.gather.out",
+      "aten.ge.Scalar_out",
+      "aten.gt.Tensor_out",
+      "aten.mean.out",
+      "aten.permute_copy.out",
+      "aten.scalar_tensor.out",
+      "aten.scatter_add.out",
+      "aten.sort.values",
+      "aten.sub.out",
+      "aten.topk.values",
+      "aten.unsqueeze_copy.out",
+      "aten.where.self_out",
+      "dim_order_ops._to_dim_order_copy.out"
+    ],
+    "custom_candidates": [
+      "aten::sort.values"
+    ]
+  },
+  "routing": {
+    "implementation": "official expert_choice_router.py",
+    "static_capacity": "top_k=max(1,int(capacity_factor*seq_len))",
+    "operations": [
+      "aten.topk",
+      "aten.sort",
+      "aten.gather",
+      "aten.scatter_add"
+    ],
+    "note": "Do not classify an operation as custom-required merely because it is not delegated. See measured capture/lowering results."
+  },
+  "kv_cache": {
+    "status": "NOT_EXPORTED",
+    "structures": [
+      "DynamicCache",
+      "RecursiveDynamicCache"
+    ],
+    "note": "Official mutable cache updates and selected-token cache positions require a separate explicit-state wrapper. Full-prefix reference disables caching."
+  },
+  "prefill": {
+    "status": "PASS",
+    "batch": 1,
+    "sequence": 64,
+    "use_cache": false
+  },
+  "decode": {
+    "status": "NOT_EXPORTED",
+    "note": "A one-token no-cache forward is not a faithful autoregressive decode-step export. Cache/state decomposition remains an audit task."
+  },
+  "audit_steps": {
+    "E0": {
+      "status": "PASS",
+      "value": {
+        "torch_export": true,
+        "edge_lowering": true,
+        "serialized_bytes": 1056
+      }
+    },
+    "E1": {
+      "status": "PASS",
+      "value": {
+        "batch": 1,
+        "sequence": 64,
+        "strict": true,
+        "operators": [
+          "<built-in function getitem>",
+          "aten._assert_tensor_metadata.default",
+          "aten.add.Tensor",
+          "aten.alias.default",
+          "aten.arange.default",
+          "aten.arange.start",
+          "aten.cat.default",
+          "aten.contiguous.default",
+          "aten.div.Tensor",
+          "aten.dropout.default",
+          "aten.embedding.default",
+          "aten.expand.default",
+          "aten.full.default",
+          "aten.gather.default",
+          "aten.gt.Tensor",
+          "aten.linear.default",
+          "aten.matmul.default",
+          "aten.mean.dim",
+          "aten.mul.Tensor",
+          "aten.mul_.Tensor",
+          "aten.neg.default",
+          "aten.pow.Tensor_Scalar",
+          "aten.reshape.default",
+          "aten.rsqrt.default",
+          "aten.scatter_add.default",
+          "aten.sigmoid.default",
+          "aten.silu.default",
+          "aten.slice.Tensor",
+          "aten.softmax.int",
+          "aten.sort.default",
+          "aten.squeeze.dim",
+          "aten.to.dtype",
+          "aten.topk.default",
+          "aten.transpose.int",
+          "aten.triu.default",
+          "aten.unsqueeze.default",
+          "aten.view.default",
+          "wrap_with_set_grad_enabled"
+        ]
+      }
+    },
+    "E2": {
+      "status": "PASS",
+      "value": {
+        "batch": 1,
+        "sequence": 64,
+        "strict": true,
+        "operators": [
+          "<built-in function getitem>",
+          "aten._assert_tensor_metadata.default",
+          "aten.add.Tensor",
+          "aten.alias.default",
+          "aten.arange.default",
+          "aten.arange.start",
+          "aten.cat.default",
+          "aten.contiguous.default",
+          "aten.div.Tensor",
+          "aten.dropout.default",
+          "aten.embedding.default",
+          "aten.expand.default",
+          "aten.full.default",
+          "aten.gather.default",
+          "aten.gt.Tensor",
+          "aten.linear.default",
+          "aten.matmul.default",
+          "aten.mean.dim",
+          "aten.mul.Tensor",
+          "aten.mul_.Tensor",
+          "aten.neg.default",
+          "aten.pow.Tensor_Scalar",
+          "aten.reshape.default",
+          "aten.rsqrt.default",
+          "aten.scatter_add.default",
+          "aten.sigmoid.default",
+          "aten.silu.default",
+          "aten.slice.Tensor",
+          "aten.softmax.int",
+          "aten.sort.default",
+          "aten.squeeze.dim",
+          "aten.to.dtype",
+          "aten.topk.default",
+          "aten.transpose.int",
+          "aten.triu.default",
+          "aten.unsqueeze.default",
+          "aten.view.default",
+          "wrap_with_set_grad_enabled"
+        ]
+      }
+    },
+    "E3": {
+      "status": "FAIL",
+      "error_type": "UserError",
+      "first_failure": "Constraints violated (seq_len)! For more information, run with TORCH_LOGS=\"+dynamic\".\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])).\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.3333333333333333*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n\nThe error above occurred when calling torch.export.export. If you would like to view some more information about this error, and get a list of all other errors that may occur in your export call, you can replace your `export()` call with `draft_export()`.",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1073, in _export_to_torch_ir\n    gm_torch_level = dynamo_graph_capture(*args, **kwargs)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\functional_export.py\", line 1031, in inner\n    _suggest_or_raise_constraint_violation(\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\functional_export.py\", line 511, in _suggest_or_raise_constraint_violation\n    raise constraint_violation_error\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\functional_export.py\", line 459, in _suggest_or_raise_constraint_violation\n    graph_capture_output.graph_capture_output.build_guards(fn.__code__)\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\convert_frame.py\", line 1204, in build_guards\n    return CheckFunctionManager(\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\guards.py\", line 4671, in __init__\n    builder, guard_manager = self.build_guards(\n                             ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\guards.py\", line 5001, in build_guards\n    guard.create(builder)\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_guards.py\", line 374, in create\n    return self.create_fn(builder, self)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\guards.py\", line 3484, in SHAPE_ENV\n    python_code_parts, verbose_code_parts = _get_code_parts(\n                                            ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_dynamo\\guards.py\", line 3457, in _get_code_parts\n    return output_graph.shape_env.produce_guards_verbose(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\fx\\experimental\\symbolic_shapes.py\", line 6951, in produce_guards_verbose\n    raise ConstraintViolationError(\ntorch.fx.experimental.symbolic_shapes.ConstraintViolationError: Constraints violated (seq_len)! For more information, run with TORCH_LOGS=\"+dynamic\".\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])).\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.3333333333333333*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\export\\audit_mor.py\", line 9, in attempt\n    try: return {'status':'PASS','value':fn()}\n                                         ^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\export\\audit_mor.py\", line 54, in dynamic_capture\n    exp=torch.export.export(wrapper,(ids,),dynamic_shapes=({1:torch.export.Dim('seq_len',min=48,max=96)},),strict=True)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\__init__.py\", line 260, in export\n    raise e\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\__init__.py\", line 226, in export\n    return _export(\n           ^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1519, in wrapper\n    raise e\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1485, in wrapper\n    ep = fn(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\exported_program.py\", line 124, in wrapper\n    return fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\_utils_internal.py\", line 114, in wrapper_function\n    return function(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 2699, in _export\n    ep = _export_for_training(\n         ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1519, in wrapper\n    raise e\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1485, in wrapper\n    ep = fn(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\exported_program.py\", line 124, in wrapper\n    return fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 2482, in _export_for_training\n    export_artifact = export_func(\n                      ^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1766, in _strict_export\n    gm_torch_level = _export_to_torch_ir(\n                     ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\torch\\export\\_trace.py\", line 1104, in _export_to_torch_ir\n    raise UserError(UserErrorType.CONSTRAINT_VIOLATION, str(e))  # noqa: B904\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ntorch._dynamo.exc.UserError: Constraints violated (seq_len)! For more information, run with TORCH_LOGS=\"+dynamic\".\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= math.trunc(1.0*torch.sym_float(L['input_ids'].size()[1])).\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])) <= L['input_ids'].size()[1].\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.6666666666666666*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n  - Not all values of seq_len = L['input_ids'].size()[1] in the specified range 48 <= seq_len <= 96 satisfy the generated guard (1 % (math.trunc(0.3333333333333333*torch.sym_float(L['input_ids'].size()[1])))) != 0.\n\nThe error above occurred when calling torch.export.export. If you would like to view some more information about this error, and get a list of all other errors that may occur in your export call, you can replace your `export()` call with `draft_export()`.\n"
+    },
+    "E4": {
+      "status": "PASS",
+      "value": {
+        "serialized_bytes": 661232692
+      }
+    },
+    "E5": {
+      "status": "PASS",
+      "value": {
+        "serialized_bytes": 849997824,
+        "delegate_calls": [
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate",
+          "executorch_call_delegate"
+        ],
+        "portable_note": "Serialized portable operations; Android linkage/runtime not tested."
+      }
+    },
+    "E6": {
+      "status": "PARTIAL",
+      "windows_runtime": {
+        "portable": {
+          "status": "FAIL",
+          "error": "Failed to load method forward, error: 0x:14",
+          "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\export\\analyze_runtime.py\", line 14, in <module>\n    method=program.load_method('forward')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\executorch\\runtime\\__init__.py\", line 216, in load_method\n    method = Method(self._program.load_method(name))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Failed to load method forward, error: 0x:14\n"
+        },
+        "xnnpack": {
+          "status": "FAIL",
+          "error": "Failed to load method forward, error: 0x:14",
+          "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\export\\analyze_runtime.py\", line 14, in <module>\n    method=program.load_method('forward')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\executorch\\runtime\\__init__.py\", line 216, in load_method\n    method = Method(self._program.load_method(name))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Failed to load method forward, error: 0x:14\n"
+        }
+      },
+      "missing_registered_operators": [
+        "aten::sort.values"
+      ],
+      "android_linkage": "NOT_TESTED"
+    },
+    "E7": {
+      "status": "ANALYZED",
+      "candidate_custom_or_decomposition_ops": [
+        "aten::sort.values"
+      ],
+      "kernels_implemented": 0,
+      "note": "sort.values is absent from v1.5 portable functions.yaml and the tested Windows registry; an ATen entry exists. Exact pinned Android runtime still needs a linkage audit."
+    },
+    "E8": {
+      "status": "ANALYZED_NOT_EXPORTED",
+      "prefill": {
+        "status": "PASS",
+        "batch": 1,
+        "sequence": 64,
+        "use_cache": false
+      },
+      "decode": {
+        "status": "NOT_EXPORTED",
+        "note": "A one-token no-cache forward is not a faithful autoregressive decode-step export. Cache/state decomposition remains an audit task."
+      }
+    }
+  },
+  "checkpoint_sha256": "471986c279ea75dbdd0034d4b10f1ee75652a94fe202327c5b437b362c02fc4c",
+  "model_config_sha256": "8e5f14f99693d2ad597509d23316eef20a96d88ca0cc9d97f55fb29747331591",
+  "preliminary_classification": "BLOCKED",
+  "next_actions": [
+    "Build/install PyTorch at the exact pinned source commit and rerun E0 before treating diagnostic results as pinned deployment evidence.",
+    "Audit sort.values in the exact pinned Android runtime; evaluate a small portable sort kernel or equivalent routing decomposition against golden outputs before any implementation decision.",
+    "Capture explicit cache/state decode separately and compare with golden logits.",
+    "Run exported program on arm64 Android before any runtime claim."
+  ],
+  "windows_runtime_diagnostic": {
+    "label": "NON_PINNED_PYTORCH_DIAGNOSTIC",
+    "programs": {
+      "portable": {
+        "status": "FAIL",
+        "error": "Failed to load method forward, error: 0x:14",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\export\\analyze_runtime.py\", line 14, in <module>\n    method=program.load_method('forward')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\executorch\\runtime\\__init__.py\", line 216, in load_method\n    method = Method(self._program.load_method(name))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Failed to load method forward, error: 0x:14\n"
+      },
+      "xnnpack": {
+        "status": "FAIL",
+        "error": "Failed to load method forward, error: 0x:14",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\export\\analyze_runtime.py\", line 14, in <module>\n    method=program.load_method('forward')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-et15\\Lib\\site-packages\\executorch\\runtime\\__init__.py\", line 216, in load_method\n    method = Method(self._program.load_method(name))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Failed to load method forward, error: 0x:14\n"
+      }
+    },
+    "missing_registered_operators": [
+      "aten::sort.values"
+    ],
+    "android_tested": false,
+    "log": "artifacts/week1/logs/executorch_portable_runtime.log"
+  },
+  "operator_audit": {
+    "top-k": {
+      "classification": "PORTABLE_SERIALIZED_RUNTIME_UNPROVEN",
+      "operators": [
+        "aten.topk.values"
+      ]
+    },
+    "sorting": {
+      "classification": "CUSTOM_CPP_OP_OR_DECOMPOSITION_CANDIDATE",
+      "operators": [
+        "aten::sort.values"
+      ]
+    },
+    "expert_choice_routing": {
+      "classification": "STATIC_CAPTURED_DYNAMIC_SHAPE_BLOCKER",
+      "note": "Official capacity uses int(float * seq_len), creating unsatisfied symbolic guards."
+    },
+    "gather": {
+      "classification": "PORTABLE_SERIALIZED_RUNTIME_UNPROVEN",
+      "operators": [
+        "aten.gather.out"
+      ]
+    },
+    "scatter_add": {
+      "classification": "PORTABLE_SERIALIZED_RUNTIME_UNPROVEN",
+      "operators": [
+        "aten.scatter_add.out"
+      ]
+    },
+    "index_select_masked_selection_dynamic_token_subsets": {
+      "classification": "STATIC_CAPTURED",
+      "note": "The observed graph uses gather/topk/where. Dedicated index_select or masked_select nodes were not observed."
+    },
+    "recursive_shared_layer_invocation": {
+      "classification": "STATIC_CAPTURED",
+      "note": "Official shared rec3 layer calls are unrolled in the fixed graph."
+    },
+    "attention_normalization_linear": {
+      "classification": "XNNPACK_PARTIALLY_DELEGATED",
+      "note": "See measured delegate and remaining operator lists; runtime numerical parity is not established."
+    },
+    "embedding": {
+      "classification": "PORTABLE_SERIALIZED_RUNTIME_UNPROVEN"
+    },
+    "reshape_view": {
+      "classification": "DECOMPOSED_SUCCESSFULLY",
+      "note": "Edge graph has view_copy/permute_copy operations; execution not established."
+    },
+    "kv_cache_state": {
+      "classification": "UNKNOWN_NOT_EXPORTED"
+    },
+    "dynamic_shapes": {
+      "classification": "SHAPE_BLOCKER",
+      "failure_step": "E3"
+    },
+    "control_flow": {
+      "classification": "STATIC_CAPTURED",
+      "note": "No unresolved control-flow blocker observed for fixed prefill. Dynamic cache path remains untested."
+    }
+  }
+}

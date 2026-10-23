@@ -1,0 +1,421 @@
+[
+  {
+    "id": "atomic-last",
+    "oracle": "SQL_BM25_AND_ACTUAL_KDX_DOT_PRODUCTS_NO_RETRIEVER",
+    "ranks": [
+      {
+        "chunk_id": "de4007485c3423ff37bcb693",
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "cosine": 0.8610914945602417,
+        "rrf": 0.03278688524590164
+      },
+      {
+        "chunk_id": "191a8da23f0fd6086da0f31f",
+        "sparse_rank": 3,
+        "dense_rank": 2,
+        "cosine": 0.8175281286239624,
+        "rrf": 0.03200204813108039
+      },
+      {
+        "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+        "sparse_rank": 2,
+        "dense_rank": 3,
+        "cosine": 0.804964542388916,
+        "rrf": 0.03200204813108039
+      },
+      {
+        "chunk_id": "6df516db7affc2913b8d3a29",
+        "sparse_rank": 4,
+        "dense_rank": 4,
+        "cosine": 0.7966630458831787,
+        "rrf": 0.03125
+      },
+      {
+        "chunk_id": "2e2153a45f4da98b6cf1ab76",
+        "sparse_rank": 5,
+        "dense_rank": 5,
+        "cosine": 0.7739471793174744,
+        "rrf": 0.03076923076923077
+      }
+    ]
+  },
+  {
+    "id": "five-mandatory",
+    "oracle": "SQL_BM25_AND_ACTUAL_KDX_DOT_PRODUCTS_NO_RETRIEVER",
+    "ranks": [
+      {
+        "chunk_id": "de4007485c3423ff37bcb693",
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "cosine": 0.8610914945602417,
+        "rrf": 0.03278688524590164
+      },
+      {
+        "chunk_id": "191a8da23f0fd6086da0f31f",
+        "sparse_rank": 3,
+        "dense_rank": 2,
+        "cosine": 0.8175281286239624,
+        "rrf": 0.03200204813108039
+      },
+      {
+        "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+        "sparse_rank": 2,
+        "dense_rank": 3,
+        "cosine": 0.804964542388916,
+        "rrf": 0.03200204813108039
+      },
+      {
+        "chunk_id": "6df516db7affc2913b8d3a29",
+        "sparse_rank": 4,
+        "dense_rank": 4,
+        "cosine": 0.7966630458831787,
+        "rrf": 0.03125
+      },
+      {
+        "chunk_id": "2e2153a45f4da98b6cf1ab76",
+        "sparse_rank": 5,
+        "dense_rank": 5,
+        "cosine": 0.7739471793174744,
+        "rrf": 0.03076923076923077
+      }
+    ]
+  },
+  {
+    "id": "missing-global",
+    "oracle": "SQL_BM25_AND_ACTUAL_KDX_DOT_PRODUCTS_NO_RETRIEVER",
+    "ranks": [
+      {
+        "chunk_id": "de4007485c3423ff37bcb693",
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "cosine": 0.8610914945602417,
+        "rrf": 0.03278688524590164
+      },
+      {
+        "chunk_id": "191a8da23f0fd6086da0f31f",
+        "sparse_rank": 3,
+        "dense_rank": 2,
+        "cosine": 0.8175281286239624,
+        "rrf": 0.03200204813108039
+      },
+      {
+        "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+        "sparse_rank": 2,
+        "dense_rank": 4,
+        "cosine": 0.804964542388916,
+        "rrf": 0.031754032258064516
+      },
+      {
+        "chunk_id": "6df516db7affc2913b8d3a29",
+        "sparse_rank": 4,
+        "dense_rank": 7,
+        "cosine": 0.7966630458831787,
+        "rrf": 0.03055037313432836
+      },
+      {
+        "chunk_id": "51b59fd4cd0f931b36730aae",
+        "sparse_rank": null,
+        "dense_rank": 3,
+        "cosine": 0.8106780648231506,
+        "rrf": 0.015873015873015872
+      },
+      {
+        "chunk_id": "374c942e358b67e8e7bb4467",
+        "sparse_rank": null,
+        "dense_rank": 5,
+        "cosine": 0.7976360321044922,
+        "rrf": 0.015384615384615385
+      },
+      {
+        "chunk_id": "2e2153a45f4da98b6cf1ab76",
+        "sparse_rank": 5,
+        "dense_rank": null,
+        "cosine": 0.7739471793174744,
+        "rrf": 0.015384615384615385
+      },
+      {
+        "chunk_id": "204e821867cf369cfaa62cf9",
+        "sparse_rank": null,
+        "dense_rank": 6,
+        "cosine": 0.7975030541419983,
+        "rrf": 0.015151515151515152
+      },
+      {
+        "chunk_id": "bd21fa531ceb74435dde432a",
+        "sparse_rank": null,
+        "dense_rank": 8,
+        "cosine": 0.7937815189361572,
+        "rrf": 0.014705882352941176
+      },
+      {
+        "chunk_id": "8f8b8a0bdb1b991549670135",
+        "sparse_rank": null,
+        "dense_rank": 9,
+        "cosine": 0.792706310749054,
+        "rrf": 0.014492753623188406
+      },
+      {
+        "chunk_id": "6933c46049d2b832185b0487",
+        "sparse_rank": null,
+        "dense_rank": 10,
+        "cosine": 0.7924358248710632,
+        "rrf": 0.014285714285714285
+      },
+      {
+        "chunk_id": "002cd5a968ff1d3d8483a417",
+        "sparse_rank": null,
+        "dense_rank": 11,
+        "cosine": 0.7922083139419556,
+        "rrf": 0.014084507042253521
+      },
+      {
+        "chunk_id": "a7f0cb785e004032115a5403",
+        "sparse_rank": null,
+        "dense_rank": 12,
+        "cosine": 0.7899337410926819,
+        "rrf": 0.013888888888888888
+      },
+      {
+        "chunk_id": "21f7283a7d77b8049089dc68",
+        "sparse_rank": null,
+        "dense_rank": 13,
+        "cosine": 0.789459228515625,
+        "rrf": 0.0136986301369863
+      },
+      {
+        "chunk_id": "29dfc686c111098af478feaf",
+        "sparse_rank": null,
+        "dense_rank": 14,
+        "cosine": 0.7889465689659119,
+        "rrf": 0.013513513513513514
+      },
+      {
+        "chunk_id": "554739f4bb26cdbe6d8285c9",
+        "sparse_rank": null,
+        "dense_rank": 15,
+        "cosine": 0.7889417409896851,
+        "rrf": 0.013333333333333334
+      },
+      {
+        "chunk_id": "a8127588059135830617b79d",
+        "sparse_rank": null,
+        "dense_rank": 16,
+        "cosine": 0.7886216640472412,
+        "rrf": 0.013157894736842105
+      },
+      {
+        "chunk_id": "d7f383f6888351baaec259a8",
+        "sparse_rank": null,
+        "dense_rank": 17,
+        "cosine": 0.7867578864097595,
+        "rrf": 0.012987012987012988
+      },
+      {
+        "chunk_id": "b5ce2e8cea6b9e6ff73807e2",
+        "sparse_rank": null,
+        "dense_rank": 18,
+        "cosine": 0.7866938710212708,
+        "rrf": 0.01282051282051282
+      },
+      {
+        "chunk_id": "097deeeff90b7d9c05deb503",
+        "sparse_rank": null,
+        "dense_rank": 19,
+        "cosine": 0.7865868210792542,
+        "rrf": 0.012658227848101266
+      },
+      {
+        "chunk_id": "761b3e6b4a61b6dea2cfcff8",
+        "sparse_rank": null,
+        "dense_rank": 20,
+        "cosine": 0.7860731482505798,
+        "rrf": 0.0125
+      },
+      {
+        "chunk_id": "246f48670c7042e792f61d97",
+        "sparse_rank": null,
+        "dense_rank": 21,
+        "cosine": 0.7855149507522583,
+        "rrf": 0.012345679012345678
+      },
+      {
+        "chunk_id": "e4cf42e399e12e597ebc3551",
+        "sparse_rank": null,
+        "dense_rank": 22,
+        "cosine": 0.7853992581367493,
+        "rrf": 0.012195121951219513
+      },
+      {
+        "chunk_id": "c46ab7d5d296469148476cff",
+        "sparse_rank": null,
+        "dense_rank": 23,
+        "cosine": 0.7845709323883057,
+        "rrf": 0.012048192771084338
+      },
+      {
+        "chunk_id": "d81327f9d66b01315df06f36",
+        "sparse_rank": null,
+        "dense_rank": 24,
+        "cosine": 0.7841710448265076,
+        "rrf": 0.011904761904761904
+      },
+      {
+        "chunk_id": "185b6e570be8cc5d13975794",
+        "sparse_rank": null,
+        "dense_rank": null,
+        "cosine": 0.7841376066207886,
+        "rrf": 0
+      },
+      {
+        "chunk_id": "c18a696ca88a221cc0d16469",
+        "sparse_rank": null,
+        "dense_rank": null,
+        "cosine": 0.7826167345046997,
+        "rrf": 0
+      },
+      {
+        "chunk_id": "7fcfb216adfcffd48326b9d0",
+        "sparse_rank": null,
+        "dense_rank": null,
+        "cosine": 0.7824444770812988,
+        "rrf": 0
+      },
+      {
+        "chunk_id": "b8ed80d005613dd1839bfc47",
+        "sparse_rank": null,
+        "dense_rank": null,
+        "cosine": 0.7822836637496948,
+        "rrf": 0
+      },
+      {
+        "chunk_id": "e706f55add2981f64e4ee002",
+        "sparse_rank": null,
+        "dense_rank": null,
+        "cosine": 0.7818365097045898,
+        "rrf": 0
+      },
+      {
+        "chunk_id": "27577e0953b613f255282c72",
+        "sparse_rank": null,
+        "dense_rank": null,
+        "cosine": 0.7814897298812866,
+        "rrf": 0
+      },
+      {
+        "chunk_id": "f98de5d150002efcfdc2db12",
+        "sparse_rank": null,
+        "dense_rank": null,
+        "cosine": 0.7811418771743774,
+        "rrf": 0
+      },
+      {
+        "chunk_id": "46edd8c72196df9a67b0f600",
+        "sparse_rank": null,
+        "dense_rank": null,
+        "cosine": 0.7792993187904358,
+        "rrf": 0
+      }
+    ]
+  },
+  {
+    "id": "mandatory-oversize",
+    "oracle": "SQL_BM25_AND_ACTUAL_KDX_DOT_PRODUCTS_NO_RETRIEVER",
+    "ranks": [
+      {
+        "chunk_id": "de4007485c3423ff37bcb693",
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "cosine": 0.8610914945602417,
+        "rrf": 0.03278688524590164
+      },
+      {
+        "chunk_id": "191a8da23f0fd6086da0f31f",
+        "sparse_rank": 3,
+        "dense_rank": 2,
+        "cosine": 0.8175281286239624,
+        "rrf": 0.03200204813108039
+      },
+      {
+        "chunk_id": "4363e8b9e2be6e5e2dfe71a7",
+        "sparse_rank": 2,
+        "dense_rank": 3,
+        "cosine": 0.804964542388916,
+        "rrf": 0.03200204813108039
+      },
+      {
+        "chunk_id": "6df516db7affc2913b8d3a29",
+        "sparse_rank": 4,
+        "dense_rank": 4,
+        "cosine": 0.7966630458831787,
+        "rrf": 0.03125
+      },
+      {
+        "chunk_id": "2e2153a45f4da98b6cf1ab76",
+        "sparse_rank": 5,
+        "dense_rank": 5,
+        "cosine": 0.7739471793174744,
+        "rrf": 0.03076923076923077
+      }
+    ]
+  },
+  {
+    "id": "optional-oversize",
+    "oracle": "SQL_BM25_AND_ACTUAL_KDX_DOT_PRODUCTS_NO_RETRIEVER",
+    "ranks": [
+      {
+        "chunk_id": "78e38b4f176be01967256951",
+        "sparse_rank": null,
+        "dense_rank": 1,
+        "cosine": 0.7621221542358398,
+        "rrf": 0.01639344262295082
+      },
+      {
+        "chunk_id": "3cd3e857ee701fd360163b22",
+        "sparse_rank": null,
+        "dense_rank": 2,
+        "cosine": 0.6841292381286621,
+        "rrf": 0.016129032258064516
+      }
+    ]
+  },
+  {
+    "id": "all-oversize",
+    "oracle": "SQL_BM25_AND_ACTUAL_KDX_DOT_PRODUCTS_NO_RETRIEVER",
+    "ranks": [
+      {
+        "chunk_id": "36fde3100f8d83fa33999f50",
+        "sparse_rank": null,
+        "dense_rank": 1,
+        "cosine": 0.7621221542358398,
+        "rrf": 0.01639344262295082
+      }
+    ]
+  },
+  {
+    "id": "boundary1200",
+    "oracle": "SQL_BM25_AND_ACTUAL_KDX_DOT_PRODUCTS_NO_RETRIEVER",
+    "ranks": [
+      {
+        "chunk_id": "9cf28d3bce7f2319fe647e8e",
+        "sparse_rank": null,
+        "dense_rank": 1,
+        "cosine": 0.7621221542358398,
+        "rrf": 0.01639344262295082
+      }
+    ]
+  },
+  {
+    "id": "boundary1201",
+    "oracle": "SQL_BM25_AND_ACTUAL_KDX_DOT_PRODUCTS_NO_RETRIEVER",
+    "ranks": [
+      {
+        "chunk_id": "ab09bd7b287237a1efdcc0df",
+        "sparse_rank": null,
+        "dense_rank": 1,
+        "cosine": 0.7621221542358398,
+        "rrf": 0.01639344262295082
+      }
+    ]
+  }
+]

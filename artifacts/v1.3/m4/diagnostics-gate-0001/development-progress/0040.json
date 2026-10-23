@@ -1,0 +1,21 @@
+{
+  "status": "READ_ONLY_DEVELOPMENT_PROGRESS_NOT_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T21:17:25.966021+00:00",
+  "argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "logcat",
+    "-d",
+    "-s",
+    "TestRunner:I"
+  ],
+  "returncode": 0,
+  "actual_main_test_pid": 12346,
+  "latest_started": "10-10 21:16:46.425 12346 12392 I TestRunner: started: retainedVerifiedRetrievalToActualGeneratorAndCanonicalSource(org.packrag.product.ProductRuntimeSmokeTest)",
+  "latest_finished": "10-10 21:16:46.420 12346 12392 I TestRunner: finished: actualNativeAbortRecoveryAndClosedHandleRejection(org.packrag.product.GeneratorCancellationTest)",
+  "finished_methods_visible_in_current_log": 9,
+  "failed_methods_visible_in_current_log": 0,
+  "observed_log_sha256": "aad4297cfba18abeca0686d4e25902bf06403d45efa408d381162b8646d84888",
+  "scope": "Current retained log buffer only; dropped lines possible. Complete terminal JUnit/original result collection determines acceptance. No APK/source/device mutation."
+}

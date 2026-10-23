@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "id": "sample.txt",
+      "filename": "sample.txt.kpack",
+      "path": "sources/sample.txt",
+      "media_type": "application/octet-stream",
+      "accept": true,
+      "path_accept": true,
+      "sha256": "961e29e9c047c05b27c3e37efad7821748c17461a85f43c9cf6e215c12bc8213",
+      "manifest_sha256": "00e4c7b994a91038c298d5d6e64eadbb8719711cb57cbf1770503017de7f2a2f"
+    },
+    {
+      "id": "txt",
+      "filename": "txt.kpack",
+      "path": "sources/txt",
+      "media_type": "application/octet-stream",
+      "accept": false,
+      "path_accept": false,
+      "sha256": "9e249af56b607fa9795b2d014ae75fbdc3a4ef5e12bb2ec902bf11ccc4ef2820",
+      "manifest_sha256": "ea7835c463a300c429d95c7ab56e898198d9a8928cb82d0a6a0cc4e69f430209"
+    },
+    {
+      "id": "pdf",
+      "filename": "pdf.kpack",
+      "path": "sources/pdf",
+      "media_type": "application/octet-stream",
+      "accept": false,
+      "path_accept": false,
+      "sha256": "2f8d5e50fd927322cdaf7442501d71cfb5efa96241032977a4fa1eb66c30d4df",
+      "manifest_sha256": "0fdc9134b9a8645647746c10fd33a8ed6c4a2bd9f916655c71aaebda3d6d79f5"
+    },
+    {
+      "id": "json",
+      "filename": "json.kpack",
+      "path": "sources/json",
+      "media_type": "application/octet-stream",
+      "accept": false,
+      "path_accept": false,
+      "sha256": "7cb917ca5e41e604e554281d1e694fb49cfe2fbc42df3c24248139390a5e48fc",
+      "manifest_sha256": "b41ff1a57f590768478a30c95fd6990a087afa4ba8460a2c8d1b21477a96a453"
+    },
+    {
+      "id": "webp",
+      "filename": "webp.kpack",
+      "path": "sources/webp",
+      "media_type": "application/octet-stream",
+      "accept": false,
+      "path_accept": false,
+      "sha256": "851c3cc3691301453147abeeb934b0e5c2382ad5e505b45b2d60a9948c4a34dd",
+      "manifest_sha256": "def291c689a9edb876d13f0691044bddd5324fd0d14afa57bea003b0dc10db30"
+    }
+  ],
+  "public_key_sha256": "381f1bdf72c964bd7ce8580d6d60b76d7303e09b7aa46864f07d9ee50f668374",
+  "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+  "script_sha256": "212abccf8c510ee857397e3679c6e886ddb9f4f7a7ea5f4d01328d720b4b9bae",
+  "private_seed": "EPHEMERAL_NOT_SAVED",
+  "limits": "Synthetic extensionless-name boundary only; no snapshot decoding/source truth/calibration claim."
+}

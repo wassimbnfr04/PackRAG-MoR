@@ -1,0 +1,55 @@
+[
+  {
+    "name": "regression",
+    "command": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "tests",
+      "product/tests",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0012-temp",
+      "--junitxml",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0012\\combined-junit.xml",
+      "-q"
+    ],
+    "started_at": "2026-10-09T21:35:07.956413+00:00",
+    "ended_at": "2026-10-09T21:35:48.873739+00:00",
+    "exit_code": 0
+  },
+  {
+    "name": "regression-manifest",
+    "command": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "scripts.v13_result_manifest",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0012",
+      "--command",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe -X utf8 -m pytest tests product/tests -p no:cacheprovider --basetemp C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0012-temp --junitxml C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0012\\combined-junit.xml -q"
+    ],
+    "started_at": "2026-10-09T21:35:48.874539+00:00",
+    "ended_at": "2026-10-09T21:35:56.459590+00:00",
+    "exit_code": 0
+  },
+  {
+    "name": "real-walking",
+    "command": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "scripts.v13_smoke",
+      "--run",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\selection-walking-0002"
+    ],
+    "started_at": "2026-10-09T21:35:56.459590+00:00",
+    "ended_at": "2026-10-09T21:38:58.062594+00:00",
+    "exit_code": 0
+  }
+]

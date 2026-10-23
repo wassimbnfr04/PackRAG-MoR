@@ -1,0 +1,9 @@
+Collecting executorch==1.5.0
+  Downloading executorch-1.5.0-cp312-cp312-win_amd64.whl.metadata (5.9 kB)
+Downloading executorch-1.5.0-cp312-cp312-win_amd64.whl (14.3 MB)
+   ---------------------------------------- 14.3/14.3 MB 125.5 kB/s eta 0:00:00
+Saved c:\users\fkagf\downloads\mor captsone\artifacts\week1\environment\et-wheels\executorch-1.5.0-cp312-cp312-win_amd64.whl
+Successfully downloaded executorch
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: C:\Users\Fkagf\Downloads\MOR CAPTSONE\.venv-et15\Scripts\python.exe -m pip install --upgrade pip

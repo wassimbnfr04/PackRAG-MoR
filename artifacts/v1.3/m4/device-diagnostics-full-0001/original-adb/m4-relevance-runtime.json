@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "TOP_FAIL_LOWER_PASS",
+      "status": "PASS",
+      "state": "NO_RELEVANT_EVIDENCE",
+      "answer": null,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 12618.811016,
+      "initialization_ms": 12544.003242,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "TOP_UNCAL_LOWER_PASS",
+      "status": "PASS",
+      "state": "NO_RELEVANT_EVIDENCE",
+      "answer": null,
+      "selected": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 155.935156,
+      "initialization_ms": 0,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "TOP_PASS_LOWER_PASS",
+      "status": "PASS",
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature is 74 °C [S1][S2].",
+      "selected": [
+        "6b812a3e9d67fb395ac9cfff",
+        "1244a619d991a49215a917e4"
+      ],
+      "prefill_tokens": 299,
+      "evidence_tokens": 118,
+      "emitted_tokens_including_terminal": 111,
+      "total_ms_including_lazy_initialization": 136962.142032,
+      "initialization_ms": 0,
+      "actual_weight_inference": true,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "LEGACY_STATUS_DEFAULT",
+      "status": "PASS",
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature is 74 °C [S1].",
+      "selected": [
+        "52e4adf96adcbe33e95850db"
+      ],
+      "prefill_tokens": 227,
+      "evidence_tokens": 60,
+      "emitted_tokens_including_terminal": 125,
+      "total_ms_including_lazy_initialization": 129913.88082,
+      "initialization_ms": 0,
+      "actual_weight_inference": true,
+      "model_load_not_excluded": true
+    }
+  ],
+  "raw_reasoning_persisted": false,
+  "purpose": "ACTUAL_LFM_SYNTHETIC_GATE_NOT_RELEASE_CALIBRATION_GOLD_OR_PERFORMANCE",
+  "developer_trust": "EXPLICIT_ISOLATED_TEST_KEYS_NOT_PRODUCTION_DEFAULT",
+  "network_mode": "MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET"
+}

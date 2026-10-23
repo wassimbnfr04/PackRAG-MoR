@@ -1,0 +1,64 @@
+{
+  "status": "PASS_FINAL_SOURCE_HOST_HISTORY_AND_PACKAGED_POLICY_NOT_DEVICE_OR_E1_CLOSURE",
+  "recorded_utc": "2026-10-10T14:47:35.579513+00:00",
+  "android_inputs": 548,
+  "changed_android_inputs": {
+    "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt": "b03b3e3d4ede5a1de4e0e6942a80f40358f9618b835898eace823b3c4ebb4236",
+    "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsDeviceTest.kt": "494d212b75f52f6e38ea708e5567a66f206119cfc75cd27843b12eaf7282a7f7",
+    "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsPolicyTest.kt": "669a172514bb9f035a9c26f38e33dda30e7e3cda50e46a9333d21f60cffd7467",
+    "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt": "064ec81264ef39ebaa5d2d8f1a9b7189fc7479835f8749bb05cc8985e6265e76",
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": "6b5133137b07e5170c9e48fec7479d1c2665a8305c0f9cb7ee48b9c6251d17cd",
+    "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": "0ec00f1338079cc9b0113dfa801d78201e01b9ff7b7babfe0f5ab507d9c21347",
+    "product/android/app/src/main/java/org/packrag/product/QueryPresentation.kt": "4a1d19d6a28aaa52744d61d0adae09bd52f8bfda7482585ad531af5471f2fbf3",
+    "product/android/app/src/test/java/org/packrag/product/QueryPresentationTest.kt": "d6a07b002e453b91d6ae29ccad6d0b91ade937333fbaf4438c8000a7b75af8e4"
+  },
+  "runtime_inputs_unchanged": 185,
+  "d3_outputs_unchanged": 902,
+  "historical_unchanged": 587,
+  "hosts": {
+    "build-0035": {
+      "tests": 37,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "build-0036": {
+      "tests": 37,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "policy_apk_sha256": "764815028b14266b45c64c89583477b438a005a56d4132d898b61eb0e057355f",
+  "no_internet": true,
+  "approved_store_sha256": "2bf01e87216790babca17fd0990731cf57a3877430a9662642a0f5e0d99c87a5",
+  "native_sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef",
+  "private_extension_name_checks": [
+    ".jks",
+    ".key",
+    ".keystore",
+    ".pem",
+    ".seed"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk\\build-tools\\37.0.0\\aapt2.exe",
+        "dump",
+        "permissions",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0036\\app-demo.apk"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk\\build-tools\\37.0.0\\aapt2.exe",
+        "dump",
+        "badging",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0036\\app-demo.apk"
+      ],
+      "returncode": 0
+    }
+  ],
+  "limits": "Demo is instrumentable/debug signed, not final release; name checks are not exhaustive secret scanning; E1 physical/UI/retained gates and closure still required"
+}

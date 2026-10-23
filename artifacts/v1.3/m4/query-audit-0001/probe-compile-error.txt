@@ -1,0 +1,47 @@
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: unclosed string literal
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u001c'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                               ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u0085'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                            ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u00a0'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                  ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u1680'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                        ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u2000'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                              ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u200a'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                     ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u2028'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                           ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u2029'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                                 ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u202f'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                                       ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u205f'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                                             ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: illegal character: '\u3000'
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                                                   ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: not a statement
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                                                                                    ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: ';' expected
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                                                                                     ^
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\query-audit-0001\NormalizationProbe.java:7: error: unclosed string literal
+    .replaceAll("[\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+"," ").replaceAll("^ +| +$","");
+                                                                                                                                        ^
+15 errors
+error: compilation failed

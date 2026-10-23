@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\asset-import-gate-0001\test_android_nonstreaming_0001.py", line 85, in <module>
+    main()
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\asset-import-gate-0001\test_android_nonstreaming_0001.py", line 69, in main
+    assert output.returncode == 0 and "OK (" in output.stdout and "FAILURES" not in output.stdout, "Instrumentation failed"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Instrumentation failed

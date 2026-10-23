@@ -1,0 +1,45 @@
+{
+  "status": "PASS_NEW_E2_BACKGROUND_METHODS_ORIGINALS_SAVED_NOT_E2_CLOSURE",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0039",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-source-details-0001",
+        "--class-name",
+        "org.packrag.product.SourceDetailsDeviceTest,org.packrag.product.SourceDetailsViewModelTest",
+        "--result-file",
+        "m4-source-details-rows.json",
+        "--timeout",
+        "1800"
+      ],
+      "started_utc": "2026-10-10T16:33:04.767509+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:35:43.279512+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-source-details-0001",
+        "--files",
+        "m4-source-details-rows.json,m4-source-details-rejections.json,m4-source-details-viewmodel.json"
+      ],
+      "started_utc": "2026-10-10T16:35:43.279512+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T16:35:43.985484+00:00"
+    }
+  ]
+}

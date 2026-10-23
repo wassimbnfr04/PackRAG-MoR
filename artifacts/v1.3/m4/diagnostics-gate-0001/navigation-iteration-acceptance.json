@@ -1,0 +1,30 @@
+{
+  "status": "PASS_E3_LIFECYCLE_AND_VISUAL_ITERATION_NOT_COMPLETE_E3",
+  "build": "build-0047",
+  "host_methods": 53,
+  "android_inputs": 573,
+  "source_snapshots": {
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticLifecycleDeviceTest.kt": "78f55777da69fff61ff6943d103276687b8bcf2308d083659de051ac31d76eb0",
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticNavigationUiTest.kt": "1dfe3f002046e72e7642be0dc80c747edbcd3aebd0af8544710732aabc100163",
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt": "2cb3ee9ea4bef3714ed3b6f55336b104840d2c09e96ccf71001378ae9f5161f7",
+    "product/android/app/src/main/java/org/packrag/product/BlockingIo.kt": "46e325b5bbf7a3c89b0b56a98f804030f1b09968bcd9d5da8f8981bff90645e4",
+    "product/android/app/src/main/java/org/packrag/product/DiagnosticPresentation.kt": "dfc0c6dcbfd7eb76c677be532fd91dd885f73935f3b3600e10b93704495d0f6b",
+    "product/android/app/src/main/java/org/packrag/product/DiagnosticsPanel.kt": "b32b2080055bbb3e07c86d44be18383bce40b9a5095ee090d6b030129a645de3",
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": "0b0bfa11e32ca065d53eeedf907c024be39694170e167a592a2dfe0e079d60de",
+    "product/android/app/src/main/java/org/packrag/product/PackRagViewModel.kt": "25d87f4322c661f8c6e8372e8a01ce5628ed3676c81796393b3268c8e81bb52e",
+    "product/android/app/src/main/java/org/packrag/product/ProductSession.kt": "46d3b31286ebacb4fb4990f64bafcfbb3cae6dc038d8b97bffbabb7957ebe5b2",
+    "product/android/app/src/main/java/org/packrag/product/ResultNavigation.kt": "2423efd1ec7f34dc4b25b1a8225f6134d0931048e3795a6ec76f3bbb23e2cd4a",
+    "product/android/app/src/test/java/org/packrag/product/BlockingIoTest.kt": "fb0bb8b9da38ee681e28e20e69755f1cc09c02dd93e49b73edf2c9a9bc774f97",
+    "product/android/app/src/test/java/org/packrag/product/DiagnosticPresentationTest.kt": "15f719c71e82ee1b93c8a3225f744642c0be4da6690d04f520e1a34c210fee82",
+    "product/android/app/src/test/java/org/packrag/product/ResultNavigationTest.kt": "2e408fa2b452a5d1ac2ff90c61417cc2f9d91a987cd6a7875f8e3cbc5f35f302",
+    "product/android/grounded-runtime/src/main/java/org/packrag/runtime/Diagnostics.kt": "107fe8fa8d55beb4c822f7f91c984ebf904d1b7510f2cabe142f7a14c560a35b",
+    "product/android/grounded-runtime/src/main/java/org/packrag/runtime/PackRag.kt": "d627bbbbad16053deb853fc2e9b364fc762edec231b99fa5172ac5a347312d6a",
+    "product/android/grounded-runtime/src/test/java/org/packrag/runtime/DiagnosticsOwnershipTest.kt": "92507a2f6e1ed481f4674f4828be5c852428692714d6a117e24acf4e3cc27344",
+    "product/android/retrieval/src/main/java/org/packrag/retrieval/Retrieval.kt": "8aeb625812dbf33c40b48e07c7236a6390ea54a5871f8d625e71be1f94e7bad0"
+  },
+  "original_ui_sha256": "eedb61f48d64cd3b5ed4d594782967e1e57f7fbda5ef29de7bcecb9c04f047f2",
+  "original_lifecycle_sha256": "201d591a22bd381321eacf5cd1b43b93166ccdb711f277047ecb6aea6ed7a1d4",
+  "visual": "PASS_REPAIRED_DIAGNOSTIC_AND_CANONICAL_TESTED_VIEWPORT",
+  "lifecycle_scope": "Actual0046 run retained with whole product APK byte equality to0047 and unchanged lifecycle source; not relabelled as a0047 rerun.",
+  "pending": "New compiled-policy diagnostics, full retained regressions/parity/restoration/history/closure and checkpoint."
+}

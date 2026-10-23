@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "purpose": "PACKAGED_DEMO_POLICY_NOT_FINAL_NONDEBUGGABLE_RELEASE",
+  "apk_sha256": "58ffcb90498e2315b6dbd8a666f7d525f64ba2493215150133607eb5818498b9",
+  "no_internet": true,
+  "known_fixture_entries_checked_absent": [
+    "assets/development-public-key.raw",
+    "assets/lifecycle-public-key.raw",
+    "assets/developer-public-key.raw",
+    "assets/conflict-corpus/*",
+    "assets/prompt-v13-xml-corpus/*",
+    "assets/relevance-corpus/*",
+    "assets/relevance-reference-corpus/*",
+    "assets/representation-corpus/*",
+    "assets/source-text-corpus/*"
+  ],
+  "private_key_name_extensions_checked": [
+    ".jks",
+    ".key",
+    ".keystore",
+    ".pem",
+    ".seed"
+  ],
+  "approved_store_sha256": "2bf01e87216790babca17fd0990731cf57a3877430a9662642a0f5e0d99c87a5",
+  "native_sha256": "361d22ac049f28f48b454c283509d47e6c241405d0cabc7054b59c5cc59d91ef",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk\\build-tools\\37.0.0\\aapt2.exe",
+        "dump",
+        "permissions",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0021\\app-demo.apk"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\android-sdk\\build-tools\\37.0.0\\aapt2.exe",
+        "dump",
+        "badging",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0021\\app-demo.apk"
+      ],
+      "returncode": 0
+    }
+  ],
+  "limits": [
+    "Entry-name checks are not exhaustive byte-level secret scanning",
+    "Debuggable policy demo configured with Android Debug signing; not final release/calibration acceptance"
+  ]
+}

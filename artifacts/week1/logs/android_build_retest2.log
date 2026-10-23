@@ -1,0 +1,9 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Checking the license for package Android SDK Platform 37.0 in C:\Users\Fkagf\Downloads\MOR CAPTSONE\vendor\android-sdk\licenses
+License for package Android SDK Platform 37.0 accepted.
+Preparing "Install Android SDK Platform 37.0 (revision 2)".
+Warning: Package "Android SDK Platform 37.0" (platforms;android-37.0) should be installed in 
+"C:\Users\Fkagf\Downloads\MOR CAPTSONE\vendor\android-sdk\platforms\android-37.0" but 
+it already exists.
+Installing in "C:\Users\Fkagf\Downloads\MOR CAPTSONE\vendor\android-sdk\platforms\android-37.0-2" instead.

@@ -1,0 +1,12 @@
+{
+  "status": "HELPER_PREPARATION_FAILURE_PRESERVED_NO_DEVICE_MUTATION",
+  "recorded_utc": "2026-10-10T20:40:02.145425+00:00",
+  "original_helper_sha256": "4bc7373796c3f669a6950362a9e7f6218175c17c350edc9d03bcce576e039e30",
+  "corrected_helper_sha256": "9e41244e37f83dad4868495e53fc9780cb059adf18f02d293ef8bb324b407d50",
+  "failure": "AssertionError consent0014: document helper uses consent1 and only full directory path needed replacement. First two derived verifiers already exist; they will be reused only if exact expected normalized source text agrees, without rewriting original bytes.",
+  "partial_derived_sha256": {
+    "verify_full_parity_restoration_final.py": "ad43fd6e0ef30feff7d4c636d67ab91f162b2ab4a03a39de91eb0289f7806177",
+    "verify_and_record_final.py": "98087e6e19e865dd5b88ce1d9de6a072c52c75676af3e1059c9529a0f39bb1e4"
+  },
+  "scope": "No Android source/test/class/expected result changes, no active driver interruption. Preparation only; actual future orchestration failure/recovery still pending."
+}

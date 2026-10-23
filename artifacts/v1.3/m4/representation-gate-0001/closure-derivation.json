@@ -1,0 +1,6 @@
+{
+  "status": "PREPARED_NOT_ACCEPTANCE",
+  "old_script_sha256": "cda462e868082776fb8d14fad2af46c8123667cc27daae55c401936a6dd51dd3",
+  "new_script_sha256": "277ea999da7e1f6d273dcab38773c4410c103f359a5bcabebc5eba44c4f92587",
+  "purpose": "All retained D1 checks plus D2 fixture/tokenizer/runtime/provenance and expanded host-source identity gates"
+}

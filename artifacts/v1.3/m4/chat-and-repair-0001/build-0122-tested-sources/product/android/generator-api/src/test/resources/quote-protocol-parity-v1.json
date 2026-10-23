@@ -1,0 +1,13 @@
+{
+  "texts": [
+    " تأكد من فصل الطاقة.\r\nDébrancher \"A\\B\". Final check.😀",
+    "Second source.\tCheck connector."
+  ],
+  "units": [
+    "تأكد من فصل الطاقة. [S1]",
+    "Débrancher \"A\\B\". [S1]",
+    "Final check.😀 [S1]",
+    "Second source.\tCheck connector. [S2]"
+  ],
+  "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"تأكد من فصل الطاقة. [S1]\" | \"Débrancher \\\"A\\\\B\\\". [S1]\" | \"Final check.😀 [S1]\" | \"Second source.\\tCheck connector. [S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n"
+}

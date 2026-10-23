@@ -1,0 +1,207 @@
+{
+  "status": "PREPARED_NOT_ACCEPTANCE",
+  "preparer_sha256": "a594f9711ada65d5fd12053dcbc6b250b8ebeab348ab2f14b59c05d11657e4ea",
+  "records": [
+    {
+      "base": "artifacts\\v1.3\\m4\\representation-gate-0002\\verify_and_record.py",
+      "base_sha256": "4014055b826affbac811483d7ef0b1fb78f93350a1e88890f592a5502fc07523",
+      "output": "artifacts\\v1.3\\m4\\selection-gate-0002\\retained_checks.py",
+      "output_sha256": "c7cc4f065a0e21c5bead028e007ec3d9903e01d28eb160bff22a325386eaa495",
+      "replacements": [
+        {
+          "before": "run-0010",
+          "after": "run-0012",
+          "count": 2
+        },
+        {
+          "before": "smoke-0010",
+          "after": "selection-walking-0002",
+          "count": 3
+        },
+        {
+          "before": "build-0020",
+          "after": "build-0028",
+          "count": 15
+        },
+        {
+          "before": "build-0021",
+          "after": "build-0029",
+          "count": 11
+        },
+        {
+          "before": "conflict-smoke-0006",
+          "after": "conflict-smoke-0007",
+          "count": 4
+        },
+        {
+          "before": "relevance-smoke-0003",
+          "after": "relevance-smoke-0004",
+          "count": 4
+        },
+        {
+          "before": "representation-smoke-0003",
+          "after": "representation-smoke-0004",
+          "count": 4
+        },
+        {
+          "before": "source-text-smoke-0001",
+          "after": "source-text-smoke-0002",
+          "count": 3
+        },
+        {
+          "before": "device-representations-0002",
+          "after": "device-selection-full-0001",
+          "count": 2
+        },
+        {
+          "before": "device-production-representations-0002",
+          "after": "device-production-selection-0001",
+          "count": 2
+        },
+        {
+          "before": "device-development-restore-0009",
+          "after": "device-development-restore-0010",
+          "count": 1
+        },
+        {
+          "before": "demo-apk-inspection-0010",
+          "after": "demo-apk-inspection-0011",
+          "count": 2
+        },
+        {
+          "before": "tests=954",
+          "after": "tests=1010",
+          "count": 2
+        },
+        {
+          "before": "[\"test_methods\"] == 29",
+          "after": "[\"test_methods\"] == 34",
+          "count": 1
+        },
+        {
+          "before": "27, COMMON",
+          "after": "30, COMMON",
+          "count": 1
+        },
+        {
+          "before": "22, COMMON",
+          "after": "25, COMMON",
+          "count": 1
+        },
+        {
+          "before": "\"device-representations-0001\" if run_name",
+          "after": "\"device-representations-0002\" if run_name",
+          "count": 1
+        },
+        {
+          "before": "else \"device-production-representations-0001\" if run_name",
+          "after": "else \"device-production-representations-0002\" if run_name",
+          "count": 1
+        },
+        {
+          "before": "\"org.packrag.product.SourceTextDeviceTest,\"+prior_manifest[\"class_name\"]",
+          "after": "\"org.packrag.product.SelectionDeviceTest,\"+prior_manifest[\"class_name\"]",
+          "count": 1
+        },
+        {
+          "before": "COMMON = COMMON + [",
+          "after": "COMMON = [\"m4-selection-tokenizer.json\",\"m4-selection-runtime.json\",\"m4-selection-guards.json\"] + COMMON + [",
+          "count": 1
+        },
+        {
+          "before": "ALL_D2_ACCEPTANCE_CHECKS_PASS_NO_CLOSURE_RECORD_WRITTEN",
+          "after": "ALL_RETAINED_D3_BASELINE_CHECKS_PASS_NO_CLOSURE_RECORD_WRITTEN",
+          "count": 1
+        },
+        {
+          "before": "    target = HERE / \"gate.json\"",
+          "after": "    assert \"--check-only\" in sys.argv, \"Retained adapter cannot write D3 closure\"\n    target = HERE / \"gate.json\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "base": "artifacts\\v1.3\\m4\\representation-gate-0002\\prephone_audit.py",
+      "base_sha256": "177cade4e328fa1af3372b42f8135ab67f6c86f2f89e5ee342bae471fb192b3a",
+      "output": "artifacts\\v1.3\\m4\\selection-gate-0002\\prephone_audit.py",
+      "output_sha256": "51707b20dd5024ea5b4aee0ecad123140d589467ab1c90a0c6a65fbd7c26bf9b",
+      "replacements": [
+        {
+          "before": "run-0010",
+          "after": "run-0012",
+          "count": 1
+        },
+        {
+          "before": "smoke-0010",
+          "after": "selection-walking-0002",
+          "count": 1
+        },
+        {
+          "before": "build-0020",
+          "after": "build-0028",
+          "count": 4
+        },
+        {
+          "before": "build-0021",
+          "after": "build-0029",
+          "count": 2
+        },
+        {
+          "before": "conflict-smoke-0006",
+          "after": "conflict-smoke-0007",
+          "count": 1
+        },
+        {
+          "before": "relevance-smoke-0003",
+          "after": "relevance-smoke-0004",
+          "count": 1
+        },
+        {
+          "before": "representation-smoke-0003",
+          "after": "representation-smoke-0004",
+          "count": 1
+        },
+        {
+          "before": "source-text-smoke-0001",
+          "after": "source-text-smoke-0002",
+          "count": 2
+        },
+        {
+          "before": "tests=954",
+          "after": "tests=1010",
+          "count": 1
+        },
+        {
+          "before": "['test_methods']==29",
+          "after": "['test_methods']==34",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "base": "artifacts\\v1.3\\m4\\representation-gate-0002\\inspect_demo.py",
+      "base_sha256": "f623bd37922d79b4c85b9462e12ff108459a26b1f48fb3bdfc0f10b5a3e78d64",
+      "output": "artifacts\\v1.3\\m4\\selection-gate-0002\\inspect_demo.py",
+      "output_sha256": "989b7cc933319e5214744f4691ad9a6892012a1324b2516bc6dc4065ab7297d3",
+      "replacements": [
+        {
+          "before": "build-0021",
+          "after": "build-0029",
+          "count": 1
+        },
+        {
+          "before": "demo-apk-inspection-0010",
+          "after": "demo-apk-inspection-0011",
+          "count": 1
+        },
+        {
+          "before": "'source-text-corpus']",
+          "after": "'source-text-corpus','selection-corpus']",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "initial_guard_sha256": "832400a0660a360854b4d2843f2ddbfc6bf54d08281f953ee801eb2f3bb2b26c",
+  "prior_preparation": "gate0001 adapters unexecuted/superseded by phone harness repair; an overly broad29-to34 replacement was found in inspection and avoided here with full anchors"
+}

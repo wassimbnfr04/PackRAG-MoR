@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-10-10T19:45:27.311956+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.DiagnosticPolicyDeviceTest",
+  "variant": "demo",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0049\\app-demo.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0049\\app-demo-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.DiagnosticPolicyDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-demo.apk": "94616c819bc79ecad0462daef8c3debcfaa7d444ef547d65a00eb3b2f43a2bd0",
+    "app-demo-androidTest.apk": "8a8100b53be8e63ef54216270aefdd8e1332aa4f430841b32c49f33843faf37c"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.DiagnosticPolicyDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticPolicyDeviceTest.kt",
+      "source_sha256": "0d6ffe9c6d0a20aa8ae8d6a5d23777492da94a346406dc6e30af9b78fffac8a8"
+    }
+  },
+  "status": "PASS"
+}

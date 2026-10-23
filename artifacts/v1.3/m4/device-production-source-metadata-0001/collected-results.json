@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-07T00:28:12.058876+00:00",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-demo.apk": "82ad625f6ce00f06e306295968760d26cc7ff3b39245dafef6d8d7493ca66420",
+    "app-demo-androidTest.apk": "751b677b566227d05036d469fb314350cd5e1b4c236fc0fee186971aa3e88a06"
+  },
+  "source": "App-private final JSON after complete successful instrumentation; original ADB bytes preserved",
+  "saved_sha256": {
+    "m4-validity.json": "e84af8bfe9cf9e4c3148dce5d36a5c86715c3b5c41e4b887f5c2198edd653254",
+    "m4-query-identifiers.json": "2b12ec3341ca92cdd7e892d6c8c0668a4e26f07505d2148ea4e47e965abe07dd",
+    "m4-query-unicode.json": "6971c8af3407c006002f142a1e5f2c9fe4c370e9f0d11cdf3f8d7e902fb515d6",
+    "m2-generator-prompt-parity.json": "9f293e1bcbdf6d8ca7a52ae0fff565c9f684960f5cb1693440a9cfc3afe92588",
+    "m2-pack-retrieval-parity.json": "1e018e7f56d4857d2d2664d874bd88880f556755ef9b935126527da12f9211b5",
+    "m3-data-types.json": "41442dfabdf9e042334b726c3dbacb226042984926e000c3195129f9451ab224",
+    "m3-extension-names.json": "4b4eaf2cae593b7d620912cf2a10e43fb771165ce1a6d204242624fa1dc665f0",
+    "m3-validation-order.json": "051594a58b1ee4aa90627759b572f62e16ec74258b2d81e4fb03837ca084fa8b",
+    "m3-residual-security.json": "1e3e0dc55745be0509f3b509902b054bdf42789eca9406eae306998d1890fc5b",
+    "m3-manifest-schema.json": "3c6fbe2869ebc818c24db8bb90548b5bc7fdd138f8ed1267f12b076e0986650d",
+    "m3-database-validation.json": "eaffa8217833e34c55b3d9b00ef832c09ebeaf53a2236c08dffe65c2fcf4b67b",
+    "m3-archive-validation.json": "a6bdfdea8c6c246d1433594e4d1da852b2761e0219a376dd48de113c0595cad3",
+    "m3-production-policy.json": "05d97d8bce82f8b303fb9b03e8d47e5ab4e2e4edb9e6851a7e3d7c7d42c7cfe5",
+    "m3-release-trust-core.json": "198cbd7f215eecf0ecc5a0932cae743ca0e2e337cc113166d24406c2917a7804"
+  }
+}

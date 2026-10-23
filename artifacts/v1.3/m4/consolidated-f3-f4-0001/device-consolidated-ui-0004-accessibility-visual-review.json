@@ -1,0 +1,14 @@
+{
+  "status": "FAIL_MANUAL_OBSERVED_VALUE_STILL_OFFSCREEN_NO_LATER_UI_ACCEPTANCE",
+  "recorded_utc": "2026-10-12T15:30:48.239559+00:00",
+  "run": "device-consolidated-ui-0004-productaccessibilityuitest",
+  "original_png_sha256": {
+    "m4-f3-large-font-abstention.png": "21043befc1d5d72037b91c8822c7a9d39b4a1e97c2a05075f58369737b2e9db7",
+    "m4-f3-large-font-encoder-expected-hash.png": "ee38ec082905e58032fde7e41702475c1b30c613c7840ce48e87df1dc0906e27",
+    "m4-f3-large-font-encoder-observed-hash.png": "1589f4d5fb6c7ff0b5e139cf0c66728158c3b117c5ce0d45fc81c671e6c8f901",
+    "m4-f3-large-font-encoder-size.png": "02aa891f5daabc34107d51539ff3139263022fbb041f78befe861a06f27445e3",
+    "m4-f3-large-font-form.png": "7cadc53a8aec0a7a17ea67d392606388d3d9794c76250ed46c13db5eb320a674"
+  },
+  "observed": "All5 originals viewed. Size and expected hash visible; observed label still at bottom, actual value offscreen. One injected upward touch gesture did not visibly move the scroll container. Require actual positive scroll offset and a new complete original field image.",
+  "limits": "Form screenshot exposes a separate large-font label issue; no complete accessibility/UI approval granted."
+}

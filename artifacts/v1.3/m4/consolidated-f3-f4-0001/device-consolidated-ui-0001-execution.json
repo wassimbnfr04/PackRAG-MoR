@@ -1,0 +1,161 @@
+{
+  "status": "FAIL_HOLD_ALL_LATER_PHASES_NOT_ACCEPTANCE",
+  "started_utc": "2026-10-12T14:33:27.936950+00:00",
+  "phase": "debug-ui",
+  "build": "build-0089",
+  "variant": "debug",
+  "runner_sha256": "95420ebf39ca1b1fe5e2f407ea1c3055e09f64c168979e9fc2358da7c907c09d",
+  "matrix_sha256": "708d754cd80b1096432066706d3830266bf3a0f4126d49e037d6b985d6fd61b7",
+  "pair_sha256": "d60a7860cc61d9e5c46ee61b3d79ae7aa9b458158c26828573ea1a3baa96c060",
+  "installation_sha256": "238a6328d9c040690e14561d5eecf6e7d892349c952a68b22ee2be065b6287d5",
+  "classes": [
+    "ProductAccessibilityUiTest",
+    "PackImportUiTest",
+    "PackOverviewUiTest",
+    "PackOverviewLongUiTest",
+    "PackManagementUiTest",
+    "QueryControlsUiTest",
+    "SourceDetailsUiTest",
+    "DiagnosticNavigationUiTest",
+    "LocalAssetsUiTest",
+    "ProductUiE2eTest",
+    "LocalAssetImportUiDeviceTest",
+    "LocalAssetImportVisualDeviceTest"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_owner_no_follow_0001.py",
+        "--output",
+        "device-consolidated-ui-0001-before-owner50.json"
+      ],
+      "returncode": 0,
+      "label": "before-owner50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\verify_source4_0001.py",
+        "--build",
+        "build-0089",
+        "--output",
+        "device-consolidated-ui-0001-before-source4.json",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "label": "before-source4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\capture_source4_modes_0001.py",
+        "--output",
+        "device-consolidated-ui-0001-before-source4-modes.json"
+      ],
+      "returncode": 0,
+      "label": "before-source4-modes"
+    },
+    {
+      "label": "ProductAccessibilityUiTest-reset-exact-test-output-names",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as org.packrag.product sh -c 'set -eu; test ! -L files/m4-f3-accessibility-form.json; test ! -L files/m4-f3-accessibility-assets.json; test ! -L files/m4-f3-large-font-abstention.png; test ! -L files/m4-f3-large-font-encoder-expected-hash.png; test ! -L files/m4-f3-large-font-encoder-observed-hash.png; test ! -L files/m4-f3-large-font-encoder-size.png; test ! -L files/m4-f3-large-font-form.png; rm -f files/m4-f3-accessibility-form.json files/m4-f3-accessibility-assets.json files/m4-f3-large-font-abstention.png files/m4-f3-large-font-encoder-expected-hash.png files/m4-f3-large-font-encoder-observed-hash.png files/m4-f3-large-font-encoder-size.png files/m4-f3-large-font-form.png'"
+      ],
+      "returncode": 0,
+      "preexisting_sha256": {
+        "m4-f3-accessibility-form.json": "fc185f702f4dc8175cc346d1f62f81b963692296025c362e91ae977d242c5ab9",
+        "m4-f3-accessibility-assets.json": "53a10b198dcb397a48ae4121f50e0205219ed915877a5f75e187f99b5ce8bd34",
+        "m4-f3-large-font-abstention.png": "a2f03fbdfdc8881e0fd4f7e2da5dbe647807301f563ff756dfb09888c0f2653b",
+        "m4-f3-large-font-encoder-expected-hash.png": "3f8e63917b35711dfe46421852fc4d1370f5d6210587843481dbc43d1420b0c1",
+        "m4-f3-large-font-encoder-observed-hash.png": "a2e856b6eb9016b8593bbe6d48ea5d66730b5343d97c574acdf97209bb9388c8",
+        "m4-f3-large-font-encoder-size.png": "a95af6c3f99d9fb354c8c2967d364ae985e20b86b07105567df4c510d10bae7e",
+        "m4-f3-large-font-form.png": "edc4e79ccd9e39a302554147894f6d51b14871c6c7f2b6ded9cd83389c276026"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0089",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-consolidated-ui-0001-productaccessibilityuitest",
+        "--class-name",
+        "org.packrag.product.ProductAccessibilityUiTest",
+        "--result-file",
+        "m4-f3-accessibility-form.json",
+        "--timeout",
+        "7200",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 1,
+      "label": "ProductAccessibilityUiTest-instrumentation"
+    }
+  ],
+  "completed": [],
+  "foreground_window_sha256": "494bc4f1197768cac7308c07a580c9fd4c2fd1ddd927de0786224b02829cd6b9",
+  "active_class": "ProductAccessibilityUiTest",
+  "active_expected_methods": 2,
+  "failure_type": "AssertionError",
+  "failure_message": "Failed ProductAccessibilityUiTest-instrumentation; hold later classes",
+  "failure_observations": {
+    "m4-f3-accessibility-form.json": {
+      "sha256": "243a209ca8638f58e3afc2fe597bbe97e77f49c76becd8fa0e6f341eb32141db",
+      "returncode": 0,
+      "bytes": 8938,
+      "scope": "Failure-time observation, not accepted current test result"
+    },
+    "m4-f3-accessibility-assets.json": {
+      "sha256": "53a10b198dcb397a48ae4121f50e0205219ed915877a5f75e187f99b5ce8bd34",
+      "returncode": 0,
+      "bytes": 70,
+      "scope": "Failure-time observation, not accepted current test result"
+    },
+    "m4-f3-large-font-abstention.png": {
+      "sha256": "6a14f44c64ef8602beb61ac9f37ddc2cc5ee88dd526d1d2cd0b5b0ab2716ef9d",
+      "returncode": 0,
+      "bytes": 184993,
+      "scope": "Failure-time observation, not accepted current test result"
+    },
+    "m4-f3-large-font-encoder-expected-hash.png": {
+      "sha256": "3f8e63917b35711dfe46421852fc4d1370f5d6210587843481dbc43d1420b0c1",
+      "returncode": 0,
+      "bytes": 81,
+      "scope": "Failure-time observation, not accepted current test result"
+    },
+    "m4-f3-large-font-encoder-observed-hash.png": {
+      "sha256": "a2e856b6eb9016b8593bbe6d48ea5d66730b5343d97c574acdf97209bb9388c8",
+      "returncode": 0,
+      "bytes": 81,
+      "scope": "Failure-time observation, not accepted current test result"
+    },
+    "m4-f3-large-font-encoder-size.png": {
+      "sha256": "a95af6c3f99d9fb354c8c2967d364ae985e20b86b07105567df4c510d10bae7e",
+      "returncode": 0,
+      "bytes": 72,
+      "scope": "Failure-time observation, not accepted current test result"
+    },
+    "m4-f3-large-font-form.png": {
+      "sha256": "6ead32f324db3040775e88ddc0ca485298410521e4e9e04c830c29b46d0fb929",
+      "returncode": 0,
+      "bytes": 165029,
+      "scope": "Failure-time observation, not accepted current test result"
+    }
+  },
+  "updated_utc": "2026-10-12T14:34:21.410812+00:00"
+}

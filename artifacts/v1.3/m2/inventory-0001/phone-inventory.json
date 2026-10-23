@@ -1,0 +1,141 @@
+{
+  "recorded_at": "2026-10-05T15:07:54.202895+00:00",
+  "serial": "R3CT908DHHR",
+  "purpose": "READ_ONLY_SETUP_INVENTORY_NOT_RUNTIME_PERFORMANCE",
+  "commands": {
+    "model": {
+      "argv": [
+        "getprop",
+        "ro.product.model"
+      ],
+      "returncode": 0,
+      "stdout": "SM-S908B\n",
+      "stderr": ""
+    },
+    "sdk": {
+      "argv": [
+        "getprop",
+        "ro.build.version.sdk"
+      ],
+      "returncode": 0,
+      "stdout": "36\n",
+      "stderr": ""
+    },
+    "android": {
+      "argv": [
+        "getprop",
+        "ro.build.version.release"
+      ],
+      "returncode": 0,
+      "stdout": "16\n",
+      "stderr": ""
+    },
+    "abi": {
+      "argv": [
+        "getprop",
+        "ro.product.cpu.abi"
+      ],
+      "returncode": 0,
+      "stdout": "arm64-v8a\n",
+      "stderr": ""
+    },
+    "heap_growth_limit": {
+      "argv": [
+        "getprop",
+        "dalvik.vm.heapgrowthlimit"
+      ],
+      "returncode": 0,
+      "stdout": "256m\n",
+      "stderr": ""
+    },
+    "heap_maximum": {
+      "argv": [
+        "getprop",
+        "dalvik.vm.heapsize"
+      ],
+      "returncode": 0,
+      "stdout": "512m\n",
+      "stderr": ""
+    },
+    "cpu_online": {
+      "argv": [
+        "cat",
+        "/sys/devices/system/cpu/online"
+      ],
+      "returncode": 0,
+      "stdout": "0-7\n",
+      "stderr": ""
+    },
+    "memory": {
+      "argv": [
+        "cat",
+        "/proc/meminfo"
+      ],
+      "returncode": 0,
+      "stdout": "MemTotal:       10767748 kB\nMemFree:         1582488 kB\nMemAvailable:    3303848 kB\nBuffers:             740 kB\nCached:          1932144 kB\nSwapCached:       758424 kB\nActive:          2348676 kB\nInactive:        2994972 kB\nActive(anon):    1132152 kB\nInactive(anon):  2289008 kB\nActive(file):    1216524 kB\nInactive(file):   705964 kB\nUnevictable:        4612 kB\nMlocked:            4612 kB\nRbinTotal:             0 kB\nRbinAlloced:           0 kB\nRbinPool:              0 kB\nRbinFree:              0 kB\nRbinCached:            0 kB\nZeroedFree:            0 kB\nSwapTotal:      16777212 kB\nSwapFree:       12212024 kB\nDirty:               712 kB\nWriteback:           176 kB\nAnonPages:       2955360 kB\nMapped:          1252936 kB\nShmem:             45296 kB\nKReclaimable:     323420 kB\nSlab:             728916 kB\nSReclaimable:     253788 kB\nSUnreclaim:       475128 kB\nKernelStack:      100576 kB\nShadowCallStack:   25196 kB\nPageTables:       214148 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    22161084 kB\nCommitted_AS:   341369812 kB\nVmallocTotal:   263061440 kB\nVmallocUsed:      410608 kB\nVmallocChunk:          0 kB\nPercpu:            11776 kB\nAnonHugePages:    335872 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nHugepagePool:       4096 kB\nCmaTotal:         348160 kB\nCmaFree:           15420 kB\nsystem:           244544 kB\nsystem-uncached:  240340 kB\nzram0:           1417428 kB\n",
+      "stderr": ""
+    },
+    "storage": {
+      "argv": [
+        "df",
+        "-h",
+        "/data",
+        "/sdcard"
+      ],
+      "returncode": 0,
+      "stdout": "Filesystem       Size Used Avail Use% Mounted on\n/dev/block/dm-55 225G 161G   63G  72% /storage/emulated/0/Android/obb\n/dev/fuse        225G 161G   63G  72% /storage/emulated\n",
+      "stderr": ""
+    },
+    "airplane_mode": {
+      "argv": [
+        "settings",
+        "get",
+        "global",
+        "airplane_mode_on"
+      ],
+      "returncode": 0,
+      "stdout": "0\n",
+      "stderr": ""
+    },
+    "mobile_data": {
+      "argv": [
+        "settings",
+        "get",
+        "global",
+        "mobile_data"
+      ],
+      "returncode": 0,
+      "stdout": "1\n",
+      "stderr": ""
+    },
+    "wifi_enabled": {
+      "argv": [
+        "settings",
+        "get",
+        "global",
+        "wifi_on"
+      ],
+      "returncode": 0,
+      "stdout": "0\n",
+      "stderr": ""
+    },
+    "thermal_idle_inventory": {
+      "argv": [
+        "dumpsys",
+        "thermalservice"
+      ],
+      "returncode": 0,
+      "stdout": "IsStatusOverride: false\nThermalEventListeners:\n\tcallbacks: 3\n\tkilled: false\n\tbroadcasts count: -1\nThermalStatusListeners:\n\tcallbacks: 9\n\tkilled: false\n\tbroadcasts count: -1\nThermal Status: 3\nCached temperatures:\n\tTemperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}\n\tTemperature{mValue=41.4, mType=0, mName=AP, mStatus=0}\n\tTemperature{mValue=45.7, mType=5, mName=PA, mStatus=0}\n\tTemperature{mValue=37.1, mType=2, mName=BAT, mStatus=0}\n\tTemperature{mValue=33.0, mType=4, mName=USB, mStatus=0}\n\tTemperature{mValue=41.6, mType=3, mName=SKIN, mStatus=3}\nHAL Ready: true\nHAL connection:\n\tThermalHAL 2.0 connected: yes\nCurrent temperatures from HAL:\n\tTemperature{mValue=41.4, mType=0, mName=AP, mStatus=0}\n\tTemperature{mValue=37.1, mType=2, mName=BAT, mStatus=0}\n\tTemperature{mValue=45.7, mType=5, mName=PA, mStatus=0}\n\tTemperature{mValue=41.6, mType=3, mName=SKIN, mStatus=3}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBAT, mStatus=0}\n\tTemperature{mValue=0.0, mType=2, mName=SUBBATRAW, mStatus=0}\n\tTemperature{mValue=33.0, mType=4, mName=USB, mStatus=0}\nCurrent cooling devices from HAL:\nTemperature static thresholds from HAL:\nTemperature headroom thresholds:\n[NaN, 0.8666667, 0.93333334, 1.0, 1.1333333, 1.4333333, 2.4333334]\n",
+      "stderr": ""
+    },
+    "existing_lfm_sha256": {
+      "argv": [
+        "sha256sum",
+        "/data/local/tmp/packrag-lfm25-26b/model.gguf"
+      ],
+      "returncode": 0,
+      "stdout": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03  /data/local/tmp/packrag-lfm25-26b/model.gguf\n",
+      "stderr": ""
+    }
+  }
+}

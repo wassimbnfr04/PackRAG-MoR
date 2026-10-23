@@ -1,0 +1,72 @@
+{
+  "id": "G0-C03",
+  "category": "citation",
+  "question": "What type of service port does the Boreal B6 use?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Boreal B6 warranty reference is WB-17."
+    },
+    {
+      "id": "S2",
+      "text": "The Boreal B6 service port uses USB-C."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The Boreal B6 service port uses USB-C. [S2]",
+  "citations": [
+    "S2"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "USB-C"
+  ],
+  "required_citations": [
+    "S2"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 398,
+    "prompt_ms": 4068.162,
+    "prompt_per_token_ms": 10.22151256281407,
+    "prompt_per_second": 97.83287882832592,
+    "predicted_n": 202,
+    "predicted_ms": 7418.065,
+    "predicted_per_token_ms": 36.90579601990049,
+    "predicted_per_second": 27.096014931117484,
+    "host_generation_wall_ms": 11524.57449999929,
+    "emitted_token_count": 202,
+    "reasoning_token_count": 184,
+    "final_and_terminal_token_count": 18,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 398,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The Boreal B6 warranty reference is WB-17. [S1]\" | \"The Boreal B6 service port uses USB-C. [S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "fdeac980a12a263d7bc0d14e35c8eeee340092a1fdee04fb29cb7c6fd18d9814",
+    "final_only": "1. The Boreal B6 service port uses USB-C. [S2]",
+    "quotation_match": true,
+    "quote_unit_count": 2,
+    "quote_units_sha256": [
+      "ebd523ea15c69cc95665bb095396a7967776eaeeb759f882eac609baed141042",
+      "3e696b569eb4dc20ac38b3ad8374417d5cb19e0477bbaf65c329a269b6e65639"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

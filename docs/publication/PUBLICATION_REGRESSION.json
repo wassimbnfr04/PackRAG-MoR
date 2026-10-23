@@ -1,0 +1,10 @@
+{
+  "status": "PASS_EXPORTED_CUMULATIVE_M0_THROUGH_M4_PYTHON_REGRESSION",
+  "tests": 1054,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "seconds": 61.395,
+  "android_build_performed": false,
+  "phone_or_emulator_run_performed": false
+}

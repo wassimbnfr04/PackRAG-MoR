@@ -1,0 +1,205 @@
+{
+  "status": "PASS_RETAINED_F2_SELECTED_SOURCE_AND_WHOLE_PRODUCT_IDENTITY_NOT_FRESH_EXECUTION",
+  "recorded_utc": "2026-10-11T22:04:45.376642+00:00",
+  "final_android_inputs": 599,
+  "runs": [
+    {
+      "run": "device-local-asset-import-ui-0004",
+      "original_build": "build-0073",
+      "variant": "debug",
+      "methods": 1,
+      "controls": 8,
+      "selected_class_sha256": "014efd8cb957a38cfc0f67e00475d37db96c9846fa936b098800a77642101e28",
+      "product_apk_sha256": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+      "unchanged_prior_inputs": 587,
+      "changed_unselected_test_inputs": {
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticLifecycleDeviceTest.kt": {
+          "before": "78f55777da69fff61ff6943d103276687b8bcf2308d083659de051ac31d76eb0",
+          "after": "cb3fd5cc7a21180c56d80ae8efc3396333f70f3da8be6fe241e02c2ad48ce823"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticNavigationUiTest.kt": {
+          "before": "1dfe3f002046e72e7642be0dc80c747edbcd3aebd0af8544710732aabc100163",
+          "after": "b186bb7fa3d8532454ee71cc7d9dc441d1d047f9bd6599a66e229243da200396"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticPolicyDeviceTest.kt": {
+          "before": "0d6ffe9c6d0a20aa8ae8d6a5d23777492da94a346406dc6e30af9b78fffac8a8",
+          "after": "bfd8ee0c836f56b39556933debfe54e66950becf9d29dc04bbbca0103aa86be4"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt": {
+          "before": "2cb3ee9ea4bef3714ed3b6f55336b104840d2c09e96ccf71001378ae9f5161f7",
+          "after": "571cf1ca4215d2aa0de16c73ab19dae0f9393ba92a732253af5cb49081ab3916"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetReadinessDeviceTest.kt": {
+          "before": "0e317fd5d28a28bcf83886dbff01f480446e7d8200c8bc3a272d4eb97b08e6f6",
+          "after": "4854151977c636931a5cd0c72c6154dd62c3530feaffdccc4b8df62e874521e2"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetsUiTest.kt": {
+          "before": "7d1d14c06621a93f7858955b90acc3f723bc0d88624dd3db184704aa507f7377",
+          "after": "67b6e17877e69e2d4c41c86accba10ad38e2dcc8b049e6a3f2f741262f5f89fe"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt": {
+          "before": "b03b3e3d4ede5a1de4e0e6942a80f40358f9618b835898eace823b3c4ebb4236",
+          "after": "4e271445d51a90c08a72b9606ed99ad1ef67c8226358b4356619bb04fa1afffc"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsDeviceTest.kt": {
+          "before": "494d212b75f52f6e38ea708e5567a66f206119cfc75cd27843b12eaf7282a7f7",
+          "after": "63d6d00f3ee0d3145b7934c35debea5316b88526fd2a472415a6b3628601013b"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt": {
+          "before": "ae70ee36db587b8cc0d50d87d7628d8f029964f817aa25e91becde4382f2eb49",
+          "after": "4a4b432827caa0b92fa9b120508e399af815044877dbcda66fb43ada2e52f1af"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt": {
+          "before": "e13302a95f8363e3b8694042587a2ee6a82360bf3b28199b4ffc4ab54e857fc9",
+          "after": "69f8ae112de07610a0d41c54ca10cb87c9ad1e218894fe26a9d21c167c04406f"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsViewModelTest.kt": {
+          "before": "08f9e5dec92baa2c89f2d95056949303c31a707a167c2f8542d6ee0df50fe3e8",
+          "after": "78450df8282c74993ae6f9a83c154ee8f9679eb8c1ccf23085545b1e31dad7f9"
+        }
+      },
+      "added_unselected_test_inputs": {
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportVisualDeviceTest.kt": "2eca84660ba724a1491e042c7ac608dc4a3ac1109630cd35ba2c6216f395a6ad"
+      },
+      "manifest_sha256": "1e1de31b49b7f6a95951777960488fdbe2a3871d276b5193621c367bcb991482",
+      "collection_sha256": "a47dcdcd27865589cd430a20893f02a5c9481bb102f58d346e2820f52f7e830c",
+      "original_sha256": {
+        "m4-local-asset-import-ui.json": "6f9dc61ef3dcbd3c0c3112dd19b60afbd273e3b49f6d2cb6ff1bb899aafd6e9b",
+        "m4-local-asset-import-ui-progress.json": "7d5d3431336e03580e10453d8edac07301d06bfc7c3339f02fc6960c80095d82"
+      }
+    },
+    {
+      "run": "device-local-asset-import-visual-0003",
+      "original_build": "build-0075",
+      "variant": "debug",
+      "methods": 1,
+      "controls": 3,
+      "selected_class_sha256": "2eca84660ba724a1491e042c7ac608dc4a3ac1109630cd35ba2c6216f395a6ad",
+      "product_apk_sha256": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+      "unchanged_prior_inputs": 588,
+      "changed_unselected_test_inputs": {
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticLifecycleDeviceTest.kt": {
+          "before": "78f55777da69fff61ff6943d103276687b8bcf2308d083659de051ac31d76eb0",
+          "after": "cb3fd5cc7a21180c56d80ae8efc3396333f70f3da8be6fe241e02c2ad48ce823"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticNavigationUiTest.kt": {
+          "before": "1dfe3f002046e72e7642be0dc80c747edbcd3aebd0af8544710732aabc100163",
+          "after": "b186bb7fa3d8532454ee71cc7d9dc441d1d047f9bd6599a66e229243da200396"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticPolicyDeviceTest.kt": {
+          "before": "0d6ffe9c6d0a20aa8ae8d6a5d23777492da94a346406dc6e30af9b78fffac8a8",
+          "after": "bfd8ee0c836f56b39556933debfe54e66950becf9d29dc04bbbca0103aa86be4"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt": {
+          "before": "2cb3ee9ea4bef3714ed3b6f55336b104840d2c09e96ccf71001378ae9f5161f7",
+          "after": "571cf1ca4215d2aa0de16c73ab19dae0f9393ba92a732253af5cb49081ab3916"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetReadinessDeviceTest.kt": {
+          "before": "0e317fd5d28a28bcf83886dbff01f480446e7d8200c8bc3a272d4eb97b08e6f6",
+          "after": "4854151977c636931a5cd0c72c6154dd62c3530feaffdccc4b8df62e874521e2"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetsUiTest.kt": {
+          "before": "7d1d14c06621a93f7858955b90acc3f723bc0d88624dd3db184704aa507f7377",
+          "after": "67b6e17877e69e2d4c41c86accba10ad38e2dcc8b049e6a3f2f741262f5f89fe"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt": {
+          "before": "b03b3e3d4ede5a1de4e0e6942a80f40358f9618b835898eace823b3c4ebb4236",
+          "after": "4e271445d51a90c08a72b9606ed99ad1ef67c8226358b4356619bb04fa1afffc"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsDeviceTest.kt": {
+          "before": "494d212b75f52f6e38ea708e5567a66f206119cfc75cd27843b12eaf7282a7f7",
+          "after": "63d6d00f3ee0d3145b7934c35debea5316b88526fd2a472415a6b3628601013b"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt": {
+          "before": "ae70ee36db587b8cc0d50d87d7628d8f029964f817aa25e91becde4382f2eb49",
+          "after": "4a4b432827caa0b92fa9b120508e399af815044877dbcda66fb43ada2e52f1af"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt": {
+          "before": "e13302a95f8363e3b8694042587a2ee6a82360bf3b28199b4ffc4ab54e857fc9",
+          "after": "69f8ae112de07610a0d41c54ca10cb87c9ad1e218894fe26a9d21c167c04406f"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsViewModelTest.kt": {
+          "before": "08f9e5dec92baa2c89f2d95056949303c31a707a167c2f8542d6ee0df50fe3e8",
+          "after": "78450df8282c74993ae6f9a83c154ee8f9679eb8c1ccf23085545b1e31dad7f9"
+        }
+      },
+      "added_unselected_test_inputs": {},
+      "manifest_sha256": "e19aa4be2fa925078eeaf7bb4495e34d4320a8888c3ed6911f52fb871d525bbc",
+      "collection_sha256": "a71f7a023ab13b316356dd47ac46a7575fd040822097368b512624d3aa9b9527",
+      "original_sha256": {
+        "m4-local-asset-import-visual.json": "71c821be01329a332d6505f766eeddd66f77be3b03a9d0f770f13a1e4e17e467",
+        "m4-local-asset-import-visual-progress.json": "1584582d05efe6766cc2f8850c96cc1a6879c95b5735a7312fd33d2af4f8ead3"
+      }
+    },
+    {
+      "run": "device-local-asset-import-all-slots-policy-0001",
+      "original_build": "build-0070",
+      "variant": "demo",
+      "methods": 1,
+      "controls": 8,
+      "selected_class_sha256": "52c9c1979fd2a32fa9dde570a9f0637027c9e37a1d38362b1d1ebfa05b7f175c",
+      "product_apk_sha256": "d77d87a61bd442f5d471db75ed0ca136c030554cb32e40c67461608aba3771e6",
+      "unchanged_prior_inputs": 586,
+      "changed_unselected_test_inputs": {
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticLifecycleDeviceTest.kt": {
+          "before": "78f55777da69fff61ff6943d103276687b8bcf2308d083659de051ac31d76eb0",
+          "after": "cb3fd5cc7a21180c56d80ae8efc3396333f70f3da8be6fe241e02c2ad48ce823"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticNavigationUiTest.kt": {
+          "before": "1dfe3f002046e72e7642be0dc80c747edbcd3aebd0af8544710732aabc100163",
+          "after": "b186bb7fa3d8532454ee71cc7d9dc441d1d047f9bd6599a66e229243da200396"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticPolicyDeviceTest.kt": {
+          "before": "0d6ffe9c6d0a20aa8ae8d6a5d23777492da94a346406dc6e30af9b78fffac8a8",
+          "after": "bfd8ee0c836f56b39556933debfe54e66950becf9d29dc04bbbca0103aa86be4"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt": {
+          "before": "2cb3ee9ea4bef3714ed3b6f55336b104840d2c09e96ccf71001378ae9f5161f7",
+          "after": "571cf1ca4215d2aa0de16c73ab19dae0f9393ba92a732253af5cb49081ab3916"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportUiDeviceTest.kt": {
+          "before": "bef9834b0dd90d6d85a0a75326236eb86a15850cfc2e07e9a9473cfaf3e8939b",
+          "after": "014efd8cb957a38cfc0f67e00475d37db96c9846fa936b098800a77642101e28"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetReadinessDeviceTest.kt": {
+          "before": "0e317fd5d28a28bcf83886dbff01f480446e7d8200c8bc3a272d4eb97b08e6f6",
+          "after": "4854151977c636931a5cd0c72c6154dd62c3530feaffdccc4b8df62e874521e2"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetsUiTest.kt": {
+          "before": "7d1d14c06621a93f7858955b90acc3f723bc0d88624dd3db184704aa507f7377",
+          "after": "67b6e17877e69e2d4c41c86accba10ad38e2dcc8b049e6a3f2f741262f5f89fe"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt": {
+          "before": "b03b3e3d4ede5a1de4e0e6942a80f40358f9618b835898eace823b3c4ebb4236",
+          "after": "4e271445d51a90c08a72b9606ed99ad1ef67c8226358b4356619bb04fa1afffc"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsDeviceTest.kt": {
+          "before": "494d212b75f52f6e38ea708e5567a66f206119cfc75cd27843b12eaf7282a7f7",
+          "after": "63d6d00f3ee0d3145b7934c35debea5316b88526fd2a472415a6b3628601013b"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt": {
+          "before": "ae70ee36db587b8cc0d50d87d7628d8f029964f817aa25e91becde4382f2eb49",
+          "after": "4a4b432827caa0b92fa9b120508e399af815044877dbcda66fb43ada2e52f1af"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt": {
+          "before": "e13302a95f8363e3b8694042587a2ee6a82360bf3b28199b4ffc4ab54e857fc9",
+          "after": "69f8ae112de07610a0d41c54ca10cb87c9ad1e218894fe26a9d21c167c04406f"
+        },
+        "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsViewModelTest.kt": {
+          "before": "08f9e5dec92baa2c89f2d95056949303c31a707a167c2f8542d6ee0df50fe3e8",
+          "after": "78450df8282c74993ae6f9a83c154ee8f9679eb8c1ccf23085545b1e31dad7f9"
+        }
+      },
+      "added_unselected_test_inputs": {
+        "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportVisualDeviceTest.kt": "2eca84660ba724a1491e042c7ac608dc4a3ac1109630cd35ba2c6216f395a6ad"
+      },
+      "manifest_sha256": "75d04d9c006606414732390db84173969dca8324eaecbe4463a3f3409cf31632",
+      "collection_sha256": "608de20b863488c2c565ef146740ac41aa2ce1ec25e334242fb1e2b65df04016",
+      "original_sha256": {
+        "m4-local-asset-import-all-slots.json": "76647c5ce012cc0d1a407cfb53206caf68353ed4fa722f15ab5f957251610c6e",
+        "m4-local-asset-import-all-slots-progress.json": "76647c5ce012cc0d1a407cfb53206caf68353ed4fa722f15ab5f957251610c6e"
+      }
+    }
+  ],
+  "scope": "Original run dates/builds and test APK hashes remain unchanged. Every prior input except explicitly listed unselected guard/picker-test repairs matches; added visual test is unselected for older runs. Selected tests, shared support/providers, fixtures, product code and whole product APK are identical. UI4 actual eight phone controls remain separately accepted; its original visual review remains FAIL, remedied only by separate visual3 three-control template experiment/independent visible-scope review. Approved all-slots uses signed calibration-schema-only synthetic fixture, not owner content, real gold or final release. Comprehensive fresh full regression remains mandatory at F4."
+}

@@ -1,0 +1,77 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.ChatWorkflowUiTest:
+INSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Failed to assert the following: (Text + InputText + EditableText contains 'ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef' (ignoreCase: false))
+Semantics of the node:
+Node #423 at (l=53.0, t=1782.0, r=787.0, b=2337.0)px, Tag: 'local-asset-TEMPLATE-observed-hash'
+Text = '[Observed SHA256: ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 46 siblings
+Selector used: (TestTag = 'local-asset-TEMPLATE-observed-hash')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:237)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:233)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:95)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+INSTRUMENTATION_STATUS: stream=
+Error in largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest):
+java.lang.AssertionError: Failed to assert the following: (Text + InputText + EditableText contains 'ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef' (ignoreCase: false))
+Semantics of the node:
+Node #423 at (l=53.0, t=1782.0, r=787.0, b=2337.0)px, Tag: 'local-asset-TEMPLATE-observed-hash'
+Text = '[Observed SHA256: ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 46 siblings
+Selector used: (TestTag = 'local-asset-TEMPLATE-observed-hash')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:237)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:233)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:95)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+INSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 37.241
+There was 1 failure:
+1) largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest)
+java.lang.AssertionError: Failed to assert the following: (Text + InputText + EditableText contains 'ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef' (ignoreCase: false))
+Semantics of the node:
+Node #423 at (l=53.0, t=1782.0, r=787.0, b=2337.0)px, Tag: 'local-asset-TEMPLATE-observed-hash'
+Text = '[Observed SHA256: ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 46 siblings
+Selector used: (TestTag = 'local-asset-TEMPLATE-observed-hash')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:293)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:283)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:237)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:233)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:95)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

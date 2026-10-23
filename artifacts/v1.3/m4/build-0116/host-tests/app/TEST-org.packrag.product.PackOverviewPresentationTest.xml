@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.product.PackOverviewPresentationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-12T21:33:20.221Z" hostname="RAZER" time="0.018">
+  <properties/>
+  <testcase name="activeNavigationOwnsExactDistinctIdentitiesAndIgnoresInactiveVersions" classname="org.packrag.product.PackOverviewPresentationTest" time="0.002"/>
+  <testcase name="literalLongTextAndIndependentNonnegativeSizesDoNotAggregateOrOverflow" classname="org.packrag.product.PackOverviewPresentationTest" time="0.012"/>
+  <testcase name="renderedAdvisoryIsInclusiveAndCannotEditSubmittedContext" classname="org.packrag.product.PackOverviewPresentationTest" time="0.002"/>
+  <testcase name="signedFixtureByteDomainsAndPublisherFieldsRemainDistinct" classname="org.packrag.product.PackOverviewPresentationTest" time="0.001"/>
+  <testcase name="storedLabelCannotAuthenticateAbsentOverview" classname="org.packrag.product.PackOverviewPresentationTest" time="0.0"/>
+  <testcase name="mismatchedIdVersionOrHashNeverBorrowsVerifiedFields" classname="org.packrag.product.PackOverviewPresentationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

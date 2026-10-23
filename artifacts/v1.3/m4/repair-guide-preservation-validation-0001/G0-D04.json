@@ -1,0 +1,64 @@
+{
+  "id": "G0-D04",
+  "category": "direct",
+  "question": "How does the QuantaGate Q7 indicate a successful self-test?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times [S1].",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "three blue flashes"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [
+    "three blue flashes"
+  ],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 430,
+    "prompt_ms": 5070.37,
+    "prompt_per_token_ms": 11.791558139534883,
+    "prompt_per_second": 84.80643424444371,
+    "predicted_n": 199,
+    "predicted_ms": 7616.121,
+    "predicted_per_token_ms": 38.465257575757576,
+    "predicted_per_second": 25.997486121872274,
+    "host_generation_wall_ms": 12703.26280000154,
+    "emitted_token_count": 199,
+    "reasoning_token_count": 177,
+    "final_and_terminal_token_count": 22,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 430,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" citations continuation* \".\"?\ncontinuation ::= \".\"? \" \" text \" \" citations\ncitations ::= cite (\" \" cite)? (\" \" cite)? (\" \" cite)?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "75efa485cada464189b8d6a855a4522f50ba31116f039ece5fad73e61e9c553a",
+    "final_only": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times [S1]."
+  },
+  "manual_semantic_review_required": true
+}

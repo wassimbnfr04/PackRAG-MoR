@@ -1,0 +1,9 @@
+{
+  "status": "PREPARED_NOT_PHONE_ACCEPTED",
+  "failure_sha256": "6033e3c353072d7daea3a31788d0121c9f99082853a9e51a1601a93251b5090a",
+  "error_sha256": "734e70b880c21eea1d90bfe3795d7830041f9ef7b7eaec3ce31ee780b11982de",
+  "original_runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "new_test_runner_sha256": "48f14592864e11c27b54d9876bca9dfbc27491ae7890101ae1a752afc642c561",
+  "new_visual_runner_sha256": "ebe875693a29955b8559370369fe84ceb5d66116a4b7661eb773fc8ab02f6157",
+  "scope": "Initial visual0001 never entered instrumentation: product install-r transport timed out after180s. Preserve all failed originals/error-text captures; no test assertion/product failure inferred. New copied runner changes ROOT/sys.path solely for relocation and install command to --no-streaming -r; identical selected APKs/class/assertions. No uninstall/clear/radio/global setting change."
+}

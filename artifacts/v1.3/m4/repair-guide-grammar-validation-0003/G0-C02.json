@@ -1,0 +1,71 @@
+{
+  "id": "G0-C02",
+  "category": "citation",
+  "question": "What are the nominal input voltage and maximum input current of the Arden A5?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Arden A5 has a nominal input voltage of 48 V DC."
+    },
+    {
+      "id": "S2",
+      "text": "The Arden A5 has a maximum input current of 6 A."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "The Arden A5 has a nominal input voltage of 48 V DC [S1] [S2].",
+  "citations": [
+    "S1",
+    "S2"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "48 V DC",
+    "6 A"
+  ],
+  "required_citations": [
+    "S1",
+    "S2"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [
+    "6 A"
+  ],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 310,
+    "prompt_ms": 3345.264,
+    "prompt_per_token_ms": 10.791174193548388,
+    "prompt_per_second": 92.66832154353138,
+    "predicted_n": 150,
+    "predicted_ms": 5594.569,
+    "predicted_per_token_ms": 37.54744295302014,
+    "predicted_per_second": 26.632972084176632,
+    "host_generation_wall_ms": 8982.446999998501,
+    "emitted_token_count": 150,
+    "reasoning_token_count": 126,
+    "final_and_terminal_token_count": 24,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 310,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" cite (\" \" cite)? (\" \" cite)? (\" \" cite)? (\"**\" | \"*\")? \".\"?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\" | \"[S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "806982f931728229b1981f74e72e8273ee0159d47f88ee5fc0ce8b81b7a97323",
+    "final_only": "The Arden A5 has a nominal input voltage of 48 V DC [S1] [S2]."
+  },
+  "manual_semantic_review_required": true
+}

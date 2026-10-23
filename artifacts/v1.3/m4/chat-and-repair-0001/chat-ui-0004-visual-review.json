@@ -1,0 +1,29 @@
+{
+  "status": "PASS_U1_CAPTURED_CHAT_SLICE_NOT_FULL_M4",
+  "build": "build-0106",
+  "instrumented_methods": 1,
+  "controls": 4,
+  "images": [
+    {
+      "file": "artifacts\\v1.3\\m4\\chat-walking-emulator-0004\\original-adb\\m4-chat-normal-empty.png",
+      "sha256": "3fe87baa546c655b83e4e54cfca4ee2be374d41e55cea22ea3ca5c554648d669",
+      "manual_review": "Readable white full-window system bars; centered PackRAG title and local-pack subtitle, welcome, menu/new chat, fixed rounded composer, import/filters and dim disabled send. Normal scale."
+    },
+    {
+      "file": "artifacts\\v1.3\\m4\\chat-walking-emulator-0004\\original-adb\\m4-chat-two-turns.png",
+      "sha256": "bb7002e8d3a8acda38e70533361cfca1baec4f300d9d61fd10d61180c2e2361d",
+      "manual_review": "Second user bubble, two visible abstention guidance/context sections and fixed composer remain above actual keyboard. First user bubble is above scrolled viewport; image does not claim full-history fit. No reasoning."
+    },
+    {
+      "file": "artifacts\\v1.3\\m4\\chat-walking-emulator-0004\\original-adb\\m4-chat-large-font-composer.png",
+      "sha256": "9bfaf4d3afe9e9363184466504a7799d2ecc835ad3d153dcf88369795e6fb05e",
+      "manual_review": "Actual asserted320dp/2x activity layout; wrapped local-pack subtitle, welcome/question and import/filter/send controls readable. Unused full-window right margin is light, with readable system icons. Scoped debug layout, not phone font change."
+    },
+    {
+      "file": "artifacts\\v1.3\\m4\\chat-walking-emulator-0004\\original-adb\\m4-chat-large-font-controls.png",
+      "sha256": "eb3981d23c1e212444073863e37a3c025152a45636d20e02a97cc539115627eb",
+      "manual_review": "Actual320dp/2x activity, visible query and readable date label/value/format text in scrollable composer. Jurisdiction/current-law/action row are below viewport; this PNG does not establish their visibility. Remaining controls belong to U2."
+    }
+  ],
+  "limits": "No native inference/repair competence/complete large-font filter or source/pack/picker acceptance. Host ownership94 methods and actual no-pack two-turn/recreation/navigation are separate original assertions."
+}

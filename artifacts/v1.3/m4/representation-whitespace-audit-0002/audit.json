@@ -1,0 +1,223 @@
+{
+  "status": "PASS_NO_MISMATCH",
+  "scope": "CURRENT_COMPILED_KOTLIN_CORE_AND_STDLIB_HOST_NOT_DEVICE_IMPORT_OR_GENERATION",
+  "cases": [
+    {
+      "point": 9,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 10,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 11,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 12,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 13,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 28,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 29,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 30,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 31,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 32,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 133,
+      "python_blank": true,
+      "kotlin_blank": false,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 160,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 5760,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8192,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8193,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8194,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8195,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8196,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8197,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8198,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8199,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8200,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8201,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8202,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8232,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8233,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8239,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 8287,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    },
+    {
+      "point": 12288,
+      "python_blank": true,
+      "kotlin_blank": true,
+      "python_state": "INVALID_GENERATOR_PROVENANCE",
+      "kotlin_state": "INVALID_GENERATOR_PROVENANCE"
+    }
+  ],
+  "mismatches": [],
+  "commands": [
+    [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\java\\jdk-17.0.20.1+1\\bin\\javac.exe",
+      "-encoding",
+      "UTF-8",
+      "-cp",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\product\\android\\core-model\\build\\intermediates\\runtime_library_classes_dir\\release\\bundleLibRuntimeToDirRelease;C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.cache\\gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\2.4.20\\94c1451890d164aed65d43b3db0b7ecef7c183e7\\kotlin-stdlib-2.4.20.jar",
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\representation-whitespace-audit-0002\\BlankProbe.java"
+    ]
+  ],
+  "java_version": "openjdk version \"17.0.20.1\" 2026-08-18 LTS\r\nOpenJDK Runtime Environment Microsoft-14940689 (build 17.0.20.1+1-LTS)\r\nOpenJDK 64-Bit Server VM Microsoft-14940689 (build 17.0.20.1+1-LTS, mixed mode, sharing)\r\n",
+  "compiled_core_sha256": "30f2a38b93c2f34f1b7d92a4455f93c62688fdb22dbb1c74fff5126b89b0b79c",
+  "kotlin_stdlib_sha256": "2226de463d309d4a5500a481320b3dea515a6981dcae1def531fbc158884e25f"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS_READ_ONLY_GLOBAL_FONT_AND_SOURCE_SCOPE_NOT_NEW_UI_ACCEPTANCE",
+  "verified_utc": "2026-10-12T16:01:38.635387+00:00",
+  "device": "R3CT908DHHR",
+  "read_only_command": [
+    "vendor/platform-tools/adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "shell",
+    "settings",
+    "get",
+    "system",
+    "font_scale"
+  ],
+  "stdout": "1.0\n",
+  "exit_code": 0,
+  "global_font_scale": 1.0,
+  "global_setting_changed": false,
+  "ordinary_launch": "Uses platform density/font configuration when no valid isolated debug extras exist.",
+  "test_launch": "2x font / 320dp only with development policy and canonical UUID; scoped Compose configuration, no global setting write.",
+  "test_source_contract": "Production policy, absent/invalid UUID, unsupported font scales and unbounded widths reject the override.",
+  "limitations": [
+    "Read-only global setting plus current source verification; no new foreground launch performed while background instrumentation is running.",
+    "Large-font original screenshots remain scoped accessibility evidence, not normal-size screenshots or full M4 acceptance."
+  ],
+  "source_sha256": {
+    "product/android/app/src/main/java/org/packrag/product/ProductLayout.kt": "8f1c60aa68b33df1156efc23e6a4d03b981482f569d76b3774b0d853b58dacda",
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": "06f263250ab14c922e8d599dc2eea0acb3df0e9ea03bbc2421e07bdbb53c2e9b",
+    "product/android/app/src/test/java/org/packrag/product/ProductLayoutTest.kt": "dd1363e4cd9c9356b66932462db6ab79242b395b77ad930a839c8e99c96ef4a1"
+  }
+}

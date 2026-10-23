@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "manifest": {
+    "build": {
+      "build_input_sha256": "5c8a2421d692572a6f3dc0c831d206e7fbe23c3941f5dfa45f65e6f0b09c3f7f",
+      "builder_version": "1.2.0-week1",
+      "chunker_version": "1.0.0",
+      "normalizer_version": "1.0.0",
+      "source_manifest_sha256": "ae71504562588cf0e3c01057ef2559428e923574d2ca5febe82fe63025c32b5d"
+    },
+    "calibration": {
+      "dataset_sha256": null,
+      "method": "candidate-relevance-v1.2",
+      "min_agreed_dense_cosine": null,
+      "min_dense_only_cosine": null,
+      "precision": null,
+      "recall": null,
+      "status": "UNCALIBRATED"
+    },
+    "compatible_retrieval_profile": "mobile-v1",
+    "counts": {
+      "chunks": 10,
+      "relations": 0,
+      "sources": 10
+    },
+    "domain": "repair",
+    "embedding_profile": {
+      "dimension": 384,
+      "dtype": "float32",
+      "input_construction": "title + newline + locator + newline + canonical_text",
+      "max_input_length": 512,
+      "metric": "cosine",
+      "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+      "model_revision": "835ad14087e140460703cf0fae09f97d469d65c2",
+      "model_sha256": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+      "normalized": true,
+      "pooling": {
+        "include_prompt": false,
+        "pooling_mode_cls_token": true,
+        "pooling_mode_lasttoken": false,
+        "pooling_mode_max_tokens": false,
+        "pooling_mode_mean_sqrt_len_tokens": false,
+        "pooling_mode_mean_tokens": false,
+        "pooling_mode_weightedmean_tokens": false,
+        "word_embedding_dimension": 384
+      },
+      "profile_id": "granite97m-multi-r2-384-v1",
+      "runtime": "onnxruntime-mobile-cpu",
+      "tokenizer_hashes": {
+        "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+        "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5"
+      }
+    },
+    "files": [
+      {
+        "bytes": 15444,
+        "media_type": "application/octet-stream",
+        "path": "dense.kdx",
+        "required": true,
+        "sha256": "10b2bf314f91cd45f5979d0c8841503c359188fac728344d256973f5c176b659"
+      },
+      {
+        "bytes": 69632,
+        "media_type": "application/vnd.sqlite3",
+        "path": "knowledge.sqlite",
+        "required": true,
+        "sha256": "01d4f0376f375d731b6dc953b83a458b289d80302963802612502dfa77fd2aa7"
+      }
+    ],
+    "freshness": {
+      "stale_behavior": "warn-and-continue",
+      "update_check_after": "2027-01-01"
+    },
+    "generator_compatibility": {
+      "core_api": "1.x",
+      "neural_cache_required": false,
+      "preferred_generator_language": "en"
+    },
+    "jurisdictions": [],
+    "languages": [
+      "en"
+    ],
+    "name": "Week 1 synthetic equipment facts — developer smoke pack",
+    "pack_id": "org.packrag.synthetic.week1",
+    "publisher": {
+      "key_id": "ed25519:67744919eb4747a5d16407c10e90287307a375fd6d5df28e4accbe2c7ee0b3e1",
+      "name": "PackRAG Capstone � TEST KEY ONLY"
+    },
+    "release_timestamp": "2026-09-29T00:00:00Z",
+    "schema_version": "1.0",
+    "version": "1.0.0"
+  },
+  "manifest_sha256": "4a5c81b87449e007674c88fa5b9e0fe6b5a6fbed1c23e03158b12c2fc4251216",
+  "archive_transport_sha256": "2aa3a6283acecfd7927d7c28f229d8766e799e071e418f430ef3bbe8068bc5fc"
+}

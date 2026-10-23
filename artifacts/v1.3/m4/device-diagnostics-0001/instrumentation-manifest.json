@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-10-10T18:46:21.891084+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.DiagnosticRuntimeDeviceTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0043\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0043\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.DiagnosticRuntimeDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "09232ce29d5e141b90f88220d544af70d093b8abfb67c987884ac867dbef76cd",
+    "app-debug-androidTest.apk": "2610c68739473968e51f74e31209e776b19008acdaf547605913a6286715fb07"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.DiagnosticRuntimeDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt",
+      "source_sha256": "5c8d70e28f0a28a0a36834f2264bc043fa132f8343337db6dcdc53418410447a"
+    }
+  },
+  "status": "PASS"
+}

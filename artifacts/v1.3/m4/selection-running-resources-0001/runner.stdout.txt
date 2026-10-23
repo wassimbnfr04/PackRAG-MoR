@@ -1,0 +1,5 @@
+--------- beginning of main
+10-09 22:40:42.861 25139 25346 I TestRunner: run started: 3 tests
+10-09 22:40:42.863 25139 25346 I TestRunner: started: mutableManifestOrBackendIdentityCannotReachGeneration(org.packrag.product.SelectionDeviceTest)
+10-09 22:40:55.592 25139 25346 I TestRunner: finished: mutableManifestOrBackendIdentityCannotReachGeneration(org.packrag.product.SelectionDeviceTest)
+10-09 22:40:55.596 25139 25346 I TestRunner: started: actualLfmAtomicBundleAndDeterministicAdmissionOrOutputRejection(org.packrag.product.SelectionDeviceTest)

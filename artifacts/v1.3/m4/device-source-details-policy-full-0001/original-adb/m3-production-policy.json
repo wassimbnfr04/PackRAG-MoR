@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "variant": "demo",
+  "development_mode": false,
+  "instrumentation_debuggable": true,
+  "no_internet_permission": true,
+  "development_key_assets_absent": true,
+  "crash_probe_service_absent": true,
+  "debug_launch_routing_ignored": true,
+  "owner_development_registry_hashes_unchanged": true,
+  "viewmodel_admission_cases": [
+    {
+      "id": "calibration-schema-only",
+      "passed": true
+    },
+    {
+      "id": "known-publisher-uncalibrated",
+      "passed": true
+    },
+    {
+      "id": "unknown-publisher",
+      "passed": true
+    },
+    {
+      "id": "pack-cannot-add-key",
+      "passed": true
+    },
+    {
+      "id": "claimed-key-mismatch",
+      "passed": true
+    }
+  ],
+  "limits": "Debug-certificate signed instrumentable DEMO of production admission policy; not final non-debuggable signed release acceptance. Positive calibration fields are schema-only fixtures. Actual inference is a separate retained core method.",
+  "network_mode": "MOBILE_DATA_PRESERVED"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_EXACT_TEST_SCROLL_REPAIR_PRODUCT_IDENTICAL_RETAINED_RUNTIME_EVIDENCE_NOT_A_RERUN",
+  "bindings": {
+    "debug": {
+      "earlier_build": "build-0033",
+      "final_build": "build-0035",
+      "unchanged_product_apk_sha256": "de8d3241978754c81e4f383e51d0a4d72358fe84734436c9ea39fa4aa4c64bfc",
+      "unchanged_other_inputs": 547,
+      "earlier_test_apk_sha256": "6743d7db6ce6fc7b7ce2c468a55f0c90f58391a11a42ebf05916358bd5430d6c",
+      "final_test_apk_sha256": "600487aa0be536d806070f26f904b2e115964e32300e8ce4c421fb134385507d"
+    },
+    "demo": {
+      "earlier_build": "build-0034",
+      "final_build": "build-0036",
+      "unchanged_product_apk_sha256": "764815028b14266b45c64c89583477b438a005a56d4132d898b61eb0e057355f",
+      "unchanged_other_inputs": 547,
+      "earlier_test_apk_sha256": "c9247d68185c6bcf22ffc44ed356b6798dc8e6e28892244744e7d9005415db90",
+      "final_test_apk_sha256": "3578ed56d16ebe3756353f8de4d982ae8e360a0725c73abb8fb9ebca0d441a2a"
+    }
+  },
+  "runtime_inputs_unchanged": 185,
+  "retained_python_run": "run-0014",
+  "retained_desktop_run": "existing-walking-smoke-0013",
+  "final_ui": "Requires actual fresh0003 both methods and original results; initial0001 partial is not substituted",
+  "limits": "Retains only unchanged runtime/product tests under their actual recorded identities; whole E1 physical/policy/restoration/closure still required"
+}

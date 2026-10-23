@@ -1,0 +1,18 @@
+{
+  "status": "BOUNDED_READ_ONLY_TWO_KNOWN_SUBDIRECTORIES_NOT_CLEANUP",
+  "created_utc": "2026-10-11T21:26:14.627598+00:00",
+  "previous_inspection_sha256": "cf9c4b9c98ca8722f14ea66f838528e6276cea09d677c6cfd593dd72548b1d16",
+  "command": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "shell",
+      "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; root=files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; test -d \"$root\"; test ! -L \"$root\"; test \"$(readlink -f \"$root\")\" = /data/user/0/org.packrag.product/files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; for child in models registry; do path=\"$root/$child\"; test -d \"$path\"; test ! -L \"$path\"; echo CHILD_$child; ls -A \"$path\"; done'"
+    ],
+    "returncode": 0,
+    "stdout": "CHILD_models\nchat_template.jinja\nCHILD_registry\n.staging\npacks\nregistry.lock\nregistry.sqlite\n",
+    "stderr": ""
+  },
+  "scope": "Only models/registry immediate child names after exact recorded top-level/resolved-root proof and no-follow ancestor checks; no file contents/hashes or nested directory traversal/deletion. Current unrelated test uninterrupted."
+}

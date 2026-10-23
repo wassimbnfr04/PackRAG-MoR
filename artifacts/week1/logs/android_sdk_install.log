@@ -1,0 +1,42 @@
+WARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Android CLI will be used instead.
+The 'android' binary can also be found in the cmdline-tools directory, and 'android sdk' is the replacement for 'sdkmanager'.
+To learn more about the Android CLI and how to use it, see the documentation (https://d.android.com/tools/agents/android-cli)
+
+Warning: The --licenses option is no longer needed.
+WARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Android CLI will be used instead.
+The 'android' binary can also be found in the cmdline-tools directory, and 'android sdk' is the replacement for 'sdkmanager'.
+To learn more about the Android CLI and how to use it, see the documentation (https://d.android.com/tools/agents/android-cli)
+
+Downloading Android CLI...
+Unpacking embedded installation...
+
+Terms of Service and License Agreement for the Android Software Development Kit
+
+https://developer.android.com/studio/terms
+
+Google collects usage data for the Android CLI, such as commands, sub-commands, and flags used. This data does not include custom parameters or identifiable information. This information helps improve the tool and is collected in accordance with Google's Privacy Policy.
+
+https://policies.google.com/privacy
+
+Disable Android CLI metrics collection by using the --no-metrics flag.
+
+Tip: For the best experience using Android CLI with agents, we strongly recommend running android init to install the necessary skills and resources.
+Package platforms not found.
+Package android-37 not found.
+Package build-tools not found.
+Package 37.0.0 not found.
+Package ndk not found.
+Package 30.0.16248370 not found.
+Package cmake not found.
+Package 3.31.1 not found.
+
+...dl.google.com/android/repository/platform-tools_r37.0.1-win.zip [..........]   0% (   2.3 KB/   7.7 MB) ETA: 1103s 
+...dl.google.com/android/repository/platform-tools_r37.0.1-win.zip [#.........]  12% ( 982.0 KB/   7.7 MB) ETA:    9s 
+...dl.google.com/android/repository/platform-tools_r37.0.1-win.zip [###.......]  35% (   2.7 MB/   7.7 MB) ETA:    4s 
+...dl.google.com/android/repository/platform-tools_r37.0.1-win.zip [#####.....]  59% (   4.6 MB/   7.7 MB) ETA:    2s 
+...dl.google.com/android/repository/platform-tools_r37.0.1-win.zip [########..]  88% (   6.8 MB/   7.7 MB) ETA:    1s 
+...dl.google.com/android/repository/platform-tools_r37.0.1-win.zip [##########] 100% (   7.7 MB/   7.7 MB) ETA: ----- 
+
+Unzipping platform-tools... [.................................................]   0% (      0 B/  16.7 MB) ETA: ----- 
+Unzipping platform-tools... [#################################################] 100% (  16.7 MB/  16.7 MB) ETA: ----- 
+Android SDK packages installed ['platform-tools', 'platforms;android-37', 'build-tools;37.0.0', 'ndk;30.0.16248370', 'cmake;3.31.1']

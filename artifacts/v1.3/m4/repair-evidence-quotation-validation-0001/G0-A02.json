@@ -1,0 +1,61 @@
+{
+  "id": "G0-A02",
+  "category": "abstention",
+  "question": "What color is the Cirrus C4 enclosure?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The Cirrus C4 instrument weighs 3.8 kg."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 372,
+    "prompt_ms": 3786.507,
+    "prompt_per_token_ms": 10.178782258064516,
+    "prompt_per_second": 98.24357910866135,
+    "predicted_n": 146,
+    "predicted_ms": 5355.995,
+    "predicted_per_token_ms": 36.93789655172414,
+    "predicted_per_second": 27.07246739401362,
+    "host_generation_wall_ms": 9175.405599999067,
+    "emitted_token_count": 146,
+    "reasoning_token_count": 137,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 372,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The Cirrus C4 instrument weighs 3.8 kg. [S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "cc2ce28e64ab95b30cc6453aa497cd7af30123d89aaf36cfea34ec3eb9d696ba",
+    "final_only": "INSUFFICIENT_EVIDENCE",
+    "quotation_match": true,
+    "quote_unit_count": 1,
+    "quote_units_sha256": [
+      "8137b4b5e3214dd4615a89fdc796f7d35fe2baeb485a0c4b7f97c2dba7e77f6f"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

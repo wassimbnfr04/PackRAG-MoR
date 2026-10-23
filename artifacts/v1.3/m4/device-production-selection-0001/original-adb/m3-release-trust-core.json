@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "calibration-schema-only",
+      "passed": true,
+      "accept_production": true
+    },
+    {
+      "id": "known-publisher-uncalibrated",
+      "passed": true,
+      "accept_production": false
+    },
+    {
+      "id": "unknown-publisher",
+      "passed": true,
+      "accept_production": false
+    },
+    {
+      "id": "pack-cannot-add-key",
+      "passed": true,
+      "accept_production": false
+    },
+    {
+      "id": "claimed-key-mismatch",
+      "passed": true,
+      "accept_production": false
+    }
+  ],
+  "store_cases": [
+    {
+      "id": "one-approved-format",
+      "passed": true
+    },
+    {
+      "id": "eight-distinct-format-not-runtime-approval",
+      "passed": true
+    },
+    {
+      "id": "empty",
+      "passed": true
+    },
+    {
+      "id": "nine",
+      "passed": true
+    },
+    {
+      "id": "duplicate",
+      "passed": true
+    },
+    {
+      "id": "wrong-id",
+      "passed": true
+    },
+    {
+      "id": "short-key",
+      "passed": true
+    },
+    {
+      "id": "uppercase-key",
+      "passed": true
+    },
+    {
+      "id": "numeric-name",
+      "passed": true
+    },
+    {
+      "id": "blank-name",
+      "passed": true
+    },
+    {
+      "id": "unapproved-scope",
+      "passed": true
+    },
+    {
+      "id": "extra-root",
+      "passed": true
+    },
+    {
+      "id": "extra-publisher",
+      "passed": true
+    },
+    {
+      "id": "missing-key",
+      "passed": true
+    },
+    {
+      "id": "non-array",
+      "passed": true
+    },
+    {
+      "id": "wrong-schema",
+      "passed": true
+    }
+  ],
+  "development_signer_rejected": true,
+  "prior_active_hashes_preserved": true,
+  "failed_staging_cleaned": true,
+  "actual_weight_inference": true,
+  "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+  "canonical_source": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+  "unknown_open_validity_provenance_checked": true,
+  "authenticated_source_metadata_checked": true,
+  "total_ms_including_lazy_initialization": 114578.144961,
+  "emitted_tokens_including_terminal": 153,
+  "limits": "Production core policy tested inside DEBUG artifact. Positive pack contains synthetic schema-only calibration, not measured calibration or source authority. Actual release build policy and final release acceptance remain separate.",
+  "network_mode": "MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET"
+}

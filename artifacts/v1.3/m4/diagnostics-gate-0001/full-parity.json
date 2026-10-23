@@ -1,0 +1,222 @@
+{
+  "status": "PASS_E3_FULL_RETAINED_AND_DIAGNOSTIC_PARITY_NOT_CLOSURE",
+  "recorded_utc": "2026-10-10T22:01:03.451161+00:00",
+  "phone": {
+    "device-diagnostics-full-0001": {
+      "methods": 37,
+      "whole_instrumentation_seconds": 3302.645,
+      "saved_results": [
+        "m4-diagnostic-runtime.json",
+        "m4-diagnostic-lifecycle.json",
+        "m4-source-details-rows.json",
+        "m4-source-details-rejections.json",
+        "m4-source-details-viewmodel.json",
+        "m4-ui-query-runtime.json",
+        "m4-ui-query-inputs.json",
+        "m4-conflicts.json",
+        "m4-source-metadata.json",
+        "m4-validity.json",
+        "m4-query-identifiers.json",
+        "m4-query-unicode.json",
+        "m2-generator-prompt-parity.json",
+        "m2-pack-retrieval-parity.json",
+        "m3-data-types.json",
+        "m3-extension-names.json",
+        "m3-validation-order.json",
+        "m3-residual-security.json",
+        "m3-manifest-schema.json",
+        "m3-database-validation.json",
+        "m3-archive-validation.json",
+        "m4-relevance.json",
+        "m4-relevance-runtime.json",
+        "m4-conflict-runtime.json",
+        "m4-query-identifier-runtime.json",
+        "m2-generator-cancellation.json",
+        "product-runtime-smoke.json",
+        "m3-explicit-lifecycle.json",
+        "m3-atomic-registry.json",
+        "m3-process-death.json",
+        "m3-import-consent.json",
+        "m4-representations.json",
+        "m4-representation-runtime.json",
+        "m4-source-text.json",
+        "m4-selection-tokenizer.json",
+        "m4-selection-runtime.json",
+        "m4-selection-guards.json"
+      ],
+      "apk_sha256": {
+        "app-debug.apk": "18612cdf48517ef5b00524882bc03383082df00ade8ff4b6a9a7e037bcee8abb",
+        "app-debug-androidTest.apk": "1ad5c0d9c33481070b1cbd08e0d00b830d3deaae8c4aead345dc65f47cbcae3b"
+      }
+    },
+    "device-diagnostics-policy-full-0001": {
+      "methods": 30,
+      "whole_instrumentation_seconds": 2182.969,
+      "saved_results": [
+        "m4-diagnostic-policy.json",
+        "m4-source-details-rows.json",
+        "m4-source-details-rejections.json",
+        "m4-source-details-policy.json",
+        "m4-ui-query-policy.json",
+        "m4-conflicts.json",
+        "m4-source-metadata.json",
+        "m4-validity.json",
+        "m4-query-identifiers.json",
+        "m4-query-unicode.json",
+        "m2-generator-prompt-parity.json",
+        "m2-pack-retrieval-parity.json",
+        "m3-data-types.json",
+        "m3-extension-names.json",
+        "m3-validation-order.json",
+        "m3-residual-security.json",
+        "m3-manifest-schema.json",
+        "m3-database-validation.json",
+        "m3-archive-validation.json",
+        "m4-relevance.json",
+        "m4-relevance-runtime.json",
+        "m4-conflict-runtime.json",
+        "m3-production-policy.json",
+        "m3-release-trust-core.json",
+        "m4-representations.json",
+        "m4-representation-runtime.json",
+        "m4-source-text.json",
+        "m4-selection-tokenizer.json",
+        "m4-selection-runtime.json",
+        "m4-selection-guards.json"
+      ],
+      "apk_sha256": {
+        "app-demo.apk": "94616c819bc79ecad0462daef8c3debcfaa7d444ef547d65a00eb3b2f43a2bd0",
+        "app-demo-androidTest.apk": "a3d696cf61a38f9904ed845e39ea857fc48f2a51fe7245bfbcd4571d6fa35b72"
+      }
+    }
+  },
+  "selection": {
+    "device-diagnostics-full-0001": {
+      "actual_tokenizer_admission_cases": 9,
+      "runtime_state_cases": 8,
+      "pure_fixed_plans": 28,
+      "guards": 2,
+      "deduplicated_local_origins": 2,
+      "format_control": "POST_OBSERVATION_NOT_HELDOUT",
+      "original_question": "CONSERVATIVE_OUTPUT_REJECTION_ORIGINAL_SUPPORTED_ACCEPTANCE_REMAINS_FAIL",
+      "natural_language_wording_byte_equality_required": false,
+      "original_byte_captures": 37
+    },
+    "device-diagnostics-policy-full-0001": {
+      "actual_tokenizer_admission_cases": 9,
+      "runtime_state_cases": 8,
+      "pure_fixed_plans": 28,
+      "guards": 2,
+      "deduplicated_local_origins": 2,
+      "format_control": "POST_OBSERVATION_NOT_HELDOUT",
+      "original_question": "CONSERVATIVE_OUTPUT_REJECTION_ORIGINAL_SUPPORTED_ACCEPTANCE_REMAINS_FAIL",
+      "natural_language_wording_byte_equality_required": false,
+      "original_byte_captures": 30
+    }
+  },
+  "typed_signed_sources": {
+    "device-diagnostics-full-0001": {
+      "packs": 17,
+      "active_inactive_inspections": 34,
+      "exact_public_source_rows": 43,
+      "fields_per_row": 19,
+      "field_names": [
+        "source_id",
+        "title",
+        "publisher",
+        "canonical_uri",
+        "retrieved_at",
+        "issued_at",
+        "effective_from",
+        "effective_until_excl",
+        "jurisdiction",
+        "language",
+        "document_version",
+        "sha256_original",
+        "license",
+        "redistribution_allowed",
+        "source_type",
+        "authority_rank",
+        "legal_status",
+        "snapshot_path",
+        "notes"
+      ],
+      "rejection_controls": 11,
+      "original_results": 37,
+      "pack_metadata_truth": "SIGNED_ASSERTIONS_NOT_EXTERNAL_LICENSE_REVIEW_CALIBRATION_APPROVAL"
+    },
+    "device-diagnostics-policy-full-0001": {
+      "packs": 17,
+      "active_inactive_inspections": 34,
+      "exact_public_source_rows": 43,
+      "fields_per_row": 19,
+      "field_names": [
+        "source_id",
+        "title",
+        "publisher",
+        "canonical_uri",
+        "retrieved_at",
+        "issued_at",
+        "effective_from",
+        "effective_until_excl",
+        "jurisdiction",
+        "language",
+        "document_version",
+        "sha256_original",
+        "license",
+        "redistribution_allowed",
+        "source_type",
+        "authority_rank",
+        "legal_status",
+        "snapshot_path",
+        "notes"
+      ],
+      "rejection_controls": 11,
+      "original_results": 30,
+      "pack_metadata_truth": "SIGNED_ASSERTIONS_NOT_EXTERNAL_LICENSE_REVIEW_CALIBRATION_APPROVAL"
+    }
+  },
+  "typed_negative_controls": 5,
+  "retained_desktop": {
+    "python_tests": 1034,
+    "runtime_inputs": 188,
+    "all_six_desktop_gates": [
+      {
+        "run": "existing-walking-smoke-0014",
+        "result": "smoke-results.json",
+        "record_sha256": "dddf3042dc64a7b7518ebb7b2761002d53092d63e893e98bce09fe13e2bd254d"
+      },
+      {
+        "run": "conflict-smoke-0008",
+        "result": "conflict-smoke-results.json",
+        "record_sha256": "d30d3b8b07629f169bea3b3b149645352114ac80fc8c69a2542d53768cad9352"
+      },
+      {
+        "run": "relevance-smoke-0005",
+        "result": "relevance-smoke-results.json",
+        "record_sha256": "9f3d2b4f042fd377a11e059fa3a8e3ee4c444effeade6879c1bf69c5c92c1cf7"
+      },
+      {
+        "run": "representation-smoke-0005",
+        "result": "representation-smoke-results.json",
+        "record_sha256": "ff844b9a2c2ff5572e91b9fdbdaef634f2853458e41d0074cb512aefc6577512"
+      },
+      {
+        "run": "source-text-smoke-0003",
+        "result": "source-text-smoke-results.json",
+        "record_sha256": "fb0399b1c4ebff481996e4df3272571065248292ee3f43bf3bb8ce5e494c33ab"
+      },
+      {
+        "run": "selection-smoke-0003",
+        "result": "selection-smoke-results.json",
+        "record_sha256": "1135c48c19ef581e5eb9c7c4a66702d2f3d0768439e89196d502be4bc1661f45"
+      }
+    ]
+  },
+  "fresh_desktop_walking_cases": 14,
+  "retained_tokenizer_cases": 43,
+  "retained_runtime_states": 19,
+  "accepted_verifier_sha256": "a47cfec7f55a476ba7643506b7daa41a111a1df8e1640b5900af7185dda82bd1",
+  "exact_phone_contract_block_sha256": "6f892117d782a99322f22e426ba227313479c0e2adb62c2ca1894f548314d110",
+  "limits": "Immutable accepted expectations, not regenerated gold or exact model wording. Synthetic assertions/functional timing do not establish content authority, semantic entailment, genuine calibration or performance. Full E3 custody/history/state/closure still required."
+}

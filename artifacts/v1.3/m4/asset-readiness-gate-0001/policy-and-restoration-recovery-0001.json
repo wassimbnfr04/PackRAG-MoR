@@ -1,0 +1,77 @@
+{
+  "status": "PASS_F1_LEGACY_POLICY_VERIFICATION_RECOVERY_RESTORATION_AND_FINAL_GUARDS_NOT_CLOSURE",
+  "started_utc": "2026-10-11T15:50:57.997488+00:00",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0056",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-development-restore-0001",
+        "--class-name",
+        "org.packrag.product.PackImportConsentTest",
+        "--result-file",
+        "m3-import-consent.json",
+        "--timeout",
+        "900",
+        "--variant",
+        "debug"
+      ],
+      "started_utc": "2026-10-11T15:50:58.040077+00:00",
+      "finished_utc": "2026-10-11T15:52:06.105011+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-development-restore-0001",
+        "--files",
+        "m3-import-consent.json"
+      ],
+      "started_utc": "2026-10-11T15:52:06.106523+00:00",
+      "finished_utc": "2026-10-11T15:52:06.442644+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_android_source_identity",
+        "--output",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-readiness-gate-0001\\current-source-at-closure.json"
+      ],
+      "started_utc": "2026-10-11T15:52:06.443643+00:00",
+      "finished_utc": "2026-10-11T15:52:19.053743+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-readiness-gate-0001\\capture_owner_at_closure.py"
+      ],
+      "started_utc": "2026-10-11T15:52:19.054785+00:00",
+      "finished_utc": "2026-10-11T15:52:22.854052+00:00",
+      "returncode": 0
+    }
+  ],
+  "failed_original_sequence_sha256": "401e7272ccb714958ec431fba33c85b7fa19a9138c61402ece97973de2c46331",
+  "corrected_policy_verification_sha256": "28b189725ddb00784f820056b47adf6d7e9bf5ddb14e2ec061b30f52295c5424",
+  "scope": "All actual policy tests and saved originals already PASS. Only report checker handling was repaired using exact unchanged E3 schemas and independent post-phase known50-file owner guard. Two legacy reports omit individual owner hashes; one omits network metadata. No synthetic additions, product/test/APK edits or retroactive failed-sequence rewrite. This continuation restores development0056/consent original and captures actual final source/known owner paths. F1 closure/checkpoint still required.",
+  "finished_utc": "2026-10-11T15:52:22.855109+00:00"
+}

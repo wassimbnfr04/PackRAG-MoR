@@ -1,0 +1,227 @@
+{
+  "status": "PASS_EXECUTION_FINAL_AND_VISUAL_REVIEW_PENDING_NOT_M4",
+  "started_utc": "2026-10-12T23:20:43.044376+00:00",
+  "serial": "R3CT908DHHR",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.product.model"
+      ],
+      "returncode": 0,
+      "stdout": "SM-S908B\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0120\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0120\\app-debug.apk: 1 file pushed, 0 skipped. 122.5 MB/s (121753897 bytes in 0.948s)\r\n"
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0120\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0120\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 150.7 MB/s (12579592 bytes in 0.080s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~l9EakmUtgRReM-BsVP_R_A==/org.packrag.product-Z3mOch75cK3x7Q0HPixYzQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~l9EakmUtgRReM-BsVP_R_A==/org.packrag.product-Z3mOch75cK3x7Q0HPixYzQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "176475b17787c3b9ab4c7e5115291c0ab03be44cc7194bf629ad0c74814400a7  /data/app/~~l9EakmUtgRReM-BsVP_R_A==/org.packrag.product-Z3mOch75cK3x7Q0HPixYzQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~IINspRO2-X1iki6PvyHgRg==/org.packrag.product.test-OaZur6GGlkdrLwAHSOkN-w==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~IINspRO2-X1iki6PvyHgRg==/org.packrag.product.test-OaZur6GGlkdrLwAHSOkN-w==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "7a4862d48e9631b74210bbc84bad2f8bad8513787f34115bd666aa58ba59be39  /data/app/~~IINspRO2-X1iki6PvyHgRg==/org.packrag.product.test-OaZur6GGlkdrLwAHSOkN-w==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.product.model"
+      ],
+      "returncode": 0,
+      "stdout": "SM-S908B\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~l9EakmUtgRReM-BsVP_R_A==/org.packrag.product-Z3mOch75cK3x7Q0HPixYzQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~l9EakmUtgRReM-BsVP_R_A==/org.packrag.product-Z3mOch75cK3x7Q0HPixYzQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "176475b17787c3b9ab4c7e5115291c0ab03be44cc7194bf629ad0c74814400a7  /data/app/~~l9EakmUtgRReM-BsVP_R_A==/org.packrag.product-Z3mOch75cK3x7Q0HPixYzQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~IINspRO2-X1iki6PvyHgRg==/org.packrag.product.test-OaZur6GGlkdrLwAHSOkN-w==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~IINspRO2-X1iki6PvyHgRg==/org.packrag.product.test-OaZur6GGlkdrLwAHSOkN-w==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "7a4862d48e9631b74210bbc84bad2f8bad8513787f34115bd666aa58ba59be39  /data/app/~~IINspRO2-X1iki6PvyHgRg==/org.packrag.product.test-OaZur6GGlkdrLwAHSOkN-w==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-quoted-chat-repair-0001.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved original bytes",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-quoted-guide-answer.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved original bytes",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-quoted-guide-source.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved original bytes",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-quoted-guide-diagnostic-tokens.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved original bytes",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-quoted-guide-diagnostic-policy.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved original bytes",
+      "stderr": ""
+    }
+  ],
+  "phone_settings_changed": false,
+  "apk_sha256": {
+    "app-debug.apk": "176475b17787c3b9ab4c7e5115291c0ab03be44cc7194bf629ad0c74814400a7",
+    "app-debug-androidTest.apk": "7a4862d48e9631b74210bbc84bad2f8bad8513787f34115bd666aa58ba59be39"
+  },
+  "updated_utc": "2026-10-12T23:28:23.698537+00:00",
+  "untouched_window_minutes": 18,
+  "authorization": "Owner must explicitly approve fresh18-minute window before this --run invocation",
+  "instrumentation_started_utc": "2026-10-12T23:22:36.446632+00:00",
+  "instrumentation_argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "shell",
+    "am",
+    "instrument",
+    "-w",
+    "-r",
+    "-e",
+    "class",
+    "org.packrag.product.QuotedChatRepairUiTest",
+    "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+  ],
+  "instrumentation_returncode": 0,
+  "observed_status": "PASS_EXECUTION_ORIGINAL_FINAL_AND_VISUAL_REVIEW_REQUIRED",
+  "original_sha256": {
+    "m4-quoted-chat-repair-0001.json": "4120db0391bc5dfa882f3ed8ff296c6fc92e4eef1357f21ae5da1c07e65fccf1",
+    "m4-quoted-guide-answer.png": "bc993b0145f295debeadb998ea038f5163dc71dab4228fd2a3dfe6e69312f681",
+    "m4-quoted-guide-diagnostic-policy.png": "c66cd37d3bee82bf21b5ced50898807133c6bff004acc0eaaec8337078e4c968",
+    "m4-quoted-guide-diagnostic-tokens.png": "f3add1866af2af258a27f540241c3b38b4948cb6a593ce015cf12f9ec9a563ae",
+    "m4-quoted-guide-source.png": "aecb2eb17e87a79a0440258ca233b5bac63b48f56ab2a8153ca21c1bfdb63eb0"
+  },
+  "source_inputs_unchanged": 639,
+  "owner_public_files_unchanged": 51
+}

@@ -1,0 +1,9 @@
+{
+  "status": "UNEXECUTED_ADAPTER_PREPARATION_REVISED_NOT_ACCEPTANCE",
+  "initial_verifier_sha256": "277ea999da7e1f6d273dcab38773c4410c103f359a5bcabebc5eba44c4f92587",
+  "current_files_sha256": {
+    "prepare_closure.py": "d1651e036646882fc5a78e6c9ebb60cd57aa2ce9c8db9ddfb60c144278d43b75",
+    "verify_and_record.py": "35834c3ac99f239da07c7f5aee3c23ffc9e67dbac07ff1fd8338955d79ad4df1"
+  },
+  "reason": "Direct artifact invocation needs workspace sys.path; correct D2 docstring and include early, partial and independent evidence roots"
+}

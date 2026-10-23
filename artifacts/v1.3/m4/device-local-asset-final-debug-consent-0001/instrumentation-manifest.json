@@ -1,0 +1,92 @@
+{
+  "started_at": "2026-10-11T22:22:00.366385+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.PackImportConsentTest",
+  "variant": "debug",
+  "runner_sha256": "bf8c46acaaddcfaef8e2f27d05bc5917117a46741e4d749867568bc60a17f6b8",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~hwud0CJa2Oe3wXpok_lzQA==/org.packrag.product-ipp_mTFK8ouMQp_kpCjaJA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~hwud0CJa2Oe3wXpok_lzQA==/org.packrag.product-ipp_mTFK8ouMQp_kpCjaJA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124  /data/app/~~hwud0CJa2Oe3wXpok_lzQA==/org.packrag.product-ipp_mTFK8ouMQp_kpCjaJA==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~Bg1S9KuE-7lbYZqOE5cJwQ==/org.packrag.product.test-43g_BPo_A4DW4hNw7mqvNw==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "sha256sum",
+        "/data/app/~~Bg1S9KuE-7lbYZqOE5cJwQ==/org.packrag.product.test-43g_BPo_A4DW4hNw7mqvNw==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "ab7312f059a93ddf41abc61136087ea54b8b3aeab4c3249c189a14644539789b  /data/app/~~Bg1S9KuE-7lbYZqOE5cJwQ==/org.packrag.product.test-43g_BPo_A4DW4hNw7mqvNw==/base.apk\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.PackImportConsentTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+    "app-debug-androidTest.apk": "ab7312f059a93ddf41abc61136087ea54b8b3aeab4c3249c189a14644539789b"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.PackImportConsentTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackImportConsentTest.kt",
+      "source_sha256": "7de5d03463241c60750c2d9e3a215f22a9c30f5443367b7302fd43227111e9c8"
+    }
+  },
+  "transport": "VERIFY_EXACT_INSTALLED_APKS_NO_REINSTALL",
+  "status": "PASS"
+}

@@ -1,0 +1,160 @@
+{
+  "id": "DIFFERENT_CURATORS",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "generate_calls_for_case": 0,
+  "result": {
+    "state": "IDENTIFIER_AMBIGUOUS",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What is the maximum continuous operating temperature of the Aster-9?",
+      "as_of": "2026-10-07",
+      "jurisdiction": "MA",
+      "current_law": false,
+      "normalized": "what is the maximum continuous operating temperature of the aster-9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.conflict.curator-a",
+        "1.0.0",
+        "980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206"
+      ],
+      [
+        "org.packrag.contract.conflict.curator-b",
+        "1.0.0",
+        "4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac"
+      ]
+    ],
+    "generator": {
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "quantization": "QAD-Q4_0",
+      "backend": "llama.cpp-cpu-wsl-desktop"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 10.38939999853028,
+      "retrieval_ms": 1.5028000016172882,
+      "end_to_end_ms": 12.086800001270603
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.conflict.curator-b",
+        "chunk_id": "bae9d841f870c8bc6f110bfb",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9597538709640503,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.curator-b",
+            "1.0.0",
+            "4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac"
+          ]
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.curator-b@1.0.0:4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac#bae9d841f870c8bc6f110bfb",
+              "org.packrag.contract.conflict.curator-a@1.0.0:980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206#a3a47a8b2e383ef11b25603f"
+            ],
+            "state": "UNRESOLVED",
+            "reason": "INCOMPARABLE_CURATORS",
+            "preferred": null,
+            "retained": [
+              "org.packrag.contract.conflict.curator-b@1.0.0:4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac#bae9d841f870c8bc6f110bfb",
+              "org.packrag.contract.conflict.curator-a@1.0.0:980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206#a3a47a8b2e383ef11b25603f"
+            ],
+            "required": []
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 0,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:466a8424cc0cb1d1128440cfb2fec8f228dd4760884bc0559bd717217b6abf92",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.contract.conflict.curator-a",
+        "chunk_id": "a3a47a8b2e383ef11b25603f",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9591396450996399,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.conflict.curator-a",
+            "1.0.0",
+            "980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206"
+          ]
+        ],
+        "conflicts": [
+          {
+            "members": [
+              "org.packrag.contract.conflict.curator-b@1.0.0:4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac#bae9d841f870c8bc6f110bfb",
+              "org.packrag.contract.conflict.curator-a@1.0.0:980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206#a3a47a8b2e383ef11b25603f"
+            ],
+            "state": "UNRESOLVED",
+            "reason": "INCOMPARABLE_CURATORS",
+            "preferred": null,
+            "retained": [
+              "org.packrag.contract.conflict.curator-b@1.0.0:4349c645e8ed9f9ceced9b6a7a66e1f9c84fb54eb4583090bd4ed6e8367e46ac#bae9d841f870c8bc6f110bfb",
+              "org.packrag.contract.conflict.curator-a@1.0.0:980be2b8b8434e7800ab39d906b03643c3aa1dfec9359914fe75e5ffe49e7206#a3a47a8b2e383ef11b25603f"
+            ],
+            "required": []
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": "MA",
+          "legal_status": "active"
+        },
+        "source_metadata": {
+          "authority_rank": 1,
+          "document_version": null,
+          "issued_at": null,
+          "article": "Aster-9",
+          "publisher_key_id": "ed25519:5465e838f7146dbbc1cf2e277317bdc4cf2a75765e74522310122c6f98e4f0f6",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": []
+  }
+}

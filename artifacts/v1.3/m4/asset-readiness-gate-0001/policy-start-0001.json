@@ -1,0 +1,11 @@
+{
+  "status": "RUNNING_POLICY_AFTER_ACTUAL_UI_VISUAL_PASS_NOT_F1_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T15:30:58.615443+00:00",
+  "ui_methods": 1,
+  "ui_controls": 5,
+  "ui_whole_instrumentation_seconds": 98.399,
+  "ui_visual_sha256": "218f9a34cef390eb979dbf3bd3aab3bc3bc2c4b724c23b001ba20a78f73e1944",
+  "policy_sequence_started_utc": "2026-10-11T15:29:31.602644+00:00",
+  "foreground_window_over": true,
+  "scope": "Actual real-file/recreation/question/owned-answer/source navigation UI and original report/two PNGs pass. Manual review names exact visible fields and does not claim offscreen encoder size/hash/timestamp. Owner may use other apps/chat with USB/mobile data preserved; PackRAG closed during subsequent background guards. New approved-policy core/adjacent originals and restored development consent/final source/known50-file guards remain required. No F1 closure or F2 implementation."
+}

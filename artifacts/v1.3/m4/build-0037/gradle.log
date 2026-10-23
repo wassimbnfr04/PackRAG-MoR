@@ -1,0 +1,270 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+Unable to initialize metrics, ensure C:\Users\Fkagf\.android is writable, details: C:\Users\Fkagf\.android\analytics.settings (Access is denied)
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :core-model:preBuild UP-TO-DATE
+> Task :core-model:preDebugBuild UP-TO-DATE
+> Task :core-model:processDebugNavigationResources UP-TO-DATE
+> Task :embedding-onnx:preBuild UP-TO-DATE
+> Task :embedding-onnx:preDebugBuild UP-TO-DATE
+> Task :embedding-onnx:processDebugNavigationResources UP-TO-DATE
+> Task :generator-api:preBuild UP-TO-DATE
+> Task :generator-api:preDebugBuild UP-TO-DATE
+> Task :generator-api:processDebugNavigationResources UP-TO-DATE
+> Task :generator-llama:preBuild UP-TO-DATE
+> Task :generator-llama:preDebugBuild UP-TO-DATE
+> Task :generator-llama:processDebugNavigationResources UP-TO-DATE
+> Task :grounded-runtime:preBuild UP-TO-DATE
+> Task :grounded-runtime:preDebugBuild UP-TO-DATE
+> Task :grounded-runtime:processDebugNavigationResources UP-TO-DATE
+> Task :kpack-registry:preBuild UP-TO-DATE
+> Task :kpack-registry:preDebugBuild UP-TO-DATE
+> Task :kpack-registry:processDebugNavigationResources UP-TO-DATE
+> Task :retrieval:preBuild UP-TO-DATE
+> Task :retrieval:preDebugBuild UP-TO-DATE
+> Task :retrieval:processDebugNavigationResources UP-TO-DATE
+> Task :security-crypto:preBuild UP-TO-DATE
+> Task :security-crypto:preDebugBuild UP-TO-DATE
+> Task :security-crypto:processDebugNavigationResources UP-TO-DATE
+> Task :source-viewer:preBuild UP-TO-DATE
+> Task :source-viewer:preDebugBuild UP-TO-DATE
+> Task :source-viewer:processDebugNavigationResources
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :core-model:generateDebugResources UP-TO-DATE
+> Task :core-model:packageDebugResources UP-TO-DATE
+> Task :core-model:parseDebugLocalResources UP-TO-DATE
+> Task :core-model:generateDebugRFile UP-TO-DATE
+> Task :core-model:javaPreCompileDebug UP-TO-DATE
+> Task :embedding-onnx:generateDebugResources UP-TO-DATE
+> Task :embedding-onnx:packageDebugResources UP-TO-DATE
+> Task :embedding-onnx:parseDebugLocalResources UP-TO-DATE
+> Task :embedding-onnx:generateDebugRFile UP-TO-DATE
+> Task :embedding-onnx:javaPreCompileDebug UP-TO-DATE
+> Task :generator-api:generateDebugResources UP-TO-DATE
+> Task :generator-api:packageDebugResources UP-TO-DATE
+> Task :generator-api:parseDebugLocalResources UP-TO-DATE
+> Task :generator-api:generateDebugRFile UP-TO-DATE
+> Task :generator-api:compileDebugKotlin UP-TO-DATE
+> Task :generator-api:javaPreCompileDebug UP-TO-DATE
+> Task :generator-api:compileDebugJavaWithJavac NO-SOURCE
+> Task :generator-api:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :generator-llama:generateDebugResources UP-TO-DATE
+> Task :generator-llama:packageDebugResources UP-TO-DATE
+> Task :generator-llama:parseDebugLocalResources UP-TO-DATE
+> Task :generator-llama:generateDebugRFile UP-TO-DATE
+> Task :security-crypto:generateDebugResources UP-TO-DATE
+> Task :security-crypto:packageDebugResources UP-TO-DATE
+> Task :security-crypto:parseDebugLocalResources UP-TO-DATE
+> Task :security-crypto:generateDebugRFile UP-TO-DATE
+> Task :security-crypto:compileDebugKotlin UP-TO-DATE
+> Task :security-crypto:javaPreCompileDebug UP-TO-DATE
+> Task :security-crypto:compileDebugJavaWithJavac NO-SOURCE
+> Task :security-crypto:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :generator-llama:compileDebugKotlin UP-TO-DATE
+> Task :generator-llama:javaPreCompileDebug UP-TO-DATE
+> Task :generator-llama:compileDebugJavaWithJavac NO-SOURCE
+> Task :generator-llama:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :grounded-runtime:generateDebugResources UP-TO-DATE
+> Task :grounded-runtime:packageDebugResources UP-TO-DATE
+> Task :grounded-runtime:parseDebugLocalResources UP-TO-DATE
+> Task :grounded-runtime:generateDebugRFile UP-TO-DATE
+> Task :kpack-registry:generateDebugResources UP-TO-DATE
+> Task :kpack-registry:packageDebugResources UP-TO-DATE
+> Task :kpack-registry:parseDebugLocalResources UP-TO-DATE
+> Task :kpack-registry:generateDebugRFile UP-TO-DATE
+> Task :kpack-registry:javaPreCompileDebug UP-TO-DATE
+> Task :retrieval:generateDebugResources UP-TO-DATE
+> Task :retrieval:packageDebugResources UP-TO-DATE
+> Task :retrieval:parseDebugLocalResources UP-TO-DATE
+> Task :retrieval:generateDebugRFile UP-TO-DATE
+> Task :retrieval:javaPreCompileDebug UP-TO-DATE
+> Task :grounded-runtime:javaPreCompileDebug UP-TO-DATE
+> Task :source-viewer:generateDebugResources
+> Task :source-viewer:packageDebugResources
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :core-model:writeDebugAarMetadata UP-TO-DATE
+> Task :embedding-onnx:writeDebugAarMetadata UP-TO-DATE
+> Task :source-viewer:javaPreCompileDebug
+> Task :generator-api:writeDebugAarMetadata UP-TO-DATE
+> Task :generator-llama:writeDebugAarMetadata UP-TO-DATE
+> Task :grounded-runtime:writeDebugAarMetadata UP-TO-DATE
+> Task :kpack-registry:writeDebugAarMetadata UP-TO-DATE
+> Task :retrieval:writeDebugAarMetadata UP-TO-DATE
+> Task :security-crypto:writeDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :source-viewer:writeDebugAarMetadata
+> Task :source-viewer:parseDebugLocalResources
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :core-model:extractDeepLinksDebug UP-TO-DATE
+> Task :core-model:processDebugManifest UP-TO-DATE
+> Task :embedding-onnx:extractDeepLinksDebug UP-TO-DATE
+> Task :embedding-onnx:processDebugManifest UP-TO-DATE
+> Task :generator-api:extractDeepLinksDebug UP-TO-DATE
+> Task :generator-api:processDebugManifest UP-TO-DATE
+> Task :generator-llama:extractDeepLinksDebug UP-TO-DATE
+> Task :generator-llama:processDebugManifest UP-TO-DATE
+> Task :grounded-runtime:extractDeepLinksDebug UP-TO-DATE
+> Task :grounded-runtime:processDebugManifest UP-TO-DATE
+> Task :kpack-registry:extractDeepLinksDebug UP-TO-DATE
+> Task :kpack-registry:processDebugManifest UP-TO-DATE
+> Task :retrieval:extractDeepLinksDebug UP-TO-DATE
+> Task :source-viewer:generateDebugRFile
+> Task :retrieval:processDebugManifest UP-TO-DATE
+> Task :security-crypto:extractDeepLinksDebug UP-TO-DATE
+> Task :security-crypto:processDebugManifest UP-TO-DATE
+> Task :source-viewer:extractDeepLinksDebug
+> Task :core-model:mapDebugSourceSetPaths UP-TO-DATE
+> Task :core-model:compileDebugLibraryResources UP-TO-DATE
+> Task :embedding-onnx:mapDebugSourceSetPaths UP-TO-DATE
+> Task :embedding-onnx:compileDebugLibraryResources UP-TO-DATE
+> Task :generator-api:mapDebugSourceSetPaths UP-TO-DATE
+> Task :generator-api:compileDebugLibraryResources UP-TO-DATE
+> Task :generator-llama:mapDebugSourceSetPaths UP-TO-DATE
+> Task :generator-llama:compileDebugLibraryResources UP-TO-DATE
+> Task :grounded-runtime:mapDebugSourceSetPaths UP-TO-DATE
+> Task :grounded-runtime:compileDebugLibraryResources UP-TO-DATE
+> Task :kpack-registry:mapDebugSourceSetPaths UP-TO-DATE
+> Task :kpack-registry:compileDebugLibraryResources UP-TO-DATE
+> Task :retrieval:mapDebugSourceSetPaths UP-TO-DATE
+> Task :retrieval:compileDebugLibraryResources UP-TO-DATE
+> Task :security-crypto:mapDebugSourceSetPaths UP-TO-DATE
+> Task :security-crypto:compileDebugLibraryResources UP-TO-DATE
+> Task :source-viewer:mapDebugSourceSetPaths
+> Task :app:checkDebugAarMetadata
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :generator-api:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :generator-api:processDebugJavaRes UP-TO-DATE
+> Task :generator-llama:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :source-viewer:compileDebugLibraryResources
+> Task :generator-llama:processDebugJavaRes UP-TO-DATE
+> Task :security-crypto:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :security-crypto:processDebugJavaRes UP-TO-DATE
+> Task :core-model:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-model:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :core-model:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :embedding-onnx:preDebugUnitTestBuild UP-TO-DATE
+> Task :embedding-onnx:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :embedding-onnx:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :generator-api:preDebugUnitTestBuild UP-TO-DATE
+> Task :generator-api:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :generator-api:compileDebugUnitTestKotlin UP-TO-DATE
+> Task :generator-api:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :generator-api:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :generator-api:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :generator-api:testDebugUnitTest UP-TO-DATE
+> Task :generator-llama:preDebugUnitTestBuild UP-TO-DATE
+> Task :generator-llama:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :generator-llama:compileDebugUnitTestKotlin UP-TO-DATE
+> Task :generator-llama:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :generator-llama:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :generator-llama:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :generator-llama:testDebugUnitTest UP-TO-DATE
+> Task :grounded-runtime:preDebugUnitTestBuild UP-TO-DATE
+> Task :grounded-runtime:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :grounded-runtime:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :kpack-registry:preDebugUnitTestBuild UP-TO-DATE
+> Task :kpack-registry:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :kpack-registry:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :retrieval:preDebugUnitTestBuild UP-TO-DATE
+> Task :retrieval:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :retrieval:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :security-crypto:preDebugUnitTestBuild UP-TO-DATE
+> Task :security-crypto:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :security-crypto:compileDebugUnitTestKotlin UP-TO-DATE
+> Task :security-crypto:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :security-crypto:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :security-crypto:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :source-viewer:processDebugManifest
+> Task :security-crypto:testDebugUnitTest UP-TO-DATE
+
+> Task :core-model:compileDebugKotlin
+e: java.nio.file.AccessDeniedException: C:\Users\Fkagf\AppData\Local\kotlin\daemon\kotlin-daemon-client-tsmarker10764252586289592754.tmp
+
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :source-viewer:preDebugUnitTestBuild UP-TO-DATE
+> Task :source-viewer:generateDebugUnitTestStubRFile FAILED
+> Task :app:processDebugResources
+
+
+[Incubating] Problems report is available at: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/build/reports/problems/problems-report.html
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':source-viewer:generateDebugUnitTestStubRFile' (registered by plugin 'com.android.internal.library').
+> Could not resolve all files for configuration ':source-viewer:debugUnitTestRuntimeClasspath'.
+   > Could not resolve androidx.activity:activity-compose:1.8.2.
+     Required by:
+         project ':source-viewer' > androidx.compose.material3:material3:1.4.0 > androidx.compose.material3:material3-android:1.4.0
+      > No cached version of androidx.activity:activity-compose:1.8.2 available for offline mode.
+      > No cached version of androidx.activity:activity-compose:1.8.2 available for offline mode.
+   > Could not resolve androidx.lifecycle:lifecycle-common-java8:2.6.1.
+     Required by:
+         project ':source-viewer' > androidx.compose.material3:material3:1.4.0 > androidx.compose.material3:material3-android:1.4.0
+      > No cached version of androidx.lifecycle:lifecycle-common-java8:2.6.1 available for offline mode.
+      > No cached version of androidx.lifecycle:lifecycle-common-java8:2.6.1 available for offline mode.
+   > Could not resolve androidx.core:core:1.16.0.
+     Required by:
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.foundation:foundation-android:1.12.1
+      > No cached version of androidx.core:core:1.16.0 available for offline mode.
+      > No cached version of androidx.core:core:1.16.0 available for offline mode.
+   > Could not resolve androidx.activity:activity-ktx:1.7.0.
+     Required by:
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.ui:ui-android:1.12.1
+      > No cached version of androidx.activity:activity-ktx:1.7.0 available for offline mode.
+      > No cached version of androidx.activity:activity-ktx:1.7.0 available for offline mode.
+   > Could not resolve androidx.lifecycle:lifecycle-runtime-compose:2.9.4.
+     Required by:
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.ui:ui-android:1.12.1
+      > No cached version of androidx.lifecycle:lifecycle-runtime-compose:2.9.4 available for offline mode.
+      > No cached version of androidx.lifecycle:lifecycle-runtime-compose:2.9.4 available for offline mode.
+   > Could not resolve androidx.lifecycle:lifecycle-viewmodel:2.9.2.
+     Required by:
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.ui:ui-android:1.12.1
+      > No cached version of androidx.lifecycle:lifecycle-viewmodel:2.9.2 available for offline mode.
+      > No cached version of androidx.lifecycle:lifecycle-viewmodel:2.9.2 available for offline mode.
+   > Could not resolve androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.2.
+     Required by:
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.ui:ui-android:1.12.1
+      > No cached version of androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.2 available for offline mode.
+      > No cached version of androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.2 available for offline mode.
+   > Could not resolve androidx.core:core-ktx:1.13.1.
+     Required by:
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.ui:ui-android:1.12.1 > androidx.customview:customview-poolingcontainer:1.0.0
+      > No cached version of androidx.core:core-ktx:1.13.1 available for offline mode.
+      > No cached version of androidx.core:core-ktx:1.13.1 available for offline mode.
+   > Could not resolve androidx.lifecycle:lifecycle-process:2.4.1.
+     Required by:
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.foundation:foundation-android:1.12.1 > androidx.emoji2:emoji2:1.4.0
+      > No cached version of androidx.lifecycle:lifecycle-process:2.4.1 available for offline mode.
+      > No cached version of androidx.lifecycle:lifecycle-process:2.4.1 available for offline mode.
+   > Could not resolve androidx.savedstate:savedstate:1.3.2.
+     Required by:
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.ui:ui-android:1.12.1 > androidx.savedstate:savedstate-compose:1.3.2 > androidx.savedstate:savedstate-compose-android:1.3.2
+         project ':source-viewer' > androidx.compose:compose-bom:2026.09.00 > androidx.compose.ui:ui-android:1.12.1 > androidx.savedstate:savedstate-ktx:1.3.2
+      > No cached version of androidx.savedstate:savedstate:1.3.2 available for offline mode.
+      > No cached version of androidx.savedstate:savedstate:1.3.2 available for offline mode.
+> There are 16 more failures with identical causes.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 57s
+156 actionable tasks: 16 executed, 140 up-to-date

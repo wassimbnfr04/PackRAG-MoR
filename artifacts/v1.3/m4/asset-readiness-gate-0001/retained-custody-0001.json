@@ -1,0 +1,12 @@
+{
+  "status": "PASS_RETAINED_PUBLIC_CUSTODY_AND_SOURCE_IDENTITY_NOT_FRESH_TEST_RUN_OR_F1_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T15:12:32.591737+00:00",
+  "prior_e3_gate_sha256": "683272dc411f8065ea8fc8811475f74348ab741a9b7f0c726524bea14f5ed702",
+  "prior_e3_public_outputs_unchanged": 1131,
+  "historical_guard_sha256": "a1bac4d84b9a8d8b7da46939eb4a0c0d7d2c2779631c1e0d9743863142a17501",
+  "historical_public_files_unchanged": 587,
+  "retained_python_tests": 1034,
+  "unchanged_python_runtime_inputs": 188,
+  "current_android_inputs": 579,
+  "scope": "Exact independently pre-existing public SHA whitelists, private custody excluded before access. E3 results and old failures unchanged. Retained1034 Python and prior desktop gates are not newly executed at F1. Actual current F1 host/device/UI/policy tests and final closure remain separate; fresh full regression required at F4."
+}

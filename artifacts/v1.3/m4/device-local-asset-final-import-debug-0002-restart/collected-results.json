@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-11T21:38:40.073479+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-debug.apk": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+    "app-debug-androidTest.apk": "ab7312f059a93ddf41abc61136087ea54b8b3aeab4c3249c189a14644539789b"
+  },
+  "saved_sha256": {
+    "m4-local-asset-import-process-death.json": "70358cae4869620dc2ddeca4355b25ee643b98dfe935eb20b7eb1dcb6af2af89",
+    "m4-local-asset-import-process-death-progress.json": "70358cae4869620dc2ddeca4355b25ee643b98dfe935eb20b7eb1dcb6af2af89"
+  },
+  "formatted_primary_parsed_equal": [
+    "m4-local-asset-import-process-death.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-asset-import-process-death.json"
+      ],
+      "started_at": "2026-10-11T21:38:39.753044+00:00",
+      "ended_at": "2026-10-11T21:38:39.947439+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-asset-import-process-death-progress.json"
+      ],
+      "started_at": "2026-10-11T21:38:39.947439+00:00",
+      "ended_at": "2026-10-11T21:38:40.067857+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

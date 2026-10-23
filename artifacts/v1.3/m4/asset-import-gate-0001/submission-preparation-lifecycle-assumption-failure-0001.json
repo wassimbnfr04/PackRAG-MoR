@@ -1,0 +1,6 @@
+{
+  "status": "FAIL_PREPARATION_ASSUMED_CREATED_OBSERVED_STARTED_NOT_PRODUCT_FAILURE",
+  "script_sha256": "721984f51e2398785ce5ba3f1d3d761db4820fac55095546e8189041451989d5",
+  "observed_lifecycle": "STARTED",
+  "scope": "Actual UI3 recreated a paused non-resumed caller behind DocumentsUI. Reject the preparation helper assumption that this must already be fully stopped; all actual destruction/new-instance/saved-bundle/foreground facts remain mandatory."
+}

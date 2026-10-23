@@ -1,0 +1,168 @@
+{
+  "status": "PASS_FINAL_SOURCE_IMPORT_7_METHODS_54_CONTROLS_NOT_FULL_F2",
+  "started_utc": "2026-10-11T21:23:03.816028+00:00",
+  "build": "build-0076",
+  "prefix": "device-local-asset-final-import-debug-0002",
+  "runner_sha256": "0ba66dc62cd67a138964fd837aae57457abaed2cd9f226c41afcd1432289bd18",
+  "preparation_sha256": "e4c1bd56c587023826ac63fce85035995ddf618c1f81734d10a0b7e8da142ca4",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0076",
+        "--output",
+        "device-local-asset-final-import-debug-0002-before-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-final-import-debug-0002-before-known.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\run_final_restart_installed_0001.py",
+        "--build",
+        "build-0076",
+        "--run",
+        "device-local-asset-final-import-debug-0002-restart"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\run_final_all_slots_installed_0001.py",
+        "--build",
+        "build-0076",
+        "--run",
+        "device-local-asset-final-import-debug-0002-all-slots",
+        "--source-preparation",
+        "device-local-asset-final-import-debug-0002-before-source.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\run_final_viewmodel_installed_0001.py",
+        "--build",
+        "build-0076",
+        "--run",
+        "device-local-asset-final-import-debug-0002-viewmodel"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0076",
+        "--output",
+        "device-local-asset-final-import-debug-0002-after-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-final-import-debug-0002-after-known.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "completed": [
+    {
+      "selection": "faults",
+      "methods": 3,
+      "controls": 28,
+      "run": "device-local-asset-final-import-debug-0001-faults",
+      "execution_sha256": "1b3133d8efcd938c40a43e08ac4dc83665b9cfafc97fa70e16ef6f531e39c077",
+      "manifest_sha256": "1095e80adbaa0a80cab9a885cc1cfd40a67135de5fb5864509b313d85bdd22d1",
+      "original_sha256": {
+        "m4-local-asset-import-uri-faults.json": "d1ffb1ebab6c9e715ae2f4303e3f6d10032352e8532e12c1ed0c4d757d5f3f46",
+        "m4-local-asset-import-provider-cancel.json": "ea003421c6da532b02d506b9207f707d419288e8cdf62b952da4f309c421961d",
+        "m4-local-asset-import-path-recovery.json": "48cdc543e536a80f51e3fea411fa73b436e5abb417c0611b107cb1c741e568e3"
+      },
+      "retained_from_failed_parent_sha256": "4d1b520d43cc68bef515042c30b6abe3d54fbe0001d1c1c468ae3841ecb0da69"
+    },
+    {
+      "selection": "walking",
+      "methods": 1,
+      "controls": 7,
+      "run": "device-local-asset-final-walking-debug-0002",
+      "execution_sha256": "92d964e5cba76995a1f2e2c84defbe62f855010f49868aaa92ce72598e227c67",
+      "manifest_sha256": "92d964e5cba76995a1f2e2c84defbe62f855010f49868aaa92ce72598e227c67",
+      "original_sha256": {
+        "m4-local-asset-import-walking.json": "d729a92b608a8dbc91e96d34b500ee23064fb31107cdbedeab16bf0cb710bc3a"
+      }
+    },
+    {
+      "selection": "restart",
+      "methods": 1,
+      "controls": 3,
+      "run": "device-local-asset-final-import-debug-0002-restart",
+      "execution_sha256": "eb0a7562c152adb08c2da2df9caeaaf4ffb41e6acb225a5de520b41bcb75f346",
+      "manifest_sha256": "c8e91c3f679813f2e2b7b9616fe4e8bee04c703153f1951ba216272755b2c403",
+      "original_sha256": {
+        "m4-local-asset-import-process-death.json": "70358cae4869620dc2ddeca4355b25ee643b98dfe935eb20b7eb1dcb6af2af89",
+        "m4-local-asset-import-process-death-progress.json": "70358cae4869620dc2ddeca4355b25ee643b98dfe935eb20b7eb1dcb6af2af89"
+      }
+    },
+    {
+      "selection": "all-slots",
+      "methods": 1,
+      "controls": 8,
+      "run": "device-local-asset-final-import-debug-0002-all-slots",
+      "execution_sha256": "49589fd811e1f40b7a88ccd145aeabc609472d333388a89e521821f206745e2d",
+      "manifest_sha256": "2b6cca74cdf47dfa956ce63034d48d797726c560245e60048088c0d0c2cf5eca",
+      "original_sha256": {
+        "m4-local-asset-import-all-slots.json": "6f65385dbf724ec8259415575e0e030cc8c142c101dedc92d01cc22e382fb574",
+        "m4-local-asset-import-all-slots-progress.json": "6f65385dbf724ec8259415575e0e030cc8c142c101dedc92d01cc22e382fb574"
+      }
+    },
+    {
+      "selection": "viewmodel",
+      "methods": 1,
+      "controls": 8,
+      "run": "device-local-asset-final-import-debug-0002-viewmodel",
+      "execution_sha256": "60674b0e4eb05d6279fede3088a1e803ce2f06ec2e194ad9c397a05a6369ea59",
+      "manifest_sha256": "a0ce6c2a545d6518587827bf49267926a06b340a8c360ab429fa92d45674352c",
+      "original_sha256": {
+        "m4-local-asset-import-viewmodel.json": "c64c2c072812c155a0245be8d2d117ea3b4d3f0094b74f39b49fe7637c2cb9df",
+        "m4-local-asset-import-viewmodel-progress.json": "55b093db04d56de1ca032412a76951c39bd64abcf3a596f279b6cf1adcbf99d9"
+      }
+    }
+  ],
+  "retry_scope": "Fresh original accepted fault3/28 and separately strict identical-code walking1/7; failed grant attempt retained. Root cause of earlier unpersisted callback output is not established. No assertion weakening/source or product change.",
+  "active_selection": "viewmodel",
+  "scope": "Fresh final599 inputs, actual7 methods/54 controls; deep semantic validators retained, originals saved before next step; real pinned LFM walking/restart/allslot/ViewModel paths. Installed APK identities checked without reinstall, owner50/source4 unchanged. Historical results/runners unchanged. Watchdogs are functional safety bounds, not performance acceptance. Whole F2 policy/restoration/custody/cleanup/closure/checkpoint independent.",
+  "finished_utc": "2026-10-11T21:56:36.378551+00:00"
+}

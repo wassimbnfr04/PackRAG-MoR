@@ -1,0 +1,139 @@
+{
+  "status": "PASS_ACTUAL_PHONE_NATIVE_QUOTE_CONTRACT_AND_WALKING_PATH_NOT_UI_OR_M4",
+  "started_utc": "2026-10-12T22:53:18.232922+00:00",
+  "serial": "R3CT908DHHR",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.product.model"
+      ],
+      "returncode": 0,
+      "stdout": "SM-S908B\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.product.cpu.abi"
+      ],
+      "returncode": 0,
+      "stdout": "arm64-v8a\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0119\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0119\\app-debug.apk: 1 file pushed, 0 skipped. 122.9 MB/s (121753289 bytes in 0.945s)\r\n"
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0119\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0119\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 169.7 MB/s (12580924 bytes in 0.071s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~lvzK3Mu5oUPnm5t42SBLZw==/org.packrag.product-zFIGzfwrxO77KEd9ItFQXg==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~lvzK3Mu5oUPnm5t42SBLZw==/org.packrag.product-zFIGzfwrxO77KEd9ItFQXg==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "b777bdd53a7061c4ad8d06d5833fd57d27c6647499caa0466831c79fb43aea39  /data/app/~~lvzK3Mu5oUPnm5t42SBLZw==/org.packrag.product-zFIGzfwrxO77KEd9ItFQXg==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~HwYNtrB6uW0DRYP5-wNL7Q==/org.packrag.product.test-ZI0ETVSdonMoF6CeFCLAxA==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~HwYNtrB6uW0DRYP5-wNL7Q==/org.packrag.product.test-ZI0ETVSdonMoF6CeFCLAxA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "885662364ea095caa8f236a9437404c5ba232765e5e8bd3302a8292e9ea9f98a  /data/app/~~HwYNtrB6uW0DRYP5-wNL7Q==/org.packrag.product.test-ZI0ETVSdonMoF6CeFCLAxA==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-native-quoted-runtime-0001.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved original bytes",
+      "stderr": ""
+    }
+  ],
+  "radios_or_settings_changed": false,
+  "apk_sha256": {
+    "app-debug.apk": "b777bdd53a7061c4ad8d06d5833fd57d27c6647499caa0466831c79fb43aea39",
+    "app-debug-androidTest.apk": "885662364ea095caa8f236a9437404c5ba232765e5e8bd3302a8292e9ea9f98a"
+  },
+  "instrumentation_started_utc": "2026-10-12T22:54:25.483618+00:00",
+  "instrumentation_argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "shell",
+    "am",
+    "instrument",
+    "-w",
+    "-r",
+    "-e",
+    "class",
+    "org.packrag.product.QuotedNativeRuntimeDeviceTest",
+    "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+  ],
+  "observer_pid": 14748,
+  "instrumentation_returncode": 0,
+  "observed_report_sha256": "57db1685ad25585b075a2885c36209791d8f594afaf7b204f12aa7e993303872",
+  "android_inputs_unchanged": 639,
+  "owner_public_files_unchanged": 51,
+  "updated_utc": "2026-10-12T23:14:02.111082+00:00"
+}

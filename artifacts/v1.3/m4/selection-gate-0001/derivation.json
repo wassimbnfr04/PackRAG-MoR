@@ -1,0 +1,168 @@
+{
+  "status": "PREPARED_NOT_ACCEPTANCE",
+  "records": [
+    {
+      "base": "artifacts\\v1.3\\m4\\representation-gate-0002\\verify_and_record.py",
+      "base_sha256": "4014055b826affbac811483d7ef0b1fb78f93350a1e88890f592a5502fc07523",
+      "output": "artifacts\\v1.3\\m4\\selection-gate-0001\\retained_checks.py",
+      "output_sha256": "cc20c27e660ef3af9f09987bef61188cef325096bf32560da49af7c01bdd3577",
+      "versioned_name_changes": [
+        {
+          "before": "run-0010",
+          "after": "run-0012",
+          "count": 2
+        },
+        {
+          "before": "smoke-0010",
+          "after": "selection-walking-0002",
+          "count": 3
+        },
+        {
+          "before": "build-0020",
+          "after": "build-0026",
+          "count": 15
+        },
+        {
+          "before": "build-0021",
+          "after": "build-0027",
+          "count": 11
+        },
+        {
+          "before": "conflict-smoke-0006",
+          "after": "conflict-smoke-0007",
+          "count": 4
+        },
+        {
+          "before": "relevance-smoke-0003",
+          "after": "relevance-smoke-0004",
+          "count": 4
+        },
+        {
+          "before": "representation-smoke-0003",
+          "after": "representation-smoke-0004",
+          "count": 4
+        },
+        {
+          "before": "source-text-smoke-0001",
+          "after": "source-text-smoke-0002",
+          "count": 3
+        },
+        {
+          "before": "device-representations-0002",
+          "after": "device-selection-full-0001",
+          "count": 2
+        },
+        {
+          "before": "device-production-representations-0002",
+          "after": "device-production-selection-0001",
+          "count": 2
+        },
+        {
+          "before": "device-development-restore-0009",
+          "after": "device-development-restore-0010",
+          "count": 1
+        },
+        {
+          "before": "demo-apk-inspection-0010",
+          "after": "demo-apk-inspection-0011",
+          "count": 2
+        },
+        {
+          "before": "tests=954",
+          "after": "tests=1010",
+          "count": 2
+        },
+        {
+          "before": "== 29",
+          "after": "== 34",
+          "count": 1
+        },
+        {
+          "before": "==29",
+          "after": "==34",
+          "count": 1
+        }
+      ],
+      "additive_changes": "SelectionDeviceTest prefix, three result files, dev30/policy25; adapter restricted to check-only"
+    },
+    {
+      "base": "artifacts\\v1.3\\m4\\representation-gate-0002\\prephone_audit.py",
+      "base_sha256": "177cade4e328fa1af3372b42f8135ab67f6c86f2f89e5ee342bae471fb192b3a",
+      "output": "artifacts\\v1.3\\m4\\selection-gate-0001\\prephone_audit.py",
+      "output_sha256": "c6b01952af523e00f2bc8b4381d5be4a49aa6e35e3d62ade2939e1e708791d7c",
+      "versioned_name_changes": [
+        {
+          "before": "run-0010",
+          "after": "run-0012",
+          "count": 1
+        },
+        {
+          "before": "smoke-0010",
+          "after": "selection-walking-0002",
+          "count": 1
+        },
+        {
+          "before": "build-0020",
+          "after": "build-0026",
+          "count": 4
+        },
+        {
+          "before": "build-0021",
+          "after": "build-0027",
+          "count": 2
+        },
+        {
+          "before": "conflict-smoke-0006",
+          "after": "conflict-smoke-0007",
+          "count": 1
+        },
+        {
+          "before": "relevance-smoke-0003",
+          "after": "relevance-smoke-0004",
+          "count": 1
+        },
+        {
+          "before": "representation-smoke-0003",
+          "after": "representation-smoke-0004",
+          "count": 1
+        },
+        {
+          "before": "source-text-smoke-0001",
+          "after": "source-text-smoke-0002",
+          "count": 2
+        },
+        {
+          "before": "tests=954",
+          "after": "tests=1010",
+          "count": 1
+        },
+        {
+          "before": "==29",
+          "after": "==34",
+          "count": 1
+        }
+      ],
+      "additive_changes": "Retained full regression/desktop/build source preflight"
+    },
+    {
+      "base": "artifacts\\v1.3\\m4\\representation-gate-0002\\inspect_demo.py",
+      "base_sha256": "f623bd37922d79b4c85b9462e12ff108459a26b1f48fb3bdfc0f10b5a3e78d64",
+      "output": "artifacts\\v1.3\\m4\\selection-gate-0001\\inspect_demo.py",
+      "output_sha256": "684c45f70766d19f2d0ed7d1453c00f45b03bd9f2fe42a54848117410344a0b0",
+      "versioned_name_changes": [
+        {
+          "before": "build-0021",
+          "after": "build-0027",
+          "count": 1
+        },
+        {
+          "before": "demo-apk-inspection-0010",
+          "after": "demo-apk-inspection-0011",
+          "count": 1
+        }
+      ],
+      "additive_changes": "Selection corpus excluded from product APK"
+    }
+  ],
+  "initial_guard_sha256": "832400a0660a360854b4d2843f2ddbfc6bf54d08281f953ee801eb2f3bb2b26c"
+}

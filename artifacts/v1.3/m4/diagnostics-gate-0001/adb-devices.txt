@@ -1,0 +1,3 @@
+List of devices attached
+R3CT908DHHR	device
+

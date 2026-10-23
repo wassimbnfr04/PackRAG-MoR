@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_UI_CLASS_PRESERVED_HOLD_LATER_PHASES_REPAIR_TEST_STARTUP_ONLY",
+  "recorded_utc": "2026-10-12T14:35:57.525987+00:00",
+  "failed_run": "device-consolidated-ui-0001-productaccessibilityuitest",
+  "observed": "First method failed in foreground check at initial readiness: expected org.packrag.product, actual null; second method passed; no overall class acceptance",
+  "repair": "Wait at most5seconds only while accessibility active package is null, then require exact org.packrag.product; another package remains immediate failure. No package/assertion removal or product edit",
+  "old_source_sha256": "53694b1fb0850a6565d184ac1b081d67b86465e649a85aa1efa22d8552af743b",
+  "window": "Existing45minute window0001 deadline retained; no implicit extension",
+  "scope": "Null startup bridge observation; not proved user interference or product runtime failure"
+}

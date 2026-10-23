@@ -1,0 +1,33 @@
+{
+  "scope": "Independent fixed control-flow expectations; synthetic costs are not GGUF token counts or semantic sufficiency",
+  "cases": [
+    {"id":"EMPTY","items":[],"selected":[]},
+    {"id":"BASE_ORDER","items":[{"key":"a"},{"key":"b"},{"key":"c"},{"key":"d"},{"key":"e"}],"selected":["a","b","c","d"],"reasons":{"e":"CHUNK_CAP"}},
+    {"id":"REVERSED_CALLER","items":[{"key":"c","position":3},{"key":"a","position":1},{"key":"b","position":2}],"selected":["a","b","c"]},
+    {"id":"COMPANION_AT_FIVE","items":[{"key":"a","required":["a","e"]},{"key":"b"},{"key":"c"},{"key":"d"},{"key":"e","required":["a","e"]}],"selected":["a","b","c","e"],"reasons":{"e":"REQUIRED_COMPANION","d":"CHUNK_CAP"}},
+    {"id":"TRANSITIVE_SHARED","items":[{"key":"a","required":["a","c"]},{"key":"b","required":["b","c"]},{"key":"c","required":["c","d"]},{"key":"d"}],"selected":["a","b","c","d"]},
+    {"id":"REQUIRED_CYCLE","items":[{"key":"a","required":["a","b"]},{"key":"b","required":["b","a"]}],"selected":["a","b"]},
+    {"id":"MISSING_MEMBER","items":[{"key":"a","required":["a","absent"]}],"error":"INCOMPLETE_LEGAL_CONFLICT_EVIDENCE"},
+    {"id":"UNRESOLVED_ROOT","items":[{"key":"a","resolved":false}],"error":"LEGAL_CONFLICT_UNRESOLVED"},
+    {"id":"UNRESOLVED_COMPANION","items":[{"key":"a","required":["b"]},{"key":"b","resolved":false}],"error":"LEGAL_CONFLICT_UNRESOLVED"},
+    {"id":"FIVE_MANDATORY","items":[{"key":"a","required":["a","b","c","d","e"]},{"key":"b"},{"key":"c"},{"key":"d"},{"key":"e"}],"error":"INCOMPLETE_LEGAL_CONFLICT_EVIDENCE"},
+    {"id":"AT_EVIDENCE_LIMIT","items":[{"key":"a"}],"costs":{"a":[1200,1536]},"selected":["a"]},
+    {"id":"OVER_EVIDENCE_LIMIT","items":[{"key":"a"},{"key":"b"}],"costs":{"a":[1201,1536]},"selected":["b"],"reasons":{"a":"TOKEN_CAP"}},
+    {"id":"OVER_PREFILL_LIMIT","items":[{"key":"a"},{"key":"b"}],"costs":{"a":[1200,1537]},"selected":["b"],"reasons":{"a":"TOKEN_CAP"}},
+    {"id":"ATOMIC_BUDGET_REJECT","items":[{"key":"a","required":["a","b"]},{"key":"b"}],"costs":{"a,b":[1201,1201]},"error":"INCOMPLETE_LEGAL_CONFLICT_EVIDENCE"},
+    {"id":"NONADDITIVE_TRIAL","items":[{"key":"a"},{"key":"b"},{"key":"c"}],"costs":{"a,b":[1201,1400],"a,c":[1200,1536]},"selected":["a","c"],"reasons":{"b":"TOKEN_CAP"}},
+    {"id":"LITERAL_SAME_CONTEXT","items":[{"key":"a","source":"s","canonical":"x"},{"key":"b","source":"s","canonical":"x"}],"selected":["a"],"reasons":{"b":"LITERAL_DUPLICATE"}},
+    {"id":"SAME_TEXT_OTHER_SOURCE","items":[{"key":"a","source":"s1","canonical":"x"},{"key":"b","source":"s2","canonical":"x"}],"selected":["a","b"]},
+    {"id":"SAME_SOURCE_OTHER_TEXT","items":[{"key":"a","source":"s","canonical":"x"},{"key":"b","source":"s","canonical":"y"}],"selected":["a","b"]},
+    {"id":"SAME_BYTES_OTHER_VERSION","items":[{"key":"a","source":"s","canonical":"x","context":"v1"},{"key":"b","source":"s","canonical":"x","context":"v2"}],"selected":["a","b"]},
+    {"id":"MANDATORY_LITERAL_EXEMPT","items":[{"key":"a","source":"s","canonical":"x","required":["b"]},{"key":"b","source":"s","canonical":"x"}],"selected":["a","b"]},
+    {"id":"TIED_SOURCE_COVERAGE","items":[{"key":"a","source":"s","value":1},{"key":"b","source":"s","value":1},{"key":"c","source":"t","value":1}],"chunk_cap":2,"selected":["a","c"],"reasons":{"b":"CHUNK_CAP"}},
+    {"id":"LOWER_VALUE_NO_JUMP","items":[{"key":"a","source":"s","value":3},{"key":"b","source":"s","value":2},{"key":"c","source":"t","value":1}],"chunk_cap":2,"selected":["a","b"]},
+    {"id":"NONCONTIGUOUS_TIE_NO_JUMP","items":[{"key":"a","source":"s","value":1},{"key":"b","source":"s","value":2},{"key":"c","source":"t","value":1}],"chunk_cap":2,"selected":["a","b"]},
+    {"id":"REPEATED_IDENTICAL_KEY","items":[{"key":"a","position":1},{"key":"a","position":1}],"selected":["a"]},
+    {"id":"INCONSISTENT_KEY","items":[{"key":"a","position":1},{"key":"a","position":2}],"error":"INVALID_SELECTION_POOL"},
+    {"id":"DUPLICATE_POSITION","items":[{"key":"a","position":1},{"key":"b","position":1}],"error":"INVALID_SELECTION_POOL"},
+    {"id":"INVALID_POSITION","items":[{"key":"a","position":0}],"error":"INVALID_SELECTION_POOL"},
+    {"id":"INVALID_CAP","items":[{"key":"a"}],"chunk_cap":0,"error":"INVALID_SELECTION_CAPS"}
+  ]
+}

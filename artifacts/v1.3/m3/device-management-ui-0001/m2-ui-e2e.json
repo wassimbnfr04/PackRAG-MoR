@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "purpose": "PHYSICAL_INTERACTIVE_ANDROID_QUESTION_ANSWER_CANONICAL_SOURCE_SMOKE",
+  "actual_weight_inference": true,
+  "developer_pack_seeded_before_activity": true,
+  "canonical_source_navigation": true,
+  "buffered_final_answer": true,
+  "limits": "One supported English synthetic question; not release packs, calibration, full screen/security/interactive performance acceptance"
+}

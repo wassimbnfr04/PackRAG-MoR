@@ -1,0 +1,39 @@
+{
+  "status": "PREPARED_SAME_SOURCE_APK_UI_RETRY_NOT_EXECUTION",
+  "original_driver_sha256": "fe8a37812d9f34e9e84346ac6e6e4f6daf5123cb0d428e4da432e014b41e48be",
+  "derived_driver_sha256": "bdf305c765a5a578766bd533db3a50b37063f94128e24f6ac343cc1239d18590",
+  "replacements": [
+    [
+      "device-ui-diagnostics-retained-0001",
+      "device-ui-diagnostics-retained-0002"
+    ],
+    [
+      "foreground-retained-readiness.json",
+      "foreground-retained-retry-readiness.json"
+    ],
+    [
+      "['owner_quote']=='GO AHEAD ILL LEAVE THE PHONE UNTOUCHED'",
+      "['owner_quote']=='Yes, retry after this run finishes; I will leave it untouched'"
+    ],
+    [
+      "retained-ui-execution.json",
+      "retained-ui-retry-execution.json"
+    ],
+    [
+      "retained-ui-stage-",
+      "retained-ui-retry-stage-"
+    ]
+  ],
+  "apk_sha256": {
+    "app-debug-androidTest.apk": "8050181d9c8cb090bed686e67217bfbd9d74b427ea487a600952500fcddf197b",
+    "app-debug.apk": "18612cdf48517ef5b00524882bc03383082df00ade8ff4b6a9a7e037bcee8abb"
+  },
+  "unchanged_android_inputs": 574,
+  "partial_failed_run_originals": {
+    "m4-source-details-languages-ui.json": "30bf5325021a7991e6d976e26bd44659571692e6bae608bf717a03d2440ae775",
+    "m3-pack-management-ui.json": "d8f0f537ff948fd4e4c92a829ee093705366c22f1f17e7ee466db668e1be530e",
+    "m4-source-details-ar.png": "9fa306497f3bcb1c91629213a9606393b572748302f1b44ed822446c3f05cdb5",
+    "m4-source-details-fr.png": "4ef640797ef405b8ad49f24511d4b972acb9c7d6be82590691eba843925efa50"
+  },
+  "scope": "No test/class/timeout/variant or production change. New untouched readiness/window, fresh execution/originals/PNG/visual required; old four-method suite remains FAIL."
+}

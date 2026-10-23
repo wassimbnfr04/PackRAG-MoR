@@ -1,0 +1,40 @@
+-------------------------------Preprocess Config -------------------------------
+Automatically determining batch size based on `total_batch_size`
+total_batch_size              : 1024 (given)
+torch.cuda.device_count()     : 1
+per_device_train_batch_size   : 1 (given)
+gradient_accumulation_steps   : 1024 (computed)
+actual total batch size       : 1024
+Setting wandb_run_name: 250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001
+Setting output_dir  : 250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001
+No checkpoint directories found matching C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\results\pretrain\250720_pretrain_smollm-360m_rec3_middle_cycle_random_lr3e-3_mor_expert_linear_alpha_0.1_sigmoid_aux_loss_0.001\checkpoint-*
+Using deepspeed config = C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\ds_configs/stage2.config
+C:\Users\Fkagf\Downloads\MOR CAPTSONE\reference\mor\official\util\config.py:95: UserWarning: stop_steps (14161) is not divisible by save_steps (1416)
+  warnings.warn(warning)
+--------------------------------------------------------------------------------
+G0-D01 saved
+G0-D02 saved
+G0-D03 saved
+G0-D04 saved
+G0-D05 saved
+G0-D06 saved
+G0-D07 saved
+G0-D08 saved
+G0-D09 saved
+G0-D10 saved
+G0-C01 saved
+G0-C02 saved
+G0-C03 saved
+G0-C04 saved
+G0-C05 saved
+G0-A01 saved
+G0-A02 saved
+G0-A03 saved
+G0-A04 saved
+G0-A05 saved
+G0-X01 saved
+G0-X02 saved
+G0-X03 saved
+G0-X04 saved
+G0-X05 saved
+Primary G0 saved and hashed. No diagnostic prompt changes were made.

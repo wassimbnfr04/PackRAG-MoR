@@ -1,0 +1,240 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.ManifestSchemaDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.ManifestSchemaDeviceTest:
+INSTRUMENTATION_STATUS: test=initializationError
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ManifestSchemaDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Failed loading specified test class 'org.packrag.product.ManifestSchemaDeviceTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:672)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:453)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2653)
+Caused by: java.lang.ClassNotFoundException: org.packrag.product.ManifestSchemaDeviceTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "org.packrag.product.ManifestSchemaDeviceTest" on path: DexPathList[[zip file "/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk", zip file "/data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk"],nativeLibraryDirectories=[/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/lib/arm64, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/lib/arm64, /data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk!/lib/arm64-v8a, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in initializationError(org.packrag.product.ManifestSchemaDeviceTest):
+java.lang.RuntimeException: Failed loading specified test class 'org.packrag.product.ManifestSchemaDeviceTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:672)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:453)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2653)
+Caused by: java.lang.ClassNotFoundException: org.packrag.product.ManifestSchemaDeviceTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "org.packrag.product.ManifestSchemaDeviceTest" on path: DexPathList[[zip file "/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk", zip file "/data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk"],nativeLibraryDirectories=[/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/lib/arm64, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/lib/arm64, /data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk!/lib/arm64-v8a, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+
+INSTRUMENTATION_STATUS: test=initializationError
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.DatabaseValidationDeviceTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.DatabaseValidationDeviceTest:
+INSTRUMENTATION_STATUS: test=initializationError
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.DatabaseValidationDeviceTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Failed loading specified test class 'org.packrag.product.DatabaseValidationDeviceTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:672)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:453)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2653)
+Caused by: java.lang.ClassNotFoundException: org.packrag.product.DatabaseValidationDeviceTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "org.packrag.product.DatabaseValidationDeviceTest" on path: DexPathList[[zip file "/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk", zip file "/data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk"],nativeLibraryDirectories=[/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/lib/arm64, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/lib/arm64, /data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk!/lib/arm64-v8a, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in initializationError(org.packrag.product.DatabaseValidationDeviceTest):
+java.lang.RuntimeException: Failed loading specified test class 'org.packrag.product.DatabaseValidationDeviceTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:672)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:453)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2653)
+Caused by: java.lang.ClassNotFoundException: org.packrag.product.DatabaseValidationDeviceTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "org.packrag.product.DatabaseValidationDeviceTest" on path: DexPathList[[zip file "/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk", zip file "/data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk"],nativeLibraryDirectories=[/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/lib/arm64, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/lib/arm64, /data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk!/lib/arm64-v8a, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+
+INSTRUMENTATION_STATUS: test=initializationError
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.StrictArchiveDeviceTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.StrictArchiveDeviceTest:
+INSTRUMENTATION_STATUS: test=transportAndVerifiedImportParity
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.StrictArchiveDeviceTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=transportAndVerifiedImportParity
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.PackRetrievalParityTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.PackRetrievalParityTest:
+INSTRUMENTATION_STATUS: test=authenticatedActivationRestartAndDesktopRetrievalParity
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.PackRetrievalParityTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=authenticatedActivationRestartAndDesktopRetrievalParity
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.GeneratorPromptParityTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.GeneratorPromptParityTest:
+INSTRUMENTATION_STATUS: test=actualGgufTokenizerAndBudgetedOfficialPromptParity
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.GeneratorPromptParityTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualGgufTokenizerAndBudgetedOfficialPromptParity
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.ExplicitLifecycleDeviceTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.ExplicitLifecycleDeviceTest:
+INSTRUMENTATION_STATUS: test=explicitActivationRollbackRemovalIdentityHistoryAndCommittedRecovery
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ExplicitLifecycleDeviceTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=explicitActivationRollbackRemovalIdentityHistoryAndCommittedRecovery
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.AtomicRegistryDeviceTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.AtomicRegistryDeviceTest:
+INSTRUMENTATION_STATUS: test=atomicUpdateProcessLossOriginalCorruptionMigrationAndSnapshotIsolation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.AtomicRegistryDeviceTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=atomicUpdateProcessLossOriginalCorruptionMigrationAndSnapshotIsolation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=org.packrag.product.RegistryProcessDeathDeviceTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.RegistryProcessDeathDeviceTest:
+INSTRUMENTATION_STATUS: test=abruptSeparateProcessDeathAndHotJournalRecovery
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.RegistryProcessDeathDeviceTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=abruptSeparateProcessDeathAndHotJournalRecovery
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 53,38
+There were 2 failures:
+1) initializationError(org.packrag.product.ManifestSchemaDeviceTest)
+java.lang.RuntimeException: Failed loading specified test class 'org.packrag.product.ManifestSchemaDeviceTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:672)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:453)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2653)
+Caused by: java.lang.ClassNotFoundException: org.packrag.product.ManifestSchemaDeviceTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "org.packrag.product.ManifestSchemaDeviceTest" on path: DexPathList[[zip file "/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk", zip file "/data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk"],nativeLibraryDirectories=[/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/lib/arm64, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/lib/arm64, /data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk!/lib/arm64-v8a, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+2) initializationError(org.packrag.product.DatabaseValidationDeviceTest)
+java.lang.RuntimeException: Failed loading specified test class 'org.packrag.product.DatabaseValidationDeviceTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:842)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:672)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:453)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2653)
+Caused by: java.lang.ClassNotFoundException: org.packrag.product.DatabaseValidationDeviceTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "org.packrag.product.DatabaseValidationDeviceTest" on path: DexPathList[[zip file "/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk", zip file "/data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk"],nativeLibraryDirectories=[/data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/lib/arm64, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/lib/arm64, /data/app/~~lNCJgJPRa4oSDccwgtFYqw==/org.packrag.product.test-5G9k4XEG68hWZRsVLb-mfg==/base.apk!/lib/arm64-v8a, /data/app/~~pUj8MeMSqUiFi20wCr8yBQ==/org.packrag.product-iAIyzBbEqpXm88H68qHd3A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+
+FAILURES!!!
+Tests run: 8,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1

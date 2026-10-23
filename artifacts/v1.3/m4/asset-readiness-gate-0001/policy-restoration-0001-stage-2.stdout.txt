@@ -1,0 +1,5 @@
+device-local-assets-policy-adjacent-0001 stage 0 START
+device-local-assets-policy-adjacent-0001 stage 0 PASS
+device-local-assets-policy-adjacent-0001 stage 1 START
+device-local-assets-policy-adjacent-0001 stage 1 PASS
+PASS_F1_ADJACENT_ACTUAL_ORIGINALS_NOT_FULL_F1

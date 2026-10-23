@@ -1,0 +1,47 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.EmbeddingParityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.EmbeddingParityTest:
+INSTRUMENTATION_STATUS: test=noInternetCapabilityAndExactEmbeddingParity
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.EmbeddingParityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: UNICODE_CHARACTER_CLASS flag not supported
+	at java.util.regex.Pattern.<init>(Pattern.java:1516)
+	at java.util.regex.Pattern.compile(Pattern.java:941)
+	at org.packrag.embedding.GraniteTokenizer.<init>(GraniteTokenizer.kt:44)
+	at org.packrag.embedding.GraniteEncoder.<init>(GraniteEncoder.kt:12)
+	at org.packrag.product.EmbeddingParityTest.noInternetCapabilityAndExactEmbeddingParity(EmbeddingParityTest.kt:35)
+
+INSTRUMENTATION_STATUS: stream=
+Error in noInternetCapabilityAndExactEmbeddingParity(org.packrag.product.EmbeddingParityTest):
+java.lang.IllegalArgumentException: UNICODE_CHARACTER_CLASS flag not supported
+	at java.util.regex.Pattern.<init>(Pattern.java:1516)
+	at java.util.regex.Pattern.compile(Pattern.java:941)
+	at org.packrag.embedding.GraniteTokenizer.<init>(GraniteTokenizer.kt:44)
+	at org.packrag.embedding.GraniteEncoder.<init>(GraniteEncoder.kt:12)
+	at org.packrag.product.EmbeddingParityTest.noInternetCapabilityAndExactEmbeddingParity(EmbeddingParityTest.kt:35)
+
+INSTRUMENTATION_STATUS: test=noInternetCapabilityAndExactEmbeddingParity
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0,26
+There was 1 failure:
+1) noInternetCapabilityAndExactEmbeddingParity(org.packrag.product.EmbeddingParityTest)
+java.lang.IllegalArgumentException: UNICODE_CHARACTER_CLASS flag not supported
+	at java.util.regex.Pattern.<init>(Pattern.java:1516)
+	at java.util.regex.Pattern.compile(Pattern.java:941)
+	at org.packrag.embedding.GraniteTokenizer.<init>(GraniteTokenizer.kt:44)
+	at org.packrag.embedding.GraniteEncoder.<init>(GraniteEncoder.kt:12)
+	at org.packrag.product.EmbeddingParityTest.noInternetCapabilityAndExactEmbeddingParity(EmbeddingParityTest.kt:35)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

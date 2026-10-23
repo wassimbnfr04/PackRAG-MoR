@@ -1,0 +1,181 @@
+{
+  "id": "boundary1201",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "expected_state": "INPUT_TOO_LONG",
+  "result": {
+    "state": "INPUT_TOO_LONG",
+    "answer": null,
+    "citations": [],
+    "sources": [],
+    "query": {
+      "raw": "What are the safety requirements for BUNDLE-X9?",
+      "as_of": "2026-10-09",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "what are the safety requirements for bundle-x9?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.contract.boundary1201",
+        "1.0.0",
+        "02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 8.464500002446584,
+      "retrieval_ms": 0.8133000010275282,
+      "end_to_end_ms": 93.07460000127321
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.contract.boundary1201",
+        "chunk_id": "ab09bd7b287237a1efdcc0df",
+        "exact": true,
+        "sparse_rank": null,
+        "dense_rank": 1,
+        "dense_cosine": 0.7621221542358398,
+        "rrf": 0.01639344262295082,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.contract.boundary1201",
+            "1.0.0",
+            "02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.contract.boundary1201",
+              "1.0.0",
+              "02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "La limite continue du contrôleur synthétique est de 74 °C.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "ab09bd7b287237a1efdcc0df",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "fr",
+              "legal_status": "n/a",
+              "locator": "thermal",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "SYNTHETIC PackRAG contract fixture",
+              "rowid": 1,
+              "search_text": "La limite continue du contrôleur synthétique est de 74 °C.",
+              "section": "thermal",
+              "sha256_original": "8da978a4ce0f4464a96c5c1123741d5c9fdd080c29c3d7a5ef949876bccf5ba3",
+              "source_from": null,
+              "source_id": "boundary1201-thermal",
+              "source_title": "SYNTHETIC BUDGET",
+              "source_until": null,
+              "text_sha256": "8da978a4ce0f4464a96c5c1123741d5c9fdd080c29c3d7a5ef949876bccf5ba3",
+              "title": "SYNTHETIC BUDGET"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+              "relations": []
+            },
+            "derived_texts": [
+              {
+                "chunk_id": "ab09bd7b287237a1efdcc0df",
+                "derivation_method": "official_translation",
+                "derivation_source": "SYNTHETIC protocol label, not an actual official translation",
+                "language": "en",
+                "purpose": "generator",
+                "reviewed_at": null,
+                "reviewer_id": null,
+                "text": "The synthetic controller has a continuous operating temperature limit of 74 °C. pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad pad",
+                "text_sha256": "e487c3ddd0409880633877ccb892823565e3df53fe0d860f50e2256eca724a9c"
+              }
+            ],
+            "exact": true,
+            "sparse_rank": null,
+            "dense_rank": 1,
+            "cosine": 0.7621221542358398,
+            "rrf": 0.01639344262295082,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:d1f17bd66b998b7aac52c584574684b8c651bc09edc4cb9e6ba75ff736075919",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [],
+    "warnings": [],
+    "selection": {
+      "keys": [],
+      "decisions": [
+        {
+          "key": "org.packrag.contract.boundary1201@1.0.0:02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3#ab09bd7b287237a1efdcc0df",
+          "reason": "TOKEN_CAP",
+          "trial": [
+            "org.packrag.contract.boundary1201@1.0.0:02a98202aaa422d11b31231335e1185f66e88882efe3abfed6d09d9ee178fcd3#ab09bd7b287237a1efdcc0df"
+          ],
+          "representative": null,
+          "evidence_tokens": 1201,
+          "prefill_tokens": 1373
+        }
+      ],
+      "sources": [],
+      "admission": "INPUT_TOO_LONG"
+    }
+  },
+  "generate_calls_for_case": 0,
+  "diagnostic_final_candidate_not_product_answer": null
+}

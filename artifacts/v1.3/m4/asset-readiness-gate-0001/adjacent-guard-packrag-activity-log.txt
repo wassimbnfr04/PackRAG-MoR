@@ -1,0 +1,2 @@
+10-11 14:51:33.665  1775  5194 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 cmp=org.packrag.product/.MainActivity bnds=[41,1046][290,1315]} with LAUNCH_MULTIPLE from uid 10155 (sr=221038730) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-11 14:53:25.415  1775  1864 I ActivityTaskManager: done cause=notifyWindowsDrawn timestamp=554412405097495 info=TransitionInfo{ed168e1 a=ActivityRecord{156005976 u0 org.packrag.product/.MainActivity t33818} d=true}

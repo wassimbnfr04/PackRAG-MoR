@@ -1,0 +1,36 @@
+{
+  "status": "ACTUAL_FULL_PARITY_AND_CHECK_ONLY_PASS_BEFORE_CLOSURE",
+  "recorded_utc": "2026-10-10 22:01:49 UTC",
+  "parity": {
+    "argv": [
+      ".venv-pack/Scripts/python.exe",
+      "-X",
+      "utf8",
+      "artifacts/v1.3/m4/diagnostics-gate-0001/verify_full_parity_restoration_final.py"
+    ],
+    "tool_result": {
+      "chunk_id": "acdcff",
+      "wall_time_seconds": 1.9355799999999999,
+      "exit_code": 0,
+      "original_token_count": 15,
+      "output": "PASS_E3_FULL_RETAINED_AND_DIAGNOSTIC_PARITY_NOT_CLOSURE\r\n"
+    }
+  },
+  "check_only": {
+    "argv": [
+      ".venv-pack/Scripts/python.exe",
+      "-X",
+      "utf8",
+      "artifacts/v1.3/m4/diagnostics-gate-0001/verify_and_record_final.py",
+      "--check-only"
+    ],
+    "tool_result": {
+      "chunk_id": "359f11",
+      "wall_time_seconds": 4.1291729,
+      "exit_code": 0,
+      "original_token_count": 13,
+      "output": "ALL_E3_ACCEPTANCE_CHECKS_PASS_NO_CLOSURE_WRITTEN\r\n"
+    }
+  },
+  "scope": "Actual tool output and elapsed host command duration, not reconstructed stdout/stderr or invented start timestamps. Full37/full30/restoration0015 originals and latest parity/check-only pass. Closure and exact checkpoint remain pending. The old0014 restoration collision remains an orchestration FAIL before ADB, not a failed product test. Progress observer refused a single PID both at transition and after suite completion; its unretained PID stdout is not inferred as absence versus multiple."
+}

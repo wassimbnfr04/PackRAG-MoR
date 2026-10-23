@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.product.ChatPresentationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-12T21:25:23.811Z" hostname="RAZER" time="0.083">
+  <properties/>
+  <testcase name="repeatedCompletionIsDeduplicatedAndOldestEvictedWithoutRebindingItsSources" classname="org.packrag.product.ChatPresentationTest" time="0.078"/>
+  <testcase name="callerMutableSourceListsCannotChangeCapturedHistory" classname="org.packrag.product.ChatPresentationTest" time="0.002"/>
+  <testcase name="sameCitationIdCannotAliasAnotherCompletedQuestionOrMissingProcessResult" classname="org.packrag.product.ChatPresentationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

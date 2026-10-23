@@ -1,0 +1,56 @@
+{
+  "id": "G0-A03",
+  "category": "abstention",
+  "question": "Which is faster under that condition, Motor M1 or Motor M2?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "Motor M1 operates at 1,800 rpm under the specified test condition."
+    }
+  ],
+  "state": "INSUFFICIENT_EVIDENCE",
+  "answer": null,
+  "citations": [],
+  "rejection_reason": null,
+  "expected_facts": [],
+  "required_citations": [],
+  "expected_abstention": true,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 430,
+    "prompt_ms": 4426.208,
+    "prompt_per_token_ms": 10.293506976744185,
+    "prompt_per_second": 97.14862021848047,
+    "predicted_n": 273,
+    "predicted_ms": 10446.372,
+    "predicted_per_token_ms": 38.405779411764705,
+    "predicted_per_second": 26.037747842025922,
+    "host_generation_wall_ms": 14916.86000000118,
+    "emitted_token_count": 273,
+    "reasoning_token_count": 264,
+    "final_and_terminal_token_count": 9,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 430,
+  "max_new": 1024,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "selected-citation-lines-lazy-after-think-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | line (sep line)*) pad\nline ::= text \" \" citations continuation* \".\"?\ncontinuation ::= \".\"? \" \" text \" \" citations\ncitations ::= cite (\" \" cite)? (\" \" cite)? (\" \" cite)?\ntext ::= word (\" \" word)*\nword ::= [^\\x5B\\x3C\\x00-\\x20]+\ncite ::= \"[S1]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "75efa485cada464189b8d6a855a4522f50ba31116f039ece5fad73e61e9c553a",
+    "final_only": "INSUFFICIENT_EVIDENCE"
+  },
+  "manual_semantic_review_required": true
+}

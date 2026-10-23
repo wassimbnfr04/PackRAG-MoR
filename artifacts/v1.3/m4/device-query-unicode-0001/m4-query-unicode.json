@@ -1,0 +1,7277 @@
+{
+  "status": "PASS",
+  "unicode_version": "15.0.0",
+  "table_sha256": "3fa30da03423d95c0d9943c401d61a105969a55ec62a2c8432e2659a5f31e557",
+  "official_rows": 19074,
+  "official_comparisons": 95370,
+  "query_cases": [
+    {
+      "id": "U0000",
+      "normalized": "abc 123",
+      "status": "PASS"
+    },
+    {
+      "id": "U0001",
+      "normalized": "а",
+      "status": "PASS"
+    },
+    {
+      "id": "U0002",
+      "normalized": "ος",
+      "status": "PASS"
+    },
+    {
+      "id": "U0003",
+      "normalized": "οσα",
+      "status": "PASS"
+    },
+    {
+      "id": "U0004",
+      "normalized": "aς́",
+      "status": "PASS"
+    },
+    {
+      "id": "U0005",
+      "normalized": "aσ́b",
+      "status": "PASS"
+    },
+    {
+      "id": "U0006",
+      "normalized": "σ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0007",
+      "normalized": "i̇ i ı",
+      "status": "PASS"
+    },
+    {
+      "id": "U0008",
+      "normalized": "𐐨",
+      "status": "PASS"
+    },
+    {
+      "id": "U0009",
+      "normalized": "سلام",
+      "status": "PASS"
+    },
+    {
+      "id": "U0010",
+      "normalized": "a\u0000b",
+      "status": "PASS"
+    },
+    {
+      "id": "U0011",
+      "normalized": "à̕",
+      "status": "PASS"
+    },
+    {
+      "id": "U0012",
+      "normalized": "ffi",
+      "status": "PASS"
+    },
+    {
+      "id": "U0013",
+      "normalized": "각",
+      "status": "PASS"
+    },
+    {
+      "id": "U0014",
+      "normalized": "̈́",
+      "status": "PASS"
+    },
+    {
+      "id": "U0015",
+      "normalized": "ো",
+      "status": "PASS"
+    },
+    {
+      "id": "U0016",
+      "normalized": "a b c d",
+      "status": "PASS"
+    },
+    {
+      "id": "U0017",
+      "normalized": "̧́a",
+      "status": "PASS"
+    },
+    {
+      "id": "U0018",
+      "normalized": "aςͅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0019",
+      "normalized": "aͅσb",
+      "status": "PASS"
+    },
+    {
+      "id": "U0020",
+      "normalized": "a",
+      "status": "PASS"
+    },
+    {
+      "id": "U0021",
+      "normalized": "b",
+      "status": "PASS"
+    },
+    {
+      "id": "U0022",
+      "normalized": "c",
+      "status": "PASS"
+    },
+    {
+      "id": "U0023",
+      "normalized": "d",
+      "status": "PASS"
+    },
+    {
+      "id": "U0024",
+      "normalized": "e",
+      "status": "PASS"
+    },
+    {
+      "id": "U0025",
+      "normalized": "f",
+      "status": "PASS"
+    },
+    {
+      "id": "U0026",
+      "normalized": "g",
+      "status": "PASS"
+    },
+    {
+      "id": "U0027",
+      "normalized": "h",
+      "status": "PASS"
+    },
+    {
+      "id": "U0028",
+      "normalized": "i",
+      "status": "PASS"
+    },
+    {
+      "id": "U0029",
+      "normalized": "j",
+      "status": "PASS"
+    },
+    {
+      "id": "U0030",
+      "normalized": "k",
+      "status": "PASS"
+    },
+    {
+      "id": "U0031",
+      "normalized": "l",
+      "status": "PASS"
+    },
+    {
+      "id": "U0032",
+      "normalized": "m",
+      "status": "PASS"
+    },
+    {
+      "id": "U0033",
+      "normalized": "n",
+      "status": "PASS"
+    },
+    {
+      "id": "U0034",
+      "normalized": "o",
+      "status": "PASS"
+    },
+    {
+      "id": "U0035",
+      "normalized": "p",
+      "status": "PASS"
+    },
+    {
+      "id": "U0036",
+      "normalized": "q",
+      "status": "PASS"
+    },
+    {
+      "id": "U0037",
+      "normalized": "r",
+      "status": "PASS"
+    },
+    {
+      "id": "U0038",
+      "normalized": "s",
+      "status": "PASS"
+    },
+    {
+      "id": "U0039",
+      "normalized": "t",
+      "status": "PASS"
+    },
+    {
+      "id": "U0040",
+      "normalized": "u",
+      "status": "PASS"
+    },
+    {
+      "id": "U0041",
+      "normalized": "v",
+      "status": "PASS"
+    },
+    {
+      "id": "U0042",
+      "normalized": "w",
+      "status": "PASS"
+    },
+    {
+      "id": "U0043",
+      "normalized": "x",
+      "status": "PASS"
+    },
+    {
+      "id": "U0044",
+      "normalized": "y",
+      "status": "PASS"
+    },
+    {
+      "id": "U0045",
+      "normalized": "z",
+      "status": "PASS"
+    },
+    {
+      "id": "U0046",
+      "normalized": "à",
+      "status": "PASS"
+    },
+    {
+      "id": "U0047",
+      "normalized": "á",
+      "status": "PASS"
+    },
+    {
+      "id": "U0048",
+      "normalized": "â",
+      "status": "PASS"
+    },
+    {
+      "id": "U0049",
+      "normalized": "ã",
+      "status": "PASS"
+    },
+    {
+      "id": "U0050",
+      "normalized": "ä",
+      "status": "PASS"
+    },
+    {
+      "id": "U0051",
+      "normalized": "å",
+      "status": "PASS"
+    },
+    {
+      "id": "U0052",
+      "normalized": "æ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0053",
+      "normalized": "ç",
+      "status": "PASS"
+    },
+    {
+      "id": "U0054",
+      "normalized": "è",
+      "status": "PASS"
+    },
+    {
+      "id": "U0055",
+      "normalized": "é",
+      "status": "PASS"
+    },
+    {
+      "id": "U0056",
+      "normalized": "ê",
+      "status": "PASS"
+    },
+    {
+      "id": "U0057",
+      "normalized": "ë",
+      "status": "PASS"
+    },
+    {
+      "id": "U0058",
+      "normalized": "ì",
+      "status": "PASS"
+    },
+    {
+      "id": "U0059",
+      "normalized": "í",
+      "status": "PASS"
+    },
+    {
+      "id": "U0060",
+      "normalized": "î",
+      "status": "PASS"
+    },
+    {
+      "id": "U0061",
+      "normalized": "ï",
+      "status": "PASS"
+    },
+    {
+      "id": "U0062",
+      "normalized": "ð",
+      "status": "PASS"
+    },
+    {
+      "id": "U0063",
+      "normalized": "ñ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0064",
+      "normalized": "ò",
+      "status": "PASS"
+    },
+    {
+      "id": "U0065",
+      "normalized": "ó",
+      "status": "PASS"
+    },
+    {
+      "id": "U0066",
+      "normalized": "ô",
+      "status": "PASS"
+    },
+    {
+      "id": "U0067",
+      "normalized": "õ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0068",
+      "normalized": "ö",
+      "status": "PASS"
+    },
+    {
+      "id": "U0069",
+      "normalized": "ø",
+      "status": "PASS"
+    },
+    {
+      "id": "U0070",
+      "normalized": "ù",
+      "status": "PASS"
+    },
+    {
+      "id": "U0071",
+      "normalized": "ú",
+      "status": "PASS"
+    },
+    {
+      "id": "U0072",
+      "normalized": "û",
+      "status": "PASS"
+    },
+    {
+      "id": "U0073",
+      "normalized": "ü",
+      "status": "PASS"
+    },
+    {
+      "id": "U0074",
+      "normalized": "ý",
+      "status": "PASS"
+    },
+    {
+      "id": "U0075",
+      "normalized": "þ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0076",
+      "normalized": "ā",
+      "status": "PASS"
+    },
+    {
+      "id": "U0077",
+      "normalized": "ă",
+      "status": "PASS"
+    },
+    {
+      "id": "U0078",
+      "normalized": "ą",
+      "status": "PASS"
+    },
+    {
+      "id": "U0079",
+      "normalized": "ć",
+      "status": "PASS"
+    },
+    {
+      "id": "U0080",
+      "normalized": "ĉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0081",
+      "normalized": "ċ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0082",
+      "normalized": "č",
+      "status": "PASS"
+    },
+    {
+      "id": "U0083",
+      "normalized": "ď",
+      "status": "PASS"
+    },
+    {
+      "id": "U0084",
+      "normalized": "đ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0085",
+      "normalized": "ē",
+      "status": "PASS"
+    },
+    {
+      "id": "U0086",
+      "normalized": "ĕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0087",
+      "normalized": "ė",
+      "status": "PASS"
+    },
+    {
+      "id": "U0088",
+      "normalized": "ę",
+      "status": "PASS"
+    },
+    {
+      "id": "U0089",
+      "normalized": "ě",
+      "status": "PASS"
+    },
+    {
+      "id": "U0090",
+      "normalized": "ĝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0091",
+      "normalized": "ğ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0092",
+      "normalized": "ġ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0093",
+      "normalized": "ģ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0094",
+      "normalized": "ĥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0095",
+      "normalized": "ħ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0096",
+      "normalized": "ĩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0097",
+      "normalized": "ī",
+      "status": "PASS"
+    },
+    {
+      "id": "U0098",
+      "normalized": "ĭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0099",
+      "normalized": "į",
+      "status": "PASS"
+    },
+    {
+      "id": "U0100",
+      "normalized": "i̇",
+      "status": "PASS"
+    },
+    {
+      "id": "U0101",
+      "normalized": "ij",
+      "status": "PASS"
+    },
+    {
+      "id": "U0102",
+      "normalized": "ĵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0103",
+      "normalized": "ķ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0104",
+      "normalized": "ĺ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0105",
+      "normalized": "ļ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0106",
+      "normalized": "ľ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0107",
+      "normalized": "l·",
+      "status": "PASS"
+    },
+    {
+      "id": "U0108",
+      "normalized": "ł",
+      "status": "PASS"
+    },
+    {
+      "id": "U0109",
+      "normalized": "ń",
+      "status": "PASS"
+    },
+    {
+      "id": "U0110",
+      "normalized": "ņ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0111",
+      "normalized": "ň",
+      "status": "PASS"
+    },
+    {
+      "id": "U0112",
+      "normalized": "ŋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0113",
+      "normalized": "ō",
+      "status": "PASS"
+    },
+    {
+      "id": "U0114",
+      "normalized": "ŏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0115",
+      "normalized": "ő",
+      "status": "PASS"
+    },
+    {
+      "id": "U0116",
+      "normalized": "œ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0117",
+      "normalized": "ŕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0118",
+      "normalized": "ŗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0119",
+      "normalized": "ř",
+      "status": "PASS"
+    },
+    {
+      "id": "U0120",
+      "normalized": "ś",
+      "status": "PASS"
+    },
+    {
+      "id": "U0121",
+      "normalized": "ŝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0122",
+      "normalized": "ş",
+      "status": "PASS"
+    },
+    {
+      "id": "U0123",
+      "normalized": "š",
+      "status": "PASS"
+    },
+    {
+      "id": "U0124",
+      "normalized": "ţ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0125",
+      "normalized": "ť",
+      "status": "PASS"
+    },
+    {
+      "id": "U0126",
+      "normalized": "ŧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0127",
+      "normalized": "ũ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0128",
+      "normalized": "ū",
+      "status": "PASS"
+    },
+    {
+      "id": "U0129",
+      "normalized": "ŭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0130",
+      "normalized": "ů",
+      "status": "PASS"
+    },
+    {
+      "id": "U0131",
+      "normalized": "ű",
+      "status": "PASS"
+    },
+    {
+      "id": "U0132",
+      "normalized": "ų",
+      "status": "PASS"
+    },
+    {
+      "id": "U0133",
+      "normalized": "ŵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0134",
+      "normalized": "ŷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0135",
+      "normalized": "ÿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0136",
+      "normalized": "ź",
+      "status": "PASS"
+    },
+    {
+      "id": "U0137",
+      "normalized": "ż",
+      "status": "PASS"
+    },
+    {
+      "id": "U0138",
+      "normalized": "ž",
+      "status": "PASS"
+    },
+    {
+      "id": "U0139",
+      "normalized": "ɓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0140",
+      "normalized": "ƃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0141",
+      "normalized": "ƅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0142",
+      "normalized": "ɔ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0143",
+      "normalized": "ƈ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0144",
+      "normalized": "ɖ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0145",
+      "normalized": "ɗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0146",
+      "normalized": "ƌ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0147",
+      "normalized": "ǝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0148",
+      "normalized": "ə",
+      "status": "PASS"
+    },
+    {
+      "id": "U0149",
+      "normalized": "ɛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0150",
+      "normalized": "ƒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0151",
+      "normalized": "ɠ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0152",
+      "normalized": "ɣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0153",
+      "normalized": "ɩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0154",
+      "normalized": "ɨ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0155",
+      "normalized": "ƙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0156",
+      "normalized": "ɯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0157",
+      "normalized": "ɲ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0158",
+      "normalized": "ɵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0159",
+      "normalized": "ơ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0160",
+      "normalized": "ƣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0161",
+      "normalized": "ƥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0162",
+      "normalized": "ʀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0163",
+      "normalized": "ƨ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0164",
+      "normalized": "ʃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0165",
+      "normalized": "ƭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0166",
+      "normalized": "ʈ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0167",
+      "normalized": "ư",
+      "status": "PASS"
+    },
+    {
+      "id": "U0168",
+      "normalized": "ʊ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0169",
+      "normalized": "ʋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0170",
+      "normalized": "ƴ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0171",
+      "normalized": "ƶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0172",
+      "normalized": "ʒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0173",
+      "normalized": "ƹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0174",
+      "normalized": "ƽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0175",
+      "normalized": "dž",
+      "status": "PASS"
+    },
+    {
+      "id": "U0176",
+      "normalized": "dž",
+      "status": "PASS"
+    },
+    {
+      "id": "U0177",
+      "normalized": "lj",
+      "status": "PASS"
+    },
+    {
+      "id": "U0178",
+      "normalized": "lj",
+      "status": "PASS"
+    },
+    {
+      "id": "U0179",
+      "normalized": "nj",
+      "status": "PASS"
+    },
+    {
+      "id": "U0180",
+      "normalized": "nj",
+      "status": "PASS"
+    },
+    {
+      "id": "U0181",
+      "normalized": "ǎ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0182",
+      "normalized": "ǐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0183",
+      "normalized": "ǒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0184",
+      "normalized": "ǔ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0185",
+      "normalized": "ǖ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0186",
+      "normalized": "ǘ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0187",
+      "normalized": "ǚ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0188",
+      "normalized": "ǜ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0189",
+      "normalized": "ǟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0190",
+      "normalized": "ǡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0191",
+      "normalized": "ǣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0192",
+      "normalized": "ǥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0193",
+      "normalized": "ǧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0194",
+      "normalized": "ǩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0195",
+      "normalized": "ǫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0196",
+      "normalized": "ǭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0197",
+      "normalized": "ǯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0198",
+      "normalized": "dz",
+      "status": "PASS"
+    },
+    {
+      "id": "U0199",
+      "normalized": "dz",
+      "status": "PASS"
+    },
+    {
+      "id": "U0200",
+      "normalized": "ǵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0201",
+      "normalized": "ƕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0202",
+      "normalized": "ƿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0203",
+      "normalized": "ǹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0204",
+      "normalized": "ǻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0205",
+      "normalized": "ǽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0206",
+      "normalized": "ǿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0207",
+      "normalized": "ȁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0208",
+      "normalized": "ȃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0209",
+      "normalized": "ȅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0210",
+      "normalized": "ȇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0211",
+      "normalized": "ȉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0212",
+      "normalized": "ȋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0213",
+      "normalized": "ȍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0214",
+      "normalized": "ȏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0215",
+      "normalized": "ȑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0216",
+      "normalized": "ȓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0217",
+      "normalized": "ȕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0218",
+      "normalized": "ȗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0219",
+      "normalized": "ș",
+      "status": "PASS"
+    },
+    {
+      "id": "U0220",
+      "normalized": "ț",
+      "status": "PASS"
+    },
+    {
+      "id": "U0221",
+      "normalized": "ȝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0222",
+      "normalized": "ȟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0223",
+      "normalized": "ƞ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0224",
+      "normalized": "ȣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0225",
+      "normalized": "ȥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0226",
+      "normalized": "ȧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0227",
+      "normalized": "ȩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0228",
+      "normalized": "ȫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0229",
+      "normalized": "ȭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0230",
+      "normalized": "ȯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0231",
+      "normalized": "ȱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0232",
+      "normalized": "ȳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0233",
+      "normalized": "ⱥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0234",
+      "normalized": "ȼ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0235",
+      "normalized": "ƚ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0236",
+      "normalized": "ⱦ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0237",
+      "normalized": "ɂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0238",
+      "normalized": "ƀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0239",
+      "normalized": "ʉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0240",
+      "normalized": "ʌ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0241",
+      "normalized": "ɇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0242",
+      "normalized": "ɉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0243",
+      "normalized": "ɋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0244",
+      "normalized": "ɍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0245",
+      "normalized": "ɏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0246",
+      "normalized": "ͱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0247",
+      "normalized": "ͳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0248",
+      "normalized": "ͷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0249",
+      "normalized": "ϳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0250",
+      "normalized": "ά",
+      "status": "PASS"
+    },
+    {
+      "id": "U0251",
+      "normalized": "έ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0252",
+      "normalized": "ή",
+      "status": "PASS"
+    },
+    {
+      "id": "U0253",
+      "normalized": "ί",
+      "status": "PASS"
+    },
+    {
+      "id": "U0254",
+      "normalized": "ό",
+      "status": "PASS"
+    },
+    {
+      "id": "U0255",
+      "normalized": "ύ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0256",
+      "normalized": "ώ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0257",
+      "normalized": "α",
+      "status": "PASS"
+    },
+    {
+      "id": "U0258",
+      "normalized": "β",
+      "status": "PASS"
+    },
+    {
+      "id": "U0259",
+      "normalized": "γ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0260",
+      "normalized": "δ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0261",
+      "normalized": "ε",
+      "status": "PASS"
+    },
+    {
+      "id": "U0262",
+      "normalized": "ζ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0263",
+      "normalized": "η",
+      "status": "PASS"
+    },
+    {
+      "id": "U0264",
+      "normalized": "θ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0265",
+      "normalized": "ι",
+      "status": "PASS"
+    },
+    {
+      "id": "U0266",
+      "normalized": "κ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0267",
+      "normalized": "λ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0268",
+      "normalized": "μ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0269",
+      "normalized": "ν",
+      "status": "PASS"
+    },
+    {
+      "id": "U0270",
+      "normalized": "ξ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0271",
+      "normalized": "ο",
+      "status": "PASS"
+    },
+    {
+      "id": "U0272",
+      "normalized": "π",
+      "status": "PASS"
+    },
+    {
+      "id": "U0273",
+      "normalized": "ρ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0274",
+      "normalized": "σ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0275",
+      "normalized": "τ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0276",
+      "normalized": "υ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0277",
+      "normalized": "φ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0278",
+      "normalized": "χ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0279",
+      "normalized": "ψ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0280",
+      "normalized": "ω",
+      "status": "PASS"
+    },
+    {
+      "id": "U0281",
+      "normalized": "ϊ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0282",
+      "normalized": "ϋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0283",
+      "normalized": "ϗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0284",
+      "normalized": "ϙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0285",
+      "normalized": "ϛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0286",
+      "normalized": "ϝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0287",
+      "normalized": "ϟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0288",
+      "normalized": "ϡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0289",
+      "normalized": "ϣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0290",
+      "normalized": "ϥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0291",
+      "normalized": "ϧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0292",
+      "normalized": "ϩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0293",
+      "normalized": "ϫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0294",
+      "normalized": "ϭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0295",
+      "normalized": "ϯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0296",
+      "normalized": "θ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0297",
+      "normalized": "ϸ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0298",
+      "normalized": "σ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0299",
+      "normalized": "ϻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0300",
+      "normalized": "ͻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0301",
+      "normalized": "ͼ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0302",
+      "normalized": "ͽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0303",
+      "normalized": "ѐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0304",
+      "normalized": "ё",
+      "status": "PASS"
+    },
+    {
+      "id": "U0305",
+      "normalized": "ђ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0306",
+      "normalized": "ѓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0307",
+      "normalized": "є",
+      "status": "PASS"
+    },
+    {
+      "id": "U0308",
+      "normalized": "ѕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0309",
+      "normalized": "і",
+      "status": "PASS"
+    },
+    {
+      "id": "U0310",
+      "normalized": "ї",
+      "status": "PASS"
+    },
+    {
+      "id": "U0311",
+      "normalized": "ј",
+      "status": "PASS"
+    },
+    {
+      "id": "U0312",
+      "normalized": "љ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0313",
+      "normalized": "њ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0314",
+      "normalized": "ћ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0315",
+      "normalized": "ќ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0316",
+      "normalized": "ѝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0317",
+      "normalized": "ў",
+      "status": "PASS"
+    },
+    {
+      "id": "U0318",
+      "normalized": "џ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0319",
+      "normalized": "а",
+      "status": "PASS"
+    },
+    {
+      "id": "U0320",
+      "normalized": "б",
+      "status": "PASS"
+    },
+    {
+      "id": "U0321",
+      "normalized": "в",
+      "status": "PASS"
+    },
+    {
+      "id": "U0322",
+      "normalized": "г",
+      "status": "PASS"
+    },
+    {
+      "id": "U0323",
+      "normalized": "д",
+      "status": "PASS"
+    },
+    {
+      "id": "U0324",
+      "normalized": "е",
+      "status": "PASS"
+    },
+    {
+      "id": "U0325",
+      "normalized": "ж",
+      "status": "PASS"
+    },
+    {
+      "id": "U0326",
+      "normalized": "з",
+      "status": "PASS"
+    },
+    {
+      "id": "U0327",
+      "normalized": "и",
+      "status": "PASS"
+    },
+    {
+      "id": "U0328",
+      "normalized": "й",
+      "status": "PASS"
+    },
+    {
+      "id": "U0329",
+      "normalized": "к",
+      "status": "PASS"
+    },
+    {
+      "id": "U0330",
+      "normalized": "л",
+      "status": "PASS"
+    },
+    {
+      "id": "U0331",
+      "normalized": "м",
+      "status": "PASS"
+    },
+    {
+      "id": "U0332",
+      "normalized": "н",
+      "status": "PASS"
+    },
+    {
+      "id": "U0333",
+      "normalized": "о",
+      "status": "PASS"
+    },
+    {
+      "id": "U0334",
+      "normalized": "п",
+      "status": "PASS"
+    },
+    {
+      "id": "U0335",
+      "normalized": "р",
+      "status": "PASS"
+    },
+    {
+      "id": "U0336",
+      "normalized": "с",
+      "status": "PASS"
+    },
+    {
+      "id": "U0337",
+      "normalized": "т",
+      "status": "PASS"
+    },
+    {
+      "id": "U0338",
+      "normalized": "у",
+      "status": "PASS"
+    },
+    {
+      "id": "U0339",
+      "normalized": "ф",
+      "status": "PASS"
+    },
+    {
+      "id": "U0340",
+      "normalized": "х",
+      "status": "PASS"
+    },
+    {
+      "id": "U0341",
+      "normalized": "ц",
+      "status": "PASS"
+    },
+    {
+      "id": "U0342",
+      "normalized": "ч",
+      "status": "PASS"
+    },
+    {
+      "id": "U0343",
+      "normalized": "ш",
+      "status": "PASS"
+    },
+    {
+      "id": "U0344",
+      "normalized": "щ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0345",
+      "normalized": "ъ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0346",
+      "normalized": "ы",
+      "status": "PASS"
+    },
+    {
+      "id": "U0347",
+      "normalized": "ь",
+      "status": "PASS"
+    },
+    {
+      "id": "U0348",
+      "normalized": "э",
+      "status": "PASS"
+    },
+    {
+      "id": "U0349",
+      "normalized": "ю",
+      "status": "PASS"
+    },
+    {
+      "id": "U0350",
+      "normalized": "я",
+      "status": "PASS"
+    },
+    {
+      "id": "U0351",
+      "normalized": "ѡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0352",
+      "normalized": "ѣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0353",
+      "normalized": "ѥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0354",
+      "normalized": "ѧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0355",
+      "normalized": "ѩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0356",
+      "normalized": "ѫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0357",
+      "normalized": "ѭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0358",
+      "normalized": "ѯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0359",
+      "normalized": "ѱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0360",
+      "normalized": "ѳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0361",
+      "normalized": "ѵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0362",
+      "normalized": "ѷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0363",
+      "normalized": "ѹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0364",
+      "normalized": "ѻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0365",
+      "normalized": "ѽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0366",
+      "normalized": "ѿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0367",
+      "normalized": "ҁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0368",
+      "normalized": "ҋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0369",
+      "normalized": "ҍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0370",
+      "normalized": "ҏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0371",
+      "normalized": "ґ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0372",
+      "normalized": "ғ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0373",
+      "normalized": "ҕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0374",
+      "normalized": "җ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0375",
+      "normalized": "ҙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0376",
+      "normalized": "қ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0377",
+      "normalized": "ҝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0378",
+      "normalized": "ҟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0379",
+      "normalized": "ҡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0380",
+      "normalized": "ң",
+      "status": "PASS"
+    },
+    {
+      "id": "U0381",
+      "normalized": "ҥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0382",
+      "normalized": "ҧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0383",
+      "normalized": "ҩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0384",
+      "normalized": "ҫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0385",
+      "normalized": "ҭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0386",
+      "normalized": "ү",
+      "status": "PASS"
+    },
+    {
+      "id": "U0387",
+      "normalized": "ұ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0388",
+      "normalized": "ҳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0389",
+      "normalized": "ҵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0390",
+      "normalized": "ҷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0391",
+      "normalized": "ҹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0392",
+      "normalized": "һ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0393",
+      "normalized": "ҽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0394",
+      "normalized": "ҿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0395",
+      "normalized": "ӏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0396",
+      "normalized": "ӂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0397",
+      "normalized": "ӄ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0398",
+      "normalized": "ӆ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0399",
+      "normalized": "ӈ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0400",
+      "normalized": "ӊ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0401",
+      "normalized": "ӌ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0402",
+      "normalized": "ӎ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0403",
+      "normalized": "ӑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0404",
+      "normalized": "ӓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0405",
+      "normalized": "ӕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0406",
+      "normalized": "ӗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0407",
+      "normalized": "ә",
+      "status": "PASS"
+    },
+    {
+      "id": "U0408",
+      "normalized": "ӛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0409",
+      "normalized": "ӝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0410",
+      "normalized": "ӟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0411",
+      "normalized": "ӡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0412",
+      "normalized": "ӣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0413",
+      "normalized": "ӥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0414",
+      "normalized": "ӧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0415",
+      "normalized": "ө",
+      "status": "PASS"
+    },
+    {
+      "id": "U0416",
+      "normalized": "ӫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0417",
+      "normalized": "ӭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0418",
+      "normalized": "ӯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0419",
+      "normalized": "ӱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0420",
+      "normalized": "ӳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0421",
+      "normalized": "ӵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0422",
+      "normalized": "ӷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0423",
+      "normalized": "ӹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0424",
+      "normalized": "ӻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0425",
+      "normalized": "ӽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0426",
+      "normalized": "ӿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0427",
+      "normalized": "ԁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0428",
+      "normalized": "ԃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0429",
+      "normalized": "ԅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0430",
+      "normalized": "ԇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0431",
+      "normalized": "ԉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0432",
+      "normalized": "ԋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0433",
+      "normalized": "ԍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0434",
+      "normalized": "ԏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0435",
+      "normalized": "ԑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0436",
+      "normalized": "ԓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0437",
+      "normalized": "ԕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0438",
+      "normalized": "ԗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0439",
+      "normalized": "ԙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0440",
+      "normalized": "ԛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0441",
+      "normalized": "ԝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0442",
+      "normalized": "ԟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0443",
+      "normalized": "ԡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0444",
+      "normalized": "ԣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0445",
+      "normalized": "ԥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0446",
+      "normalized": "ԧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0447",
+      "normalized": "ԩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0448",
+      "normalized": "ԫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0449",
+      "normalized": "ԭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0450",
+      "normalized": "ԯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0451",
+      "normalized": "ա",
+      "status": "PASS"
+    },
+    {
+      "id": "U0452",
+      "normalized": "բ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0453",
+      "normalized": "գ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0454",
+      "normalized": "դ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0455",
+      "normalized": "ե",
+      "status": "PASS"
+    },
+    {
+      "id": "U0456",
+      "normalized": "զ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0457",
+      "normalized": "է",
+      "status": "PASS"
+    },
+    {
+      "id": "U0458",
+      "normalized": "ը",
+      "status": "PASS"
+    },
+    {
+      "id": "U0459",
+      "normalized": "թ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0460",
+      "normalized": "ժ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0461",
+      "normalized": "ի",
+      "status": "PASS"
+    },
+    {
+      "id": "U0462",
+      "normalized": "լ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0463",
+      "normalized": "խ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0464",
+      "normalized": "ծ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0465",
+      "normalized": "կ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0466",
+      "normalized": "հ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0467",
+      "normalized": "ձ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0468",
+      "normalized": "ղ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0469",
+      "normalized": "ճ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0470",
+      "normalized": "մ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0471",
+      "normalized": "յ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0472",
+      "normalized": "ն",
+      "status": "PASS"
+    },
+    {
+      "id": "U0473",
+      "normalized": "շ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0474",
+      "normalized": "ո",
+      "status": "PASS"
+    },
+    {
+      "id": "U0475",
+      "normalized": "չ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0476",
+      "normalized": "պ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0477",
+      "normalized": "ջ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0478",
+      "normalized": "ռ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0479",
+      "normalized": "ս",
+      "status": "PASS"
+    },
+    {
+      "id": "U0480",
+      "normalized": "վ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0481",
+      "normalized": "տ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0482",
+      "normalized": "ր",
+      "status": "PASS"
+    },
+    {
+      "id": "U0483",
+      "normalized": "ց",
+      "status": "PASS"
+    },
+    {
+      "id": "U0484",
+      "normalized": "ւ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0485",
+      "normalized": "փ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0486",
+      "normalized": "ք",
+      "status": "PASS"
+    },
+    {
+      "id": "U0487",
+      "normalized": "օ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0488",
+      "normalized": "ֆ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0489",
+      "normalized": "ⴀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0490",
+      "normalized": "ⴁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0491",
+      "normalized": "ⴂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0492",
+      "normalized": "ⴃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0493",
+      "normalized": "ⴄ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0494",
+      "normalized": "ⴅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0495",
+      "normalized": "ⴆ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0496",
+      "normalized": "ⴇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0497",
+      "normalized": "ⴈ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0498",
+      "normalized": "ⴉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0499",
+      "normalized": "ⴊ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0500",
+      "normalized": "ⴋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0501",
+      "normalized": "ⴌ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0502",
+      "normalized": "ⴍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0503",
+      "normalized": "ⴎ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0504",
+      "normalized": "ⴏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0505",
+      "normalized": "ⴐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0506",
+      "normalized": "ⴑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0507",
+      "normalized": "ⴒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0508",
+      "normalized": "ⴓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0509",
+      "normalized": "ⴔ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0510",
+      "normalized": "ⴕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0511",
+      "normalized": "ⴖ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0512",
+      "normalized": "ⴗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0513",
+      "normalized": "ⴘ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0514",
+      "normalized": "ⴙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0515",
+      "normalized": "ⴚ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0516",
+      "normalized": "ⴛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0517",
+      "normalized": "ⴜ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0518",
+      "normalized": "ⴝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0519",
+      "normalized": "ⴞ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0520",
+      "normalized": "ⴟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0521",
+      "normalized": "ⴠ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0522",
+      "normalized": "ⴡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0523",
+      "normalized": "ⴢ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0524",
+      "normalized": "ⴣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0525",
+      "normalized": "ⴤ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0526",
+      "normalized": "ⴥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0527",
+      "normalized": "ⴧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0528",
+      "normalized": "ⴭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0529",
+      "normalized": "ꭰ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0530",
+      "normalized": "ꭱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0531",
+      "normalized": "ꭲ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0532",
+      "normalized": "ꭳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0533",
+      "normalized": "ꭴ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0534",
+      "normalized": "ꭵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0535",
+      "normalized": "ꭶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0536",
+      "normalized": "ꭷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0537",
+      "normalized": "ꭸ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0538",
+      "normalized": "ꭹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0539",
+      "normalized": "ꭺ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0540",
+      "normalized": "ꭻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0541",
+      "normalized": "ꭼ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0542",
+      "normalized": "ꭽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0543",
+      "normalized": "ꭾ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0544",
+      "normalized": "ꭿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0545",
+      "normalized": "ꮀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0546",
+      "normalized": "ꮁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0547",
+      "normalized": "ꮂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0548",
+      "normalized": "ꮃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0549",
+      "normalized": "ꮄ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0550",
+      "normalized": "ꮅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0551",
+      "normalized": "ꮆ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0552",
+      "normalized": "ꮇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0553",
+      "normalized": "ꮈ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0554",
+      "normalized": "ꮉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0555",
+      "normalized": "ꮊ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0556",
+      "normalized": "ꮋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0557",
+      "normalized": "ꮌ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0558",
+      "normalized": "ꮍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0559",
+      "normalized": "ꮎ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0560",
+      "normalized": "ꮏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0561",
+      "normalized": "ꮐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0562",
+      "normalized": "ꮑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0563",
+      "normalized": "ꮒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0564",
+      "normalized": "ꮓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0565",
+      "normalized": "ꮔ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0566",
+      "normalized": "ꮕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0567",
+      "normalized": "ꮖ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0568",
+      "normalized": "ꮗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0569",
+      "normalized": "ꮘ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0570",
+      "normalized": "ꮙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0571",
+      "normalized": "ꮚ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0572",
+      "normalized": "ꮛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0573",
+      "normalized": "ꮜ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0574",
+      "normalized": "ꮝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0575",
+      "normalized": "ꮞ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0576",
+      "normalized": "ꮟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0577",
+      "normalized": "ꮠ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0578",
+      "normalized": "ꮡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0579",
+      "normalized": "ꮢ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0580",
+      "normalized": "ꮣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0581",
+      "normalized": "ꮤ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0582",
+      "normalized": "ꮥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0583",
+      "normalized": "ꮦ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0584",
+      "normalized": "ꮧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0585",
+      "normalized": "ꮨ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0586",
+      "normalized": "ꮩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0587",
+      "normalized": "ꮪ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0588",
+      "normalized": "ꮫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0589",
+      "normalized": "ꮬ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0590",
+      "normalized": "ꮭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0591",
+      "normalized": "ꮮ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0592",
+      "normalized": "ꮯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0593",
+      "normalized": "ꮰ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0594",
+      "normalized": "ꮱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0595",
+      "normalized": "ꮲ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0596",
+      "normalized": "ꮳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0597",
+      "normalized": "ꮴ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0598",
+      "normalized": "ꮵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0599",
+      "normalized": "ꮶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0600",
+      "normalized": "ꮷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0601",
+      "normalized": "ꮸ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0602",
+      "normalized": "ꮹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0603",
+      "normalized": "ꮺ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0604",
+      "normalized": "ꮻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0605",
+      "normalized": "ꮼ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0606",
+      "normalized": "ꮽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0607",
+      "normalized": "ꮾ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0608",
+      "normalized": "ꮿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0609",
+      "normalized": "ᏸ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0610",
+      "normalized": "ᏹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0611",
+      "normalized": "ᏺ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0612",
+      "normalized": "ᏻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0613",
+      "normalized": "ᏼ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0614",
+      "normalized": "ᏽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0615",
+      "normalized": "ა",
+      "status": "PASS"
+    },
+    {
+      "id": "U0616",
+      "normalized": "ბ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0617",
+      "normalized": "გ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0618",
+      "normalized": "დ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0619",
+      "normalized": "ე",
+      "status": "PASS"
+    },
+    {
+      "id": "U0620",
+      "normalized": "ვ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0621",
+      "normalized": "ზ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0622",
+      "normalized": "თ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0623",
+      "normalized": "ი",
+      "status": "PASS"
+    },
+    {
+      "id": "U0624",
+      "normalized": "კ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0625",
+      "normalized": "ლ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0626",
+      "normalized": "მ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0627",
+      "normalized": "ნ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0628",
+      "normalized": "ო",
+      "status": "PASS"
+    },
+    {
+      "id": "U0629",
+      "normalized": "პ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0630",
+      "normalized": "ჟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0631",
+      "normalized": "რ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0632",
+      "normalized": "ს",
+      "status": "PASS"
+    },
+    {
+      "id": "U0633",
+      "normalized": "ტ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0634",
+      "normalized": "უ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0635",
+      "normalized": "ფ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0636",
+      "normalized": "ქ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0637",
+      "normalized": "ღ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0638",
+      "normalized": "ყ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0639",
+      "normalized": "შ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0640",
+      "normalized": "ჩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0641",
+      "normalized": "ც",
+      "status": "PASS"
+    },
+    {
+      "id": "U0642",
+      "normalized": "ძ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0643",
+      "normalized": "წ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0644",
+      "normalized": "ჭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0645",
+      "normalized": "ხ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0646",
+      "normalized": "ჯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0647",
+      "normalized": "ჰ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0648",
+      "normalized": "ჱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0649",
+      "normalized": "ჲ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0650",
+      "normalized": "ჳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0651",
+      "normalized": "ჴ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0652",
+      "normalized": "ჵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0653",
+      "normalized": "ჶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0654",
+      "normalized": "ჷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0655",
+      "normalized": "ჸ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0656",
+      "normalized": "ჹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0657",
+      "normalized": "ჺ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0658",
+      "normalized": "ჽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0659",
+      "normalized": "ჾ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0660",
+      "normalized": "ჿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0661",
+      "normalized": "ḁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0662",
+      "normalized": "ḃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0663",
+      "normalized": "ḅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0664",
+      "normalized": "ḇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0665",
+      "normalized": "ḉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0666",
+      "normalized": "ḋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0667",
+      "normalized": "ḍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0668",
+      "normalized": "ḏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0669",
+      "normalized": "ḑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0670",
+      "normalized": "ḓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0671",
+      "normalized": "ḕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0672",
+      "normalized": "ḗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0673",
+      "normalized": "ḙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0674",
+      "normalized": "ḛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0675",
+      "normalized": "ḝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0676",
+      "normalized": "ḟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0677",
+      "normalized": "ḡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0678",
+      "normalized": "ḣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0679",
+      "normalized": "ḥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0680",
+      "normalized": "ḧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0681",
+      "normalized": "ḩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0682",
+      "normalized": "ḫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0683",
+      "normalized": "ḭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0684",
+      "normalized": "ḯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0685",
+      "normalized": "ḱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0686",
+      "normalized": "ḳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0687",
+      "normalized": "ḵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0688",
+      "normalized": "ḷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0689",
+      "normalized": "ḹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0690",
+      "normalized": "ḻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0691",
+      "normalized": "ḽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0692",
+      "normalized": "ḿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0693",
+      "normalized": "ṁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0694",
+      "normalized": "ṃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0695",
+      "normalized": "ṅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0696",
+      "normalized": "ṇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0697",
+      "normalized": "ṉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0698",
+      "normalized": "ṋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0699",
+      "normalized": "ṍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0700",
+      "normalized": "ṏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0701",
+      "normalized": "ṑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0702",
+      "normalized": "ṓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0703",
+      "normalized": "ṕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0704",
+      "normalized": "ṗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0705",
+      "normalized": "ṙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0706",
+      "normalized": "ṛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0707",
+      "normalized": "ṝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0708",
+      "normalized": "ṟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0709",
+      "normalized": "ṡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0710",
+      "normalized": "ṣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0711",
+      "normalized": "ṥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0712",
+      "normalized": "ṧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0713",
+      "normalized": "ṩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0714",
+      "normalized": "ṫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0715",
+      "normalized": "ṭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0716",
+      "normalized": "ṯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0717",
+      "normalized": "ṱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0718",
+      "normalized": "ṳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0719",
+      "normalized": "ṵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0720",
+      "normalized": "ṷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0721",
+      "normalized": "ṹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0722",
+      "normalized": "ṻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0723",
+      "normalized": "ṽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0724",
+      "normalized": "ṿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0725",
+      "normalized": "ẁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0726",
+      "normalized": "ẃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0727",
+      "normalized": "ẅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0728",
+      "normalized": "ẇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0729",
+      "normalized": "ẉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0730",
+      "normalized": "ẋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0731",
+      "normalized": "ẍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0732",
+      "normalized": "ẏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0733",
+      "normalized": "ẑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0734",
+      "normalized": "ẓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0735",
+      "normalized": "ẕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0736",
+      "normalized": "ß",
+      "status": "PASS"
+    },
+    {
+      "id": "U0737",
+      "normalized": "ạ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0738",
+      "normalized": "ả",
+      "status": "PASS"
+    },
+    {
+      "id": "U0739",
+      "normalized": "ấ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0740",
+      "normalized": "ầ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0741",
+      "normalized": "ẩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0742",
+      "normalized": "ẫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0743",
+      "normalized": "ậ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0744",
+      "normalized": "ắ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0745",
+      "normalized": "ằ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0746",
+      "normalized": "ẳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0747",
+      "normalized": "ẵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0748",
+      "normalized": "ặ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0749",
+      "normalized": "ẹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0750",
+      "normalized": "ẻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0751",
+      "normalized": "ẽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0752",
+      "normalized": "ế",
+      "status": "PASS"
+    },
+    {
+      "id": "U0753",
+      "normalized": "ề",
+      "status": "PASS"
+    },
+    {
+      "id": "U0754",
+      "normalized": "ể",
+      "status": "PASS"
+    },
+    {
+      "id": "U0755",
+      "normalized": "ễ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0756",
+      "normalized": "ệ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0757",
+      "normalized": "ỉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0758",
+      "normalized": "ị",
+      "status": "PASS"
+    },
+    {
+      "id": "U0759",
+      "normalized": "ọ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0760",
+      "normalized": "ỏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0761",
+      "normalized": "ố",
+      "status": "PASS"
+    },
+    {
+      "id": "U0762",
+      "normalized": "ồ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0763",
+      "normalized": "ổ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0764",
+      "normalized": "ỗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0765",
+      "normalized": "ộ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0766",
+      "normalized": "ớ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0767",
+      "normalized": "ờ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0768",
+      "normalized": "ở",
+      "status": "PASS"
+    },
+    {
+      "id": "U0769",
+      "normalized": "ỡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0770",
+      "normalized": "ợ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0771",
+      "normalized": "ụ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0772",
+      "normalized": "ủ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0773",
+      "normalized": "ứ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0774",
+      "normalized": "ừ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0775",
+      "normalized": "ử",
+      "status": "PASS"
+    },
+    {
+      "id": "U0776",
+      "normalized": "ữ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0777",
+      "normalized": "ự",
+      "status": "PASS"
+    },
+    {
+      "id": "U0778",
+      "normalized": "ỳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0779",
+      "normalized": "ỵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0780",
+      "normalized": "ỷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0781",
+      "normalized": "ỹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0782",
+      "normalized": "ỻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0783",
+      "normalized": "ỽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0784",
+      "normalized": "ỿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0785",
+      "normalized": "ἀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0786",
+      "normalized": "ἁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0787",
+      "normalized": "ἂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0788",
+      "normalized": "ἃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0789",
+      "normalized": "ἄ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0790",
+      "normalized": "ἅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0791",
+      "normalized": "ἆ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0792",
+      "normalized": "ἇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0793",
+      "normalized": "ἐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0794",
+      "normalized": "ἑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0795",
+      "normalized": "ἒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0796",
+      "normalized": "ἓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0797",
+      "normalized": "ἔ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0798",
+      "normalized": "ἕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0799",
+      "normalized": "ἠ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0800",
+      "normalized": "ἡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0801",
+      "normalized": "ἢ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0802",
+      "normalized": "ἣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0803",
+      "normalized": "ἤ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0804",
+      "normalized": "ἥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0805",
+      "normalized": "ἦ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0806",
+      "normalized": "ἧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0807",
+      "normalized": "ἰ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0808",
+      "normalized": "ἱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0809",
+      "normalized": "ἲ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0810",
+      "normalized": "ἳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0811",
+      "normalized": "ἴ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0812",
+      "normalized": "ἵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0813",
+      "normalized": "ἶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0814",
+      "normalized": "ἷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0815",
+      "normalized": "ὀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0816",
+      "normalized": "ὁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0817",
+      "normalized": "ὂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0818",
+      "normalized": "ὃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0819",
+      "normalized": "ὄ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0820",
+      "normalized": "ὅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0821",
+      "normalized": "ὑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0822",
+      "normalized": "ὓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0823",
+      "normalized": "ὕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0824",
+      "normalized": "ὗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0825",
+      "normalized": "ὠ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0826",
+      "normalized": "ὡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0827",
+      "normalized": "ὢ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0828",
+      "normalized": "ὣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0829",
+      "normalized": "ὤ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0830",
+      "normalized": "ὥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0831",
+      "normalized": "ὦ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0832",
+      "normalized": "ὧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0833",
+      "normalized": "ᾀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0834",
+      "normalized": "ᾁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0835",
+      "normalized": "ᾂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0836",
+      "normalized": "ᾃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0837",
+      "normalized": "ᾄ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0838",
+      "normalized": "ᾅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0839",
+      "normalized": "ᾆ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0840",
+      "normalized": "ᾇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0841",
+      "normalized": "ᾐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0842",
+      "normalized": "ᾑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0843",
+      "normalized": "ᾒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0844",
+      "normalized": "ᾓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0845",
+      "normalized": "ᾔ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0846",
+      "normalized": "ᾕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0847",
+      "normalized": "ᾖ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0848",
+      "normalized": "ᾗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0849",
+      "normalized": "ᾠ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0850",
+      "normalized": "ᾡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0851",
+      "normalized": "ᾢ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0852",
+      "normalized": "ᾣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0853",
+      "normalized": "ᾤ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0854",
+      "normalized": "ᾥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0855",
+      "normalized": "ᾦ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0856",
+      "normalized": "ᾧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0857",
+      "normalized": "ᾰ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0858",
+      "normalized": "ᾱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0859",
+      "normalized": "ὰ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0860",
+      "normalized": "ά",
+      "status": "PASS"
+    },
+    {
+      "id": "U0861",
+      "normalized": "ᾳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0862",
+      "normalized": "ὲ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0863",
+      "normalized": "έ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0864",
+      "normalized": "ὴ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0865",
+      "normalized": "ή",
+      "status": "PASS"
+    },
+    {
+      "id": "U0866",
+      "normalized": "ῃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0867",
+      "normalized": "ῐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0868",
+      "normalized": "ῑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0869",
+      "normalized": "ὶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0870",
+      "normalized": "ί",
+      "status": "PASS"
+    },
+    {
+      "id": "U0871",
+      "normalized": "ῠ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0872",
+      "normalized": "ῡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0873",
+      "normalized": "ὺ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0874",
+      "normalized": "ύ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0875",
+      "normalized": "ῥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0876",
+      "normalized": "ὸ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0877",
+      "normalized": "ό",
+      "status": "PASS"
+    },
+    {
+      "id": "U0878",
+      "normalized": "ὼ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0879",
+      "normalized": "ώ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0880",
+      "normalized": "ῳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0881",
+      "normalized": "ω",
+      "status": "PASS"
+    },
+    {
+      "id": "U0882",
+      "normalized": "k",
+      "status": "PASS"
+    },
+    {
+      "id": "U0883",
+      "normalized": "å",
+      "status": "PASS"
+    },
+    {
+      "id": "U0884",
+      "normalized": "ⅎ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0885",
+      "normalized": "i",
+      "status": "PASS"
+    },
+    {
+      "id": "U0886",
+      "normalized": "ii",
+      "status": "PASS"
+    },
+    {
+      "id": "U0887",
+      "normalized": "iii",
+      "status": "PASS"
+    },
+    {
+      "id": "U0888",
+      "normalized": "iv",
+      "status": "PASS"
+    },
+    {
+      "id": "U0889",
+      "normalized": "v",
+      "status": "PASS"
+    },
+    {
+      "id": "U0890",
+      "normalized": "vi",
+      "status": "PASS"
+    },
+    {
+      "id": "U0891",
+      "normalized": "vii",
+      "status": "PASS"
+    },
+    {
+      "id": "U0892",
+      "normalized": "viii",
+      "status": "PASS"
+    },
+    {
+      "id": "U0893",
+      "normalized": "ix",
+      "status": "PASS"
+    },
+    {
+      "id": "U0894",
+      "normalized": "x",
+      "status": "PASS"
+    },
+    {
+      "id": "U0895",
+      "normalized": "xi",
+      "status": "PASS"
+    },
+    {
+      "id": "U0896",
+      "normalized": "xii",
+      "status": "PASS"
+    },
+    {
+      "id": "U0897",
+      "normalized": "l",
+      "status": "PASS"
+    },
+    {
+      "id": "U0898",
+      "normalized": "c",
+      "status": "PASS"
+    },
+    {
+      "id": "U0899",
+      "normalized": "d",
+      "status": "PASS"
+    },
+    {
+      "id": "U0900",
+      "normalized": "m",
+      "status": "PASS"
+    },
+    {
+      "id": "U0901",
+      "normalized": "ↄ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0902",
+      "normalized": "a",
+      "status": "PASS"
+    },
+    {
+      "id": "U0903",
+      "normalized": "b",
+      "status": "PASS"
+    },
+    {
+      "id": "U0904",
+      "normalized": "c",
+      "status": "PASS"
+    },
+    {
+      "id": "U0905",
+      "normalized": "d",
+      "status": "PASS"
+    },
+    {
+      "id": "U0906",
+      "normalized": "e",
+      "status": "PASS"
+    },
+    {
+      "id": "U0907",
+      "normalized": "f",
+      "status": "PASS"
+    },
+    {
+      "id": "U0908",
+      "normalized": "g",
+      "status": "PASS"
+    },
+    {
+      "id": "U0909",
+      "normalized": "h",
+      "status": "PASS"
+    },
+    {
+      "id": "U0910",
+      "normalized": "i",
+      "status": "PASS"
+    },
+    {
+      "id": "U0911",
+      "normalized": "j",
+      "status": "PASS"
+    },
+    {
+      "id": "U0912",
+      "normalized": "k",
+      "status": "PASS"
+    },
+    {
+      "id": "U0913",
+      "normalized": "l",
+      "status": "PASS"
+    },
+    {
+      "id": "U0914",
+      "normalized": "m",
+      "status": "PASS"
+    },
+    {
+      "id": "U0915",
+      "normalized": "n",
+      "status": "PASS"
+    },
+    {
+      "id": "U0916",
+      "normalized": "o",
+      "status": "PASS"
+    },
+    {
+      "id": "U0917",
+      "normalized": "p",
+      "status": "PASS"
+    },
+    {
+      "id": "U0918",
+      "normalized": "q",
+      "status": "PASS"
+    },
+    {
+      "id": "U0919",
+      "normalized": "r",
+      "status": "PASS"
+    },
+    {
+      "id": "U0920",
+      "normalized": "s",
+      "status": "PASS"
+    },
+    {
+      "id": "U0921",
+      "normalized": "t",
+      "status": "PASS"
+    },
+    {
+      "id": "U0922",
+      "normalized": "u",
+      "status": "PASS"
+    },
+    {
+      "id": "U0923",
+      "normalized": "v",
+      "status": "PASS"
+    },
+    {
+      "id": "U0924",
+      "normalized": "w",
+      "status": "PASS"
+    },
+    {
+      "id": "U0925",
+      "normalized": "x",
+      "status": "PASS"
+    },
+    {
+      "id": "U0926",
+      "normalized": "y",
+      "status": "PASS"
+    },
+    {
+      "id": "U0927",
+      "normalized": "z",
+      "status": "PASS"
+    },
+    {
+      "id": "U0928",
+      "normalized": "ⰰ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0929",
+      "normalized": "ⰱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0930",
+      "normalized": "ⰲ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0931",
+      "normalized": "ⰳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0932",
+      "normalized": "ⰴ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0933",
+      "normalized": "ⰵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0934",
+      "normalized": "ⰶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0935",
+      "normalized": "ⰷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0936",
+      "normalized": "ⰸ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0937",
+      "normalized": "ⰹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0938",
+      "normalized": "ⰺ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0939",
+      "normalized": "ⰻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0940",
+      "normalized": "ⰼ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0941",
+      "normalized": "ⰽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0942",
+      "normalized": "ⰾ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0943",
+      "normalized": "ⰿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0944",
+      "normalized": "ⱀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0945",
+      "normalized": "ⱁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0946",
+      "normalized": "ⱂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0947",
+      "normalized": "ⱃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0948",
+      "normalized": "ⱄ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0949",
+      "normalized": "ⱅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0950",
+      "normalized": "ⱆ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0951",
+      "normalized": "ⱇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0952",
+      "normalized": "ⱈ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0953",
+      "normalized": "ⱉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0954",
+      "normalized": "ⱊ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0955",
+      "normalized": "ⱋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0956",
+      "normalized": "ⱌ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0957",
+      "normalized": "ⱍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0958",
+      "normalized": "ⱎ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0959",
+      "normalized": "ⱏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0960",
+      "normalized": "ⱐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0961",
+      "normalized": "ⱑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0962",
+      "normalized": "ⱒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0963",
+      "normalized": "ⱓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0964",
+      "normalized": "ⱔ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0965",
+      "normalized": "ⱕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0966",
+      "normalized": "ⱖ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0967",
+      "normalized": "ⱗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0968",
+      "normalized": "ⱘ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0969",
+      "normalized": "ⱙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0970",
+      "normalized": "ⱚ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0971",
+      "normalized": "ⱛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0972",
+      "normalized": "ⱜ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0973",
+      "normalized": "ⱝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0974",
+      "normalized": "ⱞ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0975",
+      "normalized": "ⱟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0976",
+      "normalized": "ⱡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0977",
+      "normalized": "ɫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0978",
+      "normalized": "ᵽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0979",
+      "normalized": "ɽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0980",
+      "normalized": "ⱨ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0981",
+      "normalized": "ⱪ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0982",
+      "normalized": "ⱬ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0983",
+      "normalized": "ɑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0984",
+      "normalized": "ɱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0985",
+      "normalized": "ɐ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0986",
+      "normalized": "ɒ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0987",
+      "normalized": "ⱳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0988",
+      "normalized": "ⱶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0989",
+      "normalized": "ȿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0990",
+      "normalized": "ɀ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0991",
+      "normalized": "ⲁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0992",
+      "normalized": "ⲃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0993",
+      "normalized": "ⲅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0994",
+      "normalized": "ⲇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0995",
+      "normalized": "ⲉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0996",
+      "normalized": "ⲋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0997",
+      "normalized": "ⲍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0998",
+      "normalized": "ⲏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U0999",
+      "normalized": "ⲑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1000",
+      "normalized": "ⲓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1001",
+      "normalized": "ⲕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1002",
+      "normalized": "ⲗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1003",
+      "normalized": "ⲙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1004",
+      "normalized": "ⲛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1005",
+      "normalized": "ⲝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1006",
+      "normalized": "ⲟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1007",
+      "normalized": "ⲡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1008",
+      "normalized": "ⲣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1009",
+      "normalized": "ⲥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1010",
+      "normalized": "ⲧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1011",
+      "normalized": "ⲩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1012",
+      "normalized": "ⲫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1013",
+      "normalized": "ⲭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1014",
+      "normalized": "ⲯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1015",
+      "normalized": "ⲱ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1016",
+      "normalized": "ⲳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1017",
+      "normalized": "ⲵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1018",
+      "normalized": "ⲷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1019",
+      "normalized": "ⲹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1020",
+      "normalized": "ⲻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1021",
+      "normalized": "ⲽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1022",
+      "normalized": "ⲿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1023",
+      "normalized": "ⳁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1024",
+      "normalized": "ⳃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1025",
+      "normalized": "ⳅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1026",
+      "normalized": "ⳇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1027",
+      "normalized": "ⳉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1028",
+      "normalized": "ⳋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1029",
+      "normalized": "ⳍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1030",
+      "normalized": "ⳏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1031",
+      "normalized": "ⳑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1032",
+      "normalized": "ⳓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1033",
+      "normalized": "ⳕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1034",
+      "normalized": "ⳗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1035",
+      "normalized": "ⳙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1036",
+      "normalized": "ⳛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1037",
+      "normalized": "ⳝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1038",
+      "normalized": "ⳟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1039",
+      "normalized": "ⳡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1040",
+      "normalized": "ⳣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1041",
+      "normalized": "ⳬ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1042",
+      "normalized": "ⳮ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1043",
+      "normalized": "ⳳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1044",
+      "normalized": "ꙁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1045",
+      "normalized": "ꙃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1046",
+      "normalized": "ꙅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1047",
+      "normalized": "ꙇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1048",
+      "normalized": "ꙉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1049",
+      "normalized": "ꙋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1050",
+      "normalized": "ꙍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1051",
+      "normalized": "ꙏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1052",
+      "normalized": "ꙑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1053",
+      "normalized": "ꙓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1054",
+      "normalized": "ꙕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1055",
+      "normalized": "ꙗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1056",
+      "normalized": "ꙙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1057",
+      "normalized": "ꙛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1058",
+      "normalized": "ꙝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1059",
+      "normalized": "ꙟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1060",
+      "normalized": "ꙡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1061",
+      "normalized": "ꙣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1062",
+      "normalized": "ꙥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1063",
+      "normalized": "ꙧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1064",
+      "normalized": "ꙩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1065",
+      "normalized": "ꙫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1066",
+      "normalized": "ꙭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1067",
+      "normalized": "ꚁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1068",
+      "normalized": "ꚃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1069",
+      "normalized": "ꚅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1070",
+      "normalized": "ꚇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1071",
+      "normalized": "ꚉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1072",
+      "normalized": "ꚋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1073",
+      "normalized": "ꚍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1074",
+      "normalized": "ꚏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1075",
+      "normalized": "ꚑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1076",
+      "normalized": "ꚓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1077",
+      "normalized": "ꚕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1078",
+      "normalized": "ꚗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1079",
+      "normalized": "ꚙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1080",
+      "normalized": "ꚛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1081",
+      "normalized": "ꜣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1082",
+      "normalized": "ꜥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1083",
+      "normalized": "ꜧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1084",
+      "normalized": "ꜩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1085",
+      "normalized": "ꜫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1086",
+      "normalized": "ꜭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1087",
+      "normalized": "ꜯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1088",
+      "normalized": "ꜳ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1089",
+      "normalized": "ꜵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1090",
+      "normalized": "ꜷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1091",
+      "normalized": "ꜹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1092",
+      "normalized": "ꜻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1093",
+      "normalized": "ꜽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1094",
+      "normalized": "ꜿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1095",
+      "normalized": "ꝁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1096",
+      "normalized": "ꝃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1097",
+      "normalized": "ꝅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1098",
+      "normalized": "ꝇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1099",
+      "normalized": "ꝉ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1100",
+      "normalized": "ꝋ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1101",
+      "normalized": "ꝍ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1102",
+      "normalized": "ꝏ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1103",
+      "normalized": "ꝑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1104",
+      "normalized": "ꝓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1105",
+      "normalized": "ꝕ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1106",
+      "normalized": "ꝗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1107",
+      "normalized": "ꝙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1108",
+      "normalized": "ꝛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1109",
+      "normalized": "ꝝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1110",
+      "normalized": "ꝟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1111",
+      "normalized": "ꝡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1112",
+      "normalized": "ꝣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1113",
+      "normalized": "ꝥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1114",
+      "normalized": "ꝧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1115",
+      "normalized": "ꝩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1116",
+      "normalized": "ꝫ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1117",
+      "normalized": "ꝭ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1118",
+      "normalized": "ꝯ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1119",
+      "normalized": "ꝺ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1120",
+      "normalized": "ꝼ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1121",
+      "normalized": "ᵹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1122",
+      "normalized": "ꝿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1123",
+      "normalized": "ꞁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1124",
+      "normalized": "ꞃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1125",
+      "normalized": "ꞅ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1126",
+      "normalized": "ꞇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1127",
+      "normalized": "ꞌ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1128",
+      "normalized": "ɥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1129",
+      "normalized": "ꞑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1130",
+      "normalized": "ꞓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1131",
+      "normalized": "ꞗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1132",
+      "normalized": "ꞙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1133",
+      "normalized": "ꞛ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1134",
+      "normalized": "ꞝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1135",
+      "normalized": "ꞟ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1136",
+      "normalized": "ꞡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1137",
+      "normalized": "ꞣ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1138",
+      "normalized": "ꞥ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1139",
+      "normalized": "ꞧ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1140",
+      "normalized": "ꞩ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1141",
+      "normalized": "ɦ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1142",
+      "normalized": "ɜ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1143",
+      "normalized": "ɡ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1144",
+      "normalized": "ɬ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1145",
+      "normalized": "ɪ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1146",
+      "normalized": "ʞ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1147",
+      "normalized": "ʇ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1148",
+      "normalized": "ʝ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1149",
+      "normalized": "ꭓ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1150",
+      "normalized": "ꞵ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1151",
+      "normalized": "ꞷ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1152",
+      "normalized": "ꞹ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1153",
+      "normalized": "ꞻ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1154",
+      "normalized": "ꞽ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1155",
+      "normalized": "ꞿ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1156",
+      "normalized": "ꟁ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1157",
+      "normalized": "ꟃ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1158",
+      "normalized": "ꞔ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1159",
+      "normalized": "ʂ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1160",
+      "normalized": "ᶎ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1161",
+      "normalized": "ꟈ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1162",
+      "normalized": "ꟊ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1163",
+      "normalized": "ꟑ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1164",
+      "normalized": "ꟗ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1165",
+      "normalized": "ꟙ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1166",
+      "normalized": "ꟶ",
+      "status": "PASS"
+    },
+    {
+      "id": "U1167",
+      "normalized": "a",
+      "status": "PASS"
+    },
+    {
+      "id": "U1168",
+      "normalized": "b",
+      "status": "PASS"
+    },
+    {
+      "id": "U1169",
+      "normalized": "c",
+      "status": "PASS"
+    },
+    {
+      "id": "U1170",
+      "normalized": "d",
+      "status": "PASS"
+    },
+    {
+      "id": "U1171",
+      "normalized": "e",
+      "status": "PASS"
+    },
+    {
+      "id": "U1172",
+      "normalized": "f",
+      "status": "PASS"
+    },
+    {
+      "id": "U1173",
+      "normalized": "g",
+      "status": "PASS"
+    },
+    {
+      "id": "U1174",
+      "normalized": "h",
+      "status": "PASS"
+    },
+    {
+      "id": "U1175",
+      "normalized": "i",
+      "status": "PASS"
+    },
+    {
+      "id": "U1176",
+      "normalized": "j",
+      "status": "PASS"
+    },
+    {
+      "id": "U1177",
+      "normalized": "k",
+      "status": "PASS"
+    },
+    {
+      "id": "U1178",
+      "normalized": "l",
+      "status": "PASS"
+    },
+    {
+      "id": "U1179",
+      "normalized": "m",
+      "status": "PASS"
+    },
+    {
+      "id": "U1180",
+      "normalized": "n",
+      "status": "PASS"
+    },
+    {
+      "id": "U1181",
+      "normalized": "o",
+      "status": "PASS"
+    },
+    {
+      "id": "U1182",
+      "normalized": "p",
+      "status": "PASS"
+    },
+    {
+      "id": "U1183",
+      "normalized": "q",
+      "status": "PASS"
+    },
+    {
+      "id": "U1184",
+      "normalized": "r",
+      "status": "PASS"
+    },
+    {
+      "id": "U1185",
+      "normalized": "s",
+      "status": "PASS"
+    },
+    {
+      "id": "U1186",
+      "normalized": "t",
+      "status": "PASS"
+    },
+    {
+      "id": "U1187",
+      "normalized": "u",
+      "status": "PASS"
+    },
+    {
+      "id": "U1188",
+      "normalized": "v",
+      "status": "PASS"
+    },
+    {
+      "id": "U1189",
+      "normalized": "w",
+      "status": "PASS"
+    },
+    {
+      "id": "U1190",
+      "normalized": "x",
+      "status": "PASS"
+    },
+    {
+      "id": "U1191",
+      "normalized": "y",
+      "status": "PASS"
+    },
+    {
+      "id": "U1192",
+      "normalized": "z",
+      "status": "PASS"
+    },
+    {
+      "id": "U1193",
+      "normalized": "𐐨",
+      "status": "PASS"
+    },
+    {
+      "id": "U1194",
+      "normalized": "𐐩",
+      "status": "PASS"
+    },
+    {
+      "id": "U1195",
+      "normalized": "𐐪",
+      "status": "PASS"
+    },
+    {
+      "id": "U1196",
+      "normalized": "𐐫",
+      "status": "PASS"
+    },
+    {
+      "id": "U1197",
+      "normalized": "𐐬",
+      "status": "PASS"
+    },
+    {
+      "id": "U1198",
+      "normalized": "𐐭",
+      "status": "PASS"
+    },
+    {
+      "id": "U1199",
+      "normalized": "𐐮",
+      "status": "PASS"
+    },
+    {
+      "id": "U1200",
+      "normalized": "𐐯",
+      "status": "PASS"
+    },
+    {
+      "id": "U1201",
+      "normalized": "𐐰",
+      "status": "PASS"
+    },
+    {
+      "id": "U1202",
+      "normalized": "𐐱",
+      "status": "PASS"
+    },
+    {
+      "id": "U1203",
+      "normalized": "𐐲",
+      "status": "PASS"
+    },
+    {
+      "id": "U1204",
+      "normalized": "𐐳",
+      "status": "PASS"
+    },
+    {
+      "id": "U1205",
+      "normalized": "𐐴",
+      "status": "PASS"
+    },
+    {
+      "id": "U1206",
+      "normalized": "𐐵",
+      "status": "PASS"
+    },
+    {
+      "id": "U1207",
+      "normalized": "𐐶",
+      "status": "PASS"
+    },
+    {
+      "id": "U1208",
+      "normalized": "𐐷",
+      "status": "PASS"
+    },
+    {
+      "id": "U1209",
+      "normalized": "𐐸",
+      "status": "PASS"
+    },
+    {
+      "id": "U1210",
+      "normalized": "𐐹",
+      "status": "PASS"
+    },
+    {
+      "id": "U1211",
+      "normalized": "𐐺",
+      "status": "PASS"
+    },
+    {
+      "id": "U1212",
+      "normalized": "𐐻",
+      "status": "PASS"
+    },
+    {
+      "id": "U1213",
+      "normalized": "𐐼",
+      "status": "PASS"
+    },
+    {
+      "id": "U1214",
+      "normalized": "𐐽",
+      "status": "PASS"
+    },
+    {
+      "id": "U1215",
+      "normalized": "𐐾",
+      "status": "PASS"
+    },
+    {
+      "id": "U1216",
+      "normalized": "𐐿",
+      "status": "PASS"
+    },
+    {
+      "id": "U1217",
+      "normalized": "𐑀",
+      "status": "PASS"
+    },
+    {
+      "id": "U1218",
+      "normalized": "𐑁",
+      "status": "PASS"
+    },
+    {
+      "id": "U1219",
+      "normalized": "𐑂",
+      "status": "PASS"
+    },
+    {
+      "id": "U1220",
+      "normalized": "𐑃",
+      "status": "PASS"
+    },
+    {
+      "id": "U1221",
+      "normalized": "𐑄",
+      "status": "PASS"
+    },
+    {
+      "id": "U1222",
+      "normalized": "𐑅",
+      "status": "PASS"
+    },
+    {
+      "id": "U1223",
+      "normalized": "𐑆",
+      "status": "PASS"
+    },
+    {
+      "id": "U1224",
+      "normalized": "𐑇",
+      "status": "PASS"
+    },
+    {
+      "id": "U1225",
+      "normalized": "𐑈",
+      "status": "PASS"
+    },
+    {
+      "id": "U1226",
+      "normalized": "𐑉",
+      "status": "PASS"
+    },
+    {
+      "id": "U1227",
+      "normalized": "𐑊",
+      "status": "PASS"
+    },
+    {
+      "id": "U1228",
+      "normalized": "𐑋",
+      "status": "PASS"
+    },
+    {
+      "id": "U1229",
+      "normalized": "𐑌",
+      "status": "PASS"
+    },
+    {
+      "id": "U1230",
+      "normalized": "𐑍",
+      "status": "PASS"
+    },
+    {
+      "id": "U1231",
+      "normalized": "𐑎",
+      "status": "PASS"
+    },
+    {
+      "id": "U1232",
+      "normalized": "𐑏",
+      "status": "PASS"
+    },
+    {
+      "id": "U1233",
+      "normalized": "𐓘",
+      "status": "PASS"
+    },
+    {
+      "id": "U1234",
+      "normalized": "𐓙",
+      "status": "PASS"
+    },
+    {
+      "id": "U1235",
+      "normalized": "𐓚",
+      "status": "PASS"
+    },
+    {
+      "id": "U1236",
+      "normalized": "𐓛",
+      "status": "PASS"
+    },
+    {
+      "id": "U1237",
+      "normalized": "𐓜",
+      "status": "PASS"
+    },
+    {
+      "id": "U1238",
+      "normalized": "𐓝",
+      "status": "PASS"
+    },
+    {
+      "id": "U1239",
+      "normalized": "𐓞",
+      "status": "PASS"
+    },
+    {
+      "id": "U1240",
+      "normalized": "𐓟",
+      "status": "PASS"
+    },
+    {
+      "id": "U1241",
+      "normalized": "𐓠",
+      "status": "PASS"
+    },
+    {
+      "id": "U1242",
+      "normalized": "𐓡",
+      "status": "PASS"
+    },
+    {
+      "id": "U1243",
+      "normalized": "𐓢",
+      "status": "PASS"
+    },
+    {
+      "id": "U1244",
+      "normalized": "𐓣",
+      "status": "PASS"
+    },
+    {
+      "id": "U1245",
+      "normalized": "𐓤",
+      "status": "PASS"
+    },
+    {
+      "id": "U1246",
+      "normalized": "𐓥",
+      "status": "PASS"
+    },
+    {
+      "id": "U1247",
+      "normalized": "𐓦",
+      "status": "PASS"
+    },
+    {
+      "id": "U1248",
+      "normalized": "𐓧",
+      "status": "PASS"
+    },
+    {
+      "id": "U1249",
+      "normalized": "𐓨",
+      "status": "PASS"
+    },
+    {
+      "id": "U1250",
+      "normalized": "𐓩",
+      "status": "PASS"
+    },
+    {
+      "id": "U1251",
+      "normalized": "𐓪",
+      "status": "PASS"
+    },
+    {
+      "id": "U1252",
+      "normalized": "𐓫",
+      "status": "PASS"
+    },
+    {
+      "id": "U1253",
+      "normalized": "𐓬",
+      "status": "PASS"
+    },
+    {
+      "id": "U1254",
+      "normalized": "𐓭",
+      "status": "PASS"
+    },
+    {
+      "id": "U1255",
+      "normalized": "𐓮",
+      "status": "PASS"
+    },
+    {
+      "id": "U1256",
+      "normalized": "𐓯",
+      "status": "PASS"
+    },
+    {
+      "id": "U1257",
+      "normalized": "𐓰",
+      "status": "PASS"
+    },
+    {
+      "id": "U1258",
+      "normalized": "𐓱",
+      "status": "PASS"
+    },
+    {
+      "id": "U1259",
+      "normalized": "𐓲",
+      "status": "PASS"
+    },
+    {
+      "id": "U1260",
+      "normalized": "𐓳",
+      "status": "PASS"
+    },
+    {
+      "id": "U1261",
+      "normalized": "𐓴",
+      "status": "PASS"
+    },
+    {
+      "id": "U1262",
+      "normalized": "𐓵",
+      "status": "PASS"
+    },
+    {
+      "id": "U1263",
+      "normalized": "𐓶",
+      "status": "PASS"
+    },
+    {
+      "id": "U1264",
+      "normalized": "𐓷",
+      "status": "PASS"
+    },
+    {
+      "id": "U1265",
+      "normalized": "𐓸",
+      "status": "PASS"
+    },
+    {
+      "id": "U1266",
+      "normalized": "𐓹",
+      "status": "PASS"
+    },
+    {
+      "id": "U1267",
+      "normalized": "𐓺",
+      "status": "PASS"
+    },
+    {
+      "id": "U1268",
+      "normalized": "𐓻",
+      "status": "PASS"
+    },
+    {
+      "id": "U1269",
+      "normalized": "𐖗",
+      "status": "PASS"
+    },
+    {
+      "id": "U1270",
+      "normalized": "𐖘",
+      "status": "PASS"
+    },
+    {
+      "id": "U1271",
+      "normalized": "𐖙",
+      "status": "PASS"
+    },
+    {
+      "id": "U1272",
+      "normalized": "𐖚",
+      "status": "PASS"
+    },
+    {
+      "id": "U1273",
+      "normalized": "𐖛",
+      "status": "PASS"
+    },
+    {
+      "id": "U1274",
+      "normalized": "𐖜",
+      "status": "PASS"
+    },
+    {
+      "id": "U1275",
+      "normalized": "𐖝",
+      "status": "PASS"
+    },
+    {
+      "id": "U1276",
+      "normalized": "𐖞",
+      "status": "PASS"
+    },
+    {
+      "id": "U1277",
+      "normalized": "𐖟",
+      "status": "PASS"
+    },
+    {
+      "id": "U1278",
+      "normalized": "𐖠",
+      "status": "PASS"
+    },
+    {
+      "id": "U1279",
+      "normalized": "𐖡",
+      "status": "PASS"
+    },
+    {
+      "id": "U1280",
+      "normalized": "𐖣",
+      "status": "PASS"
+    },
+    {
+      "id": "U1281",
+      "normalized": "𐖤",
+      "status": "PASS"
+    },
+    {
+      "id": "U1282",
+      "normalized": "𐖥",
+      "status": "PASS"
+    },
+    {
+      "id": "U1283",
+      "normalized": "𐖦",
+      "status": "PASS"
+    },
+    {
+      "id": "U1284",
+      "normalized": "𐖧",
+      "status": "PASS"
+    },
+    {
+      "id": "U1285",
+      "normalized": "𐖨",
+      "status": "PASS"
+    },
+    {
+      "id": "U1286",
+      "normalized": "𐖩",
+      "status": "PASS"
+    },
+    {
+      "id": "U1287",
+      "normalized": "𐖪",
+      "status": "PASS"
+    },
+    {
+      "id": "U1288",
+      "normalized": "𐖫",
+      "status": "PASS"
+    },
+    {
+      "id": "U1289",
+      "normalized": "𐖬",
+      "status": "PASS"
+    },
+    {
+      "id": "U1290",
+      "normalized": "𐖭",
+      "status": "PASS"
+    },
+    {
+      "id": "U1291",
+      "normalized": "𐖮",
+      "status": "PASS"
+    },
+    {
+      "id": "U1292",
+      "normalized": "𐖯",
+      "status": "PASS"
+    },
+    {
+      "id": "U1293",
+      "normalized": "𐖰",
+      "status": "PASS"
+    },
+    {
+      "id": "U1294",
+      "normalized": "𐖱",
+      "status": "PASS"
+    },
+    {
+      "id": "U1295",
+      "normalized": "𐖳",
+      "status": "PASS"
+    },
+    {
+      "id": "U1296",
+      "normalized": "𐖴",
+      "status": "PASS"
+    },
+    {
+      "id": "U1297",
+      "normalized": "𐖵",
+      "status": "PASS"
+    },
+    {
+      "id": "U1298",
+      "normalized": "𐖶",
+      "status": "PASS"
+    },
+    {
+      "id": "U1299",
+      "normalized": "𐖷",
+      "status": "PASS"
+    },
+    {
+      "id": "U1300",
+      "normalized": "𐖸",
+      "status": "PASS"
+    },
+    {
+      "id": "U1301",
+      "normalized": "𐖹",
+      "status": "PASS"
+    },
+    {
+      "id": "U1302",
+      "normalized": "𐖻",
+      "status": "PASS"
+    },
+    {
+      "id": "U1303",
+      "normalized": "𐖼",
+      "status": "PASS"
+    },
+    {
+      "id": "U1304",
+      "normalized": "𐳀",
+      "status": "PASS"
+    },
+    {
+      "id": "U1305",
+      "normalized": "𐳁",
+      "status": "PASS"
+    },
+    {
+      "id": "U1306",
+      "normalized": "𐳂",
+      "status": "PASS"
+    },
+    {
+      "id": "U1307",
+      "normalized": "𐳃",
+      "status": "PASS"
+    },
+    {
+      "id": "U1308",
+      "normalized": "𐳄",
+      "status": "PASS"
+    },
+    {
+      "id": "U1309",
+      "normalized": "𐳅",
+      "status": "PASS"
+    },
+    {
+      "id": "U1310",
+      "normalized": "𐳆",
+      "status": "PASS"
+    },
+    {
+      "id": "U1311",
+      "normalized": "𐳇",
+      "status": "PASS"
+    },
+    {
+      "id": "U1312",
+      "normalized": "𐳈",
+      "status": "PASS"
+    },
+    {
+      "id": "U1313",
+      "normalized": "𐳉",
+      "status": "PASS"
+    },
+    {
+      "id": "U1314",
+      "normalized": "𐳊",
+      "status": "PASS"
+    },
+    {
+      "id": "U1315",
+      "normalized": "𐳋",
+      "status": "PASS"
+    },
+    {
+      "id": "U1316",
+      "normalized": "𐳌",
+      "status": "PASS"
+    },
+    {
+      "id": "U1317",
+      "normalized": "𐳍",
+      "status": "PASS"
+    },
+    {
+      "id": "U1318",
+      "normalized": "𐳎",
+      "status": "PASS"
+    },
+    {
+      "id": "U1319",
+      "normalized": "𐳏",
+      "status": "PASS"
+    },
+    {
+      "id": "U1320",
+      "normalized": "𐳐",
+      "status": "PASS"
+    },
+    {
+      "id": "U1321",
+      "normalized": "𐳑",
+      "status": "PASS"
+    },
+    {
+      "id": "U1322",
+      "normalized": "𐳒",
+      "status": "PASS"
+    },
+    {
+      "id": "U1323",
+      "normalized": "𐳓",
+      "status": "PASS"
+    },
+    {
+      "id": "U1324",
+      "normalized": "𐳔",
+      "status": "PASS"
+    },
+    {
+      "id": "U1325",
+      "normalized": "𐳕",
+      "status": "PASS"
+    },
+    {
+      "id": "U1326",
+      "normalized": "𐳖",
+      "status": "PASS"
+    },
+    {
+      "id": "U1327",
+      "normalized": "𐳗",
+      "status": "PASS"
+    },
+    {
+      "id": "U1328",
+      "normalized": "𐳘",
+      "status": "PASS"
+    },
+    {
+      "id": "U1329",
+      "normalized": "𐳙",
+      "status": "PASS"
+    },
+    {
+      "id": "U1330",
+      "normalized": "𐳚",
+      "status": "PASS"
+    },
+    {
+      "id": "U1331",
+      "normalized": "𐳛",
+      "status": "PASS"
+    },
+    {
+      "id": "U1332",
+      "normalized": "𐳜",
+      "status": "PASS"
+    },
+    {
+      "id": "U1333",
+      "normalized": "𐳝",
+      "status": "PASS"
+    },
+    {
+      "id": "U1334",
+      "normalized": "𐳞",
+      "status": "PASS"
+    },
+    {
+      "id": "U1335",
+      "normalized": "𐳟",
+      "status": "PASS"
+    },
+    {
+      "id": "U1336",
+      "normalized": "𐳠",
+      "status": "PASS"
+    },
+    {
+      "id": "U1337",
+      "normalized": "𐳡",
+      "status": "PASS"
+    },
+    {
+      "id": "U1338",
+      "normalized": "𐳢",
+      "status": "PASS"
+    },
+    {
+      "id": "U1339",
+      "normalized": "𐳣",
+      "status": "PASS"
+    },
+    {
+      "id": "U1340",
+      "normalized": "𐳤",
+      "status": "PASS"
+    },
+    {
+      "id": "U1341",
+      "normalized": "𐳥",
+      "status": "PASS"
+    },
+    {
+      "id": "U1342",
+      "normalized": "𐳦",
+      "status": "PASS"
+    },
+    {
+      "id": "U1343",
+      "normalized": "𐳧",
+      "status": "PASS"
+    },
+    {
+      "id": "U1344",
+      "normalized": "𐳨",
+      "status": "PASS"
+    },
+    {
+      "id": "U1345",
+      "normalized": "𐳩",
+      "status": "PASS"
+    },
+    {
+      "id": "U1346",
+      "normalized": "𐳪",
+      "status": "PASS"
+    },
+    {
+      "id": "U1347",
+      "normalized": "𐳫",
+      "status": "PASS"
+    },
+    {
+      "id": "U1348",
+      "normalized": "𐳬",
+      "status": "PASS"
+    },
+    {
+      "id": "U1349",
+      "normalized": "𐳭",
+      "status": "PASS"
+    },
+    {
+      "id": "U1350",
+      "normalized": "𐳮",
+      "status": "PASS"
+    },
+    {
+      "id": "U1351",
+      "normalized": "𐳯",
+      "status": "PASS"
+    },
+    {
+      "id": "U1352",
+      "normalized": "𐳰",
+      "status": "PASS"
+    },
+    {
+      "id": "U1353",
+      "normalized": "𐳱",
+      "status": "PASS"
+    },
+    {
+      "id": "U1354",
+      "normalized": "𐳲",
+      "status": "PASS"
+    },
+    {
+      "id": "U1355",
+      "normalized": "𑣀",
+      "status": "PASS"
+    },
+    {
+      "id": "U1356",
+      "normalized": "𑣁",
+      "status": "PASS"
+    },
+    {
+      "id": "U1357",
+      "normalized": "𑣂",
+      "status": "PASS"
+    },
+    {
+      "id": "U1358",
+      "normalized": "𑣃",
+      "status": "PASS"
+    },
+    {
+      "id": "U1359",
+      "normalized": "𑣄",
+      "status": "PASS"
+    },
+    {
+      "id": "U1360",
+      "normalized": "𑣅",
+      "status": "PASS"
+    },
+    {
+      "id": "U1361",
+      "normalized": "𑣆",
+      "status": "PASS"
+    },
+    {
+      "id": "U1362",
+      "normalized": "𑣇",
+      "status": "PASS"
+    },
+    {
+      "id": "U1363",
+      "normalized": "𑣈",
+      "status": "PASS"
+    },
+    {
+      "id": "U1364",
+      "normalized": "𑣉",
+      "status": "PASS"
+    },
+    {
+      "id": "U1365",
+      "normalized": "𑣊",
+      "status": "PASS"
+    },
+    {
+      "id": "U1366",
+      "normalized": "𑣋",
+      "status": "PASS"
+    },
+    {
+      "id": "U1367",
+      "normalized": "𑣌",
+      "status": "PASS"
+    },
+    {
+      "id": "U1368",
+      "normalized": "𑣍",
+      "status": "PASS"
+    },
+    {
+      "id": "U1369",
+      "normalized": "𑣎",
+      "status": "PASS"
+    },
+    {
+      "id": "U1370",
+      "normalized": "𑣏",
+      "status": "PASS"
+    },
+    {
+      "id": "U1371",
+      "normalized": "𑣐",
+      "status": "PASS"
+    },
+    {
+      "id": "U1372",
+      "normalized": "𑣑",
+      "status": "PASS"
+    },
+    {
+      "id": "U1373",
+      "normalized": "𑣒",
+      "status": "PASS"
+    },
+    {
+      "id": "U1374",
+      "normalized": "𑣓",
+      "status": "PASS"
+    },
+    {
+      "id": "U1375",
+      "normalized": "𑣔",
+      "status": "PASS"
+    },
+    {
+      "id": "U1376",
+      "normalized": "𑣕",
+      "status": "PASS"
+    },
+    {
+      "id": "U1377",
+      "normalized": "𑣖",
+      "status": "PASS"
+    },
+    {
+      "id": "U1378",
+      "normalized": "𑣗",
+      "status": "PASS"
+    },
+    {
+      "id": "U1379",
+      "normalized": "𑣘",
+      "status": "PASS"
+    },
+    {
+      "id": "U1380",
+      "normalized": "𑣙",
+      "status": "PASS"
+    },
+    {
+      "id": "U1381",
+      "normalized": "𑣚",
+      "status": "PASS"
+    },
+    {
+      "id": "U1382",
+      "normalized": "𑣛",
+      "status": "PASS"
+    },
+    {
+      "id": "U1383",
+      "normalized": "𑣜",
+      "status": "PASS"
+    },
+    {
+      "id": "U1384",
+      "normalized": "𑣝",
+      "status": "PASS"
+    },
+    {
+      "id": "U1385",
+      "normalized": "𑣞",
+      "status": "PASS"
+    },
+    {
+      "id": "U1386",
+      "normalized": "𑣟",
+      "status": "PASS"
+    },
+    {
+      "id": "U1387",
+      "normalized": "𖹠",
+      "status": "PASS"
+    },
+    {
+      "id": "U1388",
+      "normalized": "𖹡",
+      "status": "PASS"
+    },
+    {
+      "id": "U1389",
+      "normalized": "𖹢",
+      "status": "PASS"
+    },
+    {
+      "id": "U1390",
+      "normalized": "𖹣",
+      "status": "PASS"
+    },
+    {
+      "id": "U1391",
+      "normalized": "𖹤",
+      "status": "PASS"
+    },
+    {
+      "id": "U1392",
+      "normalized": "𖹥",
+      "status": "PASS"
+    },
+    {
+      "id": "U1393",
+      "normalized": "𖹦",
+      "status": "PASS"
+    },
+    {
+      "id": "U1394",
+      "normalized": "𖹧",
+      "status": "PASS"
+    },
+    {
+      "id": "U1395",
+      "normalized": "𖹨",
+      "status": "PASS"
+    },
+    {
+      "id": "U1396",
+      "normalized": "𖹩",
+      "status": "PASS"
+    },
+    {
+      "id": "U1397",
+      "normalized": "𖹪",
+      "status": "PASS"
+    },
+    {
+      "id": "U1398",
+      "normalized": "𖹫",
+      "status": "PASS"
+    },
+    {
+      "id": "U1399",
+      "normalized": "𖹬",
+      "status": "PASS"
+    },
+    {
+      "id": "U1400",
+      "normalized": "𖹭",
+      "status": "PASS"
+    },
+    {
+      "id": "U1401",
+      "normalized": "𖹮",
+      "status": "PASS"
+    },
+    {
+      "id": "U1402",
+      "normalized": "𖹯",
+      "status": "PASS"
+    },
+    {
+      "id": "U1403",
+      "normalized": "𖹰",
+      "status": "PASS"
+    },
+    {
+      "id": "U1404",
+      "normalized": "𖹱",
+      "status": "PASS"
+    },
+    {
+      "id": "U1405",
+      "normalized": "𖹲",
+      "status": "PASS"
+    },
+    {
+      "id": "U1406",
+      "normalized": "𖹳",
+      "status": "PASS"
+    },
+    {
+      "id": "U1407",
+      "normalized": "𖹴",
+      "status": "PASS"
+    },
+    {
+      "id": "U1408",
+      "normalized": "𖹵",
+      "status": "PASS"
+    },
+    {
+      "id": "U1409",
+      "normalized": "𖹶",
+      "status": "PASS"
+    },
+    {
+      "id": "U1410",
+      "normalized": "𖹷",
+      "status": "PASS"
+    },
+    {
+      "id": "U1411",
+      "normalized": "𖹸",
+      "status": "PASS"
+    },
+    {
+      "id": "U1412",
+      "normalized": "𖹹",
+      "status": "PASS"
+    },
+    {
+      "id": "U1413",
+      "normalized": "𖹺",
+      "status": "PASS"
+    },
+    {
+      "id": "U1414",
+      "normalized": "𖹻",
+      "status": "PASS"
+    },
+    {
+      "id": "U1415",
+      "normalized": "𖹼",
+      "status": "PASS"
+    },
+    {
+      "id": "U1416",
+      "normalized": "𖹽",
+      "status": "PASS"
+    },
+    {
+      "id": "U1417",
+      "normalized": "𖹾",
+      "status": "PASS"
+    },
+    {
+      "id": "U1418",
+      "normalized": "𖹿",
+      "status": "PASS"
+    },
+    {
+      "id": "U1419",
+      "normalized": "𞤢",
+      "status": "PASS"
+    },
+    {
+      "id": "U1420",
+      "normalized": "𞤣",
+      "status": "PASS"
+    },
+    {
+      "id": "U1421",
+      "normalized": "𞤤",
+      "status": "PASS"
+    },
+    {
+      "id": "U1422",
+      "normalized": "𞤥",
+      "status": "PASS"
+    },
+    {
+      "id": "U1423",
+      "normalized": "𞤦",
+      "status": "PASS"
+    },
+    {
+      "id": "U1424",
+      "normalized": "𞤧",
+      "status": "PASS"
+    },
+    {
+      "id": "U1425",
+      "normalized": "𞤨",
+      "status": "PASS"
+    },
+    {
+      "id": "U1426",
+      "normalized": "𞤩",
+      "status": "PASS"
+    },
+    {
+      "id": "U1427",
+      "normalized": "𞤪",
+      "status": "PASS"
+    },
+    {
+      "id": "U1428",
+      "normalized": "𞤫",
+      "status": "PASS"
+    },
+    {
+      "id": "U1429",
+      "normalized": "𞤬",
+      "status": "PASS"
+    },
+    {
+      "id": "U1430",
+      "normalized": "𞤭",
+      "status": "PASS"
+    },
+    {
+      "id": "U1431",
+      "normalized": "𞤮",
+      "status": "PASS"
+    },
+    {
+      "id": "U1432",
+      "normalized": "𞤯",
+      "status": "PASS"
+    },
+    {
+      "id": "U1433",
+      "normalized": "𞤰",
+      "status": "PASS"
+    },
+    {
+      "id": "U1434",
+      "normalized": "𞤱",
+      "status": "PASS"
+    },
+    {
+      "id": "U1435",
+      "normalized": "𞤲",
+      "status": "PASS"
+    },
+    {
+      "id": "U1436",
+      "normalized": "𞤳",
+      "status": "PASS"
+    },
+    {
+      "id": "U1437",
+      "normalized": "𞤴",
+      "status": "PASS"
+    },
+    {
+      "id": "U1438",
+      "normalized": "𞤵",
+      "status": "PASS"
+    },
+    {
+      "id": "U1439",
+      "normalized": "𞤶",
+      "status": "PASS"
+    },
+    {
+      "id": "U1440",
+      "normalized": "𞤷",
+      "status": "PASS"
+    },
+    {
+      "id": "U1441",
+      "normalized": "𞤸",
+      "status": "PASS"
+    },
+    {
+      "id": "U1442",
+      "normalized": "𞤹",
+      "status": "PASS"
+    },
+    {
+      "id": "U1443",
+      "normalized": "𞤺",
+      "status": "PASS"
+    },
+    {
+      "id": "U1444",
+      "normalized": "𞤻",
+      "status": "PASS"
+    },
+    {
+      "id": "U1445",
+      "normalized": "𞤼",
+      "status": "PASS"
+    },
+    {
+      "id": "U1446",
+      "normalized": "𞤽",
+      "status": "PASS"
+    },
+    {
+      "id": "U1447",
+      "normalized": "𞤾",
+      "status": "PASS"
+    },
+    {
+      "id": "U1448",
+      "normalized": "𞤿",
+      "status": "PASS"
+    },
+    {
+      "id": "U1449",
+      "normalized": "𞥀",
+      "status": "PASS"
+    },
+    {
+      "id": "U1450",
+      "normalized": "𞥁",
+      "status": "PASS"
+    },
+    {
+      "id": "U1451",
+      "normalized": "𞥂",
+      "status": "PASS"
+    },
+    {
+      "id": "U1452",
+      "normalized": "𞥃",
+      "status": "PASS"
+    }
+  ],
+  "os_nfkc_u1e030_observed": "а",
+  "frozen_nfkc_u1e030": "а",
+  "mobile_data_policy": "REMAINS_ON_NO_AIRPLANE_ACCEPTANCE"
+}

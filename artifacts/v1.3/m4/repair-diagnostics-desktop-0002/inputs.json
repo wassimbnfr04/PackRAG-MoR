@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "artifacts\\v1.3\\m4\\chat-and-repair-0001\\diagnose_repair_0002.py": "5d6c9e862c5e71409407497150479d2105388b00231be7ef7b58482bbd688c24",
+    "artifacts\\v1.3\\m4\\chat-and-repair-0001\\repair-cases-frozen-0001.json": "66f4181916ee58750627c6605a94483bff02cb01e5cf88c4915c6210a8f6e222",
+    "artifacts\\v1.3\\m4\\chat-and-repair-0001\\repair-documents-frozen-0001.json": "9af185e58fd2ce1cdc8418ef0790bca31cb3d08432ee1f5673a0933eddd23508"
+  },
+  "started_utc": "2026-10-12T18:30:14.925680+00:00",
+  "scope": "FINAL_ONLY_DEVELOPER_DIAGNOSTIC_NOT_PRODUCT_ANSWER"
+}

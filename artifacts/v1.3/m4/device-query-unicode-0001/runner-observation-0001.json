@@ -1,0 +1,7 @@
+{
+  "observed_utc": "2026-10-06T22:34:14.877930+00:00",
+  "purpose": "BOUNDED_TEST_RUNNER_PROGRESS_NOT_ACCEPTANCE_OR_PERFORMANCE",
+  "returncode": 0,
+  "tail": "--------- beginning of main\n10-06 22:33:04.349 19837 20024 I TestRunner: run started: 16 tests\n10-06 22:33:04.375 19837 20024 I TestRunner: started: officialUnicode15AndDesktopQueryParity(org.packrag.product.QueryUnicodeDeviceTest)\n10-06 22:33:12.780 19837 20024 I TestRunner: finished: officialUnicode15AndDesktopQueryParity(org.packrag.product.QueryUnicodeDeviceTest)\n10-06 22:33:12.788 19837 20024 I TestRunner: started: actualNativeAbortRecoveryAndClosedHandleRejection(org.packrag.product.GeneratorCancellationTest)\n",
+  "stderr": ""
+}

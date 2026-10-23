@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.product.LocalAssetImporterTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-12T18:28:01.720Z" hostname="RAZER" time="0.52">
+  <properties/>
+  <testcase name="startupRemovesOnlyValidatedOwnedStagesAndLeavesLegacyPartials" classname="org.packrag.product.LocalAssetImporterTest" time="0.037"/>
+  <testcase name="lateCancellationAndPostcommitSyncFailureReportInstalledBytes" classname="org.packrag.product.LocalAssetImporterTest" time="0.042"/>
+  <testcase name="realStagedReadbackReplacesOnlyFixedFinalAndClosesOneSource" classname="org.packrag.product.LocalAssetImporterTest" time="0.033"/>
+  <testcase name="shortAndZeroReadsObserveEveryByteWithoutReopening" classname="org.packrag.product.LocalAssetImporterTest" time="0.121"/>
+  <testcase name="readersAndWritersExcludeReplacementBeforeInputAndReleaseIdempotently" classname="org.packrag.product.LocalAssetImporterTest" time="0.022"/>
+  <testcase name="emptyTruncatedOversizedAndCorruptPreserveOldBytes" classname="org.packrag.product.LocalAssetImporterTest" time="0.054"/>
+  <testcase name="stageChangedAfterCopyIsCaughtByIndependentReadbackBeforeCommit" classname="org.packrag.product.LocalAssetImporterTest" time="0.02"/>
+  <testcase name="sourceReadAndPrecommitDirectorySyncFailureAreSafeAndSanitized" classname="org.packrag.product.LocalAssetImporterTest" time="0.021"/>
+  <testcase name="unknownStagingEntriesArePreservedAndNoInputIsOpened" classname="org.packrag.product.LocalAssetImporterTest" time="0.011"/>
+  <testcase name="corruptMarkerAndOversizedOwnedStageCannotBeDeletedOrPromoted" classname="org.packrag.product.LocalAssetImporterTest" time="0.014"/>
+  <testcase name="cancellationBeforeOpenDuringCopyAndBeforeRenamePreservesOldBytes" classname="org.packrag.product.LocalAssetImporterTest" time="0.14"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_OWNER_AUTHORIZED_RESUME_BEFORE_E1_EDITS",
+  "recorded_utc": "2026-10-10T14:29:37.828680+00:00",
+  "head": "725dd986b7c548d3fa1549b7dc0610687006ec85",
+  "implementation_checkpoint": "19f760e89c9a5dae7a36edf8fe1b02ba248cf700",
+  "unchanged_runtime_inputs": 185,
+  "unchanged_android_inputs": 543,
+  "unchanged_d3_public_outputs": 902,
+  "unchanged_historical": 587,
+  "adb_authorized_serial": "R3CT908DHHR",
+  "mobile_data_must_remain_on": true,
+  "next": "M4E1 query controls and captured context",
+  "scope": "RAG/mobile software with test packs; final knowledge content belongs to owner"
+}

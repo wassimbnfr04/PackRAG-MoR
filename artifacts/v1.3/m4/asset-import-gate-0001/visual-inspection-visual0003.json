@@ -1,0 +1,22 @@
+{
+  "status": "PASS_VISUAL_SEPARATE_PICKER_TEMPLATE_SCOPE_NOT_FULL_F2",
+  "recorded_utc": "2026-10-11T20:21:32.640343+00:00",
+  "test_id": "f2-visual-4757bf3d-4e7e-49ab-832c-8571a4ca0977",
+  "reviews": {
+    "m4-local-asset-import-visual-progress.png": {
+      "visible": "Full1080px product width, header/system bars, actual Copying256/5443bytes, progress indicator, Cancel import enabled, Check local files/chooser disabled during copy. Guidance and generator pin wrap normally; template heading/expected5443bytes visible. No lateral picker exit surface or translated/cropped product width.",
+      "limits": "Scrolled viewport; template hash/check fields below bottom are not covered by this image. Raster displays256bytes while near-sample ViewModel observations record512bytes: independently sampled rendered/state values, not a synchronized counter/latency/performance assertion.",
+      "status": "PASS_VISIBLE_SCOPE",
+      "sha256": "0dc8aa929880ec8badcc335ef7615fdf11af20797ed339d8cda70e2d51a9146f"
+    },
+    "m4-local-asset-import-visual-verified.png": {
+      "visible": "Full1080px product width, installed-and-verified message, enabled check/generator chooser, template exact-size/SHA256-match last-check guidance, expected/observed5443bytes, entire wrapped expected template SHA256. Generator still configured/unchecked as required in template-only isolated root. No lateral picker surface/text crop.",
+      "limits": "Scrolled viewport; top introductory sentence and bottom check timestamp cross viewport boundaries normally. No assertion for offscreen other slots, their readiness, complete timestamp legibility, native generation or all-four-ready in this visual-only run.",
+      "status": "PASS_VISIBLE_SCOPE",
+      "sha256": "d46f1e0c1e75169435a93a61ef062da175386e51a213eb6d51110f069cd2fbcf"
+    }
+  },
+  "execution_sha256": "ba8fba16dcb308b27d9fd5f6047b490e50e3fbcb09b3d9c98cec0808f93d3c9b",
+  "unchanged_ui4_inputs": 598,
+  "note": "Separate visual0003 actual JUnit1/three controls PASSED19.178s; original main/progress and two unmodified1080x2316 PNGs saved/hash-bound before switch. Independent view_image review passes readable full-width visible progress/cancel/verified-template fields; normal scroll clipping and raster256bytes versus separately sampled state512bytes documented, not full-screen content coverage or synchronized progress/performance proof. Exact599 inputs unchanged during execution; all598 UI0004 sources and whole product APK identical. Retained UI0004 actual eight controls/cold153token validated74\u00b0C[S1] result remains separately dated, its original visual FAIL unchanged; no relabelled new native experiment. Visual0001 install timeout/visual0002 PACKAGE UPDATED interruption remain FAIL; owner confirmed Ne pas envoyer and new4min foreground window, now ended. Known50/source4 unchanged. Next apply prepared eleven guard-only proposals, fresh matched debug/demo builds and relevant actual adjacent regressions, then restoration/custody/closure/exact checkpoint before F3. Full F2/M4/product not complete; final owner packs excluded/mobile data on."
+}

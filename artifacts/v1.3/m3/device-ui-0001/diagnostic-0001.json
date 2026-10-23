@@ -1,0 +1,52 @@
+[
+  {
+    "argv": [
+      "shell",
+      "logcat",
+      "-d",
+      "-t",
+      "1800",
+      "-v",
+      "threadtime",
+      "ActivityTaskManager:I",
+      "AndroidRuntime:E",
+      "*:S"
+    ],
+    "returncode": 0,
+    "selected_stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "shell",
+      "dumpsys",
+      "power"
+    ],
+    "returncode": 0,
+    "selected_stdout": "  mWakefulness=Awake\n  mIsPowered=true\n  mLastWakeTime=135646620 (12348061 ms ago)\n  mLastSleepTime=135541356 (12453325 ms ago)\n  mScreenOffTimeoutSetting=600000\n  mIsPowered=true",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "shell",
+      "dumpsys",
+      "window",
+      "windows"
+    ],
+    "returncode": 0,
+    "selected_stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "shell",
+      "run-as",
+      "org.packrag.product",
+      "cat",
+      "files/m2-ui-phase.json"
+    ],
+    "returncode": 0,
+    "selected_stdout": "{\n  \"phase\": \"INITIAL_STATE\",\n  \"message\": \"Ready. Developer pack mode.\",\n  \"packs\": \"org.packrag.development.walking-skeleton@0.1.0\"\n}",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,349 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResources
+> Task :app:packageReleaseResources
+> Task :core-model:preBuild UP-TO-DATE
+> Task :core-model:preReleaseBuild UP-TO-DATE
+> Task :core-model:processReleaseNavigationResources
+> Task :embedding-onnx:preBuild UP-TO-DATE
+> Task :embedding-onnx:preReleaseBuild UP-TO-DATE
+> Task :embedding-onnx:processReleaseNavigationResources
+> Task :generator-llama:preBuild UP-TO-DATE
+> Task :generator-llama:preReleaseBuild UP-TO-DATE
+> Task :generator-llama:processReleaseNavigationResources
+> Task :grounded-runtime:preBuild UP-TO-DATE
+> Task :grounded-runtime:preReleaseBuild UP-TO-DATE
+> Task :grounded-runtime:processReleaseNavigationResources
+> Task :kpack-registry:preBuild UP-TO-DATE
+> Task :kpack-registry:preReleaseBuild UP-TO-DATE
+> Task :kpack-registry:processReleaseNavigationResources
+> Task :retrieval:preBuild UP-TO-DATE
+> Task :retrieval:preReleaseBuild UP-TO-DATE
+> Task :retrieval:processReleaseNavigationResources
+> Task :security-crypto:preBuild UP-TO-DATE
+> Task :security-crypto:preReleaseBuild UP-TO-DATE
+> Task :security-crypto:processReleaseNavigationResources
+> Task :app:processReleaseNavigationResources
+> Task :core-model:generateReleaseResources
+> Task :core-model:packageReleaseResources
+> Task :embedding-onnx:generateReleaseResources
+> Task :core-model:javaPreCompileRelease
+> Task :embedding-onnx:packageReleaseResources
+> Task :core-model:parseReleaseLocalResources
+> Task :app:parseReleaseLocalResources
+> Task :embedding-onnx:javaPreCompileRelease
+> Task :embedding-onnx:parseReleaseLocalResources
+> Task :generator-llama:generateReleaseResources
+> Task :generator-llama:packageReleaseResources
+> Task :generator-llama:parseReleaseLocalResources
+> Task :core-model:generateReleaseRFile
+> Task :app:generateReleaseRFile
+> Task :embedding-onnx:generateReleaseRFile
+> Task :generator-llama:generateReleaseRFile
+> Task :security-crypto:generateReleaseResources
+> Task :security-crypto:packageReleaseResources
+> Task :security-crypto:javaPreCompileRelease
+> Task :security-crypto:parseReleaseLocalResources
+> Task :generator-llama:javaPreCompileRelease
+> Task :grounded-runtime:generateReleaseResources
+> Task :security-crypto:generateReleaseRFile
+> Task :grounded-runtime:packageReleaseResources
+> Task :grounded-runtime:parseReleaseLocalResources
+> Task :kpack-registry:generateReleaseResources
+> Task :kpack-registry:packageReleaseResources
+> Task :grounded-runtime:generateReleaseRFile
+> Task :kpack-registry:javaPreCompileRelease
+> Task :kpack-registry:parseReleaseLocalResources
+> Task :retrieval:generateReleaseResources
+> Task :kpack-registry:generateReleaseRFile
+> Task :retrieval:packageReleaseResources
+> Task :retrieval:javaPreCompileRelease
+> Task :retrieval:parseReleaseLocalResources
+> Task :grounded-runtime:javaPreCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :retrieval:generateReleaseRFile
+> Task :core-model:writeReleaseAarMetadata
+> Task :embedding-onnx:writeReleaseAarMetadata
+> Task :generator-llama:writeReleaseAarMetadata
+> Task :grounded-runtime:writeReleaseAarMetadata
+> Task :kpack-registry:writeReleaseAarMetadata
+> Task :retrieval:writeReleaseAarMetadata
+> Task :security-crypto:writeReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:compileReleaseNavigationResources
+> Task :app:checkReleaseAarMetadata
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :core-model:extractDeepLinksRelease
+> Task :core-model:processReleaseManifest
+> Task :embedding-onnx:extractDeepLinksRelease
+> Task :embedding-onnx:processReleaseManifest
+> Task :generator-llama:extractDeepLinksRelease
+> Task :generator-llama:processReleaseManifest
+> Task :grounded-runtime:extractDeepLinksRelease
+> Task :grounded-runtime:processReleaseManifest
+> Task :kpack-registry:extractDeepLinksRelease
+> Task :kpack-registry:processReleaseManifest
+> Task :retrieval:extractDeepLinksRelease
+> Task :retrieval:processReleaseManifest
+> Task :security-crypto:extractDeepLinksRelease
+> Task :security-crypto:processReleaseManifest
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+> Task :core-model:mapReleaseSourceSetPaths
+> Task :core-model:compileReleaseLibraryResources
+> Task :embedding-onnx:mapReleaseSourceSetPaths
+> Task :embedding-onnx:compileReleaseLibraryResources
+> Task :generator-llama:mapReleaseSourceSetPaths
+> Task :generator-llama:compileReleaseLibraryResources
+> Task :grounded-runtime:mapReleaseSourceSetPaths
+> Task :grounded-runtime:compileReleaseLibraryResources
+> Task :kpack-registry:mapReleaseSourceSetPaths
+> Task :kpack-registry:compileReleaseLibraryResources
+> Task :retrieval:mapReleaseSourceSetPaths
+> Task :retrieval:compileReleaseLibraryResources
+> Task :security-crypto:mapReleaseSourceSetPaths
+> Task :security-crypto:compileReleaseLibraryResources
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :core-model:preReleaseUnitTestBuild UP-TO-DATE
+> Task :core-model:generateReleaseUnitTestStubRFile
+> Task :core-model:javaPreCompileReleaseUnitTest
+> Task :embedding-onnx:preReleaseUnitTestBuild UP-TO-DATE
+> Task :embedding-onnx:generateReleaseUnitTestStubRFile
+> Task :embedding-onnx:javaPreCompileReleaseUnitTest
+> Task :generator-llama:preReleaseUnitTestBuild UP-TO-DATE
+> Task :generator-llama:generateReleaseUnitTestStubRFile
+> Task :generator-llama:javaPreCompileReleaseUnitTest
+> Task :grounded-runtime:preReleaseUnitTestBuild UP-TO-DATE
+> Task :grounded-runtime:generateReleaseUnitTestStubRFile
+> Task :grounded-runtime:javaPreCompileReleaseUnitTest
+> Task :kpack-registry:preReleaseUnitTestBuild UP-TO-DATE
+> Task :kpack-registry:generateReleaseUnitTestStubRFile
+> Task :kpack-registry:javaPreCompileReleaseUnitTest
+> Task :retrieval:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:mergeReleaseResources
+> Task :retrieval:generateReleaseUnitTestStubRFile
+> Task :retrieval:javaPreCompileReleaseUnitTest
+> Task :security-crypto:preReleaseUnitTestBuild UP-TO-DATE
+> Task :security-crypto:generateReleaseUnitTestStubRFile
+> Task :security-crypto:javaPreCompileReleaseUnitTest
+> Task :app:preDemoBuild UP-TO-DATE
+> Task :app:mergeDemoNativeDebugMetadata NO-SOURCE
+> Task :app:generateDemoBuildConfig
+> Task :app:generateDemoResources
+> Task :app:packageDemoResources
+> Task :app:processDemoNavigationResources
+> Task :app:parseDemoLocalResources
+> Task :app:generateDemoRFile
+> Task :app:javaPreCompileDemo
+> Task :app:generateDemoAssets UP-TO-DATE
+> Task :core-model:generateReleaseAssets UP-TO-DATE
+> Task :core-model:mergeReleaseAssets
+> Task :embedding-onnx:generateReleaseAssets UP-TO-DATE
+> Task :embedding-onnx:mergeReleaseAssets
+> Task :generator-llama:generateReleaseAssets UP-TO-DATE
+> Task :generator-llama:mergeReleaseAssets
+> Task :grounded-runtime:generateReleaseAssets UP-TO-DATE
+> Task :grounded-runtime:mergeReleaseAssets
+> Task :kpack-registry:generateReleaseAssets UP-TO-DATE
+> Task :kpack-registry:mergeReleaseAssets
+> Task :retrieval:generateReleaseAssets UP-TO-DATE
+> Task :retrieval:mergeReleaseAssets
+> Task :security-crypto:generateReleaseAssets UP-TO-DATE
+> Task :security-crypto:mergeReleaseAssets
+> Task :app:mergeDemoAssets
+> Task :app:compressDemoAssets
+> Task :app:processReleaseResources
+> Task :app:generateDemoGlobalSynthetics
+> Task :app:desugarDemoFileDependencies
+> Task :app:checkDemoAarMetadata
+> Task :app:mapDemoSourceSetPaths
+> Task :app:compileDemoNavigationResources
+> Task :app:checkDemoDuplicateClasses
+> Task :security-crypto:compileReleaseKotlin
+> Task :security-crypto:compileReleaseJavaWithJavac NO-SOURCE
+> Task :core-model:compileReleaseKotlin
+> Task :core-model:compileReleaseJavaWithJavac NO-SOURCE
+> Task :core-model:bundleLibCompileToJarRelease
+> Task :security-crypto:bundleLibCompileToJarRelease
+> Task :app:mergeDemoResources
+> Task :generator-llama:compileReleaseKotlin
+> Task :generator-llama:compileReleaseJavaWithJavac NO-SOURCE
+> Task :generator-llama:bundleLibCompileToJarRelease
+> Task :core-model:bundleLibRuntimeToJarRelease
+> Task :core-model:processReleaseJavaRes
+> Task :generator-llama:bundleLibRuntimeToJarRelease
+> Task :generator-llama:processReleaseJavaRes
+> Task :security-crypto:bundleLibRuntimeToJarRelease
+> Task :security-crypto:processReleaseJavaRes
+> Task :embedding-onnx:compileReleaseKotlin
+> Task :embedding-onnx:compileReleaseJavaWithJavac NO-SOURCE
+> Task :embedding-onnx:bundleLibCompileToJarRelease
+> Task :embedding-onnx:bundleLibRuntimeToJarRelease
+> Task :core-model:compileReleaseUnitTestKotlin
+> Task :embedding-onnx:processReleaseJavaRes
+> Task :core-model:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :core-model:processReleaseUnitTestJavaRes
+> Task :app:mergeExtDexDemo
+> Task :core-model:testReleaseUnitTest
+> Task :generator-llama:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :generator-llama:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :generator-llama:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :generator-llama:testReleaseUnitTest NO-SOURCE
+> Task :embedding-onnx:bundleLibRuntimeToDirRelease
+> Task :core-model:bundleLibRuntimeToDirRelease
+> Task :embedding-onnx:compileReleaseUnitTestKotlin
+> Task :embedding-onnx:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :embedding-onnx:processReleaseUnitTestJavaRes
+
+> Task :security-crypto:compileReleaseUnitTestKotlin
+w: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/security-crypto/src/test/java/org/packrag/crypto/ApprovedPublishersContractTest.kt:10:23 Java type mismatch: inferred type is 'String?', but 'String' was expected.
+
+> Task :kpack-registry:compileReleaseKotlin
+w: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/kpack-registry/src/main/java/org/packrag/packs/PackRegistry.kt:25:13 'lateinit' is unnecessary: definitely initialized in constructors.
+
+> Task :embedding-onnx:testReleaseUnitTest
+> Task :kpack-registry:compileReleaseJavaWithJavac NO-SOURCE
+> Task :kpack-registry:processReleaseJavaRes
+> Task :security-crypto:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :kpack-registry:bundleLibCompileToJarRelease
+> Task :kpack-registry:bundleLibRuntimeToJarRelease
+> Task :security-crypto:processReleaseUnitTestJavaRes
+> Task :security-crypto:testReleaseUnitTest
+> Task :generator-llama:bundleLibRuntimeToDirRelease
+
+> Task :kpack-registry:compileReleaseUnitTestKotlin
+w: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/kpack-registry/src/test/java/org/packrag/packs/StrictManifestTest.kt:17:25 Java type mismatch: inferred type is 'String?', but 'String' was expected.
+
+> Task :kpack-registry:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :kpack-registry:processReleaseUnitTestJavaRes
+> Task :kpack-registry:bundleLibRuntimeToDirRelease
+> Task :retrieval:compileReleaseKotlin
+> Task :kpack-registry:testReleaseUnitTest
+> Task :retrieval:compileReleaseJavaWithJavac NO-SOURCE
+> Task :retrieval:processReleaseJavaRes
+> Task :retrieval:bundleLibCompileToJarRelease
+> Task :retrieval:bundleLibRuntimeToJarRelease
+> Task :retrieval:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :retrieval:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :retrieval:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :retrieval:testReleaseUnitTest NO-SOURCE
+> Task :app:createDemoCompatibleScreenManifests
+> Task :app:extractDeepLinksDemo
+> Task :security-crypto:bundleLibRuntimeToDirRelease
+> Task :retrieval:bundleLibRuntimeToDirRelease
+> Task :app:processDemoMainManifest
+> Task :app:processDemoManifest
+> Task :app:processDemoManifestForPackage
+> Task :app:mergeDemoJniLibFolders
+> Task :core-model:mergeReleaseJniLibFolders
+> Task :core-model:mergeReleaseNativeLibs NO-SOURCE
+> Task :core-model:copyReleaseJniLibsProjectOnly
+> Task :embedding-onnx:mergeReleaseJniLibFolders
+> Task :embedding-onnx:mergeReleaseNativeLibs NO-SOURCE
+> Task :embedding-onnx:copyReleaseJniLibsProjectOnly
+> Task :app:processDemoResources
+> Task :generator-llama:configureCMakeRelease[arm64-v8a]
+> Task :generator-llama:buildCMakeRelease[arm64-v8a]
+> Task :generator-llama:mergeReleaseJniLibFolders
+> Task :grounded-runtime:mergeReleaseJniLibFolders
+> Task :grounded-runtime:mergeReleaseNativeLibs NO-SOURCE
+> Task :grounded-runtime:copyReleaseJniLibsProjectOnly
+> Task :kpack-registry:mergeReleaseJniLibFolders
+> Task :kpack-registry:mergeReleaseNativeLibs NO-SOURCE
+> Task :kpack-registry:copyReleaseJniLibsProjectOnly
+> Task :retrieval:mergeReleaseJniLibFolders
+> Task :retrieval:mergeReleaseNativeLibs NO-SOURCE
+> Task :retrieval:copyReleaseJniLibsProjectOnly
+> Task :security-crypto:mergeReleaseJniLibFolders
+> Task :security-crypto:mergeReleaseNativeLibs NO-SOURCE
+> Task :security-crypto:copyReleaseJniLibsProjectOnly
+> Task :app:validateSigningDemo
+> Task :app:writeDemoAppMetadata
+> Task :app:writeDemoSigningConfigVersions
+> Task :app:preDemoAndroidTestBuild SKIPPED
+> Task :generator-llama:mergeReleaseNativeLibs
+> Task :grounded-runtime:compileReleaseKotlin
+> Task :app:mergeDemoAndroidTestManifest
+> Task :grounded-runtime:compileReleaseJavaWithJavac NO-SOURCE
+> Task :grounded-runtime:bundleLibCompileToJarRelease
+> Task :grounded-runtime:processReleaseJavaRes
+> Task :grounded-runtime:bundleLibRuntimeToJarRelease
+> Task :grounded-runtime:bundleLibRuntimeToDirRelease
+> Task :app:mergeLibDexDemo
+> Task :generator-llama:copyReleaseJniLibsProjectOnly
+> Task :grounded-runtime:compileReleaseUnitTestKotlin
+> Task :grounded-runtime:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :grounded-runtime:processReleaseUnitTestJavaRes
+> Task :app:mergeDemoNativeLibs
+> Task :grounded-runtime:testReleaseUnitTest
+> Task :app:processDemoAndroidTestManifest
+> Task :app:generateDemoAndroidTestBuildConfig
+> Task :app:generateDemoAndroidTestResources
+> Task :app:packageDemoAndroidTestResources
+> Task :app:processDemoAndroidTestNavigationResources
+> Task :app:parseDemoAndroidTestLocalResources
+> Task :app:generateDemoAndroidTestRFile
+> Task :app:javaPreCompileDemoAndroidTest
+> Task :app:generateDemoAndroidTestAssets UP-TO-DATE
+> Task :app:stripDemoDebugSymbols
+> Task :app:mergeDemoAndroidTestAssets
+> Task :app:compileDemoKotlin
+> Task :app:compileReleaseKotlin
+> Task :app:generateDemoAndroidTestGlobalSynthetics
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:processReleaseJavaRes
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:compileDemoJavaWithJavac
+> Task :app:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:testReleaseUnitTest NO-SOURCE
+> Task :app:processDemoJavaRes
+> Task :app:compressDemoAndroidTestAssets
+> Task :app:dexBuilderDemo
+> Task :app:bundleDemoClassesToCompileJar
+> Task :app:mergeProjectDexDemo
+> Task :app:checkDemoAndroidTestDuplicateClasses
+> Task :app:desugarDemoAndroidTestFileDependencies
+> Task :app:mergeLibDexDemoAndroidTest
+> Task :app:checkDemoAndroidTestAarMetadata
+> Task :app:mapDemoAndroidTestSourceSetPaths
+> Task :app:compileDemoAndroidTestNavigationResources
+> Task :app:mergeExtDexDemoAndroidTest
+> Task :app:mergeDemoAndroidTestJniLibFolders
+> Task :app:mergeDemoAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripDemoAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningDemoAndroidTest
+> Task :app:writeDemoAndroidTestSigningConfigVersions
+> Task :app:mergeDemoAndroidTestResources
+> Task :app:processDemoAndroidTestResources
+> Task :app:mergeDemoJavaResource
+> Task :app:packageDemo
+> Task :app:createDemoApkListingFileRedirect
+> Task :app:assembleDemo
+
+> Task :app:compileDemoAndroidTestKotlin
+w: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt:80:44 Unnecessary non-null assertion (!!) on a non-null receiver of type 'ActivityScenario<MainActivity>'.
+w: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/app/src/androidTest/java/org/packrag/product/ProductE2eTest.kt:74:141 Unnecessary non-null assertion (!!) on a non-null receiver of type 'RuntimeTrace'.
+
+> Task :app:compileDemoAndroidTestJavaWithJavac
+> Task :app:processDemoAndroidTestJavaRes
+> Task :app:dexBuilderDemoAndroidTest
+> Task :app:mergeProjectDexDemoAndroidTest
+> Task :app:mergeDemoAndroidTestJavaResource
+> Task :app:packageDemoAndroidTest
+> Task :app:createDemoAndroidTestApkListingFileRedirect
+> Task :app:assembleDemoAndroidTest
+
+[Incubating] Problems report is available at: file:///C:/Users/Fkagf/Downloads/MOR%20CAPTSONE/product/android/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 1m 33s
+259 actionable tasks: 259 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.6.0/userguide/configuration_cache_enabling.html

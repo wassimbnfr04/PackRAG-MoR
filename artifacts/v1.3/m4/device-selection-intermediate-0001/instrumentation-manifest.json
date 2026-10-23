@@ -1,0 +1,67 @@
+{
+  "started_at": "2026-10-09T21:02:10.103931+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.GeneratorPromptParityTest,org.packrag.product.ProductRuntimeSmokeTest",
+  "variant": "debug",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m4\\build-0023\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "artifacts\\v1.3\\m4\\build-0023\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.GeneratorPromptParityTest,org.packrag.product.ProductRuntimeSmokeTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "cb9ec854c50da740be13c9ec2c074fc5c1580baa5fcae3e4805b472f1a253b39",
+    "app-debug-androidTest.apk": "082c2c196fff4a54b51b728bd1c872510f7c82f1db3e851121577e6c6fcac789"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.GeneratorPromptParityTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/GeneratorPromptParityTest.kt",
+      "source_sha256": "87ea9d7b29507fffaa9bfb842f6bf97da4b2b38921e14112144f61f1db6f78f8"
+    },
+    "org.packrag.product.ProductRuntimeSmokeTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ProductRuntimeSmokeTest.kt",
+      "source_sha256": "6618805f4a9f6a38c57f8654caff5f025d9ea154492c335b98d2d2474d9de84e"
+    }
+  },
+  "status": "PASS"
+}

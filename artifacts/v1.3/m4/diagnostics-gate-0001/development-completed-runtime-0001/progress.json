@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETED_DEVELOPMENT_RUNTIME_METHOD_ORIGINAL_SAVED_FULL37_STILL_RUNNING",
+  "recorded_utc": "2026-10-10T20:35:02.355010+00:00",
+  "build": "build-0052",
+  "actual_main_test_pid": 12346,
+  "method": "actualColdWarmAndNoPackDiagnosticsKeepOwnedContextAfterReaderClose",
+  "selected_test_source": "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt",
+  "selected_test_sha256": "2cb3ee9ea4bef3714ed3b6f55336b104840d2c09e96ccf71001378ae9f5161f7",
+  "original_sha256": "9c5194f89c09ed5e561696d8f9df61a20f2b1bf7b7007a36c3d0987e559e9507",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "-s",
+        "TestRunner:I"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-diagnostic-runtime.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "scope": "One fresh completed method/eight controls in full development run. Remaining36 methods/final JUnit/full originals/parity/closure pending. Raw log clock has no recorded timezone; no per-method wall duration or benchmark inferred."
+}

@@ -1,0 +1,131 @@
+{
+  "status": "OWNER_APPROVED_FUTURE_ANNOUNCED_45_MIN_UI_WINDOW_NOT_STARTED",
+  "recorded_utc": "2026-10-12T14:30:02.789694+00:00",
+  "build": "build-0089",
+  "matrix_sha256": "708d754cd80b1096432066706d3830266bf3a0f4126d49e037d6b985d6fd61b7",
+  "human_reply": "Yes; announce the start, then I’ll leave it untouched",
+  "methods": 15,
+  "controls": 75,
+  "pngs": 24,
+  "classes": [
+    {
+      "class": "ProductAccessibilityUiTest",
+      "methods": 2,
+      "control_count": 10,
+      "required_original_pngs": [
+        "m4-f3-large-font-abstention.png",
+        "m4-f3-large-font-encoder-expected-hash.png",
+        "m4-f3-large-font-encoder-observed-hash.png",
+        "m4-f3-large-font-encoder-size.png",
+        "m4-f3-large-font-form.png"
+      ],
+      "source_sha256": "29ac231f435c25fa536f746422b9cd7946691c59c13a092c72bf8863e7d67d30"
+    },
+    {
+      "class": "PackImportUiTest",
+      "methods": 1,
+      "control_count": 6,
+      "required_original_pngs": [
+        "m4-f3-kpack-activation.png",
+        "m4-f3-kpack-rejection.png",
+        "m4-f3-kpack-stages.png"
+      ],
+      "source_sha256": "567ef0405c0c21af2588944345ef5d15e43d0f7ccc4753a523aaf9831853c809"
+    },
+    {
+      "class": "PackOverviewUiTest",
+      "methods": 1,
+      "control_count": 8,
+      "required_original_pngs": [
+        "m4-pack-overview-active.png",
+        "m4-pack-overview-installed.png"
+      ],
+      "source_sha256": "13f7c9940921bcb3fd963f6554af6c205c822bb3d8ef0161097e26412e28d53a"
+    },
+    {
+      "class": "PackOverviewLongUiTest",
+      "methods": 2,
+      "control_count": 6,
+      "required_original_pngs": [
+        "m4-pack-overview-long-chip.png",
+        "m4-pack-overview-long-fields.png",
+        "m4-pack-overview-long-name.png",
+        "m4-pack-overview-long-publisher.png"
+      ],
+      "source_sha256": "b8dc23577c5f78a8a6aa3f0033f719264fd3713a609ecdf1c03cda7af7ccab23"
+    },
+    {
+      "class": "PackManagementUiTest",
+      "methods": 1,
+      "control_count": 7,
+      "required_original_pngs": [],
+      "source_sha256": "d92000e0fd642933b892b57c463a803fc03b912881f856f994b2804dc127eb1b"
+    },
+    {
+      "class": "QueryControlsUiTest",
+      "methods": 1,
+      "control_count": 5,
+      "required_original_pngs": [],
+      "source_sha256": "d33ecfc5b58ea6d89085af3141341ed9184ed4f13754c1261a0a47cd35c802c7"
+    },
+    {
+      "class": "SourceDetailsUiTest",
+      "methods": 2,
+      "control_count": 7,
+      "required_original_pngs": [
+        "m4-source-details-ar.png",
+        "m4-source-details-fr.png"
+      ],
+      "source_sha256": "88f3138b4b2956c17fea6237da3db3cc93fae229cee62a061f0a64f1696ee90c"
+    },
+    {
+      "class": "DiagnosticNavigationUiTest",
+      "methods": 1,
+      "control_count": 7,
+      "required_original_pngs": [
+        "m4-diagnostic-home.png",
+        "m4-diagnostic-source.png"
+      ],
+      "source_sha256": "9ac73e082194a2fb7822e94fc21666a1073d48d303a54e9c065f8faae4419dd0"
+    },
+    {
+      "class": "LocalAssetsUiTest",
+      "methods": 1,
+      "control_count": 5,
+      "required_original_pngs": [
+        "m4-local-assets-encoder.png",
+        "m4-local-assets-generator.png"
+      ],
+      "source_sha256": "6530539a331fb1ff57557cd6ec4182768ffb43f94be72494139d0b0fff447e95"
+    },
+    {
+      "class": "ProductUiE2eTest",
+      "methods": 1,
+      "control_count": 3,
+      "required_original_pngs": [],
+      "source_sha256": "9452ec997ba3c6a78340cb559e7a579a785c4e3f8acaacfb3eff392861936a0b"
+    },
+    {
+      "class": "LocalAssetImportUiDeviceTest",
+      "methods": 1,
+      "control_count": 8,
+      "required_original_pngs": [
+        "m4-local-asset-import-ui-progress.png",
+        "m4-local-asset-import-ui-verified.png"
+      ],
+      "source_sha256": "014efd8cb957a38cfc0f67e00475d37db96c9846fa936b098800a77642101e28"
+    },
+    {
+      "class": "LocalAssetImportVisualDeviceTest",
+      "methods": 1,
+      "control_count": 3,
+      "required_original_pngs": [
+        "m4-local-asset-import-visual-progress.png",
+        "m4-local-asset-import-visual-verified.png"
+      ],
+      "source_sha256": "2eca84660ba724a1491e042c7ac608dc4a3ac1109630cd35ba2c6216f395a6ad"
+    }
+  ],
+  "scope": "Actual isolated debug Activity flow plus explicitly disclosed long/language component controls. PNGs are original/full/unmodified, independent manual review mandatory; static-grid settling excludes system margins only for comparison, never from saved image. Phone global font/radios remain unchanged. Foreground permission begins only after announcement and after current background batch terminal PASS.",
+  "pre_execution_correction": "Explicit AR/FR filenames are formed dynamically in existing source; fixed from the existing immutable foreground contract index before launch. Initial literal-only inventory retained. Four asset-import progress/verified originals remain scoped; first UI progress may be unsettled and cannot inherit separate visual acceptance."
+}

@@ -1,0 +1,67 @@
+{
+  "started_at": "2026-10-10T16:43:19.984877+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.SourceDetailsDeviceTest,org.packrag.product.SourceDetailsPolicyTest",
+  "variant": "demo",
+  "runner_sha256": "8827e72c9eb28a1f19d7bcfbcff2244f7f1ecffb4132d29fc10a57ca13133946",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0040\\app-demo.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0040\\app-demo-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Streamed Install\nSuccess\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.SourceDetailsDeviceTest,org.packrag.product.SourceDetailsPolicyTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-demo.apk": "04cf0bf27ec0cb4ae60b1074931369a2ea3968ae741fd4bfefa3efd017befe27",
+    "app-demo-androidTest.apk": "75be013c0b3858c103dc14f857a660c4fedf2ed88e57390b8ea62d7a8d54ed2e"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.SourceDetailsDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsDeviceTest.kt",
+      "source_sha256": "172cd01e5a3f45ded44a721bf41e0511e1940977defc104cdce24ee68dbd235f"
+    },
+    "org.packrag.product.SourceDetailsPolicyTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsPolicyTest.kt",
+      "source_sha256": "d3376185b6561c1a58bf6d115562641cd661483b7d156fe34fe8cc3ba9b465da"
+    }
+  },
+  "status": "PASS"
+}

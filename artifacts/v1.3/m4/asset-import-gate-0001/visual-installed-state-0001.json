@@ -1,0 +1,20 @@
+{
+  "status": "PASS_EXACT_INSTALLED_APK_IDENTITIES_NOT_VISUAL_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T19:35:19.826755+00:00",
+  "installed": {
+    "org.packrag.product": {
+      "path": "/data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk",
+      "sha256": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+      "expected_sha256": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+      "command_output": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124  /data/app/~~1WSpp2RGPVw_NTpJ_nO6hA==/org.packrag.product-alB3y_9hh64LGpxru4XgKA==/base.apk"
+    },
+    "org.packrag.product.test": {
+      "path": "/data/app/~~LIuY8fX7K_sAihCgqYX5Gg==/org.packrag.product.test-BBN4H8P9rV4UK7GF6SLRHw==/base.apk",
+      "sha256": "e4b18b619f74dcb229b8a156436b7c53c26b1bde6f32129bfe77f34807489f62",
+      "expected_sha256": "e4b18b619f74dcb229b8a156436b7c53c26b1bde6f32129bfe77f34807489f62",
+      "command_output": "e4b18b619f74dcb229b8a156436b7c53c26b1bde6f32129bfe77f34807489f62  /data/app/~~LIuY8fX7K_sAihCgqYX5Gg==/org.packrag.product.test-BBN4H8P9rV4UK7GF6SLRHw==/base.apk"
+    }
+  },
+  "exit_info_sha256": "40331ee8e622a6d4ecd155345c0af3ccc24752f929f6bdfabac047da8fefbaa8",
+  "scope": "Android records19:33:05.792 PID9269 exit reason16 PACKAGE UPDATED, stop due to installPackageLI. visual0002 reached PREPARING but no control passed; package replacement terminated instrumentation, not a reported Java/native application crash. This proves update cause, not which installer session/human action. First timed-out installer may have remained pending; attribution to that session is inference. Next runner must verify installed APK bytes and avoid overlapping reinstallation; no security setting or upload choice automated."
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\scripts\v13_conflict_smoke.py", line 85, in main
+    assert result['state']=='ANSWER_ACCEPTED' and '74 °C' in result['answer'] and '68 °C' not in result['answer'],identity
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: EXCEPTION

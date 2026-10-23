@@ -1,0 +1,10 @@
+{
+  "status": "PASS_STATIC_PREPHONE_CHECKS_NOT_COMPLETE_PHYSICAL_ACCEPTANCE",
+  "runtime_inputs": 143,
+  "android_inputs_per_variant": 458,
+  "historical_identities_unchanged": 587,
+  "desktop_runtime_cases": 7,
+  "tokenizer_cases": 19,
+  "signed_conflict_packs": 19,
+  "source_recovery_hashes_verified": true
+}

@@ -1,0 +1,51 @@
+Name:	packrag.product
+Umask:	0077
+State:	S (sleeping)
+Tgid:	18413
+Ngid:	0
+Pid:	18413
+PPid:	1378
+TracerPid:	0
+Uid:	10469	10469	10469	10469
+Gid:	10469	10469	10469	10469
+FDSize:	256
+Groups:	9997 20469 50469 
+VmPeak:	21164572 kB
+VmSize:	19100672 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	 2353220 kB
+VmRSS:	  307488 kB
+RssAnon:	  239108 kB
+RssFile:	   62216 kB
+RssShmem:	    6164 kB
+VmData:	 3431768 kB
+VmStk:	    8192 kB
+VmExe:	       4 kB
+VmLib:	  224904 kB
+VmPTE:	    2352 kB
+VmSwap:	   44408 kB
+CoreDumping:	0
+THP_enabled:	1
+Threads:	19
+SigQ:	0/35455
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000080001204
+SigIgn:	0000000000000001
+SigCgt:	0000006e400084f8
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	2
+Seccomp_filters:	1
+Speculation_Store_Bypass:	thread vulnerable
+Cpus_allowed:	7f
+Cpus_allowed_list:	0-6
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	74
+nonvoluntary_ctxt_switches:	105

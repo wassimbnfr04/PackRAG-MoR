@@ -1,0 +1,6 @@
+{
+  "status": "PASS_GENERATED_SCRIPT_TEXT_EXACT_NOT_ACCEPTANCE_EXECUTION",
+  "note": "Final helper additionally preserves one read-only process/thermal observation; acceptance predicates unchanged",
+  "prepare_sha256": "b735d02ac254c821f8eb156d4369da5f7ef23fa80705e78ed3c381f6166675b7",
+  "verifier_sha256": "4014055b826affbac811483d7ef0b1fb78f93350a1e88890f592a5502fc07523"
+}

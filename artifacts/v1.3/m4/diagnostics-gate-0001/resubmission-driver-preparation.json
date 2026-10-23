@@ -1,0 +1,109 @@
+{
+  "status": "PREPARED_FRESH_STRONGER_QUERY_UI_AND_MATCHED_BACKGROUND_DRIVERS_NOT_EXECUTION",
+  "derivations": [
+    {
+      "original": "run_retained_ui_retry.py",
+      "original_sha256": "bdf305c765a5a578766bd533db3a50b37063f94128e24f6ac343cc1239d18590",
+      "derived": "run_retained_ui_resubmission.py",
+      "derived_sha256": "83fdd57e38c6fe99aa4e2aab45298230549a32d82feb767d4892b5b0bfa0a99a",
+      "replacements": [
+        [
+          "build-0048",
+          "build-0050"
+        ],
+        [
+          "device-ui-diagnostics-retained-0002",
+          "device-ui-diagnostics-retained-0003"
+        ],
+        [
+          "retained-ui-retry-execution.json",
+          "retained-ui-resubmission-execution.json"
+        ],
+        [
+          "retained-ui-retry-stage-",
+          "retained-ui-resubmission-stage-"
+        ],
+        [
+          "foreground-retained-retry-readiness.json",
+          "foreground-retained-resubmission-readiness.json"
+        ],
+        [
+          "policy-diagnostics-preflight.json')['status']=='PASS_E3_MATCHED_POLICY_PAIR_NOT_ACTUAL_POLICY_OR_FULL_E3'",
+          "resubmission-preflight.json')['status']=='PASS_E3_TEST_ONLY_RESUBMISSION_MATCHED_PAIR_NOT_DEVICE_ACCEPTANCE'"
+        ],
+        [
+          "m3-pack-management-ui.json']",
+          "m3-pack-management-ui.json,m4-ui-query-resubmission-observation.json']"
+        ]
+      ]
+    },
+    {
+      "original": "record_foreground_retained_retry.py",
+      "original_sha256": "9002931877b6a3b69695f84acd3d666b8d64760cb01e6f2bff5334a3161d8994",
+      "derived": "record_foreground_retained_resubmission.py",
+      "derived_sha256": "a1b20a8a22476ccb8f2a17bd881069b34f0241ba904288f23da68dbf39cb2a55",
+      "replacements": [
+        [
+          "foreground-retained-retry-readiness.json",
+          "foreground-retained-resubmission-readiness.json"
+        ],
+        [
+          "received after foreground interruption; no new reply is invented.",
+          "retained as current authorization for corrected final query synchronization and announced new window; no new reply is invented."
+        ]
+      ]
+    },
+    {
+      "original": "record_retained_visual_retry.py",
+      "original_sha256": "e2398093c76b324dc5c49982a12a06ad4944f16e13d11bf1c691f784b7d02cca",
+      "derived": "record_retained_visual_resubmission.py",
+      "derived_sha256": "276a6340868357a1a158f2d8f43848ad0d397d8961c5f5ec0d3dd7d05ea54017",
+      "replacements": [
+        [
+          "device-ui-diagnostics-retained-0002",
+          "device-ui-diagnostics-retained-0003"
+        ],
+        [
+          "retained-ui-retry-execution.json",
+          "retained-ui-resubmission-execution.json"
+        ]
+      ]
+    },
+    {
+      "original": "run_full_background.py",
+      "original_sha256": "64a3bcb3c489beb717caaa0b8f4475ac993fd95200ea118e8652a0a40cb15e86",
+      "derived": "run_full_background_final.py",
+      "derived_sha256": "d9965f2fef93f6b017204435d29bb534e5290c3738af0960bad8057cfb983c90",
+      "replacements": [
+        [
+          "retained-ui-retry-execution.json",
+          "retained-ui-resubmission-execution.json"
+        ],
+        [
+          "build-0048",
+          "build-0050"
+        ],
+        [
+          "build-0049",
+          "build-0051"
+        ]
+      ]
+    },
+    {
+      "original": "verify_full_parity.py",
+      "original_sha256": "36feb100b1dfd75ee8f444b8210f3cba016cb5e95ffcf9dbe61df89694504f12",
+      "derived": "verify_full_parity_final.py",
+      "derived_sha256": "6969f362aa3e22b19dc641c86280df9c40b8b897c4811753e406c98c7b3c03f5",
+      "replacements": [
+        [
+          "build-0048",
+          "build-0050"
+        ],
+        [
+          "build-0049",
+          "build-0051"
+        ]
+      ]
+    }
+  ]
+}

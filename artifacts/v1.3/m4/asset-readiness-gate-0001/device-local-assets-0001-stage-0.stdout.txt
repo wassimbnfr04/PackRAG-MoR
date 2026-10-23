@@ -1,0 +1,92 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetReadinessDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.LocalAssetReadinessDeviceTest:
+INSTRUMENTATION_STATUS: test=actualPinnedColdWarmEvidenceAndOwnedTemplateCorruptionReleaseAndRecoverModels
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetReadinessDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.nio.file.AccessDeniedException: /data/user/0/org.packrag.product/files/asset-runtime-821096da-b9ed-4f7b-b1bc-23a322e2f7c3/models/LFM2.5-2.6B-QAD-Q4_0.gguf -> /data/user/0/org.packrag.product/files/models/LFM2.5-2.6B-QAD-Q4_0.gguf
+	at sun.nio.fs.UnixFileSystemProvider.createLink(UnixFileSystemProvider.java:496)
+	at java.nio.file.Files.createLink(Files.java:1102)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.ownModelReferences(LocalAssetReadinessDeviceTest.kt:72)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.actualPinnedColdWarmEvidenceAndOwnedTemplateCorruptionReleaseAndRecoverModels(LocalAssetReadinessDeviceTest.kt:128)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualPinnedColdWarmEvidenceAndOwnedTemplateCorruptionReleaseAndRecoverModels(org.packrag.product.LocalAssetReadinessDeviceTest):
+java.nio.file.AccessDeniedException: /data/user/0/org.packrag.product/files/asset-runtime-821096da-b9ed-4f7b-b1bc-23a322e2f7c3/models/LFM2.5-2.6B-QAD-Q4_0.gguf -> /data/user/0/org.packrag.product/files/models/LFM2.5-2.6B-QAD-Q4_0.gguf
+	at sun.nio.fs.UnixFileSystemProvider.createLink(UnixFileSystemProvider.java:496)
+	at java.nio.file.Files.createLink(Files.java:1102)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.ownModelReferences(LocalAssetReadinessDeviceTest.kt:72)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.actualPinnedColdWarmEvidenceAndOwnedTemplateCorruptionReleaseAndRecoverModels(LocalAssetReadinessDeviceTest.kt:128)
+
+INSTRUMENTATION_STATUS: test=actualPinnedColdWarmEvidenceAndOwnedTemplateCorruptionReleaseAndRecoverModels
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetReadinessDeviceTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualViewModelRetainsFailedAssetObservationAndReadOnlyCheckOwnsCompletedAnswer
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetReadinessDeviceTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.nio.file.AccessDeniedException: /data/user/0/org.packrag.product/files/asset-model-fcbfda88-8bb8-42c2-9faa-bc97ff5cbf6a/models/LFM2.5-2.6B-QAD-Q4_0.gguf -> /data/user/0/org.packrag.product/files/models/LFM2.5-2.6B-QAD-Q4_0.gguf
+	at sun.nio.fs.UnixFileSystemProvider.createLink(UnixFileSystemProvider.java:496)
+	at java.nio.file.Files.createLink(Files.java:1102)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.ownModelReferences(LocalAssetReadinessDeviceTest.kt:72)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.actualViewModelRetainsFailedAssetObservationAndReadOnlyCheckOwnsCompletedAnswer(LocalAssetReadinessDeviceTest.kt:171)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualViewModelRetainsFailedAssetObservationAndReadOnlyCheckOwnsCompletedAnswer(org.packrag.product.LocalAssetReadinessDeviceTest):
+java.nio.file.AccessDeniedException: /data/user/0/org.packrag.product/files/asset-model-fcbfda88-8bb8-42c2-9faa-bc97ff5cbf6a/models/LFM2.5-2.6B-QAD-Q4_0.gguf -> /data/user/0/org.packrag.product/files/models/LFM2.5-2.6B-QAD-Q4_0.gguf
+	at sun.nio.fs.UnixFileSystemProvider.createLink(UnixFileSystemProvider.java:496)
+	at java.nio.file.Files.createLink(Files.java:1102)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.ownModelReferences(LocalAssetReadinessDeviceTest.kt:72)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.actualViewModelRetainsFailedAssetObservationAndReadOnlyCheckOwnsCompletedAnswer(LocalAssetReadinessDeviceTest.kt:171)
+
+INSTRUMENTATION_STATUS: test=actualViewModelRetainsFailedAssetObservationAndReadOnlyCheckOwnsCompletedAnswer
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetReadinessDeviceTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=missingCorruptAndSymlinkPathsRejectBeforeAnyNativeInitialization
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.LocalAssetReadinessDeviceTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=missingCorruptAndSymlinkPathsRejectBeforeAnyNativeInitialization
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 20,859
+There were 2 failures:
+1) actualPinnedColdWarmEvidenceAndOwnedTemplateCorruptionReleaseAndRecoverModels(org.packrag.product.LocalAssetReadinessDeviceTest)
+java.nio.file.AccessDeniedException: /data/user/0/org.packrag.product/files/asset-runtime-821096da-b9ed-4f7b-b1bc-23a322e2f7c3/models/LFM2.5-2.6B-QAD-Q4_0.gguf -> /data/user/0/org.packrag.product/files/models/LFM2.5-2.6B-QAD-Q4_0.gguf
+	at sun.nio.fs.UnixFileSystemProvider.createLink(UnixFileSystemProvider.java:496)
+	at java.nio.file.Files.createLink(Files.java:1102)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.ownModelReferences(LocalAssetReadinessDeviceTest.kt:72)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.actualPinnedColdWarmEvidenceAndOwnedTemplateCorruptionReleaseAndRecoverModels(LocalAssetReadinessDeviceTest.kt:128)
+2) actualViewModelRetainsFailedAssetObservationAndReadOnlyCheckOwnsCompletedAnswer(org.packrag.product.LocalAssetReadinessDeviceTest)
+java.nio.file.AccessDeniedException: /data/user/0/org.packrag.product/files/asset-model-fcbfda88-8bb8-42c2-9faa-bc97ff5cbf6a/models/LFM2.5-2.6B-QAD-Q4_0.gguf -> /data/user/0/org.packrag.product/files/models/LFM2.5-2.6B-QAD-Q4_0.gguf
+	at sun.nio.fs.UnixFileSystemProvider.createLink(UnixFileSystemProvider.java:496)
+	at java.nio.file.Files.createLink(Files.java:1102)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.ownModelReferences(LocalAssetReadinessDeviceTest.kt:72)
+	at org.packrag.product.LocalAssetReadinessDeviceTest.actualViewModelRetainsFailedAssetObservationAndReadOnlyCheckOwnsCompletedAnswer(LocalAssetReadinessDeviceTest.kt:171)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1
+

@@ -1,0 +1,11 @@
+{
+  "approval_scope": "packrag-project-demonstrators",
+  "publishers": [
+    {
+      "key_id": "ed25519:97e6f35dd5d63b1f8dfe88273283e283a24fec351f4a0f59ff3da3443d5ad950",
+      "name": "PackRAG project demonstrator publisher",
+      "public_key_hex": "e25758ad559d912350024006082b715a037687c7ca9250973eacf6997412b726"
+    }
+  ],
+  "schema_version": "1.0"
+}

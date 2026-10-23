@@ -1,0 +1,64 @@
+[
+  {
+    "original": "preflight.py",
+    "new": "preflight_repaired.py",
+    "original_sha256": "a25300fc3a4a10b9955719f6837980013d9a096657885de12b6c18f23ffa60bc",
+    "new_sha256": "97cd1fe8e2aba83c68e2d1fb1f6db0118a7f4be9e1eec2b94477987613559df7",
+    "replacements": {
+      "build-0033": "build-0035",
+      "build-0034": "build-0036",
+      "'preflight.json'": "'preflight-repaired.json'",
+      "mode+'.txt'": "'repaired-'+mode+'.txt'",
+      "'permissions.txt'": "'repaired-permissions.txt'",
+      "'badging.txt'": "'repaired-badging.txt'",
+      "'policy-apk-entries.txt'": "'repaired-policy-apk-entries.txt'",
+      "'packaged-release-trust.json'": "'repaired-packaged-release-trust.json'"
+    },
+    "counts": {
+      "build-0033": 2,
+      "build-0034": 3,
+      "'preflight.json'": 1,
+      "mode+'.txt'": 1,
+      "'permissions.txt'": 1,
+      "'badging.txt'": 1,
+      "'policy-apk-entries.txt'": 1,
+      "'packaged-release-trust.json'": 1
+    }
+  },
+  {
+    "original": "run_ui.py",
+    "new": "run_ui_repaired.py",
+    "original_sha256": "d06405b006d39765bfd5f2f0da0e1d80ce5e656387c25e8bca287c309dc4cbfc",
+    "new_sha256": "1dea97b946b6a08afc49b23fa1194b950cf97647cd87bea6b5a574efc6be48cd",
+    "replacements": {
+      "build-0033": "build-0035",
+      "device-ui-query-0001": "device-ui-query-0002",
+      "'ui-execution.json'": "'ui-execution-0002.json'",
+      "ui-stage-{i}": "ui0002-stage-{i}"
+    },
+    "counts": {
+      "build-0033": 2,
+      "device-ui-query-0001": 1,
+      "'ui-execution.json'": 1,
+      "ui-stage-{i}": 2
+    }
+  },
+  {
+    "original": "run_device_gates.py",
+    "new": "run_device_gates_repaired.py",
+    "original_sha256": "873f5a553dffb90f33bf3906224d070bea61f347727b6353a200aef6aaa842c4",
+    "new_sha256": "7b1b775a5330b9670152f24365fb9cc9dada47571ebf25af0cba76db2cad16fe",
+    "replacements": {
+      "build-0033": "build-0035",
+      "build-0034": "build-0036",
+      "'ui-execution.json'": "'ui-execution-0002.json'",
+      "'preflight.json'": "'preflight-repaired.json'"
+    },
+    "counts": {
+      "build-0033": 3,
+      "build-0034": 1,
+      "'ui-execution.json'": 1,
+      "'preflight.json'": 1
+    }
+  }
+]

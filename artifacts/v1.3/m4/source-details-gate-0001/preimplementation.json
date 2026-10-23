@@ -1,0 +1,13 @@
+{
+  "status": "PASS_E1_BASELINE_AND_PREIMPLEMENTATION_SOURCE_EXPECTATIONS_NOT_E2_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T16:01:09.995318+00:00",
+  "commit": "17d2b5159b9d2d28a1823f8b8102d178abffecc5",
+  "e1_gate_sha256": "a275431d080e58547c2b66f2d38ff2f03fd992efbb67054ae71b4588d8701e1f",
+  "runtime_inputs": 185,
+  "android_inputs": 548,
+  "e1_public_outputs_unchanged": 412,
+  "historical_unchanged": 587,
+  "corpus_sha256": "cf8cada1d9976302dc5058808b8e3ebda67fe4028c75e68eafcf136d3373e837",
+  "packs": 16,
+  "raw_reasoning_persisted": false
+}

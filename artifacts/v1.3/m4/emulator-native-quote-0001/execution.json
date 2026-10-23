@@ -1,0 +1,115 @@
+{
+  "status": "FAIL_NATIVE_QUOTE_GATE",
+  "started_utc": "2026-10-12T22:08:31.281666+00:00",
+  "serial": "emulator-5580",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0118\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0118\\app-debug.apk: 1 file pushed, 0 skipped. 101.8 MB/s (121753289 bytes in 1.140s)\r\n"
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0118\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0118\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 129.3 MB/s (12576988 bytes in 0.093s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~tKDvbo_U2RurE6uH85a_3Q==/org.packrag.product-hB0aP_B0tNhafLt1nwGM2w==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~tKDvbo_U2RurE6uH85a_3Q==/org.packrag.product-hB0aP_B0tNhafLt1nwGM2w==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "b777bdd53a7061c4ad8d06d5833fd57d27c6647499caa0466831c79fb43aea39  /data/app/~~tKDvbo_U2RurE6uH85a_3Q==/org.packrag.product-hB0aP_B0tNhafLt1nwGM2w==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~HSRAouM24IxJG6Ff6e4sDQ==/org.packrag.product.test-f40s8noHJZbMTLhOYS2R6A==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~HSRAouM24IxJG6Ff6e4sDQ==/org.packrag.product.test-f40s8noHJZbMTLhOYS2R6A==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "f62befcd401ad82c70d8b8816157697dcd950d5a52add8a5ea1ae5db25646fb6  /data/app/~~HSRAouM24IxJG6Ff6e4sDQ==/org.packrag.product.test-f40s8noHJZbMTLhOYS2R6A==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.QuotedNativeRuntimeDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0,
+      "stdout": "INSTRUMENTATION_STATUS: class=org.packrag.product.QuotedNativeRuntimeDeviceTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=\r\norg.packrag.product.QuotedNativeRuntimeDeviceTest:\r\nINSTRUMENTATION_STATUS: test=actualNativePolicyParityCapCancellationAndRepairWalkingPath\r\nINSTRUMENTATION_STATUS_CODE: 1\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.QuotedNativeRuntimeDeviceTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: expected:<...bottom screws. [S1]\"[ | \"Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification. [S2]\"]\r\npad ::= (\"\\n\" | \"\\n...> but was:<...bottom screws. [S1]\"[]\r\npad ::= (\"\\n\" | \"\\n...>\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat org.packrag.product.QuotedNativeRuntimeDeviceTest.actualNativePolicyParityCapCancellationAndRepairWalkingPath(QuotedNativeRuntimeDeviceTest.kt:44)\r\n\r\nINSTRUMENTATION_STATUS: stream=\r\nError in actualNativePolicyParityCapCancellationAndRepairWalkingPath(org.packrag.product.QuotedNativeRuntimeDeviceTest):\r\norg.junit.ComparisonFailure: expected:<...bottom screws. [S1]\"[ | \"Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification. [S2]\"]\r\npad ::= (\"\\n\" | \"\\n...> but was:<...bottom screws. [S1]\"[]\r\npad ::= (\"\\n\" | \"\\n...>\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat org.packrag.product.QuotedNativeRuntimeDeviceTest.actualNativePolicyParityCapCancellationAndRepairWalkingPath(QuotedNativeRuntimeDeviceTest.kt:44)\r\n\r\nINSTRUMENTATION_STATUS: test=actualNativePolicyParityCapCancellationAndRepairWalkingPath\r\nINSTRUMENTATION_STATUS_CODE: -2\r\nINSTRUMENTATION_RESULT: stream=\r\n\r\nTime: 16.448\r\nThere was 1 failure:\r\n1) actualNativePolicyParityCapCancellationAndRepairWalkingPath(org.packrag.product.QuotedNativeRuntimeDeviceTest)\r\norg.junit.ComparisonFailure: expected:<...bottom screws. [S1]\"[ | \"Bicycle inner-tube removal and replacement procedure for the illustrated quick-release wheel and caliper brake. Release the wheel quick-release lever. Squeeze the brake arms and unhook the brake cable from the caliper arms. Hold the wheel against the ground while lifting the frame away. Press the valve core and squeeze the tire to deflate it. Put a plastic tire lever beneath the tire bead and lever the bead over the rim, then work around the wheel. Several levers may be used sequentially, with the first held by a spoke. Push the valve through its rim hole and pull the tube out. Inspect both tire surfaces and remove debris that caused the puncture. Insert the replacement tube and align the valve stem with the rim hole. Seat one tire bead, then seat the other using plastic tire levers. Inflate slowly while checking that the bead is seated correctly. This document does not provide an exact inflation pressure or a rim-brake adjustment specification. [S2]\"]\r\npad ::= (\"\\n\" | \"\\n...> but was:<...bottom screws. [S1]\"[]\r\npad ::= (\"\\n\" | \"\\n...>\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat org.packrag.product.QuotedNativeRuntimeDeviceTest.actualNativePolicyParityCapCancellationAndRepairWalkingPath(QuotedNativeRuntimeDeviceTest.kt:44)\r\n\r\nFAILURES!!!\r\nTests run: 1,  Failures: 1\r\n\r\n\r\nINSTRUMENTATION_CODE: -1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-native-quoted-runtime-0001.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "b777bdd53a7061c4ad8d06d5833fd57d27c6647499caa0466831c79fb43aea39",
+    "app-debug-androidTest.apk": "f62befcd401ad82c70d8b8816157697dcd950d5a52add8a5ea1ae5db25646fb6"
+  },
+  "error_type": "AssertionError",
+  "updated_utc": "2026-10-12T22:08:55.966302+00:00"
+}

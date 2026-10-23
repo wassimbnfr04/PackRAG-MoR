@@ -1,0 +1,200 @@
+{
+  "status": "PASS_CHAT_WALKING_METHOD_FOUR_CONTROLS_ORIGINAL_PNG_REVIEW_REQUIRED",
+  "started_utc": "2026-10-12T18:09:07.908523+00:00",
+  "serial": "emulator-5580",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "getprop",
+        "sys.boot_completed"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "getprop",
+        "ro.product.cpu.abilist"
+      ],
+      "returncode": 0,
+      "stdout": "x86_64,arm64-v8a\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "shell",
+        "settings",
+        "get",
+        "system",
+        "font_scale"
+      ],
+      "returncode": 0,
+      "stdout": "1.0\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0104\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0104\\app-debug.apk: 1 file pushed, 0 skipped. 125.7 MB/s (74839118 bytes in 0.568s)\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0104\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0104\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 137.0 MB/s (11722455 bytes in 0.082s)\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\consolidated-f3-f4-0001\\test_android_installed_0001.py",
+        "--serial",
+        "emulator-5580",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0104",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\chat-walking-emulator-0002",
+        "--class-name",
+        "org.packrag.product.ChatWalkingUiTest",
+        "--result-file",
+        "m4-chat-walking.json",
+        "--timeout",
+        "900"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-walking.json"
+      ],
+      "returncode": 0,
+      "stdout": "Binary/original output saved separately",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-large-font-composer.png"
+      ],
+      "returncode": 0,
+      "stdout": "Binary/original output saved separately",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-large-font-controls.png"
+      ],
+      "returncode": 0,
+      "stdout": "Binary/original output saved separately",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-normal-empty.png"
+      ],
+      "returncode": 0,
+      "stdout": "Binary/original output saved separately",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "emulator-5580",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-chat-two-turns.png"
+      ],
+      "returncode": 0,
+      "stdout": "Binary/original output saved separately",
+      "stderr": ""
+    }
+  ],
+  "supported_abis": "x86_64,arm64-v8a",
+  "product_unchanged_from_phone_build0097": false,
+  "apk_sha256": {
+    "app-debug.apk": "529b87c46cff0448410f295869e69e46a231f111e4a7ef6b3cb0ee15e8c409da",
+    "app-debug-androidTest.apk": "472e500c03a0868249b5e115dbd12b9f2c98caf860c2ac47ff8f8e2775154723"
+  },
+  "original_sha256": {
+    "m4-chat-walking.json": "aca2299107cf5f73887fc194a2430a457858a58ac0c641d174ca902a343d2dfa",
+    "m4-chat-large-font-composer.png": "3827fe0619f43d6f310e9defbbfffdc8e54195b4d47c8e3ee87b403cf649639b",
+    "m4-chat-large-font-controls.png": "65a8b8911c336792d0e73a625a9a6665a48b926e6394a00c4e2ec295d75203af",
+    "m4-chat-normal-empty.png": "578a7a2fe34cb44a7bb4abeea59901ac2993b682353e269a0033ff59e5e26a1a",
+    "m4-chat-two-turns.png": "4720bda812a6fa771cabd5e4da2460e955e91dcb6bdc8f214fbd5e98a6086b58"
+  },
+  "scope": "Actual new chat product APK, real emulator Activity/ViewModel no-pack path. No fake generator, no repair capability or physical performance claim; full M4 remains pending.",
+  "updated_utc": "2026-10-12T18:09:33.069314+00:00"
+}

@@ -1,0 +1,152 @@
+{
+  "status": "PASS_EXECUTION_FINAL_AND_PNG_REVIEW_PENDING_NOT_M4",
+  "started_utc": "2026-10-12T19:22:25.298256+00:00",
+  "serial": "R3CT908DHHR",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "settings",
+        "get",
+        "system",
+        "font_scale"
+      ],
+      "returncode": 0,
+      "stdout": "1.0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~6oP_5Wjl3uUvX5AqTYtZTQ==/org.packrag.product-c1p6Hs2Iy9ZUMmbS2c9tUQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~6oP_5Wjl3uUvX5AqTYtZTQ==/org.packrag.product-c1p6Hs2Iy9ZUMmbS2c9tUQ==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a  /data/app/~~6oP_5Wjl3uUvX5AqTYtZTQ==/org.packrag.product-c1p6Hs2Iy9ZUMmbS2c9tUQ==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~jY3jDEJOEh0_sjOdP4N0rQ==/org.packrag.product.test-wdLAJ4F-GiYKyDcyxQegdA==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~jY3jDEJOEh0_sjOdP4N0rQ==/org.packrag.product.test-wdLAJ4F-GiYKyDcyxQegdA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "87e58b329264b9e80c36718865af972211954de7bba3250e463e67353f6ce5ae  /data/app/~~jY3jDEJOEh0_sjOdP4N0rQ==/org.packrag.product.test-wdLAJ4F-GiYKyDcyxQegdA==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.ChatRepairUiTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0,
+      "stdout": "INSTRUMENTATION_STATUS: class=org.packrag.product.ChatRepairUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=\r\norg.packrag.product.ChatRepairUiTest:\r\nINSTRUMENTATION_STATUS: test=actualRepairChatCapturesEvidenceAndRejectsPartialGuide\r\nINSTRUMENTATION_STATUS_CODE: 1\r\nINSTRUMENTATION_STATUS: class=org.packrag.product.ChatRepairUiTest\r\nINSTRUMENTATION_STATUS: current=1\r\nINSTRUMENTATION_STATUS: id=AndroidJUnitRunner\r\nINSTRUMENTATION_STATUS: numtests=1\r\nINSTRUMENTATION_STATUS: stream=.\r\nINSTRUMENTATION_STATUS: test=actualRepairChatCapturesEvidenceAndRejectsPartialGuide\r\nINSTRUMENTATION_STATUS_CODE: 0\r\nINSTRUMENTATION_RESULT: stream=\r\n\r\nTime: 517,925\r\n\r\nOK (1 test)\r\n\r\n\r\nINSTRUMENTATION_CODE: -1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-emulator-chat-repair.json"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-emulator-repair-source.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-emulator-repair-answer.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-emulator-repair-diagnostics.png"
+      ],
+      "returncode": 0,
+      "stdout": "Saved binary original",
+      "stderr": ""
+    }
+  ],
+  "untouched_window_minutes": 8,
+  "authorization": "Owner explicitly approved eight-minute window; announce start, mobile data remains on",
+  "reused_verified_installs": true,
+  "apk_sha256": {
+    "app-debug.apk": "c71124e8e66cfbb438f34cbceca571936be812978bc6c811bdc20c000586be1a",
+    "app-debug-androidTest.apk": "87e58b329264b9e80c36718865af972211954de7bba3250e463e67353f6ce5ae"
+  },
+  "observed_status": "PASS_EXECUTION_ORIGINAL_FINAL_AND_PNG_REVIEW_REQUIRED",
+  "original_sha256": {
+    "m4-emulator-chat-repair.json": "06e38042962d2f5034fed64b6d804e1b48a2c14be3af5b678ea6ef95ca568825",
+    "m4-emulator-repair-answer.png": "13cbb5726464821ee3432b308e03a90758ed02d111f202d7a99446e741136b83",
+    "m4-emulator-repair-diagnostics.png": "e08f64dbca111c340682323e65bade2f25361af7bfc7e9d5b10a4da5e6e39eb5",
+    "m4-emulator-repair-source.png": "ea7cea61a81fa258715c81b946b16a435d14e1f86f2d1e8f7e851dbb6bf120ca"
+  },
+  "phone_touched": true,
+  "phone_settings_changed": false,
+  "updated_utc": "2026-10-12T19:31:09.512330+00:00"
+}

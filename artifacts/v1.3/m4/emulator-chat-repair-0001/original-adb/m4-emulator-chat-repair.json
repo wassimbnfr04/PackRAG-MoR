@@ -1,0 +1,27 @@
+{
+  "status": "OBSERVED_NOT_PASS",
+  "environment": "OWNED_EMULATOR_ARM64_NATIVE_BRIDGE",
+  "observations": [
+    {
+      "id": "same-repair-before-import",
+      "question": "After taking the bicycle inner tube out, what must I inspect and how should I reinstall and inflate the replacement?",
+      "expected": "NO_ACTIVE_PACK",
+      "actual": "NO_ACTIVE_PACK",
+      "final_text": null,
+      "emitted_tokens": 0,
+      "result_id": "a2cd6609-5fd5-464e-bed9-654f1bf04db0",
+      "sources": []
+    }
+  ],
+  "visual_png": {},
+  "owner_guard_scope": "FOUR_PINNED_EMULATOR_MODELS_ONE_FROZEN_FIXTURE_DEFAULT_REGISTRIES_ABSENT",
+  "sha256_before": {
+    "m4-repair-fixture-0001.kpack": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359",
+    "models\/LFM2.5-2.6B-QAD-Q4_0.gguf": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "models\/chat_template.jinja": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/granite\/onnx\/model.onnx": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "models\/granite\/tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f"
+  },
+  "raw_reasoning_persisted": false,
+  "phone_performance": false
+}

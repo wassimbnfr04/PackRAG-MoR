@@ -1,0 +1,60 @@
+{
+  "id": "five-mandatory",
+  "status": "OBSERVED_NOT_ACCEPTANCE",
+  "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE",
+  "actual_tokenizer": {},
+  "max_embedding_abs_error": 0.0,
+  "selection": {
+    "keys": [],
+    "decisions": [
+      {
+        "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#de4007485c3423ff37bcb693",
+        "reason": "MANDATORY_CHUNK_CAP",
+        "trial": [
+          "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#de4007485c3423ff37bcb693",
+          "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#191a8da23f0fd6086da0f31f",
+          "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#4363e8b9e2be6e5e2dfe71a7",
+          "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#6df516db7affc2913b8d3a29",
+          "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#2e2153a45f4da98b6cf1ab76"
+        ],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#191a8da23f0fd6086da0f31f",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#4363e8b9e2be6e5e2dfe71a7",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#6df516db7affc2913b8d3a29",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      },
+      {
+        "key": "org.packrag.contract.five-mandatory@1.0.0:ce3d381ac68e86d1c4b04758a406aad01f91378b131185e100e7fe280944a394#2e2153a45f4da98b6cf1ab76",
+        "reason": "NOT_CONSIDERED_AFTER_REJECTION",
+        "trial": [],
+        "representative": null,
+        "evidence_tokens": null,
+        "prefill_tokens": null
+      }
+    ],
+    "sources": [],
+    "admission": "INCOMPLETE_LEGAL_CONFLICT_EVIDENCE"
+  }
+}

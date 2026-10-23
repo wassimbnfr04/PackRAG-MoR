@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Fkagf\Downloads\MOR CAPTSONE\artifacts\v1.3\m4\asset-readiness-gate-0001\verify_background.py", line 26, in <module>
+    guards.append(data['owner_registry_and_model_sha256']);observations[name]=dict(cases=len(data['cases']),original_sha256=value)
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'owner_registry_and_model_sha256'

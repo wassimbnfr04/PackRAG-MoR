@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.runtime.OutputContractTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-06T22:04:02.763Z" hostname="RAZER" time="0.157">
+  <properties/>
+  <testcase name="bufferedReasoningAndCitationContracts" classname="org.packrag.runtime.OutputContractTest" time="0.145"/>
+  <testcase name="reservedInputIsNotSilentlyEdited" classname="org.packrag.runtime.OutputContractTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

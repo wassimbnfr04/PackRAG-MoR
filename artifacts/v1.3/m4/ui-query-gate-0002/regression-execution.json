@@ -1,0 +1,55 @@
+{
+  "status": "PASS_FULL_PYTHON_AND_RETAINED_DESKTOP_WALKING",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "pytest",
+        "tests",
+        "product/tests",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0014-temp",
+        "--junitxml",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0014\\combined-junit.xml",
+        "-q"
+      ],
+      "started_utc": "2026-10-10T14:39:08.202572+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T14:39:50.344420+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_result_manifest",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\run-0014",
+        "--command",
+        "Full pytest tests product/tests, normal host permissions after preserved sandbox failures; exact argv in ui-query-gate-0002"
+      ],
+      "started_utc": "2026-10-10T14:39:50.345418+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T14:39:58.235449+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_existing_walking_smoke",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\existing-walking-smoke-0013"
+      ],
+      "started_utc": "2026-10-10T14:39:58.236450+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-10T14:42:53.552444+00:00"
+    }
+  ]
+}

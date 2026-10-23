@@ -1,0 +1,3 @@
+Keep your private reasoning brief.
+Make the final answer concise and complete within the token limit. Answer only the requested task; use a compact numbered list when steps are requested.
+Cite each step. Do not add uncited headings or introductory text.

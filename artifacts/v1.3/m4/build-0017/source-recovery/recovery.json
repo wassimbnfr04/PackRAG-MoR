@@ -1,0 +1,8 @@
+{
+  "status": "PASS_HASH_EXACT_SINGLE_IMPORT_RECONSTRUCTION_NOT_ORIGINAL_BUILD_START_COPY",
+  "original_build": "build-0017",
+  "source": "product/android/app/src/androidTest/java/org/packrag/product/RepresentationDeviceTest.kt",
+  "reconstructed_sha256": "37837f4e636d439c071ceabaee40db641fd844d4a341fe2982a9ea3466592d72",
+  "current_sha256": "defd275362fa12acbacce3b91aebe1bc2d8b6c16dbb04b820394dcea6adec24a",
+  "operation": "Remove the sole added Retrieval import newline; SHA256 must equal immutable failed build-start identity"
+}

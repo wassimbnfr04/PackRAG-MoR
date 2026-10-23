@@ -1,0 +1,87 @@
+{
+  "status": "FAIL_NATIVE_QUOTE_GATE",
+  "started_utc": "2026-10-12T22:11:46.551097+00:00",
+  "serial": "emulator-5580",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0119\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0119\\app-debug.apk: 1 file pushed, 0 skipped. 123.7 MB/s (121753289 bytes in 0.938s)\r\n"
+    },
+    {
+      "args": [
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0119\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\r\nSuccess\r\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0119\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 125.2 MB/s (12580924 bytes in 0.096s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~5IGkqEFXd0UhFd3q6SHXfQ==/org.packrag.product-XSzPrf69DEdGQwCz0n9SQA==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~5IGkqEFXd0UhFd3q6SHXfQ==/org.packrag.product-XSzPrf69DEdGQwCz0n9SQA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "b777bdd53a7061c4ad8d06d5833fd57d27c6647499caa0466831c79fb43aea39  /data/app/~~5IGkqEFXd0UhFd3q6SHXfQ==/org.packrag.product-XSzPrf69DEdGQwCz0n9SQA==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "pm",
+        "path",
+        "org.packrag.product.test"
+      ],
+      "returncode": 0,
+      "stdout": "package:/data/app/~~klP3CwW2CUcPCW8UVokk-A==/org.packrag.product.test-lGneoIeg2a-HUHche0iFCA==/base.apk\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "sha256sum",
+        "/data/app/~~klP3CwW2CUcPCW8UVokk-A==/org.packrag.product.test-lGneoIeg2a-HUHche0iFCA==/base.apk"
+      ],
+      "returncode": 0,
+      "stdout": "885662364ea095caa8f236a9437404c5ba232765e5e8bd3302a8292e9ea9f98a  /data/app/~~klP3CwW2CUcPCW8UVokk-A==/org.packrag.product.test-lGneoIeg2a-HUHche0iFCA==/base.apk\r\n",
+      "stderr": ""
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "b777bdd53a7061c4ad8d06d5833fd57d27c6647499caa0466831c79fb43aea39",
+    "app-debug-androidTest.apk": "885662364ea095caa8f236a9437404c5ba232765e5e8bd3302a8292e9ea9f98a"
+  },
+  "error_type": "TimeoutExpired",
+  "updated_utc": "2026-10-12T22:41:50.430790+00:00"
+}

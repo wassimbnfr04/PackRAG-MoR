@@ -1,0 +1,11 @@
+# Signed bytes, frozen experiment hashes and raw logs must survive checkout.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.log -diff -whitespace
+*.sig -diff
+*.raw -diff
+tests/signature_vector/test_private_key -diff
+*.docx -diff
+*.apk -diff
+*.kpack -diff
+architecture_extracted.txt -whitespace
+docs/week1_mission.txt -whitespace

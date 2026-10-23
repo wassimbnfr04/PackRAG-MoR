@@ -1,0 +1,15 @@
+{
+  "status": "PREPARED_CLOSURE_SYNTAX_AND_EXISTING_SHAPES_CHECKED_NOT_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T20:22:47.103969+00:00",
+  "prepared_helpers_sha256": {
+    "verify_and_record.py": "6cbfa330d4f3b8e0141ddbbfcd2a68cf57d032d32c40e5a2e153094b2332d0ed",
+    "create_checkpoint.py": "ae8a464405a93e6f3d2802c016a9cd2531c69725243852013310067e76e37a65",
+    "stage_checkpoint.py": "68bc8a6ab69ef2c64285c97785b4703e792a3ecd293c00290a82c101a8136b0d",
+    "verify_checkpoint_git.py": "cf84c8cdf25141c1a3775ee61dbdcc3530f6be1fc8dccc4e03283e4dac456ecd",
+    "verify_full_parity_dispatch_final.py": "1d5e69bbf261bfa5bacb70dd115b71fed477b695231bace92ff44792a9699465",
+    "run_full_background_dispatch_final.py": "27fa8491952e255d0ed9321179e5d8917e7b8da2e0b3e66985916d841dea1d83"
+  },
+  "existing_visual_custody_checked": true,
+  "failed_python474_preserved": true,
+  "scope": "Full actual37/30/restore/UI/visual/parity/current-source/history/check-only still mandatory. Does not execute acceptance or record closure."
+}

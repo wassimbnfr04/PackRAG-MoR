@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "totals": {
+    "tests": 986,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "historical_checked": 587
+}

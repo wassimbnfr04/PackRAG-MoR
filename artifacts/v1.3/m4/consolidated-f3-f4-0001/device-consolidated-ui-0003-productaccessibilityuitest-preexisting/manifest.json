@@ -1,0 +1,12 @@
+{
+  "status": "PREEXISTING_TEST_OUTPUTS_NOT_CURRENT_ACCEPTANCE",
+  "sha256": {
+    "m4-f3-accessibility-form.json": "fc185f702f4dc8175cc346d1f62f81b963692296025c362e91ae977d242c5ab9",
+    "m4-f3-accessibility-assets.json": "a9169000a06d800ab36b84fa623ac8e358781244e6823552a9fd67ae4010d057",
+    "m4-f3-large-font-abstention.png": "a2f03fbdfdc8881e0fd4f7e2da5dbe647807301f563ff756dfb09888c0f2653b",
+    "m4-f3-large-font-encoder-expected-hash.png": "a6cd8d590a3f946c0f17cd79e200b7ff54eaeeef26c785b271c896b591707b3d",
+    "m4-f3-large-font-encoder-observed-hash.png": "b50981ad85b1d0f1c653dcad285a207e137c668821c69ebe0264489b9db2df0d",
+    "m4-f3-large-font-encoder-size.png": "d1f34c2d8c96890f013221bf8adccf23b14d384a5832acd514eb3767cdbf0db5",
+    "m4-f3-large-font-form.png": "edc4e79ccd9e39a302554147894f6d51b14871c6c7f2b6ded9cd83389c276026"
+  }
+}

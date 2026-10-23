@@ -1,0 +1,13 @@
+{
+  "status": "EXACT_TEST_SCROLL_ONLY_REPAIR_REQUIRES_FRESH_BUILDS_AND_BOTH_UI_METHODS",
+  "recorded_utc": "2026-10-10T14:44:45.288447+00:00",
+  "source": "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt",
+  "old_sha256": "9096cd90e39332e3db01de0267ae6382ef9654e66f1db11b848ee1360722392b",
+  "new_sha256": "b03b3e3d4ede5a1de4e0e6942a80f40358f9618b835898eace823b3c4ebb4236",
+  "original_run": "device-ui-query-0001",
+  "original_failure_preserved": true,
+  "new_ui_method_partial_original_saved": true,
+  "product_code_changed": false,
+  "expectation_changed": false,
+  "scope": "Move the actual existing status into the viewport before asserting it is displayed; do not relax state/output validation."
+}

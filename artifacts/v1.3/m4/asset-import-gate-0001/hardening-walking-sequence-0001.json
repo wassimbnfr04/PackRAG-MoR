@@ -1,0 +1,24 @@
+{
+  "status": "FAIL",
+  "started_utc": "2026-10-11T16:58:59.254627+00:00",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\run_hardening.py",
+        "--build",
+        "build-0062",
+        "--run",
+        "device-local-asset-import-faults-0001"
+      ],
+      "started_utc": "2026-10-11T16:58:59.254627+00:00",
+      "finished_utc": "2026-10-11T17:00:39.214011+00:00",
+      "returncode": 1
+    }
+  ],
+  "finished_utc": "2026-10-11T17:00:39.214011+00:00",
+  "failure_type": "AssertionError",
+  "failure_message": "Hold progression; save passing originals and repair before later F2 work"
+}

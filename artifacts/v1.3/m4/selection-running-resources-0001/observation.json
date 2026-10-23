@@ -1,0 +1,71 @@
+{
+  "status": "READ_ONLY_FUNCTIONAL_TEST_CONTEXT_NOT_BENCHMARK",
+  "instrument_run": "device-selection-reporter-0001",
+  "build": "build-0030",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "-s",
+        "TestRunner:I"
+      ],
+      "started_utc": "2026-10-09T22:47:38.825055+00:00",
+      "finished_utc": "2026-10-09T22:47:40.710526+00:00",
+      "returncode": 0,
+      "sha256": "5bd2b2bcb5895a177ba0d6da49964993496a2a7c072c7515cc0cdad0cb4bc0af"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "org.packrag.product"
+      ],
+      "started_utc": "2026-10-09T22:47:40.710526+00:00",
+      "finished_utc": "2026-10-09T22:47:41.869717+00:00",
+      "returncode": 0,
+      "sha256": "42e6e0293ed19fa8300fe35e394853c6694cf995067f06241b131c65ed75769e"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "thermalservice"
+      ],
+      "started_utc": "2026-10-09T22:47:41.869717+00:00",
+      "finished_utc": "2026-10-09T22:47:41.972441+00:00",
+      "returncode": 0,
+      "sha256": "9b17cea8d297f52dae9a255056790111b70dc236895d9d611b1642cbea440c8c"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "cat",
+        "/proc/loadavg"
+      ],
+      "started_utc": "2026-10-09T22:47:41.972441+00:00",
+      "finished_utc": "2026-10-09T22:47:42.052928+00:00",
+      "returncode": 0,
+      "sha256": "0d74804dc7dfa832c5970fbf8d23dec17fdffbe3aea908848b02e243069d2f3b"
+    }
+  ],
+  "limits": [
+    "One asynchronous memory/thermal/load sample; not per-query peak or repeated measurement",
+    "Load includes the device system and cannot attribute model time to hardware or software",
+    "No runtime, phone RAM, governor, affinity, radios or app data settings changed",
+    "Mobile data remains on; actual functional test continues uninterrupted"
+  ]
+}

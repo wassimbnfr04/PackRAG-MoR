@@ -1,0 +1,26 @@
+{
+  "status": "DIAGNOSTIC_OBSERVATION_NOT_PERFORMANCE_OR_CAUSAL_ACCEPTANCE",
+  "observed_utc_approximately": "2026-10-09T17:24:00Z",
+  "phone_serial": "R3CT908DHHR",
+  "process_id": 29792,
+  "command": "adb -s R3CT908DHHR shell dumpsys meminfo org.packrag.product",
+  "source": "Selected fields transcribed from tool output; this is not an original ADB byte capture or a peak-memory measurement",
+  "current_gate": "device-relevance-0001 development instrumentation still running",
+  "phase_context": "Cancellation/recovery completed at phone log timestamp17:21:54.769; integrated ProductRuntimeSmokeTest started17:21:54.774",
+  "units": "Android reported KB; no conversion or inferred physical RAM capacity",
+  "total_pss_kb": 1918787,
+  "total_rss_kb": 1425336,
+  "total_swap_pss_kb": 549037,
+  "native_heap_allocated_kb": 605097,
+  "native_heap_swap_pss_kb": 474336,
+  "native_heap_rss_kb": 55176,
+  "other_mmap_rss_kb": 1307512,
+  "activities": 0,
+  "view_roots": 0,
+  "limits": [
+    "One intermediate snapshot establishes swap accounting at that moment, not the cause or share of latency",
+    "Functional background instrumentation timing is not foreground product cadence, peak memory or accepted performance",
+    "No inference that RAM Plus, a hardware capacity, a permission or an optimization caused this observation",
+    "No root, radio, thermal, governor, affinity, memory or security settings were changed"
+  ]
+}

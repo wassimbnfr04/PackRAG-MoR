@@ -1,0 +1,24 @@
+{
+  "status": "PASS_PUBLIC_OFFICIAL_TEMPLATE_FIXTURE_EXACT_PHONE_BYTES_NOT_IMPORT_TEST",
+  "recorded_utc": "2026-10-11T16:18:06.492681+00:00",
+  "file": "product/android/app/src/androidTest/assets/asset-import-source/template-valid.jinja",
+  "bytes": 5443,
+  "sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "scope": "One exact known public template path read-only; source unchanged. No model weights/export/private-key/keystore read or hash. This is a test source for actual granted content-URI transport, not a replacement template or a claimed passing URI/native/UI test."
+}

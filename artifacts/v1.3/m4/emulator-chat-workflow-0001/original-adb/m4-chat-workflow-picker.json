@@ -1,0 +1,69 @@
+{
+  "system_picker_executed": true,
+  "manual_read_grant_shortcut": false,
+  "approved_fixture_scope": "SYNTHETIC_CALIBRATION_SCHEMA_ONLY_NOT_HUMAN_REVIEW",
+  "status": "PASS",
+  "cases": [
+    "separate-provider-document-denied-before-real-system-picker-grant",
+    "actual-picker-cancel-leaves-empty-registry-and-no-fabricated-stages",
+    "actual-picker-signed-synthetic-pack-import-and-full-identity",
+    "visible-real-completed-stages-and-independent-transport-payload-byte-domains",
+    "actual-malformed-picker-document-safe-rejection-prior-active-preserved",
+    "explicit-controlled-public-files-preserved"
+  ],
+  "visual_png": {
+    "m4-f3-kpack-stages.png": {
+      "sha256": "1e43f6472a91f7799dad351d91f30dfc602dab87f8ce34d30fb2c8b8c321b601",
+      "bytes": 215102,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "39d6ee1be644709b06626357095483d80ed41c318cf8c699324e00123fd09ef9",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-f3-kpack-activation.png": {
+      "sha256": "d67aac495cc7069b1ef7f30513be9f495ef2140e2eac632140455565f8d099be",
+      "bytes": 219887,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "9bc81df50d2e03ecda06265f8394d514e42beb7e8d2bcf7634fe1bdbecccfa74",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    },
+    "m4-f3-kpack-rejection.png": {
+      "sha256": "b8295c1f6c604068ba7c5c04e187b89e46dd6d14fd20539f122fc74069e8b5dc",
+      "bytes": 196237,
+      "width": 1080,
+      "height": 2400,
+      "equal_static_frames": 3,
+      "static_grid_sha256": "b81fdfb3e554bcdaffd8c7f14ef97407b2696c76623713855ea419710a35521b",
+      "sample_interval_ms": 250,
+      "minimum_wait_ms": 750,
+      "settling_only_system_margins_px": [
+        128,
+        160
+      ]
+    }
+  },
+  "owner_sha256": {
+    "m4-repair-fixture-0001.kpack": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359",
+    "models\/LFM2.5-2.6B-QAD-Q4_0.gguf": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "models\/chat_template.jinja": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "models\/granite\/onnx\/model.onnx": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "models\/granite\/tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f"
+  },
+  "controlled_file_count": 5,
+  "owner_guard_scope": "FRESH_EMULATOR_FOUR_MODELS_ONE_FIXTURE_DEFAULT_REGISTRIES_ABSENT",
+  "actual_weight_inference": false,
+  "scope": "Current real MainActivity picker\/registry UI; separate-provider grant and observed import stages. Original PNG review required; not human calibration or full M4."
+}

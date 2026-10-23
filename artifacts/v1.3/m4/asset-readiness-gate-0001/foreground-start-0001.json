@@ -1,0 +1,42 @@
+{
+  "status": "RUNNING_ACTUAL_F1_FOREGROUND_AFTER_BACKGROUND_RETRY_VERIFICATION_NOT_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T15:25:59.345066+00:00",
+  "adjacent_methods": 5,
+  "adjacent_whole_instrumentation_seconds": 1057.777,
+  "adjacent_verified_sha256": "a6a6ded1abd021ac82a7ae2d087193f903865b631bfaa2f75fb896f4ce5a2fc8",
+  "owner_quote": "Yes, announce when it starts",
+  "readiness": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "window",
+        "policy"
+      ],
+      "returncode": 0,
+      "observed": [
+        "showing=false",
+        "mIsShowing=false"
+      ]
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "power"
+      ],
+      "returncode": 0,
+      "observed": [
+        "mWakefulness=Awake"
+      ]
+    }
+  ],
+  "announcement": "The screen test starts now. Please leave the phone unlocked and untouched for about five minutes. Mobile data stays on.",
+  "scope": "The unchanged adjacent retry passed and all five originals were independently collected/checked before UI installation. Its50 public guards preserve the explicit post-launch cf140 baseline. Earlier failed adjacent0001 and its whole-session registry exception remain unchanged. UI automated/original PNG/manual visual, both compiled-policy phases, restored development consent, final owner/source checks and closure/checkpoint remain required. F2 implementation not started."
+}

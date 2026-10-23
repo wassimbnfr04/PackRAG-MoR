@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.model.QueryUnicodeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-09T18:23:38.379Z" hostname="RAZER" time="0.504">
+  <properties/>
+  <testcase name="officialUnicode15ConformanceAndSharedQueryCases" classname="org.packrag.model.QueryUnicodeTest" time="0.504"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

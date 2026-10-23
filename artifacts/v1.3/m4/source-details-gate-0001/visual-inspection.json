@@ -1,0 +1,14 @@
+{
+  "status": "FAIL_CANONICAL_CONTENT_OBSCURED_BY_ANDROID_NAVIGATION_NOT_E2_ACCEPTANCE",
+  "inspected_utc": "2026-10-10T17:00:58.274104+00:00",
+  "image_sha256": {
+    "m4-source-details-ar.png": "e86283a81f54548cef24b1e35fc21c649989a24bf5b23318c07e68c99d097ce6",
+    "m4-source-details-fr.png": "722ef528763ec14585cfd208584a14574de6af42ddbd95870b2d0f4a2e62daa6"
+  },
+  "notes": [
+    "Both original screenshots inspected with view_image. Canonical text is at the bottom, partially under navigation buttons/scrim; French last line and Arabic lower line are not clearly unobscured.",
+    "Text equality and partial semantic visibility assertions passed. They do not establish full readable viewport placement.",
+    "Whole four-method JUnit remains PASS193.412s; visual acceptance fails. Preserve originals and block full phone/later milestones."
+  ],
+  "scope": "Actual signed AR/FR viewer component; no new multilingual inference, real translation review or production custom-key admission."
+}

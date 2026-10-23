@@ -1,0 +1,7 @@
+{
+  "status": "PREPARED_CHECKPOINT_REFINEMENT_NOT_EXECUTED",
+  "recorded_utc": "2026-10-11T22:17:55.617788+00:00",
+  "before_preparation_sha256": "03268dd43131a6db971ffb3635dcfbcc3c05d1c3c0b2b2ff1f53cf37bc6f38cd",
+  "updated_checkpoint_script_sha256": "e4945ac98e984de406a24ac252f27cd63774a36ab894b4824b03251e5d1d083c",
+  "scope": "Before any checkpoint execution, include the durable F3 acceptance preparation and terminal public root JSON/Python closure records written after gate collection. Existing prepared SHA record remains historical; no actual Android/test/APK change or checkpoint claim."
+}

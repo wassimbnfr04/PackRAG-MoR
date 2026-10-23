@@ -1,0 +1,666 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "valid-developer",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null
+    },
+    {
+      "id": "uncalibrated-release",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "valid-calibrated-schema",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null
+    },
+    {
+      "id": "valid-prerelease",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null
+    },
+    {
+      "id": "huge-semver-core",
+      "expected_accept": true,
+      "passed": true,
+      "rejection_class": null
+    },
+    {
+      "id": "semver-leading-core-zero",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "semver-leading-prerelease-zero",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "semver-empty-prerelease-part",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "invalid-release-day",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.time.format.DateTimeParseException"
+    },
+    {
+      "id": "invalid-freshness-day",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.time.format.DateTimeParseException"
+    },
+    {
+      "id": "release-non-utc",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "schema-string-coercion",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "name-numeric-coercion",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "name-empty",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "publisher-extra-field",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "publisher-empty",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "languages-not-array",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "languages-empty",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "languages-duplicate",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "language-invalid",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "jurisdiction-invalid",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "count-string-coercion",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "count-boolean-coercion",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "count-negative",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "count-overflow",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "count-fraction",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "generator-boolean-string",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "generator-boolean-number",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "runtime-policy-override",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "unknown-calibration-status",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "uncalibrated-fabricated-score",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "missing-calibration-method",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "wrong-calibration-method",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "calibrated-missing-score",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "calibrated-string-score",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "calibrated-boolean-score",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "calibrated-score-too-high",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "calibrated-cosine-too-low",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "calibrated-null-hash",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "build-hash-invalid",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "missing-build-version",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "payload-length-string",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "payload-length-boolean",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "payload-length-fraction",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "payload-length-too-large",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "payload-required-string",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "mandatory-payload-optional",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "payload-mime-invalid",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "profile-extra-field",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    },
+    {
+      "id": "top-level-override",
+      "expected_accept": false,
+      "passed": true,
+      "rejection_class": "java.lang.IllegalArgumentException"
+    }
+  ],
+  "purpose": "ACTUAL_ANDROID_SIGNED_MANIFEST_SCHEMA_AND_ADJACENT_VALID_DB_KDX_GATE",
+  "calibrated_test_metadata": "Synthetic values test schema only; not measured release calibration or human-reviewed40-case proof",
+  "input_corpus": {
+    "cases": [
+      {
+        "id": "valid-developer",
+        "filename": "valid-developer.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "f97ae76a84c18510cb6bd638b7160ce27dd04a9bff97761ea7219a7bdf72935b"
+      },
+      {
+        "id": "uncalibrated-release",
+        "filename": "uncalibrated-release.kpack",
+        "accept": false,
+        "developer_mode": false,
+        "sha256": "f97ae76a84c18510cb6bd638b7160ce27dd04a9bff97761ea7219a7bdf72935b"
+      },
+      {
+        "id": "valid-calibrated-schema",
+        "filename": "valid-calibrated-schema.kpack",
+        "accept": true,
+        "developer_mode": false,
+        "sha256": "e1153998fca6f7fd3763b3ffc53312e336257f87aaf71c314596a7cce94e2772"
+      },
+      {
+        "id": "valid-prerelease",
+        "filename": "valid-prerelease.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "ec3fd2dfecc60f719de8b45b6e982050085d067caf7b004350cec922d089a2fb"
+      },
+      {
+        "id": "huge-semver-core",
+        "filename": "huge-semver-core.kpack",
+        "accept": true,
+        "developer_mode": true,
+        "sha256": "a6a9f532b2d9cdee95e7b1b576db04253ef0ffd155c52c237eab99e1bfb3f9c6"
+      },
+      {
+        "id": "semver-leading-core-zero",
+        "filename": "semver-leading-core-zero.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "e5424a74c2b30282381e23d5062c895d9b53ff7f691a9d9feff6e364874e8afc"
+      },
+      {
+        "id": "semver-leading-prerelease-zero",
+        "filename": "semver-leading-prerelease-zero.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "c27bb7060b975a1be3c750d6af38a4c01324821412668048091917f4821769d9"
+      },
+      {
+        "id": "semver-empty-prerelease-part",
+        "filename": "semver-empty-prerelease-part.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "016cf76f9bb37275eb7ca26e3536f0f5601873baf503c1ad8ce6dd666552f5e9"
+      },
+      {
+        "id": "invalid-release-day",
+        "filename": "invalid-release-day.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "feef2874aa2e51572ac5d109daf88cf5607e71c2e85eea4f82c38c07600c02ce"
+      },
+      {
+        "id": "invalid-freshness-day",
+        "filename": "invalid-freshness-day.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "c9a727c55e4cf9b43803fdd39697e6185f7e27dc958d9259f3add5d1e8c68216"
+      },
+      {
+        "id": "release-non-utc",
+        "filename": "release-non-utc.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "59da6e150f0db71962a07bd974c16fd326906f36c63c6e92f2ef137c258593c1"
+      },
+      {
+        "id": "schema-string-coercion",
+        "filename": "schema-string-coercion.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "11859beb6a25cbc91bc109d57c221e2b7aca09685e37d18aae0321d95dc919df"
+      },
+      {
+        "id": "name-numeric-coercion",
+        "filename": "name-numeric-coercion.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "7ad745bbb90d46a7811d8860030cd0693dc009caf95b14d324a8a6b270a6c403"
+      },
+      {
+        "id": "name-empty",
+        "filename": "name-empty.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "6c3bebd2a3fd8239f3b58c0ef1cc6e407735bd733411ccf93145b96e2ee789ea"
+      },
+      {
+        "id": "publisher-extra-field",
+        "filename": "publisher-extra-field.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "da7eb260472a4b38293da3aed38020684beb44fa32f41a8395de7f5cc0716579"
+      },
+      {
+        "id": "publisher-empty",
+        "filename": "publisher-empty.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "ef3f8fab64b1b29c0448ebf2774e5aedf99db3a0d8bf075e12ede1ee8bcddcb0"
+      },
+      {
+        "id": "languages-not-array",
+        "filename": "languages-not-array.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "19045ed854d15a2491647485e01e1418175af8ec5a77d9bdf0cf1fb87e5d2d9d"
+      },
+      {
+        "id": "languages-empty",
+        "filename": "languages-empty.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "6103d19f07921e3a9c784ce87d897e536b69f1cbdc6ef8b943b54085baaba361"
+      },
+      {
+        "id": "languages-duplicate",
+        "filename": "languages-duplicate.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "40f8d969da92e35fee5fbc5b5d65ab136b653a4c0b67fbfbe479973c7c34db5b"
+      },
+      {
+        "id": "language-invalid",
+        "filename": "language-invalid.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "cafde932edaeda0ff55bed44e1f49ed1ee2adb0790dbf14c2876144de9e487f9"
+      },
+      {
+        "id": "jurisdiction-invalid",
+        "filename": "jurisdiction-invalid.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "9f9022c25e9bee5d3af7c08f26dec0351d64601c74e8e4b700bc07002405d077"
+      },
+      {
+        "id": "count-string-coercion",
+        "filename": "count-string-coercion.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "1b5a663ba4cd4f385fadd2d1f8f6c260c5b8584099d033051477863eb17a5d10"
+      },
+      {
+        "id": "count-boolean-coercion",
+        "filename": "count-boolean-coercion.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "fa9e6226398fba0d15ff84dcdde7b7f70a2abe5222b3dbde1474174768d8b333"
+      },
+      {
+        "id": "count-negative",
+        "filename": "count-negative.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "9e1b18e23e02dd34509ad09a410640a4b2e0173a9b9e8cdbf43977044af4d076"
+      },
+      {
+        "id": "count-overflow",
+        "filename": "count-overflow.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "8a89494d56c1403108c7f8fde7a165869fd00b1795925189e002ee3d7226cc6e"
+      },
+      {
+        "id": "count-fraction",
+        "filename": "count-fraction.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "4a926cc0240be73e6335b13028ff7e6aac65a82780f20fa6a22dfa4776f06f52"
+      },
+      {
+        "id": "generator-boolean-string",
+        "filename": "generator-boolean-string.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "8f67377e6c5b3e4074cbeb34bbd24daf43a71cc7f4ab0abe04c4fac02fa6bb20"
+      },
+      {
+        "id": "generator-boolean-number",
+        "filename": "generator-boolean-number.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "871ec75eeee7547f1314fc4c9ce750e91bfed27c5821703a2e878655cf1f892e"
+      },
+      {
+        "id": "runtime-policy-override",
+        "filename": "runtime-policy-override.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "d1657ed54345f2c1401336596fe2b371602e80f6dd15035a9fad35e5a76d212b"
+      },
+      {
+        "id": "unknown-calibration-status",
+        "filename": "unknown-calibration-status.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "41bdea7d0a6ca0d1459020940d3082946b054d8f88154ca7e06b66d08ae4384d"
+      },
+      {
+        "id": "uncalibrated-fabricated-score",
+        "filename": "uncalibrated-fabricated-score.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "d46a316d57ba2801bf55f37ca98eb8f76a202f489fbbec0af7825fa0c619dfb5"
+      },
+      {
+        "id": "missing-calibration-method",
+        "filename": "missing-calibration-method.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "e7ddc2a0b40727bc962f1db7bcf23d586069f17aa0eed93166f7edf832fb1d34"
+      },
+      {
+        "id": "wrong-calibration-method",
+        "filename": "wrong-calibration-method.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "466cf0609a05a376ef1842e37744c573da23c69c59290dd90f380251bcd89b43"
+      },
+      {
+        "id": "calibrated-missing-score",
+        "filename": "calibrated-missing-score.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "f8e8c3e266e6084077cba4270670e1b533ee18001e1b5a36f0599c83326f24ff"
+      },
+      {
+        "id": "calibrated-string-score",
+        "filename": "calibrated-string-score.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "12795361fb51bcc66a6e9defd8786513154c158016850833aede0178c94cfca9"
+      },
+      {
+        "id": "calibrated-boolean-score",
+        "filename": "calibrated-boolean-score.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "ba0a483fca6a94d3e6f4444d9860978a78a05e949d0d69572c9d187a79d58375"
+      },
+      {
+        "id": "calibrated-score-too-high",
+        "filename": "calibrated-score-too-high.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "1d36802e0ca5c8d78bf7461aa8f9736876742ecd2ff748b36ff27670f7df7ae2"
+      },
+      {
+        "id": "calibrated-cosine-too-low",
+        "filename": "calibrated-cosine-too-low.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "e69d27526e4a92d13ae668f8c35009dd0d165f0aafe13e43cd1abfc94451c2ad"
+      },
+      {
+        "id": "calibrated-null-hash",
+        "filename": "calibrated-null-hash.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "6b8821a5737616f575c8128e99af8928da1b84c455228e329ff680015c233b30"
+      },
+      {
+        "id": "build-hash-invalid",
+        "filename": "build-hash-invalid.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "0351a732e8544e5a53ee1cffb1ada220ddef85a59069270a2b3238a31aa72422"
+      },
+      {
+        "id": "missing-build-version",
+        "filename": "missing-build-version.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "9a43a43a72e9d8b338ceaa21af7bbc025a171d91f9b8dc37bad3a8be877a1513"
+      },
+      {
+        "id": "payload-length-string",
+        "filename": "payload-length-string.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "80e64f419bbd1c763ac8d05f5f0d4336e2a80643b377b1eaccf2bc24932b4986"
+      },
+      {
+        "id": "payload-length-boolean",
+        "filename": "payload-length-boolean.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "8e961a4b70191f7a62eaea88eaef30411f17df1bc5a59fab870ef2e33f2eda42"
+      },
+      {
+        "id": "payload-length-fraction",
+        "filename": "payload-length-fraction.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "74191e25dd8aefa911b36ad067e4168f419f8c97a160d3319d4e35cc9eeff7fe"
+      },
+      {
+        "id": "payload-length-too-large",
+        "filename": "payload-length-too-large.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "11825337d593942dbb4d51d4c3da33d1ef021da4b033f44de803822678f8ecd0"
+      },
+      {
+        "id": "payload-required-string",
+        "filename": "payload-required-string.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "c9e42c7320b7f999953896c8b541e354aabedcf1ea3d111f9c85f356d8894272"
+      },
+      {
+        "id": "mandatory-payload-optional",
+        "filename": "mandatory-payload-optional.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "bdf17a91097f164886c78b9c988e4d08ef71d9d7fa47383eace0bfa39dfde551"
+      },
+      {
+        "id": "payload-mime-invalid",
+        "filename": "payload-mime-invalid.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "03b7b5f8b92a8cf2222d4de394f698513f98b3048d1f251dc6b6d621bc83db07"
+      },
+      {
+        "id": "profile-extra-field",
+        "filename": "profile-extra-field.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "68a8b10f35ab3e1e17a09bd4818acb9a615b5a742a56f41aa1ba64e0d12e3a84"
+      },
+      {
+        "id": "top-level-override",
+        "filename": "top-level-override.kpack",
+        "accept": false,
+        "developer_mode": true,
+        "sha256": "7ffb320760519ba353324ac25a132c1f1e70fcecf46a153d0b450a9d5bd7252e"
+      }
+    ],
+    "public_key_sha256": "b8791db8c8734589ba7b95c20c8bfd0504399cedfec91ee193e95e7bc20622bf",
+    "purpose": "SIGNED_MANIFEST_SCHEMA_NEGATIVES_NOT_RELEASE_CALIBRATION",
+    "private_seed": "EPHEMERAL_NOT_SAVED",
+    "source_pack_sha256": "19da286b9f0860c312dc8d14ce0ee8681bf12ca092a7b8a12171fd86abe02c7f",
+    "corpus_sha256": "2d1358df3f24b86262e0c53f69a6ad7b80758fe6ba6a9c1423f887ed1460d97c"
+  }
+}

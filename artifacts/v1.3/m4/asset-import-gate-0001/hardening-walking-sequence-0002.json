@@ -1,0 +1,37 @@
+{
+  "status": "PASS_F2_HARDENING_AND_NATIVE_API_REGRESSION_NOT_FULL_F2",
+  "started_utc": "2026-10-11T17:08:37.022261+00:00",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\run_hardening_0002.py",
+        "--build",
+        "build-0063",
+        "--run",
+        "device-local-asset-import-faults-0002"
+      ],
+      "started_utc": "2026-10-11T17:08:37.022261+00:00",
+      "finished_utc": "2026-10-11T17:10:37.449442+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\run_walking.py",
+        "--build",
+        "build-0063",
+        "--run",
+        "device-local-asset-import-walking-0003"
+      ],
+      "started_utc": "2026-10-11T17:10:37.457826+00:00",
+      "finished_utc": "2026-10-11T17:17:48.049361+00:00",
+      "returncode": 0
+    }
+  ],
+  "finished_utc": "2026-10-11T17:17:48.049361+00:00"
+}

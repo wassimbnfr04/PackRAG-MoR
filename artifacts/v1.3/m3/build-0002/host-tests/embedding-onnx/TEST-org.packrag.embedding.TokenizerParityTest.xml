@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.embedding.TokenizerParityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-05T15:51:14.037Z" hostname="RAZER" time="0.994">
+  <properties/>
+  <testcase name="exactOfficialTokenizerParity" classname="org.packrag.embedding.TokenizerParityTest" time="0.983"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

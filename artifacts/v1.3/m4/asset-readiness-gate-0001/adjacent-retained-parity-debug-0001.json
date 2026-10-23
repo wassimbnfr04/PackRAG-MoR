@@ -1,0 +1,78 @@
+{
+  "status": "PASS_F1_FRESH_ADJACENT_CASE_CONTRACTS_MATCH_ACCEPTED_E3_NOT_WHOLE_PHONE_PARITY_OR_CLOSURE",
+  "recorded_utc": "2026-10-11T15:33:18.023032+00:00",
+  "variant": "debug",
+  "run": "device-local-assets-adjacent-0002",
+  "prior_run": "device-diagnostics-full-0001",
+  "verified_sha256": "a6a6ded1abd021ac82a7ae2d087193f903865b631bfaa2f75fb896f4ce5a2fc8",
+  "coverage": {
+    "m4-diagnostic-runtime.json": {
+      "case_ids": [
+        "fresh-no-active-pack-has-no-native-initialization-or-fabricated-pool",
+        "fixed-unequal-metadata-conversion-does-not-request-missing-rendering",
+        "real-cold-warm-runtime-on-marked-default-and-fixed-io-dispatcher-without-monitor-suspension",
+        "actual-cold-and-warm-cited-generation-have-captured-candidates-identities-and-scoped-timings",
+        "read-only-inspection-retains-original-diagnostics",
+        "no-active-after-deactivation-distinguishes-previously-loaded-model-from-current-generation",
+        "captured-diagnostics-outlive-session-readers-and-reject-list-mutation",
+        "owner-models-and-default-registries-unchanged"
+      ],
+      "cases": 8,
+      "prior_original_sha256": "9c5194f89c09ed5e561696d8f9df61a20f2b1bf7b7007a36c3d0987e559e9507",
+      "fresh_original_sha256": "f1a1bdd875084ff05317473b3b4abd35e8db6354209fcb09e09b41297b5f669a"
+    },
+    "m4-diagnostic-lifecycle.json": {
+      "case_ids": [
+        "replacement-observed-during-native-generation-discards-original-and-keeps-only-new-context",
+        "real-native-cancel-clears-completed-trace-submission-navigation-and-stays-cleared",
+        "actual-recovery-cited-answer-has-new-owned-diagnostics-and-result-identity",
+        "fresh-read-only-inspection-and-close-preserve-reference-identical-completed-context",
+        "pack-mutation-clears-live-result-but-independent-captured-diagnostics-remain-readable",
+        "new-no-active-outcome-distinguishes-loaded-session-from-current-generation",
+        "owner-default-registries-and-models-byte-identical-within-run"
+      ],
+      "cases": 7,
+      "prior_original_sha256": "6c79109de87efa2a9ce444f11f6e6450b932a87c45209f6280f07d2cc1b688e9",
+      "fresh_original_sha256": "020ad63695839e2e59055cd9eb526c069b8c3341799551d22e5752838b825dd7"
+    },
+    "m4-ui-query-inputs.json": {
+      "case_ids": [
+        "INVALID_QUERY_DATE-0",
+        "INVALID_QUERY_DATE-1",
+        "INVALID_QUERY_TEXT-2",
+        "EMPTY_QUESTION-3",
+        "lowercase-code-not-corrected",
+        "no-pack-keeps-submission-no-generator",
+        "cancel-clears-captured-context-and-trace"
+      ],
+      "cases": 7,
+      "prior_original_sha256": "6fdd6592621851ce7f57a4dcc6e4ea1f1ac28a77a87023b4d026487e57e1425f",
+      "fresh_original_sha256": "44454fa9b6e07113c04befa88cf7b2e3cffe0af64e4bea509cb66db9a6f6e000"
+    },
+    "m4-ui-query-runtime.json": {
+      "case_ids": [
+        "stale-advisory-real-cited-answer",
+        "exact-jurisdiction-excludes-unknown-source-no-generation",
+        "cancel-and-real-recovery-keeps-new-context",
+        "pack-mutation-clears-old-result-context-and-advisory"
+      ],
+      "cases": 4,
+      "prior_original_sha256": "690e260e6cbec8553b72bc10c085e0490787caeef03505d053dba5f41ea57946",
+      "fresh_original_sha256": "c5f34c43cda833784362d7e5c4bf9d65e3305dac462cdfe67e80d8e618b5d6d1"
+    },
+    "m4-source-details-viewmodel.json": {
+      "case_ids": [
+        "actual-cited-answer-attribution-and-captured-context-survive-active-inspection",
+        "closing-details-retains-original-answer",
+        "inactive-inspection-does-not-activate-or-reuse-old-answer",
+        "wrong-requested-identity-fails-without-verified-details-or-mutation",
+        "owner-models-and-default-registries-unchanged"
+      ],
+      "cases": 5,
+      "prior_original_sha256": "0a1af551c93be6e6de032e736b4b1ff32253192461cccd5ed3f8a2ac8e842cfa",
+      "fresh_original_sha256": "3d218fb3114e83c476a30da56469b3d81c3d8c919840df63fed41deb4eb3239e"
+    }
+  },
+  "cases": 31,
+  "scope": "Exact ordered case IDs and completed passing assertions under unchanged retained test source, saved original binding to accepted E3/current verified run. Does not require exact model wording, timings or pre-/post-launch registry digests to match; those scopes have independent actual checks. Full security/retrieval/parity suite remains mandatory at F4."
+}

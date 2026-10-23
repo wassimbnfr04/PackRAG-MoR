@@ -1,0 +1,15 @@
+{
+  "status": "PASS_D3_SELECTION_PARITY_NOT_COMPLETE_MILESTONE",
+  "recorded_utc": "2026-10-09T22:48:10.720795+00:00",
+  "verifier_sha256": "9d9bab1c6fa1ccb4c870466b21fb3acdbd507f504d5b28e30ec0a9bbf1f04e65",
+  "run": "artifacts\\v1.3\\m4\\device-selection-reporter-0001",
+  "actual_tokenizer_admission_cases": 9,
+  "runtime_state_cases": 8,
+  "pure_fixed_plans": 28,
+  "guards": 2,
+  "deduplicated_local_origins": 2,
+  "format_control": "POST_OBSERVATION_NOT_HELDOUT",
+  "original_question": "CONSERVATIVE_OUTPUT_REJECTION_ORIGINAL_SUPPORTED_ACCEPTANCE_REMAINS_FAIL",
+  "natural_language_wording_byte_equality_required": false,
+  "original_byte_captures": 3
+}

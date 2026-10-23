@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <provider android:name="org.packrag.product.AssetFixtureProvider"
+            android:authorities="org.packrag.product.test.asset-fixtures"
+            android:exported="false" android:grantUriPermissions="true" />
+        <provider android:name="org.packrag.product.AssetFixtureDocumentsProvider"
+            android:authorities="org.packrag.product.test.asset-documents"
+            android:exported="true" android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter><action android:name="android.content.action.DOCUMENTS_PROVIDER" /></intent-filter>
+        </provider>
+        <receiver android:name="org.packrag.product.AssetFixtureGrantReceiver"
+            android:exported="true" android:permission="android.permission.DUMP" />
+    </application>
+</manifest>

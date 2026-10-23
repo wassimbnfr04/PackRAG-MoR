@@ -1,0 +1,5 @@
+{
+  "status": "FAIL_HARNESS_NEWLINE_COMPARISON_NO_ACCEPTANCE",
+  "reason": "Initial Windows write_text produced CRLF; retry compared original bytes with LF-encoded JSON. Failure occurs before signer/pack/encoder creation.",
+  "correction": "Compare decoded shared content with universal newline handling, preserve existing bytes, capture actual file hashes. No expectation change."
+}

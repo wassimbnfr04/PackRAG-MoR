@@ -1,0 +1,41 @@
+{
+  "status": "FAIL_TWO_ACTUAL_HARDLINK_SETUP_METHODS_ONE_COMPLETED_NEGATIVE_ORIGINAL_PRESERVED",
+  "recorded_utc": "2026-10-11T14:23:59.070346+00:00",
+  "instrumentation_manifest_sha256": "c73a57a28818572a3cf9a61fb7be7a9b762c42d656f51db83b4ce8ba2119f7b2",
+  "instrumentation_sha256": "e6266353bddeea93a49504da88a3ab341d00972fd41e4a28d953ebfe12a34e28",
+  "partial_original": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "exec-out",
+      "run-as",
+      "org.packrag.product",
+      "cat",
+      "files/m4-local-assets-negative.json"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "file": "m4-local-assets-negative.json",
+    "sha256": "11e02e3416a8cf4fa129de103ce5e3c1d7a980088809fd3edd51e1f7413cd505",
+    "cases": 5
+  },
+  "storage": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "shell",
+      "df",
+      "-k",
+      "/data"
+    ],
+    "returncode": 0,
+    "stdout": "Filesystem       1K-blocks      Used Available Use% Mounted on\n/dev/block/dm-55 235587564 174455376  61001116  75% /storage/emulated/0/Android/obb\n",
+    "stderr": ""
+  },
+  "diagnosis": "Both failures occur in test-only Files.createLink before actual positive model verification/generation. Android reports AccessDeniedException. The underlying denial mechanism is not inferred. Do not skip controls, alter app permissions/root/device security or claim a product-generation failure.",
+  "repair": "Use independently owned byte copies guarded by measured private free space >= exact sum 2009206667 bytes plus64MiB. Only copied template is mutated; sessions close before no-follow owned-root cleanup. Fresh APKs/full three-method retry required.",
+  "scope": "Overall run remains FAIL; only the completed negative method is a partial PASS. Missing-status assertions reached in the failed ViewModel method do not constitute complete method acceptance.",
+  "copy_required_bytes": 2009206667
+}

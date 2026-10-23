@@ -1,0 +1,20 @@
+{
+  "status": "PASS_FIRST_INTEGRATED_DIAGNOSTIC_ITERATION_NOT_COMPLETE_E3",
+  "build": "build-0043",
+  "tests": 1,
+  "cases": 6,
+  "junit_wall_seconds": 289.615,
+  "original_sha256": "4e39bc3c4124a17d5255f4a4e17f3555362475c67788b083ab8b3921dc052ade",
+  "source_snapshots": {
+    "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt": "5c8d70e28f0a28a0a36834f2264bc043fa132f8343337db6dcdc53418410447a",
+    "product/android/app/src/main/java/org/packrag/product/DiagnosticPresentation.kt": "53ffbdc34e673a0d3ace87dc6496caf008764310bb8840f9190f20e4bf498672",
+    "product/android/app/src/main/java/org/packrag/product/DiagnosticsPanel.kt": "b32b2080055bbb3e07c86d44be18383bce40b9a5095ee090d6b030129a645de3",
+    "product/android/app/src/main/java/org/packrag/product/MainActivity.kt": "8590761bf57f302e54b98b828412898a472a7c331f7fbe964c9b4b7ba1281e58",
+    "product/android/app/src/main/java/org/packrag/product/ProductSession.kt": "ca49a9f68a9ed74a8e749063ba2ab8bd810dcbd7685173c1882452b0b0f2e039",
+    "product/android/app/src/test/java/org/packrag/product/DiagnosticPresentationTest.kt": "7f4a89084a09891dd1d4cdfc8e003073d4a76b63ada9a5b69daeb61bc60b9d6f",
+    "product/android/grounded-runtime/src/main/java/org/packrag/runtime/Diagnostics.kt": "107fe8fa8d55beb4c822f7f91c984ebf904d1b7510f2cabe142f7a14c560a35b",
+    "product/android/grounded-runtime/src/main/java/org/packrag/runtime/PackRag.kt": "3c27dd13c36be2f2aedaffa9024d2b4dc8c1026bce82c18bf63b36283de9f26c",
+    "product/android/grounded-runtime/src/test/java/org/packrag/runtime/DiagnosticsOwnershipTest.kt": "92507a2f6e1ed481f4674f4828be5c852428692714d6a117e24acf4e3cc27344"
+  },
+  "scope": "Actual two accepted cold/warm queries; ownership/inspection/no-pack controls. Dispatch/lifecycle/accessibility/full-policy acceptance still pending."
+}

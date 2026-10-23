@@ -1,0 +1,10 @@
+{
+  "status": "FAIL",
+  "failure_stage": "NATIVE_APK_ENTRY_LOOKUP",
+  "exception": "KeyError",
+  "attempted_entry": "lib/arm64-v8a/libpackrag_llama.so",
+  "message": "There is no item named 'lib/arm64-v8a/libpackrag_llama.so' in the archive",
+  "interpretation": "Inspection harness guessed a nonexistent entry; this is not a product native-runtime failure.",
+  "retained_files": ["entry-list.txt", "permissions.txt", "packaged-manifest.txt"],
+  "corrected_new_run": "artifacts/v1.3/m4/demo-apk-inspection-0003"
+}

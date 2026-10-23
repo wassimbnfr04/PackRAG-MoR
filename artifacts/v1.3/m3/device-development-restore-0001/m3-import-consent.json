@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "older-import-awaits-consent-cancel-cleans-copy",
+      "passed": true
+    },
+    {
+      "id": "confirmed-import-uses-private-copy-not-mutated-caller-uri",
+      "passed": true
+    },
+    {
+      "id": "changed-private-copy-rejected-and-cleaned-prior-active-preserved",
+      "passed": true
+    },
+    {
+      "id": "viewmodel-clear-cleans-pending-import",
+      "passed": true
+    }
+  ],
+  "limits": "Actual Android contentResolver file URI/private-copy lifecycle; SAF provider picker and visible consent dialog are separate UI gates."
+}

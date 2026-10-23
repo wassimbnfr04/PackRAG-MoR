@@ -1,0 +1,63 @@
+{
+  "purpose": "SYNTHETIC_DEVELOPMENT_NOT_RELEASE_CALIBRATION",
+  "cases": [
+    {
+      "id": "temperature",
+      "title": "Aster-9",
+      "locator": "operating limits",
+      "text": "Aster-9 operates up to 74 °C.",
+      "aliases": [
+        "Aster-9"
+      ]
+    },
+    {
+      "id": "battery",
+      "title": "Helix-R",
+      "locator": "battery",
+      "text": "Helix-R uses lithium iron phosphate cells.",
+      "aliases": [
+        "Helix-R"
+      ]
+    }
+  ],
+  "input_recipe": "title + newline + section_or_article + newline + search_safe_context_prefix + newline + canonical_or_verified_english_text",
+  "embedding_inputs": [
+    "Aster-9\noperating limits\n\nAster-9 operates up to 74 °C.",
+    "Helix-R\nbattery\n\nHelix-R uses lithium iron phosphate cells."
+  ],
+  "profile": {
+    "profile_id": "granite97m-multi-r2-384-v1",
+    "model_id": "ibm-granite/granite-embedding-97m-multilingual-r2",
+    "model_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "model_sha256": "f3ea88b230492811046145513710e76b4cc8c2ad49e8708da0e7247e548903be",
+    "onnx_sha256": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70",
+    "tokenizer_hashes": {
+      "tokenizer.json": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f",
+      "tokenizer_config.json": "6ed69389e30a8ecabfce2f9ebcdf0c908b34056f24d994340f2f216521c057d5"
+    },
+    "dimension": 384,
+    "dtype": "float32",
+    "normalized": true,
+    "metric": "cosine",
+    "runtime": "onnxruntime-mobile-cpu",
+    "pooling": {
+      "word_embedding_dimension": 384,
+      "pooling_mode_cls_token": true,
+      "pooling_mode_mean_tokens": false,
+      "pooling_mode_max_tokens": false,
+      "pooling_mode_mean_sqrt_len_tokens": false,
+      "pooling_mode_weightedmean_tokens": false,
+      "pooling_mode_lasttoken": false,
+      "include_prompt": false
+    },
+    "max_input_length": 512,
+    "input_construction": "title + newline + section_or_article + newline + search_safe_context_prefix + newline + canonical_or_verified_english_text"
+  },
+  "source_identities": {
+    "original_texts_sha256": "5057e3a2a4dc8642e9d5a5805dbc46d58cab5057bc30f32a719e8c19333b4815"
+  },
+  "signer_private_seed": "EPHEMERAL_NOT_SAVED",
+  "status": "PASS",
+  "manifest_sha256": "ce57e78d68e114ca02e447e101910c0bd74df0030e07dec669b324cb2b1312f5",
+  "archive_transport_sha256": "18a2c7ba8a92a930da11139811bf31630f1450dd357deec454416cef65299b18"
+}

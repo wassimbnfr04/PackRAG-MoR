@@ -1,0 +1,65 @@
+{
+  "status": "PASS_F1_CORE_ACTUAL_ORIGINALS_NOT_FULL_F1",
+  "phase": "core",
+  "variant": "debug",
+  "build": "build-0056",
+  "run": "device-local-assets-0002",
+  "android_inputs": 579,
+  "host_totals": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0056",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-0002",
+        "--class-name",
+        "org.packrag.product.LocalAssetReadinessDeviceTest",
+        "--result-file",
+        "m4-local-assets-negative.json",
+        "--timeout",
+        "3600",
+        "--variant",
+        "debug"
+      ],
+      "started_utc": "2026-10-11T14:25:36.205586+00:00",
+      "finished_utc": "2026-10-11T14:39:23.915012+00:00",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-0002",
+        "--files",
+        "m4-local-assets-negative.json,m4-local-assets-runtime.json,m4-local-assets-viewmodel.json"
+      ],
+      "started_utc": "2026-10-11T14:39:23.916024+00:00",
+      "finished_utc": "2026-10-11T14:39:24.485351+00:00",
+      "returncode": 0
+    }
+  ],
+  "original_sha256": {
+    "m4-local-assets-negative.json": "3719403566a33a89ea5de99a31f002b26b43c21baf5e2ea44a876e4b54270456",
+    "m4-local-assets-runtime.json": "71bf9835d78ea66f6a69d71cb46b623161b3bd4ac69a3fa58f4a9da2c34f4a63",
+    "m4-local-assets-viewmodel.json": "76038160bb7185be9e7b47159fe39c6bd29ec9377ff9cc01f49be9d93fb39168"
+  },
+  "instrumentation_sha256": "c77759542242b3255567dfe3ef640766f70feaedace81c7a261096eb45ad4ce7",
+  "collection_sha256": "9b08134cced0f8eda57fd65266ee4c4901a616e007996d6f999741862deb1578"
+}

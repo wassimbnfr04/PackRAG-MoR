@@ -1,0 +1,47 @@
+{
+  "status": "E3_ACCEPTANCE_DURABLE_DOCUMENTS_UPDATED_AFTER_CHECK_ONLY_BEFORE_CLOSURE",
+  "recorded_utc": "2026-10-10T22:01:54.155709+00:00",
+  "check_only_argv": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\diagnostics-gate-0001\\verify_and_record_final.py",
+    "--check-only"
+  ],
+  "check_only_returncode": 0,
+  "check_only_stdout": "ALL_E3_ACCEPTANCE_CHECKS_PASS_NO_CLOSURE_WRITTEN\n",
+  "phone": [
+    {
+      "run": "device-ui-diagnostics-retained-0004",
+      "methods": 4,
+      "whole_instrumentation_seconds": 216.928
+    },
+    {
+      "run": "device-diagnostics-full-0001",
+      "methods": 37,
+      "whole_instrumentation_seconds": 3302.645
+    },
+    {
+      "run": "device-diagnostics-policy-full-0001",
+      "methods": 30,
+      "whole_instrumentation_seconds": 2182.969
+    },
+    {
+      "run": "device-development-restore-0015",
+      "methods": 1,
+      "whole_instrumentation_seconds": 4.014
+    }
+  ],
+  "updated_document_sha256": {
+    "STATUS.md": "ee1c8547e6b596dbf5af3dfce4057518598137d4d2eaea388e5684b11b588c7f",
+    "PLAN.md": "8807dda77798a72c421d50a7e31b925f5456786da765333eb6081a8583b90fbe",
+    "DECISIONS.md": "02f97d2e178e32a169996fd7723edca612e76eae418ced059feaeefb4895742d",
+    "docs/v1.3/M4E3_METHODS.md": "a3cad87e21e781b834801cd3708032d73b321a53fc5d4a09be54aad529487d7d",
+    "docs/v1.3/M4E3_EVIDENCE_INDEX.md": "1ac602cc7e06ce8e447fcd9902402932b8c9ef39085e9b1b558cd6eecb2766b0",
+    "docs/v1.3/M4E3_LIFECYCLE_CONTROLS.md": "b965ed6d358902fe8f96af11ad2af67d4a667cbeefc0b46d4884019dfa38d30c",
+    "docs/v1.3/FULL_DOCUMENTATION_WORKING.md": "d32418fa8a821d326214c649f57f71f776ab4611fe86ea272515b9bb16db6135",
+    "docs/v1.3/M4_INCREMENT_PLAN.md": "df7ce2168d6fb07dc50fc2d5a246dd000ef8c65481ae27b751fcd8dbf4df7863",
+    "docs/v1.3/M4_IMPLEMENTATION_LOG.md": "f82e101661fc33c5c8cadcf50ce8d5143345243d5775e1f0f7a609516df06893",
+    "docs/architecture-compliance-matrix.md": "f1c9f88a6b013c174ecf0ee2c98c15fcbec038b025b5a673d0c9786de9ef926f"
+  }
+}

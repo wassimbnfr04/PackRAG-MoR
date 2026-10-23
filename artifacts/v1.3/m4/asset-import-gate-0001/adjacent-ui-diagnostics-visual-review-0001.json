@@ -1,0 +1,29 @@
+{
+  "status": "PASS_F2_DIAGNOSTIC_VISIBLE_SCOPE_NOT_FULL_F2",
+  "reviewed_utc": "2026-10-11T21:11:28.175282+00:00",
+  "execution_sha256": "ccd2764af17ac3d35d8599d164f0183f598b3710d6068bbc2880ce38ee3d6582",
+  "images": {
+    "m4-diagnostic-home.png": {
+      "sha256": "3967a7a3a750b86eb66a5c8b83830ffe6801083e474c4562a31d3cde154f7301",
+      "bytes": 285610,
+      "dimensions": [
+        1080,
+        2316
+      ],
+      "review": "PASS_VISIBLE_SCOPE",
+      "observation": "PASS visible actual completed-answer scope: full-width header/system bars; accepted74 degrees C [S1] answer and S1 source button, Hide diagnostics button and Completed query diagnostics title readable. Captured-measurement limitations, ANSWER_ACCEPTED/generation Called and428 prefill/256 evidence/153 emitted/133 reasoning/20 remaining token counts wrap legibly. Visible first-emission/backend-prefill/decode numbers retain their scope; they are not visible-answer latency or controlled throughput/thermal evidence. Query embedding line starts below viewport; other timings/candidate rows/submitted controls are offscreen, not claimed. Top answer starts immediately under app bar due normal scrolling; no picker transition or horizontal crop observed."
+    },
+    "m4-diagnostic-source.png": {
+      "sha256": "b7f02b1d6632c70db5a3f82eaa5f10ab931226f5cc1324a12509d8777149c478",
+      "bytes": 258264,
+      "dimensions": [
+        1080,
+        2316
+      ],
+      "review": "PASS_VISIBLE_SCOPE",
+      "observation": "PASS visible actual owned canonical-source scope: full-width header/system bars, readable unknown validity/intersection/jurisdiction/authority/version fields and wrapped public signing identifier. No-original-snapshot/external-document-unchecked disclaimer readable. Complete English canonical Aster-9 maximum continuous operating74 degrees C sentence and Text used for generation label with Language en/method canonical visible. SHA-256 label begins near lower edge but its value is offscreen, not claimed; earlier identity/license/back controls are offscreen. Normal scroll clipping, no transition/horizontal crop observed."
+    }
+  },
+  "method": "Independent view_image inspection of exact unmodified1080x2316 originals, resized955x2048 by display tool; original bytes unchanged.",
+  "scope": "Actual product completed-answer/navigation controls passed separately; visible raster scope only, no whole-page/offscreen/controlled performance/fullF2 claim. No raw reasoning text displayed."
+}

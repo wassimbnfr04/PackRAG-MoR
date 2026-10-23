@@ -1,0 +1,1954 @@
+{
+  "case_id": "M1-G0-D04",
+  "passed": true,
+  "expected_fact": "three",
+  "result": {
+    "state": "ANSWER_ACCEPTED",
+    "answer": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times [S1].",
+    "citations": [
+      "S1"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "canonical_text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+        "title": "QuantaGate Q7",
+        "locator": "G0-D04",
+        "publisher": "PackRAG synthetic development fixture",
+        "canonical_uri": null,
+        "canonical_language": "en",
+        "canonical_text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+        "generator_representation": {
+          "text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+          "language": "en",
+          "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841"
+        },
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4",
+        "source_id": "dev-G0-D04",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "original_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+        "fused_rank": 1,
+        "origins": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "5fd03b317e704ba343302583",
+              "dense_row": 3,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D04",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 4,
+              "search_text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+              "section": "G0-D04",
+              "sha256_original": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+              "source_from": null,
+              "source_id": "dev-G0-D04",
+              "source_title": "QuantaGate Q7",
+              "source_until": null,
+              "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+              "title": "QuantaGate Q7"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.9056274890899658,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      }
+    ],
+    "query": {
+      "raw": "How does the QuantaGate Q7 indicate a successful self-test?",
+      "as_of": "2026-10-05",
+      "jurisdiction": null,
+      "current_law": false,
+      "normalized": "how does the quantagate q7 indicate a successful self-test?"
+    },
+    "active_packs": [
+      [
+        "org.packrag.development.walking-skeleton",
+        "0.1.0",
+        "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+      ]
+    ],
+    "generator": {
+      "backend": "llama.cpp-cpu-wsl-desktop",
+      "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+      "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+      "quantization": "QAD-Q4_0",
+      "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+      "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    "embedding_revision": "c61e626a6255c490879d0af885078b61929d51f6",
+    "timings": {
+      "embedding_ms": 13.712199997826247,
+      "retrieval_ms": 2.0389000019349623,
+      "generation": {
+        "cache_n": 0,
+        "prompt_n": 435,
+        "prompt_ms": 5201.96,
+        "prompt_per_token_ms": 11.958528735632184,
+        "prompt_per_second": 83.6223269690655,
+        "predicted_n": 133,
+        "predicted_ms": 5808.29,
+        "predicted_per_token_ms": 44.00219696969697,
+        "predicted_per_second": 22.726137985534468,
+        "host_generation_wall_ms": 11057.591400000092,
+        "emitted_token_count": 133,
+        "reasoning_token_count": 111,
+        "final_and_terminal_token_count": 22,
+        "token_partition_method": "actual_emitted_ids",
+        "ttft_ms": null,
+        "ttft_measurement": "not_measured_nonstreaming"
+      },
+      "end_to_end_ms": 11312.741099998675
+    },
+    "candidates": [
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9056274890899658,
+        "rrf": 0.03278688524590164,
+        "relevant": true,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 1,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "5fd03b317e704ba343302583",
+              "dense_row": 3,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D04",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 4,
+              "search_text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+              "section": "G0-D04",
+              "sha256_original": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+              "source_from": null,
+              "source_id": "dev-G0-D04",
+              "source_title": "QuantaGate Q7",
+              "source_until": null,
+              "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+              "title": "QuantaGate Q7"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.9056274890899658,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "exact": false,
+        "sparse_rank": 6,
+        "dense_rank": 3,
+        "dense_cosine": 0.7358322739601135,
+        "rrf": 0.031024531024531024,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 2,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The NexoFlow M4 requires preventive service every 600 operating hours.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+              "dense_row": 1,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D02",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 2,
+              "search_text": "The NexoFlow M4 requires preventive service every 600 operating hours.",
+              "section": "G0-D02",
+              "sha256_original": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+              "source_from": null,
+              "source_id": "dev-G0-D02",
+              "source_title": "NexoFlow M4",
+              "source_until": null,
+              "text_sha256": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+              "title": "NexoFlow M4"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 6,
+            "dense_rank": 3,
+            "cosine": 0.7358322739601135,
+            "rrf": 0.031024531024531024,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "exact": false,
+        "sparse_rank": 5,
+        "dense_rank": 4,
+        "dense_cosine": 0.7356096506118774,
+        "rrf": 0.031009615384615385,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 3,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "403598f457b6efe6c0630b5f",
+              "dense_row": 6,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D07",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 7,
+              "search_text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+              "section": "G0-D07",
+              "sha256_original": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+              "source_from": null,
+              "source_id": "dev-G0-D07",
+              "source_title": "Solace V2",
+              "source_until": null,
+              "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+              "title": "Solace V2"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 5,
+            "dense_rank": 4,
+            "cosine": 0.7356096506118774,
+            "rrf": 0.031009615384615385,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "exact": false,
+        "sparse_rank": 4,
+        "dense_rank": 5,
+        "dense_cosine": 0.7344187498092651,
+        "rrf": 0.031009615384615385,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 4,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "4afe79229c74bb1e15fd73c6",
+              "dense_row": 4,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D05",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 5,
+              "search_text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+              "section": "G0-D05",
+              "sha256_original": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+              "source_from": null,
+              "source_id": "dev-G0-D05",
+              "source_title": "Meridia V3",
+              "source_until": null,
+              "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+              "title": "Meridia V3"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 4,
+            "dense_rank": 5,
+            "cosine": 0.7344187498092651,
+            "rrf": 0.031009615384615385,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "d46745e3c80bd1ed8f10d062",
+        "exact": false,
+        "sparse_rank": 9,
+        "dense_rank": 2,
+        "dense_cosine": 0.761350691318512,
+        "rrf": 0.030621785881252923,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 5,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "Zero calibration of the Kestrel-K1 uses certified nitrogen at 99.999% purity.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "d46745e3c80bd1ed8f10d062",
+              "dense_row": 9,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D10",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 10,
+              "search_text": "Zero calibration of the Kestrel-K1 uses certified nitrogen at 99.999% purity.",
+              "section": "G0-D10",
+              "sha256_original": "0a1d8f1ac1618a40d12d85b411434be8b3b0011394b6d061faf51961302abb5e",
+              "source_from": null,
+              "source_id": "dev-G0-D10",
+              "source_title": "Kestrel-K1",
+              "source_until": null,
+              "text_sha256": "0a1d8f1ac1618a40d12d85b411434be8b3b0011394b6d061faf51961302abb5e",
+              "title": "Kestrel-K1"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 9,
+            "dense_rank": 2,
+            "cosine": 0.761350691318512,
+            "rrf": 0.030621785881252923,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "29e38c9e841a0cd8d92a090c",
+        "exact": false,
+        "sparse_rank": 3,
+        "dense_rank": 8,
+        "dense_cosine": 0.7225344777107239,
+        "rrf": 0.03057889822595705,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 6,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "29e38c9e841a0cd8d92a090c",
+              "dense_row": 0,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D01",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 1,
+              "search_text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+              "section": "G0-D01",
+              "sha256_original": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+              "source_from": null,
+              "source_id": "dev-G0-D01",
+              "source_title": "Aster-9",
+              "source_until": null,
+              "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+              "title": "Aster-9"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 3,
+            "dense_rank": 8,
+            "cosine": 0.7225344777107239,
+            "rrf": 0.03057889822595705,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "3c0d779d818604ab90126609",
+        "exact": false,
+        "sparse_rank": 2,
+        "dense_rank": 10,
+        "dense_cosine": 0.6813881397247314,
+        "rrf": 0.0304147465437788,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 7,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "3c0d779d818604ab90126609",
+              "dense_row": 7,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D08",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 8,
+              "search_text": "The Orion-R12 relay is rated for a maximum load of 12 A at 24 V DC.",
+              "section": "G0-D08",
+              "sha256_original": "241f5f75c9885e99845f2bd33747835c95c388aea6af510611c316d8a0fe885a",
+              "source_from": null,
+              "source_id": "dev-G0-D08",
+              "source_title": "Orion-R12",
+              "source_until": null,
+              "text_sha256": "241f5f75c9885e99845f2bd33747835c95c388aea6af510611c316d8a0fe885a",
+              "title": "Orion-R12"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 2,
+            "dense_rank": 10,
+            "cosine": 0.6813881397247314,
+            "rrf": 0.0304147465437788,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9abaf1b4de3046f329b86f50",
+        "exact": false,
+        "sparse_rank": 7,
+        "dense_rank": 7,
+        "dense_cosine": 0.7278537750244141,
+        "rrf": 0.029850746268656716,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 8,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The Vanta-P8 intake filter uses an 80-micrometre mesh.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "9abaf1b4de3046f329b86f50",
+              "dense_row": 8,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D09",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 9,
+              "search_text": "The Vanta-P8 intake filter uses an 80-micrometre mesh.",
+              "section": "G0-D09",
+              "sha256_original": "61b1e97e75a1bc6a18d10721397171290d908e299ea97a8e229dc70f78afb2e9",
+              "source_from": null,
+              "source_id": "dev-G0-D09",
+              "source_title": "Vanta-P8",
+              "source_until": null,
+              "text_sha256": "61b1e97e75a1bc6a18d10721397171290d908e299ea97a8e229dc70f78afb2e9",
+              "title": "Vanta-P8"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 7,
+            "dense_rank": 7,
+            "cosine": 0.7278537750244141,
+            "rrf": 0.029850746268656716,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "a7b2ed8ce984da406426ebf4",
+        "exact": false,
+        "sparse_rank": 10,
+        "dense_rank": 6,
+        "dense_cosine": 0.7320494055747986,
+        "rrf": 0.029437229437229435,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 9,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "a7b2ed8ce984da406426ebf4",
+              "dense_row": 5,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D06",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 6,
+              "search_text": "The DeltaCell D2 may be stored at 20% to 60% relative humidity, non-condensing.",
+              "section": "G0-D06",
+              "sha256_original": "b46a6315b9ca5bf5ca1f7723bac63b42f3ef30645ad1f98f6975aace4d26d61a",
+              "source_from": null,
+              "source_id": "dev-G0-D06",
+              "source_title": "DeltaCell D2",
+              "source_until": null,
+              "text_sha256": "b46a6315b9ca5bf5ca1f7723bac63b42f3ef30645ad1f98f6975aace4d26d61a",
+              "title": "DeltaCell D2"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 10,
+            "dense_rank": 6,
+            "cosine": 0.7320494055747986,
+            "rrf": 0.029437229437229435,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "chunk_id": "9c67bec91097b3a1702b9b63",
+        "exact": false,
+        "sparse_rank": 8,
+        "dense_rank": 9,
+        "dense_cosine": 0.7005591988563538,
+        "rrf": 0.02919863597612958,
+        "relevant": false,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "fused_rank": 10,
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The Helix-R battery module uses lithium iron phosphate (LiFePO4) cells.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "9c67bec91097b3a1702b9b63",
+              "dense_row": 2,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D03",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 3,
+              "search_text": "The Helix-R battery module uses lithium iron phosphate (LiFePO4) cells.",
+              "section": "G0-D03",
+              "sha256_original": "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5",
+              "source_from": null,
+              "source_id": "dev-G0-D03",
+              "source_title": "Helix-R",
+              "source_until": null,
+              "text_sha256": "744304dc851a6e4366476a9f3031b84910561d1293f01dace9ef17e7acd7ece5",
+              "title": "Helix-R"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 8,
+            "dense_rank": 9,
+            "cosine": 0.7005591988563538,
+            "rrf": 0.02919863597612958,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "conflicts": [],
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "S1",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4",
+        "chunk_id": "5fd03b317e704ba343302583",
+        "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+        "source_id": "dev-G0-D04",
+        "original_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+        "fused_rank": 1,
+        "exact": true,
+        "sparse_rank": 1,
+        "dense_rank": 1,
+        "dense_cosine": 0.9056274890899658,
+        "rrf": 0.03278688524590164,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "5fd03b317e704ba343302583",
+              "dense_row": 3,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D04",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 4,
+              "search_text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+              "section": "G0-D04",
+              "sha256_original": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+              "source_from": null,
+              "source_id": "dev-G0-D04",
+              "source_title": "QuantaGate Q7",
+              "source_until": null,
+              "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+              "title": "QuantaGate Q7"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": true,
+            "sparse_rank": 1,
+            "dense_rank": 1,
+            "cosine": 0.9056274890899658,
+            "rrf": 0.03278688524590164,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "relevant": true,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The QuantaGate Q7 indicates a successful self-test by flashing blue three times.",
+          "language": "en",
+          "text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "id": "S2",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4",
+        "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+        "text_sha256": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+        "source_id": "dev-G0-D02",
+        "original_sha256": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+        "fused_rank": 2,
+        "exact": false,
+        "sparse_rank": 6,
+        "dense_rank": 3,
+        "dense_cosine": 0.7358322739601135,
+        "rrf": 0.031024531024531024,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The NexoFlow M4 requires preventive service every 600 operating hours.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "8f9fd3aa276b3db6c9d1a2f8",
+              "dense_row": 1,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D02",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 2,
+              "search_text": "The NexoFlow M4 requires preventive service every 600 operating hours.",
+              "section": "G0-D02",
+              "sha256_original": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+              "source_from": null,
+              "source_id": "dev-G0-D02",
+              "source_title": "NexoFlow M4",
+              "source_until": null,
+              "text_sha256": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+              "title": "NexoFlow M4"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 6,
+            "dense_rank": 3,
+            "cosine": 0.7358322739601135,
+            "rrf": 0.031024531024531024,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The NexoFlow M4 requires preventive service every 600 operating hours.",
+          "language": "en",
+          "text_sha256": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "id": "S3",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4",
+        "chunk_id": "403598f457b6efe6c0630b5f",
+        "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+        "source_id": "dev-G0-D07",
+        "original_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+        "fused_rank": 3,
+        "exact": false,
+        "sparse_rank": 5,
+        "dense_rank": 4,
+        "dense_cosine": 0.7356096506118774,
+        "rrf": 0.031009615384615385,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "403598f457b6efe6c0630b5f",
+              "dense_row": 6,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D07",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 7,
+              "search_text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+              "section": "G0-D07",
+              "sha256_original": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+              "source_from": null,
+              "source_id": "dev-G0-D07",
+              "source_title": "Solace V2",
+              "source_until": null,
+              "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+              "title": "Solace V2"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 5,
+            "dense_rank": 4,
+            "cosine": 0.7356096506118774,
+            "rrf": 0.031009615384615385,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "To enter recovery mode on the Solace V2, hold the RESET button for 8 seconds while power is applied.",
+          "language": "en",
+          "text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      },
+      {
+        "id": "S4",
+        "pack_id": "org.packrag.development.walking-skeleton",
+        "version": "0.1.0",
+        "manifest_sha256": "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4",
+        "chunk_id": "4afe79229c74bb1e15fd73c6",
+        "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+        "source_id": "dev-G0-D05",
+        "original_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+        "fused_rank": 4,
+        "exact": false,
+        "sparse_rank": 4,
+        "dense_rank": 5,
+        "dense_cosine": 0.7344187498092651,
+        "rrf": 0.031009615384615385,
+        "origins": [
+          [
+            "org.packrag.development.walking-skeleton",
+            "0.1.0",
+            "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+          ]
+        ],
+        "origin_records": [
+          {
+            "identity": [
+              "org.packrag.development.walking-skeleton",
+              "0.1.0",
+              "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+            ],
+            "chunk": {
+              "article": null,
+              "authority_rank": null,
+              "canonical_text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+              "canonical_uri": null,
+              "character_end": null,
+              "character_start": null,
+              "chunk_id": "4afe79229c74bb1e15fd73c6",
+              "dense_row": 4,
+              "document_version": null,
+              "effective_from": null,
+              "effective_until_excl": null,
+              "issued_at": null,
+              "jurisdiction": null,
+              "language": "en",
+              "legal_status": "n/a",
+              "locator": "G0-D05",
+              "page_end": null,
+              "page_start": null,
+              "parent_section_id": null,
+              "publisher": "PackRAG synthetic development fixture",
+              "rowid": 5,
+              "search_text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+              "section": "G0-D05",
+              "sha256_original": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+              "source_from": null,
+              "source_id": "dev-G0-D05",
+              "source_title": "Meridia V3",
+              "source_until": null,
+              "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+              "title": "Meridia V3"
+            },
+            "source_metadata": {
+              "article": null,
+              "authority_rank": null,
+              "document_version": null,
+              "issued_at": null,
+              "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+              "relations": []
+            },
+            "derived_texts": [],
+            "exact": false,
+            "sparse_rank": 4,
+            "dense_rank": 5,
+            "cosine": 0.7344187498092651,
+            "rrf": 0.031009615384615385,
+            "calibration": {
+              "dataset_sha256": null,
+              "method": "candidate-relevance-v1.3",
+              "min_agreed_dense_cosine": null,
+              "min_dense_only_cosine": null,
+              "precision": null,
+              "recall": null,
+              "status": "UNCALIBRATED"
+            },
+            "conflicts": []
+          }
+        ],
+        "relevant": false,
+        "validity": {
+          "source_from": null,
+          "source_until_excl": null,
+          "chunk_from": null,
+          "chunk_until_excl": null,
+          "effective_from": null,
+          "effective_until_excl": null,
+          "source_start_unknown": true,
+          "source_end_unknown": true,
+          "chunk_start_inherits": true,
+          "chunk_end_inherits": true,
+          "empty_intersection": false,
+          "jurisdiction": null,
+          "legal_status": "n/a"
+        },
+        "generator_representation": {
+          "text": "The specified closing torque for the Meridia V3 isolation-valve stem nut is 18 N·m.",
+          "language": "en",
+          "text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a",
+          "derivation_method": "canonical",
+          "derivation_source": null,
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "canonical_language": "en",
+          "canonical_text_sha256": "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a"
+        },
+        "conflicts": [],
+        "source_metadata": {
+          "authority_rank": null,
+          "document_version": null,
+          "issued_at": null,
+          "article": null,
+          "publisher_key_id": "ed25519:afd734c44dd73374266177bc4b931a55bb0095b8709b1a31a6101e7b7b1db8ab",
+          "relations": []
+        }
+      }
+    ],
+    "warnings": [],
+    "token_budget": {
+      "prefill": 435,
+      "evidence": 262,
+      "max_new": 512
+    },
+    "selection": {
+      "keys": [
+        "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+        "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+        "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+        "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6"
+      ],
+      "decisions": [
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583"
+          ],
+          "representative": null,
+          "evidence_tokens": 64,
+          "prefill_tokens": 237
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8"
+          ],
+          "representative": null,
+          "evidence_tokens": 125,
+          "prefill_tokens": 298
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f"
+          ],
+          "representative": null,
+          "evidence_tokens": 195,
+          "prefill_tokens": 368
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6",
+          "reason": "SELECTED",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6"
+          ],
+          "representative": null,
+          "evidence_tokens": 262,
+          "prefill_tokens": 435
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#d46745e3c80bd1ed8f10d062",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#d46745e3c80bd1ed8f10d062"
+          ],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#29e38c9e841a0cd8d92a090c",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#29e38c9e841a0cd8d92a090c"
+          ],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#3c0d779d818604ab90126609",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#3c0d779d818604ab90126609"
+          ],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#9abaf1b4de3046f329b86f50",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#9abaf1b4de3046f329b86f50"
+          ],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#a7b2ed8ce984da406426ebf4",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#a7b2ed8ce984da406426ebf4"
+          ],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        },
+        {
+          "key": "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#9c67bec91097b3a1702b9b63",
+          "reason": "CHUNK_CAP",
+          "trial": [
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#5fd03b317e704ba343302583",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#8f9fd3aa276b3db6c9d1a2f8",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#403598f457b6efe6c0630b5f",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#4afe79229c74bb1e15fd73c6",
+            "org.packrag.development.walking-skeleton@0.1.0:43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4#9c67bec91097b3a1702b9b63"
+          ],
+          "representative": null,
+          "evidence_tokens": null,
+          "prefill_tokens": null
+        }
+      ],
+      "sources": [
+        "1bcaaa61623bba0013e1a95d47e5b5105b328d25977b6ead784e55d9a166b841",
+        "51108a0eedbf14de08e3e88871c1d23523917543f5d35b266b9456e5c5d6960e",
+        "859500e3388d5cedecb0b46e17904747038de8c57f3c2f5ee1c3952ac7a86ae3",
+        "8b355463c7cb2cab0ccd9cb87a74e52c9b294b6e2182a367ab9c798e3fbcb95a"
+      ],
+      "admission": "READY"
+    },
+    "evidence_context": {
+      "query": {
+        "raw": "How does the QuantaGate Q7 indicate a successful self-test?",
+        "as_of": "2026-10-05",
+        "jurisdiction": null,
+        "current_law": false,
+        "normalized": "how does the quantagate q7 indicate a successful self-test?"
+      },
+      "active_packs": [
+        [
+          "org.packrag.development.walking-skeleton",
+          "0.1.0",
+          "43b6c5aacf4849ee1e4ec5f1f511e880b7c4b554c29e5b8035b4ff9e2b576ab4"
+        ]
+      ],
+      "profile": {
+        "architecture_version": "1.3",
+        "batch_size": 1,
+        "context_tokens": 2048,
+        "core_api": "1.0",
+        "cross_pack_pool_limit": 32,
+        "dense_candidate_k": 24,
+        "generated_tokens_cap": 512,
+        "graph_benchmark": {
+          "max_extra": 12,
+          "max_hops": 1,
+          "profile_id": "mobile-v1-graph",
+          "seed_k": 6
+        },
+        "graph_enabled": false,
+        "max_evidence_chunks": 4,
+        "max_evidence_tokens_cap": 1200,
+        "neural_reranker": false,
+        "per_pack_fused_cap": 16,
+        "prefill_tokens_cap": 1536,
+        "product_language": "en",
+        "profile_id": "mobile-v1",
+        "query_rewrite": false,
+        "rrf_k": 60,
+        "sparse_candidate_k": 24,
+        "temperature": 0.0,
+        "top_p": 1.0
+      },
+      "generator": {
+        "backend": "llama.cpp-cpu-wsl-desktop",
+        "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+        "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+        "quantization": "QAD-Q4_0",
+        "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+        "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+      },
+      "normalized_query": "how does the quantagate q7 indicate a successful self-test?"
+    },
+    "rejection_reason": null
+  }
+}

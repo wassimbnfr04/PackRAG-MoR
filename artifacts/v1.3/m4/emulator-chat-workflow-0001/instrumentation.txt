@@ -1,0 +1,67 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.ChatWorkflowUiTest:
+INSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Semantic Node has no parent layout with a Scroll SemanticsAction
+	at androidx.compose.ui.test.ActionsKt.scrollToNode(Actions.kt:98)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:83)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1$click(ChatWorkflowUiTest.kt:45)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:52)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+INSTRUMENTATION_STATUS: stream=
+Error in largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest):
+java.lang.AssertionError: Semantic Node has no parent layout with a Scroll SemanticsAction
+	at androidx.compose.ui.test.ActionsKt.scrollToNode(Actions.kt:98)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:83)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1$click(ChatWorkflowUiTest.kt:45)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:52)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+INSTRUMENTATION_STATUS: test=largeFontLifecycleFiltersAndLocalAssetPicker
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualPickerCancellationSignedImportAndSafeRejectionExposeObservedStages
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.ChatWorkflowUiTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualPickerCancellationSignedImportAndSafeRejectionExposeObservedStages
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 47.135
+There was 1 failure:
+1) largeFontLifecycleFiltersAndLocalAssetPicker(org.packrag.product.ChatWorkflowUiTest)
+java.lang.AssertionError: Semantic Node has no parent layout with a Scroll SemanticsAction
+	at androidx.compose.ui.test.ActionsKt.scrollToNode(Actions.kt:98)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:83)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1$click(ChatWorkflowUiTest.kt:45)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker$lambda$1(ChatWorkflowUiTest.kt:52)
+	at org.packrag.product.ChatWorkflowUiTest$$ExternalSyntheticLambda9.invoke(D8$$SyntheticClass:0)
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:72)
+	at org.packrag.product.ChatWorkflowUiTest.largeFontLifecycleFiltersAndLocalAssetPicker(ChatWorkflowUiTest.kt:34)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

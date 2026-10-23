@@ -1,0 +1,41 @@
+INSTRUMENTATION_STATUS: class=org.packrag.product.EmulatorChatRepairUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+org.packrag.product.EmulatorChatRepairUiTest:
+INSTRUMENTATION_STATUS: test=actualRepairChatCapturesEvidenceAndRejectsPartialGuide
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=org.packrag.product.EmulatorChatRepairUiTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Check failed.
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:78)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)
+	at org.packrag.product.EmulatorChatRepairUiTest.actualRepairChatCapturesEvidenceAndRejectsPartialGuide(EmulatorChatRepairUiTest.kt:52)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualRepairChatCapturesEvidenceAndRejectsPartialGuide(org.packrag.product.EmulatorChatRepairUiTest):
+java.lang.IllegalStateException: Check failed.
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:78)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)
+	at org.packrag.product.EmulatorChatRepairUiTest.actualRepairChatCapturesEvidenceAndRejectsPartialGuide(EmulatorChatRepairUiTest.kt:52)
+
+INSTRUMENTATION_STATUS: test=actualRepairChatCapturesEvidenceAndRejectsPartialGuide
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 938.122
+There was 1 failure:
+1) actualRepairChatCapturesEvidenceAndRejectsPartialGuide(org.packrag.product.EmulatorChatRepairUiTest)
+java.lang.IllegalStateException: Check failed.
+	at org.packrag.product.ProductUiTestSupport.activity(ProductUiTestSupport.kt:78)
+	at org.packrag.product.ProductUiTestSupport.activity$default(ProductUiTestSupport.kt:59)
+	at org.packrag.product.EmulatorChatRepairUiTest.actualRepairChatCapturesEvidenceAndRejectsPartialGuide(EmulatorChatRepairUiTest.kt:52)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

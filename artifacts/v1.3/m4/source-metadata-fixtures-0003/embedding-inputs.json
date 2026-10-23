@@ -1,0 +1,34 @@
+[
+  {
+    "chunk_id": "b599e3c4c98483bad9510042",
+    "input": "Article-T\nbaseline\n\nThe synthetic Article-T temperature is 74 \u00b0C."
+  },
+  {
+    "chunk_id": "e63409cac11e8b80c74ee1d2",
+    "input": "Article-T\nArticle 137\n\nThe synthetic Article-T temperature is 68 \u00b0C."
+  },
+  {
+    "chunk_id": "efea57b3496a7a2a53f83430",
+    "input": "Article-T\nArticle 137\n\nThe synthetic Article-T temperature is 81 \u00b0C."
+  },
+  {
+    "chunk_id": "04d913256c15ac89e9bb16dd",
+    "input": "Article-T\n12 bis\n\nThe synthetic Article-T temperature is 76 \u00b0C."
+  },
+  {
+    "chunk_id": "1307f649cdf6822c046a70b1",
+    "input": "Article-T\ndisjoint\n\nThe synthetic Article-T temperature is 70 \u00b0C."
+  },
+  {
+    "chunk_id": "3ddecfa3e848d08774cbe7e9",
+    "input": "Article-T\n\ud835\udfd937\n\nThe synthetic Article-T temperature is 78 \u00b0C."
+  },
+  {
+    "chunk_id": "70079dfdbfd1e4488c7a1e9f",
+    "input": "Article-T\nArticle 137\n\nThe synthetic Article-T temperature is 79 \u00b0C."
+  },
+  {
+    "chunk_id": "b718165bceea861e77f003ad",
+    "input": "Article-T\nunscoped\n\nThe synthetic Article-T temperature is 80 \u00b0C."
+  }
+]

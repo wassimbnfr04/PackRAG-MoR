@@ -1,0 +1,8 @@
+10-10 20:57:16.910 12346 12392 I TestRunner: finished: actualRuntimeRendersEnglishAndPreservesCanonicalCitationsOrRejectsBeforeGeneration(org.packrag.product.RepresentationDeviceTest)
+10-10 20:57:16.925 12346 12392 I TestRunner: started: fixedGateSignedGlobalRetrievalAndActualTokenizer(org.packrag.product.RelevanceDeviceTest)
+10-10 20:57:29.697 12346 12392 I TestRunner: finished: fixedGateSignedGlobalRetrievalAndActualTokenizer(org.packrag.product.RelevanceDeviceTest)
+10-10 20:57:29.702 12346 12392 I TestRunner: started: actualRuntimeStopsAtMergedGateOrAnswersWithCitations(org.packrag.product.RelevanceDeviceTest)
+10-10 21:02:13.484 12346 12392 I TestRunner: finished: actualRuntimeStopsAtMergedGateOrAnswersWithCitations(org.packrag.product.RelevanceDeviceTest)
+10-10 21:02:13.547 12346 12392 I TestRunner: started: fixedConflictContractsSignedRetrievalAndActualTokenizerCompanionAdmission(org.packrag.product.ConflictDeviceTest)
+10-10 21:02:33.953 12346 12392 I TestRunner: finished: fixedConflictContractsSignedRetrievalAndActualTokenizerCompanionAdmission(org.packrag.product.ConflictDeviceTest)
+10-10 21:02:33.959 12346 12392 I TestRunner: started: actualConflictRejectionsAndAuthoritySupersessionExceptionAnswers(org.packrag.product.ConflictRuntimeDeviceTest)

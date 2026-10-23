@@ -1,0 +1,16 @@
+{
+  "status": "PASS_STRICT_ORIGINAL_SCHEMA_REVIEW_PENDING_FRESH_OWNER_GUARD_NOT_NEW_EXECUTION",
+  "recorded_utc": "2026-10-12T15:06:34.667105+00:00",
+  "run": "artifacts\\v1.3\\m4\\device-consolidated-ui-0003-packmanagementuitest",
+  "original_sha256": "002fb8850b06b882948de35cc3d13b4a4bb11cb2ec084963336f005c658a69b8",
+  "manifest_sha256": "af0bb9bc373560aa781355248a526c55dece785b6189855cdbfa63304c12a7fd",
+  "current_frozen_source_sha256": "15399013db726c7ef64b14d660bdcc7820e48a194a4cf66c1b62d5ac21210722",
+  "junit_methods": 1,
+  "original_controls": 7,
+  "first_six_ids_unchanged": true,
+  "historical_final_id": "owner-default-registry-all-file-hashes-unchanged",
+  "current_compiled_final_id": "explicit-fifty-owner-public-files-unchanged",
+  "actual_owner_guard_scope": "EXPLICIT_50_PUBLIC_BASELINE_FILES_NO_ENUMERATION",
+  "original_owner50_hashes_equal_baseline": true,
+  "scope": "Historical report used an old all-file label; pre-run frozen current source already names exact50 public guard. Fresh actual JUnit and original seven passed controls, exact installed/source/report hashes verified. No product/test/assertion change, raw field backfill or relabeling as later build. Failed parent collector and original bytes remain intact; independently fresh owner50 no-follow guard required before retention acceptance."
+}

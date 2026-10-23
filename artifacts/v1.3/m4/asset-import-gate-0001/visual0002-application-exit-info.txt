@@ -1,0 +1,68 @@
+ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 2026-10-11 19:20:50.997
+  package: org.packrag.product
+    Historical Process Exit for uid=10469
+        ApplicationExitInfo #0:
+          timestamp=2026-10-11 19:33:05.792 pid=9269 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=16 (PACKAGE UPDATED) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=0,00 rss=0,00 description=stop org.packrag.product due to installPackageLI state=empty trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-10-11 19:15:37.737 pid=16367 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=2,3GB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-10-11 19:04:47.217 pid=8238 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=2,1GB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #3:
+          timestamp=2026-10-11 18:57:14.995 pid=30805 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=339MB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #4:
+          timestamp=2026-10-11 18:50:17.842 pid=21777 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=2,2GB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #5:
+          timestamp=2026-10-11 18:46:18.163 pid=13388 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=2,2GB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #6:
+          timestamp=2026-10-11 18:27:31.703 pid=31588 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=0,00 description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #7:
+          timestamp=2026-10-11 18:13:56.279 pid=3437 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=2,2GB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #8:
+          timestamp=2026-10-11 17:59:22.922 pid=17218 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=2,2GB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #9:
+          timestamp=2026-10-11 17:44:36.375 pid=25482 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=293MB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #10:
+          timestamp=2026-10-11 17:41:12.744 pid=7165 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product:asset_import_crash_probe reason=2 (SIGNALED) subreason=0 (UNKNOWN) status=9
+          importance=125 pss=0,00 rss=0,00 description=null state=empty trace=null
+        ApplicationExitInfo #11:
+          timestamp=2026-10-11 17:38:00.532 pid=30697 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product:asset_import_crash_probe reason=2 (SIGNALED) subreason=0 (UNKNOWN) status=9
+          importance=125 pss=0,00 rss=0,00 description=null state=empty trace=null
+        ApplicationExitInfo #12:
+          timestamp=2026-10-11 17:34:35.736 pid=25780 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product:asset_import_crash_probe reason=2 (SIGNALED) subreason=0 (UNKNOWN) status=9
+          importance=125 pss=0,00 rss=0,00 description=null state=empty trace=null
+        ApplicationExitInfo #13:
+          timestamp=2026-10-11 17:17:44.333 pid=31454 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=2,2GB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #14:
+          timestamp=2026-10-11 17:10:32.611 pid=26260 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=185MB description=stop org.packrag.product due to finished inst state=empty trace=null
+        ApplicationExitInfo #15:
+          timestamp=2026-10-11 17:00:40.544 pid=12451 realUid=10469 packageUid=10469 definingUid=10469 user=0
+          process=org.packrag.product reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0,00 rss=190MB description=stop org.packrag.product due to finished inst state=empty trace=null

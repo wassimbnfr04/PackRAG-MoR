@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.packrag.product.ProductLayoutTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-12T21:25:24.353Z" hostname="RAZER" time="0.002">
+  <properties/>
+  <testcase name="onlyCanonicalIsolatedDebugIdentityCanSelectBoundedTestLayout" classname="org.packrag.product.ProductLayoutTest" time="0.002"/>
+  <testcase name="invalidOrUnboundedResourceOverridesAreIgnored" classname="org.packrag.product.ProductLayoutTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

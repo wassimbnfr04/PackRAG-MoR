@@ -1,0 +1,11 @@
+{
+  "status": "PREPARED_NOT_ACCEPTANCE",
+  "new_script_sha256": "02a933d8b6e18cdd5429d4614d64b507dea76001c8319ba7877c62ac13464740",
+  "changes": [
+    "Bind passed source/history audit",
+    "Bind saved intermediate exact-token parity",
+    "Require changed query overflow32 on both variants",
+    "Include intermediate raw ADB evidence and read-only D2 audit in closure"
+  ],
+  "product_source_changed": false
+}

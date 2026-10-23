@@ -1,0 +1,2 @@
+      showing=false
+        mIsShowing=false

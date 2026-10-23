@@ -1,0 +1,6 @@
+{
+  "status": "PRE_EXECUTION_OBSERVATION_COLLECTION_CONTRACT_CORRECTED",
+  "before_sha256": "83fdd57e38c6fe99aa4e2aab45298230549a32d82feb767d4892b5b0bfa0a99a",
+  "after_sha256": "be8c605598fb4d1b2bfdf66fa1b2e6a2e9018b340c2409632b254064540b0421",
+  "reason": "Generic collector requires exactly status PASS. Optional new ownership report deliberately has descriptive stage status. Keep four unchanged PASS reports in generic collector; separately capture/check observation only after successful suite. No device command had run; no tests relaxed."
+}

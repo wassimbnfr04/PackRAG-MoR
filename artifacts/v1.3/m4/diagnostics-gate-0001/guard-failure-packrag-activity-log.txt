@@ -1,0 +1,2 @@
+10-10 19:02:06.666  1775  5176 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 cmp=org.packrag.product/.MainActivity bnds=[41,1046][290,1315]} with LAUNCH_MULTIPLE from uid 10155 (sr=221038730) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-10 19:05:36.117  1775  3533 W ActivityTaskManager: Force removing ActivityRecord{89199901 u0 org.packrag.product/.MainActivity t33724 f}}: app died, no saved state

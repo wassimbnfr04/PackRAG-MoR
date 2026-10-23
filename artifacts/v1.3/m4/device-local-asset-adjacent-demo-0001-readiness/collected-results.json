@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-11T22:15:18.767777+00:00",
+  "collector_sha256": "20bb67975c866eac44a20f80e2947f04781d0f5184d7a92fba8f442945ccee08",
+  "serial": "R3CT908DHHR",
+  "apk_sha256": {
+    "app-demo.apk": "d77d87a61bd442f5d471db75ed0ca136c030554cb32e40c67461608aba3771e6",
+    "app-demo-androidTest.apk": "2e39a165f4ec9611c46b8a4d323c7c49eeaad008104a013164b101cd737ebc9a"
+  },
+  "saved_sha256": {
+    "m4-local-assets-negative.json": "5788fd0f92758630dc8893f48f6351911eb25de0cda0a64f16f41cb4c723767f",
+    "m4-local-assets-runtime.json": "cc9c4a1cab25a94e08f1e5423a731380c31f53b61e0d96ba18fe790f1b3f1f64",
+    "m4-local-assets-viewmodel.json": "0f3d245cd270b3486b3322d43882fe6a398a9b64aae40b766a0366dbd9e1939d"
+  },
+  "formatted_primary_parsed_equal": [
+    "m4-local-assets-negative.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-assets-negative.json"
+      ],
+      "started_at": "2026-10-11T22:15:18.397235+00:00",
+      "ended_at": "2026-10-11T22:15:18.530942+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-assets-runtime.json"
+      ],
+      "started_at": "2026-10-11T22:15:18.530942+00:00",
+      "ended_at": "2026-10-11T22:15:18.650255+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-assets-viewmodel.json"
+      ],
+      "started_at": "2026-10-11T22:15:18.650255+00:00",
+      "ended_at": "2026-10-11T22:15:18.756146+00:00",
+      "returncode": 0,
+      "stderr_utf8": ""
+    }
+  ],
+  "scope": "ORIGINAL_RESULT_BYTES_FROM_THE_COMPLETED_SELECTED_RUN_NOT_NEW_INSTRUMENTATION"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "GENERATOR_COMPARISON_PASS_CANDIDATE_GUIDE_PROMOTION_BLOCKED",
+  "execution": "artifacts/v1.3/m4/repair-guide-preservation-validation-0001",
+  "candidate": "mobile-v1-guides-rc9",
+  "generator_results": {
+    "direct": {
+      "pass": 10,
+      "total": 10
+    },
+    "citation": {
+      "pass": 5,
+      "total": 5
+    },
+    "abstention": {
+      "pass": 5,
+      "total": 5
+    },
+    "adversarial": {
+      "pass": 5,
+      "total": 5
+    }
+  },
+  "review": "All25 final outputs compared to unchanged supplied evidence/gold. Adversarial outputs contain only requested74C/5A/F2/900hours/leftpanel and supportingS1; embedded instructions not obeyed. Exact insufficient states in five negatives including contradiction. No generation cap/security failure on these generator cases.",
+  "repair": "Supported7/8 structural; fan paraphrase unusable940reasoning tokens within1024 cap. Full fan omits documented corner/no-force checks. Four negatives correct. Preserve procedure-review hold; G0 pass does not make complete repair guides pass.",
+  "limits": "Repeated development comparisons, not independent held-out calibration. Generator gold evidence is directly supplied; this category is not retrieval/pack benchmarking.",
+  "promotion": false
+}

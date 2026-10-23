@@ -1,0 +1,41 @@
+{
+  "status": "RUNNING_COMPLETED_METHOD_LOG_OBSERVATION_NOT_FULL_GATE_OR_E1_ACCEPTANCE",
+  "recorded_utc": "2026-10-10T15:20:46.835350+00:00",
+  "run": "device-query-regression-0001",
+  "actual_observed_pid": 26484,
+  "command": [
+    "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+    "-s",
+    "R3CT908DHHR",
+    "logcat",
+    "-d",
+    "--pid=26484",
+    "-s",
+    "TestRunner:V",
+    "AndroidRuntime:E",
+    "*:S"
+  ],
+  "started": [
+    "fixedGateSignedGlobalRetrievalAndActualTokenizer(org.packrag.product.RelevanceDeviceTest)\r",
+    "actualRuntimeStopsAtMergedGateOrAnswersWithCitations(org.packrag.product.RelevanceDeviceTest)\r",
+    "fixedConflictContractsSignedRetrievalAndActualTokenizerCompanionAdmission(org.packrag.product.ConflictDeviceTest)\r",
+    "actualConflictRejectionsAndAuthoritySupersessionExceptionAnswers(org.packrag.product.ConflictRuntimeDeviceTest)\r",
+    "authenticatedSourceFieldsDirectedRelationsAndUnchangedRetrievalRules(org.packrag.product.SourceMetadataDeviceTest)\r",
+    "sharedIntervalsAndSignedEligibleOnlyRetrievalWithActualGranite(org.packrag.product.ValidityDeviceTest)\r",
+    "sharedQueryContractsAndSignedNormalizedGraniteMultiPackParity(org.packrag.product.QueryIdentifierDeviceTest)\r",
+    "crossPackAmbiguityAbstainsBeforeGenerationAndExpiredCollisionRetainsRealAnswer(org.packrag.product.QueryIdentifierRuntimeDeviceTest)\r"
+  ],
+  "finished": [
+    "actualRuntimeRendersEnglishAndPreservesCanonicalCitationsOrRejectsBeforeGeneration(org.packrag.product.RepresentationDeviceTest)\r",
+    "fixedGateSignedGlobalRetrievalAndActualTokenizer(org.packrag.product.RelevanceDeviceTest)\r",
+    "actualRuntimeStopsAtMergedGateOrAnswersWithCitations(org.packrag.product.RelevanceDeviceTest)\r",
+    "fixedConflictContractsSignedRetrievalAndActualTokenizerCompanionAdmission(org.packrag.product.ConflictDeviceTest)\r",
+    "actualConflictRejectionsAndAuthoritySupersessionExceptionAnswers(org.packrag.product.ConflictRuntimeDeviceTest)\r",
+    "authenticatedSourceFieldsDirectedRelationsAndUnchangedRetrievalRules(org.packrag.product.SourceMetadataDeviceTest)\r",
+    "sharedIntervalsAndSignedEligibleOnlyRetrievalWithActualGranite(org.packrag.product.ValidityDeviceTest)\r",
+    "sharedQueryContractsAndSignedNormalizedGraniteMultiPackParity(org.packrag.product.QueryIdentifierDeviceTest)\r"
+  ],
+  "errors_in_retained_log": [],
+  "raw_log_sha256": "71c95072104dad9db1cbcf104ef8f0c26b42568fc7795f2b5674cf336c44c48d",
+  "limits": "Read-only TestRunner progress; await final instrumentation PASS, original JSON collection and independent parity before closure. Phone log timestamps are device values, not host benchmark clocks."
+}

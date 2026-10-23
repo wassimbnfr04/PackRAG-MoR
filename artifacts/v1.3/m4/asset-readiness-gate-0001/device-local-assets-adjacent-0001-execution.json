@@ -1,0 +1,42 @@
+{
+  "status": "FAIL",
+  "phase": "adjacent",
+  "variant": "debug",
+  "build": "build-0056",
+  "run": "device-local-assets-adjacent-0001",
+  "android_inputs": 579,
+  "host_totals": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0056",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-adjacent-0001",
+        "--class-name",
+        "org.packrag.product.DiagnosticRuntimeDeviceTest,org.packrag.product.DiagnosticLifecycleDeviceTest,org.packrag.product.QueryControlsDeviceTest,org.packrag.product.SourceDetailsViewModelTest",
+        "--result-file",
+        "m4-diagnostic-runtime.json",
+        "--timeout",
+        "3600",
+        "--variant",
+        "debug"
+      ],
+      "started_utc": "2026-10-11T14:39:56.213548+00:00",
+      "finished_utc": "2026-10-11T14:56:05.648375+00:00",
+      "returncode": 1
+    }
+  ]
+}

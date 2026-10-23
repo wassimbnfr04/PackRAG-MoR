@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "fr-official",
+      "status": "PASS",
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+      "selected": [
+        "bf2579807f0f1c273087f8dc"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "La température maximale de fonctionnement continu du contrôleur thermique Aster-9 est de 74 °C.",
+          "canonical_language": "fr",
+          "canonical_text_sha256": "b7021dba3c5e30e0148cae00ccfa547f00781950a6acb2d81080260b2f88a16a",
+          "generator_representation": {
+            "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+            "language": "en",
+            "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+            "derivation_method": "official_translation",
+            "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+            "reviewer_id": null,
+            "reviewed_at": null,
+            "canonical_language": "fr",
+            "canonical_text_sha256": "b7021dba3c5e30e0148cae00ccfa547f00781950a6acb2d81080260b2f88a16a"
+          }
+        }
+      ],
+      "prefill_tokens": 230,
+      "evidence_tokens": 59,
+      "emitted_tokens_including_terminal": 129,
+      "total_ms_including_lazy_initialization": 93336.864219,
+      "initialization_ms": 9437.92543,
+      "actual_weight_inference": true,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "ar-reviewed",
+      "status": "PASS",
+      "state": "ANSWER_ACCEPTED",
+      "answer": "The maximum continuous operating temperature of the Aster-9 is 74 °C [S1].",
+      "selected": [
+        "12f50df9409d38834872a1fc"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "canonical_text": "تبلغ درجة حرارة التشغيل المستمر القصوى لوحدة التحكم الحراري Aster-9 مقدار 74 °C.",
+          "canonical_language": "ar",
+          "canonical_text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9",
+          "generator_representation": {
+            "text": "The Aster-9 thermal controller has a maximum continuous operating temperature of 74 °C.",
+            "language": "en",
+            "text_sha256": "266af80f5d4da1dac500acd9a2bcc1fd2317b2caf49141ebb586280b9df49333",
+            "derivation_method": "human_reviewed_translation",
+            "derivation_source": "SYNTHETIC metadata label; not actual official translation or real review",
+            "reviewer_id": "SYNTHETIC_NO_REAL_PERSON",
+            "reviewed_at": "2026-10-09",
+            "canonical_language": "ar",
+            "canonical_text_sha256": "9067c148250b4bd823f855fcbe9a2f80c9086c38b98b3639f546e01c6e92dbf9"
+          }
+        }
+      ],
+      "prefill_tokens": 230,
+      "evidence_tokens": 59,
+      "emitted_tokens_including_terminal": 112,
+      "total_ms_including_lazy_initialization": 70957.03539,
+      "initialization_ms": 0,
+      "actual_weight_inference": true,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "missing",
+      "status": "PASS",
+      "state": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "answer": null,
+      "selected": [],
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 43.28125,
+      "initialization_ms": 0,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "machine-fr",
+      "status": "PASS",
+      "state": "NO_ELIGIBLE_GENERATOR_REPRESENTATION",
+      "answer": null,
+      "selected": [],
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 51.107266,
+      "initialization_ms": 0,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "ambiguous",
+      "status": "PASS",
+      "state": "AMBIGUOUS_GENERATOR_REPRESENTATION",
+      "answer": null,
+      "selected": [],
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 55.137188,
+      "initialization_ms": 0,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "derived-control",
+      "status": "PASS",
+      "state": "RESERVED_CONTROL_TOKEN_IN_INPUT",
+      "answer": null,
+      "selected": [],
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 54.709492,
+      "initialization_ms": 0,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "canonical-control",
+      "status": "PASS",
+      "state": "RESERVED_CONTROL_TOKEN_IN_INPUT",
+      "answer": null,
+      "selected": [],
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 57.683946,
+      "initialization_ms": 0,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true
+    },
+    {
+      "id": "title-control",
+      "status": "PASS",
+      "state": "RESERVED_CONTROL_TOKEN_IN_INPUT",
+      "answer": null,
+      "selected": [],
+      "sources": [],
+      "prefill_tokens": 0,
+      "evidence_tokens": 0,
+      "emitted_tokens_including_terminal": 0,
+      "total_ms_including_lazy_initialization": 57.498281,
+      "initialization_ms": 0,
+      "actual_weight_inference": false,
+      "model_load_not_excluded": true
+    }
+  ],
+  "raw_reasoning_persisted": false,
+  "purpose": "ACTUAL_LFM_SYNTHETIC_TRANSLATION_PROTOCOL_NOT_RELEASE_GOLD_REVIEW_CALIBRATION_OR_PERFORMANCE",
+  "developer_trust": "EXPLICIT_ISOLATED_TEST_KEYS_NOT_PRODUCTION_DEFAULT",
+  "network_mode": "MOBILE_DATA_PRESERVED_APP_HAS_NO_INTERNET"
+}

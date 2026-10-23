@@ -1,0 +1,42 @@
+{
+  "status": "FAIL",
+  "phase": "core",
+  "variant": "debug",
+  "build": "build-0055",
+  "run": "device-local-assets-0001",
+  "android_inputs": 579,
+  "host_totals": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_test_android",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0055",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-assets-0001",
+        "--class-name",
+        "org.packrag.product.LocalAssetReadinessDeviceTest",
+        "--result-file",
+        "m4-local-assets-negative.json",
+        "--timeout",
+        "3600",
+        "--variant",
+        "debug"
+      ],
+      "started_utc": "2026-10-11T14:21:13.397942+00:00",
+      "finished_utc": "2026-10-11T14:22:39.998368+00:00",
+      "returncode": 1
+    }
+  ]
+}

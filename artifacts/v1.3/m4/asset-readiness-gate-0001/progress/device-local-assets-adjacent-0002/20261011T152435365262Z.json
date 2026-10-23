@@ -1,0 +1,40 @@
+{
+  "status": "OBSERVATION_ONLY_NOT_TERMINAL_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T15:24:35.365262+00:00",
+  "observed_pid": "16970",
+  "run_context": "device-local-assets-adjacent-0002",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "pidof",
+        "org.packrag.product"
+      ],
+      "returncode": 0,
+      "stdout": "16970\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "--pid=16970",
+        "-v",
+        "threadtime",
+        "-s",
+        "TestRunner:I",
+        "*:S"
+      ],
+      "returncode": 0,
+      "stdout": "--------- beginning of main\n10-11 15:12:27.853 16970 16986 I TestRunner: finished: actualColdWarmAndNoPackDiagnosticsKeepOwnedContextAfterReaderClose(org.packrag.product.DiagnosticRuntimeDeviceTest)\n10-11 15:12:27.869 16970 16986 I TestRunner: started: nativeReplacementCancelRecoveryInspectionAndMutationKeepResultOwnership(org.packrag.product.DiagnosticLifecycleDeviceTest)\n10-11 15:16:21.503 16970 16986 I TestRunner: finished: nativeReplacementCancelRecoveryInspectionAndMutationKeepResultOwnership(org.packrag.product.DiagnosticLifecycleDeviceTest)\n10-11 15:16:21.527 16970 16986 I TestRunner: started: actualStaleAnswerOwnsContextJurisdictionExcludesAndPackChangeClearsIt(org.packrag.product.QueryControlsDeviceTest)\n10-11 15:21:49.412 16970 16986 I TestRunner: finished: actualStaleAnswerOwnsContextJurisdictionExcludesAndPackChangeClearsIt(org.packrag.product.QueryControlsDeviceTest)\n10-11 15:21:49.426 16970 16986 I TestRunner: started: invalidAndNoPackInputsDoNotInitializeNativeGeneration(org.packrag.product.QueryControlsDeviceTest)\n10-11 15:21:57.285 16970 16986 I TestRunner: finished: invalidAndNoPackInputsDoNotInitializeNativeGeneration(org.packrag.product.QueryControlsDeviceTest)\n10-11 15:21:57.290 16970 16986 I TestRunner: started: actualAnswerContextSurvivesInspectionAndMutationClearsDetails(org.packrag.product.SourceDetailsViewModelTest)\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Log rows belong to observed PID. Completed manifest/JUnit and originals, not this observation, establish test outcome."
+}

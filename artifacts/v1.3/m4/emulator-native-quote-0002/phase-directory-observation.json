@@ -1,0 +1,19 @@
+{
+  "scope": "Owned emulator test UUID names only; no owner registry or payload traversal",
+  "args": [
+    "shell",
+    "run-as",
+    "org.packrag.product",
+    "find",
+    "files",
+    "-maxdepth",
+    "1",
+    "-type",
+    "d",
+    "-name",
+    "m4-native-quote-*"
+  ],
+  "returncode": 0,
+  "stdout": "files/m4-native-quote-17a7788f-4914-4cb6-b961-894ce918cb1e\r\n",
+  "stderr": ""
+}

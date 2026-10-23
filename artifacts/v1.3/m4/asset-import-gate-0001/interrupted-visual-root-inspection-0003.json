@@ -1,0 +1,18 @@
+{
+  "status": "BOUNDED_PUBLIC_TEST_LEAVES_AND_EMPTY_DIRS_INSPECTED_NOT_CLEANED",
+  "created_utc": "2026-10-11T21:26:45.486638+00:00",
+  "previous_inspection_sha256": "f14661cee87ed480a7751c3c970361bef63e69803bc402e825012e3801915936",
+  "command": {
+    "argv": [
+      "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+      "-s",
+      "R3CT908DHHR",
+      "shell",
+      "run-as org.packrag.product sh -c 'set -eu; test -d files; test ! -L files; root=files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; test -d \"$root\"; test ! -L \"$root\"; test \"$(readlink -f \"$root\")\" = /data/user/0/org.packrag.product/files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353; for directory in models registry registry/.staging registry/packs; do test -d \"$root/$directory\"; test ! -L \"$root/$directory\"; done; for directory in registry/.staging registry/packs; do echo EMPTY_EXPECTED_$directory; test -z \"$(ls -A \"$root/$directory\")\"; done; test \"$(wc -c < \"$root/models/chat_template.jinja\")\" -eq 5443; for leaf in models/chat_template.jinja registry/registry.lock registry/registry.sqlite; do path=\"$root/$leaf\"; test -f \"$path\"; test ! -L \"$path\"; test \"$(wc -c < \"$path\")\" -le 1048576; stat -c \"%n|%s|%a|%F\" \"$path\"; sha256sum \"$path\"; done'"
+    ],
+    "returncode": 0,
+    "stdout": "EMPTY_EXPECTED_registry/.staging\nEMPTY_EXPECTED_registry/packs\nfiles/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353/models/chat_template.jinja|5443|600|regular file\nea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef  files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353/models/chat_template.jinja\nfiles/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353/registry/registry.lock|0|600|regular empty file\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353/registry/registry.lock\nfiles/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353/registry/registry.sqlite|57344|600|regular file\n4d202e56f4256eb3b4b59d045d19d5a89be946d384edf9cefe27b5bcef3cc70c  files/f2-visual-ae60e430-f540-4024-aa8f-41fb9bca4353/registry/registry.sqlite\n",
+    "stderr": ""
+  },
+  "scope": "Three explicitly named small public test leaves with metadata/hashes only, two expected empty subdirectories; no recursive traversal/database-content read/weight export/deletion. Raw experiment reports remain untouched. Complete F2 cleanup is separate and only after active batch ends."
+}

@@ -1,0 +1,2073 @@
+{
+  "status": "FIXED_SYNTHETIC_EXPECTATIONS_NOT_LEGAL_GOLD",
+  "policy": "ADR-002",
+  "cases": [
+    {
+      "id": "no-global-authority-different-uri",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/unrelated",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "repair-not-legal",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "repair",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "repair",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "different-jurisdiction",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "FR",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "unknown-jurisdiction",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": null,
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": null,
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "missing-article",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": null,
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": null,
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "empty-article",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "missing-uri",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": null,
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": null,
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "different-provisions",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 2",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": [
+        "a",
+        "b"
+      ],
+      "expected_alias_resolved": false
+    },
+    {
+      "id": "ordinal-zero-stronger",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_AUTHORITY",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": [
+        "a",
+        "b"
+      ],
+      "expected_alias_resolved": true
+    },
+    {
+      "id": "ordinal-max-is-known",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 2147483647,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 4,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_AUTHORITY",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "one-unknown-authority",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": null,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "UNKNOWN_AUTHORITY",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": [
+        "a",
+        "b"
+      ],
+      "expected_alias_resolved": false
+    },
+    {
+      "id": "all-unknown-authority",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": null,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": null,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "UNKNOWN_AUTHORITY",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "different-curators",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-2",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "INCOMPARABLE_CURATORS",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "equal-ranks-retrieval-tie",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "b",
+            "a"
+          ],
+          "state": "RESOLVED_AUTHORITY",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "same-edition-multiple-paragraphs",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-a",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "all-preferred-edition-paragraphs-retained",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        },
+        {
+          "key": "c",
+          "original": "original-b",
+          "text": "text-c",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 2
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b",
+            "c"
+          ],
+          "state": "RESOLVED_AUTHORITY",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b",
+            "c"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ],
+            [
+              "original-b",
+              "text-c"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "edition-rank-inconsistent",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        },
+        {
+          "key": "c",
+          "original": "original-b",
+          "text": "text-c",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 2,
+          "order": 2
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b",
+            "c"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "INCONSISTENT_EDITION_AUTHORITY",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b",
+            "c"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "same-provision-identical-text",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "identical",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": null,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "identical",
+          "domain": "law",
+          "publisher_key": "curator-2",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": null,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "EQUIVALENT",
+          "reason": "SAME_PROVISION_EXACT_TEXT",
+          "preferred": "a",
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": [
+        "a",
+        "b"
+      ],
+      "expected_alias_resolved": true
+    },
+    {
+      "id": "explicit-supersession-equal-authority",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_RELATION",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "explicit-supersession-stronger",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_RELATION",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "amendment-retains-base",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "amends",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_RELATION",
+          "reason": "RETAIN_BASE_AND_COMPANIONS",
+          "preferred": "b",
+          "retained": [
+            "b",
+            "a"
+          ],
+          "required": [
+            [
+              "original-a",
+              "text-a"
+            ],
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": [
+        "a",
+        "b"
+      ],
+      "expected_alias_resolved": true
+    },
+    {
+      "id": "exception-retains-base",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "exception_to",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_RELATION",
+          "reason": "RETAIN_BASE_AND_COMPANIONS",
+          "preferred": "b",
+          "retained": [
+            "b",
+            "a"
+          ],
+          "required": [
+            [
+              "original-a",
+              "text-a"
+            ],
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "low-confidence-is-unresolved",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 0.75
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "RELATION_NOT_FULL_PUBLISHER_ASSERTION",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "zero-confidence-is-unresolved",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 0.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "RELATION_NOT_FULL_PUBLISHER_ASSERTION",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "structure-is-not-legal-assertion",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "structure",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "RELATION_NOT_FULL_PUBLISHER_ASSERTION",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "curated-full-assertion",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "curated",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_RELATION",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "weaker-replacement-unresolved",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 3,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "WEAKER_DECLARED_REPLACEMENT",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "cycle-unresolved",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        },
+        {
+          "source": "a",
+          "target": "b",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "DIRECTED_CYCLE",
+          "preferred": null,
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "self-cycle-unresolved",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "a",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a"
+          ],
+          "state": "UNRESOLVED",
+          "reason": "DIRECTED_CYCLE",
+          "preferred": null,
+          "retained": [
+            "a"
+          ],
+          "required": []
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "absent-endpoint-never-injected",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/other",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "missing",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "cites-does-not-resolve",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/other",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "cites",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "cross-uri-explicit-amendment",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/amendment",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "amends",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_RELATION",
+          "reason": "RETAIN_BASE_AND_COMPANIONS",
+          "preferred": "b",
+          "retained": [
+            "b",
+            "a"
+          ],
+          "required": [
+            [
+              "original-a",
+              "text-a"
+            ],
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "cross-jurisdiction-link-ignored",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "FR",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "normalized-provision-identifier",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article \ud835\udfd9",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "ARTICLE 1",
+          "authority": 0,
+          "order": 1
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_AUTHORITY",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "alias-unrelated-third-target",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 0,
+          "order": 1
+        },
+        {
+          "key": "c",
+          "original": "original-c",
+          "text": "text-c",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 2",
+          "authority": 1,
+          "order": 2
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b"
+          ],
+          "state": "RESOLVED_AUTHORITY",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "b",
+          "retained": [
+            "b"
+          ],
+          "required": [
+            [
+              "original-b",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": [
+        "a",
+        "b",
+        "c"
+      ],
+      "expected_alias_resolved": false
+    },
+    {
+      "id": "single-eligible-historical-member",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        }
+      ],
+      "edges": [],
+      "expected": [],
+      "alias_keys": [
+        "a"
+      ],
+      "expected_alias_resolved": false
+    },
+    {
+      "id": "supersession-chain",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        },
+        {
+          "key": "c",
+          "original": "original-c",
+          "text": "text-c",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 2
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        },
+        {
+          "source": "c",
+          "target": "b",
+          "kind": "supersedes",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b",
+            "c"
+          ],
+          "state": "RESOLVED_RELATION",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "c",
+          "retained": [
+            "c"
+          ],
+          "required": [
+            [
+              "original-c",
+              "text-c"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "amendment-chain-complete-coverage",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        },
+        {
+          "key": "c",
+          "original": "original-c",
+          "text": "text-c",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 2
+        }
+      ],
+      "edges": [
+        {
+          "source": "b",
+          "target": "a",
+          "kind": "amends",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        },
+        {
+          "source": "c",
+          "target": "b",
+          "kind": "amends",
+          "provenance": "explicit-reference",
+          "confidence": 1.0
+        }
+      ],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b",
+            "c"
+          ],
+          "state": "RESOLVED_RELATION",
+          "reason": "RETAIN_BASE_AND_COMPANIONS",
+          "preferred": "c",
+          "retained": [
+            "c",
+            "b",
+            "a"
+          ],
+          "required": [
+            [
+              "original-a",
+              "text-a"
+            ],
+            [
+              "original-b",
+              "text-b"
+            ],
+            [
+              "original-c",
+              "text-c"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "rank-breaks-unlinked-version-tie",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 2,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-b",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 2,
+          "order": 1
+        },
+        {
+          "key": "c",
+          "original": "original-c",
+          "text": "text-c",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 2
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b",
+            "c"
+          ],
+          "state": "RESOLVED_AUTHORITY",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "c",
+          "retained": [
+            "c"
+          ],
+          "required": [
+            [
+              "original-c",
+              "text-c"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    },
+    {
+      "id": "same-rank-preferred-edition-preserves-two-paragraphs",
+      "nodes": [
+        {
+          "key": "a",
+          "original": "original-a",
+          "text": "text-a",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 0
+        },
+        {
+          "key": "b",
+          "original": "original-a",
+          "text": "text-b",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 1
+        },
+        {
+          "key": "c",
+          "original": "original-c",
+          "text": "text-c",
+          "domain": "law",
+          "publisher_key": "curator-1",
+          "jurisdiction": "MA",
+          "canonical_uri": "https://example.invalid/law",
+          "article": "Article 1",
+          "authority": 1,
+          "order": 2
+        }
+      ],
+      "edges": [],
+      "expected": [
+        {
+          "members": [
+            "a",
+            "b",
+            "c"
+          ],
+          "state": "RESOLVED_AUTHORITY",
+          "reason": "PREFERRED_EDITION",
+          "preferred": "a",
+          "retained": [
+            "a",
+            "b"
+          ],
+          "required": [
+            [
+              "original-a",
+              "text-a"
+            ],
+            [
+              "original-a",
+              "text-b"
+            ]
+          ]
+        }
+      ],
+      "alias_keys": null,
+      "expected_alias_resolved": null
+    }
+  ]
+}

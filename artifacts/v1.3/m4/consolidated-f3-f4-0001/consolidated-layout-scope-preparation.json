@@ -1,0 +1,14 @@
+{
+  "status": "SCOPED_EXISTING_UI_FLOWS_PREPARED_NOT_PHYSICALLY_ACCEPTED",
+  "changed_activity_launches": {
+    "PackOverviewUiTest.kt": 1,
+    "PackManagementUiTest.kt": 1,
+    "QueryControlsUiTest.kt": 1,
+    "SourceDetailsUiTest.kt": 2,
+    "DiagnosticNavigationUiTest.kt": 1,
+    "LocalAssetsUiTest.kt": 1
+  },
+  "font_scale": 2,
+  "maximum_viewport_dp": 320,
+  "scope": "Existing real Activity assertions/cases and native asks remain; add only bounded Intent layout inputs. Source AR/FR setContent language components retain their own explicit separate scope. Old versioned results/source manifests remain untouched. Final new matched builds and actual original PNG review required."
+}

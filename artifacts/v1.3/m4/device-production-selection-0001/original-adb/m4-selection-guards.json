@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "manifest",
+      "status": "PASS",
+      "state": "ACTIVE_PACK_CHANGED",
+      "generate_calls": 0
+    },
+    {
+      "id": "backend",
+      "status": "PASS",
+      "state": "GENERATOR_IDENTITY_CHANGED",
+      "generate_calls": 0
+    }
+  ],
+  "scope": "IN_MEMORY_TRUSTED_STATE_SIMULATION_NOT_FILESYSTEM_RACE"
+}

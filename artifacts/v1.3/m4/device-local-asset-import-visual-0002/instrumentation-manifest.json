@@ -1,0 +1,65 @@
+{
+  "started_at": "2026-10-11T19:32:20.526126+00:00",
+  "serial": "R3CT908DHHR",
+  "class_name": "org.packrag.product.LocalAssetImportVisualDeviceTest",
+  "variant": "debug",
+  "runner_sha256": "48f14592864e11c27b54d9876bca9dfbc27491ae7890101ae1a752afc642c561",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0075\\app-debug.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\nSuccess\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0075\\app-debug.apk: 1 file pushed, 0 skipped. 121.8 MB/s (74916118 bytes in 0.587s)\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "install",
+        "--no-streaming",
+        "-r",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0075\\app-debug-androidTest.apk"
+      ],
+      "returncode": 0,
+      "stdout": "Performing Push Install\nSuccess\n",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0075\\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 160.7 MB/s (11579306 bytes in 0.069s)\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "am",
+        "instrument",
+        "-w",
+        "-r",
+        "-e",
+        "class",
+        "org.packrag.product.LocalAssetImportVisualDeviceTest",
+        "org.packrag.product.test/androidx.test.runner.AndroidJUnitRunner"
+      ],
+      "returncode": 0
+    }
+  ],
+  "apk_sha256": {
+    "app-debug.apk": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+    "app-debug-androidTest.apk": "e4b18b619f74dcb229b8a156436b7c53c26b1bde6f32129bfe77f34807489f62"
+  },
+  "selected_test_sources": {
+    "org.packrag.product.LocalAssetImportVisualDeviceTest": {
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportVisualDeviceTest.kt",
+      "source_sha256": "2eca84660ba724a1491e042c7ac608dc4a3ac1109630cd35ba2c6216f395a6ad"
+    }
+  },
+  "status": "FAIL"
+}

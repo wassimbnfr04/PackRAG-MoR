@@ -1,0 +1,5 @@
+{
+  "status": "PREPARATION_FAILURE_NOT_PRODUCT_FAILURE",
+  "reason": "First in-memory adapter used overlapping tests=618 and python_tests=618 replacements. Assertion failed before scripts or closure results were written. Repaired by specific tokens.",
+  "outputs_written": false
+}

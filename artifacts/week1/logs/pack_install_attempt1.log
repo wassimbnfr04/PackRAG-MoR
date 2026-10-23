@@ -1,0 +1,8 @@
+ERROR: Could not find a version that satisfies the requirement PyNaCl==1.6.0 (from versions: none)
+ERROR: No matching distribution found for PyNaCl==1.6.0
+WARNING: Failed to remove contents in a temporary directory 'C:\Users\Fkagf\AppData\Local\Temp\pip-build-tracker-h3nndl48'.
+You can safely remove it manually.
+WARNING: Failed to remove contents in a temporary directory 'C:\Users\Fkagf\AppData\Local\Temp\pip-ephem-wheel-cache-iinzqauo'.
+You can safely remove it manually.
+WARNING: Failed to remove contents in a temporary directory 'C:\Users\Fkagf\AppData\Local\Temp\pip-install-b65p9ytc'.
+You can safely remove it manually.

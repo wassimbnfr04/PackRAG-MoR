@@ -1,0 +1,3855 @@
+{
+  "status": "FROZEN_PRE_EXECUTION_CONSOLIDATED_EXPECTATIONS_NOT_ACCEPTANCE",
+  "recorded_utc": "2026-10-12T16:26:52.944510+00:00",
+  "expected_inputs": 623,
+  "expected_host_methods": 91,
+  "debug_build": "build-0097",
+  "demo_build": "build-0098",
+  "entries": {
+    "AtomicRegistryDeviceTest": {
+      "class": "AtomicRegistryDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/AtomicRegistryDeviceTest.kt",
+      "source_sha256": "0b1f87f5cbbd100bf69c07835c14b4539d1b37e806735f7b14d8cc07bc7f42ff",
+      "reports": [
+        {
+          "name": "m3-atomic-registry.json",
+          "arrays": {
+            "cases": {
+              "count": 18,
+              "identity_key": "id",
+              "identities": [
+                "loss-after_verify",
+                "loss-after_fsync",
+                "loss-after_rename",
+                "loss-after_version_insert",
+                "loss-after_active_write",
+                "loss-before_commit",
+                "loss-after_commit",
+                "immutable-identity-semver-and-exclusive-owner",
+                "installed-corruption-knowledge.sqlite",
+                "installed-corruption-dense.kdx",
+                "installed-corruption-manifest.json",
+                "installed-corruption-manifest.sig",
+                "installed-corruption-transport.kpack",
+                "installed-corruption-unexpected.txt",
+                "legacy-migration-orphan-false",
+                "legacy-migration-orphan-true",
+                "valid-zero-row-db-kdx-install-and-reopen",
+                "query-snapshot-blocks-update"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-atomic-registry.json"
+        }
+      ]
+    },
+    "ConflictDeviceTest": {
+      "class": "ConflictDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ConflictDeviceTest.kt",
+      "source_sha256": "82052119af784c8ab5f77826e19f74246164cf790db9be0ab816a026b1eee81f",
+      "reports": [
+        {
+          "name": "m4-conflicts.json",
+          "arrays": {
+            "retrieval_cases": {
+              "count": 19,
+              "identity_key": "id",
+              "identities": [
+                "AUTHORITY",
+                "ZERO",
+                "UNKNOWN",
+                "SUPERSEDES_CURRENT",
+                "AMENDS",
+                "EXCEPTION",
+                "WEAK",
+                "CYCLE",
+                "UNRELATED",
+                "ARTICLES",
+                "DIFFERENT_CURATORS",
+                "JURISDICTION_FILTER",
+                "UNKNOWN_JURISDICTION",
+                "DUPLICATE_ORIGINS",
+                "FIVE_COMPANIONS",
+                "PARAGRAPHS",
+                "BEFORE_CAP",
+                "SUPERSEDES_HISTORICAL",
+                "SUPERSEDES_START"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {
+            "fixed_contract_cases": 40,
+            "signed_packs": 19
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\relevance-intermediate-parity-0001\\m4-conflicts.json"
+        }
+      ]
+    },
+    "ConflictRuntimeDeviceTest": {
+      "class": "ConflictRuntimeDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ConflictRuntimeDeviceTest.kt",
+      "source_sha256": "435efb8d2f3179f51324f3053e5c83f9982d48f7abc5f7c36c7498d08c97aeae",
+      "reports": [
+        {
+          "name": "m4-conflict-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 7,
+              "identity_key": "id",
+              "identities": [
+                "UNKNOWN",
+                "DIFFERENT_CURATORS",
+                "BEFORE_CAP",
+                "FIVE_COMPANIONS",
+                "AUTHORITY",
+                "SUPERSEDES_CURRENT",
+                "EXCEPTION"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\relevance-intermediate-parity-0001\\m4-conflict-runtime.json"
+        }
+      ]
+    },
+    "DataTypeDeviceTest": {
+      "class": "DataTypeDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/DataTypeDeviceTest.kt",
+      "source_sha256": "2124a94b99ea3e0c8e5541f1decbd1d2c8f4bbc3d0830a01b5a751a6be452b3f",
+      "reports": [
+        {
+          "name": "m3-data-types.json",
+          "arrays": {
+            "cases": {
+              "count": 42,
+              "identity_key": "id",
+              "identities": [
+                "allow-txt",
+                "opaque-txt",
+                "allow-md",
+                "opaque-md",
+                "allow-pdf",
+                "opaque-pdf",
+                "allow-csv",
+                "opaque-csv",
+                "allow-tsv",
+                "opaque-tsv",
+                "allow-json",
+                "opaque-json",
+                "allow-xml",
+                "opaque-xml",
+                "allow-png",
+                "opaque-png",
+                "allow-jpg",
+                "opaque-jpg",
+                "allow-jpeg",
+                "opaque-jpeg",
+                "allow-webp",
+                "opaque-webp",
+                "uppercase-data",
+                "deny-lua",
+                "deny-kt",
+                "deny-swift",
+                "deny-weirdscript",
+                "deny-bin",
+                "deny-html",
+                "deny-svg",
+                "deny-docm",
+                "deny-zip",
+                "deny-onnx",
+                "deny-gguf",
+                "deny-exe",
+                "deny-py",
+                "deny-extensionless",
+                "script-mime",
+                "model-mime",
+                "wrong-data-mime",
+                "sqlite-script-mime",
+                "kdx-script-mime"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-data-types.json"
+        }
+      ]
+    },
+    "DiagnosticLifecycleDeviceTest": {
+      "class": "DiagnosticLifecycleDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticLifecycleDeviceTest.kt",
+      "source_sha256": "cb3fd5cc7a21180c56d80ae8efc3396333f70f3da8be6fe241e02c2ad48ce823",
+      "reports": [
+        {
+          "name": "m4-diagnostic-lifecycle.json",
+          "arrays": {
+            "cases": {
+              "count": 7,
+              "identity_key": "id",
+              "identities": [
+                "replacement-observed-during-native-generation-discards-original-and-keeps-only-new-context",
+                "real-native-cancel-clears-completed-trace-submission-navigation-and-stays-cleared",
+                "actual-recovery-cited-answer-has-new-owned-diagnostics-and-result-identity",
+                "fresh-read-only-inspection-and-close-preserve-reference-identical-completed-context",
+                "pack-mutation-clears-live-result-but-independent-captured-diagnostics-remain-readable",
+                "new-no-active-outcome-distinguishes-loaded-session-from-current-generation",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-debug-0001-lifecycle\\m4-diagnostic-lifecycle.json"
+        }
+      ]
+    },
+    "DiagnosticNavigationUiTest": {
+      "class": "DiagnosticNavigationUiTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticNavigationUiTest.kt",
+      "source_sha256": "97ecf024072bfbcf57b8237712041c8a66204e276ecec35417e188f15e2abd10",
+      "reports": [
+        {
+          "name": "m4-diagnostic-navigation.json",
+          "arrays": {
+            "cases": {
+              "count": 7,
+              "identity_key": "id",
+              "identities": [
+                "one-labelled-checkbox-role-and-state-label-click-toggles-once",
+                "actual-buffered-cited-answer-has-completed-only-diagnostics",
+                "form-toggle-and-original-diagnostic-context-survive-activity-recreation",
+                "saved-source-identifiers-bind-same-result-and-real-back-returns-to-answer",
+                "management-and-verified-details-restore-with-back-details-list-answer",
+                "cancel-clears-source-binding-and-recreation-cannot-restore-stale-source",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-ui-diagnostic-navigation-0002\\m4-diagnostic-navigation.json"
+        }
+      ]
+    },
+    "DiagnosticPolicyDeviceTest": {
+      "class": "DiagnosticPolicyDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticPolicyDeviceTest.kt",
+      "source_sha256": "bfd8ee0c836f56b39556933debfe54e66950becf9d29dc04bbbca0103aa86be4",
+      "reports": [
+        {
+          "name": "m4-diagnostic-policy.json",
+          "arrays": {
+            "cases": {
+              "count": 8,
+              "identity_key": "id",
+              "identities": [
+                "compiled-production-policy-fresh-no-pack-no-fabricated-load-or-generation",
+                "actual-viewmodel-approved-publisher-import-without-caller-trust-injection",
+                "actual-approved-cold-warm-native-citations-owned-candidates-pins-and-token-partitions",
+                "read-only-production-inspection-retains-reference-identical-completed-result",
+                "new-jurisdiction-abstention-records-no-generation-and-cannot-reuse-prior-result",
+                "production-mutation-clears-attribution-and-no-active-distinguishes-previously-loaded-session",
+                "actual-production-developer-import-rejected-clears-live-result-retains-approved-inactive-payload",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-demo609-0001-diagnostic-policy\\m4-diagnostic-policy.json"
+        }
+      ]
+    },
+    "DiagnosticRuntimeDeviceTest": {
+      "class": "DiagnosticRuntimeDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/DiagnosticRuntimeDeviceTest.kt",
+      "source_sha256": "571cf1ca4215d2aa0de16c73ab19dae0f9393ba92a732253af5cb49081ab3916",
+      "reports": [
+        {
+          "name": "m4-diagnostic-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 8,
+              "identity_key": "id",
+              "identities": [
+                "fresh-no-active-pack-has-no-native-initialization-or-fabricated-pool",
+                "fixed-unequal-metadata-conversion-does-not-request-missing-rendering",
+                "real-cold-warm-runtime-on-marked-default-and-fixed-io-dispatcher-without-monitor-suspension",
+                "actual-cold-and-warm-cited-generation-have-captured-candidates-identities-and-scoped-timings",
+                "read-only-inspection-retains-original-diagnostics",
+                "no-active-after-deactivation-distinguishes-previously-loaded-model-from-current-generation",
+                "captured-diagnostics-outlive-session-readers-and-reject-list-mutation",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-debug-0001-diagnostics\\m4-diagnostic-runtime.json"
+        }
+      ]
+    },
+    "EmbeddingParityTest": {
+      "class": "EmbeddingParityTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/EmbeddingParityTest.kt",
+      "source_sha256": "9f3964ea5365f73d98d60dd80131e9f85a5c2923f488d786b126da3286221b9e",
+      "reports": [
+        {
+          "name": "m2-embedding-parity.json",
+          "arrays": {
+            "embedding_cases": {
+              "count": 4,
+              "identity_key": "text",
+              "identities": [
+                "What is the maximum continuous operating temperature of the Aster-9?",
+                "\u0645\u0627 \u0647\u064a \u0633\u0627\u0639\u0627\u062a \u0627\u0644\u0639\u0645\u0644\u061f",
+                "ch7al sa3a dyal lkhedma",
+                "Quelle est la dur\u00e9e du cong\u00e9 annuel ?"
+              ]
+            }
+          },
+          "fixed_fields": {
+            "tokenizer_cases": 44
+          },
+          "historical_reference": "artifacts\\v1.3\\m2\\device-embedding-0004\\m2-embedding-parity.json"
+        }
+      ]
+    },
+    "ExplicitLifecycleDeviceTest": {
+      "class": "ExplicitLifecycleDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ExplicitLifecycleDeviceTest.kt",
+      "source_sha256": "51c9f3bc12d4705fe8518c15dcd533349ca019e42c1019d03c15388646e8b8e4",
+      "reports": [
+        {
+          "name": "m3-explicit-lifecycle.json",
+          "arrays": {
+            "cases": {
+              "count": 16,
+              "identity_key": "id",
+              "identities": [
+                "multiple-installed-active-pack-identities",
+                "deliberate-rollback-keeps-newest-history",
+                "removed-identity-cannot-be-relabelled",
+                "older-import-requires-explicit-acknowledgment",
+                "deactivate-and-explicit-reactivate",
+                "untrusted-inactive-version-does-not-displace-active",
+                "exact-newest-reinstall-preserves-immutable-identity",
+                "all-deactivated-no-pack-without-weight-load",
+                "restart-retains-explicit-active-set",
+                "equal-precedence-build-metadata-is-not-newer",
+                "committed-recovery-deactivate_before_commit",
+                "committed-recovery-deactivate_after_commit",
+                "committed-recovery-remove_before_commit",
+                "committed-recovery-remove_after_commit",
+                "committed-recovery-reactivate_before_commit",
+                "committed-recovery-reactivate_after_commit"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-explicit-lifecycle.json"
+        }
+      ]
+    },
+    "ExtensionNameDeviceTest": {
+      "class": "ExtensionNameDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ExtensionNameDeviceTest.kt",
+      "source_sha256": "9fdc8dfcb0fa0bd03491ce2af1ba0a2f47b13c17d1b1035340e64b03563cf04c",
+      "reports": [
+        {
+          "name": "m3-extension-names.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "sample.txt",
+                "txt",
+                "pdf",
+                "json",
+                "webp"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-extension-names.json"
+        }
+      ]
+    },
+    "GeneratorCancellationTest": {
+      "class": "GeneratorCancellationTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/GeneratorCancellationTest.kt",
+      "source_sha256": "6afb22458f7622fea81a757b001f6954845a43346d357b0563e879547f0457e0",
+      "reports": [
+        {
+          "name": "m2-generator-cancellation.json",
+          "arrays": {},
+          "fixed_fields": {
+            "native_cancel_stop": 2,
+            "post_cancel_recovery_state": "ANSWER_ACCEPTED",
+            "closed_handle_rejected": true,
+            "idempotent_close_cancel": true
+          }
+        }
+      ]
+    },
+    "GeneratorPromptParityTest": {
+      "class": "GeneratorPromptParityTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/GeneratorPromptParityTest.kt",
+      "source_sha256": "87ea9d7b29507fffaa9bfb842f6bf97da4b2b38921e14112144f61f1db6f78f8",
+      "reports": [
+        {
+          "name": "m2-generator-prompt-parity.json",
+          "arrays": {
+            "cases": {
+              "count": 10,
+              "identity_key": "id",
+              "identities": [
+                "G0-D01",
+                "G0-D02",
+                "G0-D03",
+                "G0-D04",
+                "G0-D05",
+                "G0-D06",
+                "G0-D07",
+                "G0-D08",
+                "G0-D09",
+                "G0-D10"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m2-generator-prompt-parity.json"
+        }
+      ]
+    },
+    "LocalAssetImportAllSlotsDeviceTest": {
+      "class": "LocalAssetImportAllSlotsDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportAllSlotsDeviceTest.kt",
+      "source_sha256": "52c9c1979fd2a32fa9dde570a9f0637027c9e37a1d38362b1d1ebfa05b7f175c",
+      "reports": [
+        {
+          "name": "m4-local-asset-import-all-slots.json",
+          "arrays": {
+            "cases": {
+              "count": 8,
+              "identity_key": "id",
+              "identities": [
+                "initially-missing-private-model-root-and-separate-uid-four-narrow-grants",
+                "actual-full-size-GENERATOR-uri-readback-commit-close",
+                "actual-full-size-TEMPLATE-uri-readback-commit-close",
+                "actual-full-size-TOKENIZER-uri-readback-commit-close",
+                "actual-full-size-ENCODER-uri-readback-commit-close",
+                "all-four-independent-pinned-final-file-verification",
+                "actual-cold-native-retrieval-admission-selection-citation-answer",
+                "actual-warm-native-retrieval-admission-selection-citation-answer"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            },
+            "imports": {
+              "count": 4
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-asset-import-all-slots-policy-0001\\m4-local-asset-import-all-slots.json"
+        }
+      ]
+    },
+    "LocalAssetImportFaultDeviceTest": {
+      "class": "LocalAssetImportFaultDeviceTest",
+      "methods": 3,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportFaultDeviceTest.kt",
+      "source_sha256": "c448e60ec9a2a40e4fd0b018a7617a26f0ebbb5abee6e01ca1feb591e405694a",
+      "reports": [
+        {
+          "name": "m4-local-asset-import-uri-faults.json",
+          "arrays": {
+            "cases": {
+              "count": 15,
+              "identity_key": "id",
+              "identities": [
+                "actual-ungranted-uri-rejects-without-provider-open-and-preserves-final",
+                "actual-revoked-before-open-grant-rejects-and-regrant-is-explicit",
+                "actual-empty-uri-preserves-existing-pin-with-safe-error",
+                "actual-truncated-uri-preserves-existing-pin-with-safe-error",
+                "actual-oversized-uri-preserves-existing-pin-with-safe-error",
+                "actual-corrupt-uri-preserves-existing-pin-with-safe-error",
+                "actual-read-error-uri-preserves-existing-pin-with-safe-error",
+                "actual-wrong-slot-template-source-cannot-install-generator",
+                "actual-metadata-lie-uses-observed-stream-bytes-and-fixed-private-pin",
+                "actual-short-pipe-uses-observed-stream-bytes-and-fixed-private-pin",
+                "actual-cancel-at-COPYING-is-precommit-and-preserves-pin",
+                "actual-cancel-at-VERIFYING-is-precommit-and-preserves-pin",
+                "actual-cancel-at-COMMITTING-is-precommit-and-preserves-pin",
+                "actual-late-cancel-does-not-report-committed-file-as-unchanged-failure",
+                "file-scheme-cannot-bypass-content-descriptor-interface"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-asset-import-faults-0002\\m4-local-asset-import-uri-faults.json"
+        },
+        {
+          "name": "m4-local-asset-import-path-recovery.json",
+          "arrays": {
+            "cases": {
+              "count": 10,
+              "identity_key": "id",
+              "identities": [
+                "actual-new-session-reconciles-validated-abandoned-stage-without-promotion-or-legacy-deletion",
+                "unknown-private-named-entry-blocks-whole-startup-cleanup-without-traversal",
+                "actual-final-leaf-symlink-rejects-before-source-open-and-never-follows-target",
+                "actual-nested-destination-parent-symlink-rejects-before-source-open",
+                "actual-ownership-marker-symlink-rejected-without-reading-target",
+                "actual-owned-stage-name-with-symlink-type-cannot-be-deleted-or-promoted",
+                "actual-staging-directory-symlink-cannot-trigger-recursive-cleanup",
+                "actual-import-model-root-symlink-refuses-before-input-and-finally-does-not-follow-it",
+                "controlled-precommit-directory-sync-fault-preserves-real-final-and-reports-unconfirmed-cleanup",
+                "normal-new-session-recovers-after-injected-sync-fault-without-native-initialization"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-asset-import-faults-0002\\m4-local-asset-import-path-recovery.json"
+        },
+        {
+          "name": "m4-local-asset-import-provider-cancel.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "identity_key": "id",
+              "identities": [
+                "actual-blocked-pipe-read-cancel-closes-cooperative-producer-and-preserves-final",
+                "actual-descriptor-opening-cancellation-signal-reaches-provider-without-blocking-main",
+                "actual-fresh-uri-retry-after-both-cancellations-commits-cleanly"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-asset-import-faults-0002\\m4-local-asset-import-provider-cancel.json"
+        }
+      ]
+    },
+    "LocalAssetImportProcessDeathDeviceTest": {
+      "class": "LocalAssetImportProcessDeathDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportProcessDeathDeviceTest.kt",
+      "source_sha256": "f25197d80590972eae0e7d4808f30e9c7bfea0a850ac3d404004ba4413a1d11d",
+      "reports": [
+        {
+          "name": "m4-local-asset-import-process-death.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "identity_key": "id",
+              "identities": [
+                "actual-importing-process-death-COPYING",
+                "actual-importing-process-death-COMMITTING",
+                "actual-importing-process-death-COMMITTED"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-asset-import-process-death-0001\\m4-local-asset-import-process-death.json"
+        }
+      ]
+    },
+    "LocalAssetImportUiDeviceTest": {
+      "class": "LocalAssetImportUiDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportUiDeviceTest.kt",
+      "source_sha256": "c2250793b224d0def71f1fbdd82ef31fcbce0dcc5a5b4ca0b27684730b18f24f",
+      "reports": [
+        {
+          "name": "m4-local-asset-import-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 8,
+              "identity_key": "id",
+              "identities": [
+                "actual-document-read-denied-before-system-picker-grant",
+                "actual-system-picker-cancel-keeps-file-and-completed-result",
+                "actual-picked-corrupt-file-rejected-without-replacing-file-or-completion",
+                "actual-displayed-byte-progress-and-ui-cancel-wait-for-cleanup",
+                "actual-picker-slot-survives-pending-activity-recreation-and-granted-verified-import",
+                "asset-page-recreation-back-and-canonical-evidence-navigation-retain-completion",
+                "actual-post-import-ui-query-cold-native-and-validated-cited-answer",
+                "known-owner-fifty-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-asset-import-ui-0004\\m4-local-asset-import-ui.json"
+        }
+      ]
+    },
+    "LocalAssetImportViewModelDeviceTest": {
+      "class": "LocalAssetImportViewModelDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportViewModelDeviceTest.kt",
+      "source_sha256": "cbebb8d2adb244ef577c52ca39258d7cd24c43b76445bec0a90715ebdc395df9",
+      "reports": [
+        {
+          "name": "m4-local-asset-import-viewmodel.json",
+          "arrays": {
+            "cases": {
+              "count": 8,
+              "identity_key": "id",
+              "identities": [
+                "actual-native-completed-answer-and-owned-result-context",
+                "wrong-hash-rejection-preserves-file-answer-trace-submission-and-result-id",
+                "generic-source-rejection-recovery-preserves-owned-completion",
+                "actual-observed-partial-byte-progress-and-cooperative-read-cancel-preserve-completion",
+                "actual-transported-open-cancel-awaits-cleanup-and-preserves-completion",
+                "successful-verified-import-preserves-completion-and-invalidates-other-cached-asset-checks",
+                "independent-four-pin-recheck-preserves-completed-result",
+                "actual-post-import-cold-native-answer-uses-new-owned-result-id"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-debug-0001-asset-import\\m4-local-asset-import-viewmodel.json"
+        }
+      ]
+    },
+    "LocalAssetImportVisualDeviceTest": {
+      "class": "LocalAssetImportVisualDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportVisualDeviceTest.kt",
+      "source_sha256": "548fb912a69f694c941c5101f52eb32557716871d8549ef7a648b9c25dce7282",
+      "reports": [
+        {
+          "name": "m4-local-asset-import-visual.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "identity_key": "id",
+              "identities": [
+                "actual-picker-copy-settled-progress-and-cooperative-cancel",
+                "actual-picker-verified-template-settled-full-window",
+                "known-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-asset-import-visual-0003\\m4-local-asset-import-visual.json"
+        }
+      ]
+    },
+    "LocalAssetImportWalkingDeviceTest": {
+      "class": "LocalAssetImportWalkingDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetImportWalkingDeviceTest.kt",
+      "source_sha256": "66df2fa8855475a298e90cd60b233d5492f9939ded99276c47e0bdef89d22883",
+      "reports": [
+        {
+          "name": "m4-local-asset-import-walking.json",
+          "arrays": {
+            "cases": {
+              "count": 7,
+              "identity_key": "id",
+              "identities": [
+                "actual-narrow-read-grant-to-separate-provider-uid",
+                "actual-pinned-pre-import-native-walking-answer",
+                "actual-foreign-native-reader-rejects-import-before-provider-open-or-replacement",
+                "actual-template-stream-private-readback-atomic-replacement-and-caller-native-release",
+                "observed-bytes-and-commit-progress-contract",
+                "one-actual-provider-descriptor-open-and-close-without-error",
+                "actual-post-import-cold-native-retrieval-admission-selection-citation-answer"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-asset-import-walking-0003\\m4-local-asset-import-walking.json",
+          "sidecars": [
+            "m4-local-asset-import-walking-grant-observation.json"
+          ]
+        }
+      ]
+    },
+    "LocalAssetReadinessDeviceTest": {
+      "class": "LocalAssetReadinessDeviceTest",
+      "methods": 3,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetReadinessDeviceTest.kt",
+      "source_sha256": "4854151977c636931a5cd0c72c6154dd62c3530feaffdccc4b8df62e874521e2",
+      "reports": [
+        {
+          "name": "m4-local-assets-negative.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "no-pack-missing-assets-skips-verification-and-models",
+                "active-pack-missing-assets-blocks-constructors",
+                "correct-size-corrupt-template-blocks-constructors",
+                "actual-leaf-and-parent-symlinks-never-followed",
+                "actual-model-root-symlink-rejected"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-demo609-0001-readiness\\m4-local-assets-negative.json"
+        },
+        {
+          "name": "m4-local-assets-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "all-four-real-pins-check-without-native-initialization",
+                "real-cold-warm-pinned-LFM-evidence-citations-validation",
+                "jurisdiction-excluded-evidence-abstains-without-generation",
+                "explicit-corruption-check-releases-warm-models-and-next-query-blocks",
+                "restored-owned-template-reverifies-and-real-native-query-recovers"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-demo609-0001-readiness\\m4-local-assets-runtime.json"
+        },
+        {
+          "name": "m4-local-assets-viewmodel.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "identity_key": "id",
+              "identities": [
+                "failed-query-asset-observations-survive-session-recovery-with-time-and-actionable-error",
+                "real-answer-trace-submission-and-completion-identity-survive-actual-read-only-check",
+                "old-failed-status-values-remain-owned-after-later-success"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-demo609-0001-readiness\\m4-local-assets-viewmodel.json"
+        }
+      ]
+    },
+    "LocalAssetsUiTest": {
+      "class": "LocalAssetsUiTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/LocalAssetsUiTest.kt",
+      "source_sha256": "a43acc7b3ce2cbdd148a1a202d6aea04878b2d948d1db9bc4c1838dad89bdbfa",
+      "reports": [
+        {
+          "name": "m4-local-assets-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "actual-four-file-check-before-query-initializes-neither-model",
+                "asset-page-recreates-and-system-back-returns-to-question",
+                "actual-ui-question-retrieval-pinned-generation-and-validated-cited-answer",
+                "explicit-actual-file-check-and-page-return-preserve-owned-completed-answer",
+                "canonical-evidence-navigation-remains-working-after-file-check"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-local-assets-ui-0001\\m4-local-assets-ui.json"
+        }
+      ]
+    },
+    "PackImportConsentTest": {
+      "class": "PackImportConsentTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackImportConsentTest.kt",
+      "source_sha256": "7de5d03463241c60750c2d9e3a215f22a9c30f5443367b7302fd43227111e9c8",
+      "reports": [
+        {
+          "name": "m3-import-consent.json",
+          "arrays": {
+            "cases": {
+              "count": 4,
+              "identity_key": "id",
+              "identities": [
+                "older-import-awaits-consent-cancel-cleans-copy",
+                "confirmed-import-uses-private-copy-not-mutated-caller-uri",
+                "changed-private-copy-rejected-and-cleaned-prior-active-preserved",
+                "viewmodel-clear-cleans-pending-import"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-import-consent.json"
+        }
+      ]
+    },
+    "PackImportEventsDeviceTest": {
+      "class": "PackImportEventsDeviceTest",
+      "methods": 3,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackImportEventsDeviceTest.kt",
+      "source_sha256": "17261db260271c2a5d3c9dd278f642e8b09fc66715392a0418cbe03596b26a23",
+      "reports": [
+        {
+          "name": "m4-f3-import-stages.json",
+          "arrays": {
+            "cases": {
+              "count": 4,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        },
+        {
+          "name": "m4-f3-import-recovery.json",
+          "arrays": {
+            "cases": {
+              "count": 4,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        },
+        {
+          "name": "m4-f3-import-viewmodel.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        }
+      ]
+    },
+    "PackImportUiTest": {
+      "class": "PackImportUiTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackImportUiTest.kt",
+      "source_sha256": "567ef0405c0c21af2588944345ef5d15e43d0f7ccc4753a523aaf9831853c809",
+      "reports": [
+        {
+          "name": "m4-f3-kpack-picker-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 6,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        }
+      ]
+    },
+    "PackManagementUiTest": {
+      "class": "PackManagementUiTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackManagementUiTest.kt",
+      "source_sha256": "15399013db726c7ef64b14d660bdcc7820e48a194a4cf66c1b62d5ac21210722",
+      "reports": [
+        {
+          "name": "m3-pack-management-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 7,
+              "identity_key": "id",
+              "identities": [
+                "older-activation-visible-warning-cancel-preserves-active",
+                "deliberate-rollback-confirmation-keeps-newest-history",
+                "explicit-deactivate-and-reactivate-newest",
+                "removal-cancel-and-confirm-no-automatic-fallback",
+                "all-inactive-no-pack-through-ui",
+                "activity-recreation-retains-explicit-state",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-ui-source-details-0002\\m3-pack-management-ui.json"
+        }
+      ]
+    },
+    "PackOverviewDeviceTest": {
+      "class": "PackOverviewDeviceTest",
+      "methods": 2,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackOverviewDeviceTest.kt",
+      "source_sha256": "655188918037b8c771952964ee7b4928c310b6f521e26d3186715cd816cc1bbf",
+      "reports": [
+        {
+          "name": "m4-pack-overview-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "actual-active-reverified-publisher-identity-and-three-byte-domains",
+                "actual-pinned-native-cited-answer-and-canonical-identity",
+                "read-only-details-reinspection-preserves-owned-completed-context",
+                "inactive-overview-does-not-activate-and-no-active-skips-generation",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-demo609-0001-overview\\m4-pack-overview-runtime.json"
+        },
+        {
+          "name": "m4-pack-overview-negative.json",
+          "arrays": {
+            "cases": {
+              "count": 6,
+              "identity_key": "id",
+              "identities": [
+                "empty-overview-state-does-not-initialize-models",
+                "independent-verified-inactive-overview",
+                "missing-wrong-id-version-hash-rejected-without-activation",
+                "tampered-inactive-overview-unavailable-with-no-stale-metadata-or-context-loss",
+                "restored-test-owned-payload-explicitly-reverifies-without-activation",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-pack-overview-background-demo609-0001-overview\\m4-pack-overview-negative.json"
+        }
+      ]
+    },
+    "PackOverviewLongUiTest": {
+      "class": "PackOverviewLongUiTest",
+      "methods": 2,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackOverviewLongUiTest.kt",
+      "source_sha256": "8fbbb0c060f98020c8f493f4a3b9abb9c279185d8e29565bc4b9c770e4256b88",
+      "reports": [
+        {
+          "name": "m4-pack-overview-long-row-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        },
+        {
+          "name": "m4-pack-overview-long-chip-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        }
+      ]
+    },
+    "PackOverviewUiTest": {
+      "class": "PackOverviewUiTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackOverviewUiTest.kt",
+      "source_sha256": "062e03c159c2b85b03dfd547195a15070761172987c28adce87ca45a1a237850",
+      "reports": [
+        {
+          "name": "m4-pack-overview-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 8,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        }
+      ]
+    },
+    "PackRetrievalParityTest": {
+      "class": "PackRetrievalParityTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/PackRetrievalParityTest.kt",
+      "source_sha256": "659c38992957671e36efd6265d0e53e193ef3718a4f8a817e04ab280d5673aad",
+      "reports": [
+        {
+          "name": "m2-pack-retrieval-parity.json",
+          "arrays": {
+            "parity_cases": {
+              "count": 10,
+              "identity_key": "id",
+              "identities": [
+                "G0-D01",
+                "G0-D02",
+                "G0-D03",
+                "G0-D04",
+                "G0-D05",
+                "G0-D06",
+                "G0-D07",
+                "G0-D08",
+                "G0-D09",
+                "G0-D10"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            },
+            "negative_cases": {
+              "count": 4,
+              "identity_key": "case",
+              "identities": [
+                "unknown-signing-key",
+                "uncalibrated-production-import",
+                "tampered-manifest.sig",
+                "tampered-dense.kdx"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m2-pack-retrieval-parity.json"
+        }
+      ]
+    },
+    "ProductAccessibilityUiTest": {
+      "class": "ProductAccessibilityUiTest",
+      "methods": 2,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ProductAccessibilityUiTest.kt",
+      "source_sha256": "eb7db053f9c3de3459ba6abc5218a58ea5abd39106dfd365eee9917384612029",
+      "reports": [
+        {
+          "name": "m4-f3-accessibility-form.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        },
+        {
+          "name": "m4-f3-accessibility-assets.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        }
+      ]
+    },
+    "ProductE2eTest": {
+      "class": "ProductE2eTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ProductE2eTest.kt",
+      "source_sha256": "be3a3067fc21e70b9370a7515a6d3f55d58f5837bb3272bd4bb0db40648d1876",
+      "reports": [
+        {
+          "name": "m2-product-e2e.json",
+          "arrays": {
+            "cases": {
+              "count": 14,
+              "identity_key": "id",
+              "identities": [
+                "M2-NO-PACK",
+                "M2-G0-D01",
+                "M2-G0-D02",
+                "M2-G0-D03",
+                "M2-G0-D04",
+                "M2-G0-D05",
+                "M2-G0-D06",
+                "M2-G0-D07",
+                "M2-G0-D08",
+                "M2-G0-D09",
+                "M2-G0-D10",
+                "M2-UNRELATED",
+                "M2-EXACT-NOT-SUFFICIENT",
+                "M2-REPEATED-CONTEXT-RESET"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m2\\device-e2e-0001\\m2-product-e2e.json"
+        }
+      ]
+    },
+    "ProductRuntimeSmokeTest": {
+      "class": "ProductRuntimeSmokeTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ProductRuntimeSmokeTest.kt",
+      "source_sha256": "6618805f4a9f6a38c57f8654caff5f025d9ea154492c335b98d2d2474d9de84e",
+      "reports": [
+        {
+          "name": "product-runtime-smoke.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "identity_key": "id",
+              "identities": [
+                "NO_PACK",
+                "SUPPORTED_REAL_INFERENCE",
+                "UNRELATED"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\product-runtime-smoke.json"
+        }
+      ]
+    },
+    "ProductUiE2eTest": {
+      "class": "ProductUiE2eTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ProductUiE2eTest.kt",
+      "source_sha256": "9452ec997ba3c6a78340cb559e7a579a785c4e3f8acaacfb3eff392861936a0b",
+      "reports": [
+        {
+          "name": "m4-isolated-ui-e2e.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "pass_key": "passed",
+              "pass_value": true,
+              "identity_key": "id"
+            }
+          },
+          "fixed_fields": {}
+        }
+      ]
+    },
+    "ProductionPolicyDeviceTest": {
+      "class": "ProductionPolicyDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ProductionPolicyDeviceTest.kt",
+      "source_sha256": "ad7c9755f3a7d46c105f829a61980ade1eb0959b85a592132f5058330ca3b087",
+      "reports": [
+        {
+          "name": "m3-production-policy.json",
+          "arrays": {
+            "viewmodel_admission_cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "calibration-schema-only",
+                "known-publisher-uncalibrated",
+                "unknown-publisher",
+                "pack-cannot-add-key",
+                "claimed-key-mismatch"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m3-production-policy.json"
+        }
+      ]
+    },
+    "QueryControlsDeviceTest": {
+      "class": "QueryControlsDeviceTest",
+      "methods": 2,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsDeviceTest.kt",
+      "source_sha256": "63d6d00f3ee0d3145b7934c35debea5316b88526fd2a472415a6b3628601013b",
+      "reports": [
+        {
+          "name": "m4-ui-query-inputs.json",
+          "arrays": {
+            "cases": {
+              "count": 7,
+              "identity_key": "id",
+              "identities": [
+                "INVALID_QUERY_DATE-0",
+                "INVALID_QUERY_DATE-1",
+                "INVALID_QUERY_TEXT-2",
+                "EMPTY_QUESTION-3",
+                "lowercase-code-not-corrected",
+                "no-pack-keeps-submission-no-generator",
+                "cancel-clears-captured-context-and-trace"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-full-0001\\m4-ui-query-inputs.json"
+        },
+        {
+          "name": "m4-ui-query-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 4,
+              "identity_key": "id",
+              "identities": [
+                "stale-advisory-real-cited-answer",
+                "exact-jurisdiction-excludes-unknown-source-no-generation",
+                "cancel-and-real-recovery-keeps-new-context",
+                "pack-mutation-clears-old-result-context-and-advisory"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-full-0001\\m4-ui-query-runtime.json"
+        }
+      ]
+    },
+    "QueryControlsPolicyTest": {
+      "class": "QueryControlsPolicyTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsPolicyTest.kt",
+      "source_sha256": "669a172514bb9f035a9c26f38e33dda30e7e3cda50e46a9333d21f60cffd7467",
+      "reports": [
+        {
+          "name": "m4-ui-query-policy.json",
+          "arrays": {
+            "cases": {
+              "count": 3,
+              "identity_key": "id",
+              "identities": [
+                "production-no-pack-captures-controls-no-initialization",
+                "production-invalid-date-clears-old-context",
+                "production-viewmodel-rejects-developer-signer"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m4-ui-query-policy.json"
+        }
+      ]
+    },
+    "QueryControlsUiTest": {
+      "class": "QueryControlsUiTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryControlsUiTest.kt",
+      "source_sha256": "b5695e5eb67dae6de0f16a674a3f5221fb8461b5651cbb834b249d43583f5ed3",
+      "reports": [
+        {
+          "name": "m4-ui-query-controls.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "invalid-date-visible-actionable-error-no-trace",
+                "actual-stale-cited-answer-retains-submitted-controls-across-edits-and-recreation",
+                "retained-actual-canonical-source-navigation",
+                "later-submit-uses-edited-controls-and-replaces-old-answer",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-ui-source-details-0002\\m4-ui-query-controls.json"
+        }
+      ]
+    },
+    "QueryIdentifierDeviceTest": {
+      "class": "QueryIdentifierDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryIdentifierDeviceTest.kt",
+      "source_sha256": "4e9c9420c341110cecab91919b862703e699496e5042d6605a7bee9bbe61a2f3",
+      "reports": [
+        {
+          "name": "m4-query-identifiers.json",
+          "arrays": {
+            "query_contract_cases": {
+              "count": 28,
+              "identity_key": "id",
+              "identities": [
+                "valid-default",
+                "valid-low-year",
+                "valid-high-year",
+                "valid-leap",
+                "valid-jurisdiction",
+                "valid-subdivision",
+                "valid-numeric-subdivision",
+                "valid-supplementary",
+                "valid-nul-deferred-prompt-admission",
+                "valid-compatibility",
+                "zero-year",
+                "compact",
+                "week-date",
+                "invalid-leap",
+                "invalid-day",
+                "signed-year",
+                "space",
+                "month-zero",
+                "lower-jurisdiction",
+                "long-jurisdiction",
+                "empty-jurisdiction",
+                "spaced-jurisdiction",
+                "empty",
+                "whitespace",
+                "removed-arabic-only",
+                "unpaired-high",
+                "unpaired-low",
+                "high-before-ascii"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            },
+            "retrieval_cases": {
+              "count": 10,
+              "identity_key": "id",
+              "identities": [
+                "NORMALIZED_FULLWIDTH",
+                "CROSS_SOURCE_AMBIGUITY",
+                "DUPLICATE_ORIGINAL_DIFFERENT_LOCAL_IDS",
+                "SOURCE_ALIAS_MULTIPLE_SECTIONS",
+                "WITHIN_PACK_DEDUP_ORIGIN_UNIQUE",
+                "INELIGIBLE_COLLISION_IGNORED",
+                "CROSS_POOL_32_CAP",
+                "AMBIGUITY_BEFORE_LOCAL_CAP",
+                "DIFFERENT_ALIASES_NOT_AMBIGUOUS",
+                "ALIAS_NOT_SUBSTRING"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {
+            "word_cases": 5,
+            "alias_boundary_cases": 11
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\relevance-intermediate-parity-0001\\m4-query-identifiers.json"
+        }
+      ]
+    },
+    "QueryIdentifierRuntimeDeviceTest": {
+      "class": "QueryIdentifierRuntimeDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryIdentifierRuntimeDeviceTest.kt",
+      "source_sha256": "6e59e61e9049375ab17839152e6b52578433fc332163082639aa3b3d7450b835",
+      "reports": [
+        {
+          "name": "m4-query-identifier-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 2,
+              "identity_key": "id",
+              "identities": [
+                "AMBIGUOUS_NO_GENERATION",
+                "EXPIRED_COLLISION_REAL_SUPPORTED"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m4-query-identifier-runtime.json"
+        }
+      ]
+    },
+    "QueryUnicodeDeviceTest": {
+      "class": "QueryUnicodeDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/QueryUnicodeDeviceTest.kt",
+      "source_sha256": "57e9252b7ce4577346375b23fe7383b8920622c342007e7109c761546f9de0c1",
+      "reports": [
+        {
+          "name": "m4-query-unicode.json",
+          "arrays": {
+            "query_cases": {
+              "count": 1453,
+              "identity_key": "id",
+              "identities": [
+                "U0000",
+                "U0001",
+                "U0002",
+                "U0003",
+                "U0004",
+                "U0005",
+                "U0006",
+                "U0007",
+                "U0008",
+                "U0009",
+                "U0010",
+                "U0011",
+                "U0012",
+                "U0013",
+                "U0014",
+                "U0015",
+                "U0016",
+                "U0017",
+                "U0018",
+                "U0019",
+                "U0020",
+                "U0021",
+                "U0022",
+                "U0023",
+                "U0024",
+                "U0025",
+                "U0026",
+                "U0027",
+                "U0028",
+                "U0029",
+                "U0030",
+                "U0031",
+                "U0032",
+                "U0033",
+                "U0034",
+                "U0035",
+                "U0036",
+                "U0037",
+                "U0038",
+                "U0039",
+                "U0040",
+                "U0041",
+                "U0042",
+                "U0043",
+                "U0044",
+                "U0045",
+                "U0046",
+                "U0047",
+                "U0048",
+                "U0049",
+                "U0050",
+                "U0051",
+                "U0052",
+                "U0053",
+                "U0054",
+                "U0055",
+                "U0056",
+                "U0057",
+                "U0058",
+                "U0059",
+                "U0060",
+                "U0061",
+                "U0062",
+                "U0063",
+                "U0064",
+                "U0065",
+                "U0066",
+                "U0067",
+                "U0068",
+                "U0069",
+                "U0070",
+                "U0071",
+                "U0072",
+                "U0073",
+                "U0074",
+                "U0075",
+                "U0076",
+                "U0077",
+                "U0078",
+                "U0079",
+                "U0080",
+                "U0081",
+                "U0082",
+                "U0083",
+                "U0084",
+                "U0085",
+                "U0086",
+                "U0087",
+                "U0088",
+                "U0089",
+                "U0090",
+                "U0091",
+                "U0092",
+                "U0093",
+                "U0094",
+                "U0095",
+                "U0096",
+                "U0097",
+                "U0098",
+                "U0099",
+                "U0100",
+                "U0101",
+                "U0102",
+                "U0103",
+                "U0104",
+                "U0105",
+                "U0106",
+                "U0107",
+                "U0108",
+                "U0109",
+                "U0110",
+                "U0111",
+                "U0112",
+                "U0113",
+                "U0114",
+                "U0115",
+                "U0116",
+                "U0117",
+                "U0118",
+                "U0119",
+                "U0120",
+                "U0121",
+                "U0122",
+                "U0123",
+                "U0124",
+                "U0125",
+                "U0126",
+                "U0127",
+                "U0128",
+                "U0129",
+                "U0130",
+                "U0131",
+                "U0132",
+                "U0133",
+                "U0134",
+                "U0135",
+                "U0136",
+                "U0137",
+                "U0138",
+                "U0139",
+                "U0140",
+                "U0141",
+                "U0142",
+                "U0143",
+                "U0144",
+                "U0145",
+                "U0146",
+                "U0147",
+                "U0148",
+                "U0149",
+                "U0150",
+                "U0151",
+                "U0152",
+                "U0153",
+                "U0154",
+                "U0155",
+                "U0156",
+                "U0157",
+                "U0158",
+                "U0159",
+                "U0160",
+                "U0161",
+                "U0162",
+                "U0163",
+                "U0164",
+                "U0165",
+                "U0166",
+                "U0167",
+                "U0168",
+                "U0169",
+                "U0170",
+                "U0171",
+                "U0172",
+                "U0173",
+                "U0174",
+                "U0175",
+                "U0176",
+                "U0177",
+                "U0178",
+                "U0179",
+                "U0180",
+                "U0181",
+                "U0182",
+                "U0183",
+                "U0184",
+                "U0185",
+                "U0186",
+                "U0187",
+                "U0188",
+                "U0189",
+                "U0190",
+                "U0191",
+                "U0192",
+                "U0193",
+                "U0194",
+                "U0195",
+                "U0196",
+                "U0197",
+                "U0198",
+                "U0199",
+                "U0200",
+                "U0201",
+                "U0202",
+                "U0203",
+                "U0204",
+                "U0205",
+                "U0206",
+                "U0207",
+                "U0208",
+                "U0209",
+                "U0210",
+                "U0211",
+                "U0212",
+                "U0213",
+                "U0214",
+                "U0215",
+                "U0216",
+                "U0217",
+                "U0218",
+                "U0219",
+                "U0220",
+                "U0221",
+                "U0222",
+                "U0223",
+                "U0224",
+                "U0225",
+                "U0226",
+                "U0227",
+                "U0228",
+                "U0229",
+                "U0230",
+                "U0231",
+                "U0232",
+                "U0233",
+                "U0234",
+                "U0235",
+                "U0236",
+                "U0237",
+                "U0238",
+                "U0239",
+                "U0240",
+                "U0241",
+                "U0242",
+                "U0243",
+                "U0244",
+                "U0245",
+                "U0246",
+                "U0247",
+                "U0248",
+                "U0249",
+                "U0250",
+                "U0251",
+                "U0252",
+                "U0253",
+                "U0254",
+                "U0255",
+                "U0256",
+                "U0257",
+                "U0258",
+                "U0259",
+                "U0260",
+                "U0261",
+                "U0262",
+                "U0263",
+                "U0264",
+                "U0265",
+                "U0266",
+                "U0267",
+                "U0268",
+                "U0269",
+                "U0270",
+                "U0271",
+                "U0272",
+                "U0273",
+                "U0274",
+                "U0275",
+                "U0276",
+                "U0277",
+                "U0278",
+                "U0279",
+                "U0280",
+                "U0281",
+                "U0282",
+                "U0283",
+                "U0284",
+                "U0285",
+                "U0286",
+                "U0287",
+                "U0288",
+                "U0289",
+                "U0290",
+                "U0291",
+                "U0292",
+                "U0293",
+                "U0294",
+                "U0295",
+                "U0296",
+                "U0297",
+                "U0298",
+                "U0299",
+                "U0300",
+                "U0301",
+                "U0302",
+                "U0303",
+                "U0304",
+                "U0305",
+                "U0306",
+                "U0307",
+                "U0308",
+                "U0309",
+                "U0310",
+                "U0311",
+                "U0312",
+                "U0313",
+                "U0314",
+                "U0315",
+                "U0316",
+                "U0317",
+                "U0318",
+                "U0319",
+                "U0320",
+                "U0321",
+                "U0322",
+                "U0323",
+                "U0324",
+                "U0325",
+                "U0326",
+                "U0327",
+                "U0328",
+                "U0329",
+                "U0330",
+                "U0331",
+                "U0332",
+                "U0333",
+                "U0334",
+                "U0335",
+                "U0336",
+                "U0337",
+                "U0338",
+                "U0339",
+                "U0340",
+                "U0341",
+                "U0342",
+                "U0343",
+                "U0344",
+                "U0345",
+                "U0346",
+                "U0347",
+                "U0348",
+                "U0349",
+                "U0350",
+                "U0351",
+                "U0352",
+                "U0353",
+                "U0354",
+                "U0355",
+                "U0356",
+                "U0357",
+                "U0358",
+                "U0359",
+                "U0360",
+                "U0361",
+                "U0362",
+                "U0363",
+                "U0364",
+                "U0365",
+                "U0366",
+                "U0367",
+                "U0368",
+                "U0369",
+                "U0370",
+                "U0371",
+                "U0372",
+                "U0373",
+                "U0374",
+                "U0375",
+                "U0376",
+                "U0377",
+                "U0378",
+                "U0379",
+                "U0380",
+                "U0381",
+                "U0382",
+                "U0383",
+                "U0384",
+                "U0385",
+                "U0386",
+                "U0387",
+                "U0388",
+                "U0389",
+                "U0390",
+                "U0391",
+                "U0392",
+                "U0393",
+                "U0394",
+                "U0395",
+                "U0396",
+                "U0397",
+                "U0398",
+                "U0399",
+                "U0400",
+                "U0401",
+                "U0402",
+                "U0403",
+                "U0404",
+                "U0405",
+                "U0406",
+                "U0407",
+                "U0408",
+                "U0409",
+                "U0410",
+                "U0411",
+                "U0412",
+                "U0413",
+                "U0414",
+                "U0415",
+                "U0416",
+                "U0417",
+                "U0418",
+                "U0419",
+                "U0420",
+                "U0421",
+                "U0422",
+                "U0423",
+                "U0424",
+                "U0425",
+                "U0426",
+                "U0427",
+                "U0428",
+                "U0429",
+                "U0430",
+                "U0431",
+                "U0432",
+                "U0433",
+                "U0434",
+                "U0435",
+                "U0436",
+                "U0437",
+                "U0438",
+                "U0439",
+                "U0440",
+                "U0441",
+                "U0442",
+                "U0443",
+                "U0444",
+                "U0445",
+                "U0446",
+                "U0447",
+                "U0448",
+                "U0449",
+                "U0450",
+                "U0451",
+                "U0452",
+                "U0453",
+                "U0454",
+                "U0455",
+                "U0456",
+                "U0457",
+                "U0458",
+                "U0459",
+                "U0460",
+                "U0461",
+                "U0462",
+                "U0463",
+                "U0464",
+                "U0465",
+                "U0466",
+                "U0467",
+                "U0468",
+                "U0469",
+                "U0470",
+                "U0471",
+                "U0472",
+                "U0473",
+                "U0474",
+                "U0475",
+                "U0476",
+                "U0477",
+                "U0478",
+                "U0479",
+                "U0480",
+                "U0481",
+                "U0482",
+                "U0483",
+                "U0484",
+                "U0485",
+                "U0486",
+                "U0487",
+                "U0488",
+                "U0489",
+                "U0490",
+                "U0491",
+                "U0492",
+                "U0493",
+                "U0494",
+                "U0495",
+                "U0496",
+                "U0497",
+                "U0498",
+                "U0499",
+                "U0500",
+                "U0501",
+                "U0502",
+                "U0503",
+                "U0504",
+                "U0505",
+                "U0506",
+                "U0507",
+                "U0508",
+                "U0509",
+                "U0510",
+                "U0511",
+                "U0512",
+                "U0513",
+                "U0514",
+                "U0515",
+                "U0516",
+                "U0517",
+                "U0518",
+                "U0519",
+                "U0520",
+                "U0521",
+                "U0522",
+                "U0523",
+                "U0524",
+                "U0525",
+                "U0526",
+                "U0527",
+                "U0528",
+                "U0529",
+                "U0530",
+                "U0531",
+                "U0532",
+                "U0533",
+                "U0534",
+                "U0535",
+                "U0536",
+                "U0537",
+                "U0538",
+                "U0539",
+                "U0540",
+                "U0541",
+                "U0542",
+                "U0543",
+                "U0544",
+                "U0545",
+                "U0546",
+                "U0547",
+                "U0548",
+                "U0549",
+                "U0550",
+                "U0551",
+                "U0552",
+                "U0553",
+                "U0554",
+                "U0555",
+                "U0556",
+                "U0557",
+                "U0558",
+                "U0559",
+                "U0560",
+                "U0561",
+                "U0562",
+                "U0563",
+                "U0564",
+                "U0565",
+                "U0566",
+                "U0567",
+                "U0568",
+                "U0569",
+                "U0570",
+                "U0571",
+                "U0572",
+                "U0573",
+                "U0574",
+                "U0575",
+                "U0576",
+                "U0577",
+                "U0578",
+                "U0579",
+                "U0580",
+                "U0581",
+                "U0582",
+                "U0583",
+                "U0584",
+                "U0585",
+                "U0586",
+                "U0587",
+                "U0588",
+                "U0589",
+                "U0590",
+                "U0591",
+                "U0592",
+                "U0593",
+                "U0594",
+                "U0595",
+                "U0596",
+                "U0597",
+                "U0598",
+                "U0599",
+                "U0600",
+                "U0601",
+                "U0602",
+                "U0603",
+                "U0604",
+                "U0605",
+                "U0606",
+                "U0607",
+                "U0608",
+                "U0609",
+                "U0610",
+                "U0611",
+                "U0612",
+                "U0613",
+                "U0614",
+                "U0615",
+                "U0616",
+                "U0617",
+                "U0618",
+                "U0619",
+                "U0620",
+                "U0621",
+                "U0622",
+                "U0623",
+                "U0624",
+                "U0625",
+                "U0626",
+                "U0627",
+                "U0628",
+                "U0629",
+                "U0630",
+                "U0631",
+                "U0632",
+                "U0633",
+                "U0634",
+                "U0635",
+                "U0636",
+                "U0637",
+                "U0638",
+                "U0639",
+                "U0640",
+                "U0641",
+                "U0642",
+                "U0643",
+                "U0644",
+                "U0645",
+                "U0646",
+                "U0647",
+                "U0648",
+                "U0649",
+                "U0650",
+                "U0651",
+                "U0652",
+                "U0653",
+                "U0654",
+                "U0655",
+                "U0656",
+                "U0657",
+                "U0658",
+                "U0659",
+                "U0660",
+                "U0661",
+                "U0662",
+                "U0663",
+                "U0664",
+                "U0665",
+                "U0666",
+                "U0667",
+                "U0668",
+                "U0669",
+                "U0670",
+                "U0671",
+                "U0672",
+                "U0673",
+                "U0674",
+                "U0675",
+                "U0676",
+                "U0677",
+                "U0678",
+                "U0679",
+                "U0680",
+                "U0681",
+                "U0682",
+                "U0683",
+                "U0684",
+                "U0685",
+                "U0686",
+                "U0687",
+                "U0688",
+                "U0689",
+                "U0690",
+                "U0691",
+                "U0692",
+                "U0693",
+                "U0694",
+                "U0695",
+                "U0696",
+                "U0697",
+                "U0698",
+                "U0699",
+                "U0700",
+                "U0701",
+                "U0702",
+                "U0703",
+                "U0704",
+                "U0705",
+                "U0706",
+                "U0707",
+                "U0708",
+                "U0709",
+                "U0710",
+                "U0711",
+                "U0712",
+                "U0713",
+                "U0714",
+                "U0715",
+                "U0716",
+                "U0717",
+                "U0718",
+                "U0719",
+                "U0720",
+                "U0721",
+                "U0722",
+                "U0723",
+                "U0724",
+                "U0725",
+                "U0726",
+                "U0727",
+                "U0728",
+                "U0729",
+                "U0730",
+                "U0731",
+                "U0732",
+                "U0733",
+                "U0734",
+                "U0735",
+                "U0736",
+                "U0737",
+                "U0738",
+                "U0739",
+                "U0740",
+                "U0741",
+                "U0742",
+                "U0743",
+                "U0744",
+                "U0745",
+                "U0746",
+                "U0747",
+                "U0748",
+                "U0749",
+                "U0750",
+                "U0751",
+                "U0752",
+                "U0753",
+                "U0754",
+                "U0755",
+                "U0756",
+                "U0757",
+                "U0758",
+                "U0759",
+                "U0760",
+                "U0761",
+                "U0762",
+                "U0763",
+                "U0764",
+                "U0765",
+                "U0766",
+                "U0767",
+                "U0768",
+                "U0769",
+                "U0770",
+                "U0771",
+                "U0772",
+                "U0773",
+                "U0774",
+                "U0775",
+                "U0776",
+                "U0777",
+                "U0778",
+                "U0779",
+                "U0780",
+                "U0781",
+                "U0782",
+                "U0783",
+                "U0784",
+                "U0785",
+                "U0786",
+                "U0787",
+                "U0788",
+                "U0789",
+                "U0790",
+                "U0791",
+                "U0792",
+                "U0793",
+                "U0794",
+                "U0795",
+                "U0796",
+                "U0797",
+                "U0798",
+                "U0799",
+                "U0800",
+                "U0801",
+                "U0802",
+                "U0803",
+                "U0804",
+                "U0805",
+                "U0806",
+                "U0807",
+                "U0808",
+                "U0809",
+                "U0810",
+                "U0811",
+                "U0812",
+                "U0813",
+                "U0814",
+                "U0815",
+                "U0816",
+                "U0817",
+                "U0818",
+                "U0819",
+                "U0820",
+                "U0821",
+                "U0822",
+                "U0823",
+                "U0824",
+                "U0825",
+                "U0826",
+                "U0827",
+                "U0828",
+                "U0829",
+                "U0830",
+                "U0831",
+                "U0832",
+                "U0833",
+                "U0834",
+                "U0835",
+                "U0836",
+                "U0837",
+                "U0838",
+                "U0839",
+                "U0840",
+                "U0841",
+                "U0842",
+                "U0843",
+                "U0844",
+                "U0845",
+                "U0846",
+                "U0847",
+                "U0848",
+                "U0849",
+                "U0850",
+                "U0851",
+                "U0852",
+                "U0853",
+                "U0854",
+                "U0855",
+                "U0856",
+                "U0857",
+                "U0858",
+                "U0859",
+                "U0860",
+                "U0861",
+                "U0862",
+                "U0863",
+                "U0864",
+                "U0865",
+                "U0866",
+                "U0867",
+                "U0868",
+                "U0869",
+                "U0870",
+                "U0871",
+                "U0872",
+                "U0873",
+                "U0874",
+                "U0875",
+                "U0876",
+                "U0877",
+                "U0878",
+                "U0879",
+                "U0880",
+                "U0881",
+                "U0882",
+                "U0883",
+                "U0884",
+                "U0885",
+                "U0886",
+                "U0887",
+                "U0888",
+                "U0889",
+                "U0890",
+                "U0891",
+                "U0892",
+                "U0893",
+                "U0894",
+                "U0895",
+                "U0896",
+                "U0897",
+                "U0898",
+                "U0899",
+                "U0900",
+                "U0901",
+                "U0902",
+                "U0903",
+                "U0904",
+                "U0905",
+                "U0906",
+                "U0907",
+                "U0908",
+                "U0909",
+                "U0910",
+                "U0911",
+                "U0912",
+                "U0913",
+                "U0914",
+                "U0915",
+                "U0916",
+                "U0917",
+                "U0918",
+                "U0919",
+                "U0920",
+                "U0921",
+                "U0922",
+                "U0923",
+                "U0924",
+                "U0925",
+                "U0926",
+                "U0927",
+                "U0928",
+                "U0929",
+                "U0930",
+                "U0931",
+                "U0932",
+                "U0933",
+                "U0934",
+                "U0935",
+                "U0936",
+                "U0937",
+                "U0938",
+                "U0939",
+                "U0940",
+                "U0941",
+                "U0942",
+                "U0943",
+                "U0944",
+                "U0945",
+                "U0946",
+                "U0947",
+                "U0948",
+                "U0949",
+                "U0950",
+                "U0951",
+                "U0952",
+                "U0953",
+                "U0954",
+                "U0955",
+                "U0956",
+                "U0957",
+                "U0958",
+                "U0959",
+                "U0960",
+                "U0961",
+                "U0962",
+                "U0963",
+                "U0964",
+                "U0965",
+                "U0966",
+                "U0967",
+                "U0968",
+                "U0969",
+                "U0970",
+                "U0971",
+                "U0972",
+                "U0973",
+                "U0974",
+                "U0975",
+                "U0976",
+                "U0977",
+                "U0978",
+                "U0979",
+                "U0980",
+                "U0981",
+                "U0982",
+                "U0983",
+                "U0984",
+                "U0985",
+                "U0986",
+                "U0987",
+                "U0988",
+                "U0989",
+                "U0990",
+                "U0991",
+                "U0992",
+                "U0993",
+                "U0994",
+                "U0995",
+                "U0996",
+                "U0997",
+                "U0998",
+                "U0999",
+                "U1000",
+                "U1001",
+                "U1002",
+                "U1003",
+                "U1004",
+                "U1005",
+                "U1006",
+                "U1007",
+                "U1008",
+                "U1009",
+                "U1010",
+                "U1011",
+                "U1012",
+                "U1013",
+                "U1014",
+                "U1015",
+                "U1016",
+                "U1017",
+                "U1018",
+                "U1019",
+                "U1020",
+                "U1021",
+                "U1022",
+                "U1023",
+                "U1024",
+                "U1025",
+                "U1026",
+                "U1027",
+                "U1028",
+                "U1029",
+                "U1030",
+                "U1031",
+                "U1032",
+                "U1033",
+                "U1034",
+                "U1035",
+                "U1036",
+                "U1037",
+                "U1038",
+                "U1039",
+                "U1040",
+                "U1041",
+                "U1042",
+                "U1043",
+                "U1044",
+                "U1045",
+                "U1046",
+                "U1047",
+                "U1048",
+                "U1049",
+                "U1050",
+                "U1051",
+                "U1052",
+                "U1053",
+                "U1054",
+                "U1055",
+                "U1056",
+                "U1057",
+                "U1058",
+                "U1059",
+                "U1060",
+                "U1061",
+                "U1062",
+                "U1063",
+                "U1064",
+                "U1065",
+                "U1066",
+                "U1067",
+                "U1068",
+                "U1069",
+                "U1070",
+                "U1071",
+                "U1072",
+                "U1073",
+                "U1074",
+                "U1075",
+                "U1076",
+                "U1077",
+                "U1078",
+                "U1079",
+                "U1080",
+                "U1081",
+                "U1082",
+                "U1083",
+                "U1084",
+                "U1085",
+                "U1086",
+                "U1087",
+                "U1088",
+                "U1089",
+                "U1090",
+                "U1091",
+                "U1092",
+                "U1093",
+                "U1094",
+                "U1095",
+                "U1096",
+                "U1097",
+                "U1098",
+                "U1099",
+                "U1100",
+                "U1101",
+                "U1102",
+                "U1103",
+                "U1104",
+                "U1105",
+                "U1106",
+                "U1107",
+                "U1108",
+                "U1109",
+                "U1110",
+                "U1111",
+                "U1112",
+                "U1113",
+                "U1114",
+                "U1115",
+                "U1116",
+                "U1117",
+                "U1118",
+                "U1119",
+                "U1120",
+                "U1121",
+                "U1122",
+                "U1123",
+                "U1124",
+                "U1125",
+                "U1126",
+                "U1127",
+                "U1128",
+                "U1129",
+                "U1130",
+                "U1131",
+                "U1132",
+                "U1133",
+                "U1134",
+                "U1135",
+                "U1136",
+                "U1137",
+                "U1138",
+                "U1139",
+                "U1140",
+                "U1141",
+                "U1142",
+                "U1143",
+                "U1144",
+                "U1145",
+                "U1146",
+                "U1147",
+                "U1148",
+                "U1149",
+                "U1150",
+                "U1151",
+                "U1152",
+                "U1153",
+                "U1154",
+                "U1155",
+                "U1156",
+                "U1157",
+                "U1158",
+                "U1159",
+                "U1160",
+                "U1161",
+                "U1162",
+                "U1163",
+                "U1164",
+                "U1165",
+                "U1166",
+                "U1167",
+                "U1168",
+                "U1169",
+                "U1170",
+                "U1171",
+                "U1172",
+                "U1173",
+                "U1174",
+                "U1175",
+                "U1176",
+                "U1177",
+                "U1178",
+                "U1179",
+                "U1180",
+                "U1181",
+                "U1182",
+                "U1183",
+                "U1184",
+                "U1185",
+                "U1186",
+                "U1187",
+                "U1188",
+                "U1189",
+                "U1190",
+                "U1191",
+                "U1192",
+                "U1193",
+                "U1194",
+                "U1195",
+                "U1196",
+                "U1197",
+                "U1198",
+                "U1199",
+                "U1200",
+                "U1201",
+                "U1202",
+                "U1203",
+                "U1204",
+                "U1205",
+                "U1206",
+                "U1207",
+                "U1208",
+                "U1209",
+                "U1210",
+                "U1211",
+                "U1212",
+                "U1213",
+                "U1214",
+                "U1215",
+                "U1216",
+                "U1217",
+                "U1218",
+                "U1219",
+                "U1220",
+                "U1221",
+                "U1222",
+                "U1223",
+                "U1224",
+                "U1225",
+                "U1226",
+                "U1227",
+                "U1228",
+                "U1229",
+                "U1230",
+                "U1231",
+                "U1232",
+                "U1233",
+                "U1234",
+                "U1235",
+                "U1236",
+                "U1237",
+                "U1238",
+                "U1239",
+                "U1240",
+                "U1241",
+                "U1242",
+                "U1243",
+                "U1244",
+                "U1245",
+                "U1246",
+                "U1247",
+                "U1248",
+                "U1249",
+                "U1250",
+                "U1251",
+                "U1252",
+                "U1253",
+                "U1254",
+                "U1255",
+                "U1256",
+                "U1257",
+                "U1258",
+                "U1259",
+                "U1260",
+                "U1261",
+                "U1262",
+                "U1263",
+                "U1264",
+                "U1265",
+                "U1266",
+                "U1267",
+                "U1268",
+                "U1269",
+                "U1270",
+                "U1271",
+                "U1272",
+                "U1273",
+                "U1274",
+                "U1275",
+                "U1276",
+                "U1277",
+                "U1278",
+                "U1279",
+                "U1280",
+                "U1281",
+                "U1282",
+                "U1283",
+                "U1284",
+                "U1285",
+                "U1286",
+                "U1287",
+                "U1288",
+                "U1289",
+                "U1290",
+                "U1291",
+                "U1292",
+                "U1293",
+                "U1294",
+                "U1295",
+                "U1296",
+                "U1297",
+                "U1298",
+                "U1299",
+                "U1300",
+                "U1301",
+                "U1302",
+                "U1303",
+                "U1304",
+                "U1305",
+                "U1306",
+                "U1307",
+                "U1308",
+                "U1309",
+                "U1310",
+                "U1311",
+                "U1312",
+                "U1313",
+                "U1314",
+                "U1315",
+                "U1316",
+                "U1317",
+                "U1318",
+                "U1319",
+                "U1320",
+                "U1321",
+                "U1322",
+                "U1323",
+                "U1324",
+                "U1325",
+                "U1326",
+                "U1327",
+                "U1328",
+                "U1329",
+                "U1330",
+                "U1331",
+                "U1332",
+                "U1333",
+                "U1334",
+                "U1335",
+                "U1336",
+                "U1337",
+                "U1338",
+                "U1339",
+                "U1340",
+                "U1341",
+                "U1342",
+                "U1343",
+                "U1344",
+                "U1345",
+                "U1346",
+                "U1347",
+                "U1348",
+                "U1349",
+                "U1350",
+                "U1351",
+                "U1352",
+                "U1353",
+                "U1354",
+                "U1355",
+                "U1356",
+                "U1357",
+                "U1358",
+                "U1359",
+                "U1360",
+                "U1361",
+                "U1362",
+                "U1363",
+                "U1364",
+                "U1365",
+                "U1366",
+                "U1367",
+                "U1368",
+                "U1369",
+                "U1370",
+                "U1371",
+                "U1372",
+                "U1373",
+                "U1374",
+                "U1375",
+                "U1376",
+                "U1377",
+                "U1378",
+                "U1379",
+                "U1380",
+                "U1381",
+                "U1382",
+                "U1383",
+                "U1384",
+                "U1385",
+                "U1386",
+                "U1387",
+                "U1388",
+                "U1389",
+                "U1390",
+                "U1391",
+                "U1392",
+                "U1393",
+                "U1394",
+                "U1395",
+                "U1396",
+                "U1397",
+                "U1398",
+                "U1399",
+                "U1400",
+                "U1401",
+                "U1402",
+                "U1403",
+                "U1404",
+                "U1405",
+                "U1406",
+                "U1407",
+                "U1408",
+                "U1409",
+                "U1410",
+                "U1411",
+                "U1412",
+                "U1413",
+                "U1414",
+                "U1415",
+                "U1416",
+                "U1417",
+                "U1418",
+                "U1419",
+                "U1420",
+                "U1421",
+                "U1422",
+                "U1423",
+                "U1424",
+                "U1425",
+                "U1426",
+                "U1427",
+                "U1428",
+                "U1429",
+                "U1430",
+                "U1431",
+                "U1432",
+                "U1433",
+                "U1434",
+                "U1435",
+                "U1436",
+                "U1437",
+                "U1438",
+                "U1439",
+                "U1440",
+                "U1441",
+                "U1442",
+                "U1443",
+                "U1444",
+                "U1445",
+                "U1446",
+                "U1447",
+                "U1448",
+                "U1449",
+                "U1450",
+                "U1451",
+                "U1452"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {
+            "official_rows": 19074,
+            "official_comparisons": 95370
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m4-query-unicode.json"
+        }
+      ]
+    },
+    "RegistryProcessDeathDeviceTest": {
+      "class": "RegistryProcessDeathDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/RegistryProcessDeathDeviceTest.kt",
+      "source_sha256": "b2e0c8fc3e3196ff962009c3c7719f30a9472ee34b733fd3db5e9e4740cd2cc2",
+      "reports": [
+        {
+          "name": "m3-process-death.json",
+          "arrays": {
+            "cases": {
+              "count": 7,
+              "identity_key": "id",
+              "identities": [
+                "actual-process-death-after_verify",
+                "actual-process-death-after_fsync",
+                "actual-process-death-after_rename",
+                "actual-process-death-after_version_insert",
+                "actual-process-death-after_active_write",
+                "actual-process-death-before_commit",
+                "actual-process-death-after_commit"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-process-death.json"
+        }
+      ]
+    },
+    "ReleaseTrustCoreDeviceTest": {
+      "class": "ReleaseTrustCoreDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ReleaseTrustCoreDeviceTest.kt",
+      "source_sha256": "60f75a055a775697797af434dba5f92c20fb3ecdd7cd876285b4663efd170133",
+      "reports": [
+        {
+          "name": "m3-release-trust-core.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "calibration-schema-only",
+                "known-publisher-uncalibrated",
+                "unknown-publisher",
+                "pack-cannot-add-key",
+                "claimed-key-mismatch"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m3-release-trust-core.json"
+        }
+      ]
+    },
+    "RelevanceDeviceTest": {
+      "class": "RelevanceDeviceTest",
+      "methods": 2,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/RelevanceDeviceTest.kt",
+      "source_sha256": "cb93bec8cd6e37ff265e99ed5991ba192d692d53c7ba2740398b03474dd95f57",
+      "reports": [
+        {
+          "name": "m4-relevance.json",
+          "arrays": {
+            "retrieval_cases": {
+              "count": 8,
+              "identity_key": "id",
+              "identities": [
+                "TOP_FAIL_LOWER_PASS",
+                "TOP_UNCAL_LOWER_PASS",
+                "TOP_PASS_LOWER_PASS",
+                "LEGACY_STATUS_DEFAULT",
+                "EXACT_THEN_FAIL",
+                "EXACT_UNCAL_THEN_PASS",
+                "ALL_EXACT",
+                "DEDUP_OWN_STRICT"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {
+            "fixed_contract_cases": 32,
+            "signed_packs": 8
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\relevance-intermediate-parity-0001\\m4-relevance.json"
+        },
+        {
+          "name": "m4-relevance-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 4,
+              "identity_key": "id",
+              "identities": [
+                "TOP_FAIL_LOWER_PASS",
+                "TOP_UNCAL_LOWER_PASS",
+                "TOP_PASS_LOWER_PASS",
+                "LEGACY_STATUS_DEFAULT"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\relevance-intermediate-parity-0001\\m4-relevance-runtime.json"
+        }
+      ]
+    },
+    "RepresentationDeviceTest": {
+      "class": "RepresentationDeviceTest",
+      "methods": 2,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/RepresentationDeviceTest.kt",
+      "source_sha256": "defd275362fa12acbacce3b91aebe1bc2d8b6c16dbb04b820394dcea6adec24a",
+      "reports": [
+        {
+          "name": "m4-representations.json",
+          "arrays": {
+            "retrieval_cases": {
+              "count": 14,
+              "identity_key": "id",
+              "identities": [
+                "en-canonical",
+                "fr-official",
+                "ar-reviewed",
+                "fr-reviewed",
+                "regional",
+                "preferred",
+                "missing",
+                "machine-fr",
+                "machine-ar",
+                "ambiguous",
+                "derived-control",
+                "canonical-control",
+                "title-control",
+                "xml-data"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            },
+            "invalid_imports": {
+              "count": 6,
+              "identity_key": "id",
+              "identities": [
+                "bad-render-hash",
+                "official-no-source",
+                "human-no-reviewer",
+                "human-bad-date",
+                "unknown-method",
+                "bad-canonical-hash"
+              ],
+              "accepted": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ]
+            }
+          },
+          "fixed_fields": {
+            "fixed_contract_cases": 32,
+            "signed_packs": 20
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\source-text-intermediate-parity-0001\\m4-representations.json"
+        },
+        {
+          "name": "m4-representation-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 8,
+              "identity_key": "id",
+              "identities": [
+                "fr-official",
+                "ar-reviewed",
+                "missing",
+                "machine-fr",
+                "ambiguous",
+                "derived-control",
+                "canonical-control",
+                "title-control"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\source-text-intermediate-parity-0001\\m4-representation-runtime.json"
+        }
+      ]
+    },
+    "ResidualSecurityDeviceTest": {
+      "class": "ResidualSecurityDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ResidualSecurityDeviceTest.kt",
+      "source_sha256": "866ae152040ae767a4610384d9a7a7080f5213ccc16163b065599d0e39d5ea86",
+      "reports": [
+        {
+          "name": "m3-residual-security.json",
+          "arrays": {
+            "cases": {
+              "count": 35,
+              "identity_key": "id",
+              "identities": [
+                "valid",
+                "one-byte-knowledge-sqlite",
+                "one-byte-dense-kdx",
+                "wrong-signature",
+                "unknown-signer",
+                "wrong-message",
+                "missing-signature",
+                "broken-db-header",
+                "kdx-magic",
+                "kdx-version",
+                "kdx-dtype",
+                "kdx-metric",
+                "kdx-dimension",
+                "kdx-flags",
+                "kdx-count",
+                "kdx-profile-hash",
+                "kdx-mapping-hash",
+                "kdx-truncated",
+                "kdx-extra-byte",
+                "kdx-nan",
+                "kdx-positive-infinity",
+                "kdx-negative-infinity",
+                "kdx-norm-zero",
+                "kdx-norm-small",
+                "kdx-norm-large",
+                "kdx-norm-near-low",
+                "kdx-norm-near-high",
+                "kdx-norm-negative-unit",
+                "pack-id-255",
+                "version-255",
+                "pack-id-256",
+                "version-256",
+                "json-depth-33",
+                "json-depth-4096",
+                "noncanonical-signed"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-residual-security.json"
+        }
+      ]
+    },
+    "SelectionDeviceTest": {
+      "class": "SelectionDeviceTest",
+      "methods": 3,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SelectionDeviceTest.kt",
+      "source_sha256": "14dbc3542c59150d87d361abe34d701c2d612c6b32e8803361304325238d2b4a",
+      "reports": [
+        {
+          "name": "m4-selection-tokenizer.json",
+          "arrays": {
+            "cases": {
+              "count": 9,
+              "identity_key": "id",
+              "identities": [
+                "atomic-last",
+                "five-mandatory",
+                "missing-global",
+                "mandatory-oversize",
+                "optional-oversize",
+                "all-oversize",
+                "boundary1200",
+                "boundary1201",
+                "atomic-format-control"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {
+            "fixed_plans": 28,
+            "signed_tokenizer_cases": 8,
+            "post_observation_format_controls": 1
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m4-selection-tokenizer.json"
+        },
+        {
+          "name": "m4-selection-runtime.json",
+          "arrays": {
+            "cases": {
+              "count": 8,
+              "identity_key": "id",
+              "identities": [
+                "atomic-last",
+                "five-mandatory",
+                "missing-global",
+                "mandatory-oversize",
+                "optional-oversize",
+                "all-oversize",
+                "boundary1201",
+                "atomic-format-control"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m4-selection-runtime.json"
+        },
+        {
+          "name": "m4-selection-guards.json",
+          "arrays": {
+            "cases": {
+              "count": 2,
+              "identity_key": "id",
+              "identities": [
+                "manifest",
+                "backend"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m4-selection-guards.json"
+        }
+      ]
+    },
+    "SourceDetailsDeviceTest": {
+      "class": "SourceDetailsDeviceTest",
+      "methods": 2,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsDeviceTest.kt",
+      "source_sha256": "172cd01e5a3f45ded44a721bf41e0511e1940977defc104cdce24ee68dbd235f",
+      "reports": [
+        {
+          "name": "m4-source-details-rows.json",
+          "arrays": {
+            "cases": {
+              "count": 17,
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m4-source-details-rows.json"
+        },
+        {
+          "name": "m4-source-details-rejections.json",
+          "arrays": {
+            "cases": {
+              "count": 11,
+              "identity_key": "id",
+              "identities": [
+                "tampered-knowledge.sqlite",
+                "tampered-dense.kdx",
+                "tampered-manifest.json",
+                "tampered-manifest.sig",
+                "tampered-transport.kpack",
+                "tampered-sources/thermal.txt",
+                "unexpected-installed-file",
+                "installed-symbolic-link-even-with-correct-payload-bytes",
+                "wrong-requested-identity",
+                "missing-version",
+                "removed-version"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m4-source-details-rejections.json"
+        }
+      ]
+    },
+    "SourceDetailsPolicyTest": {
+      "class": "SourceDetailsPolicyTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsPolicyTest.kt",
+      "source_sha256": "d3376185b6561c1a58bf6d115562641cd661483b7d156fe34fe8cc3ba9b465da",
+      "reports": [
+        {
+          "name": "m4-source-details-policy.json",
+          "arrays": {
+            "cases": {
+              "count": 2,
+              "identity_key": "id",
+              "identities": [
+                "production-missing-inspection-no-verified-dto-or-activation",
+                "production-app-rejects-new-unapproved-fixture-key"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-policy-full-0001\\m4-source-details-policy.json"
+        }
+      ]
+    },
+    "SourceDetailsUiTest": {
+      "class": "SourceDetailsUiTest",
+      "methods": 2,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsUiTest.kt",
+      "source_sha256": "3f942e401fdb6e04d729b33c26b5cc81bc425fde171e9c0841ce760528c1c2cc",
+      "reports": [
+        {
+          "name": "m4-source-details-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "actual-model-answer-captured-canonical-license-unknown-uri-and-generator-text",
+                "actual-active-details-reverified-and-original-answer-context-retained",
+                "same-deactivation-path-closes-context-inactive-details-do-not-activate",
+                "same-explicit-activation-path-from-details",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-ui-source-details-0002\\m4-source-details-ui.json"
+        },
+        {
+          "name": "m4-source-details-languages-ui.json",
+          "arrays": {
+            "cases": {
+              "count": 2,
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-ui-source-details-0002\\m4-source-details-languages-ui.json"
+        }
+      ]
+    },
+    "SourceDetailsViewModelTest": {
+      "class": "SourceDetailsViewModelTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceDetailsViewModelTest.kt",
+      "source_sha256": "78450df8282c74993ae6f9a83c154ee8f9679eb8c1ccf23085545b1e31dad7f9",
+      "reports": [
+        {
+          "name": "m4-source-details-viewmodel.json",
+          "arrays": {
+            "cases": {
+              "count": 5,
+              "identity_key": "id",
+              "identities": [
+                "actual-cited-answer-attribution-and-captured-context-survive-active-inspection",
+                "closing-details-retains-original-answer",
+                "inactive-inspection-does-not-activate-or-reuse-old-answer",
+                "wrong-requested-identity-fails-without-verified-details-or-mutation",
+                "explicit-fifty-owner-public-files-unchanged"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-details-full-0001\\m4-source-details-viewmodel.json"
+        }
+      ]
+    },
+    "SourceMetadataDeviceTest": {
+      "class": "SourceMetadataDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceMetadataDeviceTest.kt",
+      "source_sha256": "485e5a04427dd10c93e7ae758ec7b1365ce34dafb408c013311af4f8156617f6",
+      "reports": [
+        {
+          "name": "m4-source-metadata.json",
+          "arrays": {
+            "metadata_cases": {
+              "count": 8,
+              "pass_key": "status",
+              "pass_value": "PASS"
+            },
+            "retrieval_cases": {
+              "count": 12,
+              "identity_key": "id",
+              "identities": [
+                "HISTORICAL_ONLY",
+                "CURRENT_REJECTS_SUPERSEDED",
+                "START_INCLUSIVE_END_EXCLUSIVE",
+                "SOLE_BASELINE",
+                "CHUNK_START_INCLUSIVE",
+                "CURRENT_HISTORICAL_STATUS_NOT_REPEALED",
+                "CHUNK_END_EXCLUSIVE_FUTURE_START",
+                "ALL_KNOWN_EXPIRED",
+                "WRONG_JURISDICTION_SOURCE_ONLY",
+                "UNREQUESTED_JURISDICTION",
+                "UNKNOWN_EARLY",
+                "UNKNOWN_LATE"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {
+            "directed_relations": 5
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\device-source-metadata-0001\\m4-source-metadata.json"
+        }
+      ]
+    },
+    "SourceTextDeviceTest": {
+      "class": "SourceTextDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/SourceTextDeviceTest.kt",
+      "source_sha256": "65fbbaa4cc7ac672c5aa1a3fb663bd1092420f53851933ef6f742ae09d8478d6",
+      "reports": [
+        {
+          "name": "m4-source-text.json",
+          "arrays": {
+            "imports": {
+              "count": 6,
+              "identity_key": "id",
+              "identities": [
+                "bad-source-nel",
+                "bad-reviewer-nel",
+                "bad-render-nel",
+                "bad-canonical-nel",
+                "good-source-nel",
+                "good-reviewer-nel"
+              ],
+              "accepted": [
+                false,
+                false,
+                false,
+                false,
+                true,
+                true
+              ]
+            },
+            "tokenizer_cases": {
+              "count": 2,
+              "identity_key": "id",
+              "identities": [
+                "good-source-nel",
+                "good-reviewer-nel"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {
+            "fixed_presence_cases": 38,
+            "whitespace_points": 29,
+            "valid_scalars_checked": 1112064,
+            "blank_resolver_checks": 116
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\source-text-intermediate-parity-0001\\m4-source-text.json"
+        }
+      ]
+    },
+    "StrictArchiveDeviceTest": {
+      "class": "StrictArchiveDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/StrictArchiveDeviceTest.kt",
+      "source_sha256": "0224596096d81205dde7b710e8411e3cc04fb2f3c5b585342a8c4ac275e88670",
+      "reports": [
+        {
+          "name": "m3-archive-validation.json",
+          "arrays": {
+            "cases": {
+              "count": 65,
+              "identity_key": "id",
+              "identities": [
+                "valid-method-0",
+                "valid-descriptor-0-1",
+                "valid-descriptor-0-2",
+                "valid-local64-0",
+                "valid-local64-descriptor-0",
+                "valid-method-8",
+                "valid-descriptor-8-1",
+                "valid-descriptor-8-2",
+                "valid-local64-8",
+                "valid-local64-descriptor-8",
+                "valid-comment",
+                "unicode-extra-valid",
+                "timestamp-extra",
+                "valid-unicode",
+                "local-name",
+                "invalid-utf8",
+                "local-flags",
+                "local-method",
+                "local-version",
+                "local-crc",
+                "local-compressed",
+                "local-size",
+                "central-size",
+                "central-compressed",
+                "central-local-offset",
+                "disk-entry",
+                "symlink",
+                "directory-bit",
+                "encryption",
+                "unknown-flag",
+                "unknown-method",
+                "unknown-version",
+                "short-extra",
+                "duplicate-extra",
+                "aes-extra",
+                "zip64-central",
+                "unicode-extra-mismatch",
+                "hidden-gap",
+                "missing-utf8",
+                "descriptor-crc",
+                "descriptor-size",
+                "crc-payload",
+                "central-crc-payload",
+                "truncated",
+                "appended-bytes",
+                "prefixed-bytes",
+                "split-disk",
+                "case-duplicate",
+                "full-fold-duplicate",
+                "sigma-duplicate",
+                "ligature-duplicate",
+                "traversal",
+                "absolute",
+                "backslash",
+                "drive",
+                "dos",
+                "decomposed",
+                "trailing-dot",
+                "trailing-space",
+                "control",
+                "empty-segment",
+                "long-segment",
+                "script",
+                "model",
+                "outside-sources"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-archive-validation.json"
+        }
+      ]
+    },
+    "StrictDatabaseDeviceTest": {
+      "class": "StrictDatabaseDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/StrictDatabaseDeviceTest.kt",
+      "source_sha256": "3d5074dd0db42e13fbc787c744b6cbfffbf3c79b911d4c65aad334a53742370a",
+      "reports": [
+        {
+          "name": "m3-database-validation.json",
+          "arrays": {
+            "cases": {
+              "count": 48,
+              "identity_key": "id",
+              "identities": [
+                "valid-db",
+                "empty-locator",
+                "empty-canonical",
+                "wrong-canonical-hash",
+                "dangling-source-alias",
+                "dangling-chunk-alias",
+                "bad-alias-normalization",
+                "unicode-alias-normalization",
+                "dangling-relation",
+                "bad-relation-kind",
+                "bad-relation-provenance",
+                "valid-relation",
+                "bad-legal-status",
+                "bad-source-retrieved-date",
+                "bad-source-clock",
+                "bad-source-interval",
+                "bad-chunk-date",
+                "bad-chunk-interval",
+                "undeclared-jurisdiction",
+                "valid-jurisdiction",
+                "undeclared-source-language",
+                "valid-language-variant",
+                "source-hash-invalid",
+                "negative-authority",
+                "snapshot-traversal",
+                "snapshot-undeclared",
+                "valid-snapshot",
+                "snapshot-wrong-original-hash",
+                "reverse-character-location",
+                "invalid-page-location",
+                "wrong-storage-type",
+                "missing-alias-index",
+                "missing-check-constraint",
+                "wrong-fts-columns",
+                "extra-trigger",
+                "broken-fts-index",
+                "broken-sqlite-header",
+                "valid-official-derived-metadata",
+                "valid-human-derived-metadata",
+                "derived-no-reviewer",
+                "derived-bad-reviewed-date",
+                "derived-no-provenance",
+                "derived-unknown-method",
+                "machine-draft-developer",
+                "machine-draft-release",
+                "derived-hash-mismatch",
+                "derived-undeclared-language",
+                "derived-dangling-chunk"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-database-validation.json"
+        }
+      ]
+    },
+    "StrictManifestDeviceTest": {
+      "class": "StrictManifestDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/StrictManifestDeviceTest.kt",
+      "source_sha256": "12ae9bedb7acdb6bdb9faea4adb18076e50a42fb3086a8e59711ea12c23ac6d9",
+      "reports": [
+        {
+          "name": "m3-manifest-schema.json",
+          "arrays": {
+            "cases": {
+              "count": 50,
+              "identity_key": "id",
+              "identities": [
+                "valid-developer",
+                "uncalibrated-release",
+                "valid-calibrated-schema",
+                "valid-prerelease",
+                "huge-semver-core",
+                "semver-leading-core-zero",
+                "semver-leading-prerelease-zero",
+                "semver-empty-prerelease-part",
+                "invalid-release-day",
+                "invalid-freshness-day",
+                "release-non-utc",
+                "schema-string-coercion",
+                "name-numeric-coercion",
+                "name-empty",
+                "publisher-extra-field",
+                "publisher-empty",
+                "languages-not-array",
+                "languages-empty",
+                "languages-duplicate",
+                "language-invalid",
+                "jurisdiction-invalid",
+                "count-string-coercion",
+                "count-boolean-coercion",
+                "count-negative",
+                "count-overflow",
+                "count-fraction",
+                "generator-boolean-string",
+                "generator-boolean-number",
+                "runtime-policy-override",
+                "unknown-calibration-status",
+                "uncalibrated-fabricated-score",
+                "missing-calibration-method",
+                "wrong-calibration-method",
+                "calibrated-missing-score",
+                "calibrated-string-score",
+                "calibrated-boolean-score",
+                "calibrated-score-too-high",
+                "calibrated-cosine-too-low",
+                "calibrated-null-hash",
+                "build-hash-invalid",
+                "missing-build-version",
+                "payload-length-string",
+                "payload-length-boolean",
+                "payload-length-fraction",
+                "payload-length-too-large",
+                "payload-required-string",
+                "mandatory-payload-optional",
+                "payload-mime-invalid",
+                "profile-extra-field",
+                "top-level-override"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-manifest-schema.json"
+        }
+      ]
+    },
+    "ValidationOrderDeviceTest": {
+      "class": "ValidationOrderDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ValidationOrderDeviceTest.kt",
+      "source_sha256": "5f422b6d07e38004527391c57fb8953445ac2874cae57e390c6c4b485ce0ddad",
+      "reports": [
+        {
+          "name": "m3-validation-order.json",
+          "arrays": {
+            "cases": {
+              "count": 9,
+              "identity_key": "id",
+              "identities": [
+                "valid",
+                "broken-db-and-bad-kdx-magic",
+                "broken-db-and-nonfinite-kdx",
+                "mapping-binding-after-validated-db",
+                "broken-db-after-valid-kdx",
+                "norm-upper-inside",
+                "norm-upper-outside",
+                "norm-lower-inside",
+                "norm-lower-outside"
+              ],
+              "pass_key": "passed",
+              "pass_value": true
+            }
+          },
+          "fixed_fields": {},
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m3-validation-order.json"
+        }
+      ]
+    },
+    "ValidityDeviceTest": {
+      "class": "ValidityDeviceTest",
+      "methods": 1,
+      "source": "product/android/app/src/androidTest/java/org/packrag/product/ValidityDeviceTest.kt",
+      "source_sha256": "a6ae718782808ed224065dc447366e6117fcb1a8332166e03e42951984ed0d82",
+      "reports": [
+        {
+          "name": "m4-validity.json",
+          "arrays": {
+            "contract_cases": {
+              "count": 32,
+              "identity_key": "id",
+              "identities": [
+                "SOURCE_START_BEFORE",
+                "SOURCE_START_INCLUSIVE",
+                "SOURCE_END_BEFORE",
+                "SOURCE_END_EXCLUSIVE",
+                "CHUNK_LATER_START_BEFORE",
+                "CHUNK_LATER_START_INCLUSIVE",
+                "SOURCE_LATER_START",
+                "CHUNK_EARLIER_END_BEFORE",
+                "CHUNK_EARLIER_END_EXCLUSIVE",
+                "SOURCE_EARLIER_END",
+                "EMPTY_DISJOINT",
+                "EMPTY_TOUCHING",
+                "UNKNOWN_BOTH",
+                "UNKNOWN_BOTH_FAR_FUTURE",
+                "UNKNOWN_START",
+                "UNKNOWN_END",
+                "UNKNOWN_SOURCE_CHUNK_BOUND",
+                "UNKNOWN_SOURCE_CHUNK_BOUND_EDGE",
+                "JURISDICTION_WRONG",
+                "JURISDICTION_UNREQUESTED",
+                "JURISDICTION_UNKNOWN_REQUESTED",
+                "JURISDICTION_UNKNOWN_UNREQUESTED",
+                "JURISDICTION_SUBDIVISION_EXACT",
+                "JURISDICTION_SUBDIVISION_NOT_COUNTRY",
+                "REPEALED_CURRENT",
+                "REPEALED_HISTORICAL",
+                "SUPERSEDED_CURRENT",
+                "SUPERSEDED_HISTORICAL",
+                "CURRENT_active",
+                "CURRENT_historical",
+                "CURRENT_n/a",
+                "CURRENT_None"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            },
+            "retrieval_cases": {
+              "count": 12,
+              "identity_key": "id",
+              "identities": [
+                "HISTORICAL_ONLY",
+                "CURRENT_REJECTS_SUPERSEDED",
+                "START_INCLUSIVE_END_EXCLUSIVE",
+                "SOLE_BASELINE",
+                "CHUNK_START_INCLUSIVE",
+                "CURRENT_HISTORICAL_STATUS_NOT_REPEALED",
+                "CHUNK_END_EXCLUSIVE_FUTURE_START",
+                "ALL_KNOWN_EXPIRED",
+                "WRONG_JURISDICTION_SOURCE_ONLY",
+                "UNREQUESTED_JURISDICTION",
+                "UNKNOWN_EARLY",
+                "UNKNOWN_LATE"
+              ],
+              "pass_key": "status",
+              "pass_value": "PASS"
+            }
+          },
+          "fixed_fields": {
+            "fixed_provenance_cases": 3
+          },
+          "historical_reference": "artifacts\\v1.3\\m4\\device-validity-0002\\m4-validity.json"
+        }
+      ]
+    }
+  },
+  "phases": {
+    "debug-ui": [
+      "ProductUiE2eTest"
+    ]
+  },
+  "scope": "One first-time necessary actual GUI/native question-to-source/back acceptance check. Existing623 phone-build inputs unchanged; new emulator-only test is unselected and absent from installed phone test APK. Current product0099 byte-identical to phone0097.",
+  "pre_execution_correction": "Initial unexecuted matrix incorrectly transcribed three UI counts. Corrected from immutable foreground-contract-index-0001 and exact literal source passed calls before any physical run; originals retained.",
+  "pair_sha256": "987efe9b7cf4e6b8854f86aed50344b6b289a452702fe392a1f6fe11f12398a6",
+  "test_only_startup_repair": "Explicit focused/RESUMED/product-window launch/recreation barrier, all selected method/control IDs/counts retained. Product bytes unchanged.",
+  "schema_scope_label_corrections": [
+    {
+      "class": "DiagnosticNavigationUiTest",
+      "report": "m4-diagnostic-navigation.json",
+      "historical_id": "owner-default-registries-models-and-payloads-byte-identical-within-run",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "97ecf024072bfbcf57b8237712041c8a66204e276ecec35417e188f15e2abd10",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    },
+    {
+      "class": "PackManagementUiTest",
+      "report": "m3-pack-management-ui.json",
+      "historical_id": "owner-default-registry-all-file-hashes-unchanged",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "15399013db726c7ef64b14d660bdcc7820e48a194a4cf66c1b62d5ac21210722",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    },
+    {
+      "class": "QueryControlsUiTest",
+      "report": "m4-ui-query-controls.json",
+      "historical_id": "owner-default-registries-and-model-hashes-unchanged",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "b5695e5eb67dae6de0f16a674a3f5221fb8461b5651cbb834b249d43583f5ed3",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    },
+    {
+      "class": "SourceDetailsUiTest",
+      "report": "m4-source-details-ui.json",
+      "historical_id": "owner-model-and-default-registry-hashes-unchanged",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "3f942e401fdb6e04d729b33c26b5cc81bc425fde171e9c0841ce760528c1c2cc",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    },
+    {
+      "class": "SourceDetailsViewModelTest",
+      "report": "m4-source-details-viewmodel.json",
+      "historical_id": "owner-models-and-default-registries-unchanged",
+      "pre_run_compiled_id": "explicit-fifty-owner-public-files-unchanged",
+      "source_sha256": "78450df8282c74993ae6f9a83c154ee8f9679eb8c1ccf23085545b1e31dad7f9",
+      "scope": "Descriptive owner-scope label corrected from frozen compiled source; fixed count/assertions and explicit baseline50 unchanged."
+    }
+  ],
+  "product_presentation_changed": "Require fresh full UI15methods75controls; dated27controls remain historical references, no whole-product retention claim."
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PUBLIC_REFERENCES_ACQUIRED_NOT_REPAIR_ANSWER_ACCEPTANCE",
+  "retrieved_utc": "2026-10-12T17:58:49.623787+00:00",
+  "sources": [
+    {
+      "id": "fan",
+      "requested_url": "https://guides.frame.work/Guide/Fan/677?lang=en",
+      "resolved_url": "https://guides.frame.work/Guide/Fan+Replacement+on+Framework+Laptop+12/677?lang=en",
+      "html_sha256": "ccefc26380b55324c411d910e735905ba450545ac6d0c3c2632d87c70c3cecd4",
+      "bytes": 257139,
+      "cache_path": ".cache\\m4-repair-guides-0001\\fan.html",
+      "scope": "Public technical source acquired for factual test digest; original HTML not included in final public evidence bundles."
+    },
+    {
+      "id": "tube",
+      "requested_url": "https://www.ifixit.com/Guide/Bicycle+Tire+Inner+Tube+Replacement/9863",
+      "resolved_url": "https://www.ifixit.com/Guide/Bicycle+Tire+Inner+Tube+Replacement/9863",
+      "html_sha256": "f376b518e62a6742f6f6a82002a0fa27d502f54824e4652dba59af27fc89595f",
+      "bytes": 262918,
+      "cache_path": ".cache\\m4-repair-guides-0001\\tube.html",
+      "scope": "Public technical source acquired for factual test digest; original HTML not included in final public evidence bundles."
+    }
+  ]
+}

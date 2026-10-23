@@ -1,0 +1,867 @@
+{
+  "status": "PASS_PINNED_FRESH_EMULATOR_ASSETS_NOT_NATIVE_ACCEPTANCE",
+  "serial": "emulator-5580",
+  "started_utc": "2026-10-12T18:35:53.345472+00:00",
+  "staging": "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805",
+  "commands": [
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "getprop",
+        "sys.boot_completed"
+      ],
+      "returncode": 0,
+      "stdout": "1\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "settings",
+        "get",
+        "system",
+        "font_scale"
+      ],
+      "returncode": 0,
+      "stdout": "1.0\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-e",
+        "files/models"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-L",
+        "files/models"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-e",
+        "files/packs"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-L",
+        "files/packs"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-e",
+        "files/production-registry"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-L",
+        "files/production-registry"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "test",
+        "!",
+        "-e",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "mkdir",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "chmod",
+        "755",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "mkdir",
+        "-p",
+        "files/models/granite/onnx"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "chmod",
+        "700",
+        "files/models",
+        "files/models/granite",
+        "files/models/granite/onnx"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "push",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\LFM2.5-2.6B-QAD-Q4_0.gguf",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-0"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\LFM2.5-2.6B-QAD-Q4_0.gguf: 1 file pushed, 0 skipped. 31.8 MB/s (1593894944 bytes in 47.832s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "chmod",
+        "644",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-0"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-e",
+        "files/models/LFM2.5-2.6B-QAD-Q4_0.gguf"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-L",
+        "files/models/LFM2.5-2.6B-QAD-Q4_0.gguf"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cp",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-0",
+        "files/models/LFM2.5-2.6B-QAD-Q4_0.gguf"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "chmod",
+        "600",
+        "files/models/LFM2.5-2.6B-QAD-Q4_0.gguf"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%s",
+        "files/models/LFM2.5-2.6B-QAD-Q4_0.gguf"
+      ],
+      "returncode": 0,
+      "stdout": "1593894944\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "sha256sum",
+        "files/models/LFM2.5-2.6B-QAD-Q4_0.gguf"
+      ],
+      "returncode": 0,
+      "stdout": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03  files/models/LFM2.5-2.6B-QAD-Q4_0.gguf\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%a",
+        "files/models/LFM2.5-2.6B-QAD-Q4_0.gguf"
+      ],
+      "returncode": 0,
+      "stdout": "600\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "rm",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-0"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "push",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\04_LFM25_26B_Candidate_Evidence\\model\\chat_template.jinja",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-1"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\04_LFM25_26B_Candidate_Evidence\\model\\chat_template.jinja: 1 file pushed, 0 skipped. 3.0 MB/s (5443 bytes in 0.002s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "chmod",
+        "644",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-1"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-e",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-L",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cp",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-1",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "chmod",
+        "600",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%s",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "5443\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "sha256sum",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef  files/models/chat_template.jinja\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%a",
+        "files/models/chat_template.jinja"
+      ],
+      "returncode": 0,
+      "stdout": "600\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "rm",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-1"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "push",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\models\\v1.3\\granite\\tokenizer.json",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-2"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\models\\v1.3\\granite\\tokenizer.json: 1 file pushed, 0 skipped. 159.1 MB/s (25301672 bytes in 0.152s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "chmod",
+        "644",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-2"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-e",
+        "files/models/granite/tokenizer.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-L",
+        "files/models/granite/tokenizer.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cp",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-2",
+        "files/models/granite/tokenizer.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "chmod",
+        "600",
+        "files/models/granite/tokenizer.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%s",
+        "files/models/granite/tokenizer.json"
+      ],
+      "returncode": 0,
+      "stdout": "25301672\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "sha256sum",
+        "files/models/granite/tokenizer.json"
+      ],
+      "returncode": 0,
+      "stdout": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f  files/models/granite/tokenizer.json\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%a",
+        "files/models/granite/tokenizer.json"
+      ],
+      "returncode": 0,
+      "stdout": "600\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "rm",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-2"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "push",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\models\\v1.3\\granite\\onnx\\model.onnx",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-3"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\models\\v1.3\\granite\\onnx\\model.onnx: 1 file pushed, 0 skipped. 94.9 MB/s (390004608 bytes in 3.918s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "chmod",
+        "644",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-3"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-e",
+        "files/models/granite/onnx/model.onnx"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-L",
+        "files/models/granite/onnx/model.onnx"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cp",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-3",
+        "files/models/granite/onnx/model.onnx"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "chmod",
+        "600",
+        "files/models/granite/onnx/model.onnx"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%s",
+        "files/models/granite/onnx/model.onnx"
+      ],
+      "returncode": 0,
+      "stdout": "390004608\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "sha256sum",
+        "files/models/granite/onnx/model.onnx"
+      ],
+      "returncode": 0,
+      "stdout": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70  files/models/granite/onnx/model.onnx\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%a",
+        "files/models/granite/onnx/model.onnx"
+      ],
+      "returncode": 0,
+      "stdout": "600\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "rm",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-3"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "push",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\repair-skills-prepared-0001\\repair-skills.kpack",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-4"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\repair-skills-prepared-0001\\repair-skills.kpack: 1 file pushed, 0 skipped. 31.6 MB/s (11349 bytes in 0.000s)\r\n"
+    },
+    {
+      "args": [
+        "shell",
+        "chmod",
+        "644",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-4"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-e",
+        "files/m4-repair-fixture-0001.kpack"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "test",
+        "!",
+        "-L",
+        "files/m4-repair-fixture-0001.kpack"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cp",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-4",
+        "files/m4-repair-fixture-0001.kpack"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "chmod",
+        "600",
+        "files/m4-repair-fixture-0001.kpack"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%s",
+        "files/m4-repair-fixture-0001.kpack"
+      ],
+      "returncode": 0,
+      "stdout": "11349\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "sha256sum",
+        "files/m4-repair-fixture-0001.kpack"
+      ],
+      "returncode": 0,
+      "stdout": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359  files/m4-repair-fixture-0001.kpack\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "stat",
+        "-c",
+        "%a",
+        "files/m4-repair-fixture-0001.kpack"
+      ],
+      "returncode": 0,
+      "stdout": "600\r\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "rm",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805/asset-4"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "test",
+        "!",
+        "-L",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "shell",
+        "rmdir",
+        "/data/local/tmp/packrag-m4-assets-8b8d5d6a-1be6-40a0-ba4d-003c2b4c0805"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "assets": [
+    {
+      "host": "LFM2.5-2.6B-QAD-Q4_0.gguf",
+      "app_relative": "models/LFM2.5-2.6B-QAD-Q4_0.gguf",
+      "bytes": 1593894944,
+      "sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03"
+    },
+    {
+      "host": "04_LFM25_26B_Candidate_Evidence/model/chat_template.jinja",
+      "app_relative": "models/chat_template.jinja",
+      "bytes": 5443,
+      "sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef"
+    },
+    {
+      "host": "models/v1.3/granite/tokenizer.json",
+      "app_relative": "models/granite/tokenizer.json",
+      "bytes": 25301672,
+      "sha256": "4f2842d568e2724370aec203652a42ac783c7937f8347a1a2cc7506d71f1582f"
+    },
+    {
+      "host": "models/v1.3/granite/onnx/model.onnx",
+      "app_relative": "models/granite/onnx/model.onnx",
+      "bytes": 390004608,
+      "sha256": "68e592b160673d30250824c1116bc6ab33f70efb22b97c9e1d7ce1e69c1c9d70"
+    },
+    {
+      "host": "artifacts\\v1.3\\m4\\repair-skills-prepared-0001\\repair-skills.kpack",
+      "app_relative": "m4-repair-fixture-0001.kpack",
+      "bytes": 11349,
+      "sha256": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359"
+    }
+  ],
+  "fresh_owner_roots_absent": true,
+  "completed_utc": "2026-10-12T18:37:17.559581+00:00",
+  "phone_touched": false
+}

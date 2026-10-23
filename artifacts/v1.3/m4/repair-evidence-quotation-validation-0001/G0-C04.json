@@ -1,0 +1,72 @@
+{
+  "id": "G0-C04",
+  "category": "citation",
+  "question": "What happens to the PicoValve PV3 when electrical power is lost?",
+  "supplied_evidence": [
+    {
+      "id": "S1",
+      "text": "The PicoValve PV3 moves to the closed position when electrical power is lost."
+    },
+    {
+      "id": "S2",
+      "text": "The PicoValve PV3 manual override is a red lever."
+    }
+  ],
+  "state": "ANSWER_ACCEPTED",
+  "answer": "1. The PicoValve PV3 moves to the closed position when electrical power is lost. [S1]",
+  "citations": [
+    "S1"
+  ],
+  "rejection_reason": null,
+  "expected_facts": [
+    "moves to the closed position"
+  ],
+  "required_citations": [
+    "S1"
+  ],
+  "expected_abstention": false,
+  "missing_literal_facts": [],
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 409,
+    "prompt_ms": 4172.964,
+    "prompt_per_token_ms": 10.202845965770171,
+    "prompt_per_second": 98.01186878199763,
+    "predicted_n": 230,
+    "predicted_ms": 8506.962,
+    "predicted_per_token_ms": 37.14830567685589,
+    "predicted_per_second": 26.91912812117887,
+    "host_generation_wall_ms": 12727.340699999331,
+    "emitted_token_count": 230,
+    "reasoning_token_count": 205,
+    "final_and_terminal_token_count": 25,
+    "token_partition_method": "actual_emitted_ids",
+    "ttft_ms": null,
+    "stop_type": "eos",
+    "output_truncated": false,
+    "ttft_measurement": "not_measured_nonstreaming"
+  },
+  "prefill": 409,
+  "max_new": 1536,
+  "generator": {
+    "model_sha256": "a247afd6414918eac8e520a9e6137dc271235461ecbe1180462221d5b8d40b03",
+    "template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+    "runtime_binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "llama_cpp_commit": "19e28a27702117d8f2eb16b825b9a308111f67d9",
+    "quantization": "QAD-Q4_0",
+    "backend": "llama.cpp-cpu-wsl-desktop",
+    "decoding_contract": "literal-selected-lines-numbered-v1-experimental"
+  },
+  "diagnostic": {
+    "grammar": "root ::= \"</think>\" pad (\"INSUFFICIENT_EVIDENCE\" | \"1. \" line (sep \"2. \" line (sep \"3. \" line (sep \"4. \" line)?)?)?) pad\nline ::= \"The PicoValve PV3 moves to the closed position when electrical power is lost. [S1]\" | \"The PicoValve PV3 manual override is a red lever. [S2]\"\npad ::= (\"\\n\" | \"\\n\\n\")?\nsep ::= \"\\n\" | \"\\n\\n\"\n",
+    "grammar_sha256": "3dc42ca00e183506dc41f63d03b3c504cd13926352bf93ceab4b3be888109188",
+    "final_only": "1. The PicoValve PV3 moves to the closed position when electrical power is lost. [S1]",
+    "quotation_match": true,
+    "quote_unit_count": 2,
+    "quote_units_sha256": [
+      "881eff719d21b8ef17d647dba07e287d20a015029667b9ae593c0324cf242d78",
+      "ee90c0c6f32bb443e75907c7ba5576920999b42a424b6666a75dcb60994440e5"
+    ]
+  },
+  "manual_semantic_review_required": true
+}

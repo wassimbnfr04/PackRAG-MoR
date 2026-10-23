@@ -1,0 +1,103 @@
+{
+  "status": "SAVED_TWO_COMPLETED_PASSING_METHODS_OVERALL_FOUR_METHOD_SUITE_FAIL",
+  "recorded_utc": "2026-10-10T20:00:36.695916+00:00",
+  "original_sha256": {
+    "m4-source-details-languages-ui.json": "30bf5325021a7991e6d976e26bd44659571692e6bae608bf717a03d2440ae775",
+    "m3-pack-management-ui.json": "d8f0f537ff948fd4e4c92a829ee093705366c22f1f17e7ee466db668e1be530e",
+    "m4-source-details-ar.png": "9fa306497f3bcb1c91629213a9606393b572748302f1b44ed822446c3f05cdb5",
+    "m4-source-details-fr.png": "4ef640797ef405b8ad49f24511d4b972acb9c7d6be82590691eba843925efa50"
+  },
+  "commands": [
+    {
+      "label": "completed-test-runner",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "logcat",
+        "-d",
+        "-s",
+        "TestRunner:I"
+      ],
+      "returncode": 0
+    },
+    {
+      "label": "completed-method-original",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-languages-ui.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "label": "completed-method-original",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m3-pack-management-ui.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "label": "completed-component-original-png",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-ar.png"
+      ],
+      "returncode": 0
+    },
+    {
+      "label": "completed-component-original-png",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "exec-out",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-source-details-fr.png"
+      ],
+      "returncode": 0
+    },
+    {
+      "label": "completed-run-current-focus",
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "dumpsys",
+        "window"
+      ],
+      "returncode": 0
+    }
+  ],
+  "failed_methods": [
+    "realAnswerCanonicalDetailsActiveInactiveAndSharedMutationControls",
+    "capturedControlsSurviveRealGenerationEditsRecreationAndSourceNavigation"
+  ],
+  "not_collected_as_new": [
+    "m4-source-details-ui.json",
+    "m4-ui-query-controls.json"
+  ],
+  "diagnosis": "Two No compose hierarchies found exceptions after actual generation. PackRAG window stopped while queries ran; Firefox foreground observed independently. Screen interruption is supported, but its actor/cause is not proved. No production/source/assertion change for fresh retry.",
+  "scope": "These two fresh JSONs and component PNGs belong only to completed passing methods; suite remains FAIL. Missing failed-method reports may be stale on phone and are not promoted. No visual or full E3 acceptance."
+}

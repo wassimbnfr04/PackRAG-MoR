@@ -1,0 +1,47 @@
+{
+  "status": "OVERALL_FAIL_TWO_COMPLETED_METHOD_ORIGINALS_PRESERVED_NOT_F2_ACCEPTANCE",
+  "recorded_utc": "2026-10-11T17:04:56.177537+00:00",
+  "original_failure_sha256": {
+    "instrumentation.txt": "772c12f04f21f094fbc13750f5e583f5168144ded564763836209c1fc8339aac",
+    "instrumentation-manifest.json": "932e9bdb78d2b700113a505b1cc621241b9538e676bb75bc24d7de52f7a7b990"
+  },
+  "saved_partial_original_sha256": {
+    "m4-local-asset-import-uri-faults.json": "d1ffb1ebab6c9e715ae2f4303e3f6d10032352e8532e12c1ed0c4d757d5f3f46",
+    "m4-local-asset-import-path-recovery.json": "48cdc543e536a80f51e3fea411fa73b436e5abb417c0611b107cb1c741e568e3"
+  },
+  "completed_control_count": 25,
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-asset-import-uri-faults.json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\vendor\\platform-tools\\adb.exe",
+        "-s",
+        "R3CT908DHHR",
+        "shell",
+        "run-as",
+        "org.packrag.product",
+        "cat",
+        "files/m4-local-asset-import-path-recovery.json"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "post_suite_known50_guard_sha256": "0089255a45424c34e4361b2a5e1685537a27b60e263fdfbeeb16a42ab8a337d5",
+  "observed_failure": "Cancellable method line133 asserts blocked future is unfinished after first progress and200ms; actual future already done. No per-chunk byte/result trace exists for that failed method; do not infer the future returned a success instead of an exception.",
+  "code_review_hypothesis": "Only cancellable openAssetFile override creates the controlled pipe; openFile fallback serves a regular full template. ContentResolver read-mode may route through typed-asset defaults. Explicit typed override/dispatch counters and a cooperative pipe are required; actual corrected run must establish the branch.",
+  "scope": "Failed suite40.364s/three methods/one failure remains immutable. Passing two method originals prove25 controls only. Failed method has no accepted original; native walking0003 was not dispatched because serial sequence stopped. No new native, UI, process-death/all-slot or complete F2 acceptance."
+}

@@ -1,0 +1,138 @@
+{
+  "status": "PASS_F2_SEPARATE_PICKER_STATIC_FRAME_CONTRACTS_MANUAL_VISUAL_REVIEW_PENDING",
+  "started_utc": "2026-10-11T20:19:57.665022+00:00",
+  "runner_sha256": "7fd555367d705b7613f35bf7812ed38275b7371aec7969d97031daa9274721d1",
+  "build": "build-0075",
+  "run": "device-local-asset-import-visual-0003",
+  "foreground_authorized": true,
+  "unchanged_ui4_inputs": 598,
+  "unchanged_product_apk_sha256": "bbe588e7b0ae151b311d6dbbfe63a8afb9d688664aa81dce04f2be1f7dd41124",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\test_android_installed_0001.py",
+        "--serial",
+        "R3CT908DHHR",
+        "--build",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\build-0075",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-visual-0003",
+        "--class-name",
+        "org.packrag.product.LocalAssetImportVisualDeviceTest",
+        "--result-file",
+        "m4-local-asset-import-visual.json",
+        "--timeout",
+        "600",
+        "--variant",
+        "debug"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "scripts.v13_collect_phone_results",
+        "--run",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\device-local-asset-import-visual-0003",
+        "--files",
+        "m4-local-asset-import-visual.json,m4-local-asset-import-visual-progress.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\prepare_full_sources.py",
+        "--build",
+        "build-0075",
+        "--output",
+        "device-local-asset-import-visual-0003-after-source.json",
+        "--verify-only"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\.venv-pack\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Fkagf\\Downloads\\MOR CAPTSONE\\artifacts\\v1.3\\m4\\asset-import-gate-0001\\capture_known_guard.py",
+        "--output",
+        "device-local-asset-import-visual-0003-after-known-guard.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "png_sha256": {
+    "m4-local-asset-import-visual-progress.png": "0dc8aa929880ec8badcc335ef7615fdf11af20797ed339d8cda70e2d51a9146f",
+    "m4-local-asset-import-visual-verified.png": "d46f1e0c1e75169435a93a61ef062da175386e51a213eb6d51110f069cd2fbcf"
+  },
+  "original_sha256": {
+    "m4-local-asset-import-visual.json": "71c821be01329a332d6505f766eeddd66f77be3b03a9d0f770f13a1e4e17e467",
+    "m4-local-asset-import-visual-progress.json": "1584582d05efe6766cc2f8850c96cc1a6879c95b5735a7312fd33d2af4f8ead3"
+  },
+  "cases": [
+    "actual-picker-copy-settled-progress-and-cooperative-cancel",
+    "actual-picker-verified-template-settled-full-window",
+    "known-fifty-owner-public-files-unchanged"
+  ],
+  "frame_observations": {
+    "m4-local-asset-import-visual-progress.png": {
+      "equal_static_frames": 3,
+      "samples": 3,
+      "sample_interval_ms": 250,
+      "minimum_post_picker_wait_ms": 750,
+      "settling_ms": 919,
+      "width": 1080,
+      "height": 2316,
+      "static_grid_sha256": "f440e999fcdcbf54dc2109c7e125fa7b3b983caf088c5a61d9d6ccb2be21ed29",
+      "status_navigation_margins_excluded_px": [
+        128,
+        160
+      ],
+      "excluded_dynamic_rectangles": [
+        [
+          68,
+          767,
+          635,
+          835
+        ],
+        [
+          68,
+          807,
+          743,
+          874
+        ]
+      ],
+      "copied_bytes_before_sample": 512,
+      "copied_bytes_after_sample": 512
+    },
+    "m4-local-asset-import-visual-verified.png": {
+      "equal_static_frames": 3,
+      "samples": 3,
+      "sample_interval_ms": 250,
+      "minimum_post_picker_wait_ms": 750,
+      "settling_ms": 813,
+      "width": 1080,
+      "height": 2316,
+      "static_grid_sha256": "12d10327f452d4f618ebd60615529804bb8cb86081f745cd242b50766bd4dc82",
+      "status_navigation_margins_excluded_px": [
+        128,
+        160
+      ],
+      "excluded_dynamic_rectangles": [],
+      "copied_bytes_before_sample": null,
+      "copied_bytes_after_sample": null
+    }
+  },
+  "scope": "Separate actual template picker/progress/cancel/install experiment; exact unmodified PNGs sampled after static-content settling, counters/indicator and status/navigation margins excluded from settling fingerprint only. UI4 eight controls/native remain separately dated under exact unchanged598 sources and whole product APK. UI4 original visual FAIL unchanged. Independent visual review still required; no new native/performance/full F2/M4/product acceptance.",
+  "finished_utc": "2026-10-11T20:20:32.868718+00:00"
+}
