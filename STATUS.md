@@ -1,5 +1,22 @@
 # PackRAG implementation through M4
 
+## 24 October: distribution/setup repair
+
+The cumulative M0–M4 app behavior is retained. New setup changes add the exact
+llama.cpp submodule, official checksum-pinned Gradle wrapper, standard-library
+model/tool acquisition, portable SDK/JDK configuration/build launcher and ADB
+override support. The development release supplies the original tested M4 APK,
+approved signed repair fixture, small setup ZIP and exact Linux host runtime.
+Models remain verified external downloads; private signing custody stays private.
+
+Validation:1071 Python tests passed (the1054 baseline plus17bootstrap tests);
+portable wrapper build passed99Android host tests and assembled APKs. Real small
+download/ADB extraction/model hash checks and original APK signature passed.
+The new compilation's native bytes differ, so the release retains original
+tested build0120 rather than claiming fresh physical acceptance. See
+docs/publication/DISTRIBUTION_VERIFICATION.json and docs/GETTING_STARTED_M4.md.
+The immutable m4-baseline tag retains the initial source publication.
+
 Publication baseline prepared23October2026 from the verified cumulative
 checkpoint8f0ccaa5cfac125c2ec2adf291cef3d1d7d4c3b0. This includes the whole
 project implementation achieved through M0–M4, not only the M4 diff.

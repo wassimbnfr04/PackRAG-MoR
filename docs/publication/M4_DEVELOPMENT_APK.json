@@ -1,0 +1,43 @@
+{
+  "artifact_scope": "Original tested M4 debug APK, not final signed production release; no model weights or owner app data",
+  "files": [
+    {
+      "name": "PackRAG-M4-development.apk",
+      "bytes": 121753897,
+      "sha256": "176475b17787c3b9ab4c7e5115291c0ab03be44cc7194bf629ad0c74814400a7"
+    },
+    {
+      "name": "PackRAG-M4-repair-test.kpack",
+      "bytes": 11349,
+      "sha256": "c202956eb0554fecc439944ebf4d69b831ad4fa262ea1693d4ec7f00e0952359"
+    }
+  ],
+  "native_library_sha256": {
+    "arm64-v8a": "5cf4b9131b3532f65d4fcfe88a7dfd172183518f738f971ee7d8321e6f5682a7",
+    "x86_64": "e7cf27062fc074bb3cef513593e9d4d213c8dc3e6432344a3c18a73058105715"
+  },
+  "original_build": "artifacts/v1.3/m4/build-0120",
+  "original_build_manifest_sha256": "d0126d1ad48276c8131abe1f11d0fac03c8a6af15ee96fbd67a5dfeca9d408d3",
+  "original_checkpoint": "8f0ccaa5cfac125c2ec2adf291cef3d1d7d4c3b0",
+  "published_baseline": "cf29728d69f509fcbd032c158505dfecf7cc10f6",
+  "source_revision_note": "Release setup additions do not change the packaged M4 runtime; APK retains original build0120 identity",
+  "actual_private_keys_in_APK": false,
+  "model_weights_in_APK": false,
+  "adb_required_after_setup": false,
+  "apk_signature_certificate_sha256": "66355628e741ed61960535e08c19ddbe6cb75c7983106c88c344ba04397f8c7c",
+  "apk_signature_verification": "apksigner verify --print-certs returned success",
+  "setup_files": 20,
+  "optional_host_runtime": {
+    "file": "PackRAG-M4-host-linux-x86_64.zip",
+    "binary_sha256": "a3d0f09501f23e0efae1ee8d7247df3da98f7cbfea91e3491c3ce5156d10fc7a",
+    "platform": "Linux x86-64, previously tested WSL backend",
+    "needed_libraries": [
+      "ld-linux-x86-64.so.2",
+      "libc.so.6",
+      "libgcc_s.so.1",
+      "libm.so.6",
+      "libstdc++.so.6"
+    ],
+    "new_execution_claimed": false
+  }
+}

@@ -1,142 +1,188 @@
-# Getting started with the M4 source baseline
+# Install or build PackRAG through M4
 
-This is the accepted M4 implementation, not the later free-answer host pilot.
-The Android app requires an active verified pack. This source publication is not
-a portable turnkey installer; final bootstrap/release acceptance is future work.
+The source publication left dependency restoration too manual. The distribution
+repair adds the tested development APK, signed repair fixture, small setup bundle,
+pinned llama.cpp submodule, Gradle wrapper, asset/tool installers and a build
+launcher independent of the original workstation inventory. App behavior remains
+the accepted evidence-only M4 implementation.
 
-## Prerequisites
+## A. Run the APK without compiling
 
-- Python3.12 and packages listed in `requirements-pack.txt`. This is a direct
-  dependency list, not a complete transitive environment lock.
-- Exact LFM2.5 QAD-Q4_0 GGUF at the repository root and its official chat template
-  at `04_LFM25_26B_Candidate_Evidence/model/chat_template.jinja`.
-- The complete pinned Granite asset directory at `models/v1.3/granite`.
-- For Android builds: the JDK/Gradle/SDK/NDK/CMake versions recorded in
-  `product/config/toolchain.lock.json`.
-- For desktop generation: the pinned Linux CPU llama.cpp binary and a working
-  `kali-linux` WSL environment for the existing M4 launcher.
+Download the files from [M4 development distribution](https://github.com/wassimbnfr04/PackRAG-MoR/releases/tag/m4-distribution-v1):
 
-The four main Android assets are the GGUF, template, Granite tokenizer JSON and
-Granite ONNX model; they total about2.01GB. They are not packaged in an APK or
-knowledge pack. Restore them from their approved original sources and verify the
-exact lockfile hashes. A public source checkout deliberately does not contain
-weights, a private publisher seed, SDK downloads or the original workstation's
-Python environment. Acquiring dependencies can involve substantial downloads.
+- `PackRAG-M4-development.apk`: exact tested build0120, ARM64 and x86-64.
+- `PackRAG-M4-repair-test.kpack`: approved signed development repair fixture.
+- `PackRAG-M4-setup.zip`: runtime setup scripts, configuration and exact pins.
+- `SHA256SUMS.txt`, `ARTIFACT_PROVENANCE.json`, `DOWNLOAD_AND_INSTALL.md`.
 
-The later native Windows research server and21October host example are not part
-of this M4 snapshot. Do not run commands for those later experiments and assume
-their files are included here.
-
-## Restore the upstream native source for an Android build
-
-Run from the repository root, using an unused destination:
+Put them in one folder. You need Python3.12 and an authorized USB-debugging phone.
+You do **not** need JDK/NDK/Gradle/llama.cpp or a private signing key for this route.
 
 ```powershell
-git clone https://github.com/ggml-org/llama.cpp.git vendor/llama.cpp
-git -C vendor/llama.cpp checkout --detach 19e28a27702117d8f2eb16b825b9a308111f67d9
-git -C vendor/llama.cpp status --short
-```
-
-The source must be at the exact pinned commit with no local modifications. Do not
-overwrite an existing vendor checkout or weaken its identity guard. External
-native libraries are separately SHA-pinned; a fresh compiler/toolchain can produce
-different bytes. The identity guard is intentional and needs explicit review of
-a new binary, not silent hash replacement.
-
-## Python tests
-
-With a suitable environment and restored Python dependencies:
-
-```powershell
-py -3.12 -m venv .venv-pack
-& .\.venv-pack\Scripts\python.exe -m pip install -r requirements-pack.txt
-$RunTag = Get-Date -Format 'yyyyMMdd-HHmmss'
-New-Item -ItemType Directory -Path "artifacts/local-runs/$RunTag" | Out-Null
-& .\.venv-pack\Scripts\python.exe -X utf8 -m pytest tests product/tests -q `
-    -p no:cacheprovider `
-    --basetemp "artifacts/local-runs/$RunTag/temp" `
-    --junitxml "artifacts/local-runs/$RunTag/pytest.xml"
-```
-
-Create the environment only if it does not already exist. Most unit/fixture tests
-do not require actual model weights. Model-backed smoke and device tests require
-their declared assets. New results go under ignored `artifacts/local-runs`, not
-the original historical result directories.
-
-## Android build on the original provisioned workstation
-
-```powershell
-$RunTag = Get-Date -Format 'yyyyMMdd-HHmmss'
-& .\scripts\v13_build_android.ps1 `
-    -RunDirectory "artifacts/local-runs/$RunTag-android" -Offline -Variant debug
-```
-
-For a native x86-64 emulator debug build, add `-EmulatorNative`. Default builds
-are ARM64; demo does not enable development packs and rejects that ABI flag.
-
-The existing build helper reads the preserved tool inventory at
-`artifacts/week1/environment/android_tool_paths.json`. It contains the original
-workstation paths. On a different workstation, use a separate local inventory/
-build invocation with the new paths instead of rewriting historical records.
-Set session `JAVA_HOME`, `ANDROID_HOME`, `ANDROID_USER_HOME`, `GRADLE_USER_HOME`
-and the checkout's `product/android/local.properties` as needed. The Android
-project uses installed Gradle; a Gradle wrapper is not included. Offline builds
-need the exact cached dependencies, including the recorded Kotlin mirror.
-
-See `docs/v1.3/M4_REPRODUCTION_AND_ACCEPTANCE.md` for tool/source/native pin and
-acceptance boundaries. A fresh signed nondebug release/portable bootstrap is not
-claimed by an accepted development build.
-
-## Install and run on Android
-
-Use your actual APK path and device serial:
-
-```powershell
-$Adb = '.\vendor\platform-tools\adb.exe'
+Expand-Archive -LiteralPath .\PackRAG-M4-setup.zip -DestinationPath .
+py -3.12 scripts/bootstrap_packrag.py assets --download
+py -3.12 scripts/bootstrap_packrag.py tools --adb-only --download
+$Adb = (Resolve-Path .\vendor\android-sdk\platform-tools\adb.exe).Path
 & $Adb devices -l
 $Device = 'REPLACE_WITH_AUTHORIZED_SERIAL'
-& $Adb -s $Device install -r 'PATH_TO_YOUR/app-debug.apk'
-& .\.venv-pack\Scripts\python.exe -X utf8 -m scripts.v13_install_phone_assets `
-    --serial $Device --include-generator `
-    --run "artifacts/local-runs/$RunTag-assets"
+& $Adb -s $Device install -r .\PackRAG-M4-development.apk
+$RunTag = (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + [guid]::NewGuid().ToString('N').Substring(0,6)
+py -3.12 -m scripts.v13_install_phone_assets --adb $Adb --serial $Device `
+    --include-generator --run "artifacts/local-runs/$RunTag-assets"
+& $Adb -s $Device push .\PackRAG-M4-repair-test.kpack /sdcard/Download/PackRAG-M4-repair-test.kpack
 & $Adb -s $Device shell am start -n 'org.packrag.product/.MainActivity'
 ```
 
-No APK is committed in this source snapshot. The asset helper uses binary-safe
-`adb exec-in`, app-UID `run-as`, full hashes and staged rename. It requires a
-debuggable installed app and refuses silently replacing mismatched assets.
-Alternatively use the app's **Local model & files** screen to import each exact
-file through the system picker, then check all four slots.
+Unlock the phone and approve USB debugging. The asset helper uses binary-safe
+ADB transport, full hashes and staged installation under the app UID; no root.
+Existing mismatched files are refused rather than silently replaced. Use the
+app's Local assets import screen to explicitly replace them with correct files.
 
-Transfer an approved signed test `.kpack` to Downloads, import it with the app's
-**Import signed knowledge pack** menu, and verify the active identity. ADB push
-alone does not activate a pack. Existing signed fixtures may be used with their
-documented scope; creating new approved packs needs separately held publisher
-custody. The intentionally public test seed is not that publisher key.
+In the app, open **Local model & files → Check local files**; verify all four
+slots. Then **Import signed knowledge pack**, choose the KPack from Downloads
+and check the active identity. Ask:
 
-For an emulator, use API28+ and an APK containing native x86-64 JNI, sufficient
-RAM/storage and functioning CPU virtualization. A copied source tree contains no
-AVD image or preconfigured emulator. The Android app runs its own local encoder
-and generator; it does not require a desktop server or `adb reverse`. Emulator
-functionality does not establish physical-phone speed or thermal acceptance.
+> How should I remove and reconnect the Framework Laptop 12 fan connector without damaging its socket?
 
-Once assets and the active pack are installed, USB is not needed for ordinary
-on-phone inference. The app has no INTERNET permission; mobile data can stay on.
+Open the cited source. The fixture contains short documented test digests, not
+final owner packs or complete original manuals. General chat without a pack is
+future work. Once setup finishes, on-phone answers require neither USB nor a
+host server. Mobile data can stay on; radio-isolated benchmarking is not claimed.
 
-## Desktop M4 smoke
+### Model files
 
-The existing launcher owns a pinned local Linux server, builds a new development
-pack and runs its historical bounded smoke. With the exact model/template/binary,
-Granite assets and working `kali-linux` WSL installed:
+Runtime assets total about **2.01GB**, plus about8MB for ADB. Downloads occur only
+with `--download`. `product/config/asset-downloads.json` specifies immutable
+upstream revisions, exact filenames, sizes and SHA256 values. Only the ONNX
+inference model is acquired, not unnecessary Granite training weights. The
+small official template and license are included in source/setup material.
+
+To reuse an existing provisioned project:
 
 ```powershell
-& .\.venv-pack\Scripts\python.exe -X utf8 -m scripts.v13_smoke `
-    --run "artifacts/local-runs/$RunTag-desktop-smoke"
+py -3.12 scripts/bootstrap_packrag.py assets --from-root 'PATH_TO_EXISTING_PROJECT'
 ```
 
-This launcher uses the typed2048/512 baseline, not the app's explicitly selected
-3072/1536 quotation policy. It is not a benchmark of the final app profile.
-Do not label a failed WSL startup as a model failure. For current-policy desktop
-reproduction, follow the retained M4 quoted-runtime collectors and select fresh
-run paths; their source/APK/fixture bindings must still be checked. Do not rerun
-a dated collector into its original output directory.
+Add `--download` to acquire only missing source assets. Add `--verify-only` to
+check without copying; its output distinguishes source verification from local
+installation. Model license terms still apply; weights are acquired separately
+rather than publicly rehosted in the source repository or APK.
+
+## B. Build from source
+
+Install Git and Python3.12, then:
+
+```powershell
+git clone --recurse-submodules https://github.com/wassimbnfr04/PackRAG-MoR.git
+Set-Location PackRAG-MoR
+py -3.12 scripts/bootstrap_packrag.py native
+```
+
+For an existing plain clone:
+
+```powershell
+py -3.12 scripts/bootstrap_packrag.py native --install
+```
+
+The real submodule at `vendor/llama.cpp` pins commit
+`19e28a27702117d8f2eb16b825b9a308111f67d9`. Bootstrap verifies its commit and clean
+status. GitHub's source ZIP omits submodule contents; clone recursively or initialize
+it explicitly rather than expecting an upstream checkout inside the ZIP.
+
+### Windows x64 tools
+
+```powershell
+py -3.12 scripts/bootstrap_packrag.py tools --download
+```
+
+This installs the recorded Microsoft JDK17 and Google CLI/platform/build-tools37,
+NDK30.0.16248370, CMake3.31.1 and ADB using exact checksummed archives and checked
+extraction paths. Installed tools remain ignored dependencies, not Git payloads.
+It writes this clone's ignored `.packrag.local.json` and `local.properties`.
+The build tools can require over1GB of downloads and are unnecessary for routeA.
+
+Review and accept Android SDK licenses:
+
+```powershell
+& .\vendor\android-sdk\cmdline-tools\latest\bin\sdkmanager.bat `
+    --sdk_root=vendor/android-sdk --licenses
+```
+
+Follow the pinned CLI's actual license prompt; the installer does not silently
+accept licenses. If tools already exist, skip downloads and configure their paths:
+
+```powershell
+py -3.12 scripts/bootstrap_packrag.py configure `
+    --sdk 'PATH_TO_ANDROID_SDK' --java-home 'PATH_TO_JDK17'
+```
+
+macOS/Linux use their own JDK17/SDK installations and checked-in Unix `gradlew`;
+the archive installer and PowerShell build route are validated on Windows x64.
+
+### Build with the wrapper
+
+The exact tokenizer is needed by the host parity test, even for an APK build
+that does not bundle weights. Acquire only the roughly25MB build-test assets:
+
+```powershell
+py -3.12 scripts/bootstrap_packrag.py assets --build-only --download
+$RunTag = (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + [guid]::NewGuid().ToString('N').Substring(0,6)
+& .\scripts\build_android_portable.ps1 `
+    -RunDirectory "artifacts/local-runs/$RunTag-build" -Variant debug
+```
+
+The launcher uses `product/android/gradlew.bat`, never the old machine inventory.
+The wrapper downloads exact Gradle9.6.0 and checks its published SHA256; no global
+Gradle install is needed. The first build resolves pinned Maven dependencies.
+Use `-Offline` only after all distributions/dependencies are cached. Add
+`-EmulatorNative` for debug ARM64+x86-64; default is ARM64. Host tests, source
+identities, logs and generated APKs are captured in the fresh output directory.
+
+Gradle generates your local debug signing keystore automatically. A different
+certificate cannot update an existing APK in place; preserve app data and plan
+signing continuity before replacing an installed build.
+
+The release APK is the original physically tested M4 artifact. A newly compiled
+native library is not automatically that same byte identity. Current
+`LlamaGenerator` native SHA constants describe the accepted build rather than an
+in-process hash measurement. Inspect actual rebuilt libraries and capture new
+build identities before claiming new acceptance. Never label a new compilation
+as the original tested APK without comparing its bytes.
+
+## C. Keys and snapshot boundaries
+
+Installing the APK, loading models, verifying a pack and asking questions require
+no private signing key. The publisher's private seed is needed only to sign new
+packs as that existing publisher. A new publisher generates its own private key
+and explicitly configures its public trust in its app. The existing setup rejects
+silent key rotation. See [signing identities](SIGNING_IDENTITIES.md).
+
+`m4-baseline` preserves the initial cumulative source snapshot.
+`m4-distribution-v1` adds the distribution/setup repair, without new app policies.
+The old snapshot verifier is meant for the old tag's checkout, not a claim that
+later setup additions are byte-identical to the initial publication.
+
+## D. Existing M4 host backend
+
+The release also supplies `PackRAG-M4-host-linux-x86_64.zip`, containing the exact
+hash-pinned Linux llama-server used by the M4 desktop path and its upstream
+license. Extract it at the source repository root. In Linux/WSL make
+`04_LFM25_26B_Candidate_Evidence/runtime/wsl-build/bin/llama-server` executable and
+check its normal Linux libraries with `ldd`. This is Linux x86-64, not a native
+Windows/ARM executable. Models and Python dependencies remain separately needed.
+
+The existing M4 launcher expects a working `kali-linux` WSL distribution:
+
+```powershell
+wsl.exe -d kali-linux --exec /bin/true
+py -3.12 -m venv .venv-pack
+& .\.venv-pack\Scripts\python.exe -m pip install -r requirements-pack.txt
+& .\.venv-pack\Scripts\python.exe -X utf8 -m scripts.v13_smoke `
+    --run "artifacts/local-runs/$RunTag-host-smoke"
+```
+
+Use a new environment/output directory only when needed; do not overwrite existing
+ones. This is the original baseline2048/512 smoke, not the app's quoted profile
+or a new expertise benchmark. The release runtime hash matches the M4 desktop
+lock; its distribution does not claim a new successful WSL run on this machine.
+WSL virtualization availability must be resolved independently of model quality.

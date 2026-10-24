@@ -1,5 +1,10 @@
 # Full project through M4: publication record
 
+**24 October distribution repair:** see `docs/GETTING_STARTED_M4.md` and
+`M4_DISTRIBUTION_REPAIR.md`. Current main adds dependency/bootstrap/release files.
+The snapshot verifier below checks the original `m4-baseline` checkout; its fixed
+manifest is not intended to accept subsequent setup changes as identical bytes.
+
 This snapshot contains the cumulative repository at original checkpoint
 8f0ccaa5cfac125c2ec2adf291cef3d1d7d4c3b0, not just its last commit diff.
 No later source,21October guide or18October free-answer experiment is included.

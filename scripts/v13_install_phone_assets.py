@@ -17,9 +17,14 @@ def main():
     parser.add_argument("--serial", required=True)
     parser.add_argument("--run", required=True, type=Path)
     parser.add_argument("--include-generator", action="store_true")
+    parser.add_argument("--adb", type=Path, help="ADB executable from an existing SDK; otherwise use a detected project-local platform-tools install")
     args = parser.parse_args()
+    portable_adb = ROOT / "vendor/android-sdk/platform-tools/adb.exe"
+    adb = args.adb or (ADB if ADB.is_file() else portable_adb)
+    if not adb.is_file():
+        raise FileNotFoundError("ADB not found: install platform-tools with scripts/bootstrap_packrag.py tools --adb-only --download, or pass --adb")
     args.run.mkdir(parents=True, exist_ok=False)
-    base = [str(ADB), "-s", args.serial, "shell", "-T", "-e", "none", "run-as", PACKAGE]
+    base = [str(adb), "-s", args.serial, "shell", "-T", "-e", "none", "run-as", PACKAGE]
     assets = [(ROOT / "models/v1.3/granite" / name, "files/models/granite/" + name,
                LOCK["embedder"]["asset_sha256"][name]) for name in ("tokenizer.json", "onnx/model.onnx")]
     if args.include_generator:
@@ -41,7 +46,7 @@ def main():
             partial = destination + ".part-" + args.run.name
             # Windows adb shell stdin uses text mode and stops at Ctrl-Z; exec-in
             # selects the binary transport. Do not use a text shell pipeline for assets.
-            command = [str(ADB), "-s", args.serial, "exec-in", "run-as", PACKAGE,
+            command = [str(adb), "-s", args.serial, "exec-in", "run-as", PACKAGE,
                        "dd", "of=" + partial, "bs=65536"]
             with source.open("rb") as stream:
                 result = subprocess.run(command, stdin=stream, capture_output=True, timeout=900)

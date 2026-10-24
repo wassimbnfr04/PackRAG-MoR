@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "archives": [
+    {
+      "package": "platforms;android-37.0",
+      "path": "platforms/android-37.0",
+      "url": "https://dl.google.com/android/repository/platform-37.0_r02.zip",
+      "archive": "platform-37.0_r02.zip",
+      "bytes": 67281901,
+      "sha256": "840b23e827f96e64aea4c89a1194aac3dc5f6bad37edb231c5c795d890330e8d",
+      "upstream_checksum_algorithm": "sha1",
+      "upstream_checksum": "ed8ebf7f8822a4de5686d427f237d2fa30ff7410",
+      "strip_archive_root": true,
+      "metadata": "scripts/bootstrap-sdk-metadata/platforms-android-37_0.xml",
+      "metadata_sha256": "e9072305d20c5b8fa70a7970a4dbe6920cbb15ba7d30c360eaaa27fcd927a1f9",
+      "install_root": "vendor/android-sdk/platforms/android-37.0",
+      "kind": "sdk"
+    },
+    {
+      "package": "build-tools;37.0.0",
+      "path": "build-tools/37.0.0",
+      "url": "https://dl.google.com/android/repository/build-tools_r37_windows.zip",
+      "archive": "build-tools_r37_windows.zip",
+      "bytes": 61077164,
+      "sha256": "68075aa319ed8a01cf1a565ed1e61a3c1a801dd49191c35851248dc293c33b1a",
+      "upstream_checksum_algorithm": "sha1",
+      "upstream_checksum": "e9c97e26b5b5678002e9d3fed632c841ae62d99f",
+      "strip_archive_root": true,
+      "metadata": "scripts/bootstrap-sdk-metadata/build-tools-37_0_0.xml",
+      "metadata_sha256": "0f36363741c375980157914aa823efce38aedb2e578a5b89355a9127d83642a9",
+      "install_root": "vendor/android-sdk/build-tools/37.0.0",
+      "kind": "sdk"
+    },
+    {
+      "package": "ndk;30.0.16248370",
+      "path": "ndk/30.0.16248370",
+      "url": "https://dl.google.com/android/repository/android-ndk-r30-windows.zip",
+      "archive": "android-ndk-r30-windows.zip",
+      "bytes": 727980788,
+      "sha256": "b830098aaf18b67a42eb831c404e15e5f2990a474f054ac145b0bc957ac6d729",
+      "upstream_checksum_algorithm": "sha1",
+      "upstream_checksum": "9bf167a1985fa7d4a036186b78f702eab9179408",
+      "strip_archive_root": true,
+      "metadata": "scripts/bootstrap-sdk-metadata/ndk-30_0_16248370.xml",
+      "metadata_sha256": "24d66243672215e0dd7c0f43ef32ead5d0cf35234fe9270b7f92db6634d6dc52",
+      "install_root": "vendor/android-sdk/ndk/30.0.16248370",
+      "kind": "sdk"
+    },
+    {
+      "package": "cmake;3.31.1",
+      "path": "cmake/3.31.1",
+      "url": "https://dl.google.com/android/repository/cmake-3.31.1-windows.zip",
+      "archive": "cmake-3.31.1-windows.zip",
+      "bytes": 20462685,
+      "sha256": "1e289e5c1707cd3b0e6e845b205ca4dbbfc370d5787058d21ec40adbd9950979",
+      "upstream_checksum_algorithm": "sha1",
+      "upstream_checksum": "3a8f1f1b33e0ed2a639b6e709ab15806648979c9",
+      "strip_archive_root": true,
+      "metadata": "scripts/bootstrap-sdk-metadata/cmake-3_31_1.xml",
+      "metadata_sha256": "7c4e8dd64a4681b59fc5c1d57819c41b67ed95616c7a4b79f0cb1e9b7105ee41",
+      "install_root": "vendor/android-sdk/cmake/3.31.1",
+      "kind": "sdk"
+    },
+    {
+      "package": "cmdline-tools;23.0",
+      "path": "cmdline-tools/latest",
+      "url": "https://dl.google.com/android/repository/commandlinetools-win-16111833_latest.zip",
+      "archive": "commandlinetools-win-16111833_latest.zip",
+      "bytes": 154957218,
+      "sha256": "e5885e2e59038c0778a85fc19f01de7ce7c567c105553f7617b936b1e0e87b2b",
+      "upstream_checksum_algorithm": "sha1",
+      "upstream_checksum": "57d04f2d75eb8e8fffc5000a987e5de4b5a63e9d",
+      "strip_archive_root": true,
+      "install_root": "vendor/android-sdk/cmdline-tools/latest",
+      "kind": "sdk"
+    },
+    {
+      "package": "microsoft-jdk-17.0.20.1-windows-x64.zip",
+      "path": "vendor/java",
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-17.0.20.1-windows-x64.zip",
+      "archive": "microsoft-jdk-17.0.20.1-windows-x64.zip",
+      "bytes": 186915383,
+      "sha256": "3d9006956fc8af5601cd24ffc4f468bef48279c7ebd8171b9bdf90d0aabfbf1f",
+      "strip_archive_root": false,
+      "install_root": "vendor/java",
+      "kind": "jdk"
+    },
+    {
+      "package": "gradle-9.6.0-bin.zip",
+      "path": "vendor",
+      "url": "https://services.gradle.org/distributions/gradle-9.6.0-bin.zip",
+      "archive": "gradle-9.6.0-bin.zip",
+      "bytes": 140681093,
+      "sha256": "bbaeb2fef8710818cf0e261201dab964c572f92b942812df0c3620d62a529a01",
+      "strip_archive_root": false,
+      "install_root": "vendor",
+      "kind": "gradle-archive-for-offline-use"
+    },
+    {
+      "package": "platform-tools",
+      "path": "platform-tools",
+      "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+      "archive": "platform-tools.zip",
+      "bytes": 8044989,
+      "sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99",
+      "strip_archive_root": true,
+      "metadata": "scripts/bootstrap-sdk-metadata/platform-tools.xml",
+      "metadata_sha256": "5cc8d2f28e44f701d784b4cb31c8fcb5b3a67272856fd8851543b50a879efc8c",
+      "install_root": "vendor/android-sdk/platform-tools",
+      "kind": "sdk"
+    }
+  ]
+}

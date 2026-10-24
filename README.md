@@ -10,6 +10,14 @@ the verified M4 checkpoint `8f0ccaa5cfac125c2ec2adf291cef3d1d7d4c3b0`.
 M5–M8, final owner knowledge packs and final release acceptance remain unfinished.
 Future work will be published incrementally.
 
+**Installable M4 development distribution:**
+[APK, signed test pack and setup bundle](https://github.com/wassimbnfr04/PackRAG-MoR/releases/tag/m4-distribution-v1).
+The [getting-started guide](docs/GETTING_STARTED_M4.md) provides a run-the-APK
+route and a build-from-source route. Source now includes a pinned llama.cpp
+submodule, checksum-pinned Gradle wrapper, asset/tool installers and a portable
+build launcher. Weights remain separate verified downloads; actual private
+signing keys are not needed to run the APK and are not published.
+
 ## Implemented through M4
 
 - Android chat application, pack management, local asset import and verification,
@@ -48,9 +56,10 @@ Retained `artifacts/.../build-*` directories hold whitelisted textual test/build
 records, not installed SDKs or compiled application builds.
 
 All **176 Kotlin files and three Java test helpers** from the accepted Android
-build inputs are included. External model weights, toolchains/caches, actual
-private signing custody, compiled APK/JAR files and later host experiments are
-excluded. The public interoperability seed under `tests/signature_vector` is an
+build inputs are included. Weights, installed toolchains/caches and actual
+private signing custody remain outside Git. The tested APK is a release asset;
+the small standard wrapper JAR is checked in as required build tooling. Later
+host experiments remain excluded. The seed under `tests/signature_vector` is an
 explicitly documented **TEST KEY ONLY** fixture, never a release publisher key.
 
 ## Model and platform
@@ -74,12 +83,12 @@ Start with [`docs/GETTING_STARTED_M4.md`](docs/GETTING_STARTED_M4.md), then the
 existing [product run notes](product/README.md) and
 [M4 reproduction/acceptance record](docs/v1.3/M4_REPRODUCTION_AND_ACCEPTANCE.md).
 
-The repository is a source/evidence baseline, not a self-contained installer.
-Restore the pinned model assets and external toolchains separately. Android
-native builds require an exact clean upstream llama.cpp checkout at
-`vendor/llama.cpp`; it is a separately pinned dependency, not omitted first-party
-implementation. Publisher-private seeds are not required to run an already
-approved signed test pack.
+The APK can be installed without compiling. The release setup bundle acquires
+the pinned model files and ADB. For source builds, clone with
+`--recurse-submodules`, bootstrap dependencies or configure your existing tools,
+then use the checked-in wrapper through the portable launcher. Downloads are
+explicit and hash-verified. The official template and model license are included.
+Private publisher seeds are not needed to run an already-signed test pack.
 
 ## Validation and limits
 

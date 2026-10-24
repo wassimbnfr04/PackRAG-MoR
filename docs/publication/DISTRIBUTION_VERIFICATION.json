@@ -1,0 +1,42 @@
+{
+  "status": "DISTRIBUTION_REPAIR_VERIFIED_NOT_NEW_DEVICE_ACCEPTANCE",
+  "python_regressions": {
+    "tests": 1071,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "new_bootstrap_tests": 17,
+  "portable_android_build_host_tests": {
+    "tests": 99,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "wrapper_version": "9.6.0",
+  "wrapper_distribution_checksum_verified_with_publisher": true,
+  "installer_real_small_download_and_ADB_extraction_pass": true,
+  "all_runtime_asset_hashes_checked_against_existing_local_files": true,
+  "weight_files_redownloaded": false,
+  "model_public_download_headers": [
+    {
+      "path": "models/v1.3/granite/onnx/model.onnx",
+      "http_status": 200,
+      "bytes_body_downloaded": 0,
+      "content_length": "390004608"
+    },
+    {
+      "path": "LFM2.5-2.6B-QAD-Q4_0.gguf",
+      "http_status": 200,
+      "bytes_body_downloaded": 0,
+      "content_length": "1593894944"
+    }
+  ],
+  "setup_zip_cli_verified_without_third_party_python_packages": true,
+  "original_tested_APK_signature_verified": true,
+  "freshly_built_native_sha256": "e01dacf4ea96360ec94c30c4f98bee28752f73e1768a40d2fb79db36e921df18",
+  "fresh_native_equals_original_tested_native": false,
+  "release_APK": "Original tested build0120; freshly built differing native bytes are not substituted",
+  "verification_scope": "New clone directory/configuration with existing shared SDK/JDK/cache and existing model files; NOT a brand-new machine/cold online installation. No new phone/emulator inference.",
+  "initial_build_failure": "missing tokenizer parity file; repaired with build-only acquisition and early preflight"
+}

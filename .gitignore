@@ -1,5 +1,6 @@
 .venv*/
-vendor/
+/vendor/*
+!/vendor/llama.cpp
 reference/mor/official/
 reference/mor/checkpoints/
 models/
@@ -46,3 +47,7 @@ artifacts/local-runs/
 /*.zip
 # Explicitly documented public interop test seed remains tracked.
 !tests/signature_vector/test_private_key
+
+# The checked-in Gradle wrapper is required build tooling.
+!product/android/gradle/wrapper/gradle-wrapper.jar
+.packrag.local.json
